@@ -3,180 +3,178 @@ import { Product } from "@/types";
 export const PRODUCTS: Product[] = [
   {
     id: "UL-HB-101",
-    slug: "atelier-structured-leather-tote",
-    name: "The Atelier Structured Tote",
+    slug: "amber-pull-up-leather-tote",
+    name: "The Amber Pull-Up Handcrafted Leather Tote",
     category: "Tote Bags",
     categorySlug: "tote-bags",
-    shortDescription: "Full-grain vegetable-tanned bovine leather tote with reinforced rolled handles and magnetic bridge closure.",
-    fullDescription: "Engineered specifically for high-end retail brands requiring structural permanence and natural aging characteristics. Handcrafted from 1.6–1.8mm semi-vegetable tanned cowhide with hand-painted raw edge finishes. Internal zippered pocket and detachable key lanyard included. Fully customizable in leather grain, hardware finish, and dimensions.",
+    shortDescription: "Full-grain vegetable-tanned pull-up bovine leather tote featuring natural pull-up marbling, exterior slip pocket, and reinforced rolled shoulder handles.",
+    fullDescription: "Engineered specifically for international high-end retail brands requiring structural permanence and natural aging characteristics. Handcrafted from 1.8–2.0mm oil pull-up cowhide with hand-painted raw edge finishes, front quick-access slip pocket, and reinforced rolled leather shoulder straps. Fully customizable in leather grain, hardware finish, and dimensions.",
     images: [
-      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1200&q=80"
+      "/images/flagship-tote-bag.jpg",
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=80"
     ],
-    leatherType: "Full-Grain Semi-Vegetable Tanned Bovine Leather (1.6mm – 1.8mm)",
+    leatherType: "Full-Grain Waxed Pull-Up Cowhide (1.8mm – 2.0mm)",
     tannage: "Eco-Conscious LWG Tannery Certified Veg-Tan / Chrome-Free",
-    colors: ["Cognac Brown", "Espresso Black", "Warm Sand Beige", "British Racing Green", "Custom Pantone Match"],
+    colors: ["Amber Honey", "Rich Cognac", "Espresso Black", "Tuscan Tan"],
     dimensions: {
       length: "38",
       width: "14",
-      height: "32",
+      height: "34",
       unit: "cm"
     },
-    lining: "10oz Heavy-Duty Organic Cotton Twill / Optional Pig Suede",
-    hardware: "Solid Brass with Anti-Tarnish Coating (Light Gold / Antique Brass / Shiny Nickel)",
-    brandingOptions: ["Blind Heat Debossing", "Metallic Gold / Silver Foil Stamp", "Custom Metal Logo Plate", "Woven Jacquard Internal Label"],
-    packagingOptions: ["Organic Cotton Drawstring Dustbag", "Custom Branded Rigid Gift Box", "Export Master Carton (200 GSM 5-Ply Corrugated)"],
-    moq: "100 units per colorway (Flexible trial batch for new brand launches)",
+    lining: "Unlined Raw-Edge Interior / Optional 10oz Organic Cotton Twill",
+    hardware: "Solid Brass with Anti-Tarnish Coating (Light Gold / Antique Brass)",
+    brandingOptions: ["Blind Heat Debossing", "Metallic Gold / Silver Foil Stamp", "Custom Metal Logo Plate"],
+    packagingOptions: ["Organic Cotton Drawstring Dustbag", "Custom Branded Rigid Gift Box", "Export Master Carton"],
+    moq: "50 units per colorway (Flexible trial batch for new brand launches)",
     sampleLeadTime: "7 to 10 working days",
     productionLeadTime: "30 to 40 days upon pre-production sample sign-off",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
-      "Reinforced base with 5 solid brass protective floor studs",
-      "Hand-burnished multi-layer Italian edge paint (Fenice / Giardini)",
-      "Continuous leather shoulder strap with 24cm drop clearance",
-      "Internal 13-inch laptop slip pocket + zippered security compartment",
-      "Stress points reinforced with concealed nylon webbing and bar-tack stitching"
+      "Natural amber pull-up leather that lightens beautifully when stretched and folded",
+      "Reinforced base with double-stitched corner stress points",
+      "Seamless continuous leather shoulder straps with comfortable 26cm drop clearance",
+      "Spacious exterior front slip pocket for phone, notebook, or passport",
+      "Stress points reinforced with bar-tack stitching and bonded nylon thread"
     ],
     specs: [
       { label: "Product Code", value: "UL-HB-101" },
-      { label: "Primary Material", value: "Full-Grain Cowhide (Grade A)" },
-      { label: "Weight", value: "850 grams" },
-      { label: "Closure", value: "Magnetic Japanese Snap Bridge" },
+      { label: "Primary Material", value: "Full-Grain Pull-Up Cowhide (Grade A)" },
+      { label: "Weight", value: "820 grams" },
+      { label: "Closure", value: "Open-Top Shopper with Magnetic Bridge" },
       { label: "Stitching", value: "Bonded Nylon Thread (Tex 70 / Metric 40)" },
       { label: "Compliance", value: "EU REACH & CA Prop 65 Verified" }
     ]
   },
   {
-    id: "UL-HB-204",
-    slug: "monaco-curved-satchel-handbag",
-    name: "The Monaco Curved Luxury Satchel",
-    category: "Leather Handbags",
-    categorySlug: "leather-handbags",
-    shortDescription: "Sculptural top-handle handbag crafted from supple Italian calf nappa with detachable shoulder strap.",
-    fullDescription: "A sophisticated showcase of precision leather moulding and curved edge skiving. Featuring a signature arched handle, magnetic foldover flap, and brushed champagne gold lock hardware. Designed for luxury boutique brands and designer labels seeking flawless stitching and premium hand-feel.",
+    id: "UL-SG-204",
+    slug: "republic-compass-leather-passport-case",
+    name: "The Republic Passport & Compass Travel Folio",
+    category: "Small Leather Goods",
+    categorySlug: "small-leather-goods",
+    shortDescription: "Artisan distressed leather travel set featuring heat-debossed Republic of India passport cover and nautical compass leather journal with elastic keeper.",
+    fullDescription: "A sophisticated showcase of precision leather moulding and deep heat debossing. Handcrafted from distressed vintage vegetable-tanned cowhide that develops a rich, personalized patina with world travel. Featuring a certified passport compartment and companion nautical compass notebook with elastic binding.",
     images: [
-      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=80"
-    ],
-    leatherType: "Premium Milled Calf Nappa / Smooth Box Calf Option",
-    tannage: "Mineral Tannage with Aniline Finish",
-    colors: ["Tuscan Tan", "Midnight Black", "Burgundy Cherry", "Ivory Cream", "Olive Drab"],
-    dimensions: {
-      length: "26",
-      width: "9",
-      height: "20",
-      unit: "cm"
-    },
-    lining: "Ultra-Microfiber Suede Lining (Stain resistant & velvety soft)",
-    hardware: "Die-Cast Zinc Alloy with 24k Gold Electroplating (PVD Vacuum Coated)",
-    brandingOptions: ["Laser-Etched Hardware Lock", "Micro-Foil Stamping (3mm)", "Interior Leather Heat Stamp Badge"],
-    packagingOptions: ["Flannel Luxury Dustbag", "Embossed Hardcover Presentation Box"],
-    moq: "100 units per colorway",
-    sampleLeadTime: "10 to 12 working days",
-    productionLeadTime: "35 to 45 days",
-    customizationAvailable: true,
-    featured: true,
-    keyFeatures: [
-      "Signature hand-wrapped leather tubular top handle",
-      "Concealed magnetic front closure with tactile snap feedback",
-      "Dual interior gusset compartments with center zip pocket",
-      "Adjustable and detachable 18mm calfskin shoulder strap"
-    ],
-    specs: [
-      { label: "Product Code", value: "UL-HB-204" },
-      { label: "Handle Drop", value: "9.5 cm" },
-      { label: "Strap Length", value: "105 cm – 120 cm (Adjustable)" },
-      { label: "Edge Finish", value: "Hand-sanded 4-coat matte edge lacquer" },
-      { label: "Export Ready", value: "USA, UK, EU, UAE, Japan" }
-    ]
-  },
-  {
-    id: "UL-WL-302",
-    slug: "heritage-slim-bifold-wallet",
-    name: "The Heritage Minimalist Bifold Wallet",
-    category: "Wallets & Cardholders",
-    categorySlug: "wallets-and-cardholders",
-    shortDescription: "Ultra-slim French-creased bifold wallet with 8 card slots and full-length banknote compartment.",
-    fullDescription: "Engineered with ultra-thin 0.5mm skived leather linings to maintain a flat 8mm profile even when fully loaded. Handcrafted with turned French edges, heat-creased borders, and certified RFID blocking membrane embedded invisibly between the leather layers. Ideal for high-volume menswear labels and private-label gift lines.",
-    images: [
-      "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=1200&q=80",
+      "/images/flagship-passport-case.jpg",
       "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1200&q=80"
     ],
-    leatherType: "Full-Grain Waxed Pull-Up Cowhide / Smooth Buttero Style Calf",
-    tannage: "Pure Vegetable Tanned (Will develop rich patina with use)",
-    colors: ["Rich Cognac", "Vintage Oak Brown", "Pitch Black", "Navy Indigo"],
+    leatherType: "Full-Grain Distressed Vegetable-Tanned Bovine Leather",
+    tannage: "Pure Vegetable Tannage with Pull-Up Wax Finish",
+    colors: ["Vintage Havana Brown", "Distressed Tan", "Antique Espresso"],
     dimensions: {
-      length: "11",
-      width: "1.2",
-      height: "9",
+      length: "14",
+      width: "1.5",
+      height: "10",
       unit: "cm"
     },
-    lining: "Matching Thin Calfskin + High-Density Micro-Twill Currency Slot",
-    hardware: "None / Optional Custom Metal Corner Clips",
-    brandingOptions: ["Deep Blind Deboss on Front Corner", "Interior Logo Stamp", "Custom Foil Gift Box"],
-    packagingOptions: ["Two-Piece Rigid Presentation Box", "Biodegradable Kraft Paper Sleeve"],
-    moq: "200 units per colorway (500 total across 2-3 colors)",
+    lining: "Self-Leather Interior with Turned Stitch Edges",
+    hardware: "Woven Elastic Retention Band / Solid Brass Corner Rivets",
+    brandingOptions: ["Custom Country Crest Deboss", "Brand Monogram", "Gold Foil Stamping"],
+    packagingOptions: ["Craft Paper Presentation Sleeve", "Branded Two-Piece Gift Box"],
+    moq: "100 units (Custom deboss stamp tooling included)",
     sampleLeadTime: "5 to 7 working days",
     productionLeadTime: "25 to 35 days",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
-      "8 dedicated quick-access card slots with hand-creased edges",
-      "2 hidden slip pockets for international currency or cards",
-      "Embedded military-grade Faraday RFID blocking fabric",
-      "0.4mm micro-skived profile preventing pocket bulge"
+      "Deep precision heat-debossed national crest and nautical compass star",
+      "Full-perimeter lockstitch seams with waxed heavy thread",
+      "Durable flat woven elastic retention strap on companion notebook",
+      "Compact international passport dimensions accommodating all biometric booklets"
     ],
     specs: [
-      { label: "Product Code", value: "UL-WL-302" },
-      { label: "Empty Weight", value: "58 grams" },
-      { label: "Thickness (Empty)", value: "8.5 mm" },
-      { label: "RFID Shielding", value: "13.56 MHz frequency protection" }
+      { label: "Product Code", value: "UL-SG-204" },
+      { label: "Item Count", value: "2-Piece Travel Folio Set" },
+      { label: "Material", value: "Distressed Full-Grain Cowhide" },
+      { label: "Edge Finish", value: "Hand-burnished beeswax edge" },
+      { label: "Export Ready", value: "USA, UK, EU, UAE, Japan" }
     ]
   },
   {
-    id: "UL-BP-405",
-    slug: "nordic-commuter-leather-backpack",
-    name: "The Executive Commuter Leather Backpack",
-    category: "Backpacks",
-    categorySlug: "backpacks",
-    shortDescription: "Ergonomic executive backpack with padded 16-inch laptop chamber, trolley sleeve, and weather-resistant finish.",
-    fullDescription: "A flagship silhouette combining business sophistication with commuter functionality. Features contoured ergonomic shoulder straps reinforced with high-density EVA foam and breathable mesh backing. Includes a dedicated padded compartment for 16-inch MacBooks, passport security pocket, and premium waterproof coil zippers.",
+    id: "UL-WL-302",
+    slug: "artisan-compass-leather-wallets",
+    name: "The Artisan Compass Leather Pocket Wallets (Set of 4)",
+    category: "Wallets & Cardholders",
+    categorySlug: "wallets-and-cardholders",
+    shortDescription: "Multi-color hand-burnished cardholders with heat-debossed nautical compass motif in Forest Green, Saddle Tan, Navy Blue & Chestnut.",
+    fullDescription: "A vibrant private-label collection of minimalist pocket wallets crafted from semi-vegetable tanned cowhide. Features precision hand-creased card slots, contrast white perimeter saddle-stitching, and deep heat-embossed nautical compass artwork across four signature export colorways.",
     images: [
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1200&q=80"
+      "/images/flagship-compass-wallets.jpg",
+      "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=1200&q=80"
     ],
-    leatherType: "Full-Grain Drum-Dyed Waxed Cowhide (Water Repellent)",
-    tannage: "Chrome-Free Eco Tannage",
-    colors: ["Matte Charcoal Black", "Tobacco Cognac", "Espresso Dark Brown"],
+    leatherType: "Semi-Vegetable Tanned Artisan Cowhide (1.4mm – 1.6mm)",
+    tannage: "Drum-Dyed Aniline Leather with Smooth Luster",
+    colors: ["Forest Green", "Saddle Tan", "Navy Blue", "Chestnut Brown"],
     dimensions: {
-      length: "31",
-      width: "15",
-      height: "43",
+      length: "10.5",
+      width: "0.8",
+      height: "8",
       unit: "cm"
     },
-    lining: "Water-Resistant Ripstop Nylon (420D) / Custom Printed Lining",
-    hardware: "Gunmetal Finished Zinc Hardware with YKK Excella Zippers",
-    brandingOptions: ["Front Leather Debossed Patch", "Metal Zipper Pull Engraving", "Interior Brand Story Plate"],
-    packagingOptions: ["Heavy Non-Woven Dustbag", "Reinforced Export Shipping Box"],
-    moq: "100 units per colorway",
+    lining: "Ultra-Thin Skived Calfskin Pocket Linings",
+    hardware: "None (Minimalist pure leather construction)",
+    brandingOptions: ["Custom Central Motif Deboss", "Interior Logo Stamp", "Custom Foil Gift Box"],
+    packagingOptions: ["4-in-1 Collector Box Set", "Individual Velvet Dust Pouches"],
+    moq: "100 units across 4 colorways",
+    sampleLeadTime: "5 to 7 working days",
+    productionLeadTime: "25 to 30 days",
+    customizationAvailable: true,
+    featured: true,
+    keyFeatures: [
+      "4 distinctive artisanal drum-dyed colorways: Forest Green, Saddle Tan, Navy & Chestnut",
+      "Iconic 16-point nautical compass rose heat-stamped in high relief",
+      "Contrast white high-tensile perimeter lockstitching",
+      "Curved corner profile for effortless pocket insertion"
+    ],
+    specs: [
+      { label: "Product Code", value: "UL-WL-302" },
+      { label: "Available Colors", value: "4 Export Hues (Green, Tan, Navy, Brown)" },
+      { label: "Thickness (Empty)", value: "8 mm" },
+      { label: "Hand-Feel", value: "Smooth Semi-Gloss Aniline Finish" }
+    ]
+  },
+  {
+    id: "UL-TR-405",
+    slug: "vintage-heritage-leather-weekender-duffel",
+    name: "The Vintage Heritage Leather Weekender Duffel",
+    category: "Travel & Duffel Bags",
+    categorySlug: "travel-bags",
+    shortDescription: "Heavy-duty full-grain distressed cowhide travel duffel featuring front buckle organizer pocket, dual side shoe chambers, and solid brass fittings.",
+    fullDescription: "A flagship silhouette engineered for world travel, luxury weekend escapes, and airline carry-on standards. Constructed from 2.0mm distressed pull-up cowhide with reinforced rolled leather handles, heavy-gauge antique brass zippers, twin buckled front pocket, and ventilated side zippered compartments.",
+    images: [
+      "/images/flagship-travel-duffel.jpg",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1200&q=80"
+    ],
+    leatherType: "Heavy Full-Grain Waxed Pull-Up Cowhide (2.0mm – 2.2mm)",
+    tannage: "Distressed Aniline Veg-Tan with Oil Wax Infusion",
+    colors: ["Vintage Distressed Tan/Brown", "Antique Espresso", "Cognac"],
+    dimensions: {
+      length: "54",
+      width: "26",
+      height: "30",
+      unit: "cm"
+    },
+    lining: "Heavy-Duty 12oz Water-Resistant Cotton Canvas",
+    hardware: "Solid Antique Brass Buckles, Studs, and Heavy-Gauge Zippers",
+    brandingOptions: ["Front Pocket Flap Leather Deboss", "Metal Zipper Pull Engraving", "Luggage Tag Monogram"],
+    packagingOptions: ["Heavy Non-Woven Dustbag", "Reinforced Export 5-Ply Shipping Carton"],
+    moq: "40 units per batch",
     sampleLeadTime: "10 to 14 working days",
     productionLeadTime: "35 to 45 days",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
-      "Dedicated shock-absorbing cradle for 15.6” – 16” laptops",
-      "Rear luggage pass-through sleeve for rolling suitcases",
-      "Hidden anti-theft zipper pocket on lumbar back panel",
-      "Top quick-access magnetic pocket for sunglasses and earbuds"
+      "Large front quick-access compartment secured by twin bridle-leather buckle straps",
+      "Dual side zippered chambers engineered for footwear or wet gear isolation",
+      "Reinforced tubular rolled leather top carry handles tested to 50kg load capacity",
+      "Airline overhead-compartment compliant dimensions (54cm length)"
     ],
     specs: [
-      { label: "Product Code", value: "UL-BP-405" },
-      { label: "Capacity", value: "19 Litres" },
-      { label: "Weight", value: "1,250 grams" },
-      { label: "Laptop Compatibility", value: "Up to 16-inch MacBook Pro" }
+      { label: "Product Code", value: "UL-TR-405" },
+      { label: "Capacity", value: "42 Litres" },
+      { label: "Hardware", value: "Solid Antique Brass (72-hr salt spray tested)" },
+      { label: "Weight", value: "1,950 grams" }
     ]
   },
   {

@@ -11,23 +11,34 @@ import { Badge } from "@/components/ui/Badge";
 interface ProductCardProps {
   product: Product;
   onQuickInquire?: (product: Product) => void;
+  imageFit?: "cover" | "contain";
+  aspectRatio?: string;
 }
 
-export function ProductCard({ product, onQuickInquire }: ProductCardProps) {
+export function ProductCard({
+  product,
+  onQuickInquire,
+  imageFit = "contain",
+  aspectRatio = "aspect-[4/5]",
+}: ProductCardProps) {
   const [imgSrc] = useState(product.images[0]);
   const [hasError, setHasError] = useState(false);
 
   return (
     <article className="group flex flex-col bg-white border border-charcoal/10 rounded-none overflow-hidden luxury-card-shadow transition-all duration-300">
       {/* Product Image Stage */}
-      <div className="relative aspect-[4/3] bg-charcoal-50 overflow-hidden">
+      <div className={`relative ${aspectRatio} bg-[#F8F7F4] overflow-hidden flex items-center justify-center p-3`}>
         {!hasError ? (
           <Image
             src={imgSrc}
             alt={`${product.name} - Leather Goods Manufacturer India`}
             fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className="object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+            className={`${
+              imageFit === "contain"
+                ? "object-contain object-center p-2"
+                : "object-cover object-center"
+            } group-hover:scale-105 transition-transform duration-700 ease-out`}
             onError={() => setHasError(true)}
           />
         ) : (
