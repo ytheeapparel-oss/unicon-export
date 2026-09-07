@@ -27,6 +27,7 @@ import { COMPANY_INFO } from "@/data/company";
 import { CategoryCard } from "@/components/ui/CategoryCard";
 import { ProductCard } from "@/components/ui/ProductCard";
 import { BulkInquiryForm } from "@/components/forms/BulkInquiryForm";
+import { MovingPanelsShowcase } from "@/components/home/MovingPanelsShowcase";
 
 export default function HomePage() {
   const featuredProducts = PRODUCTS.slice(0, 4);
@@ -105,6 +106,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* 1.2 CONTINUOUS MOVING SHOWCASE: 14 LUXURY PANELS */}
+      <MovingPanelsShowcase />
 
       {/* 2. FULL-BREADTH FEATURED CATEGORIES SHOWCASE */}
       <section className="w-full bg-white px-6 sm:px-12 lg:px-16 xl:px-20">
