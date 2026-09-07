@@ -18,8 +18,8 @@ interface ProductCardProps {
 export function ProductCard({
   product,
   onQuickInquire,
-  imageFit = "contain",
-  aspectRatio = "aspect-[4/5]",
+  imageFit = "cover",
+  aspectRatio = "aspect-[4/3]",
 }: ProductCardProps) {
   const [imgSrc] = useState(product.images[0]);
   const [hasError, setHasError] = useState(false);
@@ -27,18 +27,14 @@ export function ProductCard({
   return (
     <article className="group flex flex-col bg-white border border-charcoal/10 rounded-none overflow-hidden luxury-card-shadow transition-all duration-300">
       {/* Product Image Stage */}
-      <div className={`relative ${aspectRatio} bg-[#F8F7F4] overflow-hidden flex items-center justify-center p-3`}>
+      <div className={`relative ${aspectRatio} bg-charcoal-50 overflow-hidden`}>
         {!hasError ? (
           <Image
             src={imgSrc}
             alt={`${product.name} - Leather Goods Manufacturer India`}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-            className={`${
-              imageFit === "contain"
-                ? "object-contain object-center p-2"
-                : "object-cover object-center"
-            } group-hover:scale-105 transition-transform duration-700 ease-out`}
+            className="object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
             onError={() => setHasError(true)}
           />
         ) : (
