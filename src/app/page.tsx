@@ -130,8 +130,8 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {PRODUCT_CATEGORIES.slice(0, 8).map((category) => (
-            <CategoryCard key={category.id} category={category} />
+          {PRODUCT_CATEGORIES.slice(0, 8).map((category, index) => (
+            <CategoryCard key={category.id} category={category} panelNumber={index + 1} />
           ))}
         </div>
       </section>

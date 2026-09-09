@@ -43,7 +43,7 @@ export const PRODUCT_CATEGORIES: CategoryInfo[] = [
     slug: "travel-bags",
     tagline: "Weekend duffels and weekender week-bags engineered for world travel and airline carry-on standards.",
     description: "Heavy-duty full-grain travel bags with reinforced brass bottom studs, detachable bridle-leather shoulder straps, and shoe compartments.",
-    image: "/images/panel-5-travel.jpg",
+    image: "/images/panel-5.jpg",
     featuredProductCount: 9
   },
   {
@@ -52,7 +52,7 @@ export const PRODUCT_CATEGORIES: CategoryInfo[] = [
     slug: "wallets-and-cardholders",
     tagline: "Ultra-slim bifold, trifold, zip-around, and cardholder constructions with RFID shielding.",
     description: "Precision-skived turned edges (0.4mm tolerances), French-style creasing, and hand-painted edge dyes.",
-    image: "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/panel-6.jpg",
     featuredProductCount: 32
   },
   {
@@ -61,7 +61,7 @@ export const PRODUCT_CATEGORIES: CategoryInfo[] = [
     slug: "leather-belts",
     tagline: "Full-grain bridle leather, feather-edged dress belts, and casual washed belts.",
     description: "Solid brass and stainless steel buckles with custom laser engraving, double-loop keepers, and bevelled edge polish.",
-    image: "/images/panel-7-tote.jpg",
+    image: "/images/panel-7.jpg",
     featuredProductCount: 24
   },
   {
@@ -70,7 +70,7 @@ export const PRODUCT_CATEGORIES: CategoryInfo[] = [
     slug: "leather-jackets",
     tagline: "Precision-tailored biker, bomber, cafe racer, and trench outerwear in lambskin and goat suede.",
     description: "Supple lightweight lamb nappa, distressed cowhide, premium satin linings, and heavy-gauge vintage hardware for fashion brands.",
-    image: "/images/panel-8-amberduffel.jpg",
+    image: "/images/panel-8.jpg",
     featuredProductCount: 8
   },
   {

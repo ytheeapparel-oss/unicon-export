@@ -8,14 +8,24 @@ import { CategoryInfo } from "@/types";
 
 interface CategoryCardProps {
   category: CategoryInfo;
+  panelNumber?: number;
+  onClick?: () => void;
 }
 
-export function CategoryCard({ category }: CategoryCardProps) {
+export function CategoryCard({ category, panelNumber, onClick }: CategoryCardProps) {
   const [hasError, setHasError] = useState(false);
+
+  const handleClick = (e: React.MouseEvent) => {
+    if (onClick) {
+      e.preventDefault();
+      onClick();
+    }
+  };
 
   return (
     <Link
       href={`/products?category=${encodeURIComponent(category.name)}`}
+      onClick={handleClick}
       className="group block bg-white border-2 border-charcoal/15 hover:border-cognac shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col justify-between text-left"
     >
       {/* 1. Bright Image Frame with Zero Dark/Black Overlay */}
@@ -38,7 +48,7 @@ export function CategoryCard({ category }: CategoryCardProps) {
         {/* Top Badges */}
         <div className="absolute top-4 left-4 right-4 flex justify-between items-center z-10">
           <span className="text-[10px] tracking-[0.2em] uppercase font-sans font-bold text-white bg-cognac px-3 py-1 shadow-sm">
-            Export Line
+            {panelNumber ? `Panel ${String(panelNumber).padStart(2, '0')}` : "Export Line"}
           </span>
           <span className="text-xs font-mono font-semibold text-charcoal bg-white/95 backdrop-blur-xs px-2.5 py-1 border border-charcoal/15 shadow-sm">
             {category.featuredProductCount}+ Styles

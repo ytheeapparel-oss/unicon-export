@@ -7,6 +7,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { ProductCard } from "@/components/ui/ProductCard";
+import { CategoryCard } from "@/components/ui/CategoryCard";
 import { QuickQuoteModal } from "@/components/forms/QuickQuoteModal";
 import { PRODUCTS } from "@/data/products";
 import { PRODUCT_CATEGORIES } from "@/data/categories";
@@ -92,8 +93,8 @@ function CatalogueContent() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
-              <Button href="#catalogue-grid" variant="primary" size="lg" className="shadow-lg">
-                Explore Available Silhouettes
+              <Button href="#category-panels" variant="primary" size="lg" className="shadow-lg">
+                Explore 11 Category Panels
               </Button>
               <Button href="/private-label" variant="outline" size="lg" className="border-2 border-charcoal text-charcoal hover:bg-charcoal hover:text-white">
                 <Sliders className="w-4 h-4 mr-2" /> Custom OEM Tech Pack
@@ -103,7 +104,49 @@ function CatalogueContent() {
         </div>
       </section>
 
-      {/* 2. MAIN CATALOGUE BROWSER (Pure White) */}
+      {/* 2. 11 MASTER CATEGORY PANELS SHOWCASE */}
+      <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 pt-4 space-y-8" id="category-panels">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b-2 border-charcoal/10 pb-6">
+          <div className="space-y-3">
+            <span className="text-cognac uppercase tracking-widest text-xs sm:text-sm font-bold block">
+              11 Core Manufacturing Lines
+            </span>
+            <h2 className="font-serif text-3xl sm:text-5xl font-black text-charcoal tracking-tight uppercase">
+              11 Master Product Category Panels
+            </h2>
+            <p className="text-sm sm:text-base text-charcoal-600 max-w-3xl font-light">
+              Explore our master export catalogue across 11 luxury manufacturing categories. Select any category panel below to instantly filter silhouettes, technical specifications, and custom OEM capabilities.
+            </p>
+          </div>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => {
+                setSelectedCategory("All");
+                document.getElementById('catalogue-grid')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className="text-xs uppercase tracking-wider font-bold text-cognac hover:text-charcoal px-4 py-2.5 border border-cognac/30 hover:border-charcoal transition-colors whitespace-nowrap bg-white shadow-xs"
+            >
+              Show All 11 Lines
+            </button>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8">
+          {PRODUCT_CATEGORIES.map((category, index) => (
+            <CategoryCard
+              key={category.id}
+              category={category}
+              panelNumber={index + 1}
+              onClick={() => {
+                setSelectedCategory(category.name);
+                document.getElementById('catalogue-grid')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            />
+          ))}
+        </div>
+      </section>
+
+      {/* 3. MAIN CATALOGUE BROWSER (Pure White) */}
       <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 space-y-10" id="catalogue-grid">
         {/* Filter Controls Bar */}
         <div className="bg-white p-6 sm:p-8 rounded-none border-2 border-charcoal/15 shadow-sm space-y-6">
