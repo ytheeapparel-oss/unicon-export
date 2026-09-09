@@ -173,11 +173,11 @@ export default function AboutPage() {
       <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16" id="infrastructure">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-6 relative">
-            <div className="relative aspect-[4/3] rounded-none overflow-hidden shadow-2xl border-2 border-charcoal/15 bg-white">
+            <div className="relative aspect-[4/3] rounded-none overflow-hidden shadow-2xl border-2 border-charcoal/15 bg-white flex items-center justify-center p-3 sm:p-5 group">
               <img
-                src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1200&q=80"
-                alt="Leather Factory Production Line Infrastructure"
-                className="w-full h-full object-cover"
+                src="/images/about-infrastructure-backpack.png"
+                alt="UNICON LEATHER - Handcrafted Two-Tone Luxury Leather Backpack"
+                className="w-full h-full object-contain object-center transform group-hover:scale-105 transition-transform duration-700 ease-out"
                 loading="lazy"
               />
             </div>
