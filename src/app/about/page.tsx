@@ -105,11 +105,11 @@ export default function AboutPage() {
           </div>
 
           <div className="lg:col-span-6">
-            <div className="relative aspect-[4/3] rounded-none overflow-hidden shadow-2xl border-2 border-charcoal/15 bg-white">
+            <div className="relative aspect-[4/3] rounded-none overflow-hidden shadow-2xl border-2 border-charcoal/15 bg-white flex items-center justify-center p-3 sm:p-5 group">
               <img
-                src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1200&q=80"
-                alt="Artisan Crafting Handbag Pattern"
-                className="w-full h-full object-cover"
+                src="/images/about-mission-briefcase.png"
+                alt="UNICON LEATHER - Handcrafted Luxury Leather Briefcase & Messenger Bag"
+                className="w-full h-full object-contain object-center transform group-hover:scale-105 transition-transform duration-700 ease-out"
                 loading="lazy"
               />
             </div>
