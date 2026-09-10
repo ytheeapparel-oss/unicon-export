@@ -30,6 +30,7 @@ export const MAIN_NAV: NavItem[] = [
       { label: "Small Leather Goods", href: "/products?category=Small+Leather+Goods", description: "Passport folios & key fobs" },
       { label: "Corporate Gifts", href: "/products?category=Corporate+Gifts+%26+Deskware", description: "Desk pads & executive gift sets" },
       { label: "Custom OEM/ODM", href: "/private-label", description: "Bespoke contract manufacturing" },
+      { label: "Heritage Backpacks", href: "/products?category=Heritage+Leather+Backpacks", description: "Two-tone saddle leather rucksacks" },
     ]
   },
   {

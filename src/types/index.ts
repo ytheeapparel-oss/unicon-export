@@ -43,7 +43,8 @@ export type ProductCategory =
   | "Leather Jackets & Apparel"
   | "Small Leather Goods"
   | "Corporate Gifts & Deskware"
-  | "Custom Developed OEM/ODM";
+  | "Custom Developed OEM/ODM"
+  | "Heritage Leather Backpacks";
 
 export interface CategoryInfo {
   id: string;

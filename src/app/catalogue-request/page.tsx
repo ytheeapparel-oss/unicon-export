@@ -46,7 +46,7 @@ export default function CatalogueRequestPage() {
             <div className="space-y-4 text-xs sm:text-sm text-charcoal-700">
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
-                <span><strong>Full 11-Category Product Index:</strong> Dimensional schematics, handle clearances, and pocket configurations.</span>
+                <span><strong>Full 12-Category Product Index:</strong> Dimensional schematics, handle clearances, and pocket configurations.</span>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-5 h-5 text-cognac shrink-0 mt-0.5" />

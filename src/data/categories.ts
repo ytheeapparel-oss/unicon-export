@@ -79,7 +79,7 @@ export const PRODUCT_CATEGORIES: CategoryInfo[] = [
     slug: "small-leather-goods",
     tagline: "Passport cases, key bells, sunglass pouches, AirTag fobs, and tech accessories.",
     description: "Meticulously crafted pocket accessories ideal for brand gift collections and high-margin retail accessories.",
-    image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/panel-9.jpg",
     featuredProductCount: 22
   },
   {
@@ -88,7 +88,7 @@ export const PRODUCT_CATEGORIES: CategoryInfo[] = [
     slug: "corporate-gifts",
     tagline: "Custom-embossed desk pads, valet trays, tech mats, and executive gift sets for corporate buyers.",
     description: "Handcrafted desktop accessories with bespoke brand debossing, premium gift packaging, and bulk volume scalability.",
-    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/panel-10.jpg",
     featuredProductCount: 15
   },
   {
@@ -97,7 +97,16 @@ export const PRODUCT_CATEGORIES: CategoryInfo[] = [
     slug: "custom-developed-oem-odm",
     tagline: "Bespoke contract manufacturing from initial sketch to full tech-pack realization.",
     description: "Collaborative R&D, custom tannery color matching (Pantone matching system), custom hardware moulds, and confidential manufacturing agreements.",
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/panel-11.jpg",
     featuredProductCount: 50
+  },
+  {
+    id: "heritage-backpacks",
+    name: "Heritage Leather Backpacks",
+    slug: "heritage-backpacks",
+    tagline: "Rugged two-tone saddle leather rucksacks with brass buckles and expandable utility pockets.",
+    description: "Handcrafted two-tone bridle leather backpacks featuring dual front buckle closures, gusseted side utility pockets, and ergonomic padded shoulder straps.",
+    image: "/images/panel-12.jpg",
+    featuredProductCount: 16
   }
 ];

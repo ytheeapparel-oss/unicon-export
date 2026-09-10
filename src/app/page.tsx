@@ -125,7 +125,7 @@ export default function HomePage() {
             </p>
           </div>
           <Button href="/products" variant="outline" size="lg" className="self-start md:self-auto border-2 border-charcoal text-charcoal hover:bg-charcoal hover:text-white">
-            View All 11 Product Categories <ArrowRight className="w-4 h-4 ml-2" />
+            View All 12 Product Categories <ArrowRight className="w-4 h-4 ml-2" />
           </Button>
         </div>
 

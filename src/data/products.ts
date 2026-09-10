@@ -473,5 +473,48 @@ export const PRODUCTS: Product[] = [
       { label: "Hardware Sourcing", value: "Custom tool & die moulding available" },
       { label: "Export Documentation", value: "Certificate of Origin, Bill of Lading, Fumigation, Commercial Invoice" }
     ]
+  },
+  {
+    id: "UL-BP-102",
+    slug: "heritage-two-tone-leather-backpack",
+    name: "The Heritage Two-Tone Saddle Leather Backpack",
+    category: "Heritage Leather Backpacks",
+    categorySlug: "heritage-backpacks",
+    shortDescription: "Rugged two-tone saddle leather rucksack featuring dual front buckle closures, gusseted side utility pockets, and reinforced bridle leather trim.",
+    fullDescription: "Handcrafted from heavy-duty vegetable-tanned full-grain cowhide paired with contrasting black bridle-leather straps and antique brass buckle hardware. Features a spacious drawstring-cinched main compartment with padded laptop sleeve, dual exterior quick-access buckle pockets, and side flask pouches. Double-stitched bar tacks provide lifetime durability for global travel and heritage retail collections.",
+    images: [
+      "/images/panel-12.jpg"
+    ],
+    leatherType: "Full-Grain Saddle Bovine & Bridle Trim (2.0mm)",
+    tannage: "Eco-Conscious LWG Vegetable-Tanned",
+    colors: ["Caramel Tan with Black Trim", "Vintage Cognac", "Espresso"],
+    dimensions: {
+      length: "32",
+      width: "18",
+      height: "42",
+      unit: "cm"
+    },
+    lining: "12oz Heavyweight Organic Cotton Duck Canvas",
+    hardware: "Solid Forged Brass Roller Buckles with Antique Finish",
+    brandingOptions: ["Blind Heat Debossing", "Laser Engraved Hardware", "Woven Brand Label"],
+    packagingOptions: ["Organic Cotton Dustbag", "Recycled Craft Box", "Export Master Carton"],
+    moq: "50 units per colorway",
+    sampleLeadTime: "7 to 10 working days",
+    productionLeadTime: "30 to 35 days post sign-off",
+    customizationAvailable: true,
+    featured: true,
+    keyFeatures: [
+      "Dual front buckle closure with hidden quick-release magnetic studs",
+      "Reinforced base with solid brass bottom studs",
+      "Ergonomic padded leather shoulder straps with breathable lining",
+      "Dedicated padded compartment fitting up to 16-inch laptops",
+      "Two side cargo pockets with secure flap closures"
+    ],
+    specs: [
+      { label: "SKU", value: "UL-BP-102" },
+      { label: "Laptop Sleeve", value: "Fits up to 16\" MacBook Pro" },
+      { label: "Hardware Plating", value: "ASTM B117 72h Salt-Spray Tested Brass" },
+      { label: "Stitching", value: "Bonded Nylon TKT-40 Saddle Thread" }
+    ]
   }
 ];
