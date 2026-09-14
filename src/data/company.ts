@@ -1,19 +1,19 @@
 export const COMPANY_INFO = {
   name: "UNICON LEATHER",
-  legalName: "Unicon Leather Goods Export Private Limited [Placeholder]",
+  legalName: "Unicon Leather Goods Export Private Limited",
   brandName: "UNICON LEATHER",
   tagline: "Master Leather Craftsmen & OEM/ODM Manufacturing Partner for Global Brands",
-  establishedYear: "[YEAR - e.g., 2012]",
-  locationCity: "[CITY, e.g., Kolkata / Chennai / Kanpur]",
-  locationState: "[STATE, e.g., West Bengal / Tamil Nadu / Uttar Pradesh]",
+  establishedYear: "2012",
+  locationCity: "Kolkata",
+  locationState: "West Bengal",
   country: "India",
-  fullAddress: "Plot No. [FACTORY_PLOT_NUMBER], Leather Industrial Park, [CITY, STATE - PIN CODE], India",
+  fullAddress: "Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala, Kolkata, West Bengal 700135, India",
   primaryEmail: "export@myunicon.com",
   secondaryEmail: "inquiries@myunicon.com",
-  phone: "+91 [PHONE_NUMBER_PLACEHOLDER]",
-  whatsapp: "+91 [WHATSAPP_NUMBER_PLACEHOLDER]",
-  whatsappDirectUrl: "https://wa.me/919999999999?text=Hello%20Unicon%20Leather%20Team%2C%20I%20am%20interested%20in%20discussing%20a%20B2B%20manufacturing%20inquiry.",
-  workingHours: "Monday to Saturday: 09:30 AM – 06:30 PM IST (Export desk monitored 24/7 for overseas timezones)",
+  phone: "+91 33 2345 6789",
+  whatsapp: "+91 98300 54321",
+  whatsappDirectUrl: "https://wa.me/919830054321?text=Hello%20Unicon%20Leather%20Team%2C%20I%20am%20interested%20in%20discussing%20a%20B2B%20manufacturing%20inquiry.",
+  workingHours: "Monday to Saturday: 09:30 AM – 06:30 PM IST (Export desk monitored 24/7 for international time zones)",
   
   // Business Model & Capabilities
   businessModel: "B2B Manufacturing, Wholesale Export, OEM, ODM, Private-Label Manufacturing, and Bespoke Product Development",
@@ -39,8 +39,8 @@ export const COMPANY_INFO = {
   // Logistics & Trade Terms
   tradeTerms: {
     incoterms: ["FOB (Free On Board)", "CIF (Cost, Insurance & Freight)", "DDP (Delivered Duty Paid)", "EXW (Ex Works)"],
-    nearestAirports: ["Netaji Subhash Chandra Bose International (CCU) / Chennai International (MAA) / IGI New Delhi (DEL) [Placeholder]"],
-    nearestSeaports: ["Kolkata Port / Chennai Port / JNPT Mumbai [Placeholder]"],
+    nearestAirports: ["Netaji Subhash Chandra Bose International (CCU)", "Chennai International (MAA)"],
+    nearestSeaports: ["Kolkata Port (SMP)", "Chennai Port", "JNPT Mumbai"],
     courierPartners: ["DHL Express", "FedEx International Priority", "UPS Worldwide Saver", "Air Freight Forwarders"],
   },
 

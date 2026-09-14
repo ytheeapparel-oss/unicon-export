@@ -1,32 +1,44 @@
 import React from "react";
 import Link from "next/link";
-import { Globe, ArrowRight, ShieldCheck } from "lucide-react";
+import { Globe, ArrowRight, ShieldCheck, PhoneCall } from "lucide-react";
+import { COMPANY_INFO } from "@/data/company";
 
 export function AnnouncementBar() {
   return (
-    <aside aria-label="Export Notice" className="bg-[#11100F] text-white text-xs border-b border-charcoal-800 py-2.5 px-4 sm:px-8">
-      <div className="w-full max-w-[1680px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
-        <div className="flex items-center gap-3 justify-center">
-          <span className="inline-flex items-center gap-1.5 text-gold-light font-medium tracking-wide uppercase text-[10px] bg-charcoal-800 px-2.5 py-0.5 rounded border border-gold/30">
-            <Globe className="w-3 h-3 text-gold" /> Global Export Desk
+    <aside aria-label="Export Notice" className="bg-[#141312] text-[#dcd7cf] text-[11px] border-b border-[#262422] py-2 px-4 sm:px-8 tracking-wide">
+      <div className="w-full max-w-[1680px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-2.5 text-center sm:text-left">
+        {/* Left: Origin & Export Capability */}
+        <div className="flex items-center gap-3 justify-center sm:justify-start">
+          <span className="inline-flex items-center gap-1.5 text-cognac font-bold tracking-widest uppercase text-[9px] bg-[#22201e] px-2.5 py-0.5 border border-cognac/30">
+            <Globe className="w-3 h-3 text-cognac" /> B2B Export Atelier
           </span>
-          <span className="text-gray-300 hidden md:inline text-xs">
-            Direct B2B Manufacturing & OEM Exports to USA, UK, EU, UAE, Australia & Japan
+          <span className="text-[#bfb9ae] hidden md:inline font-light">
+            Direct Custom Manufacturing & Private Label Exports to USA, UK, EU, UAE, Australia & Japan
           </span>
-          <span className="text-gray-300 md:hidden text-[11px]">
-            Worldwide B2B Leather Export & OEM Production
+          <span className="text-[#bfb9ae] md:hidden font-light">
+            Luxury Leather Goods Manufacturer & Global Exporter
           </span>
         </div>
 
-        <div className="flex items-center gap-5 text-[11px]">
-          <span className="text-gray-300 hidden lg:inline-flex items-center gap-1.5">
-            <ShieldCheck className="w-3.5 h-3.5 text-gold" /> REACH & CA Prop 65 Lab Tested
+        {/* Right: Compliance & Direct Line */}
+        <div className="flex items-center gap-4 sm:gap-6 text-[11px] font-medium">
+          <span className="text-[#a8a297] hidden lg:inline-flex items-center gap-1.5 font-light">
+            <ShieldCheck className="w-3.5 h-3.5 text-cognac" /> LWG & REACH Compliant
           </span>
+          <a
+            href={COMPANY_INFO.whatsappDirectUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#dcd7cf] hover:text-cognac transition-colors inline-flex items-center gap-1.5 font-sans"
+          >
+            <PhoneCall className="w-3 h-3 text-cognac" />
+            <span className="hidden sm:inline">WhatsApp Desk:</span> {COMPANY_INFO.whatsapp}
+          </a>
           <Link
             href="/catalogue-request"
-            className="text-white hover:text-gold transition-colors inline-flex items-center gap-1 font-medium underline underline-offset-4 decoration-gold/50 hover:decoration-gold"
+            className="text-white hover:text-cognac transition-colors inline-flex items-center gap-1 font-bold underline underline-offset-4 decoration-cognac/60 hover:decoration-cognac"
           >
-            Download 2025 Lookbook <ArrowRight className="w-3 h-3" />
+            2025 Lookbook <ArrowRight className="w-3 h-3" />
           </Link>
         </div>
       </div>

@@ -109,29 +109,29 @@ export function CapabilitiesTicker() {
       </div>
 
       {/* Row 1: Forward Moving Ticker */}
-      <div className="w-full overflow-hidden py-3">
-        <div className="animate-marquee-forward gap-5 sm:gap-6 px-4">
+      <div className="w-full overflow-hidden py-2.5">
+        <div className="animate-marquee-forward gap-4 sm:gap-6 px-4">
           {rowOneItems.map((item, idx) => (
             <div
               key={`r1-${item.id}-${idx}`}
-              className="bg-white rounded-[24px] border border-charcoal/12 shadow-sm hover:shadow-md p-4 sm:p-5 flex items-center gap-4 min-w-[320px] sm:min-w-[370px] max-w-[370px] transition-all duration-300 select-none shrink-0"
+              className="bg-white rounded-none border border-charcoal/15 hover:border-cognac shadow-xs hover:shadow-md p-4 sm:p-4.5 flex items-center gap-4 min-w-[320px] sm:min-w-[360px] max-w-[360px] transition-all duration-300 select-none shrink-0 group"
             >
               {/* Left Thumbnail */}
-              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-[18px] overflow-hidden shrink-0 bg-charcoal-50 border border-charcoal/10 relative">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-none overflow-hidden shrink-0 bg-charcoal-50 border border-charcoal/10 relative">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
               </div>
 
               {/* Right Content */}
               <div className="space-y-1 min-w-0">
-                <h3 className="font-serif text-base sm:text-lg font-bold text-charcoal truncate">
+                <h3 className="font-serif text-sm sm:text-base font-bold text-charcoal group-hover:text-cognac transition-colors truncate">
                   {item.title}
                 </h3>
-                <p className="text-xs text-charcoal-500 font-light leading-relaxed line-clamp-2">
+                <p className="text-[11px] sm:text-xs text-charcoal-500 font-light leading-relaxed line-clamp-2">
                   {item.description}
                 </p>
               </div>
@@ -141,29 +141,29 @@ export function CapabilitiesTicker() {
       </div>
 
       {/* Row 2: Reverse Moving Ticker */}
-      <div className="w-full overflow-hidden py-3">
-        <div className="animate-marquee-reverse gap-5 sm:gap-6 px-4">
+      <div className="w-full overflow-hidden py-2.5">
+        <div className="animate-marquee-reverse gap-4 sm:gap-6 px-4">
           {rowTwoItems.map((item, idx) => (
             <div
               key={`r2-${item.id}-${idx}`}
-              className="bg-white rounded-[24px] border border-charcoal/12 shadow-sm hover:shadow-md p-4 sm:p-5 flex items-center gap-4 min-w-[320px] sm:min-w-[370px] max-w-[370px] transition-all duration-300 select-none shrink-0"
+              className="bg-white rounded-none border border-charcoal/15 hover:border-cognac shadow-xs hover:shadow-md p-4 sm:p-4.5 flex items-center gap-4 min-w-[320px] sm:min-w-[360px] max-w-[360px] transition-all duration-300 select-none shrink-0 group"
             >
               {/* Left Thumbnail */}
-              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-[18px] overflow-hidden shrink-0 bg-charcoal-50 border border-charcoal/10 relative">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-none overflow-hidden shrink-0 bg-charcoal-50 border border-charcoal/10 relative">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
               </div>
 
               {/* Right Content */}
               <div className="space-y-1 min-w-0">
-                <h3 className="font-serif text-base sm:text-lg font-bold text-charcoal truncate">
+                <h3 className="font-serif text-sm sm:text-base font-bold text-charcoal group-hover:text-cognac transition-colors truncate">
                   {item.title}
                 </h3>
-                <p className="text-xs text-charcoal-500 font-light leading-relaxed line-clamp-2">
+                <p className="text-[11px] sm:text-xs text-charcoal-500 font-light leading-relaxed line-clamp-2">
                   {item.description}
                 </p>
               </div>

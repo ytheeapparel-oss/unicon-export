@@ -7,14 +7,6 @@ export interface NavItem {
 
 export const MAIN_NAV: NavItem[] = [
   {
-    label: "Home",
-    href: "/"
-  },
-  {
-    label: "About Us",
-    href: "/about"
-  },
-  {
     label: "Catalogue",
     href: "/products",
     children: [
@@ -42,19 +34,19 @@ export const MAIN_NAV: NavItem[] = [
     href: "/craftsmanship"
   },
   {
-    label: "Sustainability",
-    href: "/sustainability"
-  },
-  {
     label: "Global Export",
     href: "/export"
   },
   {
-    label: "Quality & Compliance",
+    label: "Compliance",
     href: "/compliance"
   },
   {
-    label: "Contact & Inquiries",
+    label: "About Us",
+    href: "/about"
+  },
+  {
+    label: "Contact",
     href: "/contact"
   }
 ];
@@ -70,15 +62,18 @@ export const FOOTER_NAV = {
   ],
   products: [
     { label: "Leather Handbags", href: "/products?category=Leather+Handbags" },
-    { label: "Tote Bags", href: "/products?category=Tote+Bags" },
-    { label: "Wallets & Cardholders", href: "/products?category=Wallets+%26+Cardholders" },
-    { label: "Executive Laptop Bags", href: "/products?category=Laptop+%26+Business+Bags" },
-    { label: "Weekend Duffel Bags", href: "/products?category=Travel+%26+Duffel+Bags" },
-    { label: "Leather Belts & Accessories", href: "/products?category=Leather+Belts" },
+    { label: "Tote Bags & Shoppers", href: "/products?category=Tote+Bags" },
+    { label: "Executive Laptop & Business Bags", href: "/products?category=Laptop+%26+Business+Bags" },
+    { label: "Commuter & Heritage Backpacks", href: "/products?category=Backpacks" },
+    { label: "Travel & Weekender Duffels", href: "/products?category=Travel+%26+Duffel+Bags" },
+    { label: "Wallets, Cardholders & Belts", href: "/products?category=Wallets+%26+Cardholders" },
+    { label: "Designer Jacquard & Fabric Totes", href: "/products?category=Designer+Jacquard+Totes" },
+    { label: "Croc-Embossed Briefcases", href: "/products?category=Croc-Embossed+Briefcases" },
+    { label: "Explore All 12 Lines →", href: "/products" },
   ],
   trade: [
-    { label: "International Export Capabilities", href: "/export" },
-    { label: "Supported Incoterms (FOB, CIF, DDP)", href: "/export#incoterms" },
+    { label: "Global Export Direct (FOB, CIF, DDP)", href: "/export" },
+    { label: "Supported Incoterms & Sea Ports", href: "/export#incoterms" },
     { label: "Quality Inspection & AQL 2.5", href: "/compliance" },
     { label: "EU REACH & Prop 65 Compliance", href: "/compliance#testing" },
     { label: "Responsible Tannery Standards", href: "/sustainability" },
@@ -88,8 +83,9 @@ export const FOOTER_NAV = {
     { label: "About Unicon Leather", href: "/about" },
     { label: "Factory Infrastructure", href: "/about#infrastructure" },
     { label: "Global Markets Served", href: "/export#markets" },
+    { label: "Sustainability & Eco-Tannage", href: "/sustainability" },
     { label: "Contact Export Desk", href: "/contact" },
-    { label: "Direct WhatsApp Line", href: "https://wa.me/919999999999" },
+    { label: "Direct WhatsApp Line", href: "https://wa.me/919830054321" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy-policy" },
