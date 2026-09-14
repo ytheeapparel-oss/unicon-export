@@ -77,27 +77,27 @@ function CatalogueContent() {
               <span className="bg-cognac text-white text-xs sm:text-sm font-bold tracking-widest uppercase px-4 py-1.5 rounded-none shadow-sm">
                 ★ Master Export Directory
               </span>
-              <span className="text-xs sm:text-sm text-charcoal-500 font-mono tracking-widest uppercase font-semibold">
+              <span className="text-[10px] sm:text-xs text-charcoal-500 font-mono tracking-widest uppercase font-semibold">
                 12 PRODUCT CATEGORIES
               </span>
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-black text-charcoal leading-[0.98] tracking-tight uppercase">
+            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-charcoal leading-[1.08] tracking-tight uppercase">
               Export Product <br />
               <span className="italic font-normal text-cognac lowercase">catalogue &</span> <br />
               COLLECTION DIRECTORY
             </h1>
 
-            <p className="text-base sm:text-xl text-charcoal-700 leading-relaxed font-light max-w-2xl">
+            <p className="text-sm sm:text-base text-charcoal-600 leading-relaxed font-light max-w-2xl">
               Explore our master export catalogue across 12 luxury leather goods categories. All silhouettes can be customized with your brand’s leather grade, custom hardware finishes, dimensions, and embossed logos.
             </p>
 
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
-              <Button href="#category-panels" variant="primary" size="lg" className="shadow-lg">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 pt-2">
+              <Button href="#category-panels" variant="primary" size="md" className="shadow-xs text-xs uppercase tracking-wider font-semibold">
                 Explore 12 Category Panels
               </Button>
-              <Button href="/private-label" variant="outline" size="lg" className="border-2 border-charcoal text-charcoal hover:bg-charcoal hover:text-white">
-                <Sliders className="w-4 h-4 mr-2" /> Custom OEM Tech Pack
+              <Button href="/private-label" variant="outline" size="md" className="border border-charcoal/30 text-charcoal hover:bg-charcoal hover:text-white text-xs uppercase tracking-wider font-semibold">
+                <Sliders className="w-3.5 h-3.5 mr-2" /> Custom OEM Tech Pack
               </Button>
             </div>
           </div>
@@ -105,16 +105,16 @@ function CatalogueContent() {
       </section>
 
       {/* 2. 12 MASTER CATEGORY PANELS SHOWCASE */}
-      <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 pt-4 space-y-8" id="category-panels">
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b-2 border-charcoal/10 pb-6">
-          <div className="space-y-3">
-            <span className="text-cognac uppercase tracking-widest text-xs sm:text-sm font-bold block">
+      <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 pt-4 space-y-6" id="category-panels">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-5 border-b border-charcoal/10 pb-5">
+          <div className="space-y-2">
+            <span className="text-cognac uppercase tracking-[0.2em] text-[10px] sm:text-[11px] font-bold block">
               12 Core Manufacturing Lines
             </span>
-            <h2 className="font-serif text-3xl sm:text-5xl font-black text-charcoal tracking-tight uppercase">
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-charcoal tracking-tight uppercase">
               12 Master Product Category Panels
             </h2>
-            <p className="text-sm sm:text-base text-charcoal-600 max-w-3xl font-light">
+            <p className="text-xs sm:text-sm text-charcoal-500 max-w-2xl font-light leading-relaxed">
               Explore our master export catalogue across 12 luxury manufacturing categories. Select any category panel below to instantly filter silhouettes, technical specifications, and custom OEM capabilities.
             </p>
           </div>
@@ -124,7 +124,7 @@ function CatalogueContent() {
                 setSelectedCategory("All");
                 document.getElementById('catalogue-grid')?.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="text-xs uppercase tracking-wider font-bold text-cognac hover:text-charcoal px-4 py-2.5 border border-cognac/30 hover:border-charcoal transition-colors whitespace-nowrap bg-white shadow-xs"
+              className="text-[11px] uppercase tracking-wider font-bold text-cognac hover:text-charcoal px-3.5 py-2 border border-cognac/30 hover:border-charcoal transition-colors whitespace-nowrap bg-white shadow-xs"
             >
               Show All 12 Lines
             </button>

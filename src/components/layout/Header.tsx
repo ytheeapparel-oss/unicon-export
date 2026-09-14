@@ -45,16 +45,16 @@ export function Header() {
             className="flex flex-col group shrink-0 focus:outline-none"
             aria-label="UNICON LEATHER - Return to homepage"
           >
-            <span className="font-serif text-2xl sm:text-3xl font-bold tracking-[0.06em] text-charcoal group-hover:text-cognac transition-colors uppercase">
+            <span className="font-serif text-lg sm:text-xl font-bold tracking-[0.14em] text-charcoal group-hover:text-cognac transition-colors uppercase">
               UNICON <span className="font-normal text-cognac">LEATHER</span>
             </span>
-            <span className="text-[9px] sm:text-[10px] tracking-[0.26em] text-charcoal-500 uppercase font-sans font-semibold mt-0.5">
+            <span className="text-[8.5px] sm:text-[9px] tracking-[0.28em] text-charcoal-500 uppercase font-sans font-medium mt-0.5">
               Export Atelier • India
             </span>
           </Link>
 
           {/* 2. Desktop Navigation */}
-          <nav className="hidden xl:flex items-center space-x-1 lg:space-x-3 2xl:space-x-5" aria-label="Main Navigation">
+          <nav className="hidden xl:flex items-center space-x-1 lg:space-x-2 2xl:space-x-4" aria-label="Main Navigation">
             {MAIN_NAV.map((item) => {
               const isActive = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
 
@@ -71,7 +71,7 @@ export function Header() {
                   >
                     <button
                       className={cn(
-                        "px-3 py-2 text-xs 2xl:text-[13px] uppercase tracking-[0.18em] font-semibold transition-colors inline-flex items-center gap-1.5 rounded-none",
+                        "px-2.5 py-2 text-[11px] 2xl:text-xs uppercase tracking-[0.18em] font-medium transition-colors inline-flex items-center gap-1 rounded-none",
                         isActive || activeDropdown === item.label
                           ? "text-cognac font-bold"
                           : "text-charcoal/80 hover:text-cognac"
@@ -81,7 +81,7 @@ export function Header() {
                       {item.label}
                       <ChevronDown
                         className={cn(
-                          "w-3.5 h-3.5 transition-transform duration-200",
+                          "w-3 h-3 transition-transform duration-200",
                           activeDropdown === item.label ? "rotate-180 text-cognac" : "text-charcoal-400"
                         )}
                       />
@@ -89,28 +89,28 @@ export function Header() {
 
                     {/* Luxury Mega Menu Dropdown */}
                     {activeDropdown === item.label && (
-                      <div className="absolute top-full left-1/2 -translate-x-1/3 w-[840px] bg-white border border-charcoal/15 shadow-2xl rounded-none p-6 animate-in fade-in-50 slide-in-from-top-2 duration-150 z-50">
-                        <div className="grid grid-cols-12 gap-6">
+                      <div className="absolute top-full left-1/2 -translate-x-1/3 w-[820px] bg-white border border-charcoal/15 shadow-2xl rounded-none p-5 animate-in fade-in-50 slide-in-from-top-2 duration-150 z-50">
+                        <div className="grid grid-cols-12 gap-5">
                           {/* Column 1: Core Categories */}
-                          <div className="col-span-4 space-y-3">
-                            <div className="pb-2 border-b border-charcoal/10 flex items-center justify-between">
-                              <span className="text-[10px] tracking-[0.2em] uppercase font-bold text-cognac">
+                          <div className="col-span-4 space-y-2.5">
+                            <div className="pb-1.5 border-b border-charcoal/10 flex items-center justify-between">
+                              <span className="text-[9px] tracking-[0.2em] uppercase font-bold text-cognac">
                                 Core Silhouettes
                               </span>
-                              <span className="text-[10px] text-charcoal-400 font-mono">01–06</span>
+                              <span className="text-[9px] text-charcoal-400 font-mono">01–06</span>
                             </div>
-                            <div className="space-y-1">
+                            <div className="space-y-0.5">
                               {coreCategories.map((child) => (
                                 <Link
                                   key={child.label}
                                   href={child.href}
-                                  className="block px-2.5 py-1.5 rounded-none hover:bg-cognac-50/60 transition-colors group/link"
+                                  className="block px-2 py-1.5 rounded-none hover:bg-cognac-50/60 transition-colors group/link"
                                 >
-                                  <span className="block text-xs font-semibold text-charcoal group-hover/link:text-cognac">
+                                  <span className="block text-[11.5px] font-medium text-charcoal group-hover/link:text-cognac">
                                     {child.label}
                                   </span>
                                   {child.description && (
-                                    <span className="block text-[11px] text-charcoal-400 font-light truncate mt-0.5">
+                                    <span className="block text-[10px] text-charcoal-400 font-light truncate mt-0.5">
                                       {child.description}
                                     </span>
                                   )}
@@ -120,25 +120,25 @@ export function Header() {
                           </div>
 
                           {/* Column 2: Specialty & Artisan Lines */}
-                          <div className="col-span-4 space-y-3">
-                            <div className="pb-2 border-b border-charcoal/10 flex items-center justify-between">
-                              <span className="text-[10px] tracking-[0.2em] uppercase font-bold text-cognac">
+                          <div className="col-span-4 space-y-2.5">
+                            <div className="pb-1.5 border-b border-charcoal/10 flex items-center justify-between">
+                              <span className="text-[9px] tracking-[0.2em] uppercase font-bold text-cognac">
                                 Artisan & Specialty Lines
                               </span>
-                              <span className="text-[10px] text-charcoal-400 font-mono">07–12</span>
+                              <span className="text-[9px] text-charcoal-400 font-mono">07–12</span>
                             </div>
-                            <div className="space-y-1">
+                            <div className="space-y-0.5">
                               {specialtyCategories.map((child) => (
                                 <Link
                                   key={child.label}
                                   href={child.href}
-                                  className="block px-2.5 py-1.5 rounded-none hover:bg-cognac-50/60 transition-colors group/link"
+                                  className="block px-2 py-1.5 rounded-none hover:bg-cognac-50/60 transition-colors group/link"
                                 >
-                                  <span className="block text-xs font-semibold text-charcoal group-hover/link:text-cognac">
+                                  <span className="block text-[11.5px] font-medium text-charcoal group-hover/link:text-cognac">
                                     {child.label}
                                   </span>
                                   {child.description && (
-                                    <span className="block text-[11px] text-charcoal-400 font-light truncate mt-0.5">
+                                    <span className="block text-[10px] text-charcoal-400 font-light truncate mt-0.5">
                                       {child.description}
                                     </span>
                                   )}
@@ -148,29 +148,29 @@ export function Header() {
                           </div>
 
                           {/* Column 3: Featured Atelier Card */}
-                          <div className="col-span-4 bg-[#fbf9f6] border border-charcoal/10 p-5 flex flex-col justify-between">
-                            <div className="space-y-2.5">
-                              <span className="inline-block text-[9px] font-mono tracking-widest uppercase font-bold text-white bg-cognac px-2.5 py-0.5">
+                          <div className="col-span-4 bg-[#fbf9f6] border border-charcoal/10 p-4 flex flex-col justify-between">
+                            <div className="space-y-2">
+                              <span className="inline-block text-[8.5px] font-mono tracking-widest uppercase font-bold text-white bg-cognac px-2 py-0.5">
                                 Export Master Line
                               </span>
-                              <h4 className="font-serif text-base font-bold text-charcoal leading-snug">
+                              <h4 className="font-serif text-sm font-bold text-charcoal leading-snug">
                                 12 Master Manufacturing Categories
                               </h4>
-                              <p className="text-xs text-charcoal-600 font-light leading-relaxed">
+                              <p className="text-[11px] text-charcoal-600 font-light leading-relaxed">
                                 Bespoke sampling, custom Pantone leather dyeing, and export batches engineered for global luxury retail.
                               </p>
                             </div>
 
-                            <div className="space-y-2 pt-4 border-t border-charcoal/10">
+                            <div className="space-y-1.5 pt-3 border-t border-charcoal/10">
                               <Link
                                 href="/products"
-                                className="inline-flex items-center gap-1.5 text-xs font-bold text-cognac hover:text-charcoal uppercase tracking-wider transition-colors"
+                                className="inline-flex items-center gap-1.5 text-[11px] font-bold text-cognac hover:text-charcoal uppercase tracking-wider transition-colors"
                               >
-                                View All 12 Collections <ArrowRight className="w-3.5 h-3.5" />
+                                View All 12 Collections <ArrowRight className="w-3 h-3" />
                               </Link>
                               <Link
                                 href="/catalogue-request"
-                                className="block text-[11px] text-charcoal-500 hover:text-cognac underline underline-offset-2 transition-colors"
+                                className="block text-[10px] text-charcoal-500 hover:text-cognac underline underline-offset-2 transition-colors"
                               >
                                 Download Digital Lookbook (PDF)
                               </Link>
@@ -188,7 +188,7 @@ export function Header() {
                   key={item.label}
                   href={item.href}
                   className={cn(
-                    "px-3 py-2 text-xs 2xl:text-[13px] uppercase tracking-[0.18em] font-semibold transition-colors rounded-none relative",
+                    "px-2.5 py-2 text-[11px] 2xl:text-xs uppercase tracking-[0.18em] font-medium transition-colors rounded-none relative",
                     isActive
                       ? "text-cognac font-bold"
                       : "text-charcoal/80 hover:text-cognac"
@@ -196,7 +196,7 @@ export function Header() {
                 >
                   {item.label}
                   {isActive && (
-                    <span className="absolute bottom-0 left-3 right-3 h-[2px] bg-cognac" />
+                    <span className="absolute bottom-0 left-2.5 right-2.5 h-[2px] bg-cognac" />
                   )}
                 </Link>
               );
@@ -204,23 +204,23 @@ export function Header() {
           </nav>
 
           {/* 3. Action CTAs */}
-          <div className="hidden sm:flex items-center gap-3 shrink-0">
+          <div className="hidden sm:flex items-center gap-2.5 shrink-0">
             <Button
               href="/catalogue-request"
               variant="outline"
               size="sm"
-              className="hidden lg:inline-flex text-xs uppercase tracking-wider font-bold py-2.5 px-4 border-charcoal/20 text-charcoal hover:border-charcoal hover:bg-charcoal hover:text-white"
+              className="hidden lg:inline-flex text-[10.5px] uppercase tracking-wider font-semibold py-2 px-3.5 border-charcoal/20 text-charcoal hover:border-charcoal hover:bg-charcoal hover:text-white"
             >
-              <FileText className="w-3.5 h-3.5" />
+              <FileText className="w-3 h-3" />
               Catalogue
             </Button>
             <Button
               href="/contact"
               variant="primary"
               size="sm"
-              className="text-xs uppercase tracking-wider font-bold py-2.5 px-5 shadow-xs hover:shadow-md"
+              className="text-[10.5px] uppercase tracking-wider font-semibold py-2 px-4 shadow-xs hover:shadow-md"
             >
-              <Send className="w-3.5 h-3.5" />
+              <Send className="w-3 h-3" />
               Bulk Inquiry
             </Button>
           </div>

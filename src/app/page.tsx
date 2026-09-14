@@ -48,33 +48,33 @@ export default function HomePage() {
 
         {/* Elegant Floating Editorial Card on Pure White */}
         <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-12 sm:pb-16 pt-32">
-          <div className="max-w-4xl bg-white/95 backdrop-blur-md p-8 sm:p-12 lg:p-14 border-2 border-charcoal/15 shadow-2xl space-y-6 text-left">
+          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-6 sm:p-10 lg:p-12 border border-charcoal/15 shadow-xl space-y-5 text-left">
             <div className="inline-flex items-center gap-3">
-              <span className="bg-cognac text-white text-xs sm:text-sm font-bold tracking-widest uppercase px-4 py-1.5 rounded-none shadow-sm">
+              <span className="bg-cognac text-white text-[10px] sm:text-xs font-bold tracking-widest uppercase px-3 py-1 rounded-none shadow-xs">
                 ★ OEM / ODM & Private Label Exporter
               </span>
-              <span className="text-xs sm:text-sm text-charcoal-500 font-mono tracking-widest uppercase font-semibold">
+              <span className="text-[10px] sm:text-xs text-charcoal-500 font-mono tracking-widest uppercase font-semibold">
                 INDIA TO WORLDWIDE
               </span>
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-black text-charcoal leading-[0.98] tracking-tight uppercase">
+            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-charcoal leading-[1.08] tracking-tight uppercase">
               MANUFACTURERS & <br />
               <span className="italic font-normal text-cognac lowercase">exporters of</span> <br />
               LUXURY LEATHER GOODS
             </h1>
 
-            <p className="text-base sm:text-xl text-charcoal-700 leading-relaxed font-light max-w-3xl">
+            <p className="text-sm sm:text-base text-charcoal-600 leading-relaxed font-light max-w-2xl">
               Custom OEM/ODM contract manufacturing and wholesale export of genuine leather handbags, wallets, belts, apparel, and corporate accessories for international brands and buying houses across the USA, UK, Europe, Australia, UAE, and Japan.
             </p>
 
             {/* Action CTAs */}
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
-              <Button href="/catalogue-request" variant="primary" size="lg" className="shadow-lg">
-                <FileText className="w-5 h-5 mr-2.5" /> Request 2025 Catalogue
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 pt-2">
+              <Button href="/catalogue-request" variant="primary" size="md" className="shadow-xs text-xs uppercase tracking-wider font-semibold">
+                <FileText className="w-4 h-4 mr-2" /> Request 2025 Catalogue
               </Button>
-              <Button href="/private-label" variant="outline" size="lg" className="border-2 border-charcoal text-charcoal hover:bg-charcoal hover:text-white">
-                <Sliders className="w-5 h-5 mr-2.5" /> Start OEM Project
+              <Button href="/private-label" variant="outline" size="md" className="border border-charcoal/30 text-charcoal hover:bg-charcoal hover:text-white text-xs uppercase tracking-wider font-semibold">
+                <Sliders className="w-4 h-4 mr-2" /> Start OEM Project
               </Button>
             </div>
           </div>
@@ -82,27 +82,27 @@ export default function HomePage() {
       </section>
 
       {/* 1.1 Full Breadth Trust Indicators Bar */}
-      <section className="w-full px-6 sm:px-12 lg:px-16 xl:px-20 -mt-8 relative z-20">
-        <div className="bg-white border-2 border-charcoal/15 shadow-xl p-8 sm:p-12 grid grid-cols-2 lg:grid-cols-4 gap-8 text-left">
-          <div className="space-y-1">
-            <span className="block font-serif text-3xl sm:text-5xl font-black text-charcoal">100%</span>
-            <span className="text-xs sm:text-sm uppercase tracking-widest text-charcoal-700 font-bold">Genuine Leather</span>
-            <p className="text-xs text-charcoal-500 font-light mt-1 hidden sm:block">Full-grain, veg-tan & calf nappa</p>
+      <section className="w-full px-6 sm:px-12 lg:px-16 xl:px-20 -mt-6 relative z-20">
+        <div className="bg-white border border-charcoal/15 shadow-lg p-6 sm:p-8 grid grid-cols-2 lg:grid-cols-4 gap-6 text-left">
+          <div className="space-y-0.5">
+            <span className="block font-serif text-2xl sm:text-3xl font-bold text-charcoal">100%</span>
+            <span className="text-[11px] sm:text-xs uppercase tracking-wider text-charcoal-700 font-semibold">Genuine Leather</span>
+            <p className="text-[11px] text-charcoal-500 font-light mt-0.5 hidden sm:block">Full-grain, veg-tan & calf nappa</p>
           </div>
-          <div className="space-y-1">
-            <span className="block font-serif text-3xl sm:text-5xl font-black text-charcoal">7-14 Days</span>
-            <span className="text-xs sm:text-sm uppercase tracking-widest text-charcoal-700 font-bold">Sample Prototyping</span>
-            <p className="text-xs text-charcoal-500 font-light mt-1 hidden sm:block">Express DHL/FedEx counter-samples</p>
+          <div className="space-y-0.5">
+            <span className="block font-serif text-2xl sm:text-3xl font-bold text-charcoal">7-14 Days</span>
+            <span className="text-[11px] sm:text-xs uppercase tracking-wider text-charcoal-700 font-semibold">Sample Prototyping</span>
+            <p className="text-[11px] text-charcoal-500 font-light mt-0.5 hidden sm:block">Express DHL/FedEx counter-samples</p>
           </div>
-          <div className="space-y-1">
-            <span className="block font-serif text-3xl sm:text-5xl font-black text-charcoal">AQL 2.5</span>
-            <span className="text-xs sm:text-sm uppercase tracking-widest text-charcoal-700 font-bold">Quality Standard</span>
-            <p className="text-xs text-charcoal-500 font-light mt-1 hidden sm:block">Strict pre-shipment audit</p>
+          <div className="space-y-0.5">
+            <span className="block font-serif text-2xl sm:text-3xl font-bold text-charcoal">AQL 2.5</span>
+            <span className="text-[11px] sm:text-xs uppercase tracking-wider text-charcoal-700 font-semibold">Quality Standard</span>
+            <p className="text-[11px] text-charcoal-500 font-light mt-0.5 hidden sm:block">Strict pre-shipment audit</p>
           </div>
-          <div className="space-y-1">
-            <span className="block font-serif text-3xl sm:text-5xl font-black text-charcoal">25+</span>
-            <span className="text-xs sm:text-sm uppercase tracking-widest text-charcoal-700 font-bold">Export Markets</span>
-            <p className="text-xs text-charcoal-500 font-light mt-1 hidden sm:block">FOB, CIF, DDP international freight</p>
+          <div className="space-y-0.5">
+            <span className="block font-serif text-2xl sm:text-3xl font-bold text-charcoal">25+</span>
+            <span className="text-[11px] sm:text-xs uppercase tracking-wider text-charcoal-700 font-semibold">Export Markets</span>
+            <p className="text-[11px] text-charcoal-500 font-light mt-0.5 hidden sm:block">FOB, CIF, DDP international freight</p>
           </div>
         </div>
       </section>

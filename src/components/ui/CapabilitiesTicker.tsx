@@ -94,30 +94,30 @@ export function CapabilitiesTicker() {
   const rowTwoItems = [...ROW_TWO_CAPABILITIES, ...ROW_TWO_CAPABILITIES];
 
   return (
-    <section className="w-full bg-charcoal-50/50 py-16 sm:py-24 border-t-2 border-charcoal/10 overflow-hidden">
+    <section className="w-full bg-[#faf8f5] py-10 sm:py-14 border-t border-charcoal/10 overflow-hidden">
       {/* Header */}
-      <div className="w-full px-6 sm:px-12 lg:px-16 xl:px-20 mb-10 text-center max-w-4xl mx-auto space-y-3">
-        <span className="text-cognac uppercase tracking-[0.25em] text-xs sm:text-sm font-bold block">
-          ★ Atelier Finishing & Techniques
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16 mb-8 text-center max-w-3xl mx-auto space-y-2">
+        <span className="text-cognac uppercase tracking-[0.22em] text-[10px] font-bold block">
+          ★ Atelier Finishing & Craftsmanship
         </span>
-        <h2 className="font-serif text-3xl sm:text-5xl font-black text-charcoal tracking-tight uppercase">
-          Comprehensive Manufacturing Capabilities
+        <h2 className="font-serif text-xl sm:text-2xl font-bold text-charcoal tracking-tight uppercase">
+          In-House Manufacturing Capabilities
         </h2>
-        <p className="text-xs sm:text-base text-charcoal-600 font-light max-w-2xl mx-auto">
-          Explore the proprietary artisanal and industrial techniques executed in-house for international private labels and fashion houses.
+        <p className="text-xs text-charcoal-500 font-light max-w-xl mx-auto leading-relaxed">
+          Proprietary artisanal and industrial techniques executed in-house for international private labels and luxury houses.
         </p>
       </div>
 
       {/* Row 1: Forward Moving Ticker */}
-      <div className="w-full overflow-hidden py-2.5">
-        <div className="animate-marquee-forward gap-4 sm:gap-6 px-4">
+      <div className="w-full overflow-hidden py-2">
+        <div className="animate-marquee-forward gap-3.5 sm:gap-5 px-4">
           {rowOneItems.map((item, idx) => (
             <div
               key={`r1-${item.id}-${idx}`}
-              className="bg-white rounded-none border border-charcoal/15 hover:border-cognac shadow-xs hover:shadow-md p-4 sm:p-4.5 flex items-center gap-4 min-w-[320px] sm:min-w-[360px] max-w-[360px] transition-all duration-300 select-none shrink-0 group"
+              className="bg-white rounded-none border border-charcoal/12 hover:border-cognac shadow-xs hover:shadow-md p-3.5 sm:p-4 flex items-center gap-3.5 min-w-[300px] sm:min-w-[340px] max-w-[340px] transition-all duration-300 select-none shrink-0 group"
             >
               {/* Left Thumbnail */}
-              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-none overflow-hidden shrink-0 bg-charcoal-50 border border-charcoal/10 relative">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-none overflow-hidden shrink-0 bg-charcoal-50 border border-charcoal/10 relative">
                 <img
                   src={item.image}
                   alt={item.title}
@@ -127,11 +127,11 @@ export function CapabilitiesTicker() {
               </div>
 
               {/* Right Content */}
-              <div className="space-y-1 min-w-0">
-                <h3 className="font-serif text-sm sm:text-base font-bold text-charcoal group-hover:text-cognac transition-colors truncate">
+              <div className="space-y-0.5 min-w-0">
+                <h3 className="font-serif text-xs sm:text-[13px] font-semibold text-charcoal group-hover:text-cognac transition-colors truncate">
                   {item.title}
                 </h3>
-                <p className="text-[11px] sm:text-xs text-charcoal-500 font-light leading-relaxed line-clamp-2">
+                <p className="text-[10.5px] text-charcoal-500 font-light leading-snug line-clamp-2">
                   {item.description}
                 </p>
               </div>
