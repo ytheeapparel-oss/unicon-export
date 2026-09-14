@@ -44,6 +44,9 @@ export type ProductCategory =
   | "Small Leather Goods"
   | "Corporate Gifts & Deskware"
   | "Custom Developed OEM/ODM"
+  | "Designer Jacquard Totes"
+  | "Artisan Travel Duffels"
+  | "Croc-Embossed Briefcases"
   | "Heritage Leather Backpacks";
 
 export interface CategoryInfo {

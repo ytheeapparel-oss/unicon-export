@@ -74,31 +74,31 @@ export const PRODUCT_CATEGORIES: CategoryInfo[] = [
     featuredProductCount: 8
   },
   {
-    id: "small-goods",
-    name: "Small Leather Goods",
-    slug: "small-leather-goods",
-    tagline: "Passport cases, key bells, sunglass pouches, AirTag fobs, and tech accessories.",
-    description: "Meticulously crafted pocket accessories ideal for brand gift collections and high-margin retail accessories.",
+    id: "jacquard-totes",
+    name: "Designer Jacquard Totes",
+    slug: "designer-jacquard-totes",
+    tagline: "Signature houndstooth, woven jacquard, and luxury canvas carryalls trimmed in fine full-grain calfskin.",
+    description: "Architectural day shoppers combining bespoke woven houndstooth textiles with hand-burnished nappa leather trims, matching detachable leather pouches, and reinforced base corners.",
     image: "/images/panel-9.jpg",
-    featuredProductCount: 22
+    featuredProductCount: 14
   },
   {
-    id: "corporate-gifts",
-    name: "Corporate Gifts & Deskware",
-    slug: "corporate-gifts",
-    tagline: "Custom-embossed desk pads, valet trays, tech mats, and executive gift sets for corporate buyers.",
-    description: "Handcrafted desktop accessories with bespoke brand debossing, premium gift packaging, and bulk volume scalability.",
+    id: "artisan-duffels",
+    name: "Artisan Travel Duffels",
+    slug: "artisan-travel-duffels",
+    tagline: "Handcrafted olive and earth-tone vegetable-tanned leather weekender bags with solid brass hardware.",
+    description: "Spacious luxury travel duffels built from hand-selected pull-up leather, featuring reinforced rolled handles, detachable shoulder straps, and heavy-gauge brass zipper closures.",
     image: "/images/panel-10.jpg",
-    featuredProductCount: 15
+    featuredProductCount: 12
   },
   {
-    id: "custom-oem",
-    name: "Custom Developed OEM/ODM",
-    slug: "custom-developed-oem-odm",
-    tagline: "Bespoke contract manufacturing from initial sketch to full tech-pack realization.",
-    description: "Collaborative R&D, custom tannery color matching (Pantone matching system), custom hardware moulds, and confidential manufacturing agreements.",
+    id: "croc-briefcases",
+    name: "Croc-Embossed Briefcases",
+    slug: "croc-embossed-briefcases",
+    tagline: "Ultra-luxurious crocodile-embossed executive briefcases, folios, and laptop document cases.",
+    description: "Richly glazed emerald croc-embossed calfskin cases featuring dual golden perimeter zippers, dedicated tech sleeves, and precision-tailored rolled carry handles.",
     image: "/images/panel-11.jpg",
-    featuredProductCount: 50
+    featuredProductCount: 15
   },
   {
     id: "heritage-backpacks",

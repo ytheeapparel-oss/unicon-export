@@ -516,5 +516,134 @@ export const PRODUCTS: Product[] = [
       { label: "Hardware Plating", value: "ASTM B117 72h Salt-Spray Tested Brass" },
       { label: "Stitching", value: "Bonded Nylon TKT-40 Saddle Thread" }
     ]
+  },
+  {
+    id: "UL-JT-109",
+    slug: "houndstooth-jacquard-nappa-leather-shopper",
+    name: "The Houndstooth Jacquard & Nappa Leather Shopper",
+    category: "Designer Jacquard Totes",
+    categorySlug: "designer-jacquard-totes",
+    shortDescription: "Signature houndstooth woven jacquard carryall trimmed in smooth black full-grain calfskin with matching leather accessory pouch.",
+    fullDescription: "An exquisite blend of heritage houndstooth textile and premium Italian-grade full-grain nappa cowhide. Structured rectangular silhouette featuring double rolled leather shoulder handles, leather-reinforced base corners, and a detachable zippered nappa leather accessory pouch. Ideal for luxury boutique collections.",
+    images: [
+      "/images/panel-9.jpg"
+    ],
+    leatherType: "Full-Grain Nappa Cowhide & Premium Woven Houndstooth Jacquard",
+    tannage: "LWG Silver-Rated Chrome-Free Tanned Leather",
+    colors: ["Monochrome Black & Ivory", "Espresso Houndstooth", "Navy Jacquard"],
+    dimensions: {
+      length: "40",
+      width: "15",
+      height: "32",
+      unit: "cm"
+    },
+    lining: "Heavyweight Black Cotton Twill with Leather Slip Pocket",
+    hardware: "Solid Brass with Electroplated Matte Black & Pale Gold Finish",
+    brandingOptions: ["Blind Heat Debossing", "Metallic Gold Foil Stamp", "Custom Metal Logo Tag"],
+    packagingOptions: ["Organic Cotton Drawstring Dustbag", "Rigid Presentation Box", "Export Master Carton"],
+    moq: "50 units per colorway",
+    sampleLeadTime: "7 to 10 working days",
+    productionLeadTime: "30 to 35 days post sign-off",
+    customizationAvailable: true,
+    featured: true,
+    keyFeatures: [
+      "High-density woven houndstooth jacquard body resistant to pilling and abrasion",
+      "Supple full-grain black nappa leather rolled handles with 25cm drop clearance",
+      "Detachable exterior nappa leather card & key pouch with secure brass zipper",
+      "Reinforced base with full leather corner guards and 4 protective brass studs",
+      "Spacious main compartment accommodating 15-inch laptops and daily essentials"
+    ],
+    specs: [
+      { label: "SKU", value: "UL-JT-109" },
+      { label: "Outer Material", value: "Houndstooth Jacquard & Nappa Cowhide" },
+      { label: "Hardware", value: "Solid Pale Gold Brass" },
+      { label: "Pouch Included", value: "Yes (Detachable Leather Zip Pouch)" }
+    ]
+  },
+  {
+    id: "UL-AD-110",
+    slug: "olive-artisan-vegetable-tanned-travel-duffel",
+    name: "The Olive Artisan Vegetable-Tanned Travel Duffel",
+    category: "Artisan Travel Duffels",
+    categorySlug: "artisan-travel-duffels",
+    shortDescription: "Handcrafted olive green pull-up leather weekender duffel featuring reinforced wrap-around handles and antique brass hardware.",
+    fullDescription: "Engineered for discerning travelers and luxury resort luggage brands. Hand-built from 2.0mm full-grain pull-up cowhide in an earthy olive patina. Features continuous structural leather harness handles, heavy-gauge two-way brass zipper, detachable padded shoulder strap, and protective brass base feet.",
+    images: [
+      "/images/panel-10.jpg"
+    ],
+    leatherType: "Full-Grain Oil Pull-Up Cowhide (2.0mm)",
+    tannage: "100% Eco-Friendly Vegetable-Tanned",
+    colors: ["Artisan Olive Green", "Vintage Cognac", "Espresso Brown"],
+    dimensions: {
+      length: "52",
+      width: "26",
+      height: "28",
+      unit: "cm"
+    },
+    lining: "Water-Resistant Olive Green Heavy Cotton Drill",
+    hardware: "Heavy-Gauge Antique Brass Zippers & Solid Cast Buckles",
+    brandingOptions: ["Blind Heat Debossing", "Luggage Tag Laser Engraving", "Custom Metal Plaque"],
+    packagingOptions: ["Organic Cotton Breathable Dustbag", "Export Shipping Master Carton"],
+    moq: "50 units per colorway",
+    sampleLeadTime: "7 to 10 working days",
+    productionLeadTime: "30 to 40 days post sign-off",
+    customizationAvailable: true,
+    featured: true,
+    keyFeatures: [
+      "Hand-selected pull-up leather with rich marbled depth and self-healing patina",
+      "Full wrap-around leather load-bearing handles tested to 35kg capacity",
+      "Detachable ergonomic shoulder strap with adjustable slider and swivel clips",
+      "Reinforced bottom floor with 5 heavy-duty solid brass floor protector studs",
+      "TSA airline carry-on compliant dimensions"
+    ],
+    specs: [
+      { label: "SKU", value: "UL-AD-110" },
+      { label: "Capacity", value: "38 Liters" },
+      { label: "Weight", value: "1.65 kg" },
+      { label: "Zipper", value: "YKK #8 Heavy-Duty Brass 2-Way Zipper" }
+    ]
+  },
+  {
+    id: "UL-CB-111",
+    slug: "emerald-crocodile-embossed-executive-briefcase",
+    name: "The Emerald Crocodile-Embossed Executive Briefcase",
+    category: "Croc-Embossed Briefcases",
+    categorySlug: "croc-embossed-briefcases",
+    shortDescription: "Ultra-luxurious dark emerald crocodile-embossed calfskin laptop briefcase with dual perimeter gold zippers.",
+    fullDescription: "A statement of timeless boardroom authority and bespoke leather luxury. Handcrafted from premium calfskin embossed with a high-relief crocodile scale pattern and high-gloss glaze finish. Equipped with dual golden perimeter zippers, front quick-access document zip pocket, structured rolled handles, and padded 16-inch laptop compartment.",
+    images: [
+      "/images/panel-11.jpg"
+    ],
+    leatherType: "Glazed Crocodile-Embossed Full-Grain Calfskin",
+    tannage: "Italian Semi-Aniline Chromium-Free Tanning",
+    colors: ["Deep Forest Emerald", "Midnight Onyx", "Mahogany Croc"],
+    dimensions: {
+      length: "41",
+      width: "10",
+      height: "30",
+      unit: "cm"
+    },
+    lining: "Champagne Micro-Suede Velour Interior",
+    hardware: "Mirror-Polished 24K Gold Electroplated Brass",
+    brandingOptions: ["Micro-Inlay Metal Lettering", "Blind Heat Deboss", "Foil Hot Stamp"],
+    packagingOptions: ["Velvet-Touch Gift Box", "Satin Dustbag", "Export Master Carton"],
+    moq: "50 units per colorway",
+    sampleLeadTime: "7 to 10 working days",
+    productionLeadTime: "30 to 35 days post sign-off",
+    customizationAvailable: true,
+    featured: true,
+    keyFeatures: [
+      "Deeply defined crocodile scale relief with hand-glazed mirror finish",
+      "Dual golden perimeter zippers providing 180-degree wide clamshell access",
+      "Front exterior zippered organizer pocket with phone & passport slip pockets",
+      "Structured rolled top handles with wrapped leather mounting loops",
+      "Padded central compartment dedicated for 15-inch and 16-inch laptops"
+    ],
+    specs: [
+      { label: "SKU", value: "UL-CB-111" },
+      { label: "Laptop Compatibility", value: "Up to 16\" MacBook Pro / ThinkPad" },
+      { label: "Hardware Plating", value: "Electroplated 24K Pale Gold" },
+      { label: "Closure", value: "Dual Perimeter Metal Teeth Zippers" }
+    ]
   }
 ];

@@ -27,9 +27,9 @@ export const MAIN_NAV: NavItem[] = [
       { label: "Wallets & Cardholders", href: "/products?category=Wallets+%26+Cardholders", description: "Slim RFID bifold & card sleeves" },
       { label: "Leather Belts", href: "/products?category=Leather+Belts", description: "Feather-edge & casual belts" },
       { label: "Leather Jackets", href: "/products?category=Leather+Jackets+%26+Apparel", description: "Tailored lambskin outerwear" },
-      { label: "Small Leather Goods", href: "/products?category=Small+Leather+Goods", description: "Passport folios & key fobs" },
-      { label: "Corporate Gifts", href: "/products?category=Corporate+Gifts+%26+Deskware", description: "Desk pads & executive gift sets" },
-      { label: "Custom OEM/ODM", href: "/private-label", description: "Bespoke contract manufacturing" },
+      { label: "Designer Jacquard Totes", href: "/products?category=Designer+Jacquard+Totes", description: "Houndstooth & woven carryalls" },
+      { label: "Artisan Duffels", href: "/products?category=Artisan+Travel+Duffels", description: "Full-grain olive weekender bags" },
+      { label: "Croc-Embossed Briefcases", href: "/products?category=Croc-Embossed+Briefcases", description: "Luxury emerald executive cases" },
       { label: "Heritage Backpacks", href: "/products?category=Heritage+Leather+Backpacks", description: "Two-tone saddle leather rucksacks" },
     ]
   },
