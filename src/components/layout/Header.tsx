@@ -54,7 +54,7 @@ export function Header() {
           </Link>
 
           {/* 2. Desktop Navigation */}
-          <nav className="hidden xl:flex items-center space-x-1 lg:space-x-2 2xl:space-x-4" aria-label="Main Navigation">
+          <nav className="hidden xl:flex items-center space-x-0.5 2xl:space-x-1.5" aria-label="Main Navigation">
             {MAIN_NAV.map((item) => {
               const isActive = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
 
@@ -71,7 +71,7 @@ export function Header() {
                   >
                     <button
                       className={cn(
-                        "px-2.5 py-2 text-[11px] 2xl:text-xs uppercase tracking-[0.18em] font-medium transition-colors inline-flex items-center gap-1 rounded-none",
+                        "px-2 2xl:px-2.5 py-1.5 text-[10.5px] 2xl:text-[11.5px] uppercase tracking-[0.14em] 2xl:tracking-[0.16em] font-medium transition-colors inline-flex items-center gap-1 rounded-none",
                         isActive || activeDropdown === item.label
                           ? "text-cognac font-bold"
                           : "text-charcoal/80 hover:text-cognac"
@@ -89,7 +89,7 @@ export function Header() {
 
                     {/* Luxury Mega Menu Dropdown */}
                     {activeDropdown === item.label && (
-                      <div className="absolute top-full left-1/2 -translate-x-1/3 w-[820px] bg-white border border-charcoal/15 shadow-2xl rounded-none p-5 animate-in fade-in-50 slide-in-from-top-2 duration-150 z-50">
+                      <div className="absolute top-full left-1/2 -translate-x-1/2 w-[820px] max-w-[90vw] bg-white border border-charcoal/15 shadow-2xl rounded-none p-5 animate-in fade-in-50 slide-in-from-top-2 duration-150 z-50">
                         <div className="grid grid-cols-12 gap-5">
                           {/* Column 1: Core Categories */}
                           <div className="col-span-4 space-y-2.5">
@@ -188,7 +188,7 @@ export function Header() {
                   key={item.label}
                   href={item.href}
                   className={cn(
-                    "px-2.5 py-2 text-[11px] 2xl:text-xs uppercase tracking-[0.18em] font-medium transition-colors rounded-none relative",
+                    "px-2 2xl:px-2.5 py-1.5 text-[10.5px] 2xl:text-[11.5px] uppercase tracking-[0.14em] 2xl:tracking-[0.16em] font-medium transition-colors rounded-none relative whitespace-nowrap",
                     isActive
                       ? "text-cognac font-bold"
                       : "text-charcoal/80 hover:text-cognac"
@@ -196,7 +196,7 @@ export function Header() {
                 >
                   {item.label}
                   {isActive && (
-                    <span className="absolute bottom-0 left-2.5 right-2.5 h-[2px] bg-cognac" />
+                    <span className="absolute bottom-0 left-2 right-2 h-[2px] bg-cognac" />
                   )}
                 </Link>
               );

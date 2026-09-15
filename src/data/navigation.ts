@@ -7,6 +7,14 @@ export interface NavItem {
 
 export const MAIN_NAV: NavItem[] = [
   {
+    label: "Home",
+    href: "/"
+  },
+  {
+    label: "About Us",
+    href: "/about"
+  },
+  {
     label: "Catalogue",
     href: "/products",
     children: [
@@ -34,16 +42,16 @@ export const MAIN_NAV: NavItem[] = [
     href: "/craftsmanship"
   },
   {
+    label: "Sustainability",
+    href: "/sustainability"
+  },
+  {
     label: "Global Export",
     href: "/export"
   },
   {
     label: "Compliance",
     href: "/compliance"
-  },
-  {
-    label: "About Us",
-    href: "/about"
   },
   {
     label: "Contact",
