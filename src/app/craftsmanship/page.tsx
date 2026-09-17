@@ -104,34 +104,32 @@ export default function CraftsmanshipPage() {
         </div>
 
         {/* Elegant Floating Editorial Card on Pure White */}
-        <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-12 sm:pb-16 pt-28">
-          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border-2 border-charcoal/15 shadow-2xl space-y-6 text-left">
+        <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-10 sm:pb-14 pt-24">
+          <div className="max-w-2xl bg-white/95 backdrop-blur-md p-6 sm:p-8 border border-charcoal/10 shadow-lg space-y-4 text-left">
             <Breadcrumbs items={[{ label: "Craftsmanship & Atelier Infrastructure" }]} />
 
-            <div className="inline-flex items-center gap-3 mt-2">
-              <span className="bg-cognac text-white text-xs sm:text-sm font-bold tracking-widest uppercase px-4 py-1.5 rounded-none shadow-sm">
-                ★ Generational Leather Guild
+            <div className="inline-flex items-center gap-2.5 mt-1">
+              <span className="bg-cognac text-white text-[10px] sm:text-xs font-mono font-medium tracking-widest uppercase px-3 py-1 rounded-none shadow-xs">
+                Generational Leather Guild
               </span>
-              <span className="text-xs sm:text-sm text-charcoal-500 font-mono tracking-widest uppercase font-semibold">
-                MASTER HANDCRAFT & MACHINERY
+              <span className="text-[10px] sm:text-xs text-charcoal-500 font-mono tracking-widest uppercase font-medium">
+                Master Handcraft & Precision
               </span>
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-black text-charcoal leading-[0.98] tracking-tight uppercase">
-              The 11-Stage <br />
-              <span className="italic font-normal text-cognac lowercase">precision</span> <br />
-              CRAFTSMANSHIP PROCESS
+            <h1 className="font-serif text-2xl sm:text-4xl lg:text-5xl font-normal text-charcoal leading-[1.15] tracking-tight">
+              The 11-Stage Precision Craftsmanship Process
             </h1>
 
-            <p className="text-base sm:text-xl text-charcoal-700 leading-relaxed font-light max-w-2xl">
+            <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light max-w-xl">
               Where generational Indian leatherworking traditions converge with German precision engineering, Dürkopp Adler stitching, and Italian edge-finishing chemistry.
             </p>
 
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
-              <Button href="#stages" variant="primary" size="lg" className="shadow-lg">
-                Explore 11-Stage Workflow
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
+              <Button href="#stages" variant="primary" size="md">
+                Explore 11 Stages
               </Button>
-              <Button href="/contact" variant="outline" size="lg" className="border-2 border-charcoal text-charcoal hover:bg-charcoal hover:text-white">
+              <Button href="/contact" variant="outline" size="md" className="border-charcoal/25 text-charcoal hover:bg-charcoal hover:text-white">
                 Request Prototype Sample
               </Button>
             </div>
@@ -141,32 +139,59 @@ export default function CraftsmanshipPage() {
 
       {/* 2. Visual Showcase (Pure White 3-Column Grid) */}
       <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="relative aspect-[4/3] rounded-none overflow-hidden border-2 border-charcoal/15 shadow-md bg-white">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          {/* Panel 1: Hand-Turned Cognac Pebbled Bucket Bag */}
+          <div className="relative aspect-[3/4] rounded-none overflow-hidden border border-charcoal/10 shadow-lg bg-white group">
             <img
-              src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80"
-              alt="Raw Leather Hide Selection & Inspection"
-              className="w-full h-full object-cover"
+              src="/images/craftsmanship-cognac-tote.png"
+              alt="UNICON LEATHER - Hand-Turned Cognac Pebbled Leather Shoulder Bag"
+              className="w-full h-full object-cover object-center transform group-hover:scale-103 transition-transform duration-700 ease-out"
               loading="lazy"
             />
+            {/* Atelier Caption Bar */}
+            <div className="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 flex items-center justify-between bg-white/95 backdrop-blur-md px-4 py-2.5 border border-charcoal/10 shadow-xs">
+              <div>
+                <span className="block text-[9.5px] font-mono tracking-widest uppercase text-cognac font-semibold">Atelier Specimen 01</span>
+                <span className="block font-serif text-xs sm:text-sm text-charcoal font-medium">Cognac Pebbled Shoulder Bag</span>
+              </div>
+              <span className="text-[10px] font-mono uppercase text-charcoal-400">Hand-Skived</span>
+            </div>
           </div>
 
-          <div className="relative aspect-[4/3] rounded-none overflow-hidden border-2 border-charcoal/15 shadow-md bg-white">
+          {/* Panel 2: Structured Black Double-Handle Tote */}
+          <div className="relative aspect-[3/4] rounded-none overflow-hidden border border-charcoal/10 shadow-lg bg-white group">
             <img
-              src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80"
-              alt="Precision Leather Stitching and Edge Skiving"
-              className="w-full h-full object-cover"
+              src="/images/craftsmanship-black-handbag.png"
+              alt="UNICON LEATHER - Precision Structured Black Pebble Leather Handbag"
+              className="w-full h-full object-cover object-center transform group-hover:scale-103 transition-transform duration-700 ease-out"
               loading="lazy"
             />
+            {/* Atelier Caption Bar */}
+            <div className="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 flex items-center justify-between bg-white/95 backdrop-blur-md px-4 py-2.5 border border-charcoal/10 shadow-xs">
+              <div>
+                <span className="block text-[9.5px] font-mono tracking-widest uppercase text-cognac font-semibold">Atelier Specimen 02</span>
+                <span className="block font-serif text-xs sm:text-sm text-charcoal font-medium">Structured Dual-Handle Tote</span>
+              </div>
+              <span className="text-[10px] font-mono uppercase text-charcoal-400">Contrast Lined</span>
+            </div>
           </div>
 
-          <div className="relative aspect-[4/3] rounded-none overflow-hidden border-2 border-charcoal/15 shadow-md bg-white">
+          {/* Panel 3: Vintage Full-Grain Pull-Up Messenger Satchel */}
+          <div className="relative aspect-[3/4] rounded-none overflow-hidden border border-charcoal/10 shadow-lg bg-white group">
             <img
-              src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80"
-              alt="Hardware Fitting & Hand Polishing"
-              className="w-full h-full object-cover"
+              src="/images/craftsmanship-messenger-bag.png"
+              alt="UNICON LEATHER - Handcrafted Vintage Pull-Up Leather Messenger Satchel"
+              className="w-full h-full object-cover object-center transform group-hover:scale-103 transition-transform duration-700 ease-out"
               loading="lazy"
             />
+            {/* Atelier Caption Bar */}
+            <div className="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 flex items-center justify-between bg-white/95 backdrop-blur-md px-4 py-2.5 border border-charcoal/10 shadow-xs">
+              <div>
+                <span className="block text-[9.5px] font-mono tracking-widest uppercase text-cognac font-semibold">Atelier Specimen 03</span>
+                <span className="block font-serif text-xs sm:text-sm text-charcoal font-medium">Heritage Buckle Messenger Satchel</span>
+              </div>
+              <span className="text-[10px] font-mono uppercase text-charcoal-400">Saddle-Stitched</span>
+            </div>
           </div>
         </div>
       </section>
@@ -177,26 +202,26 @@ export default function CraftsmanshipPage() {
           <Badge variant="cognac" size="sm">
             Engineering Precision
           </Badge>
-          <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+          <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-charcoal tracking-tight">
             Detailed Manufacturing Workflow
           </h2>
-          <p className="text-sm sm:text-base text-charcoal-600 font-light">
+          <p className="text-xs sm:text-sm text-charcoal-600 font-light">
             From raw pelt to finished luxury accessory: how our factory ensures zero defect slippage across high-volume container orders.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {manufacturingStages.map((stage) => (
             <div
               key={stage.num}
-              className="bg-white p-8 rounded-none border-2 border-charcoal/15 shadow-sm space-y-4 flex flex-col justify-between hover:border-cognac transition-colors"
+              className="bg-white p-6 sm:p-7 rounded-none border border-charcoal/10 shadow-xs space-y-3 flex flex-col justify-between hover:border-cognac hover:shadow-md transition-all duration-300"
             >
-              <div className="space-y-3">
-                <span className="font-mono text-2xl font-bold text-cognac block">{stage.num}</span>
-                <h3 className="font-serif text-xl font-bold text-charcoal">{stage.title}</h3>
-                <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">{stage.description}</p>
+              <div className="space-y-2">
+                <span className="font-serif text-2xl font-light text-cognac/80 block">{stage.num}</span>
+                <h3 className="font-serif text-base font-medium text-charcoal">{stage.title}</h3>
+                <p className="text-xs text-charcoal-600 leading-relaxed font-light">{stage.description}</p>
               </div>
-              <div className="pt-4 border-t border-charcoal/10 text-xs text-charcoal-500 font-sans italic">
+              <div className="pt-3 border-t border-charcoal/8 text-[11px] text-charcoal-500 font-sans italic">
                 {stage.details}
               </div>
             </div>
@@ -205,27 +230,27 @@ export default function CraftsmanshipPage() {
       </section>
 
       {/* 4. Modern Machinery vs Artisan Touch Comparison (Pure White) */}
-      <section className="w-full bg-white py-20 border-y border-charcoal/10">
+      <section className="w-full bg-[#faf8f5] py-16 border-y border-charcoal/10">
         <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-            <div className="lg:col-span-6 space-y-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+            <div className="lg:col-span-6 space-y-6">
               <Badge variant="cognac" size="sm">
                 Hybrid Production Model
               </Badge>
-              <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+              <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-charcoal tracking-tight">
                 The Harmony of Machinery and Master Handcraft
               </h2>
-              <p className="text-base text-charcoal-600 leading-relaxed font-light">
+              <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
                 We believe true luxury manufacturing requires both technological repeatability and human sensibility. Machinery handles dimensional precision; our master artisans deliver the final tactile grace and hand-burnished edge finesse.
               </p>
 
-              <div className="space-y-4 text-sm text-charcoal-700">
-                <div className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
+              <div className="space-y-3.5 text-xs sm:text-sm text-charcoal-700">
+                <div className="flex items-start gap-2.5">
+                  <CheckCircle2 className="w-4 h-4 text-cognac shrink-0 mt-0.5" />
                   <span><strong>German Precision Machinery:</strong> Dürkopp Adler sewing units, Fortuna skiving equipment, and hydraulic die-cutting presses for zero dimensional variance.</span>
                 </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
+                <div className="flex items-start gap-2.5">
+                  <CheckCircle2 className="w-4 h-4 text-cognac shrink-0 mt-0.5" />
                   <span><strong>Artisan Hand Finishing:</strong> Multi-coat hand edge polishing, hand-stitched bar-tacks, and natural wax buffing for soft tactile hand-feel.</span>
                 </div>
               </div>
@@ -238,22 +263,22 @@ export default function CraftsmanshipPage() {
             </div>
 
             <div className="lg:col-span-6">
-              <div className="bg-white text-charcoal p-10 rounded-none border-2 border-charcoal/15 space-y-6 shadow-xl">
-                <h3 className="font-serif text-2xl font-bold text-charcoal">Production Tolerances & Benchmarks</h3>
-                <div className="space-y-4 text-xs sm:text-sm text-charcoal-700 font-mono">
-                  <div className="flex justify-between border-b border-charcoal/10 pb-3">
+              <div className="bg-white text-charcoal p-8 rounded-none border border-charcoal/10 space-y-5 shadow-xs">
+                <h3 className="font-serif text-xl font-medium text-charcoal">Production Tolerances & Benchmarks</h3>
+                <div className="space-y-3 text-xs text-charcoal-700 font-mono">
+                  <div className="flex justify-between border-b border-charcoal/8 pb-2.5">
                     <span>Edge Skiving Tolerance</span>
                     <span className="text-cognac font-bold">± 0.05 mm</span>
                   </div>
-                  <div className="flex justify-between border-b border-charcoal/10 pb-3">
+                  <div className="flex justify-between border-b border-charcoal/8 pb-2.5">
                     <span>Stitch Density Consistency</span>
                     <span className="text-cognac font-bold">7.5 SPI (Stitches/Inch)</span>
                   </div>
-                  <div className="flex justify-between border-b border-charcoal/10 pb-3">
+                  <div className="flex justify-between border-b border-charcoal/8 pb-2.5">
                     <span>Hardware Salt Spray Resistance</span>
                     <span className="text-cognac font-bold">72+ Hours ASTM B117</span>
                   </div>
-                  <div className="flex justify-between border-b border-charcoal/10 pb-3">
+                  <div className="flex justify-between border-b border-charcoal/8 pb-2.5">
                     <span>Edge Lacquer Flex Fatigue</span>
                     <span className="text-cognac font-bold">20,000+ Cycles (Bally Flex)</span>
                   </div>
