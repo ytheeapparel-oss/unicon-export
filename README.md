@@ -74,11 +74,12 @@ export const COMPANY_INFO = {
   establishedYear: "[YEAR - e.g., 2012]",
   locationCity: "[CITY, e.g., Kolkata / Chennai / Kanpur]",
   locationState: "[STATE, e.g., West Bengal / Tamil Nadu]",
-  fullAddress: "Plot No. [FACTORY_PLOT], Leather Industrial Park, India",
-  primaryEmail: "export@myunicon.com",
-  phone: "+91 [PHONE_NUMBER]",
-  whatsapp: "+91 [WHATSAPP_NUMBER]",
-  whatsappDirectUrl: "https://wa.me/919999999999...",
+  fullAddress: "Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala, Kolkata, West Bengal 700135, India",
+  primaryEmail: "work@uniconleather.net",
+  secondaryEmail: "ytheeapparel@gmail.com",
+  phone: "+91 9873102341",
+  whatsapp: "+91 9873102341",
+  whatsappDirectUrl: "https://wa.me/919873102341",
   moq: { ... },
   certifications: [ ... ]
 };
