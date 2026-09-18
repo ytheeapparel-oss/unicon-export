@@ -1,4 +1,4 @@
-# UNICON LEATHER – Luxury B2B Manufacturer & Global Exporter Website
+# UNICON EXPORT – Luxury B2B Manufacturer & Global Exporter Website
 
 A complete, production-ready, luxury B2B website engineered for **UNICON LEATHER**, an export-focused leather goods manufacturer and private-label OEM/ODM factory serving international brands, wholesalers, and department store buying houses across the USA, UK, Europe, Australia, Canada, UAE, Japan, and worldwide.
 
