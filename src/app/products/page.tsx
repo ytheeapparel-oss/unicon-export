@@ -69,35 +69,33 @@ function CatalogueContent() {
         </div>
 
         {/* Elegant Floating Editorial Card on Pure White */}
-        <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-12 sm:pb-16 pt-28">
-          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border-2 border-charcoal/15 shadow-2xl space-y-6 text-left">
+        <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-10 sm:pb-14 pt-24">
+          <div className="max-w-2xl bg-white/95 backdrop-blur-md p-6 sm:p-8 border border-charcoal/10 shadow-lg space-y-4 text-left">
             <Breadcrumbs items={[{ label: "B2B Export Catalogue" }]} />
 
-            <div className="inline-flex items-center gap-3 mt-2">
-              <span className="bg-cognac text-white text-xs sm:text-sm font-bold tracking-widest uppercase px-4 py-1.5 rounded-none shadow-sm">
-                ★ Master Export Directory
+            <div className="inline-flex items-center gap-2.5 mt-1">
+              <span className="bg-cognac text-white text-[10px] sm:text-xs font-mono font-medium tracking-widest uppercase px-3 py-1 rounded-none shadow-xs">
+                Master Export Directory
               </span>
-              <span className="text-[10px] sm:text-xs text-charcoal-500 font-mono tracking-widest uppercase font-semibold">
-                12 PRODUCT CATEGORIES
+              <span className="text-[10px] sm:text-xs text-charcoal-500 font-mono tracking-widest uppercase font-medium">
+                12 Product Categories
               </span>
             </div>
 
-            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-charcoal leading-[1.08] tracking-tight uppercase">
-              Export Product <br />
-              <span className="italic font-normal text-cognac lowercase">catalogue &</span> <br />
-              COLLECTION DIRECTORY
+            <h1 className="font-serif text-2xl sm:text-4xl lg:text-5xl font-normal text-charcoal leading-[1.15] tracking-tight">
+              Export Product Catalogue & Collection Directory
             </h1>
 
-            <p className="text-sm sm:text-base text-charcoal-600 leading-relaxed font-light max-w-2xl">
+            <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light max-w-xl">
               Explore our master export catalogue across 12 luxury leather goods categories. All silhouettes can be customized with your brand’s leather grade, custom hardware finishes, dimensions, and embossed logos.
             </p>
 
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 pt-2">
-              <Button href="#category-panels" variant="primary" size="md" className="shadow-xs text-xs uppercase tracking-wider font-semibold">
-                Explore 12 Category Panels
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
+              <Button href="#category-panels" variant="primary" size="md">
+                Explore 12 Categories
               </Button>
-              <Button href="/private-label" variant="outline" size="md" className="border border-charcoal/30 text-charcoal hover:bg-charcoal hover:text-white text-xs uppercase tracking-wider font-semibold">
-                <Sliders className="w-3.5 h-3.5 mr-2" /> Custom OEM Tech Pack
+              <Button href="/private-label" variant="outline" size="md" className="border-charcoal/25 text-charcoal hover:bg-charcoal hover:text-white">
+                <Sliders className="w-3.5 h-3.5 mr-2" /> Custom OEM Project
               </Button>
             </div>
           </div>
@@ -107,15 +105,15 @@ function CatalogueContent() {
       {/* 2. 12 MASTER CATEGORY PANELS SHOWCASE */}
       <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 pt-4 space-y-6" id="category-panels">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-5 border-b border-charcoal/10 pb-5">
-          <div className="space-y-2">
-            <span className="text-cognac uppercase tracking-[0.2em] text-[10px] sm:text-[11px] font-bold block">
+          <div className="space-y-1.5">
+            <span className="text-cognac uppercase tracking-[0.2em] text-[10px] sm:text-[11px] font-mono font-medium block">
               12 Core Manufacturing Lines
             </span>
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-charcoal tracking-tight uppercase">
-              12 Master Product Category Panels
+            <h2 className="font-serif text-2xl sm:text-3xl font-normal text-charcoal tracking-tight">
+              Master Product Category Directory
             </h2>
             <p className="text-xs sm:text-sm text-charcoal-500 max-w-2xl font-light leading-relaxed">
-              Explore our master export catalogue across 12 luxury manufacturing categories. Select any category panel below to instantly filter silhouettes, technical specifications, and custom OEM capabilities.
+              Explore our master export catalogue across 12 luxury manufacturing categories. Select any category below to filter silhouettes and technical specifications.
             </p>
           </div>
           <div className="flex items-center gap-3">
@@ -149,7 +147,7 @@ function CatalogueContent() {
       {/* 3. MAIN CATALOGUE BROWSER (Pure White) */}
       <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 space-y-10" id="catalogue-grid">
         {/* Filter Controls Bar */}
-        <div className="bg-white p-6 sm:p-8 rounded-none border-2 border-charcoal/15 shadow-sm space-y-6">
+        <div className="bg-[#faf8f5] p-6 sm:p-8 rounded-none border border-charcoal/10 shadow-xs space-y-6">
           {/* Row 1: Search & Sort */}
           <div className="grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
             {/* Search Input */}
@@ -256,19 +254,24 @@ function CatalogueContent() {
         {/* Products Grid */}
         {filteredProducts.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8">
-            {filteredProducts.map((product) => (
-              <ProductCard
-                key={product.id}
-                product={product}
-                onQuickInquire={(p) => setQuoteProduct(p)}
-              />
-            ))}
+            {filteredProducts.map((product) => {
+              const productIndex = PRODUCTS.findIndex((p) => p.id === product.id);
+              const panelNum = productIndex !== -1 ? 12 + productIndex + 1 : undefined;
+              return (
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  panelNumber={panelNum}
+                  onQuickInquire={(p) => setQuoteProduct(p)}
+                />
+              );
+            })}
           </div>
         ) : (
-          <div className="bg-white border-2 border-charcoal/15 p-16 rounded-none text-center space-y-4 max-w-lg mx-auto shadow-sm">
-            <Layers className="w-12 h-12 text-charcoal-300 mx-auto" />
-            <h3 className="font-serif text-2xl font-bold text-charcoal">No Products Found</h3>
-            <p className="text-xs text-charcoal-600">
+          <div className="bg-[#faf8f5] border border-charcoal/10 p-12 sm:p-16 rounded-none text-center space-y-4 max-w-lg mx-auto shadow-xs">
+            <Layers className="w-10 h-10 text-charcoal-300 mx-auto" />
+            <h3 className="font-serif text-xl sm:text-2xl font-medium text-charcoal">No Products Found</h3>
+            <p className="text-xs text-charcoal-600 font-light">
               We did not find any catalogue items matching your exact filters. You can reset filters or request custom OEM product development.
             </p>
             <div className="pt-3 flex justify-center gap-3">
@@ -283,9 +286,9 @@ function CatalogueContent() {
         )}
 
         {/* Private Label Promotion Banner (Pure White) */}
-        <div className="bg-white text-charcoal p-10 sm:p-14 rounded-none border-2 border-charcoal/15 flex flex-col md:flex-row items-center justify-between gap-8 shadow-xl">
+        <div className="bg-[#faf8f5] text-charcoal p-8 sm:p-12 rounded-none border border-charcoal/10 flex flex-col md:flex-row items-center justify-between gap-8 shadow-sm">
           <div className="space-y-3 text-center md:text-left">
-            <h3 className="font-serif text-2xl sm:text-3xl font-bold text-charcoal">
+            <h3 className="font-serif text-2xl sm:text-3xl font-normal text-charcoal tracking-tight">
               Need a Proprietary Custom Silhouette or Tech Pack?
             </h3>
             <p className="text-xs sm:text-sm text-charcoal-600 max-w-2xl font-light">

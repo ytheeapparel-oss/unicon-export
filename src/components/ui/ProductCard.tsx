@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/Badge";
 
 interface ProductCardProps {
   product: Product;
+  panelNumber?: number;
   onQuickInquire?: (product: Product) => void;
   imageFit?: "cover" | "contain";
   aspectRatio?: string;
@@ -17,6 +18,7 @@ interface ProductCardProps {
 
 export function ProductCard({
   product,
+  panelNumber,
   onQuickInquire,
   imageFit = "cover",
   aspectRatio = "aspect-[4/3]",
@@ -45,8 +47,13 @@ export function ProductCard({
           </div>
         )}
 
-        {/* Product Code Tag */}
-        <div className="absolute top-3 left-3 z-10">
+        {/* Product Code & Panel Number Tag */}
+        <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5">
+          {panelNumber ? (
+            <span className="text-[9px] tracking-[0.16em] uppercase font-mono font-semibold text-white bg-cognac/90 backdrop-blur-xs px-2 py-0.5 shadow-xs">
+              PANEL {String(panelNumber).padStart(2, "0")}
+            </span>
+          ) : null}
           <Badge variant="charcoal" size="sm" className="bg-black/90 backdrop-blur-xs font-mono text-[10px] text-white">
             {product.id}
           </Badge>
