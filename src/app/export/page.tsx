@@ -71,33 +71,32 @@ export default function ExportPage() {
 
         {/* Elegant Floating Editorial Card on Pure White */}
         <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-12 sm:pb-16 pt-28">
-          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border-2 border-charcoal/15 shadow-2xl space-y-6 text-left">
+          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border border-charcoal/10 shadow-lg space-y-6 text-left">
             <Breadcrumbs items={[{ label: "Global Export & International Logistics" }]} />
 
             <div className="inline-flex items-center gap-3 mt-2">
-              <span className="bg-cognac text-white text-xs sm:text-sm font-bold tracking-widest uppercase px-4 py-1.5 rounded-none shadow-sm">
-                ★ Worldwide Trade Infrastructure
+              <span className="bg-cognac text-white text-[11px] sm:text-xs font-medium tracking-[0.14em] uppercase px-3.5 py-1 rounded-none shadow-xs">
+                Worldwide Trade Infrastructure
               </span>
-              <span className="text-xs sm:text-sm text-charcoal-500 font-mono tracking-widest uppercase font-semibold">
-                25+ EXPORT MARKETS
+              <span className="text-[11px] sm:text-xs text-charcoal/60 font-mono tracking-widest uppercase">
+                25+ Export Markets
               </span>
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-black text-charcoal leading-[0.98] tracking-tight uppercase">
+            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal text-charcoal leading-[1.12] tracking-tight">
               International Export <br />
-              <span className="italic font-normal text-cognac lowercase">and</span> <br />
-              GLOBAL LOGISTICS DESK
+              <span className="italic text-cognac font-light">&amp; Global</span> Logistics Desk
             </h1>
 
-            <p className="text-base sm:text-xl text-charcoal-700 leading-relaxed font-light max-w-2xl">
+            <p className="text-sm sm:text-base text-charcoal/70 leading-relaxed font-light max-w-2xl">
               Exporting fine handcrafted leather goods to overseas brands across the USA, UK, Europe, UAE, Australia, and Japan with complete Incoterms support (FOB, CIF, DDP), express air couriers, and container shipping.
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
-              <Button href="#corridors" variant="primary" size="lg" className="shadow-lg">
+              <Button href="#corridors" variant="primary" size="lg" className="shadow-md">
                 Explore Trade Corridors
               </Button>
-              <Button href="/contact" variant="outline" size="lg" className="border-2 border-charcoal text-charcoal hover:bg-charcoal hover:text-white">
+              <Button href="/contact" variant="outline" size="lg" className="border border-charcoal/30 text-charcoal hover:bg-charcoal hover:text-white">
                 Request Freight Quotation
               </Button>
             </div>
@@ -111,8 +110,8 @@ export default function ExportPage() {
           <Badge variant="cognac" size="sm">
             Core Trade Corridors
           </Badge>
-          <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
-            Export Destinations & Logistics Timelines
+          <h2 className="font-serif text-3xl sm:text-4xl font-normal text-charcoal tracking-tight">
+            Export Destinations &amp; Logistics Timelines
           </h2>
           <p className="text-sm sm:text-base text-charcoal-600 font-light">
             Dedicated logistics managers coordinate air priority couriers and full-container ocean freight directly from major Indian ports.
@@ -123,16 +122,16 @@ export default function ExportPage() {
           {exportDestinations.map((dest) => (
             <div
               key={dest.region}
-              className="bg-white p-8 sm:p-10 rounded-none border-2 border-charcoal/15 shadow-sm space-y-5 hover:border-cognac transition-colors"
+              className="bg-[#faf8f5] p-7 sm:p-9 rounded-none border border-charcoal/10 shadow-xs space-y-5 hover:border-cognac transition-colors"
             >
               <div className="flex items-center justify-between pb-4 border-b border-charcoal/10">
                 <div>
                   <span className="text-[10px] font-sans font-semibold uppercase tracking-widest text-cognac block">
                     Region
                   </span>
-                  <h3 className="font-serif text-2xl font-bold text-charcoal">{dest.region}</h3>
+                  <h3 className="font-serif text-2xl font-medium text-charcoal">{dest.region}</h3>
                 </div>
-                <Globe className="w-7 h-7 text-cognac" />
+                <Globe className="w-6 h-6 text-cognac" />
               </div>
 
               <div className="space-y-3 text-xs sm:text-sm text-charcoal-700">
@@ -166,39 +165,39 @@ export default function ExportPage() {
             <Badge variant="cognac" size="sm">
               Commercial Clarity
             </Badge>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+            <h2 className="font-serif text-3xl sm:text-4xl font-normal text-charcoal tracking-tight">
               Standard Trade Terms (Incoterms 2020)
             </h2>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-            <div className="bg-white p-8 rounded-none border-2 border-charcoal/15 space-y-3 shadow-sm hover:border-cognac transition-colors">
-              <span className="font-mono text-2xl font-bold text-cognac">FOB</span>
-              <h3 className="font-serif text-base font-bold text-charcoal">Free On Board (Indian Ports)</h3>
+            <div className="bg-[#faf8f5] p-7 sm:p-8 rounded-none border border-charcoal/10 space-y-3 shadow-xs hover:border-cognac transition-colors">
+              <span className="font-mono text-2xl font-semibold text-cognac">FOB</span>
+              <h3 className="font-serif text-base font-medium text-charcoal">Free On Board (Indian Ports)</h3>
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
                 We handle domestic transport, customs clearance, and container loading at Indian ports (Kolkata / Chennai / Mumbai). Buyer arranges sea freight.
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-none border-2 border-charcoal/15 space-y-3 shadow-sm hover:border-cognac transition-colors">
-              <span className="font-mono text-2xl font-bold text-cognac">CIF</span>
-              <h3 className="font-serif text-base font-bold text-charcoal">Cost, Insurance & Freight</h3>
+            <div className="bg-[#faf8f5] p-7 sm:p-8 rounded-none border border-charcoal/10 space-y-3 shadow-xs hover:border-cognac transition-colors">
+              <span className="font-mono text-2xl font-semibold text-cognac">CIF</span>
+              <h3 className="font-serif text-base font-medium text-charcoal">Cost, Insurance &amp; Freight</h3>
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
                 We cover ocean freight and marine cargo insurance up to your designated destination seaport (e.g. Rotterdam, Hamburg, NY/NJ, Dubai, Yokohama).
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-none border-2 border-charcoal/15 space-y-3 shadow-sm hover:border-cognac transition-colors">
-              <span className="font-mono text-2xl font-bold text-cognac">DDP</span>
-              <h3 className="font-serif text-base font-bold text-charcoal">Delivered Duty Paid</h3>
+            <div className="bg-[#faf8f5] p-7 sm:p-8 rounded-none border border-charcoal/10 space-y-3 shadow-xs hover:border-cognac transition-colors">
+              <span className="font-mono text-2xl font-semibold text-cognac">DDP</span>
+              <h3 className="font-serif text-base font-medium text-charcoal">Delivered Duty Paid</h3>
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
                 Complete door-to-door delivery. All ocean/air freight, import customs duties, tariffs, and inland trucking managed directly to your warehouse.
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-none border-2 border-charcoal/15 space-y-3 shadow-sm hover:border-cognac transition-colors">
-              <span className="font-mono text-2xl font-bold text-cognac">EXW</span>
-              <h3 className="font-serif text-base font-bold text-charcoal">Ex Works (Factory Gate)</h3>
+            <div className="bg-[#faf8f5] p-7 sm:p-8 rounded-none border border-charcoal/10 space-y-3 shadow-xs hover:border-cognac transition-colors">
+              <span className="font-mono text-2xl font-semibold text-cognac">EXW</span>
+              <h3 className="font-serif text-base font-medium text-charcoal">Ex Works (Factory Gate)</h3>
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
                 Available for international buying houses or foreign brands with pre-existing domestic freight forwarding infrastructure in India.
               </p>
@@ -212,9 +211,9 @@ export default function ExportPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-6 space-y-8">
             <Badge variant="cognac" size="sm">
-              Customs & Compliance
+              Customs &amp; Compliance
             </Badge>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+            <h2 className="font-serif text-3xl sm:text-4xl font-normal text-charcoal tracking-tight">
               Comprehensive Export Documentation
             </h2>
             <p className="text-base text-charcoal-600 leading-relaxed font-light">
@@ -240,7 +239,7 @@ export default function ExportPage() {
               </li>
               <li className="flex items-center gap-3">
                 <CheckCircle2 className="w-5 h-5 text-cognac shrink-0" />
-                <span>Phytosanitary & Fumigation Certificates for wooden pallets</span>
+                <span>Phytosanitary &amp; Fumigation Certificates for wooden pallets</span>
               </li>
               <li className="flex items-center gap-3">
                 <CheckCircle2 className="w-5 h-5 text-cognac shrink-0" />
@@ -256,8 +255,8 @@ export default function ExportPage() {
           </div>
 
           <div className="lg:col-span-6">
-            <div className="bg-white text-charcoal p-10 rounded-none border-2 border-charcoal/15 space-y-6 shadow-xl">
-              <h3 className="font-serif text-2xl font-bold text-charcoal">
+            <div className="bg-[#faf8f5] text-charcoal p-8 sm:p-10 rounded-none border border-charcoal/10 space-y-6 shadow-sm">
+              <h3 className="font-serif text-xl sm:text-2xl font-medium text-charcoal">
                 Heavy-Duty Export Packaging Standard
               </h3>
               <p className="text-sm text-charcoal-600 leading-relaxed font-light">
@@ -265,16 +264,16 @@ export default function ExportPage() {
               </p>
 
               <div className="space-y-4 text-xs sm:text-sm text-charcoal-700 pt-2">
-                <div className="bg-charcoal-50 p-4 rounded-none border border-charcoal/10">
-                  <strong className="text-charcoal block mb-1 font-bold">1. Moisture Barrier Protection</strong>
+                <div className="bg-white p-4 rounded-none border border-charcoal/10">
+                  <strong className="text-charcoal block mb-1 font-semibold">1. Moisture Barrier Protection</strong>
                   <p className="text-charcoal-600 font-light">Individual non-woven dustbags and high-absorption silica gel packets inside food-grade polybags.</p>
                 </div>
-                <div className="bg-charcoal-50 p-4 rounded-none border border-charcoal/10">
-                  <strong className="text-charcoal block mb-1 font-bold">2. 5-Ply Heavy Duty Master Cartons</strong>
+                <div className="bg-white p-4 rounded-none border border-charcoal/10">
+                  <strong className="text-charcoal block mb-1 font-semibold">2. 5-Ply Heavy Duty Master Cartons</strong>
                   <p className="text-charcoal-600 font-light">200 GSM burst-resistant corrugated shipping boxes with corner edge protectors and moisture-proof plastic wrapping.</p>
                 </div>
-                <div className="bg-charcoal-50 p-4 rounded-none border border-charcoal/10">
-                  <strong className="text-charcoal block mb-1 font-bold">3. Heat-Treated ISPM-15 Palletization</strong>
+                <div className="bg-white p-4 rounded-none border border-charcoal/10">
+                  <strong className="text-charcoal block mb-1 font-semibold">3. Heat-Treated ISPM-15 Palletization</strong>
                   <p className="text-charcoal-600 font-light">Certified fumigated wooden/plastic pallets shrink-wrapped with UV-resistant film and heavy-duty strapping.</p>
                 </div>
               </div>

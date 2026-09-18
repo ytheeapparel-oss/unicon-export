@@ -96,15 +96,15 @@ export function CapabilitiesTicker() {
   return (
     <section className="w-full bg-[#faf8f5] py-10 sm:py-14 border-t border-charcoal/10 overflow-hidden">
       {/* Header */}
-      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16 mb-8 text-center max-w-3xl mx-auto space-y-2">
-        <span className="text-cognac uppercase tracking-[0.22em] text-[10px] font-bold block">
-          ★ Atelier Finishing & Craftsmanship
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16 mb-6 text-center max-w-3xl mx-auto space-y-1.5">
+        <span className="text-cognac uppercase tracking-[0.2em] text-[10px] font-mono font-medium block">
+          Atelier Finishing & Tooling Standards
         </span>
-        <h2 className="font-serif text-xl sm:text-2xl font-bold text-charcoal tracking-tight uppercase">
+        <h2 className="font-serif text-xl sm:text-2xl font-normal text-charcoal tracking-tight">
           In-House Manufacturing Capabilities
         </h2>
         <p className="text-xs text-charcoal-500 font-light max-w-xl mx-auto leading-relaxed">
-          Proprietary artisanal and industrial techniques executed in-house for international private labels and luxury houses.
+          Proprietary artisanal and industrial finishing techniques executed in-house for international private labels and luxury houses.
         </p>
       </div>
 

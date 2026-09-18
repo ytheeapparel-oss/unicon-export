@@ -40,33 +40,32 @@ export default function SustainabilityPage() {
 
         {/* Elegant Floating Editorial Card on Pure White */}
         <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-12 sm:pb-16 pt-28">
-          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border-2 border-charcoal/15 shadow-2xl space-y-6 text-left">
+          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border border-charcoal/10 shadow-lg space-y-6 text-left">
             <Breadcrumbs items={[{ label: "Sustainability & Responsible Sourcing" }]} />
 
             <div className="inline-flex items-center gap-3 mt-2">
-              <span className="bg-cognac text-white text-xs sm:text-sm font-bold tracking-widest uppercase px-4 py-1.5 rounded-none shadow-sm">
-                ★ Verifiable Environmental Benchmarks
+              <span className="bg-cognac text-white text-[11px] sm:text-xs font-medium tracking-[0.14em] uppercase px-3.5 py-1 rounded-none shadow-xs">
+                Traceable Environmental Benchmarks
               </span>
-              <span className="text-xs sm:text-sm text-charcoal-500 font-mono tracking-widest uppercase font-semibold">
-                LWG AUDITED • REACH COMPLIANT
+              <span className="text-[11px] sm:text-xs text-charcoal/60 font-mono tracking-widest uppercase">
+                LWG Audited · REACH Compliant
               </span>
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-black text-charcoal leading-[0.98] tracking-tight uppercase">
+            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal text-charcoal leading-[1.12] tracking-tight">
               Responsible Sourcing <br />
-              <span className="italic font-normal text-cognac lowercase">and</span> <br />
-              ECOLOGICAL STEWARDSHIP
+              <span className="italic text-cognac font-light">&amp; Ecological</span> Stewardship
             </h1>
 
-            <p className="text-base sm:text-xl text-charcoal-700 leading-relaxed font-light max-w-2xl">
+            <p className="text-sm sm:text-base text-charcoal/70 leading-relaxed font-light max-w-2xl">
               We focus on tangible, verifiable manufacturing practices: partnering exclusively with audited tanneries, eliminating hazardous chemicals, optimizing cutting yields, and crafting enduring leather goods designed to last decades.
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
-              <Button href="#commitments" variant="primary" size="lg" className="shadow-lg">
+              <Button href="#commitments" variant="primary" size="lg" className="shadow-md">
                 Explore Ecological Commitments
               </Button>
-              <Button href="/contact" variant="outline" size="lg" className="border-2 border-charcoal text-charcoal hover:bg-charcoal hover:text-white">
+              <Button href="/contact" variant="outline" size="lg" className="border border-charcoal/30 text-charcoal hover:bg-charcoal hover:text-white">
                 Request Tannery Certificates
               </Button>
             </div>
@@ -81,7 +80,7 @@ export default function SustainabilityPage() {
             <Badge variant="cognac" size="sm">
               Authentic Principles
             </Badge>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+            <h2 className="font-serif text-3xl sm:text-4xl font-normal text-charcoal tracking-tight">
               No Greenwashing: Only Verifiable Benchmarks
             </h2>
             <p className="text-base text-charcoal-600 leading-relaxed font-light">
@@ -89,20 +88,20 @@ export default function SustainabilityPage() {
             </p>
 
             <div className="space-y-4 pt-2">
-              <div className="bg-white p-6 rounded-none border-2 border-charcoal/15 flex items-start gap-4 shadow-sm">
+              <div className="bg-[#faf8f5] p-6 rounded-none border border-charcoal/10 flex items-start gap-4 shadow-xs">
                 <ShieldCheck className="w-6 h-6 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <h3 className="font-serif font-bold text-charcoal text-base">LWG Partner Tanneries</h3>
+                  <h3 className="font-serif font-medium text-charcoal text-base">LWG Partner Tanneries</h3>
                   <p className="text-xs sm:text-sm text-charcoal-600 mt-1 leading-relaxed font-light">
                     Hides are sourced from partner tanneries evaluated by the Leather Working Group (LWG) for closed-loop wastewater treatment, reduced water consumption, and responsible chemical management.
                   </p>
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-none border-2 border-charcoal/15 flex items-start gap-4 shadow-sm">
+              <div className="bg-[#faf8f5] p-6 rounded-none border border-charcoal/10 flex items-start gap-4 shadow-xs">
                 <FileCheck className="w-6 h-6 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <h3 className="font-serif font-bold text-charcoal text-base">EU REACH Annex XVII Compliance</h3>
+                  <h3 className="font-serif font-medium text-charcoal text-base">EU REACH Annex XVII Compliance</h3>
                   <p className="text-xs sm:text-sm text-charcoal-600 mt-1 leading-relaxed font-light">
                     Every batch of dyed leather and metal hardware is tested through independent laboratories (SGS / Intertek) for Azo-dye freedom, zero nickel release, and Chromium VI below 3ppm.
                   </p>
@@ -112,7 +111,7 @@ export default function SustainabilityPage() {
           </div>
 
           <div className="lg:col-span-6">
-            <div className="relative aspect-[4/3] rounded-none overflow-hidden shadow-2xl border-2 border-charcoal/15 bg-white">
+            <div className="relative aspect-[4/3] rounded-none overflow-hidden shadow-lg border border-charcoal/10 bg-white">
               <img
                 src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=80"
                 alt="Vegetable Tanned Natural Leather Sourcing"
@@ -131,39 +130,39 @@ export default function SustainabilityPage() {
             <Badge variant="cognac" size="sm">
               Our 4 Pillars
             </Badge>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+            <h2 className="font-serif text-3xl sm:text-4xl font-normal text-charcoal tracking-tight">
               Verifiable Sustainability Practices
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-8 rounded-none border-2 border-charcoal/15 space-y-4 shadow-sm hover:border-cognac transition-colors">
-              <TreeDeciduous className="w-8 h-8 text-cognac" />
-              <h3 className="font-serif text-lg font-bold text-charcoal">Vegetable Tanning Options</h3>
+            <div className="bg-[#faf8f5] p-7 sm:p-8 rounded-none border border-charcoal/10 space-y-4 shadow-xs hover:border-cognac transition-colors">
+              <TreeDeciduous className="w-7 h-7 text-cognac" />
+              <h3 className="font-serif text-lg font-medium text-charcoal">Vegetable Tanning Options</h3>
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
                 We offer pure vegetable-tanned bovine leathers processed using natural tree barks (mimosa, chestnut, quebracho) that develop a rich organic patina over years of use.
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-none border-2 border-charcoal/15 space-y-4 shadow-sm hover:border-cognac transition-colors">
-              <Recycle className="w-8 h-8 text-cognac" />
-              <h3 className="font-serif text-lg font-bold text-charcoal">Zero Scrap Wastage</h3>
+            <div className="bg-[#faf8f5] p-7 sm:p-8 rounded-none border border-charcoal/10 space-y-4 shadow-xs hover:border-cognac transition-colors">
+              <Recycle className="w-7 h-7 text-cognac" />
+              <h3 className="font-serif text-lg font-medium text-charcoal">Zero Scrap Wastage</h3>
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
                 Small off-cuts are repurposed into small leather goods, key fobs, and zipper pulls. Remaining trimmings are gathered for bonded salpa board manufacturing.
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-none border-2 border-charcoal/15 space-y-4 shadow-sm hover:border-cognac transition-colors">
-              <Droplets className="w-8 h-8 text-cognac" />
-              <h3 className="font-serif text-lg font-bold text-charcoal">Water-Based Finishes</h3>
+            <div className="bg-[#faf8f5] p-7 sm:p-8 rounded-none border border-charcoal/10 space-y-4 shadow-xs hover:border-cognac transition-colors">
+              <Droplets className="w-7 h-7 text-cognac" />
+              <h3 className="font-serif text-lg font-medium text-charcoal">Water-Based Finishes</h3>
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
                 Transitioning to low-VOC water-based laminating adhesives and solvent-free Italian edge lacquers to protect artisan respiratory health and reduce workshop emissions.
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-none border-2 border-charcoal/15 space-y-4 shadow-sm hover:border-cognac transition-colors">
-              <HeartHandshake className="w-8 h-8 text-cognac" />
-              <h3 className="font-serif text-lg font-bold text-charcoal">Worker Welfare & Safety</h3>
+            <div className="bg-[#faf8f5] p-7 sm:p-8 rounded-none border border-charcoal/10 space-y-4 shadow-xs hover:border-cognac transition-colors">
+              <HeartHandshake className="w-7 h-7 text-cognac" />
+              <h3 className="font-serif text-lg font-medium text-charcoal">Worker Welfare &amp; Safety</h3>
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
                 Clean, well-ventilated ateliers equipped with high-volume exhaust hoods, personal protective equipment (PPE), fair living wages, and comprehensive medical insurance.
               </p>
@@ -176,8 +175,8 @@ export default function SustainabilityPage() {
       <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-6 relative">
-            <div className="bg-white text-charcoal p-10 rounded-none border-2 border-charcoal/15 space-y-5 shadow-xl">
-              <h3 className="font-serif text-2xl font-bold text-charcoal">Eco-Conscious Packaging Options</h3>
+            <div className="bg-[#faf8f5] text-charcoal p-8 sm:p-10 rounded-none border border-charcoal/10 space-y-5 shadow-sm">
+              <h3 className="font-serif text-2xl font-medium text-charcoal">Eco-Conscious Packaging Options</h3>
               <ul className="text-xs sm:text-sm text-charcoal-700 space-y-4 font-light">
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
@@ -199,7 +198,7 @@ export default function SustainabilityPage() {
             <Badge variant="cognac" size="sm">
               Long-Term Value
             </Badge>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+            <h2 className="font-serif text-3xl sm:text-4xl font-normal text-charcoal tracking-tight">
               Durability as the Ultimate Sustainability Metric
             </h2>
             <p className="text-base text-charcoal-600 leading-relaxed font-light">

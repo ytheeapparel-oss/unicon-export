@@ -29,16 +29,42 @@ export function Header() {
   }, [pathname]);
 
   return (
-    <header
-      className={cn(
-        "sticky top-0 z-50 w-full transition-all duration-300 border-b",
-        isScrolled
-          ? "bg-white/98 backdrop-blur-md shadow-xs border-charcoal/10 py-3.5"
-          : "bg-white border-charcoal/10 py-4 sm:py-5"
-      )}
-    >
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
-        <div className="flex items-center justify-between gap-4">
+    <>
+      {/* International B2B Export Status Bar */}
+      <div className="hidden lg:block bg-[#161513] text-[#c7c2b6] border-b border-[#242220] py-1.5 px-4 sm:px-8 lg:px-12 xl:px-16 text-[9.5px] uppercase tracking-[0.16em] font-mono">
+        <div className="w-full max-w-[1720px] mx-auto flex items-center justify-between">
+          <div className="flex items-center gap-3.5">
+            <span className="text-cognac font-bold inline-flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+              Direct Export Atelier
+            </span>
+            <span className="text-[#45423c]">·</span>
+            <span>Incoterms: FOB · CIF · DDP Worldwide</span>
+            <span className="text-[#45423c]">·</span>
+            <span>Compliance: LWG Audited · REACH Annex XVII · Prop 65</span>
+          </div>
+          <div className="flex items-center gap-3.5 text-[#a8a398]">
+            <a href={`mailto:${COMPANY_INFO.primaryEmail}`} className="hover:text-cognac transition-colors lowercase font-sans">
+              {COMPANY_INFO.primaryEmail}
+            </a>
+            <span className="text-[#45423c]">·</span>
+            <a href={COMPANY_INFO.whatsappDirectUrl} target="_blank" rel="noopener noreferrer" className="text-cognac hover:underline font-sans">
+              WhatsApp Export Desk
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <header
+        className={cn(
+          "sticky top-0 z-50 w-full transition-all duration-300 border-b",
+          isScrolled
+            ? "bg-white/98 backdrop-blur-md shadow-xs border-charcoal/10 py-3"
+            : "bg-white border-charcoal/10 py-3.5 sm:py-4"
+        )}
+      >
+        <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
+          <div className="flex items-center justify-between gap-4">
           {/* 1. Brand Logo */}
           <Link
             href="/"
@@ -328,5 +354,6 @@ export function Header() {
         </div>
       )}
     </header>
+    </>
   );
 }

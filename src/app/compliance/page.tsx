@@ -59,33 +59,32 @@ export default function CompliancePage() {
 
         {/* Elegant Floating Editorial Card on Pure White */}
         <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-12 sm:pb-16 pt-28">
-          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border-2 border-charcoal/15 shadow-2xl space-y-6 text-left">
+          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border border-charcoal/10 shadow-lg space-y-6 text-left">
             <Breadcrumbs items={[{ label: "Quality, Compliance & Certifications" }]} />
 
             <div className="inline-flex items-center gap-3 mt-2">
-              <span className="bg-cognac text-white text-xs sm:text-sm font-bold tracking-widest uppercase px-4 py-1.5 rounded-none shadow-sm">
-                ★ Zero-Defect Standards
+              <span className="bg-cognac text-white text-[11px] sm:text-xs font-medium tracking-[0.14em] uppercase px-3.5 py-1 rounded-none shadow-xs">
+                Zero-Defect Quality Standards
               </span>
-              <span className="text-xs sm:text-sm text-charcoal-500 font-mono tracking-widest uppercase font-semibold">
-                AQL 2.5 • REACH • ISO 2859-1
+              <span className="text-[11px] sm:text-xs text-charcoal/60 font-mono tracking-widest uppercase">
+                AQL 2.5 · REACH · ISO 2859-1
               </span>
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-black text-charcoal leading-[0.98] tracking-tight uppercase">
+            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal text-charcoal leading-[1.12] tracking-tight">
               Quality Assurance <br />
-              <span className="italic font-normal text-cognac lowercase">and</span> <br />
-              INTERNATIONAL COMPLIANCE
+              <span className="italic text-cognac font-light">&amp; International</span> Compliance
             </h1>
 
-            <p className="text-base sm:text-xl text-charcoal-700 leading-relaxed font-light max-w-2xl">
+            <p className="text-sm sm:text-base text-charcoal/70 leading-relaxed font-light max-w-2xl">
               We operate under rigorous international quality frameworks. From raw hide tensile testing and 4-stage in-line audits to AQL 2.5 pre-shipment inspections and EU REACH chemical verifications.
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
-              <Button href="#qc-protocol" variant="primary" size="lg" className="shadow-lg">
+              <Button href="#qc-protocol" variant="primary" size="lg" className="shadow-md">
                 Explore 4-Stage Protocol
               </Button>
-              <Button href="/contact" variant="outline" size="lg" className="border-2 border-charcoal text-charcoal hover:bg-charcoal hover:text-white">
+              <Button href="/contact" variant="outline" size="lg" className="border border-charcoal/30 text-charcoal hover:bg-charcoal hover:text-white">
                 Request Audit Protocol
               </Button>
             </div>
@@ -99,7 +98,7 @@ export default function CompliancePage() {
           <Badge variant="cognac" size="sm">
             Quality Lifecycle
           </Badge>
-          <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+          <h2 className="font-serif text-3xl sm:text-4xl font-normal text-charcoal tracking-tight">
             The 4-Stage Quality Control Protocol
           </h2>
           <p className="text-sm sm:text-base text-charcoal-600 font-light">
@@ -111,13 +110,13 @@ export default function CompliancePage() {
           {qcStages.map((qc) => (
             <div
               key={qc.stage}
-              className="bg-white p-8 rounded-none border-2 border-charcoal/15 shadow-sm space-y-4 flex flex-col justify-between hover:border-cognac transition-colors"
+              className="bg-[#faf8f5] p-7 sm:p-8 rounded-none border border-charcoal/10 shadow-xs space-y-4 flex flex-col justify-between hover:border-cognac transition-colors"
             >
               <div className="space-y-3">
-                <span className="font-mono text-xs font-bold text-cognac uppercase tracking-widest block">
+                <span className="font-mono text-xs font-semibold text-cognac uppercase tracking-widest block">
                   {qc.stage}
                 </span>
-                <h3 className="font-serif text-lg font-bold text-charcoal">{qc.title}</h3>
+                <h3 className="font-serif text-lg font-medium text-charcoal">{qc.title}</h3>
                 <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">{qc.description}</p>
               </div>
             </div>
@@ -130,10 +129,10 @@ export default function CompliancePage() {
         <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
             <Badge variant="cognac" size="sm">
-              Transparency & Audits
+              Transparency &amp; Audits
             </Badge>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
-              Certifications & Audit Readiness
+            <h2 className="font-serif text-3xl sm:text-4xl font-normal text-charcoal tracking-tight">
+              Certifications &amp; Audit Readiness
             </h2>
             <p className="text-sm sm:text-base text-charcoal-600 font-light">
               Verified supply-chain standards and third-party audit credentials available for buyer review.
@@ -144,7 +143,7 @@ export default function CompliancePage() {
             {COMPANY_INFO.certifications.map((cert) => (
               <div
                 key={cert.id}
-                className="bg-white p-8 sm:p-10 rounded-none border-2 border-charcoal/15 shadow-sm space-y-4 hover:border-cognac transition-colors"
+                className="bg-[#faf8f5] p-7 sm:p-9 rounded-none border border-charcoal/10 shadow-xs space-y-4 hover:border-cognac transition-colors"
               >
                 <div className="flex items-center justify-between">
                   <Badge
@@ -157,7 +156,7 @@ export default function CompliancePage() {
                     {cert.issuedBy}
                   </span>
                 </div>
-                <h3 className="font-serif text-xl font-bold text-charcoal">{cert.name}</h3>
+                <h3 className="font-serif text-xl font-medium text-charcoal">{cert.name}</h3>
                 <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">{cert.description}</p>
                 <div className="pt-3 border-t border-charcoal/10 text-xs font-mono text-cognac font-bold">
                   {cert.certificateNumberPlaceholder}
@@ -173,9 +172,9 @@ export default function CompliancePage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-6 space-y-8">
             <Badge variant="cognac" size="sm">
-              Physical & Chemical Tests
+              Physical &amp; Chemical Tests
             </Badge>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+            <h2 className="font-serif text-3xl sm:text-4xl font-normal text-charcoal tracking-tight">
               Comprehensive Laboratory Testing Capabilities
             </h2>
             <p className="text-base text-charcoal-600 leading-relaxed font-light">
@@ -209,16 +208,16 @@ export default function CompliancePage() {
           </div>
 
           <div className="lg:col-span-6">
-            <div className="bg-white text-charcoal p-10 rounded-none border-2 border-charcoal/15 space-y-6 shadow-xl">
+            <div className="bg-[#faf8f5] text-charcoal p-8 sm:p-10 rounded-none border border-charcoal/10 space-y-6 shadow-sm">
               <div className="flex items-center gap-3 text-cognac">
-                <Microscope className="w-7 h-7" />
-                <h3 className="font-serif text-2xl font-bold text-charcoal">Buyer-Specific Audit Readiness</h3>
+                <Microscope className="w-6 h-6" />
+                <h3 className="font-serif text-xl sm:text-2xl font-medium text-charcoal">Buyer-Specific Audit Readiness</h3>
               </div>
               <p className="text-sm text-charcoal-600 leading-relaxed font-light">
                 We welcome third-party quality inspections and social compliance factory audits commissioned by your brand (e.g. QIMA, SGS, Bureau Veritas) at our facility prior to final bill of lading dispatch.
               </p>
-              <div className="p-5 bg-charcoal-50 rounded-none border border-charcoal/10 text-xs sm:text-sm text-charcoal-700">
-                <strong className="text-charcoal block mb-1 font-bold">Standard Audit Policy:</strong>
+              <div className="p-5 bg-white rounded-none border border-charcoal/10 text-xs sm:text-sm text-charcoal-700">
+                <strong className="text-charcoal block mb-1 font-semibold">Standard Audit Policy:</strong>
                 Factory access and technical documentation are provided to certified independent inspectors with 48-hour prior notice.
               </div>
             </div>

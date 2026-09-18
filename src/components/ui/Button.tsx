@@ -12,28 +12,28 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = "primary", size = "md", href, isExternal, children, ...props }, ref) => {
     const baseStyles =
-      "inline-flex items-center justify-center font-sans font-semibold transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cognac focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none cursor-pointer tracking-wider uppercase";
+      "inline-flex items-center justify-center font-sans font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-cognac disabled:opacity-50 disabled:pointer-events-none cursor-pointer tracking-[0.14em] uppercase text-center select-none";
 
     const variantStyles = {
       primary:
-        "bg-cognac text-white hover:bg-cognac-600 active:bg-cognac-700 shadow-md hover:shadow-xl border border-cognac-700",
+        "bg-cognac text-white hover:bg-cognac-600 active:bg-cognac-700 shadow-xs hover:shadow-md border border-cognac/80",
       secondary:
-        "bg-charcoal text-white hover:bg-charcoal-800 active:bg-black border border-charcoal",
+        "bg-charcoal text-white hover:bg-charcoal-800 active:bg-black border border-charcoal shadow-xs",
       outline:
-        "bg-transparent text-charcoal border-2 border-charcoal hover:bg-charcoal hover:text-white active:bg-black",
+        "bg-transparent text-charcoal border border-charcoal/30 hover:border-charcoal hover:bg-charcoal hover:text-white active:bg-black",
       gold:
-        "bg-gold text-charcoal-950 hover:bg-gold-light active:bg-gold-dark border border-gold-dark/40 font-bold shadow-md",
+        "bg-gold text-charcoal-950 hover:bg-gold-light active:bg-gold-dark border border-gold-dark/40 shadow-xs",
       ghost:
         "bg-transparent text-charcoal hover:text-cognac hover:bg-black/5",
       dark:
-        "bg-espresso text-white hover:bg-espresso-light border border-espresso-dark",
+        "bg-espresso text-white hover:bg-espresso-light border border-espresso-dark shadow-xs",
     };
 
     const sizeStyles = {
-      sm: "text-xs px-4 py-2.5 rounded-none gap-2",
-      md: "text-sm px-6 py-3.5 rounded-none gap-2.5",
-      lg: "text-base px-8 py-4.5 rounded-none gap-3 font-bold",
-      xl: "text-lg px-10 py-5 rounded-none gap-3.5 font-bold",
+      sm: "text-[11px] px-3.5 py-2 rounded-none gap-2",
+      md: "text-xs px-5 py-2.5 rounded-none gap-2",
+      lg: "text-xs sm:text-sm px-6 py-3 rounded-none gap-2.5 font-medium",
+      xl: "text-xs sm:text-sm px-7 py-3.5 rounded-none gap-3 font-semibold tracking-[0.16em]",
     };
 
     const combinedClasses = cn(baseStyles, variantStyles[variant], sizeStyles[size], className);

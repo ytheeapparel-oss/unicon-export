@@ -16,20 +16,20 @@ const config: Config = {
         "full-page": "100%",
       },
       fontSize: {
-        "2xs": ["0.75rem", { lineHeight: "1.1rem" }],
-        xs: ["0.875rem", { lineHeight: "1.35rem" }],
-        sm: ["1rem", { lineHeight: "1.6rem" }],
-        base: ["1.125rem", { lineHeight: "1.8rem" }],
-        lg: ["1.25rem", { lineHeight: "1.9rem" }],
-        xl: ["1.375rem", { lineHeight: "2rem" }],
-        "2xl": ["1.625rem", { lineHeight: "2.25rem" }],
-        "3xl": ["2rem", { lineHeight: "2.6rem" }],
-        "4xl": ["2.5rem", { lineHeight: "3rem" }],
-        "5xl": ["3.25rem", { lineHeight: "3.75rem" }],
-        "6xl": ["4rem", { lineHeight: "4.5rem" }],
-        "7xl": ["5rem", { lineHeight: "5.5rem" }],
-        "8xl": ["6.25rem", { lineHeight: "6.75rem" }],
-        "9xl": ["7.5rem", { lineHeight: "8rem" }],
+        "2xs": ["0.6875rem", { lineHeight: "0.95rem" }], // 11px
+        xs: ["0.75rem", { lineHeight: "1.15rem" }],      // 12px
+        sm: ["0.84375rem", { lineHeight: "1.35rem" }],   // 13.5px
+        base: ["0.9375rem", { lineHeight: "1.6rem" }],   // 15px - optimal editorial reading size
+        lg: ["1.0625rem", { lineHeight: "1.65rem" }],    // 17px
+        xl: ["1.1875rem", { lineHeight: "1.75rem" }],    // 19px
+        "2xl": ["1.375rem", { lineHeight: "1.9rem" }],   // 22px
+        "3xl": ["1.625rem", { lineHeight: "2.15rem" }],  // 26px
+        "4xl": ["2rem", { lineHeight: "2.5rem" }],       // 32px
+        "5xl": ["2.5rem", { lineHeight: "3rem" }],       // 40px
+        "6xl": ["3.125rem", { lineHeight: "3.6rem" }],   // 50px
+        "7xl": ["3.875rem", { lineHeight: "4.3rem" }],   // 62px
+        "8xl": ["4.75rem", { lineHeight: "5.25rem" }],   // 76px
+        "9xl": ["5.75rem", { lineHeight: "6.25rem" }],   // 92px
       },
       colors: {
         charcoal: {

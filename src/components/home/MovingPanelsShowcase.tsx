@@ -111,18 +111,17 @@ export function MovingPanelsShowcase() {
       <div className="absolute inset-y-0 right-0 w-20 sm:w-36 bg-gradient-to-l from-white via-white/80 to-transparent z-20 pointer-events-none" />
 
       {/* Header & Controls Bar */}
-      <div className="w-full px-6 sm:px-12 lg:px-16 xl:px-20 mb-8 sm:mb-12 relative z-10">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 border-b border-charcoal/10 pb-6">
-          <div className="space-y-2">
-            <div className="inline-flex items-center gap-2 text-cognac text-xs font-bold uppercase tracking-[0.25em]">
-              <Sparkles className="w-3.5 h-3.5 text-cognac" />
-              <span>Production Gallery · 14 Manufacturing Lines</span>
-            </div>
-            <h2 className="font-serif text-3xl sm:text-5xl font-black text-charcoal uppercase tracking-tight">
-              Crafted In Motion
+      <div className="w-full px-6 sm:px-12 lg:px-16 xl:px-20 mb-6 sm:mb-10 relative z-10">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 border-b border-charcoal/10 pb-5">
+          <div className="space-y-1.5">
+            <span className="text-cognac text-[10.5px] font-mono font-medium uppercase tracking-[0.2em] block">
+              Atelier Production Showcase · 14 Manufacturing Lines
+            </span>
+            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-charcoal tracking-tight">
+              Curated Export Portfolio
             </h2>
-            <p className="text-xs sm:text-sm text-charcoal-600 font-light max-w-xl">
-              Continuous live showcase of our atelier manufacturing lines. Hover over any panel to pause.
+            <p className="text-xs sm:text-sm text-charcoal-600 font-light max-w-xl leading-relaxed">
+              Active contract manufacturing and private-label collections. Hover over any silhouette to inspect details.
             </p>
           </div>
 
@@ -131,36 +130,36 @@ export function MovingPanelsShowcase() {
             <button
               type="button"
               onClick={() => setIsPaused((prev) => !prev)}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-white hover:bg-charcoal-50 border border-charcoal/20 text-xs uppercase tracking-widest font-mono text-charcoal transition-colors shadow-sm"
+              className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-white hover:bg-charcoal-50 border border-charcoal/15 text-[10.5px] uppercase tracking-wider font-mono text-charcoal transition-colors shadow-xs"
               title={isPaused ? "Resume continuous movement" : "Pause movement"}
             >
               {isPaused ? (
                 <>
-                  <Play className="w-3.5 h-3.5 text-cognac fill-cognac" />
-                  <span>Resume Motion</span>
+                  <Play className="w-3 h-3 text-cognac fill-cognac" />
+                  <span>Resume Drift</span>
                 </>
               ) : (
                 <>
-                  <Pause className="w-3.5 h-3.5 text-charcoal-600 fill-charcoal-600" />
-                  <span>Pause Motion</span>
+                  <Pause className="w-3 h-3 text-charcoal-600 fill-charcoal-600" />
+                  <span>Pause</span>
                 </>
               )}
             </button>
-            <span className="hidden md:inline-block text-xs text-charcoal-400 font-mono tracking-widest uppercase">
-              14 Panels
+            <span className="hidden md:inline-block text-[11px] text-charcoal-400 font-mono tracking-widest uppercase">
+              14 Lines
             </span>
           </div>
         </div>
       </div>
 
-      {/* The Continuous Moving Track of Pure White Panels (No Text) */}
+      {/* The Continuous Moving Track of Luxury Panels */}
       <div className="w-full overflow-hidden relative py-2">
         <div
-          className={`flex gap-6 sm:gap-8 px-4 ${
+          className={`flex gap-5 sm:gap-6 px-4 ${
             isPaused ? "" : "animate-marquee-forward"
           } transition-all duration-300`}
           style={{
-            animationDuration: "52s",
+            animationDuration: "58s",
             animationPlayState: isPaused ? "paused" : "running",
           }}
         >
@@ -169,20 +168,32 @@ export function MovingPanelsShowcase() {
               key={`panel-${panel.id}-${idx}`}
               href={panel.href}
               aria-label={panel.alt}
-              className="group relative block w-[260px] sm:w-[320px] lg:w-[350px] h-[370px] sm:h-[440px] lg:h-[480px] shrink-0 bg-white p-3 sm:p-3.5 border-2 border-charcoal/10 hover:border-cognac shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden select-none"
+              className="group relative block w-[260px] sm:w-[300px] lg:w-[330px] h-[360px] sm:h-[420px] lg:h-[450px] shrink-0 bg-white p-2.5 sm:p-3 border border-charcoal/12 hover:border-cognac shadow-xs hover:shadow-xl transition-all duration-500 overflow-hidden select-none"
             >
-              {/* Inner White Frame with Pure Image & Zero Text */}
+              {/* Inner Frame */}
               <div className="relative w-full h-full overflow-hidden bg-charcoal-50">
                 <img
                   src={panel.image}
                   alt={panel.alt}
-                  className="w-full h-full object-cover object-center transform group-hover:scale-108 transition-transform duration-700 ease-out"
+                  className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700 ease-out"
                   loading="lazy"
                 />
-              </div>
 
-              {/* Subtle Luxury Cognac Border Highlight on Hover */}
-              <div className="absolute inset-0 border-2 border-cognac opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+                {/* Refined Luxury Editorial Label Overlay */}
+                <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/85 via-black/40 to-transparent flex items-end justify-between text-white">
+                  <div className="space-y-0.5 min-w-0 pr-2">
+                    <span className="block text-[9px] font-mono tracking-widest uppercase text-sand-light font-medium">
+                      Line {panel.id < 10 ? `0${panel.id}` : panel.id}
+                    </span>
+                    <span className="block font-serif text-xs sm:text-[13px] font-medium text-white truncate group-hover:text-sand-light transition-colors">
+                      {panel.alt}
+                    </span>
+                  </div>
+                  <span className="text-[10px] font-mono uppercase tracking-wider text-sand-light/80 shrink-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    View →
+                  </span>
+                </div>
+              </div>
             </Link>
           ))}
         </div>

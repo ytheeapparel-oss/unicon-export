@@ -93,34 +93,32 @@ export default function PrivateLabelPage() {
         </div>
 
         {/* Elegant Floating Editorial Card on Pure White */}
-        <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-12 sm:pb-16 pt-28">
-          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border-2 border-charcoal/15 shadow-2xl space-y-6 text-left">
+        <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-10 sm:pb-14 pt-24">
+          <div className="max-w-2xl bg-white/95 backdrop-blur-md p-6 sm:p-8 border border-charcoal/10 shadow-lg space-y-4 text-left">
             <Breadcrumbs items={[{ label: "Private Label & OEM/ODM Services" }]} />
 
-            <div className="inline-flex items-center gap-3 mt-2">
-              <span className="bg-cognac text-white text-xs sm:text-sm font-bold tracking-widest uppercase px-4 py-1.5 rounded-none shadow-sm">
-                ★ Custom Contract Manufacturing
+            <div className="inline-flex items-center gap-2.5 mt-1">
+              <span className="bg-cognac text-white text-[10px] sm:text-xs font-mono font-medium tracking-widest uppercase px-3 py-1 rounded-none shadow-xs">
+                Custom Contract Manufacturing
               </span>
-              <span className="text-xs sm:text-sm text-charcoal-500 font-mono tracking-widest uppercase font-semibold">
-                OEM / ODM PRIVATE LABEL
+              <span className="text-[10px] sm:text-xs text-charcoal-500 font-mono tracking-widest uppercase font-medium">
+                OEM / ODM Private Label
               </span>
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-black text-charcoal leading-[0.98] tracking-tight uppercase">
-              Bespoke Private Label <br />
-              <span className="italic font-normal text-cognac lowercase">and</span> <br />
-              OEM/ODM DEVELOPMENT
+            <h1 className="font-serif text-2xl sm:text-4xl lg:text-5xl font-normal text-charcoal leading-[1.15] tracking-tight">
+              Bespoke Private Label & OEM/ODM Development
             </h1>
 
-            <p className="text-base sm:text-xl text-charcoal-700 leading-relaxed font-light max-w-2xl">
+            <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light max-w-xl">
               Transforming your creative vision into market-ready luxury collections. Complete R&D, custom tooling moulds, leather tannage formulation, rapid counter-sampling, and dependable container export.
             </p>
 
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
-              <Button href="#workflow" variant="primary" size="lg" className="shadow-lg">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
+              <Button href="#workflow" variant="primary" size="md">
                 Explore 8-Step OEM Process
               </Button>
-              <Button href="#inquiry" variant="outline" size="lg" className="border-2 border-charcoal text-charcoal hover:bg-charcoal hover:text-white">
+              <Button href="#inquiry" variant="outline" size="md" className="border-charcoal/25 text-charcoal hover:bg-charcoal hover:text-white">
                 Start OEM Project RFP
               </Button>
             </div>
@@ -133,33 +131,41 @@ export default function PrivateLabelPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-6 space-y-8">
             <Badge variant="cognac" size="sm">
-              Confidentiality & Precision
+              Confidentiality &amp; Precision
             </Badge>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+            <h2 className="font-serif text-3xl sm:text-4xl font-normal text-charcoal tracking-tight">
               A Dedicated Manufacturing Arm for Your Brand
             </h2>
             <p className="text-base text-charcoal-600 leading-relaxed font-light">
               We understand that design exclusivity and intellectual property protection are paramount for international luxury and contemporary labels. We execute bilateral NDAs before reviewing tech packs and maintain strict segregation of custom hardware moulds.
             </p>
 
-            <div className="bg-white p-8 rounded-none border-2 border-charcoal/15 shadow-sm space-y-4">
-              <div className="flex items-center gap-3 text-cognac font-bold text-sm uppercase tracking-widest">
-                <Lock className="w-5 h-5" /> 100% Design Exclusivity Guaranteed
+            <div className="bg-[#faf8f5] p-7 sm:p-8 rounded-none border border-charcoal/10 shadow-xs space-y-4">
+              <div className="flex items-center gap-3 text-cognac font-semibold text-xs uppercase tracking-[0.14em]">
+                <Lock className="w-4 h-4" /> 100% Design Exclusivity Guaranteed
               </div>
-              <p className="text-sm text-charcoal-600 leading-relaxed font-light">
+              <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
                 Your custom hardware tooling, pattern silhouettes, and embossed brand insignias remain your exclusive property and will never be shared, repurposed, or displayed without explicit consent.
               </p>
             </div>
           </div>
 
           <div className="lg:col-span-6">
-            <div className="relative aspect-[4/3] rounded-none overflow-hidden shadow-2xl border-2 border-charcoal/15 bg-white">
+            <div className="relative aspect-[16/9] w-full rounded-none overflow-hidden shadow-lg border border-charcoal/10 bg-white group">
               <img
-                src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80"
-                alt="Bespoke Private Label Leather Design Consultation"
-                className="w-full h-full object-cover"
+                src="/images/private-label-briefcase.png"
+                alt="UNICON LEATHER - Bespoke Private Label Leather Briefcase Prototype"
+                className="w-full h-full object-cover object-center transform group-hover:scale-103 transition-transform duration-700 ease-out"
                 loading="lazy"
               />
+              {/* Atelier Tooling Specimen Caption */}
+              <div className="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 flex items-center justify-between bg-white/95 backdrop-blur-md px-4 py-2.5 border border-charcoal/10 shadow-xs">
+                <div>
+                  <span className="block text-[9.5px] font-mono tracking-widest uppercase text-cognac font-semibold">Custom Tooling Specimen</span>
+                  <span className="block font-serif text-xs sm:text-sm text-charcoal font-medium">Bespoke Full-Grain Executive Briefcase</span>
+                </div>
+                <span className="text-[10px] font-mono uppercase text-charcoal-400">100% In-House</span>
+              </div>
             </div>
           </div>
         </div>
@@ -172,7 +178,7 @@ export default function PrivateLabelPage() {
             <Badge variant="cognac" size="sm">
               Step-By-Step Execution
             </Badge>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+            <h2 className="font-serif text-3xl sm:text-4xl font-normal text-charcoal tracking-tight">
               The Private-Label Development Lifecycle
             </h2>
             <p className="text-sm sm:text-base text-charcoal-600 font-light">
@@ -180,21 +186,21 @@ export default function PrivateLabelPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {steps.map((item) => {
               const IconComp = item.icon;
               return (
                 <div
                   key={item.step}
-                  className="bg-white p-8 rounded-none border-2 border-charcoal/15 shadow-sm space-y-4 flex flex-col justify-between hover:border-cognac transition-colors"
+                  className="bg-white p-6 sm:p-7 rounded-none border border-charcoal/10 shadow-xs space-y-3.5 flex flex-col justify-between hover:border-cognac hover:shadow-md transition-all duration-300"
                 >
-                  <div className="space-y-3">
+                  <div className="space-y-2.5">
                     <div className="flex items-center justify-between">
-                      <span className="font-mono text-3xl font-bold text-cognac">{item.step}</span>
-                      <IconComp className="w-5 h-5 text-charcoal-400" />
+                      <span className="font-serif text-2xl font-light text-cognac/80">{item.step}</span>
+                      <IconComp className="w-4 h-4 text-charcoal-400" />
                     </div>
-                    <h3 className="font-serif text-lg font-bold text-charcoal">{item.title}</h3>
-                    <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">{item.description}</p>
+                    <h3 className="font-serif text-base font-medium text-charcoal">{item.title}</h3>
+                    <p className="text-xs text-charcoal-600 leading-relaxed font-light">{item.description}</p>
                   </div>
                 </div>
               );
@@ -205,46 +211,54 @@ export default function PrivateLabelPage() {
 
       {/* 4. Custom Branding & Hardware Capabilities (Pure White) */}
       <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16" id="hardware">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           <div className="lg:col-span-6 relative order-2 lg:order-1">
-            <div className="relative aspect-[4/3] rounded-none overflow-hidden shadow-2xl border-2 border-charcoal/15 bg-white">
+            <div className="relative aspect-[16/9] w-full rounded-none overflow-hidden shadow-lg border border-charcoal/10 bg-white group">
               <img
-                src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1200&q=80"
-                alt="Custom Brass Hardware and Leather Debossing"
-                className="w-full h-full object-cover"
+                src="/images/private-label-briefcase.png"
+                alt="UNICON LEATHER - Custom Brass Hardware Tooling & Finished Leather Goods Execution"
+                className="w-full h-full object-cover object-center transform group-hover:scale-103 transition-transform duration-700 ease-out"
                 loading="lazy"
               />
+              {/* Atelier Hardware & Tooling Specimen Caption */}
+              <div className="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 flex items-center justify-between bg-white/95 backdrop-blur-md px-4 py-2.5 border border-charcoal/10 shadow-xs">
+                <div>
+                  <span className="block text-[9.5px] font-mono tracking-widest uppercase text-cognac font-semibold">Custom Tooling &amp; Hardware</span>
+                  <span className="block font-serif text-xs sm:text-sm text-charcoal font-medium">Forged Solid Brass Fittings &amp; Precision Edge Lacquer</span>
+                </div>
+                <span className="text-[10px] font-mono uppercase text-charcoal-400">Atelier Standard</span>
+              </div>
             </div>
           </div>
 
-          <div className="lg:col-span-6 space-y-8 order-1 lg:order-2">
+          <div className="lg:col-span-6 space-y-6 order-1 lg:order-2">
             <Badge variant="cognac" size="sm">
               Bespoke Branding Techniques
             </Badge>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-charcoal tracking-tight">
               Custom Logo Embossing, Hardware Tooling & Packaging
             </h2>
-            <p className="text-base text-charcoal-600 leading-relaxed font-light">
+            <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
               We offer comprehensive branding integration across every consumer touchpoint:
             </p>
 
-            <div className="space-y-4 text-sm text-charcoal-700">
-              <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
+            <div className="space-y-3.5 text-xs sm:text-sm text-charcoal-700">
+              <div className="flex items-start gap-2.5">
+                <CheckCircle2 className="w-4 h-4 text-cognac shrink-0 mt-0.5" />
                 <div>
                   <strong>Blind Heat Debossing & Foil Stamping:</strong> High-precision brass dies for clean 0.5mm blind deboss or Italian metallic gold/silver foil transfers.
                 </div>
               </div>
 
-              <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
+              <div className="flex items-start gap-2.5">
+                <CheckCircle2 className="w-4 h-4 text-cognac shrink-0 mt-0.5" />
                 <div>
                   <strong>Custom Hardware Moulds:</strong> 3D engraved solid brass, zinc alloy, and stainless steel hardware with brushed antique, gunmetal, or 24k gold PVD vacuum plating.
                 </div>
               </div>
 
-              <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
+              <div className="flex items-start gap-2.5">
+                <CheckCircle2 className="w-4 h-4 text-cognac shrink-0 mt-0.5" />
                 <div>
                   <strong>Luxury Retail Packaging:</strong> Organic unbleached cotton drawstring dustbags, custom branded rigid magnetic gift boxes, FSC-certified hangtags, and barcode application.
                 </div>
@@ -256,20 +270,20 @@ export default function PrivateLabelPage() {
 
       {/* 5. Inquiry Form (Pure White) */}
       <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16" id="inquiry">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
           <div className="lg:col-span-5 space-y-6">
             <Badge variant="cognac" size="sm">
               Initiate OEM Project
             </Badge>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-charcoal tracking-tight">
+            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-charcoal tracking-tight">
               Start Your Private Label / OEM Project
             </h2>
-            <p className="text-sm sm:text-base text-charcoal-600 leading-relaxed font-light">
+            <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
               Share your sketches, CAD tech packs, or collection concepts. Our R&D engineering team will provide preliminary costing, leather swatch options, and sampling schedules within 12–24 business hours.
             </p>
 
-            <div className="bg-white p-7 rounded-none border-2 border-charcoal/15 shadow-sm space-y-3 text-xs sm:text-sm">
-              <h3 className="font-serif font-bold text-charcoal text-base">
+            <div className="bg-[#faf8f5] p-6 rounded-none border border-charcoal/10 space-y-2.5 text-xs">
+              <h3 className="font-serif font-medium text-charcoal text-sm">
                 Private Label MOQ Guidance:
               </h3>
               <p className="text-charcoal-600">• Handbags & Satchels: 100–200 pcs per style</p>

@@ -69,14 +69,14 @@ export function BulkInquiryForm({
 
   if (submitSuccess) {
     return (
-      <div className="bg-white border-2 border-charcoal/15 p-12 rounded-none text-center space-y-5 animate-in fade-in duration-300 shadow-2xl">
+      <div className="bg-white border border-charcoal/10 p-10 sm:p-12 rounded-none text-center space-y-5 animate-in fade-in duration-300 shadow-lg">
         <div className="w-16 h-16 rounded-full bg-cognac/10 text-cognac flex items-center justify-center mx-auto">
-          <CheckCircle2 className="w-10 h-10" />
+          <CheckCircle2 className="w-8 h-8" />
         </div>
-        <h3 className="font-serif text-3xl font-bold text-charcoal">
+        <h3 className="font-serif text-2xl sm:text-3xl font-normal text-charcoal">
           Inquiry Successfully Dispatched
         </h3>
-        <p className="text-base text-charcoal-600 max-w-lg mx-auto leading-relaxed">
+        <p className="text-sm sm:text-base text-charcoal-600 max-w-lg mx-auto leading-relaxed font-light">
           Thank you for reaching out to UNICON LEATHER. Our overseas export desk has received your technical specifications. A dedicated export manager will respond with a preliminary evaluation and quotation within 12–24 business hours.
         </p>
         <div className="pt-3">
@@ -95,7 +95,7 @@ export function BulkInquiryForm({
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="space-y-7 bg-white p-8 sm:p-12 rounded-none border-2 border-charcoal/15 shadow-2xl"
+      className="space-y-7 bg-white p-8 sm:p-12 rounded-none border border-charcoal/10 shadow-lg"
       id="inquiry-form"
     >
       {initialProduct && (
@@ -302,7 +302,7 @@ export function BulkInquiryForm({
               </span>
             </div>
           </div>
-          <label className="shrink-0 cursor-pointer bg-white border-2 border-charcoal text-charcoal hover:bg-charcoal hover:text-white px-5 py-2.5 rounded-none text-xs font-bold uppercase tracking-wider transition-colors">
+          <label className="shrink-0 cursor-pointer bg-white border border-charcoal/30 text-charcoal hover:bg-charcoal hover:text-white px-5 py-2.5 rounded-none text-xs font-medium uppercase tracking-[0.14em] transition-colors">
             <span>{attachedFileName ? "Change File" : "Browse File"}</span>
             <input
               type="file"
