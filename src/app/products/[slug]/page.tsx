@@ -63,7 +63,7 @@ Key Technical Features:
 ${product.keyFeatures.map((f) => `- ${f}`).join("\n")}
 
 Export Compliance: EU REACH Annex XVII & CA Prop 65 Verified.
-Direct Inquiry: export@myunicon.com | WhatsApp: +91 [NUMBER]`;
+Direct Inquiry: work@uniconleather.net | Secondary: ytheeapparel@gmail.com | WhatsApp / Phone: +91 9873102341`;
 
       const blob = new Blob([specContent], { type: "text/plain;charset=utf-8" });
       const url = URL.createObjectURL(blob);

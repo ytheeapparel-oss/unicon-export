@@ -8,11 +8,11 @@ export const COMPANY_INFO = {
   locationState: "West Bengal",
   country: "India",
   fullAddress: "Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala, Kolkata, West Bengal 700135, India",
-  primaryEmail: "export@myunicon.com",
-  secondaryEmail: "inquiries@myunicon.com",
-  phone: "+91 33 2345 6789",
-  whatsapp: "+91 98300 54321",
-  whatsappDirectUrl: "https://wa.me/919830054321?text=Hello%20Unicon%20Leather%20Team%2C%20I%20am%20interested%20in%20discussing%20a%20B2B%20manufacturing%20inquiry.",
+  primaryEmail: "work@uniconleather.net",
+  secondaryEmail: "ytheeapparel@gmail.com",
+  phone: "+91 9873102341",
+  whatsapp: "+91 9873102341",
+  whatsappDirectUrl: "https://wa.me/919873102341?text=Hello%20Unicon%20Leather%20Team%2C%20I%20am%20interested%20in%20discussing%20a%20B2B%20manufacturing%20inquiry.",
   workingHours: "Monday to Saturday: 09:30 AM – 06:30 PM IST (Export desk monitored 24/7 for international time zones)",
   
   // Business Model & Capabilities

@@ -23,20 +23,20 @@ export function generateOrganizationSchema() {
     url: "https://myunicon.com",
     logo: "https://myunicon.com/images/unicon-leather-logo.png",
     description: "Export-oriented B2B leather goods manufacturer, wholesale exporter, and OEM/ODM private-label supplier from India serving global fashion brands.",
-    email: "export@myunicon.com",
-    telephone: "+91-9999999999",
+    email: "work@uniconleather.net",
+    telephone: "+91-9873102341",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Plot No. [FACTORY_PLOT_NUMBER], Leather Industrial Park",
+      streetAddress: "Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala",
       addressLocality: "Kolkata",
       addressRegion: "West Bengal",
-      postalCode: "700001",
+      postalCode: "700135",
       addressCountry: "IN"
     },
     contactPoint: [
       {
         "@type": "ContactPoint",
-        telephone: "+91-9999999999",
+        telephone: "+91-9873102341",
         contactType: "sales",
         areaServed: ["US", "GB", "EU", "AU", "CA", "AE", "JP"],
         availableLanguage: ["English"]

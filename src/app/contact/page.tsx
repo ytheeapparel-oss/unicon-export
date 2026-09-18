@@ -44,37 +44,36 @@ export default function ContactPage() {
 
         {/* Elegant Floating Editorial Card on Pure White */}
         <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-12 sm:pb-16 pt-28">
-          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border-2 border-charcoal/15 shadow-2xl space-y-6 text-left">
+          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border border-charcoal/10 shadow-lg space-y-6 text-left">
             <Breadcrumbs items={[{ label: "Contact & Bulk RFQ" }]} />
 
             <div className="inline-flex items-center gap-3 mt-2">
-              <span className="bg-cognac text-white text-xs sm:text-sm font-bold tracking-widest uppercase px-4 py-1.5 rounded-none shadow-sm">
-                ★ Global B2B Communication Desk
+              <span className="bg-cognac text-white text-[11px] sm:text-xs font-medium tracking-[0.14em] uppercase px-3.5 py-1 rounded-none shadow-xs">
+                Global B2B Communication Desk
               </span>
-              <span className="text-xs sm:text-sm text-charcoal-500 font-mono tracking-widest uppercase font-semibold">
-                12–24H RESPONSE SLA
+              <span className="text-[11px] sm:text-xs text-charcoal/60 font-mono tracking-widest uppercase">
+                12–24h Response SLA
               </span>
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-black text-charcoal leading-[0.98] tracking-tight uppercase">
-              Contact & Bulk <br />
-              <span className="italic font-normal text-cognac lowercase">wholesale</span> <br />
-              EXPORT INQUIRY DESK
+            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal text-charcoal leading-[1.12] tracking-tight">
+              Contact &amp; Wholesale <br />
+              <span className="italic text-cognac font-light">Export</span> Inquiry Desk
             </h1>
 
-            <p className="text-base sm:text-xl text-charcoal-700 leading-relaxed font-light max-w-2xl">
+            <p className="text-sm sm:text-base text-charcoal/70 leading-relaxed font-light max-w-2xl">
               Connect directly with our export management and engineering team. We assist international fashion brands, wholesalers, and retail buying houses with commercial quotes, tech pack reviews, and sample development.
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
-              <Button href="#rfp-form" variant="primary" size="lg" className="shadow-lg">
+              <Button href="#rfp-form" variant="primary" size="lg" className="shadow-md">
                 <Send className="w-4 h-4 mr-2" /> Submit Commercial RFP
               </Button>
               <a
                 href={COMPANY_INFO.whatsappDirectUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center font-sans uppercase font-bold tracking-widest text-xs sm:text-sm border-2 border-charcoal text-charcoal bg-white hover:bg-charcoal hover:text-white px-6 py-3.5 transition-colors"
+                className="inline-flex items-center justify-center font-sans uppercase font-medium tracking-[0.14em] text-xs sm:text-sm border border-charcoal/30 text-charcoal bg-white hover:bg-charcoal hover:text-white px-6 py-3.5 transition-colors"
               >
                 <MessageCircle className="w-4 h-4 mr-2 text-cognac" /> WhatsApp Export Desk
               </a>
@@ -92,8 +91,8 @@ export default function ContactPage() {
               <Badge variant="cognac" size="sm">
                 Direct Channels
               </Badge>
-              <h2 className="font-serif text-3xl sm:text-4xl font-bold text-charcoal tracking-tight">
-                Factory & Export Office
+              <h2 className="font-serif text-2xl sm:text-3xl font-normal text-charcoal tracking-tight">
+                Factory &amp; Export Office
               </h2>
               <p className="text-sm sm:text-base text-charcoal-600 leading-relaxed font-light">
                 Our export sales and engineering desk operates continuously across North American, European, and Asian business hours.
@@ -102,10 +101,10 @@ export default function ContactPage() {
 
             {/* Contact Cards */}
             <div className="space-y-4 text-xs sm:text-sm text-charcoal-700">
-              <div className="bg-white p-6 rounded-none border-2 border-charcoal/15 shadow-xs flex items-start gap-4">
+              <div className="bg-[#faf8f5] p-5 sm:p-6 rounded-none border border-charcoal/10 shadow-xs flex items-start gap-4">
                 <MapPin className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-charcoal block text-base font-serif">Factory & Atelier Address</strong>
+                  <strong className="text-charcoal block text-base font-serif font-medium">Factory &amp; Atelier Address</strong>
                   <p className="text-charcoal-600 mt-1 leading-relaxed font-light">{COMPANY_INFO.fullAddress}</p>
                   <span className="text-xs text-charcoal-400 mt-1 block">
                     Visits by prior business appointment only.
@@ -113,10 +112,10 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-none border-2 border-charcoal/15 shadow-xs flex items-start gap-4">
+              <div className="bg-[#faf8f5] p-5 sm:p-6 rounded-none border border-charcoal/10 shadow-xs flex items-start gap-4">
                 <Mail className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-charcoal block text-base font-serif">Corporate Email Desks</strong>
+                  <strong className="text-charcoal block text-base font-serif font-medium">Corporate Email Desks</strong>
                   <p className="text-charcoal-600 mt-1">
                     Primary Export: <a href={`mailto:${COMPANY_INFO.primaryEmail}`} className="text-cognac font-medium hover:underline">{COMPANY_INFO.primaryEmail}</a>
                   </p>
@@ -129,12 +128,15 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-none border-2 border-charcoal/15 shadow-xs flex items-start gap-4">
+              <div className="bg-[#faf8f5] p-5 sm:p-6 rounded-none border border-charcoal/10 shadow-xs flex items-start gap-4">
                 <MessageCircle className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-charcoal block text-base font-serif">Direct WhatsApp & Phone</strong>
+                  <strong className="text-charcoal block text-base font-serif font-medium">Direct WhatsApp &amp; Phone</strong>
                   <p className="text-charcoal-600 mt-1">
-                    Phone/WhatsApp: <span className="font-mono font-medium text-charcoal">{COMPANY_INFO.whatsapp}</span>
+                    Phone / WhatsApp:{" "}
+                    <a href={`tel:${COMPANY_INFO.phone}`} className="font-mono font-medium text-charcoal hover:text-cognac transition-colors">
+                      {COMPANY_INFO.phone}
+                    </a>
                   </p>
                   <a
                     href={COMPANY_INFO.whatsappDirectUrl}
@@ -147,22 +149,22 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-none border-2 border-charcoal/15 shadow-xs flex items-start gap-4">
+              <div className="bg-[#faf8f5] p-5 sm:p-6 rounded-none border border-charcoal/10 shadow-xs flex items-start gap-4">
                 <Clock className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-charcoal block text-base font-serif">Operating Hours</strong>
+                  <strong className="text-charcoal block text-base font-serif font-medium">Operating Hours</strong>
                   <p className="text-charcoal-600 mt-1 leading-relaxed font-light">{COMPANY_INFO.workingHours}</p>
                 </div>
               </div>
             </div>
 
             {/* Geographical Proximity Block (Pure White) */}
-            <div className="bg-white text-charcoal p-8 rounded-none border-2 border-charcoal/15 space-y-4 shadow-xl">
+            <div className="bg-[#faf8f5] text-charcoal p-6 sm:p-8 rounded-none border border-charcoal/10 space-y-4 shadow-sm">
               <div className="flex items-center justify-between">
-                <span className="font-serif text-lg font-bold text-charcoal flex items-center gap-2">
+                <span className="font-serif text-lg font-medium text-charcoal flex items-center gap-2">
                   <Building2 className="w-5 h-5 text-cognac" /> Strategic Port Proximity
                 </span>
-                <span className="text-[10px] text-cognac font-mono tracking-widest font-bold">EXPORT HUB</span>
+                <span className="text-[10px] text-cognac font-mono tracking-widest font-semibold">EXPORT HUB</span>
               </div>
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
                 Our manufacturing facilities are strategically located near major international cargo airports and deep-water container ports in India, ensuring rapid container dispatch without domestic transit delays.
@@ -173,7 +175,7 @@ export default function ContactPage() {
           {/* Form Column */}
           <div className="lg:col-span-7">
             <div className="mb-6">
-              <h2 className="font-serif text-3xl font-bold text-charcoal">
+              <h2 className="font-serif text-2xl sm:text-3xl font-normal text-charcoal tracking-tight">
                 Submit Commercial RFP / Inquiry
               </h2>
               <p className="text-xs sm:text-sm text-charcoal-500 mt-1">

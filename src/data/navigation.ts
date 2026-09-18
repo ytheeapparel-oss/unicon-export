@@ -93,7 +93,7 @@ export const FOOTER_NAV = {
     { label: "Global Markets Served", href: "/export#markets" },
     { label: "Sustainability & Eco-Tannage", href: "/sustainability" },
     { label: "Contact Export Desk", href: "/contact" },
-    { label: "Direct WhatsApp Line", href: "https://wa.me/919830054321" },
+    { label: "Direct WhatsApp Line", href: "https://wa.me/919873102341" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy-policy" },
