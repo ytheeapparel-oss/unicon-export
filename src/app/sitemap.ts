@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { PRODUCTS } from "@/data/products";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.uniconleather.com";
+  const baseUrl = "https://myuniconcom.vercel.app";
 
   // Core static routes
   const staticRoutes: MetadataRoute.Sitemap = [

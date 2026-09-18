@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/_next/"],
     },
-    sitemap: "https://www.uniconleather.com/sitemap.xml",
+    sitemap: "https://myuniconcom.vercel.app/sitemap.xml",
   };
 }
