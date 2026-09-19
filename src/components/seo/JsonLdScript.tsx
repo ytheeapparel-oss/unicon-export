@@ -16,13 +16,13 @@ export function JsonLdScript({ schema }: JsonLdScriptProps) {
 export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "Manufacturer", "WholesaleStore"],
     "@id": "https://www.uniconleather.com/#organization",
     name: "UNICON LEATHER",
     legalName: "Unicon Leather Goods Export Private Limited",
     url: "https://www.uniconleather.com",
     logo: "https://www.uniconleather.com/images/unicon-leather-logo.png",
-    description: "Export-oriented B2B leather goods manufacturer, wholesale exporter, and OEM/ODM private-label supplier from India serving global fashion brands.",
+    description: "Export-oriented B2B luxury leather goods manufacturer, wholesale exporter, and OEM/ODM private-label supplier from India serving global fashion brands, retail buying houses, and independent labels.",
     email: "work@uniconleather.net",
     telephone: "+91-9873102341",
     address: {
@@ -33,16 +33,69 @@ export function generateOrganizationSchema() {
       postalCode: "700135",
       addressCountry: "IN"
     },
+    isicV4: "1512",
+    naics: "316992",
+    knowsAbout: [
+      "Leather Goods Manufacturing",
+      "OEM Manufacturing Partner",
+      "ODM Private Label Development",
+      "B2B Wholesale Export",
+      "Harmonized System HS Code 4202 Luggage & Handbags",
+      "Harmonized System HS Code 4203 Leather Garments & Accessories",
+      "Harmonized System HS Code 4205 Articles of Leather",
+      "Genuine Leather Handbags & Totes",
+      "Luxury Leather Briefcases & Laptop Bags",
+      "Handcrafted Leather Wallets & Cardholders",
+      "Full-Grain Leather Travel Duffels"
+    ],
+    hasCredential: [
+      {
+        "@type": "EducationalOccupationalCredential",
+        name: "LWG (Leather Working Group) Gold/Silver Rated Tannery Partners"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        name: "EU REACH & CPSIA Chemical Safety Compliance"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        name: "BSCI / Sedex Ethical Manufacturing Standards"
+      }
+    ],
+    areaServed: [
+      { "@type": "Country", name: "United States" },
+      { "@type": "Country", name: "United Kingdom" },
+      { "@type": "Country", name: "Germany" },
+      { "@type": "Country", name: "France" },
+      { "@type": "Country", name: "Italy" },
+      { "@type": "Country", name: "Australia" },
+      { "@type": "Country", name: "Canada" },
+      { "@type": "Country", name: "United Arab Emirates" },
+      { "@type": "Country", name: "Japan" }
+    ],
     contactPoint: [
       {
         "@type": "ContactPoint",
         telephone: "+91-9873102341",
-        contactType: "sales",
+        contactType: "export sales",
+        email: "work@uniconleather.net",
         areaServed: ["US", "GB", "EU", "AU", "CA", "AE", "JP"],
         availableLanguage: ["English"]
       }
     ],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "B2B Export Leather Collections",
+      itemListElement: [
+        { "@type": "OfferCatalog", name: "Leather Handbags & Totes" },
+        { "@type": "OfferCatalog", name: "Laptop & Business Bags" },
+        { "@type": "OfferCatalog", name: "Travel & Duffel Bags" },
+        { "@type": "OfferCatalog", name: "Wallets & Small Leather Goods" },
+        { "@type": "OfferCatalog", name: "Custom OEM/ODM Development" }
+      ]
+    },
     sameAs: [
+      "https://github.com/ytheeapparel-oss/unicon-export",
       "https://linkedin.com/company/unicon-leather-placeholder",
       "https://instagram.com/uniconleather_b2b_placeholder"
     ]
