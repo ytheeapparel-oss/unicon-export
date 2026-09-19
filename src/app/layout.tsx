@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://myuniconcom.vercel.app"),
+  metadataBase: new URL("https://www.uniconleather.com"),
   title: {
     default: "UNICON LEATHER | Luxury Leather Goods Manufacturer & Exporter India",
     template: "%s | UNICON LEATHER",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://myuniconcom.vercel.app",
+    url: "https://www.uniconleather.com",
     siteName: "UNICON LEATHER",
     title: "UNICON LEATHER | Premier Leather Goods Manufacturer & Global Exporter",
     description:

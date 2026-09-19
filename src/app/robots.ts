@@ -29,7 +29,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://myuniconcom.vercel.app/sitemap.xml",
-    host: "https://myuniconcom.vercel.app",
+    sitemap: "https://www.uniconleather.com/sitemap.xml",
+    host: "https://www.uniconleather.com",
   };
 }
