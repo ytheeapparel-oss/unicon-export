@@ -70,6 +70,9 @@ export const metadata: Metadata = {
     shortcut: "/favicon.svg",
     apple: "/favicon.svg",
   },
+  verification: {
+    google: "cf857e5ed6f9e189",
+  },
   robots: {
     index: true,
     follow: true,
