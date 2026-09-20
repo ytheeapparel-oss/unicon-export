@@ -106,6 +106,16 @@ export default function ContactPage() {
                 <div>
                   <strong className="text-charcoal block text-base font-serif font-medium">Factory &amp; Atelier Address</strong>
                   <p className="text-charcoal-600 mt-1 leading-relaxed font-light">{COMPANY_INFO.fullAddress}</p>
+                  <div className="flex items-center gap-3 mt-2">
+                    <a
+                      href="https://maps.google.com/?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata+West+Bengal+700135"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-cognac hover:underline font-mono"
+                    >
+                      Open in Google Maps →
+                    </a>
+                  </div>
                   <span className="text-xs text-charcoal-400 mt-1 block">
                     Visits by prior business appointment only.
                   </span>

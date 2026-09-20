@@ -17,16 +17,31 @@ export function JsonLdScript({ schema }: JsonLdScriptProps) {
 export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": ["Organization", "Manufacturer", "WholesaleStore"],
+    "@type": ["Organization", "Manufacturer", "WholesaleStore", "LocalBusiness"],
     "@id": "https://www.uniconleather.com/#organization",
     name: "UNICON LEATHER",
     legalName: "Unicon Leather Goods Export Private Limited",
     url: "https://www.uniconleather.com",
     logo: "https://www.uniconleather.com/images/unicon-leather-logo.png",
+    image: "https://www.uniconleather.com/images/home-hero-leather.jpg",
     description: "Export-oriented B2B luxury leather goods manufacturer, wholesale exporter, and OEM/ODM private-label supplier from India serving global fashion brands, retail buying houses, and independent labels.",
     email: "uniconexport@gmail.com",
     telephone: "+91-9873102341",
-    keywords: ALL_SEO_KEYWORDS.join(", "),
+    priceRange: "$$",
+    hasMap: "https://maps.google.com/?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata",
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 22.5085,
+      longitude: 88.4687
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        opens: "09:30",
+        closes: "18:30"
+      }
+    ],
     address: {
       "@type": "PostalAddress",
       streetAddress: "Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala",
@@ -91,8 +106,10 @@ export function generateOrganizationSchema() {
     },
     sameAs: [
       "https://github.com/ytheeapparel-oss/unicon-export",
-      "https://linkedin.com/company/unicon-leather-placeholder",
-      "https://instagram.com/uniconleather_b2b_placeholder"
+      "https://www.linkedin.com/company/unicon-leather",
+      "https://www.youtube.com/@uniconleather",
+      "https://www.instagram.com/uniconleather",
+      "https://www.facebook.com/uniconleather"
     ]
   };
 }
