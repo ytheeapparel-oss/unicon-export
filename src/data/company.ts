@@ -82,7 +82,9 @@ export const COMPANY_INFO = {
 
   // Socials / External links
   socials: {
-    linkedin: "https://linkedin.com/company/unicon-leather-placeholder",
-    instagram: "https://instagram.com/uniconleather_b2b_placeholder",
+    linkedin: "https://www.linkedin.com/company/unicon-leather",
+    youtube: "https://www.youtube.com/@uniconleather",
+    instagram: "https://www.instagram.com/uniconleather",
+    facebook: "https://www.facebook.com/uniconleather",
   }
 };
