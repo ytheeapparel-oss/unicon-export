@@ -15,7 +15,7 @@ export function KeywordTaxonomy() {
           </span>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6">
           {SEO_KEYWORD_CLUSTERS.map((cluster) => (
             <div key={cluster.category} className="space-y-2.5">
               <h4 className="text-[11px] font-serif font-medium text-cognac tracking-wide">

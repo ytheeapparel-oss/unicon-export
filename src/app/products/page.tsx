@@ -29,11 +29,33 @@ function CatalogueContent() {
       const matchesCategory =
         selectedCategory === "All" || product.category === selectedCategory;
 
-      const matchesSearch =
-        product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        product.shortDescription.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        product.id.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        product.leatherType.toLowerCase().includes(searchQuery.toLowerCase());
+      let matchesSearch = true;
+      if (searchQuery.trim()) {
+        const queryLower = searchQuery.toLowerCase().trim();
+        const exactMatch =
+          product.name.toLowerCase().includes(queryLower) ||
+          product.shortDescription.toLowerCase().includes(queryLower) ||
+          product.id.toLowerCase().includes(queryLower) ||
+          product.leatherType.toLowerCase().includes(queryLower) ||
+          product.category.toLowerCase().includes(queryLower);
+
+        if (exactMatch) {
+          matchesSearch = true;
+        } else {
+          const stopWords = new Set(["manufacturer", "supplier", "factory", "wholesale", "bulk", "oem", "odm", "pass", "code", "and", "for", "with", "the", "in"]);
+          const tokens = queryLower.split(/\s+/).filter(w => w.length > 2 && !stopWords.has(w));
+          if (tokens.length > 0) {
+            matchesSearch = tokens.some(token =>
+              product.name.toLowerCase().includes(token) ||
+              product.shortDescription.toLowerCase().includes(token) ||
+              product.leatherType.toLowerCase().includes(token) ||
+              product.category.toLowerCase().includes(token)
+            );
+          } else {
+            matchesSearch = true;
+          }
+        }
+      }
 
       const matchesLeather =
         selectedLeather === "All" ||
