@@ -74,9 +74,9 @@ export const SHOWCASE_PANELS: ShowcasePanel[] = [
   },
   {
     id: 11,
-    image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80",
-    href: "/products/wallets-and-cardholders",
-    alt: "Minimalist Leather Cardholder",
+    image: "/images/panel-11-bucket-bag.png",
+    href: "/products/leather-handbags",
+    alt: "Handcrafted Cognac Leather Bucket Shoulder Bag",
   },
   {
     id: 12,
@@ -86,9 +86,9 @@ export const SHOWCASE_PANELS: ShowcasePanel[] = [
   },
   {
     id: 13,
-    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
-    href: "/products/corporate-gifts",
-    alt: "Executive Desk Valet & Tray",
+    image: "/images/panel-13-tote-bag.png",
+    href: "/products/tote-bags",
+    alt: "Luxury Pebbled Calfskin Handbag & Tote",
   },
   {
     id: 14,
@@ -168,10 +168,10 @@ export function MovingPanelsShowcase() {
               key={`panel-${panel.id}-${idx}`}
               href={panel.href}
               aria-label={panel.alt}
-              className="group relative block w-[260px] sm:w-[300px] lg:w-[330px] h-[360px] sm:h-[420px] lg:h-[450px] shrink-0 bg-white p-2.5 sm:p-3 border border-charcoal/12 hover:border-cognac shadow-xs hover:shadow-xl transition-all duration-500 overflow-hidden select-none"
+              className="group relative block w-[260px] sm:w-[310px] lg:w-[340px] h-[370px] sm:h-[430px] lg:h-[460px] shrink-0 bg-white border border-charcoal/15 hover:border-cognac shadow-xs hover:shadow-xl transition-all duration-500 overflow-hidden select-none"
             >
-              {/* Inner Frame */}
-              <div className="relative w-full h-full overflow-hidden bg-charcoal-50">
+              {/* Inner Frame with 100% Full Length and Breadth Image */}
+              <div className="relative w-full h-full overflow-hidden bg-white">
                 <img
                   src={panel.image}
                   alt={panel.alt}
