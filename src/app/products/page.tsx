@@ -16,9 +16,10 @@ import { Product } from "@/types";
 function CatalogueContent() {
   const searchParams = useSearchParams();
   const initialCategory = searchParams.get("category") || "All";
+  const initialSearch = searchParams.get("search") || searchParams.get("q") || "";
 
   const [selectedCategory, setSelectedCategory] = useState<string>(initialCategory);
-  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [searchQuery, setSearchQuery] = useState<string>(initialSearch);
   const [selectedLeather, setSelectedLeather] = useState<string>("All");
   const [sortBy, setSortBy] = useState<string>("default");
   const [quoteProduct, setQuoteProduct] = useState<Product | null>(null);

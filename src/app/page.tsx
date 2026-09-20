@@ -28,87 +28,15 @@ import { CategoryCard } from "@/components/ui/CategoryCard";
 import { ProductCard } from "@/components/ui/ProductCard";
 import { BulkInquiryForm } from "@/components/forms/BulkInquiryForm";
 import { MovingPanelsShowcase } from "@/components/home/MovingPanelsShowcase";
+import { Hero } from "@/components/home/Hero";
 
 export default function HomePage() {
   const featuredProducts = PRODUCTS.slice(0, 4);
 
   return (
     <div className="w-full bg-white space-y-20 sm:space-y-28 pb-28">
-      {/* 1. FULL-BLEED EXECUTIVE HERO (Full Length & Breadth) */}
-      <section className="relative w-full min-h-[620px] sm:min-h-[700px] lg:min-h-[760px] xl:min-h-[820px] flex items-center overflow-hidden bg-[#11100e] text-white border-b border-[#262421]">
-        {/* Full Length & Breadth Background Image */}
-        <div className="absolute inset-0 w-full h-full">
-          <img
-            src="/images/home-hero-leather.jpg"
-            alt="UNICON LEATHER - Handcrafted Luxury Leather Goods Atelier & Export"
-            className="w-full h-full object-cover object-[center_40%] lg:object-center transform scale-100 transition-transform duration-1000 ease-out"
-            loading="eager"
-          />
-          {/* Cinematic Multi-Stop Scrim for Flawless Readability & Luxurious Warmth */}
-          <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/65 via-60% to-black/30 md:to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-black/35" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0)_0%,rgba(0,0,0,0.45)_100%)] pointer-events-none" />
-        </div>
-
-        <div className="relative z-10 w-full max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14 xl:px-16 py-16 sm:py-24 lg:py-28">
-          <div className="max-w-2xl lg:max-w-3xl space-y-6 text-left">
-            {/* Editorial Kicker */}
-            <div className="inline-flex items-center gap-2.5 flex-wrap">
-              <span className="text-[10px] sm:text-[11px] font-mono tracking-[0.22em] text-sand-light uppercase font-medium border-b border-cognac/70 pb-0.5">
-                Direct Factory Contract Manufacturing · Est. 1998
-              </span>
-              <span className="text-white/40">·</span>
-              <span className="text-[10px] sm:text-[11px] text-cognac-300 font-mono tracking-widest uppercase font-medium">
-                India to 25+ Global Ports
-              </span>
-            </div>
-
-            {/* Main Luxury Heading */}
-            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal text-white leading-[1.12] tracking-tight drop-shadow-sm">
-              Contract Manufacturing &amp; Direct Export of <span className="italic text-sand-light">Fine Leather Goods</span>
-            </h1>
-
-            {/* Body Subtitle */}
-            <p className="text-sm sm:text-base lg:text-lg text-[#e4e0d7] leading-relaxed font-light max-w-2xl drop-shadow-xs">
-              Bespoke OEM/ODM contract manufacturing and wholesale export of genuine leather handbags, briefcases, travel duffels, wallets, and accessories for international luxury brands, boutique designers, and department store buying houses.
-            </p>
-
-            {/* Action CTAs */}
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 pt-2">
-              <Button href="/catalogue-request" variant="primary" size="lg" className="text-xs uppercase tracking-wider font-semibold shadow-xl">
-                <FileText className="w-4 h-4 mr-2" /> Request 2025 Catalogue
-              </Button>
-              <Button href="/private-label" variant="outline" size="lg" className="border-white/40 text-white hover:bg-white hover:text-charcoal text-xs uppercase tracking-wider font-semibold backdrop-blur-xs">
-                <Sliders className="w-4 h-4 mr-2" /> Start OEM Project
-              </Button>
-            </div>
-
-            {/* Atelier Specs Mini Bar with glass backdrop */}
-            <div className="pt-6 border-t border-white/20 grid grid-cols-3 gap-6 text-left max-w-xl">
-              <div>
-                <span className="block text-[10px] font-mono tracking-wider uppercase text-sand-light/75">Tannages</span>
-                <span className="text-xs sm:text-sm font-serif text-sand-light font-medium">LWG Gold Audited</span>
-              </div>
-              <div>
-                <span className="block text-[10px] font-mono tracking-wider uppercase text-sand-light/75">Prototyping</span>
-                <span className="text-xs sm:text-sm font-serif text-sand-light font-medium">7–14 Days Express</span>
-              </div>
-              <div>
-                <span className="block text-[10px] font-mono tracking-wider uppercase text-sand-light/75">Quality Audit</span>
-                <span className="text-xs sm:text-sm font-serif text-sand-light font-medium">AQL 2.5 Standard</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Live Atelier Bench Badge in Bottom Right */}
-        <div className="absolute bottom-6 right-6 sm:right-10 lg:right-16 z-10 hidden sm:flex items-center gap-3 bg-black/60 backdrop-blur-md px-4 py-2.5 border border-white/15 text-white">
-          <div className="text-right">
-            <span className="block text-[9.5px] font-mono tracking-widest uppercase text-sand-light font-medium">Master Atelier Workshop</span>
-            <span className="block font-serif text-xs font-normal text-white">Handcrafted Heritage Leather Goods</span>
-          </div>
-        </div>
-      </section>
+      {/* <!-- HERO COMPONENT --> */}
+      <Hero />
 
       {/* 1.1 Hairline Trust Indicators Bar */}
       <section className="w-full bg-white border-b border-charcoal/10">
@@ -244,7 +172,7 @@ export default function HomePage() {
         </div>
 
         {/* Full-Bleed Craftsmanship Showcase Image */}
-        <div className="w-full relative aspect-[16/9] sm:aspect-[21/9] lg:aspect-[2.5/1] min-h-[360px] sm:min-h-[480px] bg-charcoal-900 border-y border-charcoal/10 overflow-hidden shadow-sm">
+        <div className="w-full relative aspect-[16/9] sm:aspect-[21/9] lg:aspect-[2.5/1] min-h-[360px] sm:min-h-[480px] bg-[#FAF8F5] border-y border-charcoal/10 overflow-hidden shadow-sm">
           <img
             src="/images/craftsmanship-hero.jpg"
             alt="Master Leather Artisan Handcrafting and Edge Burnishing Fine Goods"

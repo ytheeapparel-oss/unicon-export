@@ -21,6 +21,19 @@ export const metadata: Metadata = {
   title: "Sustainability & Responsible Sourcing | Ethical Leather Goods Manufacturing",
   description:
     "Verifiable sustainability practices at UNICON LEATHER: LWG-audited partner tanneries, Chrome-Free Vegetable Tannages, zero-waste cutting yield optimization, and REACH chemical safety.",
+  keywords: [
+    "certified leather manufacturer audit pass",
+    "LWG certified leather factory",
+    "Sedex audited leather manufacturer",
+    "sustainable leather manufacturer",
+    "vegetable tanned leather bag",
+    "veg tan leather goods",
+    "chrome-free tanned leather goods",
+    "recycled leather goods",
+    "upcycled leather accessories",
+    "bio-based vegan leather",
+    "plant-based leather alternatives apple cactus leather"
+  ],
 };
 
 export default function SustainabilityPage() {

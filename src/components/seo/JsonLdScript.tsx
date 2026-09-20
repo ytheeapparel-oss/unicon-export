@@ -1,4 +1,5 @@
 import React from "react";
+import { ALL_SEO_KEYWORDS, SEO_KEYWORD_CLUSTERS } from "@/data/keywords";
 
 interface JsonLdScriptProps {
   schema: Record<string, any>;
@@ -23,8 +24,9 @@ export function generateOrganizationSchema() {
     url: "https://www.uniconleather.com",
     logo: "https://www.uniconleather.com/images/unicon-leather-logo.png",
     description: "Export-oriented B2B luxury leather goods manufacturer, wholesale exporter, and OEM/ODM private-label supplier from India serving global fashion brands, retail buying houses, and independent labels.",
-    email: "work@uniconleather.net",
+    email: "uniconexport@gmail.com",
     telephone: "+91-9873102341",
+    keywords: ALL_SEO_KEYWORDS.join(", "),
     address: {
       "@type": "PostalAddress",
       streetAddress: "Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala",
@@ -36,17 +38,10 @@ export function generateOrganizationSchema() {
     isicV4: "1512",
     naics: "316992",
     knowsAbout: [
-      "Leather Goods Manufacturing",
-      "OEM Manufacturing Partner",
-      "ODM Private Label Development",
-      "B2B Wholesale Export",
+      ...ALL_SEO_KEYWORDS,
       "Harmonized System HS Code 4202 Luggage & Handbags",
       "Harmonized System HS Code 4203 Leather Garments & Accessories",
-      "Harmonized System HS Code 4205 Articles of Leather",
-      "Genuine Leather Handbags & Totes",
-      "Luxury Leather Briefcases & Laptop Bags",
-      "Handcrafted Leather Wallets & Cardholders",
-      "Full-Grain Leather Travel Duffels"
+      "Harmonized System HS Code 4205 Articles of Leather"
     ],
     hasCredential: [
       {
@@ -78,7 +73,7 @@ export function generateOrganizationSchema() {
         "@type": "ContactPoint",
         telephone: "+91-9873102341",
         contactType: "export sales",
-        email: "work@uniconleather.net",
+        email: "uniconexport@gmail.com",
         areaServed: ["US", "GB", "EU", "AU", "CA", "AE", "JP"],
         availableLanguage: ["English"]
       }

@@ -31,24 +31,24 @@ export function Header() {
   return (
     <>
       {/* International B2B Export Status Bar */}
-      <div className="hidden lg:block bg-[#161513] text-[#c7c2b6] border-b border-[#242220] py-1.5 px-4 sm:px-8 lg:px-12 xl:px-16 text-[9.5px] uppercase tracking-[0.16em] font-mono">
+      <div className="hidden lg:block bg-[#FAF8F5] text-[#5A5650] border-b border-[#E8E3DA] py-1.5 px-4 sm:px-8 lg:px-12 xl:px-16 text-[9.5px] uppercase tracking-[0.16em] font-mono">
         <div className="w-full max-w-[1720px] mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3.5">
             <span className="text-cognac font-bold inline-flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
               Direct Export Atelier
             </span>
-            <span className="text-[#45423c]">·</span>
+            <span className="text-[#D5CFC5]">·</span>
             <span>Incoterms: FOB · CIF · DDP Worldwide</span>
-            <span className="text-[#45423c]">·</span>
+            <span className="text-[#D5CFC5]">·</span>
             <span>Compliance: LWG Audited · REACH Annex XVII · Prop 65</span>
           </div>
-          <div className="flex items-center gap-3.5 text-[#a8a398]">
-            <a href={`mailto:${COMPANY_INFO.primaryEmail}`} className="hover:text-cognac transition-colors lowercase font-sans">
+          <div className="flex items-center gap-3.5 text-[#6A665E]">
+            <a href={`mailto:${COMPANY_INFO.primaryEmail}`} className="hover:text-cognac transition-colors lowercase font-sans font-medium">
               {COMPANY_INFO.primaryEmail}
             </a>
-            <span className="text-[#45423c]">·</span>
-            <a href={COMPANY_INFO.whatsappDirectUrl} target="_blank" rel="noopener noreferrer" className="text-cognac hover:underline font-sans">
+            <span className="text-[#D5CFC5]">·</span>
+            <a href={COMPANY_INFO.whatsappDirectUrl} target="_blank" rel="noopener noreferrer" className="text-cognac hover:underline font-sans font-medium">
               WhatsApp Export Desk
             </a>
           </div>

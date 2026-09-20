@@ -17,6 +17,16 @@ export const metadata: Metadata = {
   title: "Global Export Capabilities & B2B Logistics | International Shipping",
   description:
     "Export-ready leather goods manufacturing from India to USA, UK, Europe, UAE, Australia, and Japan. Supported Incoterms (FOB, CIF, DDP), customs documentation, and transit timelines.",
+  keywords: [
+    "leather goods exporter",
+    "leather products HS code 4202",
+    "leather products HS code 4203",
+    "leather goods wholesale suppliers",
+    "bulk leather bags for retail",
+    "leather wallets wholesale low moq",
+    "leather belt wholesale supplier",
+    "bulk leather messenger bags exporter"
+  ],
 };
 
 export default function ExportPage() {

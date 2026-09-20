@@ -8,7 +8,10 @@ import {
   ArrowRight,
   Factory,
   HeartHandshake,
-  FileText
+  FileText,
+  Globe,
+  Mail,
+  Phone
 } from "lucide-react";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
@@ -111,6 +114,120 @@ export default function AboutPage() {
                 loading="lazy"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 2.5 Comprehensive B2B Export Profile & Capabilities */}
+      <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
+        <div className="bg-white border border-charcoal/15 shadow-sm p-8 sm:p-12 lg:p-14 space-y-10">
+          <div className="max-w-4xl space-y-4">
+            <Badge variant="cognac" size="sm">
+              Global B2B Atelier Profile
+            </Badge>
+            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-charcoal tracking-tight">
+              OEM/ODM Leather Goods Manufacturing & Export Atelier
+            </h2>
+            <p className="text-base sm:text-lg text-charcoal-700 leading-relaxed font-light">
+              <strong className="text-charcoal font-semibold">UNICON LEATHER</strong> (Unicon Leather Goods Export Private Limited) is a premier OEM/ODM leather goods manufacturer and export atelier located in Kolkata, India. We partner with fashion labels, boutique brands, department store buying houses, and corporate gifting distributors across Europe, the UK, and North America.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-4 border-t border-charcoal/10">
+            {/* Manufacturing Specializations */}
+            <div className="space-y-4 bg-[#faf8f5] p-6 border border-charcoal/10">
+              <h3 className="font-serif text-lg sm:text-xl font-medium text-charcoal flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-cognac shrink-0"></span>
+                Our Manufacturing Specializations
+              </h3>
+              <ul className="space-y-2.5 text-xs sm:text-sm text-charcoal-600">
+                <li className="flex items-start gap-2">
+                  <span className="text-cognac font-bold">•</span>
+                  <span>Luxury Leather Handbags, Totes, and Crossbody Bags</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-cognac font-bold">•</span>
+                  <span>Executive Laptop Bags, Briefcases, and Commuter Backpacks</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-cognac font-bold">•</span>
+                  <span>Full-Grain Leather Wallets, Cardholders, and RFID-shielded Small Leather Goods</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-cognac font-bold">•</span>
+                  <span>Handcrafted Vegetable-Tanned Belts and Bespoke Accessories</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-cognac font-bold">•</span>
+                  <span>Custom OEM/ODM Prototyping and Private-Label Manufacturing</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Quality & Compliance Standards */}
+            <div className="space-y-4 bg-[#faf8f5] p-6 border border-charcoal/10">
+              <h3 className="font-serif text-lg sm:text-xl font-medium text-charcoal flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-cognac shrink-0"></span>
+                Quality & Compliance Standards
+              </h3>
+              <ul className="space-y-2.5 text-xs sm:text-sm text-charcoal-600">
+                <li className="flex items-start gap-2">
+                  <span className="text-cognac font-bold">•</span>
+                  <span>Raw materials sourced from Leather Working Group (LWG) audited partner tanneries.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-cognac font-bold">•</span>
+                  <span>100% compliant with EU REACH Annex XVII regulations (Chromium VI &lt;3ppm, Azo-dye free, nickel-free hardware) and California Proposition 65.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-cognac font-bold">•</span>
+                  <span>Strict 4-stage Quality Control benchmarked against AQL 2.5 standards.</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Commercial & Export Terms */}
+            <div className="space-y-4 bg-[#faf8f5] p-6 border border-charcoal/10">
+              <h3 className="font-serif text-lg sm:text-xl font-medium text-charcoal flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-cognac shrink-0"></span>
+                Commercial & Export Terms
+              </h3>
+              <ul className="space-y-2.5 text-xs sm:text-sm text-charcoal-600">
+                <li className="flex items-start gap-2">
+                  <span className="text-cognac font-bold">•</span>
+                  <span><strong>Low MOQs:</strong> 100–300 pcs per handbag style; 200–500 pcs for wallets and SLGs.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-cognac font-bold">•</span>
+                  <span><strong>Rapid sampling:</strong> Tech-pack prototype development within 7 to 14 business days.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-cognac font-bold">•</span>
+                  <span><strong>Incoterms:</strong> FOB, CIF, DDP (Delivered Duty Paid), and EXW.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Contact Bar */}
+          <div className="flex flex-wrap items-center justify-between gap-4 p-5 bg-[#FAF8F5] text-charcoal border border-charcoal/15 text-xs sm:text-sm">
+            <div className="flex flex-wrap items-center gap-6">
+              <a href="https://www.uniconleather.com/" target="_blank" rel="noopener noreferrer" className="hover:text-cognac transition-colors flex items-center gap-1.5 font-medium">
+                <Globe className="w-4 h-4 text-cognac" />
+                <span>www.uniconleather.com</span>
+              </a>
+              <a href="mailto:uniconexport@gmail.com" className="hover:text-cognac transition-colors flex items-center gap-1.5 font-medium">
+                <Mail className="w-4 h-4 text-cognac" />
+                <span>uniconexport@gmail.com</span>
+              </a>
+              <a href="https://wa.me/919873102341" target="_blank" rel="noopener noreferrer" className="hover:text-cognac transition-colors flex items-center gap-1.5 font-medium">
+                <Phone className="w-4 h-4 text-cognac" />
+                <span>WhatsApp: +91 9873102341</span>
+              </a>
+            </div>
+            <Button href="/contact" variant="primary" size="sm" className="bg-cognac hover:bg-cognac-600 text-white">
+              Inquire Now
+            </Button>
           </div>
         </div>
       </section>

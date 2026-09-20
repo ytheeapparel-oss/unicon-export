@@ -13,17 +13,17 @@ export const metadata: Metadata = {
 export default function CookiePolicyPage() {
   return (
     <div className="space-y-12 pb-20">
-      <section className="bg-espresso text-ivory py-12 sm:py-16 border-b border-charcoal-800">
+      <section className="bg-[#FAF8F5] text-charcoal py-12 sm:py-16 border-b border-charcoal/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs items={[{ label: "Cookie & Analytics Policy" }]} />
           <div className="max-w-3xl space-y-4 mt-4">
-            <Badge variant="gold" size="sm">
+            <Badge variant="cognac" size="sm">
               Transparency
             </Badge>
-            <h1 className="font-serif text-3xl sm:text-5xl font-extrabold text-ivory tracking-tight">
-              Cookie & Analytics Policy
+            <h1 className="font-serif text-3xl sm:text-5xl font-normal text-charcoal tracking-tight">
+              Cookie &amp; Analytics Policy
             </h1>
-            <p className="text-xs sm:text-sm text-sand/80">
+            <p className="text-xs sm:text-sm text-charcoal-600">
               Details on technical cookies and aggregated analytics utilized to optimize B2B user experience.
             </p>
           </div>

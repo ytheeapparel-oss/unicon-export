@@ -5,9 +5,10 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { JsonLdScript, generateOrganizationSchema } from "@/components/seo/JsonLdScript";
+import { ALL_SEO_KEYWORDS } from "@/data/keywords";
 
 export const viewport: Viewport = {
-  themeColor: "#11100F",
+  themeColor: "#FFFFFF",
   width: "device-width",
   initialScale: 1,
 };
@@ -15,24 +16,12 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.uniconleather.com"),
   title: {
-    default: "UNICON LEATHER | Luxury Leather Goods Manufacturer & Exporter India",
+    default: "UNICON LEATHER | Custom Leather Goods Manufacturer, OEM Bags & Wallets Factory",
     template: "%s | UNICON LEATHER",
   },
   description:
-    "Leading B2B leather goods manufacturer, OEM/ODM private-label factory, and wholesale exporter from India. Crafting handcrafted luxury leather bags, wallets, belts, and accessories for global brands in the USA, UK, Europe, UAE, Australia, and Japan.",
-  keywords: [
-    "Leather goods manufacturer in India",
-    "Leather products exporter from India",
-    "Private-label leather goods manufacturer",
-    "OEM leather bag manufacturer",
-    "Custom leather bag supplier",
-    "Wholesale leather goods exporter",
-    "Leather handbag manufacturer",
-    "Leather wallet manufacturer",
-    "Leather belt manufacturer",
-    "Leather accessories supplier",
-    "Luxury leather goods OEM India",
-  ],
+    "Leading custom leather goods manufacturer, OEM/ODM private-label factory, and wholesale exporter. Handcrafted full-grain leather bags, minimalist totes, RFID wallets, cardholders, belts, and bespoke accessories for USA, UK, and European brands. Low MOQs and LWG audited tanneries.",
+  keywords: ALL_SEO_KEYWORDS,
   authors: [{ name: "UNICON LEATHER Export Desk" }],
   creator: "UNICON LEATHER",
   publisher: "UNICON LEATHER",

@@ -13,17 +13,17 @@ export const metadata: Metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <div className="space-y-12 pb-20">
-      <section className="bg-espresso text-ivory py-12 sm:py-16 border-b border-charcoal-800">
+      <section className="bg-[#FAF8F5] text-charcoal py-12 sm:py-16 border-b border-charcoal/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs items={[{ label: "B2B Privacy Policy" }]} />
           <div className="max-w-3xl space-y-4 mt-4">
-            <Badge variant="gold" size="sm">
+            <Badge variant="cognac" size="sm">
               Legal Transparency
             </Badge>
-            <h1 className="font-serif text-3xl sm:text-5xl font-extrabold text-ivory tracking-tight">
-              B2B Privacy & Confidentiality Policy
+            <h1 className="font-serif text-3xl sm:text-5xl font-normal text-charcoal tracking-tight">
+              B2B Privacy &amp; Confidentiality Policy
             </h1>
-            <p className="text-xs sm:text-sm text-sand/80">
+            <p className="text-xs sm:text-sm text-charcoal-600">
               Last Updated: January 2025 • Governs international commercial inquiries and client design data.
             </p>
           </div>

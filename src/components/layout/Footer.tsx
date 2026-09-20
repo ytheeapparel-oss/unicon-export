@@ -4,6 +4,7 @@ import { Mail, Phone, MapPin, Globe, ShieldCheck, Clock, ArrowRight, Download, C
 import { FOOTER_NAV } from "@/data/navigation";
 import { COMPANY_INFO } from "@/data/company";
 import { CapabilitiesTicker } from "@/components/ui/CapabilitiesTicker";
+import { KeywordTaxonomy } from "@/components/seo/KeywordTaxonomy";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -13,16 +14,16 @@ export function Footer() {
       {/* Continuous Capabilities Showcase */}
       <CapabilitiesTicker />
 
-      <footer className="bg-[#141312] text-[#d6d1c7] border-t border-[#262422]">
-        {/* 1. Top Value Pillars (Luxury Dark Theme) */}
-        <div className="border-b border-[#242220] bg-[#171614]">
+      <footer className="bg-[#FAF8F5] text-charcoal-700 border-t border-charcoal/10">
+        {/* 1. Top Value Pillars (Luxury Light Theme) */}
+        <div className="border-b border-charcoal/10 bg-[#F4F0E8]">
           <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 py-8 sm:py-10">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 divide-y sm:divide-y-0 sm:divide-x divide-[#2a2825]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 divide-y sm:divide-y-0 sm:divide-x divide-charcoal/10">
               <div className="flex flex-col items-start gap-1.5 sm:pr-6">
                 <span className="text-cognac font-serif text-sm sm:text-base font-semibold tracking-wide flex items-center gap-2">
                   <Globe className="w-3.5 h-3.5 text-cognac" /> Global Direct Export
                 </span>
-                <p className="text-[11px] sm:text-xs text-[#9a9387] leading-relaxed font-light">
+                <p className="text-[11px] sm:text-xs text-charcoal-600 leading-relaxed font-light">
                   Air & sea freight with FOB, CIF, and DDP delivery to USA, UK, EU, UAE, Australia & Japan.
                 </p>
               </div>
@@ -30,7 +31,7 @@ export function Footer() {
                 <span className="text-cognac font-serif text-sm sm:text-base font-semibold tracking-wide flex items-center gap-2">
                   <ShieldCheck className="w-3.5 h-3.5 text-cognac" /> International Compliance
                 </span>
-                <p className="text-[11px] sm:text-xs text-[#9a9387] leading-relaxed font-light">
+                <p className="text-[11px] sm:text-xs text-charcoal-600 leading-relaxed font-light">
                   LWG Gold/Silver audited partner tanneries, EU REACH Annex XVII & California Prop 65 tested.
                 </p>
               </div>
@@ -38,7 +39,7 @@ export function Footer() {
                 <span className="text-cognac font-serif text-sm sm:text-base font-semibold tracking-wide flex items-center gap-2">
                   <Clock className="w-3.5 h-3.5 text-cognac" /> Rapid Sample Atelier
                 </span>
-                <p className="text-[11px] sm:text-xs text-[#9a9387] leading-relaxed font-light">
+                <p className="text-[11px] sm:text-xs text-charcoal-600 leading-relaxed font-light">
                   Physical counter-samples dispatched in 7–14 days via DHL Express / FedEx Priority.
                 </p>
               </div>
@@ -46,7 +47,7 @@ export function Footer() {
                 <span className="text-cognac font-serif text-sm sm:text-base font-semibold tracking-wide flex items-center gap-2">
                   <Mail className="w-3.5 h-3.5 text-cognac" /> Transparent B2B Quotes
                 </span>
-                <p className="text-[11px] sm:text-xs text-[#9a9387] leading-relaxed font-light">
+                <p className="text-[11px] sm:text-xs text-charcoal-600 leading-relaxed font-light">
                   Formal tiered wholesale quotations and tech-pack feasibility returned within 24 business hours.
                 </p>
               </div>
@@ -61,38 +62,38 @@ export function Footer() {
             <div className="lg:col-span-4 space-y-4">
               <div>
                 <Link href="/" className="inline-block group focus:outline-none">
-                  <span className="font-serif text-lg sm:text-xl font-bold tracking-[0.14em] text-white uppercase group-hover:text-cognac transition-colors">
+                  <span className="font-serif text-lg sm:text-xl font-bold tracking-[0.14em] text-charcoal uppercase group-hover:text-cognac transition-colors">
                     UNICON <span className="font-normal text-cognac">LEATHER</span>
                   </span>
                 </Link>
-                <p className="text-[8.5px] sm:text-[9px] tracking-[0.26em] text-[#8e877c] font-mono uppercase mt-0.5 font-medium">
+                <p className="text-[8.5px] sm:text-[9px] tracking-[0.26em] text-charcoal-500 font-mono uppercase mt-0.5 font-medium">
                   Custom Luxury Leather Goods Manufacturer & Registered Exporter
                 </p>
               </div>
 
-              <p className="text-xs text-[#9a9387] leading-relaxed font-light pr-4">
+              <p className="text-xs text-charcoal-600 leading-relaxed font-light pr-4">
                 Specialized in contract manufacturing, private-label development, and worldwide wholesale export of handcrafted genuine leather bags, wallets, belts, and luxury lifestyle accessories.
               </p>
 
               {/* Direct Atelier Details */}
-              <div className="space-y-2 text-xs text-[#a8a297] font-light pt-1">
+              <div className="space-y-2 text-xs text-charcoal-700 font-light pt-1">
                 <div className="flex items-start gap-2.5">
                   <MapPin className="w-3.5 h-3.5 text-cognac shrink-0 mt-0.5" />
                   <span>{COMPANY_INFO.fullAddress}</span>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <Mail className="w-3.5 h-3.5 text-cognac shrink-0" />
-                  <a href={`mailto:${COMPANY_INFO.primaryEmail}`} className="hover:text-cognac transition-colors">
+                  <a href={`mailto:${COMPANY_INFO.primaryEmail}`} className="hover:text-cognac transition-colors font-medium">
                     {COMPANY_INFO.primaryEmail}
                   </a>
-                  <span className="text-[#5a554e]">•</span>
-                  <a href={`mailto:${COMPANY_INFO.secondaryEmail}`} className="hover:text-cognac transition-colors">
+                  <span className="text-charcoal-300">•</span>
+                  <a href={`mailto:${COMPANY_INFO.secondaryEmail}`} className="hover:text-cognac transition-colors font-medium">
                     {COMPANY_INFO.secondaryEmail}
                   </a>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <Phone className="w-3.5 h-3.5 text-cognac shrink-0" />
-                  <a href={`tel:${COMPANY_INFO.phone}`} className="hover:text-cognac transition-colors font-mono">
+                  <a href={`tel:${COMPANY_INFO.phone}`} className="hover:text-cognac transition-colors font-mono font-medium">
                     {COMPANY_INFO.phone}
                   </a>
                 </div>
@@ -101,10 +102,10 @@ export function Footer() {
 
             {/* Column 2: Product Collections (2 cols) */}
             <div className="lg:col-span-2 space-y-3">
-              <h3 className="text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-white pb-2 border-b border-[#282624]">
+              <h3 className="text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-charcoal pb-2 border-b border-charcoal/10">
                 12 Master Lines
               </h3>
-              <ul className="space-y-2 text-xs text-[#9a9387]">
+              <ul className="space-y-2 text-xs text-charcoal-600">
                 {FOOTER_NAV.products.map((link) => (
                   <li key={link.label}>
                     <Link href={link.href} className="hover:text-cognac transition-colors block py-0.5">
@@ -117,10 +118,10 @@ export function Footer() {
 
             {/* Column 3: Private Label & OEM (2 cols) */}
             <div className="lg:col-span-2 space-y-3">
-              <h3 className="text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-white pb-2 border-b border-[#282624]">
+              <h3 className="text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-charcoal pb-2 border-b border-charcoal/10">
                 Private Label & OEM
               </h3>
-              <ul className="space-y-2 text-xs text-[#9a9387]">
+              <ul className="space-y-2 text-xs text-charcoal-600">
                 {FOOTER_NAV.manufacturing.map((link) => (
                   <li key={link.label}>
                     <Link href={link.href} className="hover:text-cognac transition-colors block py-0.5">
@@ -133,10 +134,10 @@ export function Footer() {
 
             {/* Column 4: Trade & Export (2 cols) */}
             <div className="lg:col-span-2 space-y-3">
-              <h3 className="text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-white pb-2 border-b border-[#282624]">
+              <h3 className="text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-charcoal pb-2 border-b border-charcoal/10">
                 Trade & Logistics
               </h3>
-              <ul className="space-y-2 text-xs text-[#9a9387]">
+              <ul className="space-y-2 text-xs text-charcoal-600">
                 {FOOTER_NAV.trade.map((link) => (
                   <li key={link.label}>
                     <Link href={link.href} className="hover:text-cognac transition-colors block py-0.5">
@@ -149,27 +150,27 @@ export function Footer() {
 
             {/* Column 5: Direct Export Desk & Lookbook Card (2 cols) */}
             <div className="lg:col-span-2 space-y-3">
-              <h3 className="text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-white pb-2 border-b border-[#282624]">
+              <h3 className="text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-charcoal pb-2 border-b border-charcoal/10">
                 Direct Desk
               </h3>
               
-              <div className="bg-[#1b1a18] border border-[#2c2a27] p-3.5 space-y-2.5">
+              <div className="bg-white border border-charcoal/12 p-3.5 space-y-2.5 shadow-xs">
                 <div className="flex items-center justify-between">
                   <span className="text-[9px] tracking-wider uppercase font-bold text-cognac font-mono">
                     Live Export Desk
                   </span>
-                  <span className="inline-flex items-center gap-1 text-[9px] text-emerald-400 font-medium">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" /> Online
+                  <span className="inline-flex items-center gap-1 text-[9px] text-emerald-600 font-medium">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" /> Online
                   </span>
                 </div>
-                <p className="text-[10.5px] text-[#8e877c] leading-relaxed font-light">
+                <p className="text-[10.5px] text-charcoal-600 leading-relaxed font-light">
                   Direct connection with senior export merchandisers via WhatsApp.
                 </p>
                 <a
                   href={COMPANY_INFO.whatsappDirectUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full inline-flex items-center justify-center gap-1.5 bg-[#25d366]/15 hover:bg-[#25d366]/25 text-[#25d366] border border-[#25d366]/30 px-2.5 py-1.5 text-[11px] font-semibold transition-colors"
+                  className="w-full inline-flex items-center justify-center gap-1.5 bg-[#25d366]/15 hover:bg-[#25d366]/25 text-[#1ea952] border border-[#25d366]/35 px-2.5 py-1.5 text-[11px] font-semibold transition-colors"
                 >
                   <MessageCircle className="w-3 h-3" /> WhatsApp Direct
                 </a>
@@ -187,14 +188,14 @@ export function Footer() {
           </div>
 
           {/* 3. Verified Compliance Badges Strip */}
-          <div className="mt-14 pt-8 border-t border-[#242220]">
+          <div className="mt-14 pt-8 border-t border-charcoal/10">
             <div className="flex flex-wrap items-center justify-between gap-6">
-              <div className="flex items-center gap-2 text-xs text-[#8e877c]">
-                <span className="font-bold uppercase tracking-wider text-white text-[11px]">
+              <div className="flex items-center gap-2 text-xs text-charcoal-700">
+                <span className="font-bold uppercase tracking-wider text-charcoal text-[11px]">
                   Verified Standards:
                 </span>
               </div>
-              <div className="flex flex-wrap items-center gap-4 sm:gap-8 text-[11px] text-[#a8a297] font-mono">
+              <div className="flex flex-wrap items-center gap-4 sm:gap-8 text-[11px] text-charcoal-700 font-mono">
                 <span className="inline-flex items-center gap-1.5">
                   <CheckCircle2 className="w-3.5 h-3.5 text-cognac" /> LWG Partner Tanneries
                 </span>
@@ -214,8 +215,11 @@ export function Footer() {
             </div>
           </div>
 
+          {/* 3.5 B2B Sourcing Keyword Taxonomy */}
+          <KeywordTaxonomy />
+
           {/* 4. Bottom Legal Bar */}
-          <div className="mt-8 pt-6 border-t border-[#201e1c] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#7d766b]">
+          <div className="mt-8 pt-6 border-t border-charcoal/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-charcoal-500">
             <p>© {currentYear} UNICON LEATHER. All rights reserved. Registered Export House, Government of India.</p>
             <div className="flex flex-wrap items-center gap-6">
               {FOOTER_NAV.legal.map((item) => (
