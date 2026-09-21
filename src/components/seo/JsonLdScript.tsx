@@ -109,7 +109,7 @@ export function generateOrganizationSchema() {
       "https://www.linkedin.com/in/satish-kumar-99950359/",
       "https://www.youtube.com/@uniconleather",
       "https://www.instagram.com/uniconleather",
-      "https://www.facebook.com/uniconleather"
+      "https://www.facebook.com/uniconexport"
     ]
   };
 }
