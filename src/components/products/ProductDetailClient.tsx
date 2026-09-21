@@ -21,7 +21,11 @@ import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { ProductCard } from "@/components/ui/ProductCard";
 import { BulkInquiryForm } from "@/components/forms/BulkInquiryForm";
-import { JsonLdScript, generateProductSchema } from "@/components/seo/JsonLdScript";
+import {
+  JsonLdScript,
+  generateProductSchema,
+  generateBreadcrumbSchema,
+} from "@/components/seo/JsonLdScript";
 
 interface ProductDetailClientProps {
   product: Product;
@@ -34,6 +38,13 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
   const relatedProducts = PRODUCTS.filter(
     (p) => p.id !== product.id && (p.category === product.category || p.featured)
   ).slice(0, 4);
+
+  const breadcrumbsSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://www.uniconleather.com" },
+    { name: "Catalogue", url: "https://www.uniconleather.com/products" },
+    { name: product.category, url: `https://www.uniconleather.com/products/${product.categorySlug}` },
+    { name: product.name, url: `https://www.uniconleather.com/products/${product.slug}` },
+  ]);
 
   const handleDownloadSpec = () => {
     setDownloadingSpec(true);
@@ -75,6 +86,7 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
   return (
     <div className="w-full bg-white space-y-20 pb-24">
       <JsonLdScript schema={generateProductSchema(product)} />
+      <JsonLdScript schema={breadcrumbsSchema} />
 
       {/* Top Breadcrumbs */}
       <section className="bg-white border-b border-charcoal/10">

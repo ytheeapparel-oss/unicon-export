@@ -22,6 +22,11 @@ import { Button } from "@/components/ui/Button";
 import { ProductCard } from "@/components/ui/ProductCard";
 import { BulkInquiryForm } from "@/components/forms/BulkInquiryForm";
 import { COMPANY_INFO } from "@/data/company";
+import {
+  JsonLdScript,
+  generateCategoryCollectionSchema,
+  generateBreadcrumbSchema,
+} from "@/components/seo/JsonLdScript";
 
 interface CategoryDetailViewProps {
   category: CategoryInfo;
@@ -29,8 +34,25 @@ interface CategoryDetailViewProps {
 }
 
 export function CategoryDetailView({ category, products }: CategoryDetailViewProps) {
+  const breadcrumbsSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://www.uniconleather.com" },
+    { name: "Catalogue", url: "https://www.uniconleather.com/products" },
+    { name: category.name, url: `https://www.uniconleather.com/products/${category.slug}` },
+  ]);
+
+  const collectionSchema = generateCategoryCollectionSchema({
+    name: category.name,
+    description: category.description,
+    url: `https://www.uniconleather.com/products/${category.slug}`,
+    image: category.image.startsWith("http")
+      ? category.image
+      : `https://www.uniconleather.com${category.image}`,
+  });
+
   return (
     <div className="w-full bg-white space-y-16 sm:space-y-24 pb-24">
+      <JsonLdScript schema={breadcrumbsSchema} />
+      <JsonLdScript schema={collectionSchema} />
       {/* 1. Category Hero Banner */}
       <section className="relative w-full min-h-[500px] sm:min-h-[580px] lg:min-h-[640px] flex items-end justify-start overflow-hidden bg-[#FAF8F5] border-b border-charcoal/10">
         {/* Full Length & Breadth Background Image */}

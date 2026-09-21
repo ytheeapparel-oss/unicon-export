@@ -132,10 +132,46 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "upcycled leather accessories",
       "plant-based leather alternatives apple cactus leather"
     ]
+  },
+  {
+    category: "USA & North America Sourcing Hub",
+    description: "High-intent queries from US and North American fashion brands, retailers, and buying houses.",
+    keywords: [
+      "leather goods manufacturer USA",
+      "custom leather manufacturer USA",
+      "private label leather bags USA",
+      "leather goods manufacturer New York",
+      "custom leather goods Los Angeles California",
+      "bulk leather wallet supplier USA low MOQ",
+      "full grain leather tote bag manufacturer wholesale",
+      "California Prop 65 compliant leather goods factory",
+      "leather goods exporter to USA DDP shipping",
+      "OEM leather accessories supplier North America",
+      "leather goods contract manufacturing Texas Florida",
+      "luxury leather bags private label supplier US brands"
+    ]
+  },
+  {
+    category: "Europe & UK Atelier Sourcing Hub",
+    description: "High-intent queries from UK and European luxury boutiques, fashion houses, and department stores.",
+    keywords: [
+      "leather goods manufacturer Europe",
+      "leather goods manufacturer UK London",
+      "custom leather bags manufacturer Germany France Italy",
+      "REACH Annex XVII compliant leather goods manufacturer",
+      "LWG Gold certified leather factory Europe export",
+      "bespoke small leather goods factory wholesale Europe",
+      "sustainable vegetable tanned leather manufacturer EU",
+      "leather goods contract manufacturing Paris Milan",
+      "luxury leather cardholder supplier UK Europe",
+      "minimalist leather handbag supplier Scandinavia",
+      "leather goods exporter India to UK and Europe",
+      "OEM ODM leather accessories manufacturer Netherlands Spain"
+    ]
   }
 ];
 
-// Flat array of all distinct keywords for metadata, schemas, and sitemaps (92+ high-volume terms)
+// Flat array of all distinct keywords for metadata, schemas, and sitemaps (120+ high-volume terms)
 export const ALL_SEO_KEYWORDS: string[] = Array.from(
   new Set(SEO_KEYWORD_CLUSTERS.flatMap((cluster) => cluster.keywords))
 );
