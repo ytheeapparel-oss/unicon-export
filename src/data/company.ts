@@ -82,7 +82,7 @@ export const COMPANY_INFO = {
 
   // Socials / External links
   socials: {
-    linkedin: "https://www.linkedin.com/company/unicon-leather",
+    linkedin: "https://www.linkedin.com/in/satish-kumar-99950359/",
     youtube: "https://www.youtube.com/@uniconleather",
     instagram: "https://www.instagram.com/uniconleather",
     facebook: "https://www.facebook.com/uniconleather",

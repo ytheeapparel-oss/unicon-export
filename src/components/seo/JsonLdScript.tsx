@@ -106,7 +106,7 @@ export function generateOrganizationSchema() {
     },
     sameAs: [
       "https://github.com/ytheeapparel-oss/unicon-export",
-      "https://www.linkedin.com/company/unicon-leather",
+      "https://www.linkedin.com/in/satish-kumar-99950359/",
       "https://www.youtube.com/@uniconleather",
       "https://www.instagram.com/uniconleather",
       "https://www.facebook.com/uniconleather"
