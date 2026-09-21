@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Mail, Phone, MapPin, Globe, ShieldCheck, Clock, ArrowRight, Download, CheckCircle2, MessageCircle, Linkedin, Youtube, Instagram, Facebook } from "lucide-react";
+import { Mail, Phone, MapPin, Globe, ShieldCheck, Clock, ArrowRight, Download, CheckCircle2, MessageCircle, Linkedin, Facebook, Instagram } from "lucide-react";
 import { FOOTER_NAV } from "@/data/navigation";
 import { COMPANY_INFO } from "@/data/company";
 import { CapabilitiesTicker } from "@/components/ui/CapabilitiesTicker";
@@ -100,6 +100,7 @@ export function Footer() {
 
                 {/* Social Media Profiles */}
                 <div className="flex items-center gap-2 pt-2" aria-label="Social Links">
+                  {/* 1. LinkedIn */}
                   <a
                     href={COMPANY_INFO.socials.linkedin}
                     target="_blank"
@@ -110,26 +111,7 @@ export function Footer() {
                   >
                     <Linkedin className="w-3.5 h-3.5" />
                   </a>
-                  <a
-                    href={COMPANY_INFO.socials.youtube}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="YouTube Channel"
-                    title="YouTube"
-                    className="w-7 h-7 rounded-full bg-white border border-charcoal/15 flex items-center justify-center text-charcoal-600 hover:text-[#FF0000] hover:border-[#FF0000] hover:bg-[#FF0000]/5 transition-all"
-                  >
-                    <Youtube className="w-3.5 h-3.5" />
-                  </a>
-                  <a
-                    href={COMPANY_INFO.socials.instagram}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Instagram Profile"
-                    title="Instagram"
-                    className="w-7 h-7 rounded-full bg-white border border-charcoal/15 flex items-center justify-center text-charcoal-600 hover:text-[#E4405F] hover:border-[#E4405F] hover:bg-[#E4405F]/5 transition-all"
-                  >
-                    <Instagram className="w-3.5 h-3.5" />
-                  </a>
+                  {/* 2. Facebook */}
                   <a
                     href={COMPANY_INFO.socials.facebook}
                     target="_blank"
@@ -139,6 +121,17 @@ export function Footer() {
                     className="w-7 h-7 rounded-full bg-white border border-charcoal/15 flex items-center justify-center text-charcoal-600 hover:text-[#1877F2] hover:border-[#1877F2] hover:bg-[#1877F2]/5 transition-all"
                   >
                     <Facebook className="w-3.5 h-3.5" />
+                  </a>
+                  {/* 3. Instagram */}
+                  <a
+                    href={COMPANY_INFO.socials.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram Profile"
+                    title="Instagram"
+                    className="w-7 h-7 rounded-full bg-white border border-charcoal/15 flex items-center justify-center text-charcoal-600 hover:text-[#E4405F] hover:border-[#E4405F] hover:bg-[#E4405F]/5 transition-all"
+                  >
+                    <Instagram className="w-3.5 h-3.5" />
                   </a>
                 </div>
               </div>
