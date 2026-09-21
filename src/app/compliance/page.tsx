@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Quality Control, Certifications & Compliance | AQL 2.5 Standards",
   description:
     "Quality control protocols, laboratory testing capabilities, EU REACH Annex XVII, California Proposition 65 compliance, and LWG partner tanneries at UNICON LEATHER.",
+  alternates: {
+    canonical: "https://www.uniconleather.com/compliance",
+  },
 };
 
 export default function CompliancePage() {

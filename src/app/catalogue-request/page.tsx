@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Request Product Catalogue & Lookbook | UNICON LEATHER",
   description:
     "Download the UNICON LEATHER Master B2B Lookbook and Technical Specification Directory containing leather tannages, hardware finishes, and MOQ parameters.",
+  alternates: {
+    canonical: "https://www.uniconleather.com/catalogue-request",
+  },
 };
 
 export default function CatalogueRequestPage() {

@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   title: "Contact Export Desk & Bulk Wholesale RFQ | UNICON LEATHER",
   description:
     "Direct contact details, WhatsApp export line, factory address, and comprehensive B2B bulk inquiry form for UNICON LEATHER. 12–24 business hours response guarantee.",
+  alternates: {
+    canonical: "https://www.uniconleather.com/contact",
+  },
 };
 
 export default function ContactPage() {

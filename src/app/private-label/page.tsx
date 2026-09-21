@@ -24,6 +24,9 @@ export const metadata: Metadata = {
   title: "Private Label & OEM/ODM Leather Goods Manufacturing",
   description:
     "End-to-end custom OEM/ODM leather manufacturing for fashion brands, wholesalers, and private labels. Custom hardware moulds, logo embossing, Pantone color matching, and prototype sampling.",
+  alternates: {
+    canonical: "https://www.uniconleather.com/private-label",
+  },
   keywords: [
     "custom leather goods manufacturer",
     "private label leather bags manufacturer",

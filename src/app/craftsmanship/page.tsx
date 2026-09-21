@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Craftsmanship & Manufacturing Process | Master Leather Atelier",
   description:
     "Explore the 11-stage precision leather manufacturing process at UNICON LEATHER: from hide grading and micro-skiving to Italian edge-painting, saddle stitching, and AQL 2.5 inspection.",
+  alternates: {
+    canonical: "https://www.uniconleather.com/craftsmanship",
+  },
 };
 
 export default function CraftsmanshipPage() {

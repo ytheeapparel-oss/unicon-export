@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   title: "About Us | Luxury Leather Goods Manufacturer & Exporter",
   description:
     "Learn about UNICON LEATHER: our heritage, factory infrastructure, artisan master craftsmen, ethical working conditions, and B2B export capabilities serving international luxury brands.",
+  alternates: {
+    canonical: "https://www.uniconleather.com/about",
+  },
 };
 
 export default function AboutPage() {

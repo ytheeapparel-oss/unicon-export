@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   },
   description:
     "Leading custom leather goods manufacturer, OEM/ODM private-label factory, and wholesale exporter. Handcrafted full-grain leather bags, minimalist totes, RFID wallets, cardholders, belts, and bespoke accessories for USA, UK, and European brands. Low MOQs and LWG audited tanneries.",
+  alternates: {
+    canonical: "https://www.uniconleather.com",
+  },
   keywords: ALL_SEO_KEYWORDS,
   authors: [{ name: "UNICON LEATHER Export Desk" }],
   creator: "UNICON LEATHER",

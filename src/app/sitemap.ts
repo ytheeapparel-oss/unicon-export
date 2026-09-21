@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { PRODUCTS } from "@/data/products";
+import { PRODUCT_CATEGORIES } from "@/data/categories";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.uniconleather.com";
@@ -86,6 +87,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  // Dynamic Category Hub Routes (High-intent B2B SEO Landing Pages)
+  const categoryRoutes: MetadataRoute.Sitemap = PRODUCT_CATEGORIES.map((cat) => ({
+    url: `${baseUrl}/products/${cat.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.9,
+  }));
+
   // Dynamic Product routes
   const productRoutes: MetadataRoute.Sitemap = PRODUCTS.map((product) => ({
     url: `${baseUrl}/products/${product.slug}`,
@@ -94,5 +103,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  return [...staticRoutes, ...productRoutes];
+  return [...staticRoutes, ...categoryRoutes, ...productRoutes];
 }

@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Global Export Capabilities & B2B Logistics | International Shipping",
   description:
     "Export-ready leather goods manufacturing from India to USA, UK, Europe, UAE, Australia, and Japan. Supported Incoterms (FOB, CIF, DDP), customs documentation, and transit timelines.",
+  alternates: {
+    canonical: "https://www.uniconleather.com/export",
+  },
   keywords: [
     "leather goods exporter",
     "leather products HS code 4202",
