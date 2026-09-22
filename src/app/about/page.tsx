@@ -16,6 +16,7 @@ import {
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
+import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
   title: "About Us | Luxury Leather Goods Manufacturer & Exporter",
@@ -24,11 +25,32 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.uniconleather.com/about",
   },
+  openGraph: {
+    title: "About UNICON LEATHER | Master Leather Goods Manufacturer & Global Exporter",
+    description:
+      "Learn about UNICON LEATHER: our heritage, factory infrastructure, artisan master craftsmen, and B2B export capabilities for USA, UK, and European brands.",
+    url: "https://www.uniconleather.com/about",
+    type: "website",
+    images: [
+      {
+        url: "https://www.uniconleather.com/images/about-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "UNICON LEATHER Atelier & Heritage",
+      },
+    ],
+  },
 };
 
 export default function AboutPage() {
+  const breadcrumbsSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://www.uniconleather.com" },
+    { name: "About Us", url: "https://www.uniconleather.com/about" },
+  ]);
+
   return (
     <div className="w-full bg-white space-y-20 sm:space-y-32 pb-24">
+      <JsonLdScript schema={breadcrumbsSchema} />
       {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
       <section className="relative w-full min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
         {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}

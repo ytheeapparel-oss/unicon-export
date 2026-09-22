@@ -16,6 +16,7 @@ import {
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
+import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
   title: "Sustainability & Responsible Sourcing | Ethical Leather Goods Manufacturing",
@@ -23,6 +24,21 @@ export const metadata: Metadata = {
     "Verifiable sustainability practices at UNICON LEATHER: LWG-audited partner tanneries, Chrome-Free Vegetable Tannages, zero-waste cutting yield optimization, and REACH chemical safety.",
   alternates: {
     canonical: "https://www.uniconleather.com/sustainability",
+  },
+  openGraph: {
+    title: "Sustainability & Responsible Sourcing | UNICON LEATHER",
+    description:
+      "LWG-audited partner tanneries, chrome-free vegetable tanning, zero-waste cutting yield optimization, and EU REACH chemical safety.",
+    url: "https://www.uniconleather.com/sustainability",
+    type: "website",
+    images: [
+      {
+        url: "https://www.uniconleather.com/images/sustainability-hero.png",
+        width: 1200,
+        height: 630,
+        alt: "Sustainable Leather Goods Manufacturing",
+      },
+    ],
   },
   keywords: [
     "certified leather manufacturer audit pass",
@@ -40,8 +56,14 @@ export const metadata: Metadata = {
 };
 
 export default function SustainabilityPage() {
+  const breadcrumbsSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://www.uniconleather.com" },
+    { name: "Sustainability", url: "https://www.uniconleather.com/sustainability" },
+  ]);
+
   return (
     <div className="w-full bg-white space-y-20 sm:space-y-32 pb-24">
+      <JsonLdScript schema={breadcrumbsSchema} />
       {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
       <section className="relative w-full min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
         {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}

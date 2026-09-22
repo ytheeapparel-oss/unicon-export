@@ -17,7 +17,7 @@ import { Accordion } from "@/components/ui/Accordion";
 import { BulkInquiryForm } from "@/components/forms/BulkInquiryForm";
 import { COMPANY_INFO } from "@/data/company";
 import { FAQS } from "@/data/faqs";
-import { JsonLdScript, generateFaqSchema } from "@/components/seo/JsonLdScript";
+import { JsonLdScript, generateFaqSchema, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
   title: "Contact Export Desk & Bulk Wholesale RFQ | UNICON LEATHER",
@@ -26,12 +26,33 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.uniconleather.com/contact",
   },
+  openGraph: {
+    title: "Contact Export Desk & Bulk Wholesale RFQ | UNICON LEATHER",
+    description:
+      "Direct contact details, WhatsApp export line, factory address, and B2B bulk inquiry form. Quick response within 12–24 business hours.",
+    url: "https://www.uniconleather.com/contact",
+    type: "website",
+    images: [
+      {
+        url: "https://www.uniconleather.com/images/contact-hero.png",
+        width: 1200,
+        height: 630,
+        alt: "Contact UNICON LEATHER Export Desk",
+      },
+    ],
+  },
 };
 
 export default function ContactPage() {
+  const breadcrumbsSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://www.uniconleather.com" },
+    { name: "Contact Export Desk", url: "https://www.uniconleather.com/contact" },
+  ]);
+
   return (
     <div className="w-full bg-white space-y-20 sm:space-y-32 pb-24">
       <JsonLdScript schema={generateFaqSchema(FAQS)} />
+      <JsonLdScript schema={breadcrumbsSchema} />
 
       {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
       <section className="relative w-full min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">

@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { CatalogueRequestForm } from "@/components/forms/CatalogueRequestForm";
 import { CheckCircle2 } from "lucide-react";
+import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
   title: "Request Product Catalogue & Lookbook | UNICON LEATHER",
@@ -12,11 +13,32 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.uniconleather.com/catalogue-request",
   },
+  openGraph: {
+    title: "Request Product Catalogue & Lookbook | UNICON LEATHER",
+    description:
+      "Download the Master B2B Lookbook and Technical Specification Directory containing leather tannages, hardware finishes, and MOQ parameters.",
+    url: "https://www.uniconleather.com/catalogue-request",
+    type: "website",
+    images: [
+      {
+        url: "https://www.uniconleather.com/images/catalogue-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Request UNICON LEATHER B2B Lookbook",
+      },
+    ],
+  },
 };
 
 export default function CatalogueRequestPage() {
+  const breadcrumbsSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://www.uniconleather.com" },
+    { name: "Catalogue Request", url: "https://www.uniconleather.com/catalogue-request" },
+  ]);
+
   return (
     <div className="w-full bg-white space-y-20 pb-24">
+      <JsonLdScript schema={breadcrumbsSchema} />
       {/* Top Banner */}
       <section className="bg-white border-b border-charcoal/10 py-12 sm:py-16">
         <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">

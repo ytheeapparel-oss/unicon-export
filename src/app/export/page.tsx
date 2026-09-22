@@ -12,6 +12,7 @@ import {
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
+import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
   title: "Global Export Capabilities & B2B Logistics | International Shipping",
@@ -20,8 +21,25 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.uniconleather.com/export",
   },
+  openGraph: {
+    title: "Global Export Capabilities & B2B Logistics | UNICON LEATHER",
+    description:
+      "Direct international export of handcrafted leather goods to USA, UK, Europe, UAE, and Australia with FOB, CIF, and DDP freight handling.",
+    url: "https://www.uniconleather.com/export",
+    type: "website",
+    images: [
+      {
+        url: "https://www.uniconleather.com/images/export-hero.png",
+        width: 1200,
+        height: 630,
+        alt: "Global Export Capabilities & Trade Logistics",
+      },
+    ],
+  },
   keywords: [
     "leather goods exporter",
+    "leather goods manufacturer USA",
+    "leather goods manufacturer Europe",
     "leather products HS code 4202",
     "leather products HS code 4203",
     "leather goods wholesale suppliers",
@@ -33,6 +51,10 @@ export const metadata: Metadata = {
 };
 
 export default function ExportPage() {
+  const breadcrumbsSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://www.uniconleather.com" },
+    { name: "Export & Logistics", url: "https://www.uniconleather.com/export" },
+  ]);
   const exportDestinations = [
     {
       region: "North America",
@@ -70,6 +92,7 @@ export default function ExportPage() {
 
   return (
     <div className="w-full bg-white space-y-20 sm:space-y-32 pb-24">
+      <JsonLdScript schema={breadcrumbsSchema} />
       {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
       <section className="relative w-full min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
         {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}

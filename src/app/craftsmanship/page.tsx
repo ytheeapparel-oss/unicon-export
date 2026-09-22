@@ -12,6 +12,7 @@ import {
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
+import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
   title: "Craftsmanship & Manufacturing Process | Master Leather Atelier",
@@ -20,9 +21,29 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.uniconleather.com/craftsmanship",
   },
+  openGraph: {
+    title: "11-Stage Master Leather Craftsmanship | UNICON LEATHER Atelier",
+    description:
+      "Explore the 11-stage precision leather manufacturing process: hide grading, 0.4mm micro-skiving, Italian edge-lacquering, saddle stitching, and AQL 2.5 inspection.",
+    url: "https://www.uniconleather.com/craftsmanship",
+    type: "website",
+    images: [
+      {
+        url: "https://www.uniconleather.com/images/craftsmanship-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Master Leather Artisan Craftsmanship",
+      },
+    ],
+  },
 };
 
 export default function CraftsmanshipPage() {
+  const breadcrumbsSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://www.uniconleather.com" },
+    { name: "Craftsmanship", url: "https://www.uniconleather.com/craftsmanship" },
+  ]);
+
   const manufacturingStages = [
     {
       num: "01",
@@ -94,6 +115,7 @@ export default function CraftsmanshipPage() {
 
   return (
     <div className="w-full bg-white space-y-20 sm:space-y-32 pb-24">
+      <JsonLdScript schema={breadcrumbsSchema} />
       {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
       <section className="relative w-full min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
         {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}

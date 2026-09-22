@@ -19,6 +19,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { BulkInquiryForm } from "@/components/forms/BulkInquiryForm";
+import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
   title: "Private Label & OEM/ODM Leather Goods Manufacturing",
@@ -26,6 +27,21 @@ export const metadata: Metadata = {
     "End-to-end custom OEM/ODM leather manufacturing for fashion brands, wholesalers, and private labels. Custom hardware moulds, logo embossing, Pantone color matching, and prototype sampling.",
   alternates: {
     canonical: "https://www.uniconleather.com/private-label",
+  },
+  openGraph: {
+    title: "Private Label & OEM/ODM Leather Goods Manufacturing | UNICON LEATHER",
+    description:
+      "End-to-end custom OEM/ODM leather manufacturing for fashion brands, wholesalers, and private labels. Low MOQs, LWG certified tanneries, and EU REACH compliance.",
+    url: "https://www.uniconleather.com/private-label",
+    type: "website",
+    images: [
+      {
+        url: "https://www.uniconleather.com/images/private-label-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Private Label Leather Goods Manufacturing",
+      },
+    ],
   },
   keywords: [
     "custom leather goods manufacturer",
@@ -37,11 +53,17 @@ export const metadata: Metadata = {
     "private label leather tote bags",
     "oem leather backpacks factory",
     "custom leather small goods manufacturer",
-    "contract leather manufacturing"
+    "contract leather manufacturing",
+    "leather goods manufacturer USA",
+    "leather goods manufacturer Europe"
   ],
 };
 
 export default function PrivateLabelPage() {
+  const breadcrumbsSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://www.uniconleather.com" },
+    { name: "Private Label OEM", url: "https://www.uniconleather.com/private-label" },
+  ]);
   const steps = [
     {
       step: "01",
@@ -95,6 +117,7 @@ export default function PrivateLabelPage() {
 
   return (
     <div className="w-full bg-white space-y-20 sm:space-y-32 pb-24">
+      <JsonLdScript schema={breadcrumbsSchema} />
       {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
       <section className="relative w-full min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
         {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}
