@@ -50,64 +50,66 @@ export default function ContactPage() {
   ]);
 
   return (
-    <div className="w-full bg-white space-y-20 sm:space-y-32 pb-24">
+    <>
       <JsonLdScript schema={generateFaqSchema(FAQS)} />
       <JsonLdScript schema={breadcrumbsSchema} />
 
-      {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
-      <section className="relative w-full min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
-        {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}
-        <div className="absolute inset-0 w-full h-full">
-          <img
-            src="/images/contact-hero.png"
-            alt="UNICON LEATHER - Contact Export Desk & Global Inquiries"
-            className="w-full h-full object-cover object-center lg:object-[center_38%]"
-            loading="eager"
-          />
-        </div>
+      <div className="w-full bg-white pb-24">
+        {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
+        <section className="relative w-full !mt-0 min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
+          {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}
+          <div className="absolute inset-0 w-full h-full">
+            <img
+              src="/images/contact-hero.png"
+              alt="UNICON LEATHER - Contact Export Desk & Global Inquiries"
+              className="w-full h-full object-cover object-center lg:object-[center_38%]"
+              loading="eager"
+            />
+          </div>
 
-        {/* Elegant Floating Editorial Card on Pure White */}
-        <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-12 sm:pb-16 pt-28">
-          <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border border-charcoal/10 shadow-lg space-y-6 text-left">
-            <Breadcrumbs items={[{ label: "Contact & Bulk RFQ" }]} />
+          {/* Elegant Floating Editorial Card on Pure White */}
+          <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-12 sm:pb-16 pt-28">
+            <div className="max-w-3xl bg-white/95 backdrop-blur-md p-8 sm:p-12 border border-charcoal/10 shadow-lg space-y-6 text-left">
+              <Breadcrumbs items={[{ label: "Contact & Bulk RFQ" }]} />
 
-            <div className="inline-flex items-center gap-3 mt-2">
-              <span className="bg-cognac text-white text-[11px] sm:text-xs font-medium tracking-[0.14em] uppercase px-3.5 py-1 rounded-none shadow-xs">
-                Global B2B Communication Desk
-              </span>
-              <span className="text-[11px] sm:text-xs text-charcoal/60 font-mono tracking-widest uppercase">
-                12–24h Response SLA
-              </span>
-            </div>
+              <div className="inline-flex items-center gap-3 mt-2">
+                <span className="bg-cognac text-white text-[11px] sm:text-xs font-medium tracking-[0.14em] uppercase px-3.5 py-1 rounded-none shadow-xs">
+                  Global B2B Communication Desk
+                </span>
+                <span className="text-[11px] sm:text-xs text-charcoal/60 font-mono tracking-widest uppercase">
+                  12–24h Response SLA
+                </span>
+              </div>
 
-            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal text-charcoal leading-[1.12] tracking-tight">
-              Contact &amp; Wholesale <br />
-              <span className="italic text-cognac font-light">Export</span> Inquiry Desk
-            </h1>
+              <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal text-charcoal leading-[1.12] tracking-tight">
+                Contact &amp; Wholesale <br />
+                <span className="italic text-cognac font-light">Export</span> Inquiry Desk
+              </h1>
 
-            <p className="text-sm sm:text-base text-charcoal/70 leading-relaxed font-light max-w-2xl">
-              Connect directly with our export management and engineering team. We assist international fashion brands, wholesalers, and retail buying houses with commercial quotes, tech pack reviews, and sample development.
-            </p>
+              <p className="text-sm sm:text-base text-charcoal/70 leading-relaxed font-light max-w-2xl">
+                Connect directly with our export management and engineering team. We assist international fashion brands, wholesalers, and retail buying houses with commercial quotes, tech pack reviews, and sample development.
+              </p>
 
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
-              <Button href="#rfp-form" variant="primary" size="lg" className="shadow-md">
-                <Send className="w-4 h-4 mr-2" /> Submit Commercial RFP
-              </Button>
-              <a
-                href={COMPANY_INFO.whatsappDirectUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center font-sans uppercase font-medium tracking-[0.14em] text-xs sm:text-sm border border-charcoal/30 text-charcoal bg-white hover:bg-charcoal hover:text-white px-6 py-3.5 transition-colors"
-              >
-                <MessageCircle className="w-4 h-4 mr-2 text-cognac" /> WhatsApp Export Desk
-              </a>
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
+                <Button href="#rfp-form" variant="primary" size="lg" className="shadow-md">
+                  <Send className="w-4 h-4 mr-2" /> Submit Commercial RFP
+                </Button>
+                <a
+                  href={COMPANY_INFO.whatsappDirectUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center font-sans uppercase font-medium tracking-[0.14em] text-xs sm:text-sm border border-charcoal/30 text-charcoal bg-white hover:bg-charcoal hover:text-white px-6 py-3.5 transition-colors"
+                >
+                  <MessageCircle className="w-4 h-4 mr-2 text-cognac" /> WhatsApp Export Desk
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* 2. Main Contact & Form Section (Pure White) */}
-      <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16" id="rfp-form">
+        <div className="space-y-20 sm:space-y-32 mt-20 sm:mt-32">
+          {/* 2. Main Contact & Form Section (Pure White) */}
+          <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16" id="rfp-form">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           {/* Contact Details & Factory Information Column */}
           <div className="lg:col-span-5 space-y-8">
@@ -266,6 +268,8 @@ export default function ContactPage() {
 
         <Accordion items={FAQS} />
       </section>
-    </div>
+        </div>
+      </div>
+    </>
   );
 }

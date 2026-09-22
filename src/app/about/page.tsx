@@ -49,55 +49,57 @@ export default function AboutPage() {
   ]);
 
   return (
-    <div className="w-full bg-white space-y-20 sm:space-y-32 pb-24">
+    <>
       <JsonLdScript schema={breadcrumbsSchema} />
-      {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
-      <section className="relative w-full min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
-        {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}
-        <div className="absolute inset-0 w-full h-full">
-          <img
-            src="/images/about-hero.jpg"
-            alt="UNICON LEATHER - Master Artisan Leathercraft & Global Brand Production"
-            className="w-full h-full object-cover object-center lg:object-[center_22%]"
-            loading="eager"
-          />
-        </div>
+      <div className="w-full bg-white pb-24">
+        {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
+        <section className="relative w-full !mt-0 min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
+          {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}
+          <div className="absolute inset-0 w-full h-full">
+            <img
+              src="/images/about-hero.jpg"
+              alt="UNICON LEATHER - Master Artisan Leathercraft & Global Brand Production"
+              className="w-full h-full object-cover object-center lg:object-[center_22%]"
+              loading="eager"
+            />
+          </div>
 
-        {/* Elegant Floating Editorial Card on Pure White */}
-        <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-10 sm:pb-14 pt-24">
-          <div className="max-w-2xl bg-white/95 backdrop-blur-md p-6 sm:p-8 border border-charcoal/10 shadow-lg space-y-4 text-left">
-            <Breadcrumbs items={[{ label: "About Our Atelier & Heritage" }]} />
+          {/* Elegant Floating Editorial Card on Pure White */}
+          <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-10 sm:pb-14 pt-24">
+            <div className="max-w-2xl bg-white/95 backdrop-blur-md p-6 sm:p-8 border border-charcoal/10 shadow-lg space-y-4 text-left">
+              <Breadcrumbs items={[{ label: "About Our Atelier & Heritage" }]} />
 
-            <div className="inline-flex items-center gap-2.5 mt-1">
-              <span className="bg-cognac text-white text-[10px] sm:text-xs font-mono font-medium tracking-widest uppercase px-3 py-1 rounded-none shadow-xs">
-                Indian Leather Atelier · Est. 1998
-              </span>
-              <span className="text-[10px] sm:text-xs text-charcoal-500 font-mono tracking-widest uppercase font-medium">
-                Global B2B Exporter
-              </span>
-            </div>
+              <div className="inline-flex items-center gap-2.5 mt-1">
+                <span className="bg-cognac text-white text-[10px] sm:text-xs font-mono font-medium tracking-widest uppercase px-3 py-1 rounded-none shadow-xs">
+                  Indian Leather Atelier · Est. 1998
+                </span>
+                <span className="text-[10px] sm:text-xs text-charcoal-500 font-mono tracking-widest uppercase font-medium">
+                  Global B2B Exporter
+                </span>
+              </div>
 
-            <h1 className="font-serif text-2xl sm:text-4xl lg:text-5xl font-normal text-charcoal leading-[1.15] tracking-tight">
-              Artisan Mastery Built for Global Luxury Standards
-            </h1>
+              <h1 className="font-serif text-2xl sm:text-4xl lg:text-5xl font-normal text-charcoal leading-[1.15] tracking-tight">
+                Artisan Mastery Built for Global Luxury Standards
+              </h1>
 
-            <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light max-w-xl">
-              UNICON LEATHER is an export-dedicated manufacturing facility bridging generational Indian leathercraft with contemporary European finishing tolerances, audited ethical workplaces, and international trade compliance.
-            </p>
+              <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light max-w-xl">
+                UNICON LEATHER is an export-dedicated manufacturing facility bridging generational Indian leathercraft with contemporary European finishing tolerances, audited ethical workplaces, and international trade compliance.
+              </p>
 
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
-              <Button href="/contact" variant="primary" size="md">
-                Schedule Consultation
-              </Button>
-              <Button href="/catalogue-request" variant="outline" size="md" className="border-charcoal/25 text-charcoal hover:bg-charcoal hover:text-white">
-                <FileText className="w-3.5 h-3.5 mr-2" /> Download Lookbook
-              </Button>
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
+                <Button href="/contact" variant="primary" size="md">
+                  Schedule Consultation
+                </Button>
+                <Button href="/catalogue-request" variant="outline" size="md" className="border-charcoal/25 text-charcoal hover:bg-charcoal hover:text-white">
+                  <FileText className="w-3.5 h-3.5 mr-2" /> Download Lookbook
+                </Button>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* 2. Atelier Story & Philosophy */}
+        <div className="space-y-20 sm:space-y-32 mt-20 sm:mt-32">
+          {/* 2. Atelier Story & Philosophy */}
       <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-6 space-y-8">
@@ -377,6 +379,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-    </div>
+        </div>
+      </div>
+    </>
   );
 }

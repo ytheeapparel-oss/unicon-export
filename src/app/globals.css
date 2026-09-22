@@ -55,6 +55,13 @@
   background: #8A4F2D;
 }
 
+/* Zero Gap Guarantee: Ensure every top hero section under main is 100% flush with the header */
+main > :first-child,
+main > * > :first-child,
+main section:first-of-type {
+  margin-top: 0 !important;
+}
+
 /* Fluid Full-Page Width Utilities */
 .full-bleed-container {
   width: 100%;

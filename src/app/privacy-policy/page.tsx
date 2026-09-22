@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <div className="space-y-12 pb-20">
-      <section className="bg-[#FAF8F5] text-charcoal py-12 sm:py-16 border-b border-charcoal/10">
+      <section className="bg-[#FAF8F5] !mt-0 text-charcoal py-12 sm:py-16 border-b border-charcoal/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs items={[{ label: "B2B Privacy Policy" }]} />
           <div className="max-w-3xl space-y-4 mt-4">

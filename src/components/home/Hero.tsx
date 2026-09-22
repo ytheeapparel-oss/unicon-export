@@ -9,7 +9,7 @@ import { COMPANY_INFO } from "@/data/company";
 export function Hero() {
   return (
     /* <!-- HERO COMPONENT: 100% Full Breadth x Full Length Immersive Editorial Canvas --> */
-    <section className="relative w-full min-h-[720px] sm:min-h-[780px] lg:min-h-[850px] flex items-center overflow-hidden border-b border-charcoal/10 bg-[#FAF8F5]">
+    <section className="relative w-full !mt-0 min-h-[720px] sm:min-h-[780px] lg:min-h-[850px] flex items-center overflow-hidden border-b border-charcoal/10 bg-[#FAF8F5]">
       {/* 1. Full Length & Full Breadth Background Image */}
       <div className="absolute inset-0 w-full h-full pointer-events-none">
         <img

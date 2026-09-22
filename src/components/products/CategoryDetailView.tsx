@@ -50,11 +50,13 @@ export function CategoryDetailView({ category, products }: CategoryDetailViewPro
   });
 
   return (
-    <div className="w-full bg-white space-y-16 sm:space-y-24 pb-24">
+    <>
       <JsonLdScript schema={breadcrumbsSchema} />
       <JsonLdScript schema={collectionSchema} />
-      {/* 1. Category Hero Banner */}
-      <section className="relative w-full min-h-[500px] sm:min-h-[580px] lg:min-h-[640px] flex items-end justify-start overflow-hidden bg-[#FAF8F5] border-b border-charcoal/10">
+
+      <div className="w-full bg-white pb-24">
+        {/* 1. Category Hero Banner */}
+        <section className="relative w-full !mt-0 min-h-[500px] sm:min-h-[580px] lg:min-h-[640px] flex items-end justify-start overflow-hidden bg-[#FAF8F5] border-b border-charcoal/10">
         {/* Full Length & Breadth Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <img
@@ -114,7 +116,8 @@ export function CategoryDetailView({ category, products }: CategoryDetailViewPro
         </div>
       </section>
 
-      {/* 2. Category Manufacturing Specs Bar */}
+      <div className="space-y-16 sm:space-y-24 mt-16 sm:mt-24">
+        {/* 2. Category Manufacturing Specs Bar */}
       <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-left">
           <div className="bg-white p-5 border border-charcoal/10 shadow-xs">
@@ -250,6 +253,8 @@ export function CategoryDetailView({ category, products }: CategoryDetailViewPro
           </div>
         </div>
       </section>
-    </div>
+        </div>
+      </div>
+    </>
   );
 }

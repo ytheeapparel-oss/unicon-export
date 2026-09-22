@@ -86,15 +86,17 @@ export default function HomePage() {
   ];
 
   return (
-    <div className="w-full bg-white space-y-20 sm:space-y-28 pb-28">
+    <>
       {/* 0. SEO JSON-LD FAQ SCHEMA FOR GOOGLE & BING RICH RESULTS */}
       <JsonLdScript schema={generateFaqSchema(FAQS)} />
 
-      {/* 1.0 HERO COMPONENT */}
-      <Hero />
+      <div className="w-full bg-white pb-28">
+        {/* 1.0 HERO COMPONENT */}
+        <Hero />
 
-      {/* 1.1 Hairline Trust Indicators Bar */}
-      <section className="w-full bg-white border-b border-charcoal/10">
+        <div className="space-y-20 sm:space-y-28">
+          {/* 1.1 Hairline Trust Indicators Bar */}
+          <section className="w-full bg-white border-b border-charcoal/10">
         <div className="w-full max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14 xl:px-16 py-6 sm:py-7">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 divide-y sm:divide-y-0 sm:divide-x divide-charcoal/8 text-left">
             <div className="space-y-1 sm:pr-6">
@@ -670,6 +672,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-    </div>
+        </div>
+      </div>
+    </>
   );
 }

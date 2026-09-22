@@ -37,28 +37,29 @@ export default function CatalogueRequestPage() {
   ]);
 
   return (
-    <div className="w-full bg-white space-y-20 pb-24">
+    <>
       <JsonLdScript schema={breadcrumbsSchema} />
-      {/* Top Banner */}
-      <section className="bg-white border-b border-charcoal/10 py-12 sm:py-16">
-        <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
-          <Breadcrumbs items={[{ label: "Download B2B Catalogue" }]} />
-          <div className="max-w-4xl space-y-4 mt-6">
-            <Badge variant="cognac" size="sm">
-              Digital Lookbook Access
-            </Badge>
-            <h1 className="font-serif text-4xl sm:text-6xl font-extrabold text-charcoal tracking-tight">
-              Request Master Export Catalogue
-            </h1>
-            <p className="text-base sm:text-lg text-charcoal-600 leading-relaxed font-light">
-              Gain instant access to our comprehensive product line specifications, leather swatch directory, hardware finishes, and wholesale pricing guidelines.
-            </p>
+      <div className="w-full bg-white pb-24">
+        {/* Top Banner */}
+        <section className="bg-white !mt-0 border-b border-charcoal/10 py-12 sm:py-16">
+          <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
+            <Breadcrumbs items={[{ label: "Download B2B Catalogue" }]} />
+            <div className="max-w-4xl space-y-4 mt-6">
+              <Badge variant="cognac" size="sm">
+                Digital Lookbook Access
+              </Badge>
+              <h1 className="font-serif text-4xl sm:text-6xl font-extrabold text-charcoal tracking-tight">
+                Request Master Export Catalogue
+              </h1>
+              <p className="text-base sm:text-lg text-charcoal-600 leading-relaxed font-light">
+                Gain instant access to our comprehensive product line specifications, leather swatch directory, hardware finishes, and wholesale pricing guidelines.
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Main Content (Full Breadth) */}
-      <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
+        {/* Main Content (Full Breadth) */}
+        <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 mt-16 sm:mt-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           <div className="lg:col-span-5 space-y-8">
             <Badge variant="cognac" size="sm">
@@ -98,6 +99,7 @@ export default function CatalogueRequestPage() {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 }

@@ -9,6 +9,9 @@ export function JsonLdScript({ schema }: JsonLdScriptProps) {
   return (
     <script
       type="application/ld+json"
+      className="hidden"
+      hidden
+      aria-hidden="true"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
     />
   );

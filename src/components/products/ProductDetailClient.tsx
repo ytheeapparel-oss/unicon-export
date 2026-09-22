@@ -84,25 +84,27 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
   };
 
   return (
-    <div className="w-full bg-white space-y-20 pb-24">
+    <>
       <JsonLdScript schema={generateProductSchema(product)} />
       <JsonLdScript schema={breadcrumbsSchema} />
 
-      {/* Top Breadcrumbs */}
-      <section className="bg-white border-b border-charcoal/10">
-        <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 py-4">
-          <Breadcrumbs
-            items={[
-              { label: "Catalogue", href: "/products" },
-              { label: product.category, href: `/products/${product.categorySlug}` },
-              { label: product.name },
-            ]}
-          />
-        </div>
-      </section>
+      <div className="w-full bg-white pb-24">
+        {/* Top Breadcrumbs */}
+        <section className="bg-white !mt-0 border-b border-charcoal/10">
+          <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 py-4">
+            <Breadcrumbs
+              items={[
+                { label: "Catalogue", href: "/products" },
+                { label: product.category, href: `/products/${product.categorySlug}` },
+                { label: product.name },
+              ]}
+            />
+          </div>
+        </section>
 
-      {/* Main Product Showcase Section (Full Breadth) */}
-      <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
+        <div className="space-y-16 sm:space-y-20 mt-10 sm:mt-12">
+          {/* Main Product Showcase Section (Full Breadth) */}
+          <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           {/* Gallery Column */}
           <div className="lg:col-span-7 space-y-5">
@@ -364,6 +366,8 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
           </div>
         </section>
       )}
-    </div>
+        </div>
+      </div>
+    </>
   );
 }

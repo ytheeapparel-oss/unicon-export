@@ -78,9 +78,9 @@ function CatalogueContent() {
   };
 
   return (
-    <div className="w-full bg-white space-y-16 pb-24">
+    <div className="w-full bg-white pb-24">
       {/* 1. HERO SECTION */}
-      <section className="relative w-full min-h-[75vh] lg:min-h-[82vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
+      <section className="relative w-full !mt-0 min-h-[75vh] lg:min-h-[82vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
         <div className="absolute inset-0 w-full h-full">
           <img
             src="/images/catalogue-hero.jpg"
@@ -124,7 +124,8 @@ function CatalogueContent() {
         </div>
       </section>
 
-      {/* 2. Category Browse Quick-Bar */}
+      <div className="space-y-16 mt-16">
+        {/* 2. Category Browse Quick-Bar */}
       <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
         <div className="border-b border-charcoal/10 pb-4 mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div className="space-y-1">
@@ -288,6 +289,7 @@ function CatalogueContent() {
             Discuss Custom OEM Project
           </Button>
         </div>
+      </div>
       </div>
 
       {/* Quick Quote Modal */}

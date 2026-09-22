@@ -114,10 +114,11 @@ export default function CraftsmanshipPage() {
   ];
 
   return (
-    <div className="w-full bg-white space-y-20 sm:space-y-32 pb-24">
+    <>
       <JsonLdScript schema={breadcrumbsSchema} />
-      {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
-      <section className="relative w-full min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
+      <div className="w-full bg-white pb-24">
+        {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
+        <section className="relative w-full !mt-0 min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
         {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}
         <div className="absolute inset-0 w-full h-full">
           <img
@@ -162,7 +163,8 @@ export default function CraftsmanshipPage() {
         </div>
       </section>
 
-      {/* 2. Visual Showcase (Pure White 3-Column Grid) */}
+      <div className="space-y-20 sm:space-y-32 mt-20 sm:mt-32">
+        {/* 2. Visual Showcase (Pure White 3-Column Grid) */}
       <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {/* Panel 1: Hand-Turned Cognac Pebbled Bucket Bag */}
@@ -317,6 +319,8 @@ export default function CraftsmanshipPage() {
           </div>
         </div>
       </section>
-    </div>
+        </div>
+      </div>
+    </>
   );
 }
