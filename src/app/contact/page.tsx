@@ -125,11 +125,40 @@ export default function ContactPage() {
 
             {/* Contact Cards */}
             <div className="space-y-4 text-xs sm:text-sm text-charcoal-700">
+              {/* 1. Noida Corporate Office */}
               <div className="bg-[#faf8f5] p-5 sm:p-6 rounded-none border border-charcoal/10 shadow-xs flex items-start gap-4">
                 <MapPin className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-charcoal block text-base font-serif font-medium">Factory &amp; Atelier Address</strong>
-                  <p className="text-charcoal-600 mt-1 leading-relaxed font-light">{COMPANY_INFO.fullAddress}</p>
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <strong className="text-charcoal text-base font-serif font-medium">Delhi NCR Corporate &amp; Sourcing Office</strong>
+                    <span className="text-[10px] font-mono uppercase bg-cognac/10 text-cognac px-2 py-0.5 font-bold">Noida</span>
+                  </div>
+                  <p className="text-charcoal-600 mt-1 leading-relaxed font-light">{COMPANY_INFO.noidaOfficeAddress}</p>
+                  <div className="flex items-center gap-3 mt-2">
+                    <a
+                      href="https://www.google.com/search?q=unicon+leather+noida+address&ludocid=10778714827475623535"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-cognac hover:underline font-mono"
+                    >
+                      Open Noida Office on Google Maps →
+                    </a>
+                  </div>
+                  <span className="text-xs text-charcoal-400 mt-1 block">
+                    Buyer consultations &amp; sample review by prior appointment.
+                  </span>
+                </div>
+              </div>
+
+              {/* 2. Kolkata Manufacturing Atelier */}
+              <div className="bg-[#faf8f5] p-5 sm:p-6 rounded-none border border-charcoal/10 shadow-xs flex items-start gap-4">
+                <MapPin className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
+                <div>
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <strong className="text-charcoal text-base font-serif font-medium">Manufacturing Factory &amp; Export Atelier</strong>
+                    <span className="text-[10px] font-mono uppercase bg-cognac/10 text-cognac px-2 py-0.5 font-bold">Kolkata</span>
+                  </div>
+                  <p className="text-charcoal-600 mt-1 leading-relaxed font-light">{COMPANY_INFO.factoryAddress}</p>
                   <div className="flex items-center gap-3 mt-2">
                     <a
                       href="https://maps.google.com/?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata+West+Bengal+700135"
@@ -137,11 +166,11 @@ export default function ContactPage() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs font-semibold text-cognac hover:underline font-mono"
                     >
-                      Open in Google Maps →
+                      Open Factory on Google Maps →
                     </a>
                   </div>
                   <span className="text-xs text-charcoal-400 mt-1 block">
-                    Visits by prior business appointment only.
+                    Full-scale OEM/ODM cutting, skiving, stitching &amp; export dispatch.
                   </span>
                 </div>
               </div>

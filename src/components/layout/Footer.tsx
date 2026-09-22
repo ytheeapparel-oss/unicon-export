@@ -79,7 +79,10 @@ export function Footer() {
               <div className="space-y-2 text-xs text-charcoal-700 font-light pt-1">
                 <div className="flex items-start gap-2.5">
                   <MapPin className="w-3.5 h-3.5 text-cognac shrink-0 mt-0.5" />
-                  <span>{COMPANY_INFO.fullAddress}</span>
+                  <div className="space-y-1">
+                    <p><strong className="text-charcoal font-medium">Noida Office:</strong> {COMPANY_INFO.noidaOfficeAddress}</p>
+                    <p><strong className="text-charcoal font-medium">Factory:</strong> {COMPANY_INFO.factoryAddress}</p>
+                  </div>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <Mail className="w-3.5 h-3.5 text-cognac shrink-0" />
