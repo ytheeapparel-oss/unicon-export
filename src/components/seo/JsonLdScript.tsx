@@ -104,6 +104,12 @@ export function generateOrganizationSchema() {
       },
     ],
     areaServed: [
+      { "@type": "Country", name: "India" },
+      { "@type": "City", name: "Delhi" },
+      { "@type": "City", name: "Noida" },
+      { "@type": "City", name: "Gurugram" },
+      { "@type": "AdministrativeArea", name: "Delhi NCR" },
+      { "@type": "City", name: "Kolkata" },
       { "@type": "Country", name: "United States" },
       { "@type": "Country", name: "United Kingdom" },
       { "@type": "Country", name: "Germany" },
@@ -122,10 +128,10 @@ export function generateOrganizationSchema() {
       {
         "@type": "ContactPoint",
         telephone: "+91-9873102341",
-        contactType: "export sales",
+        contactType: "export and domestic B2B sales",
         email: "uniconexport@gmail.com",
-        areaServed: ["US", "GB", "EU", "DE", "FR", "IT", "ES", "NL", "AU", "CA", "AE", "JP"],
-        availableLanguage: ["English"],
+        areaServed: ["IN", "US", "GB", "EU", "DE", "FR", "IT", "ES", "NL", "AU", "CA", "AE", "JP"],
+        availableLanguage: ["English", "Hindi"],
       },
     ],
     hasOfferCatalog: {

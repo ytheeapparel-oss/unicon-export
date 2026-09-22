@@ -168,6 +168,28 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "leather goods exporter India to UK and Europe",
       "OEM ODM leather accessories manufacturer Netherlands Spain"
     ]
+  },
+  {
+    category: "Delhi NCR & India Sourcing Hub",
+    description: "Targeted B2B queries from fashion brands, buying houses, corporate clients, and wholesalers across Delhi, Noida, Gurugram, and India.",
+    keywords: [
+      "leather bags manufacturers in india",
+      "leather bags manufacturers in delhi",
+      "leather bags manufacturers in noida",
+      "leather bags manufacturers in gurugram",
+      "leather bags manufacturer delhi ncr",
+      "custom leather bags manufacturer in delhi",
+      "genuine leather bag manufacturer noida",
+      "leather goods manufacturer gurugram",
+      "leather laptop bag manufacturer in delhi",
+      "private label leather bags manufacturer india",
+      "wholesale leather bags supplier delhi",
+      "leather tote bags manufacturer in noida",
+      "oem leather goods manufacturer gurugram udyog vihar",
+      "leather corporate gifts manufacturer delhi ncr",
+      "best leather bags manufacturer in india",
+      "leather accessories manufacturer noida sector 63"
+    ]
   }
 ];
 

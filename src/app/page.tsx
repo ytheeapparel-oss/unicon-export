@@ -417,18 +417,18 @@ export default function HomePage() {
                 Target Market Sourcing Specifications
               </span>
               <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-charcoal tracking-tight">
-                USA, UK &amp; European Brand Procurement Hub
+                Global &amp; India Leather Goods Procurement Hub
               </h2>
               <p className="text-xs sm:text-sm text-charcoal-600 font-light leading-relaxed">
-                We satisfy the exact statutory chemical requirements, customs classification benchmarks, and retail packaging guidelines mandated by department stores, luxury labels, and independent boutiques across North America and Europe.
+                Whether manufacturing for international luxury houses across the USA and Europe or supplying leading D2C fashion labels, corporate buying houses, and retail chains in Delhi, Noida, and Gurugram, we deliver uncompromised artisan craftsmanship, strict compliance, and transparent low MOQs.
               </p>
             </div>
             <div className="inline-flex items-center gap-2 bg-white px-4 py-2 border border-charcoal/10 text-xs font-mono text-cognac font-semibold shrink-0">
-              <Globe className="w-4 h-4 text-cognac" /> Multi-Currency: USD · EUR · GBP
+              <Globe className="w-4 h-4 text-cognac" /> Multi-Currency: INR · USD · EUR · GBP
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* 1. United States & North America */}
             <div className="bg-white p-7 border border-charcoal/10 space-y-4 shadow-2xs">
               <div className="flex items-center justify-between">
@@ -503,6 +503,32 @@ export default function HomePage() {
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
                   <span><strong>Ethical Audit Ready:</strong> Strict alignment with SEDEX SMETA &amp; BSCI social accountability.</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* 4. Delhi NCR & Domestic India (Delhi, Noida, Gurugram) */}
+            <div className="bg-white p-7 border border-charcoal/10 space-y-4 shadow-2xs">
+              <div className="flex items-center justify-between">
+                <span className="font-serif text-lg font-bold text-charcoal">Delhi, Noida &amp; Gurugram</span>
+                <span className="text-[10px] font-mono uppercase bg-cognac/10 text-cognac px-2 py-0.5 font-bold">Pan-India B2B</span>
+              </div>
+              <ul className="space-y-2.5 text-xs text-charcoal-600 font-light">
+                <li className="flex items-start gap-2">
+                  <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
+                  <span><strong>Leather Bags Manufacturers in India:</strong> Direct OEM contract manufacturing for premium D2C brands &amp; retail houses.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
+                  <span><strong>Delhi &amp; Gurugram Hubs:</strong> Supplying buying agencies and corporate gifting in Connaught Place, Okhla, and Udyog Vihar.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
+                  <span><strong>Noida Industrial Supply:</strong> Express prototype sampling and bulk logistics to Noida Sector 62 &amp; 63 warehouses.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
+                  <span><strong>GST &amp; Express Cargo:</strong> 100% GST invoicing, e-way bills, and 48–72h Bluedart/Delhivery priority transit.</span>
                 </li>
               </ul>
             </div>
