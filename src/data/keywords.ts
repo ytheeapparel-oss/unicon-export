@@ -6,6 +6,26 @@ export interface KeywordCluster {
 
 export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
   {
+    category: "Primary B2B Manufacturing & Export Hub",
+    description: "Highest-priority search queries for genuine leather goods manufacturers, OEM factories, and exporters in India, Noida, and Delhi NCR.",
+    keywords: [
+      "leather goods manufacturer India",
+      "leather bags manufacturer India",
+      "leather handbags manufacturer India",
+      "private label leather goods manufacturer",
+      "custom leather goods manufacturer India",
+      "leather goods exporter India",
+      "leather wallet manufacturer India",
+      "leather belt manufacturer India",
+      "leather accessories manufacturer India",
+      "wholesale leather bags India",
+      "OEM leather goods manufacturer",
+      "leather bag supplier India",
+      "leather goods manufacturer Noida",
+      "leather goods manufacturer Delhi NCR"
+    ]
+  },
+  {
     category: "Contract & OEM/ODM Manufacturing",
     description: "Custom contract manufacturing, private-label production, and export atelier services.",
     keywords: [

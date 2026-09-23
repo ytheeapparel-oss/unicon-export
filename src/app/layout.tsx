@@ -20,11 +20,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.uniconleather.com"),
   title: {
-    default: "UNICON LEATHER | Custom Leather Goods Manufacturer, OEM Bags & Wallets Factory",
+    default: "UNICON LEATHER | Leather Goods & Bags Manufacturer India | OEM & Exporter",
     template: "%s | UNICON LEATHER",
   },
   description:
-    "Leading custom leather goods manufacturer, OEM/ODM private-label factory, and wholesale exporter. Handcrafted full-grain leather bags, minimalist totes, RFID wallets, cardholders, belts, and bespoke accessories for USA, UK, and European brands. Low MOQs and LWG audited tanneries.",
+    "Leading leather goods manufacturer India, leather bags manufacturer India, and private label leather goods exporter. Custom OEM/ODM factory for handbags, wallets, belts & accessories in Noida, Delhi NCR & Kolkata.",
   alternates: {
     canonical: "https://www.uniconleather.com",
     languages: {
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
     alternateLocale: ["en_GB", "de_DE", "fr_FR", "it_IT", "es_ES"],
     url: "https://www.uniconleather.com",
     siteName: "UNICON LEATHER",
-    title: "UNICON LEATHER | Premier Leather Goods Manufacturer & Global Exporter",
+    title: "UNICON LEATHER | Leather Goods Manufacturer India & OEM Bags Exporter",
     description:
-      "B2B custom manufacturing, OEM/ODM private label, and wholesale export of handcrafted genuine leather bags, wallets, belts, and accessories for overseas brands.",
+      "Premier leather goods manufacturer India and custom leather bags manufacturer India. Private label leather goods manufacturer, OEM wallets, belts & accessories for global brands.",
     images: [
       {
         url: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=80",
@@ -102,13 +102,13 @@ export const metadata: Metadata = {
     "geo.placename": "Kolkata, West Bengal, India",
     "geo.position": "22.5085;88.4687",
     "ICBM": "22.5085, 88.4687",
-    "DC.title": "UNICON LEATHER - Luxury Leather Goods Manufacturer & Global Exporter",
+    "DC.title": "UNICON LEATHER - Leather Goods Manufacturer India & Leather Bags Exporter",
     "DC.creator": "UNICON LEATHER Atelier",
-    "DC.subject": "Custom Leather Goods, OEM Bags, RFID Wallets, Private Label Manufacturing",
-    "DC.description": "Custom leather goods manufacturer, OEM/ODM private-label factory, and wholesale exporter to USA, UK, and European brands.",
+    "DC.subject": "Leather Goods Manufacturer India, Leather Bags Manufacturer India, Private Label Leather Goods Manufacturer, Custom Leather Goods Manufacturer India, Leather Goods Exporter India, Wholesale Leather Bags India, OEM Leather Goods Manufacturer",
+    "DC.description": "Leading leather goods manufacturer India, leather bags manufacturer India, and custom leather goods exporter in Noida, Delhi NCR, and Kolkata.",
     "DC.publisher": "Unicon Leather Goods Export Private Limited",
     "DC.language": "en",
-    "DC.coverage": "Worldwide, United States, United Kingdom, European Union",
+    "DC.coverage": "Worldwide, United States, United Kingdom, European Union, India, Delhi NCR, Noida",
     "target-country": "US, GB, DE, FR, IT, ES, NL, CA, AU",
     "distribution": "global",
     "rating": "general",

@@ -30,22 +30,22 @@ export function Hero() {
           {/* Editorial Kicker */}
           <div className="inline-flex items-center gap-2.5 flex-wrap">
             <span className="bg-cognac text-white text-[10px] sm:text-xs font-mono font-medium tracking-widest uppercase px-3 py-1 shadow-xs">
-              Indian Leather Atelier · Est. {COMPANY_INFO.establishedYear}
+              Leather Goods Exporter India · Est. {COMPANY_INFO.establishedYear}
             </span>
             <span className="text-charcoal/30">·</span>
             <span className="text-[10px] sm:text-xs text-cognac font-mono tracking-widest uppercase font-semibold">
-              Direct Exporting to USA, UK & Europe
+              Direct Exporting to USA, UK &amp; Europe
             </span>
           </div>
 
           {/* Main Luxury Heading */}
           <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl xl:text-7xl font-normal text-charcoal leading-[1.08] tracking-tight">
-            Custom Leather Goods Manufacturer &amp; <span className="italic text-cognac font-light">Private Label Atelier</span>
+            Leather Goods Manufacturer India &amp; <span className="italic text-cognac font-light">Private Label Atelier</span>
           </h1>
 
           {/* Keyword-Rich Subtitle */}
           <p className="text-sm sm:text-base lg:text-lg text-charcoal-700 leading-relaxed font-light max-w-2xl bg-white/60 sm:bg-transparent backdrop-blur-xs sm:backdrop-blur-none p-2 sm:p-0 rounded-xs">
-            Bespoke OEM/ODM contract manufacturing and wholesale export of luxury full-grain leather bags, minimalist totes, RFID wallets, cardholders, belts, and bespoke accessories for international labels, boutique designers, and retail buying houses.
+            Custom leather goods manufacturer India and premier leather bags manufacturer India. We offer complete OEM leather goods manufacturer capabilities, leather handbags manufacturer India, RFID wallets, belts, and wholesale leather bags India for international fashion brands and buying houses.
           </p>
 
           {/* Action CTAs */}

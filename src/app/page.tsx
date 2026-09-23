@@ -137,7 +137,7 @@ export default function HomePage() {
               Core Manufacturing Categories
             </h2>
             <p className="text-xs sm:text-sm text-charcoal-600 max-w-2xl font-light leading-relaxed">
-              Engineered to international brand standards. Review technical silhouettes, leather grades, and MOQ parameters below.
+              As a dedicated leather wallet manufacturer India, leather belt manufacturer India, and leather accessories manufacturer India, we engineer custom collections to international luxury brand standards with flexible MOQs.
             </p>
           </div>
           <Button href="/products" variant="outline" size="md" className="self-start md:self-auto border-charcoal/25 text-charcoal hover:bg-charcoal hover:text-white">
@@ -512,25 +512,25 @@ export default function HomePage() {
             {/* 4. Delhi NCR & Domestic India (Delhi, Noida, Gurugram) */}
             <div className="bg-white p-7 border border-charcoal/10 space-y-4 shadow-2xs">
               <div className="flex items-center justify-between">
-                <span className="font-serif text-lg font-bold text-charcoal">Delhi, Noida &amp; Gurugram</span>
+                <span className="font-serif text-lg font-bold text-charcoal">Delhi NCR &amp; Noida Hub</span>
                 <span className="text-[10px] font-mono uppercase bg-cognac/10 text-cognac px-2 py-0.5 font-bold">Pan-India B2B</span>
               </div>
               <ul className="space-y-2.5 text-xs text-charcoal-600 font-light">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Leather Bags Manufacturers in India:</strong> Direct OEM contract manufacturing for premium D2C brands &amp; retail houses.</span>
+                  <span><strong>Leather Goods Manufacturer Delhi NCR:</strong> Direct OEM contract manufacturing and bespoke design facilities for premium D2C brands &amp; retail houses.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Delhi &amp; Gurugram Hubs:</strong> Supplying buying agencies and corporate gifting in Connaught Place, Okhla, and Udyog Vihar.</span>
+                  <span><strong>Leather Goods Manufacturer Noida:</strong> Rapid prototype sampling, leather finishing, and direct supply to Noida Sector 62, 63 &amp; Greater Noida industrial zones.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Noida Industrial Supply:</strong> Express prototype sampling and bulk logistics to Noida Sector 62 &amp; 63 warehouses.</span>
+                  <span><strong>Leather Bag Supplier India:</strong> Trusted sourcing partner supplying verified buying agencies and wholesale leather bags India for domestic distribution and corporate gifting.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>GST &amp; Express Cargo:</strong> 100% GST invoicing, e-way bills, and 48–72h Bluedart/Delhivery priority transit.</span>
+                  <span><strong>GST &amp; Express Cargo:</strong> 100% GST invoicing, e-way bills, and 48–72h Bluedart/Delhivery priority transit across all Indian states.</span>
                 </li>
               </ul>
             </div>
