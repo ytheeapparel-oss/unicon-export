@@ -10,6 +10,21 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'uniconleather.com',
+          },
+        ],
+        destination: 'https://www.uniconleather.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
   async rewrites() {
     return [
       {
