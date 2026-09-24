@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { PRODUCTS } from "@/data/products";
 import { PRODUCT_CATEGORIES } from "@/data/categories";
+import { SEO_PILLARS } from "@/data/seoPillars";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.uniconleather.com";
@@ -103,5 +104,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  return [...staticRoutes, ...categoryRoutes, ...productRoutes];
+  // Dedicated Keyword Pillar Routes
+  const seoPillarRoutes: MetadataRoute.Sitemap = Object.values(SEO_PILLARS).map((pillar) => ({
+    url: pillar.canonicalUrl,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.95,
+  }));
+
+  return [...staticRoutes, ...seoPillarRoutes, ...categoryRoutes, ...productRoutes];
 }
