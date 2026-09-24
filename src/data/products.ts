@@ -50,10 +50,10 @@ export const PRODUCTS: Product[] = [
   {
     id: "UL-SG-204",
     slug: "republic-compass-leather-passport-case",
-    name: "The Republic Passport & Compass Travel Folio",
+    name: "Luxury Full-Grain Leather Passport Case & Travel Wallet",
     category: "Small Leather Goods",
     categorySlug: "small-leather-goods",
-    shortDescription: "Artisan distressed leather travel set featuring heat-debossed Republic of India passport cover and nautical compass leather journal with elastic keeper.",
+    shortDescription: "Artisan distressed leather travel set featuring custom heat-debossed leather passport cover and nautical compass leather journal with elastic keeper.",
     fullDescription: "A sophisticated showcase of precision leather moulding and deep heat debossing. Handcrafted from distressed vintage vegetable-tanned cowhide that develops a rich, personalized patina with world travel. Featuring a certified passport compartment and companion nautical compass notebook with elastic binding.",
     images: [
       "/images/flagship-passport-case.jpg",
@@ -85,7 +85,7 @@ export const PRODUCTS: Product[] = [
     ],
     specs: [
       { label: "Product Code", value: "UL-SG-204" },
-      { label: "Item Count", value: "2-Piece Travel Folio Set" },
+      { label: "Item Count", value: "2-Piece Travel Wallet & Passport Set" },
       { label: "Material", value: "Distressed Full-Grain Cowhide" },
       { label: "Edge Finish", value: "Hand-burnished beeswax edge" },
       { label: "Export Ready", value: "USA, UK, EU, UAE, Japan" }
