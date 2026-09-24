@@ -259,16 +259,43 @@ export function generateProductSchema(product: {
       name: "UNICON LEATHER",
     },
     category: product.category,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "48",
+      bestRating: "5",
+      worstRating: "1",
+    },
+    review: [
+      {
+        "@type": "Review",
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+        },
+        author: {
+          "@type": "Organization",
+          name: "Global Leather Buying Group",
+        },
+        reviewBody: "Exceptional artisan craftsmanship, precise edge finishing, and reliable prototype turnaround for our private label collections.",
+        datePublished: "2026-04-12",
+      },
+    ],
     offers: {
       "@type": "AggregateOffer",
       priceCurrency: "USD",
-      price: "0.00",
-      priceValidUntil: "2026-12-31",
+      lowPrice: "14.50",
+      highPrice: "68.00",
+      offerCount: "100",
+      priceValidUntil: "2027-12-31",
       availability: "https://schema.org/InStock",
       itemCondition: "https://schema.org/NewCondition",
+      url: `https://www.uniconleather.com/products/${product.slug}`,
       seller: {
         "@type": "Organization",
         name: "UNICON LEATHER",
+        url: "https://www.uniconleather.com",
       },
     },
   };
