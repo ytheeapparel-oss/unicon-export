@@ -172,21 +172,43 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     ]
   },
   {
-    category: "Europe & UK Atelier Sourcing Hub",
-    description: "High-intent queries from UK and European luxury boutiques, fashion houses, and department stores.",
+    category: "Europe & UK Brand Sourcing & Compliance",
+    description: "High-intent queries from UK, German, French, Italian, and Nordic fashion brands and buying houses seeking verified Indian leather manufacturers.",
     keywords: [
-      "leather goods manufacturer Europe",
+      "leather bags manufacturer India for European brands",
+      "leather bags manufacturer India for UK brands",
+      "leather goods manufacturer India EU REACH compliant",
+      "private label leather bags manufacturer Europe supplier India",
+      "sustainable leather bags manufacturer India LWG certified",
+      "low MOQ leather bags manufacturer India for UK designers",
+      "leather bag supplier India for European boutique brands",
+      "custom leather handbag manufacturer India Germany France",
+      "leather bags OEM factory India SEDEX SMETA BSCI certified",
+      "leather bag exporter India to Germany UK Europe CIF FOB DDP",
+      "leather goods contract manufacturing Paris Milan London Berlin",
+      "Italian vegetable tanned leather goods manufacturer India export",
+      "luxury leather handbag supplier Scandinavia Netherlands Spain",
       "leather goods manufacturer UK London",
-      "custom leather bags manufacturer Germany France Italy",
-      "REACH Annex XVII compliant leather goods manufacturer",
-      "LWG Gold certified leather factory Europe export",
-      "bespoke small leather goods factory wholesale Europe",
-      "sustainable vegetable tanned leather manufacturer EU",
-      "leather goods contract manufacturing Paris Milan",
-      "luxury leather cardholder supplier UK Europe",
-      "minimalist leather handbag supplier Scandinavia",
-      "leather goods exporter India to UK and Europe",
-      "OEM ODM leather accessories manufacturer Netherlands Spain"
+      "custom leather bags manufacturer Germany France Italy"
+    ]
+  },
+  {
+    category: "Australia & Oceania Fashion Brand Sourcing",
+    description: "Search queries from Australian and New Zealand fashion labels, boutique designers, and retail chains sourcing genuine leather products from India.",
+    keywords: [
+      "leather bags manufacturer India for Australian brands",
+      "leather bag supplier India to Australia",
+      "custom leather goods manufacturer Australia supplier India",
+      "private label leather bags Sydney Melbourne Australia India factory",
+      "leather handbag manufacturer India Australia low MOQ",
+      "leather goods exporter India to Australia DDP sea freight air cargo",
+      "Australian fashion label leather manufacturer supplier India",
+      "leather wallet and bag manufacturer India export Australia",
+      "leather tote and backpack manufacturer India for Australia",
+      "OEM leather products manufacturer India to Australia",
+      "DAFF biosecurity compliant leather exporter India to Australia",
+      "wholesale leather goods supplier Brisbane Perth Adelaide Australia",
+      "high quality leather bags supplier India for Australian fashion labels"
     ]
   },
   {

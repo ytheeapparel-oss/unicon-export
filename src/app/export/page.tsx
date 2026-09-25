@@ -38,15 +38,18 @@ export const metadata: Metadata = {
   },
   keywords: [
     "leather goods exporter",
-    "leather goods manufacturer USA",
+    "leather bags manufacturer India for European brands",
+    "leather bags manufacturer India for Australian brands",
     "leather goods manufacturer Europe",
+    "leather bag supplier India to Australia",
+    "private label leather bags Sydney Melbourne Australia",
+    "leather goods manufacturer India EU REACH compliant",
+    "sustainable leather bags manufacturer India LWG certified",
+    "low MOQ leather bags manufacturer India for UK designers",
     "leather products HS code 4202",
     "leather products HS code 4203",
-    "leather goods wholesale suppliers",
-    "bulk leather bags for retail",
-    "leather wallets wholesale low moq",
-    "leather belt wholesale supplier",
-    "bulk leather messenger bags exporter"
+    "leather goods wholesale suppliers Europe Australia",
+    "bulk leather bags for retail"
   ],
 };
 
@@ -66,11 +69,19 @@ export default function ExportPage() {
     },
     {
       region: "United Kingdom & Europe",
-      countries: "UK, Germany, France, Italy, Spain, Netherlands, Nordics",
-      transitAir: "3–5 business days (Air Freight)",
-      transitSea: "22–28 days (Felixstowe, Rotterdam, Hamburg)",
-      incoterms: "FOB, CIF, DDP (VAT/Customs Handled)",
-      topProducts: "Luxury Handbags, Vegetable-Tanned Belts, Saffiano Folios",
+      countries: "UK, Germany, France, Italy, Spain, Netherlands, Scandinavia",
+      transitAir: "3–5 business days (London Heathrow, Frankfurt, Paris CDG)",
+      transitSea: "22–28 days (Rotterdam, Hamburg, Felixstowe, Genoa)",
+      incoterms: "FOB, CIF, DDP (VAT/Customs Handled, EU REACH Compliant)",
+      topProducts: "Luxury Handbags, Vegetable-Tanned Belts, Saffiano Folios, Designer Totes",
+    },
+    {
+      region: "Australia & New Zealand",
+      countries: "Australia (Sydney, Melbourne, Brisbane, Perth), New Zealand (Auckland)",
+      transitAir: "4–6 business days (DHL / FedEx Express to SYD & MEL)",
+      transitSea: "18–24 days (Port Botany Sydney, Port of Melbourne, Port of Brisbane)",
+      incoterms: "FOB, CIF, DDP (Australian GST & DAFF Biosecurity Compliant)",
+      topProducts: "Minimalist Totes, Commuter Backpacks, RFID Wallets, Woven Belts",
     },
     {
       region: "Middle East & Gulf",
@@ -79,14 +90,6 @@ export default function ExportPage() {
       transitSea: "7–10 days (Jebel Ali Port)",
       incoterms: "FOB, CIF, DDP",
       topProducts: "Corporate Gift Sets, Luxury Travel Duffels, Exotic Embossed Goods",
-    },
-    {
-      region: "Asia-Pacific",
-      countries: "Australia, Japan, Singapore, New Zealand",
-      transitAir: "4–6 business days",
-      transitSea: "18–24 days (Sydney, Melbourne, Yokohama)",
-      incoterms: "FOB, CIF, DDP",
-      topProducts: "Commuter Backpacks, RFID Bifold Wallets, Lambskin Jackets",
     },
   ];
 

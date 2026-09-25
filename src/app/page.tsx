@@ -457,54 +457,54 @@ export default function HomePage() {
               </ul>
             </div>
 
-            {/* 2. European Union (Germany, France, Italy, Nordics) */}
+            {/* 2. Europe & United Kingdom (UK, Germany, France, Italy, Nordics) */}
             <div className="bg-white p-7 border border-charcoal/10 space-y-4 shadow-2xs">
               <div className="flex items-center justify-between">
-                <span className="font-serif text-lg font-bold text-charcoal">European Union (EU)</span>
-                <span className="text-[10px] font-mono uppercase bg-cognac/10 text-cognac px-2 py-0.5 font-bold">REACH Annex XVII</span>
+                <span className="font-serif text-lg font-bold text-charcoal">Europe &amp; United Kingdom</span>
+                <span className="text-[10px] font-mono uppercase bg-cognac/10 text-cognac px-2 py-0.5 font-bold">EU REACH &amp; LWG</span>
               </div>
               <ul className="space-y-2.5 text-xs text-charcoal-600 font-light">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Chemical Safety:</strong> Chromium VI &lt;3ppm, Azo dye free, and nickel-free hardware.</span>
+                  <span><strong>Leather Bags Manufacturer India for European Brands:</strong> Certified OEM &amp; private-label supplier for luxury labels across UK, Germany, France, Italy &amp; Scandinavia.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>LWG Certified Supply:</strong> Traceable cattle hides from environmental Gold/Silver tanneries.</span>
+                  <span><strong>EU REACH Annex XVII Compliant:</strong> Zero Chromium VI, Azo-dye free, nickel-free hardware, and traceable LWG Gold/Silver leather hides.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Ocean Seaports:</strong> Direct container vessel routes to Rotterdam, Hamburg &amp; Genoa.</span>
+                  <span><strong>Low MOQ for UK &amp; European Designers:</strong> Flexible 100-piece orders with REX system tariff paperwork and 3–5 day express air to London Heathrow &amp; Frankfurt.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Packaging Standards:</strong> Recycled polybags and FSC certified retail paper gift boxes.</span>
+                  <span><strong>SEDEX SMETA &amp; BSCI Audits:</strong> Verified ethical and social compliance satisfying European department store sourcing codes.</span>
                 </li>
               </ul>
             </div>
 
-            {/* 3. United Kingdom & Commonwealth */}
+            {/* 3. Australia & New Zealand (Sydney, Melbourne, Brisbane) */}
             <div className="bg-white p-7 border border-charcoal/10 space-y-4 shadow-2xs">
               <div className="flex items-center justify-between">
-                <span className="font-serif text-lg font-bold text-charcoal">United Kingdom &amp; Australia</span>
-                <span className="text-[10px] font-mono uppercase bg-cognac/10 text-cognac px-2 py-0.5 font-bold">UK REACH &amp; GSP</span>
+                <span className="font-serif text-lg font-bold text-charcoal">Australia &amp; New Zealand</span>
+                <span className="text-[10px] font-mono uppercase bg-cognac/10 text-cognac px-2 py-0.5 font-bold">DDP Sea &amp; Air</span>
               </div>
               <ul className="space-y-2.5 text-xs text-charcoal-600 font-light">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Certificate of Origin:</strong> Registered Exporter System (REX) preferential tariff papers.</span>
+                  <span><strong>Leather Bags Manufacturer India for Australian Brands:</strong> Direct contract manufacturing &amp; private label bags for Sydney, Melbourne &amp; Brisbane fashion houses.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Air Freight Hubs:</strong> Direct express corridors to London Heathrow (LHR) &amp; Sydney (SYD).</span>
+                  <span><strong>Low MOQ Handbag &amp; Bag Production:</strong> Flexible 100-unit runs and rapid 7–10 day prototype counter-sampling for Australian boutique designers.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Low MOQ Trial Collections:</strong> Flexible 100-piece orders for British indie designers.</span>
+                  <span><strong>DAFF Biosecurity Compliant:</strong> Fully cleared bovine leather export documents, Certificate of Origin, and ocean cargo to Port Botany &amp; Melbourne.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Ethical Audit Ready:</strong> Strict alignment with SEDEX SMETA &amp; BSCI social accountability.</span>
+                  <span><strong>Turnkey DDP Freight:</strong> Air express (4–6 days) and container sea transit with all Australian import duties and GST pre-cleared.</span>
                 </li>
               </ul>
             </div>
