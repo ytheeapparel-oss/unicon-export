@@ -38,6 +38,10 @@ export const metadata: Metadata = {
   },
   keywords: [
     "leather goods exporter",
+    "leather bags manufacturer India for Canadian brands",
+    "leather bag supplier India to Canada",
+    "private label leather bags Toronto Vancouver Montreal",
+    "custom leather goods manufacturer Canada supplier India",
     "leather bags manufacturer India for European brands",
     "leather bags manufacturer India for Australian brands",
     "leather goods manufacturer Europe",
@@ -48,7 +52,7 @@ export const metadata: Metadata = {
     "low MOQ leather bags manufacturer India for UK designers",
     "leather products HS code 4202",
     "leather products HS code 4203",
-    "leather goods wholesale suppliers Europe Australia",
+    "leather goods wholesale suppliers North America Europe Australia",
     "bulk leather bags for retail"
   ],
 };
@@ -60,12 +64,12 @@ export default function ExportPage() {
   ]);
   const exportDestinations = [
     {
-      region: "North America",
-      countries: "United States, Canada",
-      transitAir: "4–6 business days (DHL / FedEx Express)",
-      transitSea: "28–35 days (Port of NY/NJ, LA/Long Beach)",
-      incoterms: "FOB, CIF, DDP to client fulfillment centers",
-      topProducts: "Full-Grain Leather Totes, Executive Briefcases, Minimalist Wallets",
+      region: "United States & Canada",
+      countries: "USA (NY, LA, Texas, Florida), Canada (Toronto, Vancouver, Montreal, Calgary)",
+      transitAir: "3–5 business days (Toronto YYZ, Vancouver YVR, NY JFK, LAX)",
+      transitSea: "20–30 days (Port of Vancouver, Port of NY/NJ, LA/Long Beach)",
+      incoterms: "FOB, CIF, DDP (CBSA CARM & US Customs Pre-Cleared)",
+      topProducts: "Full-Grain Leather Totes, Executive Briefcases, Minimalist Wallets, Commuter Bags",
     },
     {
       region: "United Kingdom & Europe",

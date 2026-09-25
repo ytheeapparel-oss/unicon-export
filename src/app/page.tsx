@@ -431,7 +431,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* 1. United States & North America */}
+            {/* 1. United States & Canada (North America Hub) */}
             <div className="bg-white p-7 border border-charcoal/10 space-y-4 shadow-2xs">
               <div className="flex items-center justify-between">
                 <span className="font-serif text-lg font-bold text-charcoal">United States &amp; Canada</span>
@@ -440,19 +440,19 @@ export default function HomePage() {
               <ul className="space-y-2.5 text-xs text-charcoal-600 font-light">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>California Prop 65:</strong> Third-party tested (SGS/Intertek) for lead &lt;90ppm and phthalates.</span>
+                  <span><strong>Leather Bags Manufacturer India for Canadian Brands:</strong> Dedicated OEM &amp; private label manufacturing for fashion labels in Toronto, Vancouver &amp; Montreal.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Express Prototyping:</strong> 3–5 day express delivery via FedEx Priority to NY, LA &amp; Texas.</span>
+                  <span><strong>CBSA &amp; US Customs Compliant:</strong> Full CARM registration, Canadian GST/HST handled under DDP terms, and pre-classified HTS Chapter 4202 codes.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Clear HTS Codes:</strong> Pre-classified under US Tariff Chapter 4202 (Handbags) &amp; 4203 (Belts).</span>
+                  <span><strong>Priority Air &amp; Ocean Corridors:</strong> 3–5 day express air to Toronto (YYZ), Montreal (YUL), NY &amp; LA; container freight to Port of Vancouver.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-cognac mt-0.5 shrink-0" />
-                  <span><strong>Barcoding:</strong> UPC barcode hangtags and Amazon FBA carton prep compliance.</span>
+                  <span><strong>CCPSA &amp; California Prop 65:</strong> Third-party tested (SGS/Intertek) for lead &lt;90ppm, cadmium, and phthalates with Amazon FBA prep.</span>
                 </li>
               </ul>
             </div>

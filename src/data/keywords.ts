@@ -172,6 +172,25 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     ]
   },
   {
+    category: "Canada Fashion Brand Sourcing & Import Hub",
+    description: "Search queries from Canadian fashion labels, boutique designers, department stores, and corporate clients sourcing leather goods from India.",
+    keywords: [
+      "leather bags manufacturer India for Canadian brands",
+      "leather bag supplier India to Canada",
+      "custom leather goods manufacturer Canada supplier India",
+      "private label leather bags Toronto Vancouver Montreal Canada",
+      "leather handbag manufacturer India Canada low MOQ",
+      "leather goods exporter India to Canada DDP shipping",
+      "Canadian fashion brand leather manufacturer supplier India",
+      "leather wallet and bag manufacturer India export Canada",
+      "CBSA customs compliant leather exporter India to Canada",
+      "wholesale leather goods supplier Toronto Calgary Canada",
+      "leather goods contract manufacturing Toronto Ontario",
+      "leather tote bag manufacturer supplier Vancouver BC Canada",
+      "high quality leather bags supplier India for Canadian fashion labels"
+    ]
+  },
+  {
     category: "Europe & UK Brand Sourcing & Compliance",
     description: "High-intent queries from UK, German, French, Italian, and Nordic fashion brands and buying houses seeking verified Indian leather manufacturers.",
     keywords: [
