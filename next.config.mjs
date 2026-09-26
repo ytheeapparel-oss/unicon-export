@@ -23,6 +23,21 @@ const nextConfig = {
         destination: 'https://www.uniconleather.com/:path*',
         permanent: true,
       },
+      {
+        source: '/how-we-craft-premium-leather-goods-in-2026',
+        destination: '/craftsmanship',
+        permanent: true,
+      },
+      {
+        source: '/how-we-craft-premium-leather-goods',
+        destination: '/craftsmanship',
+        permanent: true,
+      },
+      {
+        source: '/how-we-craft',
+        destination: '/craftsmanship',
+        permanent: true,
+      },
     ];
   },
   async rewrites() {

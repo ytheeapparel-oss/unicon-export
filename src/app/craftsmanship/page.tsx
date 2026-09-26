@@ -15,16 +15,16 @@ import { Button } from "@/components/ui/Button";
 import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
-  title: "Craftsmanship & Manufacturing Process | Master Leather Atelier",
+  title: "How We Craft Premium Leather Goods in 2026",
   description:
-    "Explore the 11-stage precision leather manufacturing process at UNICON LEATHER: from hide grading and micro-skiving to Italian edge-painting, saddle stitching, and AQL 2.5 inspection.",
+    "Explore how UNICON LEATHER crafts premium leather goods in 2026: an 11-stage precision manufacturing process from Grade-A hide grading and 0.4mm micro-skiving to Italian edge-lacquering, saddle stitching, and AQL 2.5 inspection.",
   alternates: {
     canonical: "https://www.uniconleather.com/craftsmanship",
   },
   openGraph: {
-    title: "11-Stage Master Leather Craftsmanship | UNICON LEATHER Atelier",
+    title: "How We Craft Premium Leather Goods in 2026 | Unicon Leather",
     description:
-      "Explore the 11-stage precision leather manufacturing process: hide grading, 0.4mm micro-skiving, Italian edge-lacquering, saddle stitching, and AQL 2.5 inspection.",
+      "Explore how UNICON LEATHER crafts premium leather goods in 2026: from Grade-A hide grading and 0.4mm micro-skiving to Italian edge-lacquering, saddle stitching, and AQL 2.5 inspection.",
     url: "https://www.uniconleather.com/craftsmanship",
     type: "website",
     images: [
@@ -32,16 +32,23 @@ export const metadata: Metadata = {
         url: "https://www.uniconleather.com/images/craftsmanship-hero.jpg",
         width: 1200,
         height: 630,
-        alt: "Master Leather Artisan Craftsmanship",
+        alt: "How We Craft Premium Leather Goods in 2026 | Unicon Leather",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How We Craft Premium Leather Goods in 2026 | Unicon Leather",
+    description:
+      "Explore how UNICON LEATHER crafts premium leather goods in 2026: from Grade-A hide grading and 0.4mm micro-skiving to Italian edge-lacquering and AQL 2.5 inspection.",
+    images: ["https://www.uniconleather.com/images/craftsmanship-hero.jpg"],
   },
 };
 
 export default function CraftsmanshipPage() {
   const breadcrumbsSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://www.uniconleather.com" },
-    { name: "Craftsmanship", url: "https://www.uniconleather.com/craftsmanship" },
+    { name: "How We Craft Premium Leather Goods in 2026", url: "https://www.uniconleather.com/craftsmanship" },
   ]);
 
   const manufacturingStages = [
@@ -132,11 +139,11 @@ export default function CraftsmanshipPage() {
         {/* Elegant Floating Editorial Card on Pure White */}
         <div className="relative z-10 w-full px-6 sm:px-12 lg:px-16 xl:px-20 pb-10 sm:pb-14 pt-24">
           <div className="max-w-2xl bg-white/95 backdrop-blur-md p-6 sm:p-8 border border-charcoal/10 shadow-lg space-y-4 text-left">
-            <Breadcrumbs items={[{ label: "Craftsmanship & Atelier Infrastructure" }]} />
+            <Breadcrumbs items={[{ label: "How We Craft Premium Leather Goods in 2026" }]} />
 
             <div className="inline-flex items-center gap-2.5 mt-1">
               <span className="bg-cognac text-white text-[10px] sm:text-xs font-mono font-medium tracking-widest uppercase px-3 py-1 rounded-none shadow-xs">
-                Generational Leather Guild
+                Generational Leather Guild • 2026 Standards
               </span>
               <span className="text-[10px] sm:text-xs text-charcoal-500 font-mono tracking-widest uppercase font-medium">
                 Master Handcraft & Precision
@@ -144,11 +151,11 @@ export default function CraftsmanshipPage() {
             </div>
 
             <h1 className="font-serif text-2xl sm:text-4xl lg:text-5xl font-normal text-charcoal leading-[1.15] tracking-tight">
-              The 11-Stage Precision Craftsmanship Process
+              How We Craft Premium Leather Goods in 2026
             </h1>
 
             <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light max-w-xl">
-              Where generational Indian leatherworking traditions converge with German precision engineering, Dürkopp Adler stitching, and Italian edge-finishing chemistry.
+              Where generational Indian leatherworking traditions converge with German precision engineering, Dürkopp Adler stitching, and Italian edge-finishing chemistry. Explore our 11-stage atelier process.
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
