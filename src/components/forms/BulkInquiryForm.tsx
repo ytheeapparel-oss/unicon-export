@@ -47,24 +47,33 @@ export function BulkInquiryForm({
   const onSubmit = async (data: InquiryFormData) => {
     setIsSubmitting(true);
     try {
-      const { error: insertError } = await supabase.from("inquiries").insert({
-        buyer_name: data.buyerName,
-        company_name: data.companyName,
-        business_email: data.businessEmail,
-        phone_or_whatsapp: data.phoneOrWhatsApp,
-        country: data.country,
-        company_website: data.companyWebsite || null,
-        product_category: data.productCategory || "Leather Goods",
-        required_quantity: data.requiredQuantity || "Standard MOQ",
-        target_price_range: data.targetPriceRange || null,
-        expected_delivery_date: data.expectedDeliveryDate || null,
-        customization_requirements: data.customizationRequirements || "",
-        message: data.message || "",
-        inquiry_type: data.inquiryType || inquiryType || "bulk",
-        product_slug: data.productSlug || initialProduct || null,
+      const res = await fetch("/api/inquiries", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...data,
+          inquiryType: data.inquiryType || inquiryType || "bulk",
+          productSlug: data.productSlug || initialProduct || null,
+        }),
       });
-      if (insertError) {
-        console.error("Supabase insert error:", insertError);
+
+      if (!res.ok) {
+        await supabase.from("inquiries").insert({
+          buyer_name: data.buyerName,
+          company_name: data.companyName,
+          business_email: data.businessEmail,
+          phone_or_whatsapp: data.phoneOrWhatsApp,
+          country: data.country,
+          company_website: data.companyWebsite || null,
+          product_category: data.productCategory || "Leather Goods",
+          required_quantity: data.requiredQuantity || "Standard MOQ",
+          target_price_range: data.targetPriceRange || null,
+          expected_delivery_date: data.expectedDeliveryDate || null,
+          customization_requirements: data.customizationRequirements || "",
+          message: data.message || "",
+          inquiry_type: data.inquiryType || inquiryType || "bulk",
+          product_slug: data.productSlug || initialProduct || null,
+        });
       }
     } catch (error) {
       console.warn("Failed to persist inquiry to Supabase:", error);

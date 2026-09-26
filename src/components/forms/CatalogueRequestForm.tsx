@@ -27,16 +27,21 @@ export function CatalogueRequestForm() {
   const onSubmit = async (data: CatalogueRequestFormData) => {
     setIsSubmitting(true);
     try {
-      const { error: insertError } = await supabase.from("catalogue_requests").insert({
-        full_name: data.fullName,
-        company_name: data.companyName,
-        business_email: data.businessEmail,
-        country: data.country,
-        interests: data.interests || [],
-        estimated_annual_volume: data.estimatedAnnualVolume || "100–500 units",
+      const res = await fetch("/api/catalogue", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
       });
-      if (insertError) {
-        console.error("Supabase catalogue insert error:", insertError);
+
+      if (!res.ok) {
+        await supabase.from("catalogue_requests").insert({
+          full_name: data.fullName,
+          company_name: data.companyName,
+          business_email: data.businessEmail,
+          country: data.country,
+          interests: data.interests || [],
+          estimated_annual_volume: data.estimatedAnnualVolume || "100–500 units",
+        });
       }
     } catch (error) {
       console.warn("Failed to persist catalogue request to Supabase:", error);
