@@ -6,6 +6,7 @@ import { Download, CheckCircle2, AlertCircle, Loader2, FileText } from "lucide-r
 import { CatalogueRequestFormData } from "@/types";
 import { Button } from "@/components/ui/Button";
 import { PRODUCT_CATEGORIES } from "@/data/categories";
+import { supabase } from "@/lib/supabase";
 
 export function CatalogueRequestForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -25,7 +26,22 @@ export function CatalogueRequestForm() {
 
   const onSubmit = async (data: CatalogueRequestFormData) => {
     setIsSubmitting(true);
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      const { error: insertError } = await supabase.from("catalogue_requests").insert({
+        full_name: data.fullName,
+        company_name: data.companyName,
+        business_email: data.businessEmail,
+        country: data.country,
+        interests: data.interests || [],
+        estimated_annual_volume: data.estimatedAnnualVolume || "100–500 units",
+      });
+      if (insertError) {
+        console.error("Supabase catalogue insert error:", insertError);
+      }
+    } catch (error) {
+      console.warn("Failed to persist catalogue request to Supabase:", error);
+    }
+
     setIsSubmitting(false);
     setDownloadReady(true);
   };

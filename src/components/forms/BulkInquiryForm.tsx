@@ -7,6 +7,7 @@ import { Send, UploadCloud, CheckCircle2, AlertCircle, Loader2 } from "lucide-re
 import { InquiryFormData } from "@/types";
 import { Button } from "@/components/ui/Button";
 import { PRODUCT_CATEGORIES } from "@/data/categories";
+import { supabase } from "@/lib/supabase";
 
 interface BulkInquiryFormProps {
   initialProduct?: string;
@@ -45,7 +46,30 @@ export function BulkInquiryForm({
 
   const onSubmit = async (data: InquiryFormData) => {
     setIsSubmitting(true);
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      const { error: insertError } = await supabase.from("inquiries").insert({
+        buyer_name: data.buyerName,
+        company_name: data.companyName,
+        business_email: data.businessEmail,
+        phone_or_whatsapp: data.phoneOrWhatsApp,
+        country: data.country,
+        company_website: data.companyWebsite || null,
+        product_category: data.productCategory || "Leather Goods",
+        required_quantity: data.requiredQuantity || "Standard MOQ",
+        target_price_range: data.targetPriceRange || null,
+        expected_delivery_date: data.expectedDeliveryDate || null,
+        customization_requirements: data.customizationRequirements || "",
+        message: data.message || "",
+        inquiry_type: data.inquiryType || inquiryType || "bulk",
+        product_slug: data.productSlug || initialProduct || null,
+      });
+      if (insertError) {
+        console.error("Supabase insert error:", insertError);
+      }
+    } catch (error) {
+      console.warn("Failed to persist inquiry to Supabase:", error);
+    }
+
     setIsSubmitting(false);
     setSubmitSuccess(true);
     reset();
