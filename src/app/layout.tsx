@@ -20,11 +20,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.uniconleather.com"),
   title: {
-    default: "UNICON LEATHER | Leather Goods & Bags Manufacturer India | OEM & Exporter",
+    default: "UNICON LEATHER | Leather Goods Supplier in USA & Worldwide Bags Manufacturer | OEM & Exporter",
     template: "%s | UNICON LEATHER",
   },
   description:
-    "Leading leather goods manufacturer India, leather bags manufacturer India, and private label leather goods exporter. Custom OEM/ODM factory for handbags, wallets, belts & accessories in Noida, Delhi NCR & Kolkata.",
+    "Leading leather goods supplier in USA, wholesale leather bags manufacturer India, and worldwide private label exporter. Custom OEM/ODM factory for handbags, wallets, belts & luxury accessories with low MOQs and direct DDP shipping.",
   alternates: {
     canonical: "https://www.uniconleather.com",
     languages: {
@@ -102,13 +102,13 @@ export const metadata: Metadata = {
     "geo.placename": "Kolkata, West Bengal, India",
     "geo.position": "22.5085;88.4687",
     "ICBM": "22.5085, 88.4687",
-    "DC.title": "UNICON LEATHER - Leather Goods Manufacturer India & Leather Bags Exporter",
+    "DC.title": "UNICON LEATHER - Leather Goods Supplier in USA & Worldwide Manufacturer",
     "DC.creator": "UNICON LEATHER Atelier",
-    "DC.subject": "Leather Goods Manufacturer India, Leather Bags Manufacturer India, Leather Bags Manufacturer India for Canadian Brands, Leather Bags Manufacturer India for European Brands, Leather Bags Manufacturer India for Australian Brands, Private Label Leather Goods Manufacturer, Custom Leather Goods Manufacturer India, Leather Goods Exporter India, Wholesale Leather Bags India, OEM Leather Goods Manufacturer",
-    "DC.description": "Premier leather goods and leather bags manufacturer in India for Canadian, European, and Australian fashion brands. Custom OEM/ODM private-label factory in Noida, Delhi NCR, and Kolkata.",
+    "DC.subject": "Leather Goods Supplier in USA, Wholesale Leather Goods Suppliers in USA, Worldwide Leather Goods Supplier, Leather Goods Manufacturer India, Leather Bags Manufacturer India, Private Label Leather Goods Manufacturer, Custom Leather Goods Manufacturer, Leather Goods Exporter India, Wholesale Leather Bags, OEM Leather Goods Supplier",
+    "DC.description": "Premier leather goods supplier in USA and international manufacturer for American, European, and Australian fashion brands. Custom OEM/ODM private-label factory with DDP delivery.",
     "DC.publisher": "Unicon Leather Goods Export Private Limited",
     "DC.language": "en",
-    "DC.coverage": "Worldwide, Canada, United States, United Kingdom, European Union, Australia, Toronto, Vancouver, Montreal, Germany, France, Italy, India, Delhi NCR, Noida",
+    "DC.coverage": "Worldwide, United States, New York, Los Angeles, Miami, Chicago, Dallas, Canada, United Kingdom, European Union, Australia, Germany, France, Italy, India, Delhi NCR, Noida",
     "target-country": "CA, US, GB, DE, FR, IT, ES, NL, AU",
     "distribution": "global",
     "rating": "general",

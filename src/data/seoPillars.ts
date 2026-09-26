@@ -699,5 +699,88 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather products export house India",
       "leather bags exporter India"
     ]
+  },
+  "leather-goods-supplier-usa": {
+    slug: "leather-goods-supplier-usa",
+    keywordTheme: "Leather Goods Supplier in USA",
+    h1: "Leather Goods Supplier in USA & Worldwide B2B Exporter",
+    kicker: "Turnkey OEM/ODM Private Label · Direct DDP Delivery Nationwide",
+    metaTitle: "Leather Goods Supplier in USA | Custom Wholesale & Private Label",
+    metaDescription:
+      "Premier leather goods supplier for USA fashion brands, boutique retailers & corporate clients. Custom OEM handbags, wallets, belts & travel bags at low MOQs with direct DDP delivery across the United States.",
+    canonicalUrl: "https://www.uniconleather.com/leather-goods-supplier-usa",
+    heroSubtitle:
+      "Partner with UNICON LEATHER — your verified leather goods supplier for the United States. Providing custom design engineering, small-batch boutique manufacturing, California Prop 65 compliance, and seamless DDP air/sea freight to New York, Los Angeles, Miami, Dallas, Chicago, and nationwide.",
+    categoryFilter: ["handbags", "totes", "wallets-cardholders", "belts", "travel-bags", "small-leather-goods"],
+    specs: [
+      { label: "Minimum Order Quantity (MOQ)", value: "100 units per style (multi-colorway batching for USA boutique retailers)" },
+      { label: "Prototyping & Sample Lead Time", value: "7 to 10 business days via DHL / FedEx Express directly to USA addresses" },
+      { label: "Bulk Manufacturing Lead Time", value: "30 to 45 business days upon sample approval" },
+      { label: "USA Trade Terms Supported", value: "DDP (Delivered Duty Paid to your US warehouse), FOB, CIF, Air Express" },
+      { label: "US Chemical & Safety Compliance", value: "California Proposition 65 tested, CPSIA lead & phthalate safe, REACH certified" },
+      { label: "Hardware & Tensile Standards", value: "Solid forged brass, nickel-free plating, 72-hour ASTM B117 salt spray verified" }
+    ],
+    features: [
+      {
+        title: "Full-Service Private Label for American Brands",
+        description: "From emerging independent fashion labels in Brooklyn and SoHo to established retail chains in California, we engineer bespoke private-label collections complete with custom debossing, laser engraving, woven labels, and retail-ready barcode packaging."
+      },
+      {
+        title: "Zero-Hassle DDP Nationwide Delivery",
+        description: "Avoid complex international customs, ISF filings, and harbor maintenance fees. Our export desk manages all US Customs clearance and port logistics, delivering your leather goods directly to your 3PL fulfillment warehouse anywhere in the 50 US states."
+      },
+      {
+        title: "LWG-Certified Sustainable Leather Sourcing",
+        description: "We utilize gold- and silver-rated Leather Working Group (LWG) hides, ensuring full supply chain traceability, reduced carbon footprint, and chrome-free vegetable tannages demanded by conscious American consumers."
+      },
+      {
+        title: "Small-Batch Agility & Re-Order Continuity",
+        description: "Test new seasonal silhouettes with accessible 100-piece production runs. Our digital CAD pattern archives guarantee 100% millimeter-precise repeatability for holiday replenishment re-orders."
+      }
+    ],
+    faqs: [
+      {
+        question: "How does UNICON LEATHER operate as a leather goods supplier for USA brands?",
+        answer: "We operate as a direct-from-factory contract manufacturer and wholesale supplier. American designers and retailers send us their tech packs, sketches, or reference samples. We produce physical prototypes within 7–10 days and dispatch them via FedEx/DHL. Once approved, bulk production is completed and shipped via DDP (Delivered Duty Paid), meaning goods arrive cleared of customs directly at your US doorstep."
+      },
+      {
+        question: "What is your MOQ for USA boutique retailers and startup fashion lines?",
+        answer: "Our standard minimum order quantity (MOQ) starts at just 100 units per style, with options to split quantities across 2 to 3 leather colors. This enables American boutique owners and direct-to-consumer (D2C) brands to launch diverse collections without tying up capital in excessive inventory."
+      },
+      {
+        question: "Are your leather products compliant with California Proposition 65?",
+        answer: "Yes, 100%. All leathers, linings, edge paints, and metal hardware supplied to the US market undergo rigorous lab testing to ensure strict compliance with California Proposition 65 (lead, cadmium, and phthalate limits) and federal CPSIA standards."
+      },
+      {
+        question: "Which US cities and regions do you ship to?",
+        answer: "We supply fashion brands, department store vendors, corporate gifting agencies, and wholesale distributors across all major US commercial hubs, including New York City, Los Angeles, Miami, Chicago, Dallas, Houston, San Francisco, Atlanta, and Seattle."
+      },
+      {
+        question: "How long does shipping take from your factory to the United States?",
+        answer: "Air priority shipments (ideal for samples and urgent drops) reach US destinations in 4 to 6 business days. Full container load (FCL) and less-than-container load (LCL) ocean freight to US East Coast ports (NY/NJ, Savannah) takes approximately 24–28 days, while West Coast ports (Los Angeles, Long Beach) take approximately 28–32 days."
+      }
+    ],
+    targetKeywords: [
+      "leather goods supplier in usa",
+      "leather goods suppliers in usa",
+      "wholesale leather goods suppliers in usa",
+      "custom leather goods suppliers usa",
+      "private label leather goods suppliers usa",
+      "leather bag supplier in usa",
+      "leather handbag suppliers in usa",
+      "leather wallet suppliers in usa",
+      "bulk leather goods supplier usa",
+      "low MOQ leather goods supplier for startups usa",
+      "small batch leather goods supplier usa",
+      "genuine leather products supplier in usa",
+      "luxury leather goods supplier usa",
+      "leather goods contract manufacturing usa",
+      "leather goods supplier new york nyc",
+      "leather goods suppliers los angeles california",
+      "leather goods supplier miami florida",
+      "leather goods supplier DDP shipping to USA",
+      "California Prop 65 compliant leather goods supplier",
+      "worldwide leather goods supplier"
+    ]
   }
 };
