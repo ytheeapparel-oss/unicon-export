@@ -360,6 +360,104 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "ethical leather goods manufacturer asia",
       "asia leather goods factory direct"
     ]
+  },
+  {
+    category: "Master Global Leather Goods Manufacturer Hub",
+    description: "The #1 highest-volume global search queries from procurement managers, fashion houses, luxury labels, and wholesalers searching for verified leather goods manufacturers worldwide.",
+    keywords: [
+      "leather goods manufacturer",
+      "leather goods manufacturers",
+      "leather goods manufacturer near me",
+      "leather goods manufacturer overseas",
+      "leather goods manufacturer international",
+      "best leather goods manufacturer",
+      "top leather goods manufacturers",
+      "leather goods manufacturing companies",
+      "leather goods production factory",
+      "genuine leather goods manufacturer",
+      "custom leather goods manufacturer",
+      "private label leather goods manufacturer",
+      "oem leather goods manufacturer",
+      "odm leather goods manufacturer",
+      "contract leather goods manufacturer",
+      "bespoke leather goods manufacturer",
+      "white label leather goods manufacturer",
+      "leather products manufacturer",
+      "full grain leather goods manufacturer",
+      "vegetable tanned leather goods manufacturer",
+      "how to find a leather goods manufacturer",
+      "leather goods manufacturer directory",
+      "leather goods manufacturer list",
+      "find leather goods manufacturer overseas",
+      "leather goods factory direct"
+    ]
+  },
+  {
+    category: "Luxury & High-End Leather Goods Manufacturing",
+    description: "Trending search queries from luxury brands, high-end boutiques, and designer ateliers seeking master craftsmen and heritage finishing.",
+    keywords: [
+      "luxury leather goods manufacturer",
+      "high end leather goods manufacturer",
+      "premium leather goods manufacturer",
+      "artisan leather goods manufacturer",
+      "handcrafted leather goods manufacturer",
+      "luxury leather bags manufacturer",
+      "luxury leather handbag factory",
+      "designer leather goods manufacturer",
+      "turned edge leather goods manufacturer",
+      "italian leather goods manufacturer alternative",
+      "french edge painted leather goods factory",
+      "saddle stitched leather goods manufacturer",
+      "fine leather goods manufacturer",
+      "luxury small leather goods manufacturer",
+      "bespoke leather atelier manufacturer",
+      "LWG gold audited luxury leather manufacturer"
+    ]
+  },
+  {
+    category: "Startup, Low MOQ & Small Batch Leather Manufacturing",
+    description: "High-intent queries from D2C startups, emerging designers, boutique brands, and Kickstarter projects seeking low minimum order quantities and flexible prototyping.",
+    keywords: [
+      "low MOQ leather goods manufacturer",
+      "small batch leather goods manufacturer",
+      "small batch leather manufacturing",
+      "leather goods manufacturer for startups",
+      "low minimum order quantity leather manufacturer",
+      "custom leather goods low moq",
+      "private label leather goods low moq",
+      "small run leather goods manufacturer",
+      "leather goods prototype manufacturer",
+      "leather sample maker manufacturer",
+      "leather goods tech pack maker",
+      "leather prototyping and sample development",
+      "on demand leather manufacturing",
+      "flexible moq leather goods supplier",
+      "how to manufacture leather goods for small business"
+    ]
+  },
+  {
+    category: "International & Regional Leather Goods Manufacturers",
+    description: "Targeted queries from brands in the UK, Europe, UAE, Australia, Canada, and Asia seeking reliable offshore manufacturing partners.",
+    keywords: [
+      "leather goods manufacturer UK",
+      "leather goods manufacturer London",
+      "leather goods manufacturer Europe",
+      "leather goods manufacturer Italy alternative",
+      "leather goods manufacturer Spain alternative",
+      "leather goods manufacturer Portugal alternative",
+      "leather goods manufacturer Dubai UAE",
+      "leather goods manufacturer Middle East",
+      "leather goods manufacturer Australia",
+      "leather goods manufacturer Sydney Melbourne",
+      "leather goods manufacturer Canada",
+      "leather goods manufacturer Toronto Vancouver",
+      "leather goods manufacturer Japan",
+      "leather goods manufacturer Singapore",
+      "leather goods manufacturer South Africa",
+      "leather goods manufacturer New Zealand",
+      "offshore leather goods manufacturing partner",
+      "overseas leather goods factory export DDP"
+    ]
   }
 ];
 

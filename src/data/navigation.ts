@@ -61,6 +61,9 @@ export const MAIN_NAV: NavItem[] = [
 
 export const FOOTER_NAV = {
   manufacturing: [
+    { label: "Leather Goods Manufacturer (Global)", href: "/leather-goods-manufacturer" },
+    { label: "Luxury Leather Goods Atelier", href: "/luxury-leather-goods-manufacturer" },
+    { label: "Low MOQ Leather Factory", href: "/low-moq-leather-goods-manufacturer" },
     { label: "Private Label & OEM Services", href: "/private-label" },
     { label: "Atelier Craftsmanship", href: "/craftsmanship" },
     { label: "Material Sourcing & Tannages", href: "/craftsmanship#materials" },

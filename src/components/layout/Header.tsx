@@ -195,6 +195,12 @@ export function Header() {
                                 View All 12 Collections <ArrowRight className="w-3 h-3" />
                               </Link>
                               <Link
+                                href="/leather-goods-manufacturer"
+                                className="block text-[10.5px] font-medium text-charcoal-700 hover:text-cognac transition-colors"
+                              >
+                                Global Leather Goods Manufacturer Hub →
+                              </Link>
+                              <Link
                                 href="/catalogue-request"
                                 className="block text-[10px] text-charcoal-500 hover:text-cognac underline underline-offset-2 transition-colors"
                               >

@@ -949,5 +949,234 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather goods manufacturer India EU REACH compliant",
       "leather goods supplier DDP shipping to European Union"
     ]
+  },
+
+  "leather-goods-manufacturer": {
+    slug: "leather-goods-manufacturer",
+    keywordTheme: "Leather Goods Manufacturer",
+    h1: "Global Leather Goods Manufacturer & Private Label OEM Factory",
+    kicker: "Worldwide Contract Production · Low MOQs · LWG Certified Tannages",
+    metaTitle: "Leather Goods Manufacturer | Global OEM & Custom Leather Factory",
+    metaDescription:
+      "Premier global leather goods manufacturer. OEM/ODM custom production of luxury handbags, wallets, belts & small leather goods with low MOQs, rapid prototyping, and direct worldwide DDP export.",
+    canonicalUrl: "https://www.uniconleather.com/leather-goods-manufacturer",
+    heroSubtitle:
+      "Partner directly with an internationally audited leather goods manufacturer. We transform tech packs, sketches, and bespoke designer concepts into export-grade leather collections for global fashion labels, luxury retail houses, and emerging boutique brands.",
+    categoryFilter: ["handbags", "totes", "wallets-and-cardholders", "leather-belts", "backpacks", "laptop-and-business-bags", "travel-bags"],
+    specs: [
+      { label: "Minimum Order Quantity (MOQ)", value: "100 pcs per style (multi-colorway split across shared leather hides)" },
+      { label: "Sample Prototyping Lead Time", value: "7 to 10 business days via DHL / FedEx Express worldwide courier" },
+      { label: "Bulk Production Timeline", value: "30 to 45 business days upon pre-production sample sign-off" },
+      { label: "Tannery Compliance", value: "LWG (Leather Working Group) Gold/Silver, EU REACH Annex XVII, California Prop 65" },
+      { label: "Incoterms Supported", value: "DDP (Delivered Duty Paid), FOB, CIF, CFR, Ex-Factory (Air & Ocean freight)" },
+      { label: "Quality Audit Protocol", value: "100% in-line workstation inspection + MIL-STD-105E / AQL 2.5 final audit" }
+    ],
+    features: [
+      {
+        title: "Full-Spectrum OEM & ODM Product Engineering",
+        description: "From 2D CAD tech packs, bill of materials (BOM), and digital pattern grading to precision hand-skived leather panels, custom mould creation, and debossed private labels."
+      },
+      {
+        title: "Traceable & Certified Sustainable Leather Tannages",
+        description: "Direct sourcing of full-grain cowhides, vegetable-tanned Tuscan leathers, drum-dyed Nappa calfskin, and scratch-resistant Saffiano from audited tanneries with zero heavy metals."
+      },
+      {
+        title: "Bespoke Hardware & Custom Mould Fabrication",
+        description: "Solid forged brass, high-tensile zinc alloy, and PVD vacuum-plated hardware with customized debossed brand insignias engineered for 72-hour salt-spray corrosion resistance."
+      },
+      {
+        title: "Turnkey DDP Global Export & Customs Clearance",
+        description: "Hassle-free international delivery straight to your warehouse doors in USA, Canada, UK, European Union, Australia, UAE, and Asia with customs duties pre-settled."
+      }
+    ],
+    faqs: [
+      {
+        question: "How do I choose the best leather goods manufacturer for my brand?",
+        answer: "Look for a manufacturer with proven export capability, low minimum order quantities, transparent sampling timelines, and certified ethical practices (such as LWG audited tanneries, EU REACH compliance, and Sedex/BSCI auditing). UNICON LEATHER offers physical sampling in 7–10 days, start-up friendly MOQs from 100 units, and full DDP door-to-door delivery worldwide."
+      },
+      {
+        question: "What is your minimum order quantity (MOQ) for custom leather manufacturing?",
+        answer: "Our standard MOQ starts at 100 units per design. To help brands minimize inventory risk, we allow color splits across 2 to 3 colorways within the same leather hide selection."
+      },
+      {
+        question: "Can UNICON LEATHER manufacture from sketches or digital tech packs?",
+        answer: "Yes. Our master patternmakers can work from digital CAD files, Illustrator tech packs, reference photographs, or physical vintage samples. We create detailed 2D cutting patterns and dispatch counter-samples within 7 to 10 days."
+      },
+      {
+        question: "What types of genuine leather can your factory work with?",
+        answer: "We specialize in full-grain bovine leather, Tuscan vegetable-tanned cowhide, drum-dyed Nappa calfskin, pebble grain, crazy horse pull-up leather, Saffiano embossed grain, and eco-certified chrome-free leathers tested for zero hazardous chemicals."
+      },
+      {
+        question: "Do you ship worldwide with Delivered Duty Paid (DDP)?",
+        answer: "Yes. We offer turnkey DDP shipping across the United States, Canada, UK, Germany, France, Denmark, Spain, Australia, and the Middle East. All import documentation, customs clearance, and local freight are managed by our export desk."
+      },
+      {
+        question: "What quality control standards are followed during production?",
+        answer: "We enforce rigorous 4-stage quality control: raw hide incoming inspection, cutting and skiving verification, in-line stitching and edge dye audits, and final AQL 2.5 pre-packaging inspection with full defect logs."
+      }
+    ],
+    targetKeywords: [
+      "leather goods manufacturer",
+      "leather goods manufacturers",
+      "custom leather goods manufacturer",
+      "private label leather goods manufacturer",
+      "oem leather goods manufacturer",
+      "luxury leather goods manufacturer",
+      "leather goods factory",
+      "leather goods manufacturing companies",
+      "contract leather goods manufacturer",
+      "low MOQ leather goods manufacturer",
+      "best leather goods manufacturer in the world",
+      "leather goods production factory",
+      "sustainable leather goods manufacturer",
+      "genuine leather goods manufacturer",
+      "how to find a leather goods manufacturer",
+      "leather goods manufacturer directory",
+      "leather goods manufacturer overseas",
+      "leather goods manufacturer near me",
+      "leather goods factory direct",
+      "global leather goods manufacturer"
+    ]
+  },
+
+  "luxury-leather-goods-manufacturer": {
+    slug: "luxury-leather-goods-manufacturer",
+    keywordTheme: "Luxury Leather Goods Manufacturer",
+    h1: "Luxury Leather Goods Manufacturer | Haute Maroquinerie Atelier",
+    kicker: "Master Craftsmanship · Italian Edge Finishing · LWG Gold Tannages",
+    metaTitle: "Luxury Leather Goods Manufacturer | High-End Handcrafted Atelier",
+    metaDescription:
+      "Atelier-grade luxury leather goods manufacturer. Hand-saddle stitched bags, Italian multi-layer edge painted wallets & bespoke leather accessories for luxury fashion houses and high-end boutique labels.",
+    canonicalUrl: "https://www.uniconleather.com/luxury-leather-goods-manufacturer",
+    heroSubtitle:
+      "Crafting uncompromising luxury leather goods for the world's most discerning fashion houses. Hand-skived contours, multi-coat Italian edge burnishing, micro-stitch tolerances, and full-grain vegetable-tanned leather.",
+    categoryFilter: ["handbags", "wallets-and-cardholders", "leather-belts", "laptop-and-business-bags", "travel-bags"],
+    specs: [
+      { label: "Minimum Order Quantity", value: "75 to 100 pcs per luxury style" },
+      { label: "Edge Finishing Technique", value: "4-stage hand-sanded Italian Giardini edge paint with matte wax seal" },
+      { label: "Stitching Precision", value: "German Serafil high-tenacity thread, 8–10 stitches per inch micro-spacing" },
+      { label: "Tannage Selection", value: "Full-Grain Calf Nappa, Tuscan Vegetable Tanned, French Chevre, Box Calf" },
+      { label: "Hardware Caliber", value: "Solid machined brass, 24K gold PVD vacuum plating, hand-polished edges" },
+      { label: "Packaging Standards", value: "FSC certified rigid luxury gift boxes, organic cotton twill dust bags" }
+    ],
+    features: [
+      {
+        title: "Artisanal Hand Skiving & Turned Edge Construction",
+        description: "Every edge is delicately skived down to feather-thickness margins (0.4mm) for seamless folding, zero bulk, and architectural silhouette precision."
+      },
+      {
+        title: "Multi-Coat Italian Edge Burnishing",
+        description: "Raw edges receive 3 to 4 coats of premium Italian edge dye, hand-sanded between applications and sealed with beeswax for crack-resistant durability."
+      },
+      {
+        title: "Luxury Hardware & Jewelers' PVD Vacuum Plating",
+        description: "Heavy solid brass zippers, lock clasps, and D-rings coated with PVD electroplating to maintain brilliant luster without tarnishing."
+      },
+      {
+        title: "Discreet Bespoke Atelier Customization",
+        description: "Blind debossing, 24K hot foil stamping, micro-laser serial numbering, and proprietary branded inner woven jacquard linings."
+      }
+    ],
+    faqs: [
+      {
+        question: "What differentiates a luxury leather goods manufacturer from mass commercial factories?",
+        answer: "A luxury leather goods manufacturer prioritizes artisanal hand-finishing over automated mass-speed. We employ traditional skiving, multi-layer hand-sanded Italian edge dye, high-stitch-per-inch precision with German bonded threads, and hand-selected full-grain hides free of synthetic coating."
+      },
+      {
+        question: "Can you provide luxury packaging with custom logos?",
+        answer: "Yes, we produce custom branded rigid gift boxes with magnetic closures, organic combed cotton twill dust bags with silk-screened or foil-stamped logos, and embossed leather authenticity certificates."
+      },
+      {
+        question: "What is the typical production timeline for luxury leather goods?",
+        answer: "Prototype development takes 10 to 14 days to ensure flawless balance and proportions. Bulk production requires 35 to 45 business days to accommodate meticulous hand edge-dye curing and detailed multi-point inspection."
+      }
+    ],
+    targetKeywords: [
+      "luxury leather goods manufacturer",
+      "high end leather goods manufacturer",
+      "premium leather goods manufacturer",
+      "artisan leather goods manufacturer",
+      "handcrafted leather goods manufacturer",
+      "luxury leather bags manufacturer",
+      "luxury leather handbag factory",
+      "designer leather goods manufacturer",
+      "turned edge leather goods manufacturer",
+      "italian leather goods manufacturer alternative",
+      "french edge painted leather goods factory",
+      "saddle stitched leather goods manufacturer",
+      "fine leather goods manufacturer",
+      "luxury small leather goods manufacturer"
+    ]
+  },
+
+  "low-moq-leather-goods-manufacturer": {
+    slug: "low-moq-leather-goods-manufacturer",
+    keywordTheme: "Low MOQ Leather Goods Manufacturer",
+    h1: "Low MOQ Leather Goods Manufacturer | Small Batch Private Label Factory",
+    kicker: "Startup-Friendly Production · From 100 Pcs/Style · Rapid Prototyping",
+    metaTitle: "Low MOQ Leather Goods Manufacturer | Small Batch Private Label Factory",
+    metaDescription:
+      "Start-up friendly low MOQ leather goods manufacturer. Small batch production from 100 pcs per style with multi-color splits. Fast sample prototyping and worldwide DDP shipping for emerging brands.",
+    canonicalUrl: "https://www.uniconleather.com/low-moq-leather-goods-manufacturer",
+    heroSubtitle:
+      "Empowering emerging fashion brands, boutique designers, and Kickstarter creators with low minimum order quantities, transparent pricing, and master-atelier quality without demanding massive capital commitments.",
+    categoryFilter: ["handbags", "totes", "wallets-and-cardholders", "leather-belts", "backpacks"],
+    specs: [
+      { label: "Minimum Order Quantity (MOQ)", value: "100 pcs per design (color splits across 2 to 3 shades allowed)" },
+      { label: "Rapid Sampling Lead Time", value: "7 to 10 business days with DHL express tracked delivery" },
+      { label: "Tech Pack Support", value: "Full CAD review, pattern drafting, bill of materials assistance" },
+      { label: "Production Turnaround", value: "30 business days upon pre-production sample sign-off" },
+      { label: "Branding Customization", value: "Custom debossed logos, hot foil stamping, custom woven labels" },
+      { label: "Worldwide Shipping", value: "Air cargo express (4–6 days) or sea freight with DDP clearance" }
+    ],
+    features: [
+      {
+        title: "Agile Low MOQ Batching Strategy",
+        description: "Launch your debut collection without excess deadstock. Our 100-piece MOQ allows you to test market demand, refine silhouettes, and scale reorders quickly."
+      },
+      {
+        title: "Design & Tech Pack Translation",
+        description: "Don't have complete CAD tech packs? Share your sketches, dimensions, or mood boards. Our in-house technical team will generate professional patterns and material specs."
+      },
+      {
+        title: "Shared Leather Colorway Splits",
+        description: "Split your 100-piece order across 2 to 3 leather colors (e.g. 50 Cognac Brown, 25 Black, 25 Olive Green) using our active tannery stock."
+      },
+      {
+        title: "Startup-Friendly Payment & DDP Logistics",
+        description: "Transparent staged payments (sample deposit, 30% production advance, 70% post-inspection) and door-to-door delivery with zero customs headaches."
+      }
+    ],
+    faqs: [
+      {
+        question: "Why do most leather manufacturers require high MOQs of 500+ pieces?",
+        answer: "Traditional factories require large MOQs because tanneries produce leather in large batch vats (usually 500–1000 sq ft minimum) and dye lots are expensive to calibrate. UNICON LEATHER maintains an active stock library of premium LWG certified leathers, allowing us to offer flexible 100-piece production runs."
+      },
+      {
+        question: "Can I split the 100-piece MOQ across multiple colors or sizes?",
+        answer: "Yes! If you produce a tote bag or wallet style, you can divide the 100 units across 2 to 3 colorways (e.g., 50 units in Tan and 50 units in Black) provided they use the same leather article."
+      },
+      {
+        question: "How much does a custom prototype sample cost?",
+        answer: "Sample development covers master CAD pattern drafting, material cutting, hardware sourcing, and express international air courier. Prototype fees are typically credited back toward your initial bulk production run upon order confirmation."
+      }
+    ],
+    targetKeywords: [
+      "low MOQ leather goods manufacturer",
+      "small batch leather goods manufacturer",
+      "small batch leather manufacturing",
+      "leather goods manufacturer for startups",
+      "low minimum order quantity leather manufacturer",
+      "custom leather goods low moq",
+      "private label leather goods low moq",
+      "small run leather goods manufacturer",
+      "leather goods prototype manufacturer",
+      "leather sample maker manufacturer",
+      "leather goods tech pack maker",
+      "leather prototyping and sample development",
+      "on demand leather manufacturing",
+      "flexible moq leather goods supplier",
+      "how to manufacture leather goods for small business"
+    ]
   }
 };

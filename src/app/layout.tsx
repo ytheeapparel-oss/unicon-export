@@ -20,11 +20,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.uniconleather.com"),
   title: {
-    default: "UNICON LEATHER | Leather Goods Supplier in USA & Worldwide Bags Manufacturer | OEM & Exporter",
+    default: "UNICON LEATHER | Leather Goods Manufacturer & Worldwide Leather Supplier | OEM & Custom Factory",
     template: "%s | UNICON LEATHER",
   },
   description:
-    "Leading leather goods supplier in USA, wholesale leather bags manufacturer India, and worldwide private label exporter. Custom OEM/ODM factory for handbags, wallets, belts & luxury accessories with low MOQs and direct DDP shipping.",
+    "Leading global leather goods manufacturer, leather goods supplier in USA, and worldwide private label exporter. Custom OEM/ODM factory for luxury handbags, wallets, belts & small leather goods with low MOQs, rapid prototyping, and direct DDP delivery.",
   alternates: {
     canonical: "https://www.uniconleather.com",
     languages: {
@@ -55,9 +55,9 @@ export const metadata: Metadata = {
     alternateLocale: ["en_GB", "de_DE", "fr_FR", "it_IT", "es_ES"],
     url: "https://www.uniconleather.com",
     siteName: "UNICON LEATHER",
-    title: "UNICON LEATHER | Leather Goods Manufacturer India & OEM Bags Exporter",
+    title: "UNICON LEATHER | Leather Goods Manufacturer & Global OEM Bags Exporter",
     description:
-      "Premier leather goods manufacturer India and custom leather bags manufacturer India. Private label leather goods manufacturer, OEM wallets, belts & accessories for global brands.",
+      "Premier global leather goods manufacturer and custom leather bags factory. Private label leather goods, luxury OEM wallets, belts & accessories for international fashion houses.",
     images: [
       {
         url: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=80",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "UNICON LEATHER | Luxury Leather Goods Manufacturer & Exporter",
+    title: "UNICON LEATHER | Global Leather Goods Manufacturer & Exporter",
     description:
       "B2B custom manufacturing, OEM/ODM private label, and wholesale export of handcrafted genuine leather goods for global fashion brands.",
     images: ["https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=80"],
@@ -103,14 +103,14 @@ export const metadata: Metadata = {
     "geo.placename": "Kolkata, West Bengal, India",
     "geo.position": "22.5085;88.4687",
     "ICBM": "22.5085, 88.4687",
-    "DC.title": "UNICON LEATHER - Leather Goods Supplier in USA, Asia & Worldwide Manufacturer",
+    "DC.title": "UNICON LEATHER - Global Leather Goods Manufacturer & Worldwide Supplier",
     "DC.creator": "UNICON LEATHER Atelier",
-    "DC.subject": "Leather Goods Supplier in Asia, Leather Goods Supplier in USA, Wholesale Leather Goods Suppliers Asia, Worldwide Leather Goods Supplier, Leather Goods Manufacturer India, Leather Bags Manufacturer India, Private Label Leather Goods Manufacturer, Custom Leather Goods Manufacturer, Leather Goods Exporter India, Wholesale Leather Bags, OEM Leather Goods Supplier",
-    "DC.description": "Premier leather goods supplier in Asia and international manufacturer for American, European, and Australian fashion brands. Custom OEM/ODM private-label factory with DDP delivery.",
+    "DC.subject": "Leather Goods Manufacturer, Leather Goods Manufacturers, Custom Leather Goods Manufacturer, Private Label Leather Goods Manufacturer, Luxury Leather Goods Manufacturer, Low MOQ Leather Goods Manufacturer, Leather Goods Supplier in USA, Leather Goods Supplier in Asia, Worldwide Leather Goods Supplier, Leather Bags Manufacturer India, Leather Goods Exporter India, Wholesale Leather Bags, OEM Leather Goods Supplier, Contract Leather Goods Manufacturer",
+    "DC.description": "Leading global leather goods manufacturer and international supplier for American, European, and Australian fashion brands. Custom OEM/ODM private-label factory with low MOQs and worldwide DDP delivery.",
     "DC.publisher": "Unicon Leather Goods Export Private Limited",
     "DC.language": "en",
-    "DC.coverage": "Worldwide, Asia, United States, New York, Los Angeles, Miami, Chicago, Dallas, Canada, United Kingdom, European Union, Australia, Germany, France, Italy, India, Delhi NCR, Noida, Singapore, Japan, UAE",
-    "target-country": "CA, US, GB, DE, FR, IT, ES, NL, AU",
+    "DC.coverage": "Worldwide, United States, New York, Los Angeles, Miami, Chicago, Dallas, Canada, Toronto, Vancouver, United Kingdom, London, European Union, Germany, France, Italy, Spain, Denmark, Australia, Sydney, Melbourne, Asia, India, Delhi NCR, Noida, Singapore, Japan, UAE, Dubai",
+    "target-country": "US, CA, GB, DE, FR, IT, ES, NL, DK, AU, AE, SG, JP, IN",
     "distribution": "global",
     "rating": "general",
     "revisit-after": "7 days",
