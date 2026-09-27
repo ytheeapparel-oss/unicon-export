@@ -865,5 +865,89 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather goods contract manufacturing in asia",
       "leather goods supplier south asia"
     ]
+  },
+  "leather-goods-supplier-europe": {
+    slug: "leather-goods-supplier-europe",
+    keywordTheme: "Leather Goods Supplier Germany France Denmark Spain",
+    h1: "Leather Goods Supplier for Germany, France, Denmark & Spain",
+    kicker: "EU REACH Certified · LWG Gold Tanneries · DDP Delivery Across Europe",
+    metaTitle: "Leather Goods Supplier Germany, France, Denmark, Spain | B2B Factory",
+    metaDescription:
+      "Premier leather goods supplier for fashion brands in Germany, France, Denmark & Spain. Custom OEM handbags, wallets & accessories with EU REACH compliance & DDP European shipping.",
+    canonicalUrl: "https://www.uniconleather.com/leather-goods-supplier-europe",
+    heroSubtitle:
+      "Partner with UNICON LEATHER — your verified leather goods manufacturing partner for the European Union. Supplying luxury fashion brands, boutique retailers, and department stores across Germany, France, Denmark, Spain, and Scandinavia with certified EU REACH chemical safety, low 100-pc MOQs, and direct DDP shipping to Rotterdam, Hamburg, and Frankfurt.",
+    categoryFilter: ["handbags", "totes", "wallets-cardholders", "belts", "travel-bags", "small-leather-goods"],
+    specs: [
+      { label: "Minimum Order Quantity (MOQ)", value: "100 units per design (flexible color splits for European boutique labels)" },
+      { label: "Sample Prototyping Lead Time", value: "7 to 10 business days via DHL Express directly to EU addresses" },
+      { label: "Bulk Manufacturing Timeline", value: "30 to 45 business days upon master golden sample sign-off" },
+      { label: "European Trade Terms", value: "DDP (Delivered Duty Paid to your EU warehouse), CIF, FOB (Euro / GBP / USD billing)" },
+      { label: "EU Chemical & Safety Compliance", value: "Strict EU REACH Annex XVII verified (zero AZO dyes, Chromium VI free, low VOC)" },
+      { label: "Environmental Audit Standards", value: "LWG (Leather Working Group) Gold/Silver tanneries, SEDEX SMETA 4-Pillar audited" }
+    ],
+    features: [
+      {
+        title: "Bespoke Private Label for German, French, Danish & Spanish Brands",
+        description: "Whether producing minimalist scandi totes for Copenhagen labels, refined luxury satchels for Parisian ateliers, or heritage bridles for German retailers, we engineer technical CAD templates tailored to European aesthetic standards."
+      },
+      {
+        title: "Complete EU REACH Chemical Safety & Lab Documentation",
+        description: "European customs and consumer protection agencies demand uncompromising chemical safety. Every production batch is certified against REACH Annex XVII regulations with certified SGS / Intertek lab test reports."
+      },
+      {
+        title: "DDP Delivery Across the European Union",
+        description: "We handle European customs import clearance, VAT / customs duty payments, and harbor logistics directly through entry ports in Rotterdam and Hamburg, delivering pallets directly to your logistics facility."
+      },
+      {
+        title: "Sustainable Vegetable-Tanned & LWG Traceable Leather",
+        description: "Meeting the strict eco-conscious demands of European consumers with traceable hides, chrome-free tanning protocols, bio-based Italian edge lacquers, and recycled cotton linings."
+      }
+    ],
+    faqs: [
+      {
+        question: "How does UNICON LEATHER supply fashion brands in Germany, France, Denmark, and Spain?",
+        answer: "We operate as a contract OEM/ODM manufacturer. European designers provide sketches or tech packs, and our atelier produces physical counter-samples within 7–10 days sent via DHL Express. Upon approval, full bulk manufacturing begins and consignments are delivered via DDP (Delivered Duty Paid), with all EU import duties and customs formalities fully settled."
+      },
+      {
+        question: "Are your leather goods fully compliant with EU REACH regulations?",
+        answer: "Yes, 100%. All leather tannages, hardware coatings, adhesives, and edge paints are certified under EU REACH Regulation (EC) No 1907/2006 Annex XVII, ensuring zero banned azo colorants, nickel release under EN 1811, and no detectable Chromium (VI)."
+      },
+      {
+        question: "What is your MOQ for European boutique brands and startup designers?",
+        answer: "Our standard minimum order quantity starts at just 100 units per style, with options to batch across 2 to 3 leather colors. This gives European fashion founders the agility to test seasonal drops without excessive capital risk."
+      },
+      {
+        question: "How long does shipping take to European countries?",
+        answer: "Air priority express shipments reach Berlin, Paris, Copenhagen, and Madrid within 4 to 6 business days. Ocean container shipments to major European ports like Rotterdam, Hamburg, Antwerp, and Valencia take approximately 22 to 26 days."
+      },
+      {
+        question: "Do you support commercial transactions in Euros (EUR)?",
+        answer: "Yes, we accept commercial payments in Euros (EUR), British Pounds (GBP), and US Dollars (USD) through wire transfer (T/T), international Letters of Credit (L/C), or DDP terms."
+      }
+    ],
+    targetKeywords: [
+      "leather goods supplier Germany",
+      "leather goods supplier France",
+      "leather goods supplier Denmark",
+      "leather goods supplier Spain",
+      "leather goods manufacturer Germany",
+      "leather goods manufacturer France",
+      "leather goods manufacturer Denmark",
+      "leather goods manufacturer Spain",
+      "private label leather bags Paris France",
+      "sustainable leather goods supplier Scandinavia Denmark",
+      "wholesale leather goods suppliers Spain",
+      "Lederwaren Hersteller Deutschland",
+      "Lederwaren Lieferant Grosshandel",
+      "Fournisseur maroquinerie France",
+      "Fabricant maroquinerie marque blanche Paris",
+      "Proveedor de articulos de piel Espana",
+      "Fabricante de marroquineria bolsos de piel Espana",
+      "Laedervarer leverandor Danmark",
+      "Laedervarer producent engros Kobenhavn",
+      "leather goods manufacturer India EU REACH compliant",
+      "leather goods supplier DDP shipping to European Union"
+    ]
   }
 };

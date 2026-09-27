@@ -36,6 +36,7 @@ export const metadata: Metadata = {
       "en-ES": "https://www.uniconleather.com",
       "en-CA": "https://www.uniconleather.com",
       "en-AU": "https://www.uniconleather.com",
+      "da-DK": "https://www.uniconleather.com",
       "x-default": "https://www.uniconleather.com",
     },
   },
