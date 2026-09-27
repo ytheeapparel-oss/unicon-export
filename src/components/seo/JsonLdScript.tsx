@@ -169,7 +169,13 @@ export function generateOrganizationSchema() {
       { "@type": "Country", name: "Australia" },
       { "@type": "Country", name: "Canada" },
       { "@type": "Country", name: "United Arab Emirates" },
+      { "@type": "City", name: "Dubai" },
       { "@type": "Country", name: "Japan" },
+      { "@type": "City", name: "Tokyo" },
+      { "@type": "Continent", name: "Asia" },
+      { "@type": "Country", name: "Singapore" },
+      { "@type": "City", name: "Seoul" },
+      { "@type": "City", name: "Hong Kong" },
     ],
     contactPoint: [
       {

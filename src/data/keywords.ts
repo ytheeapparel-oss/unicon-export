@@ -288,6 +288,40 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "best leather bags manufacturer in india",
       "leather accessories manufacturer noida sector 63"
     ]
+  },
+  {
+    category: "Asia & Pan-Asian Leather Sourcing Hub",
+    description: "High-intent queries from international fashion brands, retail chains, and procurement directors seeking verified leather goods suppliers and manufacturers across Asia.",
+    keywords: [
+      "leather goods supplier in asia",
+      "leather goods suppliers in asia",
+      "leather goods manufacturer in asia",
+      "leather goods manufacturers in asia",
+      "leather manufacturer asia",
+      "leather manufacturers in asia",
+      "leather bag manufacturer in asia",
+      "leather bags manufacturer asia",
+      "wholesale leather goods suppliers asia",
+      "private label leather goods manufacturer asia",
+      "custom leather goods manufacturer asia",
+      "best leather goods manufacturer in asia",
+      "top leather goods suppliers in asia",
+      "leather goods exporter in asia",
+      "low MOQ leather manufacturer in asia",
+      "small batch leather goods supplier asia",
+      "leather handbag manufacturer asia",
+      "leather wallet manufacturer in asia",
+      "leather belt manufacturer asia",
+      "leather accessories supplier asia",
+      "luxury leather goods manufacturer in asia",
+      "LWG certified leather manufacturer in asia",
+      "sustainable leather goods supplier in asia",
+      "leather goods contract manufacturing in asia",
+      "oem odm leather goods factory in asia",
+      "leather goods supplier south asia",
+      "ethical leather goods manufacturer asia",
+      "asia leather goods factory direct"
+    ]
   }
 ];
 

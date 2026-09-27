@@ -782,5 +782,88 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "California Prop 65 compliant leather goods supplier",
       "worldwide leather goods supplier"
     ]
+  },
+  "leather-goods-supplier-asia": {
+    slug: "leather-goods-supplier-asia",
+    keywordTheme: "Leather Goods Supplier in Asia",
+    h1: "Leather Goods Supplier in Asia & Premier Export Atelier",
+    kicker: "Top-Tier Pan-Asian Leather Manufacturer · Low MOQ OEM/ODM",
+    metaTitle: "Leather Goods Supplier in Asia | Premier OEM & Private Label Factory",
+    metaDescription:
+      "Looking for a verified leather goods supplier in Asia? UNICON LEATHER manufactures luxury leather bags, wallets, belts & travel goods for global brands with low MOQs, LWG certified hides & worldwide DDP export.",
+    canonicalUrl: "https://www.uniconleather.com/leather-goods-supplier-asia",
+    heroSubtitle:
+      "Partner with UNICON LEATHER — one of Asia's most trusted export-oriented leather goods manufacturers. Providing world-class CAD prototyping, certified ethical production, precision hand-burnished finishing, and direct air/sea freight to fashion brands across North America, Europe, the Middle East, and Asia-Pacific.",
+    categoryFilter: ["handbags", "totes", "wallets-cardholders", "belts", "travel-bags", "small-leather-goods"],
+    specs: [
+      { label: "Minimum Order Quantity (MOQ)", value: "100 units per style (accessible low MOQ for international fashion labels)" },
+      { label: "Sample Prototyping Lead Time", value: "7 to 10 business days via DHL / FedEx International Priority" },
+      { label: "Bulk Production Lead Time", value: "30 to 45 business days upon master sample approval" },
+      { label: "International Trade Terms", value: "DDP, CIF, FOB, EXW (air priority cargo & ocean container shipping)" },
+      { label: "Raw Material Traceability", value: "LWG (Leather Working Group) Gold/Silver rated bovine, calfskin, and veg-tan hides" },
+      { label: "Global Compliance Benchmarks", value: "EU REACH Annex XVII, California Prop 65, BSCI & Sedex ethical standards" }
+    ],
+    features: [
+      {
+        title: "Asia's Premier China+1 Leather Manufacturing Partner",
+        description: "As international fashion houses diversify their supply chains beyond traditional Chinese factories, UNICON LEATHER delivers superior artisan craftsmanship, competitive duty structures, and transparent English-speaking project management from India."
+      },
+      {
+        title: "Full-Grain & Sustainable Material Sourcing Across Asia",
+        description: "Direct sourcing access to premier tanneries across India and South Asia, featuring vegetable-tanned bridle leather, drum-dyed nappa, pull-up distress finishes, and water-resistant technical linings."
+      },
+      {
+        title: "German Engineering Combined with Generational Handcraft",
+        description: "Equipped with specialized German Dürkopp Adler and Pfaff computerized stitching units, Fortuna micro-skiving machines, and Italian edge-lacquering polymers for zero-defect luxury assembly."
+      },
+      {
+        title: "Worldwide Export Coverage (DDP & FOB)",
+        description: "Seamless logistics to key distribution centers across the USA, United Kingdom, European Union, Australia, Japan, and the UAE, complete with authorized trade documentation and Certificates of Origin."
+      }
+    ],
+    faqs: [
+      {
+        question: "Why choose UNICON LEATHER as your leather goods supplier in Asia?",
+        answer: "UNICON LEATHER combines generational Indian leather craft with modern German machinery, ethical Sedex/BSCI audited working conditions, and LWG-certified raw hides. We offer low minimum order quantities (100 units), transparent FOB/DDP pricing in USD/EUR/GBP, and rapid prototyping turnaround (7–10 days)."
+      },
+      {
+        question: "How does sourcing leather goods from India compare to China or Vietnam?",
+        answer: "India possesses one of the world's largest native raw bovine and buff-calf hide reserves, resulting in fully integrated domestic tanning without relying on imported raw materials. Indian leather ateliers offer unmatched hand-finishing, saddle-stitching finesse, English-speaking communication, and duty advantages under international preferential trade agreements."
+      },
+      {
+        question: "What is your MOQ for international brands sourcing from Asia?",
+        answer: "Our standard minimum order quantity (MOQ) starts at just 100 units per design. This makes it ideal for boutique retail chains, emerging luxury fashion brands, and corporate gift houses looking for small-batch agility."
+      },
+      {
+        question: "Can you supply custom private label branding and custom packaging?",
+        answer: "Yes, completely. We provide custom blind debossing, gold/silver foil stamping, laser engraved hardware, bespoke woven tags, custom dust bags, and FSC-certified branded luxury gift boxes ready for retail shelves."
+      },
+      {
+        question: "What international shipping terms (Incoterms) do you support?",
+        answer: "We support DDP (Delivered Duty Paid directly to your warehouse), FOB (Free on Board from Kolkata or Mumbai seaports / Delhi airport), CIF, and express air freight via DHL/FedEx Express."
+      }
+    ],
+    targetKeywords: [
+      "leather goods supplier in asia",
+      "leather goods suppliers in asia",
+      "leather goods manufacturer in asia",
+      "leather goods manufacturers in asia",
+      "leather manufacturer asia",
+      "leather bag manufacturer in asia",
+      "wholesale leather goods suppliers asia",
+      "private label leather goods manufacturer asia",
+      "best leather goods manufacturer in asia",
+      "top leather goods suppliers in asia",
+      "leather goods exporter in asia",
+      "low MOQ leather manufacturer in asia",
+      "small batch leather goods supplier asia",
+      "leather handbag manufacturer asia",
+      "leather wallet manufacturer in asia",
+      "luxury leather goods manufacturer in asia",
+      "LWG certified leather manufacturer in asia",
+      "sustainable leather goods supplier in asia",
+      "leather goods contract manufacturing in asia",
+      "leather goods supplier south asia"
+    ]
   }
 };
