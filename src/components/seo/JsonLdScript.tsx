@@ -54,11 +54,11 @@ export function generateOrganizationSchema() {
     priceRange: "$$",
     currenciesAccepted: "USD, EUR, GBP, AUD, CAD",
     paymentAccepted: "Wire Transfer (T/T), Irrevocable Letter of Credit (L/C at sight), DDP",
-    hasMap: "https://www.google.com/maps?cid=10778714827475623535",
+    hasMap: "https://www.google.com/maps/place/unicon+leather/@28.5355161,77.3910265,17z/data=!4m15!1m8!3m7!1s0x390ce9dae241bcb1:0x9595b0070aeb9e6f!2sunicon+leather!8m2!3d28.5355161!4d77.3910265!10e1!16s%2Fg%2F11s2m08kwt!3m5!1s0x390ce9dae241bcb1:0x9595b0070aeb9e6f!8m2!3d28.5355161!4d77.3910265!16s%2Fg%2F11s2m08kwt",
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 28.5283,
-      longitude: 77.3828,
+      latitude: 28.5355161,
+      longitude: 77.3910265,
     },
     openingHoursSpecification: [
       {
@@ -80,7 +80,7 @@ export function generateOrganizationSchema() {
       {
         "@type": "Place",
         name: "UNICON LEATHER — Delhi NCR Corporate & Sourcing Office",
-        hasMap: "https://www.google.com/maps?cid=10778714827475623535",
+        hasMap: "https://www.google.com/maps/place/unicon+leather/@28.5355161,77.3910265,17z/data=!4m15!1m8!3m7!1s0x390ce9dae241bcb1:0x9595b0070aeb9e6f!2sunicon+leather!8m2!3d28.5355161!4d77.3910265!10e1!16s%2Fg%2F11s2m08kwt!3m5!1s0x390ce9dae241bcb1:0x9595b0070aeb9e6f!8m2!3d28.5355161!4d77.3910265!16s%2Fg%2F11s2m08kwt",
         address: {
           "@type": "PostalAddress",
           streetAddress: "Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106",
@@ -92,8 +92,8 @@ export function generateOrganizationSchema() {
         telephone: "+91-9873102341",
         geo: {
           "@type": "GeoCoordinates",
-          latitude: 28.5283,
-          longitude: 77.3828,
+          latitude: 28.5355161,
+          longitude: 77.3910265,
         },
       },
       {
@@ -211,6 +211,7 @@ export function generateOrganizationSchema() {
       ],
     },
     sameAs: [
+      "https://www.google.com/maps/place/unicon+leather/@28.5355161,77.3910265,17z/data=!4m15!1m8!3m7!1s0x390ce9dae241bcb1:0x9595b0070aeb9e6f!2sunicon+leather!8m2!3d28.5355161!4d77.3910265!10e1!16s%2Fg%2F11s2m08kwt!3m5!1s0x390ce9dae241bcb1:0x9595b0070aeb9e6f!8m2!3d28.5355161!4d77.3910265!16s%2Fg%2F11s2m08kwt",
       "https://www.google.com/maps?cid=10778714827475623535",
       "https://github.com/ytheeapparel-oss/unicon-export",
       "https://www.linkedin.com/in/satish-kumar-99950359/",

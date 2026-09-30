@@ -97,6 +97,12 @@ export default function ContactPage() {
                   <Send className="w-4 h-4 mr-2" /> Submit Commercial RFP
                 </Button>
                 <a
+                  href="#google-map-locations"
+                  className="inline-flex items-center justify-center font-sans uppercase font-medium tracking-[0.14em] text-xs sm:text-sm border border-cognac/40 text-cognac bg-white hover:bg-cognac hover:text-white px-5 py-3.5 transition-colors shadow-xs"
+                >
+                  <MapPin className="w-4 h-4 mr-2" /> Google Business Profile
+                </a>
+                <a
                   href={COMPANY_INFO.whatsappDirectUrl}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -109,8 +115,11 @@ export default function ContactPage() {
           </div>
         </section>
 
-        <div className="space-y-20 sm:space-y-32 mt-20 sm:mt-32">
-          {/* 2. Main Contact & Form Section (Pure White) */}
+        <div className="space-y-16 sm:space-y-24 mt-12 sm:mt-16">
+          {/* 2. Official Google Business Profile & Live Map (Upper Positioning) */}
+          <GoogleMapSection />
+
+          {/* 3. Main Contact & Form Section (Pure White) */}
           <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16" id="rfp-form">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           {/* Contact Details & Factory Information Column */}
@@ -267,9 +276,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
-      {/* 3. Interactive Google Map Directory (Noida HQ & Kolkata Atelier) */}
-      <GoogleMapSection />
 
       {/* 4. Frequently Asked Questions Accordion */}
       <section className="w-full max-w-5xl mx-auto px-4 sm:px-8 lg:px-12 pt-8" id="faqs">

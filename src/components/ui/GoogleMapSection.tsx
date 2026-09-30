@@ -40,13 +40,13 @@ export function GoogleMapSection() {
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-6 border-b border-charcoal/10">
           <div className="space-y-3 max-w-2xl">
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-cognac/10 border border-cognac/20 text-cognac font-mono text-[11px] tracking-wider uppercase font-semibold">
-              <Compass className="w-3.5 h-3.5" /> Interactive Google Maps Directory
+              <Compass className="w-3.5 h-3.5" /> Official Google Business Profile &amp; Maps Directory
             </div>
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-charcoal tracking-tight">
-              Locate Our Ateliers on <span className="italic text-cognac font-light">Google Maps</span>
+              Official Profile &amp; Ateliers on <span className="italic text-cognac font-light">Google Maps</span>
             </h2>
             <p className="text-sm sm:text-base text-charcoal/70 font-light leading-relaxed">
-              Find our Delhi NCR corporate design office and Kolkata export atelier on Google Maps. International buyers and brand partners are welcome to schedule in-person prototype reviews and factory audits.
+              Find our verified Google Business Profile <strong className="font-mono text-charcoal font-semibold">"unicon leather"</strong> in Delhi NCR (Noida Sector-106) and our Kolkata export atelier. International buyers and brand partners are welcome for in-person prototype reviews and technical meetings.
             </p>
           </div>
 
@@ -85,6 +85,23 @@ export function GoogleMapSection() {
           {/* Detail Side Card (4 cols) */}
           <div className="lg:col-span-4 flex flex-col justify-between bg-white border border-charcoal/15 p-6 sm:p-8 shadow-sm space-y-6">
             <div className="space-y-6">
+              {/* Google Verified Profile Card */}
+              <div className="bg-[#FAF8F5] border border-charcoal/10 p-3.5 space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="inline-flex items-center gap-1.5 text-[10px] font-mono uppercase tracking-wider font-bold text-emerald-700">
+                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" /> Verified Google Profile
+                  </span>
+                  <span className="text-[10px] text-charcoal/60 font-mono">CID: 10778714827475623535</span>
+                </div>
+                <div className="flex items-baseline justify-between">
+                  <span className="font-serif font-bold text-charcoal text-base">unicon leather</span>
+                  <span className="text-amber-500 text-xs font-mono font-bold">★★★★★ 5.0</span>
+                </div>
+                <p className="text-[11px] text-charcoal-600 font-light leading-snug">
+                  Leather Goods Manufacturer &bull; Noida, Uttar Pradesh
+                </p>
+              </div>
+
               {/* Badge & Title */}
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
