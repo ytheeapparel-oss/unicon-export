@@ -188,6 +188,37 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     ]
   },
   {
+    category: "USA Private Label & Commercial Procurement Queries (American Fashion & Retail Buyers)",
+    description: "High-intent sourcing queries from American fashion designers, boutique retailers, D2C startups, and corporate gifting departments sourcing from offshore factories.",
+    keywords: [
+      "private label leather goods manufacturer USA",
+      "custom leather bags manufacturer USA",
+      "cut and stitch leather manufacturer USA alternative",
+      "bulk leather tote bags for US boutiques",
+      "small run leather goods manufacturer USA low MOQ",
+      "leather goods manufacturer for US startups",
+      "turnkey leather product development USA tech pack",
+      "leather wallet manufacturer for American brands",
+      "custom leather duffle bags wholesale USA",
+      "corporate leather gifts supplier USA bulk logo debossed",
+      "sustainable leather supplier USA LWG certified",
+      "custom brass hardware leather bags manufacturer USA",
+      "leather goods manufacturer DDP shipping New York Los Angeles",
+      "offshore leather goods manufacturing partner for US brands",
+      "custom leather cardholder manufacturer USA low MOQ",
+      "men leather accessories manufacturer wholesale USA",
+      "women luxury leather handbags factory for US designers",
+      "full grain cowhide leather bags supplier USA",
+      "top grain leather briefcase manufacturer USA wholesale",
+      "leather goods sample maker fast 7 day prototyping USA",
+      "FOB India to US West Coast East Coast leather shipping",
+      "apparel and leather goods contract cut and sew India to USA",
+      "custom branded dust bags and gift box packaging USA export",
+      "leather goods sourcing agent India for American retailers",
+      "American fashion brand leather factory partner India"
+    ]
+  },
+  {
     category: "Worldwide & Global Leather Goods Supply Network",
     description: "Trending global B2B queries from fashion houses, importers, and international retail chains sourcing genuine leather products worldwide.",
     keywords: [
