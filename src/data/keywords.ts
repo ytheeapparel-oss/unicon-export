@@ -286,6 +286,37 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     ]
   },
   {
+    category: "European Importer & B2B Procurement Queries (Germany, UK, France & EU)",
+    description: "Specific commercial procurement keywords searched by European import managers, fashion buying offices, wholesale distributors, and retail procurement departments.",
+    keywords: [
+      "leather goods manufacturer India European buyers",
+      "leather goods supplier CIF Rotterdam",
+      "leather goods supplier CIF Hamburg",
+      "leather goods manufacturer DDP European Union",
+      "Council for Leather Exports CLE registered manufacturer",
+      "ISO 9001 certified leather goods exporter India",
+      "SA8000 certified ethical leather supplier India",
+      "Sedex SMETA 4 pillar audited leather factory",
+      "zero child labor ethical leather factory India",
+      "chromium VI free leather goods manufacturer India",
+      "AQL 2.5 quality inspection leather exporter India",
+      "leather bags factory Germany importer",
+      "custom leather sample development 7 days European designers",
+      "European fashion label leather contractor India",
+      "sustainable traceable bovine leather bags India",
+      "Italian vegetable tanned leather goods made in India",
+      "eco friendly vegetable tanned leather manufacturer Europe",
+      "handcrafted leather accessories supplier UK department stores",
+      "private label leather bags manufacturer Europe low MOQ",
+      "custom leather wallet manufacturer Europe",
+      "OEM leather goods supplier Germany",
+      "B2B leather goods export partner Kolkata Noida Delhi NCR",
+      "India EU Free Trade Agreement leather export duty rates",
+      "bespoke leather corporate gifts Europe wholesale",
+      "custom hardware zinc alloy anti tarnish plating Europe"
+    ]
+  },
+  {
     category: "European Multi-Language Sourcing (Germany, France, Italy, Spain & Scandinavia)",
     description: "Native-language B2B queries from buyers across DACH (Germany/Austria), France, Italy, Spain, Netherlands, and Scandinavia seeking Indian manufacturing partners.",
     keywords: [
