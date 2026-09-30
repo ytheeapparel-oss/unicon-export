@@ -868,15 +868,15 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
   },
   "leather-goods-supplier-europe": {
     slug: "leather-goods-supplier-europe",
-    keywordTheme: "Leather Goods Supplier Germany France Denmark Spain",
-    h1: "Leather Goods Supplier for Germany, France, Denmark & Spain",
-    kicker: "EU REACH Certified · LWG Gold Tanneries · DDP Delivery Across Europe",
-    metaTitle: "Leather Goods Supplier Germany, France, Denmark, Spain | B2B Factory",
+    keywordTheme: "Leather Goods Manufacturer in India for European Brands",
+    h1: "Leather Goods Manufacturers in India for European & UK Brands",
+    kicker: "EU REACH Annex XVII · LWG Gold Tanneries · DDP Delivery Across Europe",
+    metaTitle: "Leather Goods Manufacturers in India for European Brands | EU REACH & LWG",
     metaDescription:
-      "Premier leather goods supplier for fashion brands in Germany, France, Denmark & Spain. Custom OEM handbags, wallets & accessories with EU REACH compliance & DDP European shipping.",
+      "Leading leather goods manufacturer in India supplying UK, Germany, France, Italy, Spain & European fashion brands. Custom OEM handbags, wallets & accessories with EU REACH compliance, low MOQs & DDP European shipping.",
     canonicalUrl: "https://www.uniconleather.com/leather-goods-supplier-europe",
     heroSubtitle:
-      "Partner with UNICON LEATHER — your verified leather goods manufacturing partner for the European Union. Supplying luxury fashion brands, boutique retailers, and department stores across Germany, France, Denmark, Spain, and Scandinavia with certified EU REACH chemical safety, low 100-pc MOQs, and direct DDP shipping to Rotterdam, Hamburg, and Frankfurt.",
+      "Partner with UNICON LEATHER — India's verified leather goods manufacturing partner for the European Union and United Kingdom. Supplying luxury fashion brands, boutique labels, and department stores across Germany, France, Italy, Spain, Netherlands, and Scandinavia with certified EU REACH chemical compliance, low 100-pc MOQs, and seamless DDP delivery to Rotterdam, Hamburg, Felixstowe, and Frankfurt.",
     categoryFilter: ["handbags", "totes", "wallets-cardholders", "belts", "travel-bags", "small-leather-goods"],
     specs: [
       { label: "Minimum Order Quantity (MOQ)", value: "100 units per design (flexible color splits for European boutique labels)" },
@@ -888,8 +888,8 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     ],
     features: [
       {
-        title: "Bespoke Private Label for German, French, Danish & Spanish Brands",
-        description: "Whether producing minimalist scandi totes for Copenhagen labels, refined luxury satchels for Parisian ateliers, or heritage bridles for German retailers, we engineer technical CAD templates tailored to European aesthetic standards."
+        title: "Bespoke Private Label for German, French, British & Italian Brands",
+        description: "Whether producing minimalist scandi totes for Copenhagen labels, refined luxury satchels for Parisian ateliers, British bridle belts, or heritage accessories for German retailers, we engineer technical CAD templates tailored to European aesthetic standards."
       },
       {
         title: "Complete EU REACH Chemical Safety & Lab Documentation",
@@ -897,7 +897,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       },
       {
         title: "DDP Delivery Across the European Union",
-        description: "We handle European customs import clearance, VAT / customs duty payments, and harbor logistics directly through entry ports in Rotterdam and Hamburg, delivering pallets directly to your logistics facility."
+        description: "We handle European customs import clearance, VAT / customs duty payments, and harbor logistics directly through entry ports in Rotterdam, Hamburg, and Antwerp, delivering pallets directly to your logistics facility."
       },
       {
         title: "Sustainable Vegetable-Tanned & LWG Traceable Leather",
@@ -919,35 +919,34 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       },
       {
         question: "How long does shipping take to European countries?",
-        answer: "Air priority express shipments reach Berlin, Paris, Copenhagen, and Madrid within 4 to 6 business days. Ocean container shipments to major European ports like Rotterdam, Hamburg, Antwerp, and Valencia take approximately 22 to 26 days."
+        answer: "Air priority express shipments reach Berlin, Paris, Copenhagen, London, and Madrid within 4 to 6 business days. Ocean container shipments to major European ports like Rotterdam, Hamburg, Felixstowe, Antwerp, and Valencia take approximately 22 to 26 days."
       },
       {
-        question: "Do you support commercial transactions in Euros (EUR)?",
+        question: "Do you support commercial transactions in Euros (EUR) and British Pounds (GBP)?",
         answer: "Yes, we accept commercial payments in Euros (EUR), British Pounds (GBP), and US Dollars (USD) through wire transfer (T/T), international Letters of Credit (L/C), or DDP terms."
       }
     ],
     targetKeywords: [
-      "leather goods supplier Germany",
-      "leather goods supplier France",
-      "leather goods supplier Denmark",
-      "leather goods supplier Spain",
-      "leather goods manufacturer Germany",
-      "leather goods manufacturer France",
-      "leather goods manufacturer Denmark",
-      "leather goods manufacturer Spain",
+      "leather goods manufacturers in india",
+      "leather goods manufacturer in india",
+      "leather bag manufacturer in india",
+      "leather bags manufacturers in india",
+      "leather goods manufacturer India for European brands",
+      "leather goods supplier in india for european brands",
+      "leather goods exporter in india to europe",
+      "indian leather goods manufacturer for uk brands",
+      "reach compliant leather manufacturer in india",
+      "lwg certified leather goods manufacturer in india",
+      "low MOQ leather goods manufacturer in india",
+      "Lederwaren Hersteller Indien",
+      "Lederwaren Hersteller in Indien",
+      "fabricant maroquinerie inde",
+      "produttore pelletteria india",
+      "fabricante de marroquineria en la india",
       "private label leather bags Paris France",
       "sustainable leather goods supplier Scandinavia Denmark",
-      "wholesale leather goods suppliers Spain",
       "Lederwaren Hersteller Deutschland",
-      "Lederwaren Lieferant Grosshandel",
-      "Fournisseur maroquinerie France",
-      "Fabricant maroquinerie marque blanche Paris",
-      "Proveedor de articulos de piel Espana",
-      "Fabricante de marroquineria bolsos de piel Espana",
-      "Laedervarer leverandor Danmark",
-      "Laedervarer producent engros Kobenhavn",
-      "leather goods manufacturer India EU REACH compliant",
-      "leather goods supplier DDP shipping to European Union"
+      "leather goods supplier DDP shipping to European Union Rotterdam Hamburg"
     ]
   },
 
