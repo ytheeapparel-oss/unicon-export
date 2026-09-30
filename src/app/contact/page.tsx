@@ -8,13 +8,15 @@ import {
   MessageCircle,
   Building2,
   Send,
-  FileText
+  FileText,
+  Compass,
 } from "lucide-react";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Accordion } from "@/components/ui/Accordion";
 import { BulkInquiryForm } from "@/components/forms/BulkInquiryForm";
+import { GoogleMapSection } from "@/components/ui/GoogleMapSection";
 import { COMPANY_INFO } from "@/data/company";
 import { FAQS } from "@/data/faqs";
 import { JsonLdScript, generateFaqSchema, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
@@ -136,14 +138,21 @@ export default function ContactPage() {
                     <span className="text-[10px] font-mono uppercase bg-cognac/10 text-cognac px-2 py-0.5 font-bold">Noida</span>
                   </div>
                   <p className="text-charcoal-600 mt-1 leading-relaxed font-light">{COMPANY_INFO.noidaOfficeAddress}</p>
-                  <div className="flex items-center gap-3 mt-2">
+                  <div className="flex items-center gap-3 mt-2 flex-wrap">
                     <a
-                      href="https://www.google.com/search?q=unicon+leather+noida+address&ludocid=10778714827475623535"
+                      href={COMPANY_INFO.maps.noida.mapUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs font-semibold text-cognac hover:underline font-mono"
                     >
                       Open Noida Office on Google Maps →
+                    </a>
+                    <span className="text-charcoal/30">•</span>
+                    <a
+                      href="#google-map-locations"
+                      className="inline-flex items-center gap-1 text-xs text-charcoal/60 hover:text-charcoal font-mono"
+                    >
+                      View on interactive map ↓
                     </a>
                   </div>
                   <span className="text-xs text-charcoal-400 mt-1 block">
@@ -161,14 +170,21 @@ export default function ContactPage() {
                     <span className="text-[10px] font-mono uppercase bg-cognac/10 text-cognac px-2 py-0.5 font-bold">Kolkata</span>
                   </div>
                   <p className="text-charcoal-600 mt-1 leading-relaxed font-light">{COMPANY_INFO.factoryAddress}</p>
-                  <div className="flex items-center gap-3 mt-2">
+                  <div className="flex items-center gap-3 mt-2 flex-wrap">
                     <a
-                      href="https://maps.google.com/?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata+West+Bengal+700135"
+                      href={COMPANY_INFO.maps.kolkata.mapUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs font-semibold text-cognac hover:underline font-mono"
                     >
                       Open Factory on Google Maps →
+                    </a>
+                    <span className="text-charcoal/30">•</span>
+                    <a
+                      href="#google-map-locations"
+                      className="inline-flex items-center gap-1 text-xs text-charcoal/60 hover:text-charcoal font-mono"
+                    >
+                      View on interactive map ↓
                     </a>
                   </div>
                   <span className="text-xs text-charcoal-400 mt-1 block">
@@ -252,7 +268,10 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Frequently Asked Questions Accordion */}
+      {/* 3. Interactive Google Map Directory (Noida HQ & Kolkata Atelier) */}
+      <GoogleMapSection />
+
+      {/* 4. Frequently Asked Questions Accordion */}
       <section className="w-full max-w-5xl mx-auto px-4 sm:px-8 lg:px-12 pt-8" id="faqs">
         <div className="text-center space-y-4 mb-14">
           <Badge variant="cognac" size="sm">

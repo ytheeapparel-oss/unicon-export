@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { supabase } from "@/lib/supabase";
+import { supabaseAdmin } from "@/lib/supabase";
+import { sendCatalogueRequestNotificationToAdmin } from "@/lib/email";
 
 export async function POST(req: NextRequest) {
   try {
@@ -12,7 +13,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const { error } = await supabase.from("catalogue_requests").insert({
+    const payload = {
       full_name: data.fullName,
       company_name: data.companyName,
       business_email: data.businessEmail,
@@ -20,11 +21,31 @@ export async function POST(req: NextRequest) {
       interests: data.interests || [],
       estimated_annual_volume: data.estimatedAnnualVolume || "100–500 units",
       status: "pending",
-    });
+    };
+
+    const { data: inserted, error } = await supabaseAdmin
+      .from("catalogue_requests")
+      .insert(payload)
+      .select("id");
 
     if (error) {
       console.error("[API Catalogue] Supabase insert error:", error);
       return NextResponse.json({ error: error.message }, { status: 500 });
+    }
+
+    // Dispatch email notification to uniconexport@gmail.com
+    try {
+      await sendCatalogueRequestNotificationToAdmin({
+        full_name: data.fullName,
+        company_name: data.companyName,
+        business_email: data.businessEmail,
+        country: data.country || "",
+        interests: data.interests || [],
+        estimated_annual_volume: data.estimatedAnnualVolume,
+        id: inserted?.[0]?.id,
+      });
+    } catch (emailErr) {
+      console.error("[API Catalogue] Non-fatal email notification error:", emailErr);
     }
 
     return NextResponse.json({ success: true, message: "Catalogue request saved" }, { status: 201 });
@@ -33,3 +54,4 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: err?.message || "Internal server error" }, { status: 500 });
   }
 }
+

@@ -54,11 +54,11 @@ export function generateOrganizationSchema() {
     priceRange: "$$",
     currenciesAccepted: "USD, EUR, GBP, AUD, CAD",
     paymentAccepted: "Wire Transfer (T/T), Irrevocable Letter of Credit (L/C at sight), DDP",
-    hasMap: "https://maps.google.com/?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata",
+    hasMap: "https://www.google.com/maps?cid=10778714827475623535",
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 22.5085,
-      longitude: 88.4687,
+      latitude: 28.5283,
+      longitude: 77.3828,
     },
     openingHoursSpecification: [
       {
@@ -80,6 +80,7 @@ export function generateOrganizationSchema() {
       {
         "@type": "Place",
         name: "UNICON LEATHER — Delhi NCR Corporate & Sourcing Office",
+        hasMap: "https://www.google.com/maps?cid=10778714827475623535",
         address: {
           "@type": "PostalAddress",
           streetAddress: "Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106",
@@ -98,6 +99,7 @@ export function generateOrganizationSchema() {
       {
         "@type": "Place",
         name: "UNICON LEATHER — Manufacturing Atelier & Export Facility",
+        hasMap: "https://maps.google.com/?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata+West+Bengal+700135",
         address: {
           "@type": "PostalAddress",
           streetAddress: "Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala",
@@ -209,8 +211,10 @@ export function generateOrganizationSchema() {
       ],
     },
     sameAs: [
+      "https://www.google.com/maps?cid=10778714827475623535",
       "https://github.com/ytheeapparel-oss/unicon-export",
       "https://www.linkedin.com/in/satish-kumar-99950359/",
+      "https://www.youtube.com/@uniconleather",
       "https://www.facebook.com/uniconexport",
       "https://www.instagram.com/uniconindia/",
     ],

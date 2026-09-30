@@ -80,8 +80,30 @@ export function Footer() {
                 <div className="flex items-start gap-2.5">
                   <MapPin className="w-3.5 h-3.5 text-cognac shrink-0 mt-0.5" />
                   <div className="space-y-1">
-                    <p><strong className="text-charcoal font-medium">Noida Office:</strong> {COMPANY_INFO.noidaOfficeAddress}</p>
-                    <p><strong className="text-charcoal font-medium">Factory:</strong> {COMPANY_INFO.factoryAddress}</p>
+                    <p>
+                      <strong className="text-charcoal font-medium">Noida Office:</strong>{" "}
+                      {COMPANY_INFO.noidaOfficeAddress}{" "}
+                      <a
+                        href={COMPANY_INFO.maps.noida.mapUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-cognac hover:underline font-mono text-[11px] whitespace-nowrap"
+                      >
+                        [Google Maps ↗]
+                      </a>
+                    </p>
+                    <p>
+                      <strong className="text-charcoal font-medium">Factory:</strong>{" "}
+                      {COMPANY_INFO.factoryAddress}{" "}
+                      <a
+                        href={COMPANY_INFO.maps.kolkata.mapUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-cognac hover:underline font-mono text-[11px] whitespace-nowrap"
+                      >
+                        [Google Maps ↗]
+                      </a>
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2.5">
@@ -101,9 +123,20 @@ export function Footer() {
                   </a>
                 </div>
 
-                {/* Social Media Profiles */}
-                <div className="flex items-center gap-2 pt-2" aria-label="Social Links">
-                  {/* 1. LinkedIn */}
+                {/* Social Media & Map Profiles */}
+                <div className="flex items-center gap-2 pt-2" aria-label="Social and Map Links">
+                  {/* 1. Google Maps */}
+                  <a
+                    href={COMPANY_INFO.socials.googleMaps}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Google Maps Business Listing"
+                    title="Find UNICON LEATHER on Google Maps"
+                    className="w-7 h-7 rounded-full bg-white border border-charcoal/15 flex items-center justify-center text-charcoal-600 hover:text-cognac hover:border-cognac hover:bg-cognac/5 transition-all"
+                  >
+                    <MapPin className="w-3.5 h-3.5 text-cognac" />
+                  </a>
+                  {/* 2. LinkedIn */}
                   <a
                     href={COMPANY_INFO.socials.linkedin}
                     target="_blank"
@@ -114,7 +147,7 @@ export function Footer() {
                   >
                     <Linkedin className="w-3.5 h-3.5" />
                   </a>
-                  {/* 2. Facebook */}
+                  {/* 3. Facebook */}
                   <a
                     href={COMPANY_INFO.socials.facebook}
                     target="_blank"
@@ -125,7 +158,7 @@ export function Footer() {
                   >
                     <Facebook className="w-3.5 h-3.5" />
                   </a>
-                  {/* 3. Instagram */}
+                  {/* 4. Instagram */}
                   <a
                     href={COMPANY_INFO.socials.instagram}
                     target="_blank"

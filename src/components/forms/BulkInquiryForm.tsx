@@ -3,11 +3,12 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
-import { Send, UploadCloud, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
+import { Send, UploadCloud, CheckCircle2, AlertCircle, Loader2, MessageCircle, Mail } from "lucide-react";
 import { InquiryFormData } from "@/types";
 import { Button } from "@/components/ui/Button";
 import { PRODUCT_CATEGORIES } from "@/data/categories";
 import { supabase } from "@/lib/supabase";
+import { COMPANY_INFO } from "@/data/company";
 
 interface BulkInquiryFormProps {
   initialProduct?: string;
@@ -27,6 +28,8 @@ export function BulkInquiryForm({
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
+  const [savedDataForFallback, setSavedDataForFallback] = useState<InquiryFormData | null>(null);
   const [attachedFileName, setAttachedFileName] = useState<string | null>(null);
 
   const {
@@ -46,6 +49,9 @@ export function BulkInquiryForm({
 
   const onSubmit = async (data: InquiryFormData) => {
     setIsSubmitting(true);
+    setSubmitError(null);
+    let success = false;
+
     try {
       const res = await fetch("/api/inquiries", {
         method: "POST",
@@ -57,8 +63,14 @@ export function BulkInquiryForm({
         }),
       });
 
-      if (!res.ok) {
-        await supabase.from("inquiries").insert({
+      if (res.ok) {
+        success = true;
+      } else {
+        const errorData = await res.json().catch(() => null);
+        console.warn("[BulkInquiryForm] API error, attempting direct client insert fallback:", errorData);
+
+        // Fallback to client-side insert
+        const { error: clientError } = await supabase.from("inquiries").insert({
           buyer_name: data.buyerName,
           company_name: data.companyName,
           business_email: data.businessEmail,
@@ -73,24 +85,40 @@ export function BulkInquiryForm({
           message: data.message || "",
           inquiry_type: data.inquiryType || inquiryType || "bulk",
           product_slug: data.productSlug || initialProduct || null,
+          status: "new",
         });
+
+        if (!clientError) {
+          success = true;
+        } else {
+          console.error("[BulkInquiryForm] Client insert error:", clientError);
+          setSubmitError(
+            errorData?.error || clientError.message || "Database permission error. Please use direct WhatsApp or Email below."
+          );
+          setSavedDataForFallback(data);
+        }
       }
-    } catch (error) {
-      console.warn("Failed to persist inquiry to Supabase:", error);
+    } catch (error: any) {
+      console.error("[BulkInquiryForm] Network error:", error);
+      setSubmitError(error?.message || "Network error. Please connect directly via WhatsApp or Email.");
+      setSavedDataForFallback(data);
     }
 
     setIsSubmitting(false);
-    setSubmitSuccess(true);
-    reset();
 
-    if (onSuccess) {
-      setTimeout(() => {
-        onSuccess();
-      }, 1500);
-    } else {
-      setTimeout(() => {
-        router.push("/thank-you");
-      }, 1200);
+    if (success) {
+      setSubmitSuccess(true);
+      reset();
+
+      if (onSuccess) {
+        setTimeout(() => {
+          onSuccess();
+        }, 1500);
+      } else {
+        setTimeout(() => {
+          router.push("/thank-you");
+        }, 1200);
+      }
     }
   };
 
@@ -120,6 +148,63 @@ export function BulkInquiryForm({
           >
             Submit Another Request
           </Button>
+        </div>
+      </div>
+    );
+  }
+
+  // Fallback view if database error occurs so buyer inquiry is never lost
+  if (submitError && savedDataForFallback) {
+    const waText = encodeURIComponent(
+      `Hello Unicon Leather Team,\n\nI submitted an inquiry on your website:\n- Name: ${savedDataForFallback.buyerName}\n- Company: ${savedDataForFallback.companyName}\n- Email: ${savedDataForFallback.businessEmail}\n- Phone: ${savedDataForFallback.phoneOrWhatsApp}\n- Country: ${savedDataForFallback.country}\n- Category: ${savedDataForFallback.productCategory}\n- Quantity: ${savedDataForFallback.requiredQuantity}\n- Requirements: ${savedDataForFallback.customizationRequirements || "N/A"}\n- Message: ${savedDataForFallback.message || "N/A"}`
+    );
+    const emailSubject = encodeURIComponent(`B2B Manufacturing Inquiry: ${savedDataForFallback.companyName}`);
+    const emailBody = encodeURIComponent(
+      `Buyer Name: ${savedDataForFallback.buyerName}\nCompany: ${savedDataForFallback.companyName}\nEmail: ${savedDataForFallback.businessEmail}\nPhone: ${savedDataForFallback.phoneOrWhatsApp}\nCountry: ${savedDataForFallback.country}\nCategory: ${savedDataForFallback.productCategory}\nQuantity: ${savedDataForFallback.requiredQuantity}\n\nRequirements:\n${savedDataForFallback.customizationRequirements || ""}\n\nMessage:\n${savedDataForFallback.message || ""}`
+    );
+
+    return (
+      <div className="bg-white border-2 border-cognac/30 p-8 sm:p-10 rounded-none space-y-6 shadow-lg">
+        <div className="flex items-start gap-4">
+          <div className="w-12 h-12 rounded-full bg-cognac/15 text-cognac flex items-center justify-center shrink-0">
+            <AlertCircle className="w-6 h-6" />
+          </div>
+          <div className="space-y-1">
+            <h3 className="font-serif text-xl sm:text-2xl font-normal text-charcoal">
+              Direct Connection Available
+            </h3>
+            <p className="text-xs sm:text-sm text-charcoal-600 font-light">
+              We encountered a temporary database sync issue ({submitError}). To ensure your inquiry reaches our senior export merchandiser without delay, click either option below:
+            </p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+          <a
+            href={`https://wa.me/919873102341?text=${waText}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 bg-[#25d366] hover:bg-[#20be5b] text-white py-3.5 px-4 text-xs font-mono uppercase tracking-wider font-semibold shadow-xs transition-colors"
+          >
+            <MessageCircle className="w-4 h-4" /> Send via WhatsApp Direct
+          </a>
+
+          <a
+            href={`mailto:${COMPANY_INFO.primaryEmail}?subject=${emailSubject}&body=${emailBody}`}
+            className="flex items-center justify-center gap-2 bg-charcoal hover:bg-charcoal/90 text-white py-3.5 px-4 text-xs font-mono uppercase tracking-wider font-semibold shadow-xs transition-colors"
+          >
+            <Mail className="w-4 h-4 text-cognac" /> Send via Corporate Email
+          </a>
+        </div>
+
+        <div className="pt-2 text-center">
+          <button
+            type="button"
+            onClick={() => setSubmitError(null)}
+            className="text-xs font-mono text-charcoal/60 hover:text-charcoal underline cursor-pointer"
+          >
+            ← Return to form &amp; retry
+          </button>
         </div>
       </div>
     );

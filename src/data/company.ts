@@ -88,5 +88,44 @@ export const COMPANY_INFO = {
     youtube: "https://www.youtube.com/@uniconleather",
     instagram: "https://www.instagram.com/uniconindia/",
     facebook: "https://www.facebook.com/uniconexport",
-  }
+    googleMaps: "https://www.google.com/maps?cid=10778714827475623535",
+  },
+
+  // Google Maps & Physical Facility Locations
+  maps: {
+    noida: {
+      id: "noida",
+      title: "Delhi NCR Corporate & Sourcing Office",
+      shortTitle: "Noida Corporate Office",
+      city: "Noida, Uttar Pradesh",
+      badge: "Corporate HQ",
+      address: "Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106, Noida, Uttar Pradesh 201304, India",
+      mapUrl: "https://www.google.com/maps?cid=10778714827475623535",
+      searchUrl: "https://www.google.com/search?q=unicon+leather+noida+address&ludocid=10778714827475623535",
+      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=28.5283,77.3828",
+      embedUrl: "https://maps.google.com/maps?cid=10778714827475623535&output=embed",
+      latitude: 28.5283,
+      longitude: 77.3828,
+      googleBusinessCid: "10778714827475623535",
+      visitingNotice: "Buyer consultations, design meetings & physical sample review by prior appointment.",
+      proximity: "Near Noida Sector 101 Metro Station · 45 mins from Indira Gandhi International Airport (DEL) · Near upcoming Noida International Airport (DXN)",
+    },
+    kolkata: {
+      id: "kolkata",
+      title: "Manufacturing Atelier & Export Facility",
+      shortTitle: "Kolkata Manufacturing Factory",
+      city: "Kolkata, West Bengal",
+      badge: "Manufacturing Hub",
+      address: "Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala, Kolkata, West Bengal 700135, India",
+      mapUrl: "https://maps.google.com/?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata+West+Bengal+700135",
+      searchUrl: "https://www.google.com/search?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata",
+      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata+West+Bengal+700135",
+      embedUrl: "https://maps.google.com/maps?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata+West+Bengal+700135&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      latitude: 22.5085,
+      longitude: 88.4687,
+      visitingNotice: "Full-scale OEM/ODM cutting, skiving, stitching, hardware assembly & international container dispatch.",
+      proximity: "Situated in India's premier leather processing cluster · 35 mins from Netaji Subhash Chandra Bose International Airport (CCU) · Direct highway access to Kolkata Port (SMP)",
+    },
+  },
 };
+
