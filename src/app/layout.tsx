@@ -8,6 +8,7 @@ import {
   JsonLdScript,
   generateOrganizationSchema,
   generateWebSiteSchema,
+  generateB2BServiceSchema,
 } from "@/components/seo/JsonLdScript";
 import { ALL_SEO_KEYWORDS } from "@/data/keywords";
 
@@ -129,6 +130,7 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <JsonLdScript schema={generateOrganizationSchema()} />
         <JsonLdScript schema={generateWebSiteSchema()} />
+        <JsonLdScript schema={generateB2BServiceSchema()} />
       </head>
       <body className="min-h-screen flex flex-col bg-white text-charcoal selection:bg-cognac selection:text-white">
         <AnnouncementBar />

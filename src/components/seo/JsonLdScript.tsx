@@ -132,6 +132,26 @@ export function generateOrganizationSchema() {
       "Bespoke Contract Manufacturing for USA Brands",
       "European Luxury Leather Goods Sourcing",
     ],
+    hasCertification: [
+      {
+        "@type": "Certification",
+        name: "Leather Working Group (LWG) Gold/Silver Audited Partner Tanneries",
+        issuedBy: "LWG Approved Supply Chain",
+        description: "100% of bovine, calfskin, and veg-tan hides sourced from LWG Gold/Silver certified partner tanneries."
+      },
+      {
+        "@type": "Certification",
+        name: "EU REACH Annex XVII Chemical Safety Compliance",
+        issuedBy: "European Chemicals Agency (ECHA)",
+        description: "Tested by SGS / Intertek: AZO dye-free, Nickel-free hardware, and Chromium VI < 3ppm."
+      },
+      {
+        "@type": "Certification",
+        name: "California Proposition 65 Compliance",
+        issuedBy: "California OEHHA",
+        description: "Tested and certified lead-free, cadmium-free, and phthalate-safe for US retail distribution."
+      }
+    ],
     hasCredential: [
       {
         "@type": "EducationalOccupationalCredential",
@@ -341,3 +361,44 @@ export function generateFaqSchema(faqs: { question: string; answer: string }[]) 
     })),
   };
 }
+
+export function generateB2BServiceSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://www.uniconleather.com/#service-oem-manufacturing",
+    serviceType: "OEM/ODM Leather Goods Manufacturing",
+    name: "Custom Private Label Leather Goods Manufacturing & Export",
+    provider: {
+      "@id": "https://www.uniconleather.com/#organization",
+    },
+    description: "Bespoke design engineering, CAD pattern development, rapid sample counter-prototyping within 7-10 days, and bulk batch manufacturing of luxury leather handbags, totes, wallets, and executive accessories.",
+    termsOfService: "https://www.uniconleather.com/terms",
+    offers: {
+      "@type": "Offer",
+      name: "Contract B2B Manufacturing Minimum Order Quantities",
+      priceCurrency: "USD",
+      price: "Custom FOB / CIF / DDP Quote",
+      eligibleQuantity: {
+        "@type": "QuantitativeValue",
+        minValue: 100,
+        unitCode: "C62",
+        description: "Minimum order quantity of 100 units per style (multi-colorway batching supported)",
+      },
+      deliveryLeadTime: {
+        "@type": "QuantitativeValue",
+        minValue: 30,
+        maxValue: 45,
+        unitCode: "DAY",
+        description: "Bulk production completed within 30 to 45 business days upon sample approval",
+      },
+      availableDeliveryMethod: [
+        { "@type": "DeliveryMethod", name: "FOB Kolkata / Mumbai Port" },
+        { "@type": "DeliveryMethod", name: "CIF Rotterdam / Hamburg / Felixstowe / Long Beach" },
+        { "@type": "DeliveryMethod", name: "DDP (Delivered Duty Paid) Direct to Buyer Warehouse" },
+        { "@type": "DeliveryMethod", name: "Air Priority Cargo (DHL / FedEx Express)" },
+      ],
+    },
+  };
+}
+

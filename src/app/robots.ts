@@ -6,7 +6,14 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/_next/"],
+        disallow: [
+          "/api/",
+          "/_next/",
+          "/admin/",
+          "/client-techpacks/",
+          "/internal-specs/",
+          "/confidential-cad/",
+        ],
       },
       {
         userAgent: [
@@ -25,6 +32,9 @@ export default function robots(): MetadataRoute.Robots {
           "Twitterbot",
           "LinkedInBot",
           "Pinterestbot",
+          "GPTBot",
+          "ClaudeBot",
+          "PerplexityBot",
         ],
         allow: "/",
       },
