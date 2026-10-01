@@ -731,6 +731,92 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "white label leather handbag supplier india",
       "custom hardware leather bag manufacturer india"
     ]
+  },
+  {
+    category: "Core B2B & Wholesale Leather Wallets",
+    description: "High-volume B2B search terms for wholesale leather wallets and direct factory supplier partnerships.",
+    keywords: [
+      "leather wallet supplier",
+      "leather wallet manufacturer",
+      "wholesale leather wallets supplier",
+      "custom leather wallet manufacturer",
+      "leather wallet factory",
+      "leather wallets bulk supplier",
+      "leather wallet exporter",
+      "genuine leather wallet supplier",
+      "b2b leather wallet manufacturers",
+      "custom leather wallets for brands"
+    ]
+  },
+  {
+    category: "Private Label, OEM & Custom Wallet Manufacturing",
+    description: "Queries from fashion brands seeking white label, OEM/ODM contract production and custom wallet development.",
+    keywords: [
+      "private label leather wallet manufacturer",
+      "oem leather wallet manufacturer",
+      "odm custom leather wallets supplier",
+      "bespoke leather wallet manufacturing",
+      "white label leather wallet factory",
+      "leather wallet contract manufacturing",
+      "custom embossed leather wallet supplier",
+      "cut and sew leather wallet factory",
+      "leather wallet prototype and sampling factory"
+    ]
+  },
+  {
+    category: "Style & Feature-Specific Wallets (RFID, Bifold, Cardholders)",
+    description: "Product-specific queries for RFID shielded wallets, card cases, bifolds, passport cases, and women's long wallets.",
+    keywords: [
+      "rfid blocking leather wallet manufacturer",
+      "minimalist leather wallet supplier",
+      "custom leather card holder manufacturer",
+      "leather bifold wallet wholesale manufacturer",
+      "leather trifold wallet supplier",
+      "leather passport holder manufacturer",
+      "leather money clip wallet supplier",
+      "custom slim wallet manufacturer",
+      "leather coin pouch and wallet manufacturer",
+      "zipper leather wallet factory",
+      "long leather wallet manufacturer for women"
+    ]
+  },
+  {
+    category: "Low MOQ & Startup Wallet Sourcing",
+    description: "High-intent queries from boutique labels and startups seeking low minimum order quantities and sampling.",
+    keywords: [
+      "leather wallet manufacturer low moq",
+      "small batch leather wallet manufacturer",
+      "leather wallet factory for startups",
+      "custom leather wallet low minimum order quantity",
+      "sample maker leather wallets",
+      "small scale leather wallet production"
+    ]
+  },
+  {
+    category: "Wallet Materials & Craftsmanship (Full Grain, Veg-Tan, LWG)",
+    description: "Material-driven inquiries for vegetable tanned, full grain, top grain, and sustainable LWG audited leather wallets.",
+    keywords: [
+      "full grain leather wallet manufacturer",
+      "vegetable tanned leather wallet supplier",
+      "top grain leather wallet manufacturer",
+      "crazy horse leather wallet supplier",
+      "sustainable leather wallet manufacturer",
+      "italian leather wallet manufacturer in asia",
+      "lwg certified leather wallet supplier"
+    ]
+  },
+  {
+    category: "Regional & Export Wallet Hubs (India to USA, Europe & Worldwide)",
+    description: "Geographic search queries from American, European, and British buyers sourcing compliant leather wallets from India.",
+    keywords: [
+      "leather wallet manufacturer in india",
+      "leather wallet exporters in kolkata",
+      "leather wallet supplier in india for usa brands",
+      "leather wallet manufacturer reach compliant europe",
+      "leather wallet factory india export to uk",
+      "indian leather wallet manufacturing company",
+      "leather goods and wallet suppliers in asia"
+    ]
   }
 ];
 

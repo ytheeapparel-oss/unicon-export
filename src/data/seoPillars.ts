@@ -207,9 +207,26 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     targetKeywords: [
       "leather wallet manufacturer India",
       "leather wallet manufacturer",
+      "leather wallet supplier",
+      "wholesale leather wallets supplier",
+      "custom leather wallet manufacturer",
       "custom leather wallets factory",
       "RFID wallet manufacturer India",
-      "cardholder manufacturer India"
+      "cardholder manufacturer India",
+      "private label leather wallet manufacturer",
+      "oem leather wallet manufacturer",
+      "rfid blocking leather wallet manufacturer",
+      "minimalist leather wallet supplier",
+      "custom leather card holder manufacturer",
+      "leather bifold wallet wholesale manufacturer",
+      "leather passport holder manufacturer",
+      "leather wallet manufacturer low moq",
+      "small batch leather wallet manufacturer",
+      "full grain leather wallet manufacturer",
+      "vegetable tanned leather wallet supplier",
+      "leather wallet exporters in kolkata",
+      "leather wallet supplier in india for usa brands",
+      "leather wallet manufacturer reach compliant europe"
     ]
   },
 
