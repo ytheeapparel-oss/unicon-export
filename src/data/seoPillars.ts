@@ -888,7 +888,17 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "LWG certified leather manufacturer in asia",
       "sustainable leather goods supplier in asia",
       "leather goods contract manufacturing in asia",
-      "leather goods supplier south asia"
+      "leather goods supplier south asia",
+      "leather goods manufacturer for australian brands",
+      "leather goods suppliers australia b2b",
+      "india australia ecta leather goods manufacturer",
+      "0 percent duty leather goods import from india australia",
+      "leather bag manufacturer india to australia",
+      "private label leather bags manufacturer australia",
+      "leather goods wholesale suppliers melbourne",
+      "leather goods manufacturers sydney b2b",
+      "leather bags supplier new zealand b2b",
+      "custom leather goods manufacturer nz"
     ]
   },
   "leather-goods-supplier-europe": {

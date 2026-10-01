@@ -817,6 +817,75 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "indian leather wallet manufacturing company",
       "leather goods and wallet suppliers in asia"
     ]
+  },
+  {
+    category: "Australia & New Zealand Core B2B Supplier Keywords",
+    description: "Sourcing queries from Australian and New Zealand fashion labels, boutique retailers, and corporate buyers seeking certified Indian leather goods suppliers.",
+    keywords: [
+      "leather goods manufacturer for australian brands",
+      "leather goods suppliers australia b2b",
+      "leather products wholesale supplier australia",
+      "leather bag manufacturer india to australia",
+      "custom leather goods manufacturer nz",
+      "leather products manufacturer auckland",
+      "leather goods wholesale suppliers melbourne",
+      "leather goods manufacturers sydney b2b",
+      "leather bags supplier new zealand b2b",
+      "leather accessories manufacturer for nz brands"
+    ]
+  },
+  {
+    category: "India-Australia ECTA Trade Agreement & Zero-Duty Export Keywords",
+    description: "Search queries targeting preferential trade tariff advantages, zero-duty entry under ECTA, and direct shipping to Sydney and Melbourne.",
+    keywords: [
+      "india australia ecta leather goods manufacturer",
+      "0 percent duty leather goods import from india australia",
+      "leather goods exporter to australia from india",
+      "duty free leather goods supplier india to australia",
+      "import leather bags from india to australia",
+      "leather products exporter kolkata to australia",
+      "india leather export house to sydney melbourne"
+    ]
+  },
+  {
+    category: "Private Label, OEM & Custom Manufacturing (ANZ Fashion Brands)",
+    description: "Contract production, white-label bags, and prototype sample development for emerging Australian and Kiwi designers.",
+    keywords: [
+      "private label leather bags manufacturer australia",
+      "oem leather goods manufacturer for australian labels",
+      "custom leather bags manufacturer low moq australia",
+      "bespoke leather goods manufacturers for nz brands",
+      "white label leather goods factory asia for australia",
+      "leather handbag sample maker for australian designers",
+      "cut and sew leather factory for australian brands",
+      "contract leather goods manufacturer asia pacific"
+    ]
+  },
+  {
+    category: "ANZ Material, Sustainability & Biosecurity Sourcing",
+    description: "Environmental compliance, vegetable tanning, LWG certified hides, and Australian biosecurity-compliant leather production.",
+    keywords: [
+      "vegetable tanned leather bag manufacturer india for australia",
+      "lwg certified leather manufacturer for australian brands",
+      "eco friendly leather goods manufacturer asia",
+      "sustainable leather bag supplier for nz brands",
+      "full grain leather wallet manufacturer australia",
+      "biosecurity compliant leather goods supplier australia",
+      "chrome free leather goods factory asia"
+    ]
+  },
+  {
+    category: "Australia & NZ Product-Specific Keywords (Wallets, Bags, Travel)",
+    description: "Product-focused inquiries from ANZ buyers for custom leather tote bags, duffels, minimal wallets, and bulk corporate gifts.",
+    keywords: [
+      "custom leather tote bag manufacturer australia",
+      "wholesale leather duffle bags australia supplier",
+      "leather wallet manufacturer low moq australia",
+      "leather passport holder supplier australia wholesale",
+      "custom leather backpack manufacturer new zealand",
+      "minimalist leather wallet manufacturer for australian brands",
+      "corporate leather gifts supplier australia bulk"
+    ]
   }
 ];
 
