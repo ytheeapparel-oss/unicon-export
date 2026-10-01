@@ -664,6 +664,73 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "sedex audited leather goods factory",
       "california prop 65 compliant leather manufacturer"
     ]
+  },
+  {
+    category: "USA & North America Buyer Searches (Targeting India/Asia)",
+    description: "High-intent queries from American and Canadian fashion procurement teams searching for direct Indian/Asian bag factories.",
+    keywords: [
+      "leather bag manufacturer in india for usa",
+      "leather bag manufacturers in india",
+      "custom leather bags manufacturer india",
+      "oem leather bag factory in asia",
+      "leather goods supplier in india export to usa",
+      "private label leather handbag manufacturer india",
+      "leather tote bag manufacturer india low moq",
+      "cut and sew leather bag factory india",
+      "leather duffle bag manufacturer india",
+      "genuine leather bags manufacturer india for usa",
+      "bespoke leather goods manufacturers in asia",
+      "contract leather handbag manufacturer india",
+      "california prop 65 compliant leather bag manufacturer india",
+      "leather laptop bag manufacturer india export",
+      "sustainable leather bag manufacturer india"
+    ]
+  },
+  {
+    category: "Europe & UK Buyer Searches (Targeting India/Asia)",
+    description: "Search queries from European and British fashion houses sourcing REACH and LWG compliant leather bags from India.",
+    keywords: [
+      "leather goods manufacturer in india exporting to europe",
+      "leather bag manufacturer india reach compliant",
+      "lwg certified leather bag manufacturer in india",
+      "leather handbag manufacturers in india for uk brands",
+      "sedex smeta audited leather factory in india",
+      "bsci audited leather bag manufacturer asia",
+      "vegetable tanned leather bag manufacturer india",
+      "custom leather bags supplier europe b2b",
+      "lederwaren hersteller indien b2b",
+      "fabricant sacs en cuir inde",
+      "leather craft exporters kolkata europe",
+      "small batch leather bag manufacturer india",
+      "fair trade leather goods manufacturer asia",
+      "full grain leather bag manufacturer india"
+    ]
+  },
+  {
+    category: "Sourcing & Regional Hub Searches (Calcutta, Kanpur, South Asia)",
+    description: "Region and cluster-specific search queries connecting global buyers with India's historic leather centers.",
+    keywords: [
+      "source leather bags from india",
+      "leather bag exporters in kolkata",
+      "leather goods manufacturers in calcutta leather complex",
+      "leather manufacturers in kanpur india",
+      "asia leather bag manufacturing company",
+      "leather bag supplier in south asia",
+      "leather export house in india for bags",
+      "leather sourcing agent india leather bags"
+    ]
+  },
+  {
+    category: "Startup, E-Commerce & DTC Brand Searches (Low MOQ & Sampling)",
+    description: "Queries from emerging direct-to-consumer labels seeking prototype sampling, white-label bags, and low minimums.",
+    keywords: [
+      "leather bag manufacturer india low moq",
+      "leather goods manufacturer low minimum order quantity asia",
+      "sample maker leather bags india",
+      "leather bag factory for startup brands india",
+      "white label leather handbag supplier india",
+      "custom hardware leather bag manufacturer india"
+    ]
   }
 ];
 
