@@ -563,6 +563,107 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "offshore leather goods manufacturing partner",
       "overseas leather goods factory export DDP"
     ]
+  },
+  {
+    category: "Core B2B & Wholesale Leather Goods",
+    description: "High-volume wholesale search queries for international leather goods manufacturing and bulk supply.",
+    keywords: [
+      "leather goods manufacturer",
+      "leather goods suppliers",
+      "leather bag manufacturers",
+      "custom leather goods manufacturer",
+      "wholesale leather bags supplier",
+      "leather products exporter",
+      "leather accessories manufacturer",
+      "bulk leather bags supplier",
+      "leather goods factory",
+      "leather products manufacturing company",
+      "genuine leather goods supplier",
+      "leather craft manufacturers",
+      "wholesale leather goods distributors"
+    ]
+  },
+  {
+    category: "OEM, ODM & Private Label Leather Production",
+    description: "Search queries for custom contract manufacturing, white label production, and brand private labeling.",
+    keywords: [
+      "private label leather bags manufacturer",
+      "oem leather goods manufacturer",
+      "odm leather products supplier",
+      "white label leather goods factory",
+      "bespoke leather goods manufacturing",
+      "custom leather goods for brands",
+      "cut and sew leather factory",
+      "leather contract manufacturer",
+      "contract leather goods manufacturer",
+      "custom private label leather products",
+      "custom leather handbag factory",
+      "oem leather wallet manufacturer"
+    ]
+  },
+  {
+    category: "Low MOQ & Startup Sourcing Partners",
+    description: "Keywords from emerging fashion founders, small designers, and boutique brands seeking low MOQ production and rapid sampling.",
+    keywords: [
+      "leather goods manufacturer low moq",
+      "small batch leather goods manufacturer",
+      "leather bag manufacturer for startups",
+      "low minimum order quantity leather supplier",
+      "custom leather wallet manufacturer low moq",
+      "sampling and prototyping leather goods factory",
+      "small scale leather goods production",
+      "low volume leather goods manufacturing",
+      "leather goods prototype manufacturer"
+    ]
+  },
+  {
+    category: "Product-Specific B2B Sourcing",
+    description: "Product-focused wholesale inquiries for luxury handbags, totes, duffels, backpacks, wallets, belts, and corporate gifts.",
+    keywords: [
+      "custom leather handbag manufacturer",
+      "wholesale leather tote bags supplier",
+      "leather duffle bag manufacturer",
+      "custom leather backpack manufacturer",
+      "leather messenger bag factory",
+      "leather laptop bag manufacturer",
+      "leather wallet manufacturer supplier",
+      "leather card holder manufacturer",
+      "small leather goods manufacturer (SLG)",
+      "custom leather belt manufacturer",
+      "leather travel bags wholesale manufacturer",
+      "corporate leather gifts manufacturer"
+    ]
+  },
+  {
+    category: "Regional Sourcing & Export Hubs (India, US, UK, Germany)",
+    description: "Geographic search queries connecting international brands with India's premier export manufacturing clusters.",
+    keywords: [
+      "leather goods manufacturer in india",
+      "leather bag exporters in kolkata",
+      "leather goods manufacturers in kanpur",
+      "leather goods suppliers for us brands",
+      "leather bag manufacturer uk private label",
+      "leather goods suppliers in germany b2b",
+      "leather products exporter india",
+      "indian leather goods manufacturing company",
+      "b2b leather goods exporters"
+    ]
+  },
+  {
+    category: "Quality, Sustainability & Compliance Benchmarks",
+    description: "Technical, environmental, and ethical audit terms required by Western buyers (LWG, REACH, BSCI, Sedex, Prop 65).",
+    keywords: [
+      "lwg certified leather manufacturer",
+      "reach compliant leather goods supplier",
+      "full grain leather bag manufacturer",
+      "sustainable leather goods manufacturer",
+      "bsci audited leather factory",
+      "vegetable tanned leather goods manufacturer",
+      "top grain leather products supplier",
+      "eco friendly leather goods manufacturer",
+      "sedex audited leather goods factory",
+      "california prop 65 compliant leather manufacturer"
+    ]
   }
 ];
 
