@@ -886,6 +886,68 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "minimalist leather wallet manufacturer for australian brands",
       "corporate leather gifts supplier australia bulk"
     ]
+  },
+  {
+    category: "Reliable & Verified Leather Goods Manufacturers in India/Asia (USA & Canada)",
+    description: "High-trust search queries used by North American procurement directors, boutique owners, and luxury labels to find vetted, audited, and reliable Indian/Asian factories.",
+    keywords: [
+      "reliable leather goods manufacturer in india",
+      "reliable leather goods manufacturer in asia",
+      "best leather goods manufacturer in india for us brands",
+      "trusted leather bag manufacturer in india",
+      "verified leather goods factory in india",
+      "audited leather goods manufacturer india",
+      "ethical leather goods manufacturer in india",
+      "sedex certified leather goods manufacturer india",
+      "lwg audited leather manufacturer in asia",
+      "reliable custom leather bags factory in india",
+      "good leather goods manufacturers in india reviews",
+      "top rated leather goods exporter india",
+      "cle registered leather goods manufacturer in india",
+      "reputable leather factory in asia for canadian brands",
+      "reliable oem leather handbag factory in asia",
+      "vetted leather goods factories in kolkata noida"
+    ]
+  },
+  {
+    category: "Canada Fashion Brand Sourcing & Leather Goods Import Queries",
+    description: "Search terms from Canadian fashion labels in Toronto, Montreal, and Vancouver seeking reliable offshore manufacturing partners in India.",
+    keywords: [
+      "leather goods manufacturer in india for canadian brands",
+      "leather bag manufacturer for brands in canada",
+      "custom leather bags supplier canada b2b",
+      "private label leather goods manufacturer canada low moq",
+      "wholesale leather goods suppliers canada from india",
+      "import leather bags from india to canada",
+      "leather goods manufacturer toronto montreal vancouver",
+      "canadian fashion brand leather manufacturer partner india",
+      "sustainable leather goods exporter india to canada",
+      "duty free leather goods import india to canada",
+      "reliable leather wallet manufacturer canada import",
+      "custom leather merchandise supplier canada b2b"
+    ]
+  },
+  {
+    category: "USA Brand Sourcing & Verification Queries (Vetted Factories in India)",
+    description: "Search queries used by American sourcing managers to vet factory reliability, defect rates, NDA protection, and turnaround times.",
+    keywords: [
+      "reliable leather goods supplier in india export to usa",
+      "best private label leather bag factory for american brands",
+      "us fashion brand leather manufacturing partner india",
+      "california prop 65 compliant leather goods manufacturer india",
+      "turnkey leather goods manufacturing partner usa brands",
+      "small batch reliable leather manufacturer india",
+      "top quality custom leather goods supplier india to usa",
+      "american boutique leather manufacturer partner in india",
+      "how to find reliable leather goods manufacturer in india",
+      "how to vet leather manufacturer in india",
+      "leather factory in india with low defect rate aql 2.5",
+      "english speaking leather goods manufacturer in india",
+      "reliable leather sample maker fast turnaround usa canada",
+      "nda protected leather goods manufacturer india",
+      "leather goods contract manufacturer with transparent supply chain",
+      "in house leather goods manufacturing unit kolkata noida"
+    ]
   }
 ];
 

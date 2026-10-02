@@ -805,6 +805,13 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather goods manufacturer DDP shipping New York Los Angeles",
       "California Prop 65 compliant leather goods supplier",
       "corporate leather gifts supplier USA bulk logo debossed",
+      "reliable leather goods manufacturer in india",
+      "reliable leather goods supplier in india export to usa",
+      "leather goods manufacturer in india for canadian brands",
+      "custom leather bags supplier canada b2b",
+      "best leather goods manufacturer in india for us brands",
+      "trusted leather bag manufacturer in india",
+      "audited leather goods manufacturer india",
       "worldwide leather goods supplier"
     ]
   },
