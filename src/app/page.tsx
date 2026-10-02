@@ -35,6 +35,7 @@ import { CategoryCard } from "@/components/ui/CategoryCard";
 import { ProductCard } from "@/components/ui/ProductCard";
 import { BulkInquiryForm } from "@/components/forms/BulkInquiryForm";
 import { MovingPanelsShowcase } from "@/components/home/MovingPanelsShowcase";
+import { NewProductDevelopmentShowcase } from "@/components/home/NewProductDevelopmentShowcase";
 import { Hero } from "@/components/home/Hero";
 import { Accordion } from "@/components/ui/Accordion";
 import { JsonLdScript, generateFaqSchema } from "@/components/seo/JsonLdScript";
@@ -125,6 +126,9 @@ export default function HomePage() {
 
       {/* 1.2 CONTINUOUS MOVING SHOWCASE: 14 LUXURY PANELS */}
       <MovingPanelsShowcase />
+
+      {/* 1.3 CONTINUOUS MOVING SHOWCASE: 15 SQUARE NEW PRODUCT DEVELOPMENT PANELS */}
+      <NewProductDevelopmentShowcase />
 
       {/* 2. CORE MANUFACTURING CATEGORIES SHOWCASE */}
       <section className="w-full bg-white px-6 sm:px-10 lg:px-14 xl:px-16">
