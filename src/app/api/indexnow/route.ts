@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { PRODUCTS } from "@/data/products";
 import { PRODUCT_CATEGORIES } from "@/data/categories";
 import { SEO_PILLARS } from "@/data/seoPillars";
+import { INTERNATIONAL_MARKETS } from "@/data/internationalRoutes";
 
 const HOST = "www.uniconleather.com";
 const KEY = "5d98dd720e5d4f48941b1b070295b9da";
@@ -23,6 +24,7 @@ const STATIC_PATHS = [
 export async function GET() {
   const allUrls = [
     ...STATIC_PATHS.map((p) => `https://${HOST}${p}`),
+    ...Object.values(INTERNATIONAL_MARKETS).map((m) => `https://${HOST}${m.path}`),
     ...Object.values(SEO_PILLARS).map((p) => `https://${HOST}/${p.slug}`),
     ...PRODUCT_CATEGORIES.map((c) => `https://${HOST}/products/${c.slug}`),
     ...PRODUCTS.map((p) => `https://${HOST}/products/${p.slug}`),

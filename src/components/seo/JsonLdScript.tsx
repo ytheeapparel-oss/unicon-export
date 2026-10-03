@@ -215,7 +215,7 @@ export function generateOrganizationSchema() {
         contactType: "export and domestic B2B sales",
         email: "uniconexport@gmail.com",
         areaServed: ["IN", "US", "GB", "EU", "DE", "FR", "IT", "ES", "NL", "AU", "CA", "AE", "JP"],
-        availableLanguage: ["English", "Hindi"],
+        availableLanguage: ["English", "German", "French", "Hindi"],
       },
     ],
     hasOfferCatalog: {
@@ -228,6 +228,11 @@ export function generateOrganizationSchema() {
         { "@type": "OfferCatalog", name: "RFID Wallets & Small Leather Goods" },
         { "@type": "OfferCatalog", name: "Bridle Leather Belts & Accessories" },
         { "@type": "OfferCatalog", name: "Custom OEM/ODM Private-Label Atelier Development" },
+        { "@type": "OfferCatalog", name: "USA & North America DDP Direct Sourcing Gateway" },
+        { "@type": "OfferCatalog", name: "UK & British Luxury Brands REACH Audited Sourcing" },
+        { "@type": "OfferCatalog", name: "Australia & New Zealand ECTA 0% Duty Preferential Import" },
+        { "@type": "OfferCatalog", name: "Deutschland B2B Lederwaren Manufaktur" },
+        { "@type": "OfferCatalog", name: "France Maroquinerie de Luxe sur Mesure" },
       ],
     },
     sameAs: [

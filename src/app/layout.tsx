@@ -124,6 +124,8 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
         <JsonLdScript schema={generateOrganizationSchema()} />
         <JsonLdScript schema={generateWebSiteSchema()} />
         <JsonLdScript schema={generateB2BServiceSchema()} />
