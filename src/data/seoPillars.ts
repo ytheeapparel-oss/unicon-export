@@ -1230,5 +1230,78 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "flexible moq leather goods supplier",
       "how to manufacture leather goods for small business"
     ]
+  },
+  "leather-jacket-manufacturer-india": {
+    slug: "leather-jacket-manufacturer-india",
+    keywordTheme: "Leather Jacket Manufacturer India",
+    h1: "Leather Jacket Manufacturer India & Custom Outerwear Factory",
+    kicker: "OEM Apparel Atelier · Tailored Leather Jackets & Coats",
+    metaTitle: "Leather Jacket Manufacturer India | Custom OEM Biker & Bomber Outerwear Factory",
+    metaDescription:
+      "Premier custom leather jacket manufacturer in India. OEM/ODM private-label production for luxury fashion brands, biker jackets, bomber outerwear & coats. Low MOQs, lambskin, cowhide, global export.",
+    canonicalUrl: "https://www.uniconleather.com/leather-jacket-manufacturer-india",
+    heroSubtitle:
+      "Partner with India's premier leather jacket manufacturer. Custom cut & sew outerwear atelier crafting bespoke biker jackets, lambskin bomber silhouettes, trench coats, and shearling jackets with precision grading and worldwide DDP delivery.",
+    categoryFilter: ["jackets"],
+    specs: [
+      { label: "Minimum Order Quantity (MOQ)", value: "50 to 100 pcs per style (grading XS to 3XL included)" },
+      { label: "Sample Prototyping Lead Time", value: "10 to 14 business days via DHL / FedEx Priority" },
+      { label: "Bulk Production Timeline", value: "35 to 45 business days upon fit sample sign-off" },
+      { label: "Leather Types Sourced", value: "Plonge Lambskin, Heavy Bovine Cowhide, Goat Suede, Shearling, Buff Nappa" },
+      { label: "Hardware & Trims", value: "Heavy-gauge YKK Excella / antique brass zippers, custom logo snap buttons" },
+      { label: "Lining Materials", value: "Custom jacquard silk, quilted diamond satin, 100% cotton twill, thermal fleece" }
+    ],
+    features: [
+      {
+        title: "Master Pattern Grading & Tailoring",
+        description: "Precision CAD pattern cutting ensuring ergonomic drape, shoulder mobility, and consistent sizing across US, UK, and European size scales."
+      },
+      {
+        title: "Supple Lambskin & Rugged Cowhide",
+        description: "Specialized in lightweight glove-soft lambskin for high-fashion runway lines and heavy 1.2mm grain cowhide for rugged motorcycle gear."
+      },
+      {
+        title: "Custom Hardware, Snaps & Embellishment",
+        description: "Laser-etched zipper pullers, custom embossed leather patches, interior woven neck labels, and contrast wax-thread top-stitching."
+      },
+      {
+        title: "End-to-End Export & Fit Verification",
+        description: "Pre-production fit samples dispatched on live fit mannequins, followed by 100% in-line inspection and DDP global delivery."
+      }
+    ],
+    faqs: [
+      {
+        question: "What styles of custom leather jackets do you manufacture?",
+        answer: "We manufacture classic asymmetrical biker/moto jackets, minimalist cafe racers, varsity bomber jackets, flight jackets, shearling-lined winter coats, and tailored leather blazers."
+      },
+      {
+        question: "Can you produce custom graded sizes from XS to 3XL?",
+        answer: "Yes. Our apparel pattern engineers create computerized size gradings based on your brand's regional spec sheets (US, UK, European, or Asian sizing) with balanced sleeve lengths and chest proportions."
+      },
+      {
+        question: "What is the minimum order quantity for custom leather jackets?",
+        answer: "Our standard MOQ is 50 to 100 jackets per style, allowing flexible size distribution (e.g. S, M, L, XL, XXL) so emerging fashion labels can launch without holding excessive inventory."
+      },
+      {
+        question: "Are your leather jackets compliant with international chemical safety standards?",
+        answer: "Yes. All hides and garment dyes are 100% compliant with EU REACH Annex XVII (AZO-free, Chromium VI below 3ppm) and California Proposition 65 requirements."
+      }
+    ],
+    targetKeywords: [
+      "leather jacket manufacturer",
+      "leather jacket manufacturers in india",
+      "custom leather jacket manufacturer",
+      "private label leather jacket manufacturer",
+      "oem leather jacket manufacturer",
+      "wholesale leather jackets supplier",
+      "leather jacket factory",
+      "cut and sew leather jacket factory",
+      "leather outerwear manufacturer low moq",
+      "lambskin leather jacket manufacturer",
+      "leather biker jacket manufacturer",
+      "leather bomber jacket factory",
+      "leather clothing manufacturers in india",
+      "leather apparel exporter india"
+    ]
   }
 };

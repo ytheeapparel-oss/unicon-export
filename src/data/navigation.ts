@@ -63,6 +63,7 @@ export const FOOTER_NAV = {
   manufacturing: [
     { label: "Leather Goods Manufacturer (Global)", href: "/leather-goods-manufacturer" },
     { label: "Luxury Leather Goods Atelier", href: "/luxury-leather-goods-manufacturer" },
+    { label: "Leather Jacket & Outerwear Factory", href: "/leather-jacket-manufacturer-india" },
     { label: "Low MOQ Leather Factory", href: "/low-moq-leather-goods-manufacturer" },
     { label: "Private Label & OEM Services", href: "/private-label" },
     { label: "Atelier Craftsmanship", href: "/craftsmanship" },
