@@ -84,10 +84,13 @@ export const FOOTER_NAV = {
   ],
   trade: [
     { label: "Global Export Direct (FOB, CIF, DDP)", href: "/export" },
-    { label: "Supported Incoterms & Sea Ports", href: "/export#incoterms" },
-    { label: "Quality Inspection & AQL 2.5", href: "/compliance" },
+    { label: "🇺🇸 USA Sourcing Portal (DDP / Prop 65)", href: "/en-us" },
+    { label: "🇬🇧 UK & Ireland Hub (REACH / SEDEX)", href: "/en-gb" },
+    { label: "🇦🇺 Australia Sourcing (ECTA 0% Duty)", href: "/en-au" },
+    { label: "🇩🇪 Deutschland B2B (Lederwaren)", href: "/de" },
+    { label: "🇫🇷 France & Europe (Maroquinerie)", href: "/fr" },
     { label: "EU REACH & Prop 65 Compliance", href: "/compliance#testing" },
-    { label: "Responsible Tannery Standards", href: "/sustainability" },
+    { label: "Quality Inspection & AQL 2.5", href: "/compliance" },
     { label: "Buyer FAQ & Ordering Guide", href: "/contact#faqs" },
   ],
   company: [

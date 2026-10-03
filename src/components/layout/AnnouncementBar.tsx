@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Globe, ArrowRight, ShieldCheck, PhoneCall, Linkedin, Facebook, Instagram } from "lucide-react";
 import { COMPANY_INFO } from "@/data/company";
+import { InternationalRegionSelector } from "@/components/layout/InternationalRegionSelector";
 
 export function AnnouncementBar() {
   return (
@@ -57,10 +58,11 @@ export function AnnouncementBar() {
           </span>
         </div>
 
-        {/* Right: Compliance & Direct Line */}
-        <div className="flex items-center gap-4 sm:gap-6 text-[11px] font-medium">
-          <span className="text-[#6A665E] hidden lg:inline-flex items-center gap-1.5 font-light">
-            <ShieldCheck className="w-3.5 h-3.5 text-cognac" /> LWG & REACH Compliant
+        {/* Right: Compliance, International Gateway Selector & Direct Line */}
+        <div className="flex items-center gap-3 sm:gap-4 text-[11px] font-medium">
+          <InternationalRegionSelector />
+          <span className="text-[#6A665E] hidden xl:inline-flex items-center gap-1.5 font-light">
+            <ShieldCheck className="w-3.5 h-3.5 text-cognac" /> LWG & REACH
           </span>
           <a
             href={COMPANY_INFO.whatsappDirectUrl}

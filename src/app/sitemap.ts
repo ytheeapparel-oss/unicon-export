@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 import { PRODUCTS } from "@/data/products";
 import { PRODUCT_CATEGORIES } from "@/data/categories";
 import { SEO_PILLARS } from "@/data/seoPillars";
+import { INTERNATIONAL_MARKETS } from "@/data/internationalRoutes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.uniconleather.com";
@@ -112,5 +113,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.95,
   }));
 
-  return [...staticRoutes, ...seoPillarRoutes, ...categoryRoutes, ...productRoutes];
+  // Dedicated International Market Gateways
+  const internationalRoutes: MetadataRoute.Sitemap = Object.values(INTERNATIONAL_MARKETS).map((m) => ({
+    url: `${baseUrl}${m.path}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.95,
+  }));
+
+  return [...staticRoutes, ...internationalRoutes, ...seoPillarRoutes, ...categoryRoutes, ...productRoutes];
 }

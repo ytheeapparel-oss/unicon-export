@@ -32,7 +32,57 @@ export function KeywordTaxonomy() {
         </div>
       </div>
 
-      {/* 2. Deep Taxonomy Search Directory */}
+      {/* 2. International Export Gateways & Trade Corridors */}
+      <div className="space-y-4 pt-4 border-t border-charcoal/8">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <span className="text-[11px] uppercase tracking-[0.2em] font-bold text-charcoal font-mono">
+            International Trade Corridors &amp; Regional Sourcing Portals
+          </span>
+          <span className="text-[10px] text-cognac font-mono tracking-wider font-semibold">
+            DDP · CIF · ECTA 0% Duty · REACH Annex XVII
+          </span>
+        </div>
+
+        <div className="flex flex-wrap gap-2.5 pt-1">
+          <Link
+            href="/en-us"
+            className="text-[11px] font-mono bg-white hover:bg-cognac hover:text-white border border-charcoal/15 px-3 py-1.5 transition-all text-charcoal-700 shadow-2xs inline-flex items-center gap-1.5"
+          >
+            <span>🇺🇸</span>
+            <span>USA Sourcing Portal (DDP / Prop 65)</span>
+          </Link>
+          <Link
+            href="/en-gb"
+            className="text-[11px] font-mono bg-white hover:bg-cognac hover:text-white border border-charcoal/15 px-3 py-1.5 transition-all text-charcoal-700 shadow-2xs inline-flex items-center gap-1.5"
+          >
+            <span>🇬🇧</span>
+            <span>UK &amp; British Brands Hub (REACH / SEDEX)</span>
+          </Link>
+          <Link
+            href="/en-au"
+            className="text-[11px] font-mono bg-white hover:bg-cognac hover:text-white border border-charcoal/15 px-3 py-1.5 transition-all text-charcoal-700 shadow-2xs inline-flex items-center gap-1.5"
+          >
+            <span>🇦🇺</span>
+            <span>Australia &amp; NZ Sourcing (ECTA 0% Duty)</span>
+          </Link>
+          <Link
+            href="/de"
+            className="text-[11px] font-mono bg-white hover:bg-cognac hover:text-white border border-charcoal/15 px-3 py-1.5 transition-all text-charcoal-700 shadow-2xs inline-flex items-center gap-1.5"
+          >
+            <span>🇩🇪</span>
+            <span>Deutschland B2B Lederwaren Manufaktur</span>
+          </Link>
+          <Link
+            href="/fr"
+            className="text-[11px] font-mono bg-white hover:bg-cognac hover:text-white border border-charcoal/15 px-3 py-1.5 transition-all text-charcoal-700 shadow-2xs inline-flex items-center gap-1.5"
+          >
+            <span>🇫🇷</span>
+            <span>France &amp; Europe Maroquinerie de Luxe</span>
+          </Link>
+        </div>
+      </div>
+
+      {/* 3. Deep Taxonomy Search Directory */}
       <div className="space-y-6 pt-4 border-t border-charcoal/8">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <span className="text-[11px] uppercase tracking-[0.2em] font-bold text-charcoal font-mono">
