@@ -24,6 +24,20 @@ export const metadata: Metadata = {
     url: `https://www.uniconleather.com${market.path}`,
     type: "website",
     locale: "en_AU",
+    images: [
+      {
+        url: "https://www.uniconleather.com/images/home-hero-leather.jpg",
+        width: 1200,
+        height: 630,
+        alt: `${market.countryName} - UNICON LEATHER`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: market.metaTitle,
+    description: market.metaDescription,
+    images: ["https://www.uniconleather.com/images/home-hero-leather.jpg"],
   },
   keywords: market.keywords,
 };
