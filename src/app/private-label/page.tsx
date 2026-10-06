@@ -19,6 +19,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { BulkInquiryForm } from "@/components/forms/BulkInquiryForm";
+import { TechPackWorkflow } from "@/components/ui/TechPackWorkflow";
 import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
@@ -310,6 +311,9 @@ export default function PrivateLabelPage() {
 
       {/* 5. Inquiry Form (Pure White) */}
       <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16" id="inquiry">
+        {/* Fast-Track Tech Pack SLA Workflow */}
+        <TechPackWorkflow className="mb-14" />
+
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
           <div className="lg:col-span-5 space-y-6">
             <Badge variant="cognac" size="sm">

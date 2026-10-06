@@ -38,6 +38,7 @@ import { MovingPanelsShowcase } from "@/components/home/MovingPanelsShowcase";
 import { NewProductDevelopmentShowcase } from "@/components/home/NewProductDevelopmentShowcase";
 import { Hero } from "@/components/home/Hero";
 import { Accordion } from "@/components/ui/Accordion";
+import { TechPackWorkflow } from "@/components/ui/TechPackWorkflow";
 import { JsonLdScript, generateFaqSchema } from "@/components/seo/JsonLdScript";
 
 export default function HomePage() {
@@ -626,6 +627,9 @@ export default function HomePage() {
 
       {/* 8. PRIMARY CONVERSION INQUIRY SECTION */}
       <section className="w-full bg-white px-6 sm:px-10 lg:px-14 xl:px-16" id="inquiry">
+        {/* Fast-Track Tech Pack SLA Workflow */}
+        <TechPackWorkflow className="mb-14" />
+
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
           <div className="lg:col-span-5 space-y-6">
             <span className="text-cognac uppercase tracking-[0.2em] text-xs font-mono font-medium block">
