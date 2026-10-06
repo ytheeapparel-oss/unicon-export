@@ -1063,6 +1063,82 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "california prop 65 compliant leather manufacturer",
       "low moq custom leather manufacturer worldwide"
     ]
+  },
+  {
+    category: "Indian Regional Leather Manufacturing Hubs & Exporters",
+    description: "Search queries targeting key production clusters across India including Kolkata, Kanpur, Chennai, Ranipet, Ambur, Dharavi Mumbai, Noida, and Agra.",
+    keywords: [
+      "leather goods manufacturer in india",
+      "leather goods export company india",
+      "certified leather exporters india",
+      "leather manufacturers in kolkata",
+      "leather goods exporters in kanpur",
+      "leather shoe manufacturers chennai",
+      "leather goods manufacturers ranipet ambur",
+      "leather goods supplier dharavi mumbai",
+      "leather product manufacturers noida / agra"
+    ]
+  },
+  {
+    category: "OEM, ODM & Custom Contract Leather Manufacturers India",
+    description: "High-intent B2B search terms for private-label production, custom development, small batch prototyping, and low MOQ brand launching in India.",
+    keywords: [
+      "custom leather goods manufacturer india",
+      "private label leather manufacturer india",
+      "OEM leather manufacturers india",
+      "ODM leather goods supplier india",
+      "genuine leather manufacturers in india",
+      "bulk leather goods supplier india",
+      "wholesale leather products manufacturer india",
+      "small leather goods manufacturers in india",
+      "luxury leather goods manufacturer india",
+      "low MOQ leather goods manufacturer india",
+      "small batch custom leather production india",
+      "start a leather brand manufacturer india"
+    ]
+  },
+  {
+    category: "Product-Specific Leather Goods Sourcing India",
+    description: "Targeted queries for bags, wallets, belts, jackets, footwear, corporate gifts, equestrian tack, and protective gloves from Indian factories.",
+    keywords: [
+      "leather bag manufacturers in india",
+      "custom leather wallet manufacturer india",
+      "leather belt manufacturer supplier india",
+      "leather footwear manufacturers india",
+      "leather jacket manufacturer and exporter india",
+      "leather handbag supplier wholesale india",
+      "leather travel bags manufacturer india",
+      "leather laptop bag manufacturer india",
+      "leather corporate gifts manufacturer india",
+      "equestrian leather goods manufacturer india",
+      "industrial leather gloves manufacturer india"
+    ]
+  },
+  {
+    category: "Asian Leather Sourcing & Global Factory Comparisons",
+    description: "Strategic queries comparing manufacturing hubs across Asia including India, China, Vietnam, Bangladesh, and Southeast Asia.",
+    keywords: [
+      "leather goods manufacturers in asia",
+      "leather goods sourcing agents asia",
+      "best leather manufacturers in asia",
+      "leather factories in vietnam vs india",
+      "leather goods manufacturer bangladesh",
+      "OEM leather factory china vs india",
+      "southeast asia leather goods suppliers",
+      "low cost leather goods manufacturing asia"
+    ]
+  },
+  {
+    category: "Certified Sustainable & Compliance-Grade Leather Manufacturing India",
+    description: "Audited production queries for LWG Gold/Silver, SEDEX ethical, EU REACH compliant, vegetable-tanned, and full-grain leather goods.",
+    keywords: [
+      "sustainable leather goods manufacturer india",
+      "vegetable tanned leather goods manufacturer india",
+      "LWG certified leather goods manufacturer india (Leather Working Group)",
+      "SEDEX audited leather factory india",
+      "REACH compliant leather manufacturers india",
+      "full grain leather goods suppliers india"
+    ]
   }
 ];
 
