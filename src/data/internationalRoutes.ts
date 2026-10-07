@@ -404,4 +404,86 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       "reach compliant leather bag manufacturer",
     ],
   },
+  "en-ca": {
+    code: "en-ca",
+    locale: "en-CA",
+    countryName: "Canada",
+    flag: "🇨🇦",
+    currency: "CAD",
+    currencySymbol: "CA$",
+    path: "/en-ca",
+    metaTitle: "Leather Goods Manufacturer for Canadian Brands | OEM Export",
+    metaDescription:
+      "Premier leather goods exporter for Canadian retailers. LWG certified, low MOQs, rapid sampling & direct DDP sea/air delivery to Toronto, Montreal & Vancouver.",
+    heroKicker: "Canada & North American Sourcing Hub · FOB & DDP Delivery",
+    heroH1: "Custom Leather Goods Manufacturer & Exporter for Canadian Brands",
+    heroSubtitle:
+      "Direct contract manufacturing and private label atelier for Canadian fashion houses, retailers, and boutique designers. LWG-certified partner tanneries, cold-resistant finishing, low 100-piece MOQs, and end-to-end DDP delivery across Toronto, Vancouver, Montreal, and Calgary.",
+    complianceBadges: [
+      { title: "LWG Gold Audited", subtitle: "Full-Grain Traceable Leather Supply" },
+      { title: "CBSA Customs Cleared", subtitle: "Seamless DDP Shipping Across Canada" },
+      { title: "Prop 65 & REACH", subtitle: "Certified Non-Toxic Chemical Testing" },
+      { title: "Low 100 MOQ", subtitle: "Flexible Scaling for Emerging Labels" },
+    ],
+    tradeHighlights: [
+      {
+        label: "DDP Freight to Canada",
+        value: "Toronto & Vancouver",
+        desc: "Ocean and air freight routed through Port of Vancouver, Montreal, and Toronto Pearson international hubs with all duties handled.",
+      },
+      {
+        label: "Tariff & Customs Entry",
+        value: "CBSA Compliant",
+        desc: "Pre-filed commercial invoicing, HS Code 4202/4203 classification, and automated CBSA import clearance.",
+      },
+      {
+        label: "Prototype Turnaround",
+        value: "7 to 10 Days",
+        desc: "Rapid CAD pattern drafting and physical counter-samples shipped directly via DHL/FedEx Express.",
+      },
+      {
+        label: "Weather-Resistant Finish",
+        value: "Cold-Crack Tested",
+        desc: "Supple, drum-dyed full-grain leathers and edge lacquers formulated to resist extreme winter climate variations.",
+      },
+    ],
+    popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags"],
+    faqs: [
+      {
+        question: "What is your Minimum Order Quantity (MOQ) for Canadian brands and retailers?",
+        answer:
+          "Our standard production MOQ is 100 units per style for large leather goods (totes, backpacks, and messenger bags) and 200 to 250 units for small leather goods (wallets, cardholders, and passport sleeves). Multi-colorway batching is supported to minimize inventory risk for Canadian boutique launches.",
+      },
+      {
+        question: "How do you manage DDP shipping and CBSA customs clearance into Canada?",
+        answer:
+          "We offer comprehensive Delivered Duty Paid (DDP) logistics directly to Canadian business addresses. We coordinate ocean container arrivals into Vancouver or Montreal, or air cargo into Toronto Pearson (YYZ), handling all CBSA customs declarations, GST/HST filing, and truckload delivery directly to your warehouse.",
+      },
+      {
+        question: "How quickly can you deliver physical prototype samples to Toronto or Vancouver?",
+        answer:
+          "Physical counter-sample development takes 7 to 10 business days following tech-pack and leather swatch confirmation. Samples are dispatched via DHL Express or FedEx Priority, arriving in major Canadian metropolitan hubs in 3 to 4 business days. Sample fees are 100% credited back toward your final bulk production order.",
+      },
+      {
+        question: "Are your leather goods tested and compliant with Canadian and North American safety standards?",
+        answer:
+          "Yes. 100% of our leather hides are sourced from Leather Working Group (LWG) audited partner tanneries. All finished goods comply with the Canada Consumer Product Safety Act (CCPSA), EU REACH Annex XVII, and California Proposition 65 (lead-free, cadmium-free, and phthalate-safe). Full third-party SGS or Intertek lab reports are supplied upon request.",
+      },
+      {
+        question: "What payment terms and currencies do you support for Canadian procurement teams?",
+        answer:
+          "We accommodate payments in both CAD ($) and USD ($). Standard OEM export terms are 30% advance deposit upon sample sign-off and 70% balance prior to final dispatch against verified bill of lading and AQL 2.5 inspection reports. Irrevocable Letters of Credit (L/C at sight) are supported for container-load volumes.",
+      },
+    ],
+    keywords: [
+      "leather goods manufacturer for canadian brands",
+      "custom leather goods manufacturer canada",
+      "private label leather bags manufacturer low moq canada",
+      "leather goods exporter to toronto vancouver",
+      "oem leather bag factory in asia for canada",
+      "leather wallet manufacturer canada low moq",
+      "ddp shipping to canada leather manufacturer",
+      "genuine leather goods supplier canada wholesale",
+    ],
+  },
 };

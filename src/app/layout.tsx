@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     canonical: "https://www.uniconleather.com",
     languages: {
       "en-US": "https://www.uniconleather.com/en-us",
+      "en-CA": "https://www.uniconleather.com/en-ca",
       "en-GB": "https://www.uniconleather.com/en-gb",
       "en-AU": "https://www.uniconleather.com/en-au",
       "de-DE": "https://www.uniconleather.com/de",
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    alternateLocale: ["en_GB", "de_DE", "fr_FR", "it_IT", "es_ES"],
+    alternateLocale: ["en_GB", "en_CA", "de_DE", "fr_FR", "it_IT", "es_ES"],
     url: "https://www.uniconleather.com",
     siteName: "UNICON LEATHER",
     title: "UNICON LEATHER | Leather Goods Manufacturer & Global OEM Bags Exporter",

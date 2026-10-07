@@ -38,6 +38,16 @@ const nextConfig = {
         destination: '/craftsmanship',
         permanent: true,
       },
+      {
+        source: '/export-usa',
+        destination: '/en-us',
+        permanent: true,
+      },
+      {
+        source: '/export-canada',
+        destination: '/en-ca',
+        permanent: true,
+      },
     ];
   },
   async rewrites() {

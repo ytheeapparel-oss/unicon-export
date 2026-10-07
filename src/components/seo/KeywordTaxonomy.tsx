@@ -52,6 +52,13 @@ export function KeywordTaxonomy() {
             <span>USA Sourcing Portal (DDP / Prop 65)</span>
           </Link>
           <Link
+            href="/en-ca"
+            className="text-[11px] font-mono bg-white hover:bg-cognac hover:text-white border border-charcoal/15 px-3 py-1.5 transition-all text-charcoal-700 shadow-2xs inline-flex items-center gap-1.5"
+          >
+            <span>🇨🇦</span>
+            <span>Canada Sourcing Portal (CBSA / DDP Freight)</span>
+          </Link>
+          <Link
             href="/en-gb"
             className="text-[11px] font-mono bg-white hover:bg-cognac hover:text-white border border-charcoal/15 px-3 py-1.5 transition-all text-charcoal-700 shadow-2xs inline-flex items-center gap-1.5"
           >

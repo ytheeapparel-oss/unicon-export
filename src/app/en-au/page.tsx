@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     canonical: `https://www.uniconleather.com${market.path}`,
     languages: {
       "en-US": "https://www.uniconleather.com/en-us",
+      "en-CA": "https://www.uniconleather.com/en-ca",
       "en-GB": "https://www.uniconleather.com/en-gb",
       "en-AU": "https://www.uniconleather.com/en-au",
       "de-DE": "https://www.uniconleather.com/de",
