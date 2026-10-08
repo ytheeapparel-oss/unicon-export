@@ -48,6 +48,11 @@ const nextConfig = {
         destination: '/en-ca',
         permanent: true,
       },
+      {
+        source: '/global-export',
+        destination: '/export',
+        permanent: true,
+      },
     ];
   },
   async rewrites() {
