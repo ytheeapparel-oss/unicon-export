@@ -52,12 +52,17 @@ export function BulkInquiryForm({
     setSubmitError(null);
     let success = false;
 
+    const finalCustomization = attachedFileName
+      ? `${data.customizationRequirements ? `${data.customizationRequirements}\n` : ""}[Tech Pack / Reference File: ${attachedFileName}]`
+      : data.customizationRequirements || "";
+
     try {
       const res = await fetch("/api/inquiries", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...data,
+          customizationRequirements: finalCustomization,
           inquiryType: data.inquiryType || inquiryType || "bulk",
           productSlug: data.productSlug || initialProduct || null,
         }),
@@ -81,7 +86,7 @@ export function BulkInquiryForm({
           required_quantity: data.requiredQuantity || "Standard MOQ",
           target_price_range: data.targetPriceRange || null,
           expected_delivery_date: data.expectedDeliveryDate || null,
-          customization_requirements: data.customizationRequirements || "",
+          customization_requirements: finalCustomization,
           message: data.message || "",
           inquiry_type: data.inquiryType || inquiryType || "bulk",
           product_slug: data.productSlug || initialProduct || null,

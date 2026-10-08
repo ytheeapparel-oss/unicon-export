@@ -40,8 +40,6 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: [
-      "https://www.uniconleather.com/sitemap.xml",
-      "https://www.uniconleather.com/pages-sitemap.xml",
       "https://www.uniconleather.com/sitemap_index.xml",
     ],
     host: "https://www.uniconleather.com",

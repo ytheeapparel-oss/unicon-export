@@ -17,6 +17,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
+import { COMPANY_INFO } from "@/data/company";
 
 export const metadata: Metadata = {
   title: "About Us | Luxury Leather Goods Manufacturer & Exporter",
@@ -71,7 +72,7 @@ export default function AboutPage() {
 
               <div className="inline-flex items-center gap-2.5 mt-1">
                 <span className="bg-cognac text-white text-[10px] sm:text-xs font-mono font-medium tracking-widest uppercase px-3 py-1 rounded-none shadow-xs">
-                  Indian Leather Atelier · Est. 1998
+                  Indian Leather Atelier · Est. {COMPANY_INFO.establishedYear}
                 </span>
                 <span className="text-[10px] sm:text-xs text-charcoal-500 font-mono tracking-widest uppercase font-medium">
                   Global B2B Exporter
