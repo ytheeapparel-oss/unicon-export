@@ -43,9 +43,9 @@ export function Hero() {
             Leather Goods Manufacturer India &amp; <span className="italic text-cognac font-light">Private Label Atelier</span>
           </h1>
 
-          {/* Keyword-Rich Subtitle */}
+          {/* Authoritative B2B Subtitle */}
           <p className="text-sm sm:text-base lg:text-lg text-charcoal-700 leading-relaxed font-light max-w-2xl bg-white/60 sm:bg-transparent backdrop-blur-xs sm:backdrop-blur-none p-2 sm:p-0 rounded-xs">
-            Custom leather goods manufacturer India and premier leather bags manufacturer India. We offer complete OEM leather goods manufacturer capabilities, leather handbags manufacturer India, RFID wallets, belts, and wholesale leather bags India for international fashion brands and buying houses.
+            Dedicated Indian contract manufacturer and registered exporter of handcrafted genuine leather bags, wallets, belts, and luxury accessories. Low 100-piece MOQs, LWG audited partner tanneries, rapid 7-day counter-sampling, and direct DDP export to USA, UK, and European brands.
           </p>
 
           {/* Action CTAs */}

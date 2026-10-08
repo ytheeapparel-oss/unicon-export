@@ -107,6 +107,15 @@ export function BulkInquiryForm({
     setIsSubmitting(false);
 
     if (success) {
+      if (typeof window !== "undefined" && (window as any).gtag) {
+        (window as any).gtag("event", "generate_lead", {
+          event_category: "B2B Sourcing RFQ",
+          event_label: data.inquiryType || inquiryType || "bulk",
+          value: data.requiredQuantity || "100-300",
+          currency: "USD",
+        });
+      }
+
       setSubmitSuccess(true);
       reset();
 
