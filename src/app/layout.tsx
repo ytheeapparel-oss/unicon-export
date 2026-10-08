@@ -21,11 +21,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.uniconleather.com"),
   title: {
-    default: "UNICON LEATHER | Leather Goods Manufacturer & Worldwide Leather Supplier | OEM & Custom Factory",
+    default: "UNICON LEATHER | Leather Bags Manufacturer India & OEM Private Label Factory",
     template: "%s | UNICON LEATHER",
   },
   description:
-    "Leading global leather goods manufacturer, leather goods supplier in USA, and worldwide private label exporter. Custom OEM/ODM factory for luxury handbags, wallets, belts & small leather goods with low MOQs, rapid prototyping, and direct DDP delivery.",
+    "Leading leather goods and bag manufacturer in India, exporter to USA, UK, and European brands. Custom OEM/ODM factory for luxury handbags, totes, duffels, wallets & belts with low 100-pc MOQs, rapid prototyping, and direct DDP delivery.",
   alternates: {
     canonical: "https://www.uniconleather.com",
     languages: {
@@ -39,14 +39,18 @@ export const metadata: Metadata = {
     },
   },
   keywords: [
-    "leather goods manufacturer India",
+    "leather bags manufacturer India",
     "private label leather bags manufacturer",
-    "custom leather goods manufacturer",
-    "OEM leather goods supplier",
+    "custom leather bag manufacturing",
+    "OEM leather bag manufacturer",
+    "leather handbag manufacturer India",
+    "leather bag manufacturer Kolkata",
+    "low MOQ leather bag manufacturer",
     "leather goods exporter India",
-    "custom leather wallet manufacturer",
-    "leather belt manufacturer India",
-    "wholesale leather products India",
+    "wholesale leather bags supplier",
+    "leather tote bag manufacturer",
+    "leather laptop bag manufacturer",
+    "leather duffel bag manufacturer",
   ],
   authors: [{ name: "UNICON LEATHER Export Desk" }],
   creator: "UNICON LEATHER",

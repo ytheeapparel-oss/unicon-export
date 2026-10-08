@@ -1146,3 +1146,33 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
 export const ALL_SEO_KEYWORDS: string[] = Array.from(
   new Set(SEO_KEYWORD_CLUSTERS.flatMap((cluster) => cluster.keywords))
 );
+
+export interface B2BKeywordCandidate {
+  keyword: string;
+  intent: string;
+  rationale: string;
+}
+
+export const TOP_20_B2B_KEYWORDS: B2BKeywordCandidate[] = [
+  { keyword: "leather bags manufacturer India", intent: "Commercial / Discovery", rationale: "Core national export anchor for international brands seeking India supply chain diversification." },
+  { keyword: "custom leather bag manufacturing", intent: "Transactional / Specification", rationale: "Targets fashion founders with tech packs/CAD specifications requiring bespoke tooling." },
+  { keyword: "private label leather bags manufacturer", intent: "Commercial / White-Label", rationale: "Attracts boutiques and retailers seeking branded collections with custom debossing & hardware." },
+  { keyword: "OEM leather bag manufacturer", intent: "Transactional / Contract", rationale: "Captures established brands with completed Bills of Materials (BOM) seeking contract execution." },
+  { keyword: "leather bag manufacturer Kolkata", intent: "Direct Factory Sourcing", rationale: "Validates direct factory operations at Calcutta Leather Complex, Bantala, Kolkata." },
+  { keyword: "low MOQ leather bag manufacturer", intent: "Commercial / Trial Order", rationale: "Directly matches UNICON's accessible 100-piece bag MOQ for independent and growing labels." },
+  { keyword: "leather handbag manufacturer India", intent: "Commercial / Category Specific", rationale: "Core category anchor for women's luxury satchels, day bags, and fashion silhouettes." },
+  { keyword: "wholesale leather bags supplier", intent: "Transactional / Volume Buyer", rationale: "Department stores and wholesale distributors sourcing finished silhouettes in volume." },
+  { keyword: "leather tote bag manufacturer", intent: "Transactional / Silhouette Specific", rationale: "High-volume utility category matching UNICON's raw-edge, zip-top, and jacquard totes." },
+  { keyword: "leather laptop bag manufacturer", intent: "Commercial / Corporate Executive", rationale: "High-value business market for padded device cases, executive briefcases, and folios." },
+  { keyword: "leather duffel bag manufacturer", intent: "Commercial / Travel Gear", rationale: "Travel luggage sourcing for weekenders, gym holdalls, and pull-up leather bags." },
+  { keyword: "leather backpack manufacturer", intent: "Commercial / Commuter & Heritage", rationale: "Commuter tech backpacks and heritage bridle rucksacks with ergonomic straps." },
+  { keyword: "leather goods exporter India", intent: "Trade / Procurement", rationale: "Primary query used by international trading companies and procurement agents." },
+  { keyword: "leather bag sampling service", intent: "Transactional / R&D", rationale: "Early conversion trigger for sampling prototypes (7-14 day express turnaround)." },
+  { keyword: "leather bags with custom logo", intent: "Transactional / Customization", rationale: "Bespoke debossing, foil stamping, laser engraving, and custom packaging." },
+  { keyword: "vegetable tanned leather bags manufacturer", intent: "Material / Luxury Heritage", rationale: "Qualifies buyers seeking Tuscan-style mimosa/chestnut tanned bovine leather." },
+  { keyword: "full grain leather bag manufacturer", intent: "Quality / Premium Tier", rationale: "Filters out cheap PU/bonded leather queries; captures top-grain luxury buyers." },
+  { keyword: "leather goods manufacturer West Bengal", intent: "Regional Validation", rationale: "Authenticates facility location in West Bengal's designated leather export cluster." },
+  { keyword: "private label leather bags for USA brands", intent: "International Trade Flow", rationale: "Largest export market; leverages direct DDP air and ocean container corridors." },
+  { keyword: "leather bags exporter to UK", intent: "International Trade Flow", rationale: "Connects UK designers with REACH Annex XVII tested, nickel-free production." },
+];
+
