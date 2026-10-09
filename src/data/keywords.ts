@@ -1304,6 +1304,10 @@ export const PRIORITY_B2B_KEYWORD_TIERS: PriorityB2BKeywordTier[] = [
     description: "Core high-intent B2B search queries for custom, private label, and OEM leather bag manufacturing partners in India.",
     targetPages: ["/", "/leather-bags-manufacturer-india", "/private-label", "/oem-leather-goods-manufacturer"],
     keywords: [
+      "leather goods manufacturer in India",
+      "leather product manufacturing",
+      "leather factory in India",
+      "leather production factory India",
       "leather bag manufacturers in India",
       "leather bags manufacturer India",
       "best leather bag manufacturers in india",
@@ -1322,6 +1326,9 @@ export const PRIORITY_B2B_KEYWORD_TIERS: PriorityB2BKeywordTier[] = [
     description: "High-volume wholesale purchasing, bulk supply, export contracts, and custom logo bulk manufacturing.",
     targetPages: ["/wholesale-leather-goods", "/products", "/leather-goods-exporter-india", "/export"],
     keywords: [
+      "wholesale leather handbags",
+      "wholesale leather handbags suppliers",
+      "bulk leather handbag supply",
       "wholesale leather bags India",
       "bulk leather bag suppliers India",
       "leather bag exporters India",

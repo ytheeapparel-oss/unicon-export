@@ -85,6 +85,10 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     targetKeywords: [
       "leather bag manufacturers in India",
       "leather bags manufacturer India",
+      "custom leather bag manufacturers",
+      "custom leather bag manufacturing",
+      "leather factory in India",
+      "leather production factory India",
       "best leather bag manufacturers in india",
       "luxury leather bag manufacturers in india",
       "top leather bag manufacturers in india",
@@ -158,9 +162,12 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "leather handbags manufacturers",
+      "leather purses manufacturers",
+      "leather handbags manufacturer India",
+      "custom leather handbag manufacturers in India",
       "high end leather handbags Italy USA",
       "leather handbag manufacturers India",
-      "leather handbags manufacturer India",
       "leather tote bag manufacturers India",
       "leather sling bag manufacturers India",
       "custom leather bag manufacturers India",
@@ -305,6 +312,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "leather belt manufacturers",
+      "leather belt manufacturers in India",
+      "private label leather belts",
       "leather belt manufacturer India",
       "leather belt manufacturer",
       "custom leather belts factory",
@@ -495,6 +505,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "private label leather products",
+      "luxury leather products",
+      "private label leather manufacturing",
       "private label leather goods manufacturer",
       "private label leather goods",
       "private label leather bags India",
@@ -617,6 +630,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "custom leather products manufacturer",
+      "custom leather manufacturing",
+      "OEM custom leather manufacturing",
       "Italian leather goods manufacturer partnership in USA",
       "custom leather goods manufacturer India",
       "custom leather goods manufacturer",
@@ -679,6 +695,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "wholesale leather handbags",
+      "wholesale leather handbags suppliers",
+      "bulk leather handbag supply",
       "wholesale leather bags India",
       "bulk leather bag suppliers India",
       "leather bag exporters India",
@@ -746,6 +765,8 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     targetKeywords: [
       "leather goods exporter India",
       "leather goods exporter",
+      "leather product exporter India",
+      "leather goods manufacturer in India exporting globally",
       "Indian leather goods exporter",
       "leather products export house India",
       "leather bags exporter India"
@@ -1337,6 +1358,8 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "export leather jackets from India to UK",
       "export leather jackets from India to Japan",
       "leather jacket manufacturer",
+      "leather jackets manufacturing",
+      "leather apparel manufacturing",
       "leather jacket manufacturers in india",
       "custom leather jacket manufacturer",
       "private label leather jacket manufacturer",

@@ -190,6 +190,24 @@ We evaluated 14 prospective export destinations against buyer demand, tariff str
 
 ---
 
+### 1.3 Core Manufacturing & Export Keywords Linking Map (Avish Global Sourcing Comparison)
+
+| Keyword Group | Target Keywords Identified | Competitor Supporting Page | Verified UNICON LEATHER Supporting Page | Implementation & Link Architecture |
+|---|---|---|---|---|
+| **General manufacturing** | `leather goods manufacturer`<br>`leather goods manufacturer in India`<br>`leather product manufacturing` | `avishglobal.com/` | [`/`](/) & [`/leather-goods-manufacturer`](/leather-goods-manufacturer) | Main homepage hero, root schema Organization, and dedicated global leather goods manufacturer pillar. |
+| **Asian manufacturing** | `leather manufacturers in Asia`<br>`leather goods manufacturer in Asia` | `avishglobal.com/leather-manufacturers-asia` | [`/leather-goods-supplier-asia`](/leather-goods-supplier-asia) | Pan-Asian sourcing hub highlighting China+1 diversification, low MOQs, and India cost/tariff advantages. |
+| **Factory searches** | `leather factory in India`<br>`leather production factory India` | `avishglobal.com/leather-factory-india` | [`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india) & [`/about`](/about) | Real Kolkata Bantala factory infrastructure, master cutting ateliers, and CLE export credentials. |
+| **Export** | `leather goods exporter`<br>`leather product exporter India`<br>`leather goods manufacturer in India exporting globally` | `avishglobal.com/leather-goods-exporter-india` | [`/leather-goods-exporter-india`](/leather-goods-exporter-india) & [`/export`](/export) | Full Incoterms support (DDP, CIF, FOB), Certificate of Origin, and customs tariff HS 4202 compliance. |
+| **Custom products** | `custom leather products manufacturer`<br>`custom leather manufacturing`<br>`OEM custom leather manufacturing` | `avishglobal.com/custom-leather-products` | [`/custom-leather-goods-manufacturer`](/custom-leather-goods-manufacturer) & [`/oem-leather-goods-manufacturer`](/oem-leather-goods-manufacturer) | End-to-end bespoke product engineering from CAD sketch/tech pack to hardware die fabrication. |
+| **Custom bags** | `custom leather bag manufacturers`<br>`custom leather handbag manufacturers in India` | `avishglobal.com/custom-leather-bag-manufacturers` | [`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india) & [`/leather-handbags-manufacturer-india`](/leather-handbags-manufacturer-india) | Dedicated bag silhouettes: structured satchels, totes, laptop cases, and travel holdalls. |
+| **Handbags and purses** | `leather handbags manufacturers`<br>`leather purses manufacturers`<br>`leather handbags manufacturer India` | `avishglobal.com/leather-handbags-manufacturer-india` | [`/leather-handbags-manufacturer-india`](/leather-handbags-manufacturer-india) & [`/products?category=Leather+Handbags`](/products?category=Leather+Handbags) | Fine French and Italian calf nappa, magnetic closures, and luxury turned-edge purse constructions. |
+| **Wholesale** | `wholesale leather handbags`<br>`wholesale leather handbags suppliers`<br>`bulk leather handbag supply` | `avishglobal.com/wholesale-leather-handbags` | [`/wholesale-leather-goods`](/wholesale-leather-goods) & [`/products`](/products) | Tiered wholesale volume pricing, 100-pc entry MOQs, and multi-colorway batching. |
+| **Private labels** | `private label leather products`<br>`luxury leather products`<br>`private label leather manufacturing` | `avishglobal.com/private-label-leather-products` | [`/private-label-leather-goods`](/private-label-leather-goods) & [`/luxury-leather-goods-manufacturer`](/luxury-leather-goods-manufacturer) | White-label archive collections, confidential NDAs, custom debossed branding, and retail packaging. |
+| **Belts** | `leather belt manufacturers`<br>`leather belt manufacturers in India`<br>`private label leather belts` | `avishglobal.com/leather-belt-manufacturers` | [`/leather-belt-manufacturer-india`](/leather-belt-manufacturer-india) & [`/products?category=Leather+Belts`](/products?category=Leather+Belts) | 3.5mm–4.0mm full-grain bridle belts, feather-edge dress belts, and nickel-free solid brass buckles. |
+| **Jackets** | `leather jacket manufacturer`<br>`leather jackets manufacturing`<br>`leather apparel manufacturing` | `avishglobal.com/leather-jacket-manufacturer` | [`/leather-jacket-manufacturer-india`](/leather-jacket-manufacturer-india) | Custom lambskin and bovine leather outerwear, graded size charts (XS–3XL), and REACH compliant dyes. |
+
+---
+
 ### 2. Comprehensive International Keyword Mapping Matrix
 
 | Keyword Group | Country & Lang | Buyer Intent | Destination URL | Primary Topic & Supporting Phrases | Data Source & Confidence | Business Relevance |
