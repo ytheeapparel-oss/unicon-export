@@ -55,6 +55,35 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     ]
   },
   {
+    category: "Factory Services, Private Label & Quality Control (Benchmark)",
+    description: "Enterprise factory services, custom leather craftsmanship, private label manufacturing, precision branding, and international leather quality control standards.",
+    keywords: [
+      "leather goods manufacturer in India",
+      "leather company in India",
+      "leather exporter",
+      "leather manufacturing company",
+      "manufacturer of leather goods",
+      "luxury leather goods manufacturer",
+      "luxury designer leather products",
+      "custom leather products manufacturer",
+      "custom leather work",
+      "custom leather maker",
+      "private label leather goods",
+      "private label leather manufacturer",
+      "private label leather products manufacturer",
+      "custom embossed leather",
+      "leather laser engraving",
+      "brand logo embossing",
+      "leather factory",
+      "leather workshop",
+      "leather manufacturing services",
+      "leather maker in India",
+      "leather quality control",
+      "leather quality standards",
+      "quality control in leather industry"
+    ]
+  },
+  {
     category: "Highest Priority: Bulk Purchasing & Export",
     description: "Wholesale purchasing, bulk bag supply, customs export documentation, and custom logo bulk manufacturing.",
     keywords: [

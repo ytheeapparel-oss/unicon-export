@@ -15,16 +15,16 @@ import { COMPANY_INFO } from "@/data/company";
 import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
-  title: "Quality Control, Certifications & Compliance | AQL 2.5 Standards",
+  title: "Leather Quality Control & Standards | Quality Control in Leather Industry | UNICON LEATHER",
   description:
-    "Quality control protocols, laboratory testing capabilities, EU REACH Annex XVII, California Proposition 65 compliance, and LWG partner tanneries at UNICON LEATHER.",
+    "Rigorous leather quality control protocols, AQL 2.5 defect standards, quality control in leather industry exports, EU REACH Annex XVII, and California Prop 65 compliance at UNICON LEATHER.",
   alternates: {
     canonical: "https://www.uniconleather.com/compliance",
   },
   openGraph: {
-    title: "Quality Control, Certifications & Compliance | UNICON LEATHER",
+    title: "Leather Quality Control & Standards | Quality Control in Leather Industry | UNICON LEATHER",
     description:
-      "AQL 2.5 quality control, EU REACH Annex XVII, California Proposition 65 testing, and LWG Gold audited tanneries for global brand export.",
+      "AQL 2.5 leather quality control, EU REACH Annex XVII, California Proposition 65 testing, and LWG Gold audited tanneries for global brand export.",
     url: "https://www.uniconleather.com/compliance",
     type: "website",
     images: [
@@ -103,7 +103,7 @@ export default function CompliancePage() {
             </h1>
 
             <p className="text-sm sm:text-base text-charcoal/70 leading-relaxed font-light max-w-2xl">
-              We operate under rigorous international quality frameworks. From raw hide tensile testing and 4-stage in-line audits to AQL 2.5 pre-shipment inspections and EU REACH chemical verifications.
+              Setting international leather quality standards for global brands. From raw hide tensile testing and 4-stage in-line audits to strict AQL 2.5 pre-shipment inspections, our factory delivers verified quality control in the leather industry compliant with EU REACH Annex XVII and California Prop 65.
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">

@@ -524,7 +524,12 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "private label leather goods",
       "private label leather bags India",
       "custom branded leather manufacturer",
-      "private label leather goods India"
+      "private label leather goods India",
+      "private label leather manufacturer",
+      "private label leather products manufacturer",
+      "custom embossed leather",
+      "leather laser engraving",
+      "brand logo embossing"
     ]
   },
 
@@ -664,7 +669,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "custom leather goods manufacturer",
       "bespoke leather manufacturer",
       "custom leather production India",
-      "custom leather bags factory"
+      "custom leather bags factory",
+      "custom leather work",
+      "custom leather maker"
     ]
   },
 
@@ -1175,7 +1182,13 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather goods manufacturer overseas",
       "leather goods manufacturer near me",
       "leather goods factory direct",
-      "global leather goods manufacturer"
+      "global leather goods manufacturer",
+      "leather company in India",
+      "leather manufacturing company",
+      "leather factory",
+      "leather workshop",
+      "leather manufacturing services",
+      "leather maker in India"
     ]
   },
 
@@ -1245,7 +1258,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "french edge painted leather goods factory",
       "saddle stitched leather goods manufacturer",
       "fine leather goods manufacturer",
-      "luxury small leather goods manufacturer"
+      "luxury small leather goods manufacturer",
+      "manufacturer of leather goods",
+      "luxury designer leather products"
     ]
   },
 
