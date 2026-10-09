@@ -343,6 +343,25 @@ Comprehensive keyword mapping for corporate bags, executive device carry, promot
 
 ---
 
+### 1.12 Corporate Merchandise, Tech, Stationery, Awards & Festive Hampers Link Map
+
+Comprehensive keyword mapping for corporate gift categories, promotional merchandise, executive stationery, tech giveaways, trophies, and festive celebrations:
+
+| Category | Target Keywords Identified | Verified UNICON LEATHER Destination URL | Strategic SEO & Operational Alignment |
+|---|---|---|---|
+| **Bags** | `corporate backpacks`<br>`executive bags`<br>`branded duffle bags`<br>`trolley bags`<br>`crossbody bags`<br>`promotional paper bags` | [`/products`](/products)<br>[`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india)<br>[`/wholesale-leather-goods`](/wholesale-leather-goods) | Enterprise executive bags, commuter laptop backpacks, wheeled travel trolley luggage, and luxury branded presentation shopping bags. |
+| **Stationery** | `corporate diaries`<br>`customized notebooks`<br>`branded diaries`<br>`diary gift sets` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/products?category=Corporate+Gifts`](/products?category=Corporate+Gifts) | Refillable full-grain leather bound journals, hardbound corporate diaries, calendar planners, and foil-embossed notebook gift bundles. |
+| **Pens** | `promotional pens`<br>`customized metal pens`<br>`pen gift sets`<br>`wooden pen sets` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/products?category=Corporate+Gifts`](/products?category=Corporate+Gifts) | Rollerball and fountain pens in bespoke leather single/double pen sleeves, custom laser-engraved barrels, and wooden executive gift presentation boxes. |
+| **Technology** | `corporate tech gifts`<br>`branded power banks`<br>`customized pen drives`<br>`Bluetooth speaker gifts`<br>`mobile accessories` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/custom-leather-goods-manufacturer`](/custom-leather-goods-manufacturer) | Leather-wrapped executive power banks, OTG metal/leather USB drives, desktop Bluetooth speakers with leather carry straps, and wireless charging mats. |
+| **Drinkware** | `branded water bottles`<br>`corporate flasks`<br>`customized sippers`<br>`flask gift sets` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/products?category=Corporate+Gifts`](/products?category=Corporate+Gifts) | Stainless steel double-wall insulated vacuum flasks, leather sleeve drinkware sets, customized corporate sippers, and executive hydration sets. |
+| **Desk accessories** | `branded mouse pads`<br>`corporate calendars`<br>`pen holders`<br>`paperweights`<br>`visiting card holders`<br>`desk clocks` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/products?category=Small+Leather+Goods`](/products?category=Small+Leather+Goods) | Executive desktop suites: hand-burnished leather desk mats, stitch-creased mouse pads, weighted pen cups, brass/leather paperweights, and business card caddies. |
+| **Apparel** | `corporate T-shirts`<br>`promotional caps`<br>`branded jackets`<br>`customized polo shirts` | [`/leather-jacket-manufacturer-india`](/leather-jacket-manufacturer-india)<br>[`/contact`](/contact) | Premium corporate outerwear jackets, embroidered uniform polos, employee milestone apparel, and branded trade expo baseball caps. |
+| **Awards** | `trophy manufacturers`<br>`corporate awards`<br>`acrylic trophies`<br>`crystal trophies`<br>`metal trophies`<br>`wooden trophies`<br>`medals` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/contact`](/contact) | Annual corporate recognition awards, employee long-service trophies, custom metal medallions with leather presentation cases, and engraved acrylic plaques. |
+| **Festive products** | `Diwali gift hampers`<br>`corporate Diwali gifts`<br>`New Year gift sets`<br>`pooja gift sets`<br>`diya gift sets` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/products?category=Corporate+Gifts`](/products?category=Corporate+Gifts) | Curated festive gift assemblies: bespoke leather sweet/dry-fruit boxes, brass diya sets in velvet-lined leather cases, and corporate New Year hampers. |
+| **Home & lifestyle** | `lunch box gifts`<br>`household gifts`<br>`photo frames`<br>`wall clocks`<br>`aroma diffusers`<br>`car accessories` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/craftsmanship`](/craftsmanship) | Lifestyle corporate gifting: handcrafted leather picture frames, aromatherapy diffusers, luxury leather car key covers, and vehicle document pouches. |
+
+---
+
 ### 2. Comprehensive International Keyword Mapping Matrix
 
 | Keyword Group | Country & Lang | Buyer Intent | Destination URL | Primary Topic & Supporting Phrases | Data Source & Confidence | Business Relevance |
