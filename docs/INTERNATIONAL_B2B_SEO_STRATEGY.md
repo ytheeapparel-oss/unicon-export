@@ -327,6 +327,22 @@ Comprehensive keyword mapping targeting enterprise corporate gifting, HR welcome
 
 ---
 
+### 1.11 Corporate Leather Bags, Executive Accessories & Branding Link Map
+
+Comprehensive keyword mapping for corporate bags, executive device carry, promotional leather merchandise, and bespoke corporate branding solutions:
+
+| Group | Target Keywords Identified | Verified UNICON LEATHER Destination URL | Strategic SEO & Operational Alignment |
+|---|---|---|---|
+| **Leather bags** | `leather bags manufacturer in Delhi`<br>`wholesale leather bags India`<br>`corporate leather bags supplier`<br>`bulk leather bags`<br>`customized leather bags` | [`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india)<br>[`/wholesale-leather-goods`](/wholesale-leather-goods)<br>[`/`](/) | Dedicated contract bag manufacturing for Delhi NCR corporate clients and national bulk wholesale buyers. |
+| **Office bags** | `leather office bags`<br>`corporate laptop bags`<br>`executive briefcases`<br>`leather laptop bags wholesale` | [`/products?category=Laptop+%26+Business+Bags`](/products?category=Laptop+%26+Business+Bags)<br>[`/wholesale-leather-goods`](/wholesale-leather-goods) | Padded tech sleeves for 14"/16" MacBooks, structured gusseted briefcases, dual compartment organizers, and wholesale corporate volume supply. |
+| **Other bags** | `leather backpacks`<br>`leather duffle bags`<br>`leather messenger bags`<br>`leather sling bags`<br>`ladies leather handbags` | [`/products`](/products)<br>[`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india)<br>[`/leather-handbags-manufacturer-india`](/leather-handbags-manufacturer-india) | Full catalog silhouetting: commuter backpacks, weekend travel holdalls, crossbody messengers, hands-free slings, and elegant women's totes/handbags. |
+| **Leather gifting** | `leather corporate gifts`<br>`leather gift sets`<br>`executive leather gifts`<br>`customized leather gifts` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/products?category=Corporate+Gifts`](/products?category=Corporate+Gifts) | Curated executive presentation bundles: matching leather journals, card cases, key fobs, and tech sleeves in bespoke gift boxes. |
+| **Office accessories** | `leather folders`<br>`corporate leather folders`<br>`leather organisers` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/products?category=Small+Leather+Goods`](/products?category=Small+Leather+Goods) | Executive conference folios, A4 document folders, magnetic closure organizers, and refillable desk stationery. |
+| **Travel accessories** | `leather passport holders`<br>`customized passport holders`<br>`corporate travel gifts` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/products?category=Small+Leather+Goods`](/products?category=Small+Leather+Goods) | Premium frequent-flyer travel accessories: RFID-shielded passport cases, personalized embossed initials, and corporate milestone travel gifts. |
+| **Branding** | `logo embossed leather bags`<br>`custom branded leather gifts`<br>`promotional leather bags` | [`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india)<br>[`/custom-leather-goods-manufacturer`](/custom-leather-goods-manufacturer)<br>[`/private-label-leather-goods`](/private-label-leather-goods) | High-definition brand logo application: blind heat debossing, metallic gold foil stamping, custom-cast metal zipper pullers, and promotional event tote bags. |
+
+---
+
 ### 2. Comprehensive International Keyword Mapping Matrix
 
 | Keyword Group | Country & Lang | Buyer Intent | Destination URL | Primary Topic & Supporting Phrases | Data Source & Confidence | Business Relevance |

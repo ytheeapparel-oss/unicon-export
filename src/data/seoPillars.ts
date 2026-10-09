@@ -114,7 +114,14 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather drawstring backpacks",
       "leather trolley bags",
       "leather doctor bags",
-      "leather fanny packs"
+      "leather fanny packs",
+      "leather bags manufacturer in Delhi",
+      "corporate leather bags supplier",
+      "bulk leather bags",
+      "customized leather bags",
+      "logo embossed leather bags",
+      "custom branded leather gifts",
+      "promotional leather bags"
     ]
   },
 
@@ -533,7 +540,20 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "corporate gift suppliers Chennai",
       "corporate gifts India",
       "corporate gift manufacturers India",
-      "corporate gifts suppliers India"
+      "corporate gifts suppliers India",
+      "leather office bags",
+      "corporate laptop bags",
+      "executive briefcases",
+      "leather laptop bags wholesale",
+      "leather corporate gifts",
+      "leather gift sets",
+      "executive leather gifts",
+      "customized leather gifts",
+      "leather folders",
+      "corporate leather folders",
+      "leather passport holders",
+      "customized passport holders",
+      "corporate travel gifts"
     ]
   },
 

@@ -285,6 +285,39 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     ]
   },
   {
+    category: "Corporate Leather Bags, Executive Accessories & Logo Branding (Benchmark)",
+    description: "Sourcing queries across custom leather bags in Delhi, corporate laptop bags, executive briefcases, customized leather gifts, corporate folders, passport travel gifts, and logo embossed promotional bags.",
+    keywords: [
+      "leather bags manufacturer in Delhi",
+      "wholesale leather bags India",
+      "corporate leather bags supplier",
+      "bulk leather bags",
+      "customized leather bags",
+      "leather office bags",
+      "corporate laptop bags",
+      "executive briefcases",
+      "leather laptop bags wholesale",
+      "leather backpacks",
+      "leather duffle bags",
+      "leather messenger bags",
+      "leather sling bags",
+      "ladies leather handbags",
+      "leather corporate gifts",
+      "leather gift sets",
+      "executive leather gifts",
+      "customized leather gifts",
+      "leather folders",
+      "corporate leather folders",
+      "leather organisers",
+      "leather passport holders",
+      "customized passport holders",
+      "corporate travel gifts",
+      "logo embossed leather bags",
+      "custom branded leather gifts",
+      "promotional leather bags"
+    ]
+  },
+  {
     category: "Highest Priority: Bulk Purchasing & Export",
     description: "Wholesale purchasing, bulk bag supply, customs export documentation, and custom logo bulk manufacturing.",
     keywords: [
