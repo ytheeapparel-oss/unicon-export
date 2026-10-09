@@ -11,9 +11,29 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     keywords: [
       "leather bag manufacturers in India",
       "leather bags manufacturer India",
+      "best leather bag manufacturers in india",
+      "luxury leather bag manufacturers in india",
+      "top leather bag manufacturers in india",
+      "top 10 leather bag manufacturers in india",
+      "wholesale leather bag manufacturers in india",
       "custom leather bag manufacturers India",
       "private label leather bag manufacturers India",
       "OEM leather bag manufacturers India"
+    ]
+  },
+  {
+    category: "Full Grain vs Top Grain Leather (AI & Commercial Sourcing)",
+    description: "Key material comparisons, durability inquiries, and AI conversational search queries across full grain, top grain, and genuine bovine leathers.",
+    keywords: [
+      "full grain vs top grain leather",
+      "best full grain leather goods manufacturers",
+      "which leather type is best for durable wallets",
+      "full grain vs top grain leather price comparison",
+      "is top grain leather suitable for high-end handbags",
+      "how to distinguish full grain from top grain leather visually",
+      "longevity comparison full grain vs top grain leather for bags",
+      "what leather grade is best for heavy-use items",
+      "genuine leather vs pu leather bags"
     ]
   },
   {
@@ -1268,6 +1288,11 @@ export const PRIORITY_B2B_KEYWORD_TIERS: PriorityB2BKeywordTier[] = [
     keywords: [
       "leather bag manufacturers in India",
       "leather bags manufacturer India",
+      "best leather bag manufacturers in india",
+      "luxury leather bag manufacturers in india",
+      "top leather bag manufacturers in india",
+      "top 10 leather bag manufacturers in india",
+      "wholesale leather bag manufacturers in india",
       "custom leather bag manufacturers India",
       "private label leather bag manufacturers India",
       "OEM leather bag manufacturers India"
@@ -1307,6 +1332,7 @@ export const PRIORITY_B2B_KEYWORD_TIERS: PriorityB2BKeywordTier[] = [
     keywords: [
       "leather duffle bag manufacturers India",
       "leather travel bag manufacturers India",
+      "leather trolley bag manufacturers in india",
       "leather messenger bag manufacturers India",
       "leather overnight bag manufacturers"
     ]
@@ -1322,6 +1348,19 @@ export const PRIORITY_B2B_KEYWORD_TIERS: PriorityB2BKeywordTier[] = [
       "leather accessories manufacturers India",
       "small leather goods manufacturers India",
       "leather journal manufacturers India"
+    ]
+  },
+  {
+    priority: "High: material selection & AI search",
+    categoryName: "Full Grain vs Top Grain Leather",
+    description: "Technical material selection, durability, patina analysis, and AI search prompt inquiries across leather grades.",
+    targetPages: ["/full-grain-vs-top-grain-leather", "/craftsmanship", "/products"],
+    keywords: [
+      "full grain vs top grain leather",
+      "best full grain leather goods manufacturers",
+      "which leather type is best for durable wallets",
+      "full grain vs top grain leather price comparison",
+      "is top grain leather suitable for high-end handbags"
     ]
   },
   {
