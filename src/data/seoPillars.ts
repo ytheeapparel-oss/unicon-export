@@ -83,11 +83,18 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "leather bag manufacturers in India",
       "leather bags manufacturer India",
-      "leather bag manufacturer India",
-      "leather bag supplier India",
+      "custom leather bag manufacturers India",
+      "private label leather bag manufacturers India",
+      "OEM leather bag manufacturers India",
       "wholesale leather bags India",
-      "custom leather bags factory India"
+      "bulk leather bag suppliers India",
+      "leather bag exporters India",
+      "leather bag manufacturers for brands",
+      "custom logo leather bags bulk",
+      "low MOQ leather bag manufacturers India",
+      "small batch leather bag manufacturing"
     ]
   },
 
@@ -144,9 +151,12 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "leather handbag manufacturers India",
       "leather handbags manufacturer India",
-      "leather handbag manufacturer India",
-      "custom handbag manufacturer India",
+      "leather tote bag manufacturers India",
+      "leather sling bag manufacturers India",
+      "custom leather bag manufacturers India",
+      "leather bag manufacturers for brands",
       "private label handbag factory",
       "luxury leather handbag supplier"
     ]
@@ -205,7 +215,11 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "leather wallet manufacturers India",
       "leather wallet manufacturer India",
+      "leather passport holder manufacturers",
+      "small leather goods manufacturers India",
+      "leather journal manufacturers India",
       "leather wallet manufacturer",
       "leather wallet supplier",
       "wholesale leather wallets supplier",
@@ -344,11 +358,16 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "leather accessories manufacturers India",
       "leather accessories manufacturer India",
-      "leather accessories manufacturer",
-      "custom leather accessories supplier",
-      "small leather goods factory India",
-      "corporate leather gifting manufacturer"
+      "small leather goods manufacturers India",
+      "corporate leather gift manufacturers India",
+      "custom leather gift sets bulk",
+      "leather laptop bags for corporate gifting",
+      "personalized leather accessories wholesale",
+      "leather passport holder manufacturers",
+      "leather journal manufacturers India",
+      "custom leather accessories supplier"
     ]
   },
 
@@ -649,11 +668,15 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "wholesale leather bags India",
+      "bulk leather bag suppliers India",
+      "leather bag exporters India",
+      "leather bag manufacturers for brands",
+      "custom logo leather bags bulk",
       "wholesale leather goods",
       "wholesale leather goods manufacturer",
-      "bulk leather bags India",
-      "wholesale leather bags India",
-      "wholesale leather wallet supplier"
+      "handmade leather bags wholesale",
+      "personalized leather accessories wholesale"
     ]
   },
 
@@ -1214,6 +1237,11 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "low MOQ leather bag manufacturers India",
+      "small batch leather bag manufacturing",
+      "leather bag manufacturers for startups",
+      "premium leather goods manufacturing",
+      "handmade leather bags wholesale",
       "low MOQ leather goods manufacturer",
       "small batch leather goods manufacturer",
       "small batch leather manufacturing",

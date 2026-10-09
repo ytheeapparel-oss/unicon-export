@@ -134,7 +134,21 @@ We evaluated 14 prospective export destinations against buyer demand, tariff str
 
 ## D. Buyer-Intent Keyword Strategy & Prioritized Keyword Map
 
-### 1. Prioritized Keyword Map
+### 1. Priority B2B Sourcing Keyword Tiers (Direct Intent Classification)
+
+| Priority Tier | Target Keyword Cluster | Primary Destination Page | Strategic Intent & Operational Focus |
+|---|---|---|---|
+| **Highest: Manufacturing Enquiries** | `leather bag manufacturers in India`<br>`leather bags manufacturer India`<br>`custom leather bag manufacturers India`<br>`private label leather bag manufacturers India`<br>`OEM leather bag manufacturers India` | `/leather-bags-manufacturer-india`<br>`/`<br>`/private-label` | Direct contract manufacturing, CAD tech pack execution, prototype counter-sampling, and full OEM atelier services. |
+| **Highest: Bulk Purchasing** | `wholesale leather bags India`<br>`bulk leather bag suppliers India`<br>`leather bag exporters India`<br>`leather bag manufacturers for brands`<br>`custom logo leather bags bulk` | `/wholesale-leather-goods`<br>`/export`<br>`/products` | Volume wholesale purchasing, department store orders, container logistics, custom logo branding, and export customs clearance. |
+| **High: Product-Specific Manufacturing** | `leather handbag manufacturers India`<br>`leather tote bag manufacturers India`<br>`leather laptop bag manufacturers India`<br>`leather backpack manufacturers India`<br>`leather sling bag manufacturers India` | `/leather-handbags-manufacturer-india`<br>`/products/leather-handbags`<br>`/products/tote-bags`<br>`/products/laptop-and-business-bags`<br>`/products/backpacks` | Category-level sourcing for women's luxury satchels, utility shopper totes, padded device cases, and commuter backpacks. |
+| **High: Travel Products** | `leather duffle bag manufacturers India`<br>`leather travel bag manufacturers India`<br>`leather messenger bag manufacturers India`<br>`leather overnight bag manufacturers` | `/products/travel-bags`<br>`/products/artisan-travel-duffels`<br>`/products/laptop-and-business-bags` | Heavy-duty travel gear, IATA carry-on compliant weekender duffels, Crazy Horse pull-up leathers, and executive messenger bags. |
+| **High: Accessories & Small Goods** | `leather wallet manufacturers India`<br>`leather passport holder manufacturers`<br>`leather accessories manufacturers India`<br>`small leather goods manufacturers India`<br>`leather journal manufacturers India` | `/leather-wallet-manufacturer-india`<br>`/small-leather-goods-manufacturer`<br>`/leather-accessories-manufacturer-india` | High-tolerance small leather goods (0.4mm skiving), RFID-blocking travel wallets, passport organizers, and bespoke journals. |
+| **Conditional: Production Requirements** | `low MOQ leather bag manufacturers India`<br>`small batch leather bag manufacturing`<br>`leather bag manufacturers for startups`<br>`handmade leather bags wholesale`<br>`premium leather goods manufacturing` | `/low-moq-leather-goods-manufacturer`<br>`/craftsmanship`<br>`/luxury-leather-goods-manufacturer` | Accessible 100-piece bag MOQs, multi-colorway batching across shared hides, startup brand incubation, and artisan benchcraft. |
+| **Conditional: Corporate Gifting** | `corporate leather gift manufacturers India`<br>`custom leather gift sets bulk`<br>`leather laptop bags for corporate gifting`<br>`personalized leather accessories wholesale` | `/leather-accessories-manufacturer-india`<br>`/products/laptop-and-business-bags`<br>`/contact` | Debossed corporate gifting sets, branded executive desk merchandise, laptop portfolios, and bulk personalized leather accessories. |
+
+---
+
+### 2. Comprehensive International Keyword Mapping Matrix
 
 | Keyword Group | Country & Lang | Buyer Intent | Destination URL | Primary Topic & Supporting Phrases | Data Source & Confidence | Business Relevance |
 |---|---|---|---|---|---|---|

@@ -6,6 +6,81 @@ export interface KeywordCluster {
 
 export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
   {
+    category: "Highest Priority: Manufacturing Enquiries",
+    description: "Core high-intent B2B search queries for leather bag manufacturing partners, OEM factories, and private label ateliers in India.",
+    keywords: [
+      "leather bag manufacturers in India",
+      "leather bags manufacturer India",
+      "custom leather bag manufacturers India",
+      "private label leather bag manufacturers India",
+      "OEM leather bag manufacturers India"
+    ]
+  },
+  {
+    category: "Highest Priority: Bulk Purchasing & Export",
+    description: "Wholesale purchasing, bulk bag supply, customs export documentation, and custom logo bulk manufacturing.",
+    keywords: [
+      "wholesale leather bags India",
+      "bulk leather bag suppliers India",
+      "leather bag exporters India",
+      "leather bag manufacturers for brands",
+      "custom logo leather bags bulk"
+    ]
+  },
+  {
+    category: "High Priority: Product-Specific Bag Manufacturing",
+    description: "Specialized silhouette contract manufacturing for handbags, totes, laptop briefcases, backpacks, and sling bags.",
+    keywords: [
+      "leather handbag manufacturers India",
+      "leather tote bag manufacturers India",
+      "leather laptop bag manufacturers India",
+      "leather backpack manufacturers India",
+      "leather sling bag manufacturers India"
+    ]
+  },
+  {
+    category: "High Priority: Travel & Commuter Products",
+    description: "Luggage, weekenders, duffels, executive messenger bags, and overnight travel holdalls.",
+    keywords: [
+      "leather duffle bag manufacturers India",
+      "leather travel bag manufacturers India",
+      "leather messenger bag manufacturers India",
+      "leather overnight bag manufacturers"
+    ]
+  },
+  {
+    category: "High Priority: Accessories & Small Leather Goods",
+    description: "Turned-edge wallets, passport cases, journals, and handcrafted small leather goods.",
+    keywords: [
+      "leather wallet manufacturers India",
+      "leather passport holder manufacturers",
+      "leather accessories manufacturers India",
+      "small leather goods manufacturers India",
+      "leather journal manufacturers India"
+    ]
+  },
+  {
+    category: "Conditional Priority: Production Requirements & Low MOQ",
+    description: "Flexible production volumes, accessible 100-pc MOQs, startup brand development, and premium handmade wholesale.",
+    keywords: [
+      "low MOQ leather bag manufacturers India",
+      "small batch leather bag manufacturing",
+      "leather bag manufacturers for startups",
+      "handmade leather bags wholesale",
+      "premium leather goods manufacturing"
+    ]
+  },
+  {
+    category: "Conditional Priority: Corporate Gifting & Custom Merchandise",
+    description: "Bespoke corporate gifting sets, debossed executive accessories, and personalized leather laptop bags in bulk.",
+    keywords: [
+      "corporate leather gift manufacturers India",
+      "custom leather gift sets bulk",
+      "leather laptop bags for corporate gifting",
+      "personalized leather accessories wholesale"
+    ]
+  },
+  {
     category: "Primary B2B Manufacturing & Export Hub",
     description: "Highest-priority search queries for genuine leather goods manufacturers, OEM factories, and exporters in India, Noida, and Delhi NCR.",
     keywords: [
@@ -1175,4 +1250,105 @@ export const TOP_20_B2B_KEYWORDS: B2BKeywordCandidate[] = [
   { keyword: "private label leather bags for USA brands", intent: "International Trade Flow", rationale: "Largest export market; leverages direct DDP air and ocean container corridors." },
   { keyword: "leather bags exporter to UK", intent: "International Trade Flow", rationale: "Connects UK designers with REACH Annex XVII tested, nickel-free production." },
 ];
+
+export interface PriorityB2BKeywordTier {
+  priority: string;
+  categoryName: string;
+  description: string;
+  targetPages: string[];
+  keywords: string[];
+}
+
+export const PRIORITY_B2B_KEYWORD_TIERS: PriorityB2BKeywordTier[] = [
+  {
+    priority: "Highest: manufacturing enquiries",
+    categoryName: "Manufacturing Enquiries India",
+    description: "Core high-intent B2B search queries for custom, private label, and OEM leather bag manufacturing partners in India.",
+    targetPages: ["/", "/leather-bags-manufacturer-india", "/private-label", "/oem-leather-goods-manufacturer"],
+    keywords: [
+      "leather bag manufacturers in India",
+      "leather bags manufacturer India",
+      "custom leather bag manufacturers India",
+      "private label leather bag manufacturers India",
+      "OEM leather bag manufacturers India"
+    ]
+  },
+  {
+    priority: "Highest: bulk purchasing",
+    categoryName: "Bulk Purchasing & Export",
+    description: "High-volume wholesale purchasing, bulk supply, export contracts, and custom logo bulk manufacturing.",
+    targetPages: ["/wholesale-leather-goods", "/products", "/leather-goods-exporter-india", "/export"],
+    keywords: [
+      "wholesale leather bags India",
+      "bulk leather bag suppliers India",
+      "leather bag exporters India",
+      "leather bag manufacturers for brands",
+      "custom logo leather bags bulk"
+    ]
+  },
+  {
+    priority: "High: product-specific manufacturing",
+    categoryName: "Product-Specific Bag Manufacturing",
+    description: "Category-focused manufacturing queries for handbags, totes, laptop cases, backpacks, and sling bags.",
+    targetPages: ["/leather-handbags-manufacturer-india", "/products/leather-handbags", "/products/tote-bags", "/products/laptop-and-business-bags", "/products/backpacks"],
+    keywords: [
+      "leather handbag manufacturers India",
+      "leather tote bag manufacturers India",
+      "leather laptop bag manufacturers India",
+      "leather backpack manufacturers India",
+      "leather sling bag manufacturers India"
+    ]
+  },
+  {
+    priority: "High: travel products",
+    categoryName: "Travel & Commuter Bags",
+    description: "Heavy-duty luggage, weekender duffles, travel bags, and executive messenger satchels.",
+    targetPages: ["/products/travel-bags", "/products/laptop-and-business-bags"],
+    keywords: [
+      "leather duffle bag manufacturers India",
+      "leather travel bag manufacturers India",
+      "leather messenger bag manufacturers India",
+      "leather overnight bag manufacturers"
+    ]
+  },
+  {
+    priority: "High: accessories, if offered",
+    categoryName: "Small Leather Goods & Accessories",
+    description: "Turned-edge wallets, passport covers, journals, and handcrafted small leather goods.",
+    targetPages: ["/leather-wallet-manufacturer-india", "/small-leather-goods-manufacturer", "/leather-accessories-manufacturer-india"],
+    keywords: [
+      "leather wallet manufacturers India",
+      "leather passport holder manufacturers",
+      "leather accessories manufacturers India",
+      "small leather goods manufacturers India",
+      "leather journal manufacturers India"
+    ]
+  },
+  {
+    priority: "Conditional: production requirements",
+    categoryName: "Production Requirements & Low MOQ",
+    description: "Flexible production thresholds, low MOQ runs (100 pcs), startup brand development, and premium handmade wholesale.",
+    targetPages: ["/low-moq-leather-goods-manufacturer", "/craftsmanship", "/luxury-leather-goods-manufacturer"],
+    keywords: [
+      "low MOQ leather bag manufacturers India",
+      "small batch leather bag manufacturing",
+      "leather bag manufacturers for startups",
+      "handmade leather bags wholesale",
+      "premium leather goods manufacturing"
+    ]
+  },
+  {
+    priority: "Conditional: corporate gifting",
+    categoryName: "Corporate Gifting & Custom Merchandise",
+    description: "Executive desk merchandise, custom corporate gift sets, branded laptop sleeves, and personalized accessories.",
+    targetPages: ["/leather-accessories-manufacturer-india", "/products/laptop-and-business-bags", "/contact"],
+    keywords: [
+      "corporate leather gift manufacturers India",
+      "custom leather gift sets bulk",
+      "leather laptop bags for corporate gifting",
+      "personalized leather accessories wholesale"
+    ]
+  }
+];
+
 
