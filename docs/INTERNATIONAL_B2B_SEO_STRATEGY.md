@@ -293,6 +293,22 @@ Comprehensive keyword mapping for custom apparel, hide tannages, pet accessories
 
 ---
 
+### 1.9 Corporate Gifting, Employee Welcome Kits & Promotional Merchandise Link Map
+
+Comprehensive keyword mapping for corporate gifting manufacturers, customized company merchandise, employee onboarding welcome kits, executive gifting sets, and eco-friendly corporate items:
+
+| Group | Target Keywords Identified | Verified UNICON LEATHER Destination URL | Strategic SEO & Operational Alignment |
+|---|---|---|---|
+| **Core business** | `corporate gifts`<br>`corporate gifting company`<br>`corporate gift manufacturers`<br>`corporate gift suppliers`<br>`corporate gift vendors`<br>`corporate gifts wholesale` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/wholesale-leather-goods`](/wholesale-leather-goods)<br>[`/contact`](/contact) | Direct B2B manufacturer supply for domestic and multinational corporate procurement teams, HR departments, and event agencies. |
+| **Customization** | `customized corporate gifts`<br>`corporate gifts with logo`<br>`branded corporate gifts`<br>`personalized corporate gifts`<br>`logo printing on gifts` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/custom-leather-goods-manufacturer`](/custom-leather-goods-manufacturer) | Precision company branding options: sharp blind heat debossing, metallic gold/silver foil stamping, high-contrast screen printing, and custom laser engraving. |
+| **Bulk purchasing** | `bulk corporate gifts`<br>`wholesale corporate gifts India`<br>`bulk promotional gifts`<br>`corporate gifting solutions` | [`/wholesale-leather-goods`](/wholesale-leather-goods)<br>[`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india) | Tiered factory-direct bulk pricing, low 100-pc entry MOQs for custom corporate capsules, rapid sample turnaround, and single-invoice pan-India & global delivery. |
+| **Employee gifting** | `employee welcome kits`<br>`employee onboarding kits`<br>`employee engagement gifts`<br>`employee appreciation gifts` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/products?category=Corporate+Gifts`](/products?category=Corporate+Gifts) | Curated corporate onboarding kits: premium leather laptop sleeves, executive journals, matching cardholders, and branded key fobs in rigid gift boxes. |
+| **Executive gifting** | `premium corporate gifts`<br>`luxury executive gifts`<br>`executive gift sets`<br>`premium business gifts` | [`/luxury-leather-goods-manufacturer`](/luxury-leather-goods-manufacturer)<br>[`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india) | Haute-tier executive gifting: full-grain Italian calf leather tech portfolios, bespoke desk blotter sets, handcrafted travel watch rolls, and champagne leather carriers. |
+| **Promotional campaigns** | `promotional gifts`<br>`promotional giveaways`<br>`branded merchandise`<br>`customized promotional products` | [`/wholesale-leather-goods`](/wholesale-leather-goods)<br>[`/contact`](/contact) | High-volume corporate giveaways for global trade expos, summits, shareholder AGMs, and client milestone appreciations. |
+| **Sustainable products** | `eco-friendly corporate gifts`<br>`sustainable corporate gifts`<br>`jute gifts`<br>`cork gift items` | [`/compliance`](/compliance)<br>[`/craftsmanship`](/craftsmanship) | LWG Gold-certified chrome-free veg-tan leather, organic GOTS cotton packaging, natural cork trims, and eco-conscious biodegradable gift assemblies. |
+
+---
+
 ### 2. Comprehensive International Keyword Mapping Matrix
 
 | Keyword Group | Country & Lang | Buyer Intent | Destination URL | Primary Topic & Supporting Phrases | Data Source & Confidence | Business Relevance |

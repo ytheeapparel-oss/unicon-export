@@ -220,6 +220,43 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     ]
   },
   {
+    category: "Corporate Gifting, Employee Welcome Kits & Promotional Merchandise (Benchmark)",
+    description: "B2B commercial inquiries for bulk corporate gifting suppliers, branded employee onboarding kits, executive luxury gifts, promotional merchandise, logo printing, and sustainable gifting solutions.",
+    keywords: [
+      "corporate gifts",
+      "corporate gifting company",
+      "corporate gift manufacturers",
+      "corporate gift suppliers",
+      "corporate gift vendors",
+      "corporate gifts wholesale",
+      "customized corporate gifts",
+      "corporate gifts with logo",
+      "branded corporate gifts",
+      "personalized corporate gifts",
+      "logo printing on gifts",
+      "bulk corporate gifts",
+      "wholesale corporate gifts India",
+      "bulk promotional gifts",
+      "corporate gifting solutions",
+      "employee welcome kits",
+      "employee onboarding kits",
+      "employee engagement gifts",
+      "employee appreciation gifts",
+      "premium corporate gifts",
+      "luxury executive gifts",
+      "executive gift sets",
+      "premium business gifts",
+      "promotional gifts",
+      "promotional giveaways",
+      "branded merchandise",
+      "customized promotional products",
+      "eco-friendly corporate gifts",
+      "sustainable corporate gifts",
+      "jute gifts",
+      "cork gift items"
+    ]
+  },
+  {
     category: "Highest Priority: Bulk Purchasing & Export",
     description: "Wholesale purchasing, bulk bag supply, customs export documentation, and custom logo bulk manufacturing.",
     keywords: [
