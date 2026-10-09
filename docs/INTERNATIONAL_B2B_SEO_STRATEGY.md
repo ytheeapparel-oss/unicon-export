@@ -241,6 +241,22 @@ Benchmark analysis of competitor True Trident Leather keyword clusters, mapped t
 
 ---
 
+### 1.6 Bag Silhouettes, Work Bags & Custom Manufacturing Link Map
+
+Comprehensive keyword mapping for core bag manufacturing, custom production, private label collections, work bags, fashion silhouettes, backpacks, and travel luggage:
+
+| Keyword Group | Target Keywords Identified | Verified UNICON LEATHER Destination URL | Strategic SEO & Operational Alignment |
+|---|---|---|---|
+| **Main manufacturing** | `leather bags manufacturer`<br>`leather bags manufacturer in India`<br>`leather handbags manufacturer`<br>`women’s leather handbags manufacturer in India` | [`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india)<br>[`/leather-handbags-manufacturer-india`](/leather-handbags-manufacturer-india)<br>[`/`](/) | Primary authority for Indian contract bag manufacturing, women's luxury handbag silhouettes, and certified export capability. |
+| **Custom production** | `custom leather bags manufacturer`<br>`custom leather handbags manufacturer`<br>`custom made leather bags`<br>`leather bag makers` | [`/custom-leather-goods-manufacturer`](/custom-leather-goods-manufacturer)<br>[`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india) | Bespoke leather bag engineering from tech pack CAD drawings, physical counter-sample prototypes, and artisan maker benchwork. |
+| **Private labels** | `private label leather bags`<br>`private label leather handbags`<br>`private label bag manufacturer` | [`/private-label-leather-goods`](/private-label-leather-goods)<br>[`/private-label`](/private-label) | Turnkey private-label collections, blind debossing, custom lining hardware, and shelf-ready retail packaging under strict NDAs. |
+| **Work bags** | `leather laptop bags`<br>`leather messenger bags`<br>`leather satchel bags`<br>`leather briefcases` | [`/products?category=Laptop+%26+Business+Bags`](/products?category=Laptop+%26+Business+Bags)<br>[`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india) | Dedicated executive device carry: padded 16-inch laptop sleeves, structured satchels, document dividers, and commuter messenger bags. |
+| **Fashion bags** | `leather shoulder bags`<br>`leather tote bags`<br>`leather hobo bags`<br>`leather saddle bags`<br>`leather bucket bags`<br>`leather fringe bags` | [`/leather-handbags-manufacturer-india`](/leather-handbags-manufacturer-india)<br>[`/products?category=Leather+Handbags`](/products?category=Leather+Handbags)<br>[`/products?category=Tote+Bags`](/products?category=Tote+Bags) | Contemporary fashion silhouettes: slouchy hobos, equestrian saddle bags, structured bucket bags, bohemian fringe bags, and classic shopper totes. |
+| **Backpacks** | `leather backpacks`<br>`leather rucksacks`<br>`leather sling backpacks`<br>`leather drawstring backpacks` | [`/products?category=Backpacks`](/products?category=Backpacks)<br>[`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india) | Ergonomic commuter backpacks, vintage heritage rucksacks, single-strap sling backpacks, and soft cinch drawstring packs. |
+| **Travel and other** | `leather duffle bags`<br>`leather trolley bags`<br>`leather doctor bags`<br>`leather fanny packs` | [`/products?category=Travel+Bags`](/products?category=Travel+Bags)<br>[`/wholesale-leather-goods`](/wholesale-leather-goods) | IATA carry-on compliant weekender duffels, wheeled trolley luggage, vintage framed doctor bags, and hands-free luxury belt bags / fanny packs. |
+
+---
+
 ### 2. Comprehensive International Keyword Mapping Matrix
 
 | Keyword Group | Country & Lang | Buyer Intent | Destination URL | Primary Topic & Supporting Phrases | Data Source & Confidence | Business Relevance |

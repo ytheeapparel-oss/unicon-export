@@ -84,6 +84,41 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     ]
   },
   {
+    category: "Main Bag Silhouettes, Work Bags & Custom Manufacturing (Benchmark)",
+    description: "Sourcing queries across main leather bag manufacturing, custom production, private label collections, executive work bags, fashion silhouettes, backpacks, and travel luggage.",
+    keywords: [
+      "leather bags manufacturer",
+      "leather bags manufacturer in India",
+      "leather handbags manufacturer",
+      "women’s leather handbags manufacturer in India",
+      "custom leather bags manufacturer",
+      "custom leather handbags manufacturer",
+      "custom made leather bags",
+      "leather bag makers",
+      "private label leather bags",
+      "private label leather handbags",
+      "private label bag manufacturer",
+      "leather laptop bags",
+      "leather messenger bags",
+      "leather satchel bags",
+      "leather briefcases",
+      "leather shoulder bags",
+      "leather tote bags",
+      "leather hobo bags",
+      "leather saddle bags",
+      "leather bucket bags",
+      "leather fringe bags",
+      "leather backpacks",
+      "leather rucksacks",
+      "leather sling backpacks",
+      "leather drawstring backpacks",
+      "leather duffle bags",
+      "leather trolley bags",
+      "leather doctor bags",
+      "leather fanny packs"
+    ]
+  },
+  {
     category: "Highest Priority: Bulk Purchasing & Export",
     description: "Wholesale purchasing, bulk bag supply, customs export documentation, and custom logo bulk manufacturing.",
     keywords: [

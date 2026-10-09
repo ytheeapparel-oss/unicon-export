@@ -105,7 +105,16 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather bag manufacturers for brands",
       "custom logo leather bags bulk",
       "low MOQ leather bag manufacturers India",
-      "small batch leather bag manufacturing"
+      "small batch leather bag manufacturing",
+      "leather bags manufacturer",
+      "leather bag makers",
+      "custom made leather bags",
+      "leather rucksacks",
+      "leather sling backpacks",
+      "leather drawstring backpacks",
+      "leather trolley bags",
+      "leather doctor bags",
+      "leather fanny packs"
     ]
   },
 
@@ -173,7 +182,17 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "custom leather bag manufacturers India",
       "leather bag manufacturers for brands",
       "private label handbag factory",
-      "luxury leather handbag supplier"
+      "luxury leather handbag supplier",
+      "leather handbags manufacturer",
+      "women’s leather handbags manufacturer in India",
+      "custom leather handbags manufacturer",
+      "private label leather handbags",
+      "leather shoulder bags",
+      "leather tote bags",
+      "leather hobo bags",
+      "leather saddle bags",
+      "leather bucket bags",
+      "leather fringe bags"
     ]
   },
 
@@ -529,7 +548,10 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "private label leather products manufacturer",
       "custom embossed leather",
       "leather laser engraving",
-      "brand logo embossing"
+      "brand logo embossing",
+      "private label leather bags",
+      "private label leather handbags",
+      "private label bag manufacturer"
     ]
   },
 
@@ -671,7 +693,11 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "custom leather production India",
       "custom leather bags factory",
       "custom leather work",
-      "custom leather maker"
+      "custom leather maker",
+      "custom leather bags manufacturer",
+      "custom leather handbags manufacturer",
+      "custom made leather bags",
+      "leather bag makers"
     ]
   },
 
