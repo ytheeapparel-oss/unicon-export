@@ -257,6 +257,34 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     ]
   },
   {
+    category: "Location-Specific Corporate Gifting: Delhi NCR, Bangalore, Pune, Hyderabad, Chennai & India",
+    description: "Regional B2B corporate gifting, manufacturer, supplier, and wholesaler search queries across major Indian commercial hubs including Noida, Delhi, Gurgaon/Gurugram, Bengaluru, Pune, Hyderabad, Chennai, and Pan-India.",
+    keywords: [
+      "corporate gifts Delhi",
+      "corporate gift manufacturers Delhi",
+      "corporate gift suppliers Delhi",
+      "corporate gifts Noida",
+      "corporate gifting companies Noida",
+      "corporate gift wholesalers Noida",
+      "corporate gifts Gurgaon",
+      "corporate gifting companies Gurugram",
+      "corporate gift suppliers Gurgaon",
+      "corporate gifting company Delhi NCR",
+      "corporate gift vendors NCR",
+      "corporate gifts Bangalore",
+      "corporate gift manufacturers Bengaluru",
+      "corporate gifts Pune",
+      "corporate gift suppliers Pune",
+      "corporate gifts Hyderabad",
+      "corporate gift manufacturers Hyderabad",
+      "corporate gifts Chennai",
+      "corporate gift suppliers Chennai",
+      "corporate gifts India",
+      "corporate gift manufacturers India",
+      "corporate gifts suppliers India"
+    ]
+  },
+  {
     category: "Highest Priority: Bulk Purchasing & Export",
     description: "Wholesale purchasing, bulk bag supply, customs export documentation, and custom logo bulk manufacturing.",
     keywords: [

@@ -309,6 +309,24 @@ Comprehensive keyword mapping for corporate gifting manufacturers, customized co
 
 ---
 
+### 1.10 Location-Specific Corporate Gifting Link Map (Domestic Hubs & Pan-India)
+
+Comprehensive keyword mapping targeting enterprise corporate gifting, HR welcome kits, and executive merchandise procurement across India's premier commercial corridors:
+
+| Location | Keyword Variations Identified | Verified UNICON LEATHER Destination URL | Strategic SEO & Operational Alignment |
+|---|---|---|---|
+| **Delhi** | `corporate gifts Delhi`<br>`corporate gift manufacturers Delhi`<br>`corporate gift suppliers Delhi` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/contact`](/contact) | Targets corporate headquarters, diplomatic embassies, and luxury event planners across Central and South Delhi. |
+| **Noida** | `corporate gifts Noida`<br>`corporate gifting companies Noida`<br>`corporate gift wholesalers Noida` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/contact`](/contact)<br>[`/`](/) | Direct physical proximity to UNICON LEATHER corporate export office in Sector-106, Noida; same-day sample viewing and factory-gate pricing. |
+| **Gurgaon / Gurugram** | `corporate gifts Gurgaon`<br>`corporate gifting companies Gurugram`<br>`corporate gift suppliers Gurgaon` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/contact`](/contact) | Focuses on Fortune 500 regional HQs, Cyber City IT campuses, and luxury fintech firms requiring premium branded client gifts. |
+| **Delhi NCR** | `corporate gifting company Delhi NCR`<br>`corporate gift vendors NCR` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/wholesale-leather-goods`](/wholesale-leather-goods) | Broader capital territory catchment: rapid courier dispatches across Delhi, Noida, Greater Noida, Ghaziabad, and Faridabad. |
+| **Bangalore / Bengaluru** | `corporate gifts Bangalore`<br>`corporate gift manufacturers Bengaluru` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/contact`](/contact) | Targets India's Silicon Valley: tech employee welcome onboarding kits, customized laptop sleeves, and startup milestone gifts. |
+| **Pune** | `corporate gifts Pune`<br>`corporate gift suppliers Pune` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/contact`](/contact) | Automotive, manufacturing, and IT tech park procurement across Hinjewadi and Magarpatta corridors. |
+| **Hyderabad** | `corporate gifts Hyderabad`<br>`corporate gift manufacturers Hyderabad` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/contact`](/contact) | HITEC City pharma, biotechnology, and multinational corporate gifting for annual conferences and employee recognition. |
+| **Chennai** | `corporate gifts Chennai`<br>`corporate gift suppliers Chennai` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/contact`](/contact) | Industrial manufacturing, SaaS, and heritage corporate enterprises in Guindy, OMR, and Central Chennai. |
+| **India** | `corporate gifts India`<br>`corporate gift manufacturers India`<br>`corporate gifts suppliers India` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india)<br>[`/wholesale-leather-goods`](/wholesale-leather-goods)<br>[`/`](/) | National primary authority: direct factory supply, single-point GST billing, customized packaging, and nationwide door-to-door delivery. |
+
+---
+
 ### 2. Comprehensive International Keyword Mapping Matrix
 
 | Keyword Group | Country & Lang | Buyer Intent | Destination URL | Primary Topic & Supporting Phrases | Data Source & Confidence | Business Relevance |
