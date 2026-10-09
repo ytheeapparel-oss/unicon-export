@@ -257,6 +257,22 @@ Comprehensive keyword mapping for core bag manufacturing, custom production, pri
 
 ---
 
+### 1.7 Wallets, Purses, Clutches & Belts Manufacturing Link Map
+
+Comprehensive keyword mapping for custom wallet manufacturing, specialized wallet silhouettes, purse manufacturing, designer clutches, belt production, and buckle strap styling:
+
+| Group | Target Keywords Identified | Verified UNICON LEATHER Destination URL | Strategic SEO & Operational Alignment |
+|---|---|---|---|
+| **Wallet manufacturing** | `leather wallets manufacturer in India`<br>`custom wallet manufacturer`<br>`custom leather wallet maker`<br>`private label leather wallets` | [`/leather-wallet-manufacturer-india`](/leather-wallet-manufacturer-india)<br>[`/private-label-leather-goods`](/private-label-leather-goods) | Direct factory wallet manufacturing, 0.4mm turned edges, German RFID-blocking foils, and custom foil/debossed brand logos. |
+| **Wallet styles** | `bifold leather wallets`<br>`trifold leather wallets`<br>`leather card holder wallets`<br>`leather zipper wallets`<br>`leather trucker wallets`<br>`leather coat wallets`<br>`leather passport wallets`<br>`leather checkbook wallets` | [`/leather-wallet-manufacturer-india`](/leather-wallet-manufacturer-india)<br>[`/small-leather-goods-manufacturer`](/small-leather-goods-manufacturer)<br>[`/products?category=Wallets+%26+Cardholders`](/products?category=Wallets+%26+Cardholders) | Comprehensive small leather goods (SLG) silhouette engineering: classic bifolds, trifolds, zipped coin keepers, rugged trucker wallets with chain loops, long coat wallets, and travel passport covers. |
+| **Purse manufacturing** | `leather purse manufacturer`<br>`custom purse manufacturer`<br>`private label leather purses`<br>`leather clutch manufacturer` | [`/leather-handbags-manufacturer-india`](/leather-handbags-manufacturer-india)<br>[`/custom-leather-goods-manufacturer`](/custom-leather-goods-manufacturer) | Fine leather purse craftsmanship, bespoke metal hardware casting, private label white-label cataloging, and turnkey production under NDA. |
+| **Purse styles** | `leather wristlet purse`<br>`leather zipper pouch`<br>`leather long purse`<br>`leather bracelet purse` | [`/leather-handbags-manufacturer-india`](/leather-handbags-manufacturer-india)<br>[`/small-leather-goods-manufacturer`](/small-leather-goods-manufacturer)<br>[`/products?category=Leather+Handbags`](/products?category=Leather+Handbags) | Compact evening and day purse silhouettes: detachable leather wristlets, smooth zip-around pouches, elongated zip wallets, and circular bracelet bags. |
+| **Clutch styles** | `leather kiss lock clutch`<br>`leather turn lock clutch`<br>`leather envelope clutch`<br>`leather fold over clutch` | [`/leather-handbags-manufacturer-india`](/leather-handbags-manufacturer-india)<br>[`/luxury-leather-goods-manufacturer`](/luxury-leather-goods-manufacturer) | Structured occasion clutches: retro brass kiss-lock frames, die-cast turnlocks, sleek geometric envelope flaps, and soft foldover evening pouches. |
+| **Belt manufacturing** | `leather belt manufacturers in India`<br>`custom belt manufacturers`<br>`custom leather belt maker`<br>`private label leather belts` | [`/leather-belt-manufacturer-india`](/leather-belt-manufacturer-india)<br>[`/private-label-leather-goods`](/private-label-leather-goods) | Vegetable-tanned full-grain bridle leather belts, custom buckle development, laser-engraved sizing markings, and luxury retail gift packaging. |
+| **Belt styles** | `formal leather belts`<br>`ratchet leather belts`<br>`braided leather belts`<br>`embossed leather belts`<br>`polo leather belts`<br>`studded leather belts`<br>`double prong leather belts`<br>`double buckle leather belts`<br>`wide leather belts`<br>`skinny leather belts` | [`/leather-belt-manufacturer-india`](/leather-belt-manufacturer-india)<br>[`/products?category=Leather+Belts`](/products?category=Leather+Belts) | Comprehensive belt portfolio: feather-edge formal dress belts, track ratchet belts, hand-plaited braided belts, croc/western embossed straps, artisanal polo stitch belts, punk/rocker studded belts, rugged double-prong buckles, statement double buckles, 40mm wide belts, and 15mm skinny waist belts. |
+
+---
+
 ### 2. Comprehensive International Keyword Mapping Matrix
 
 | Keyword Group | Country & Lang | Buyer Intent | Destination URL | Primary Topic & Supporting Phrases | Data Source & Confidence | Business Relevance |

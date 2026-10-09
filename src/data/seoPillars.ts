@@ -192,7 +192,19 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather hobo bags",
       "leather saddle bags",
       "leather bucket bags",
-      "leather fringe bags"
+      "leather fringe bags",
+      "leather purse manufacturer",
+      "custom purse manufacturer",
+      "private label leather purses",
+      "leather clutch manufacturer",
+      "leather wristlet purse",
+      "leather zipper pouch",
+      "leather long purse",
+      "leather bracelet purse",
+      "leather kiss lock clutch",
+      "leather turn lock clutch",
+      "leather envelope clutch",
+      "leather fold over clutch"
     ]
   },
 
@@ -277,7 +289,19 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "vegetable tanned leather wallet supplier",
       "leather wallet exporters in kolkata",
       "leather wallet supplier in india for usa brands",
-      "leather wallet manufacturer reach compliant europe"
+      "leather wallet manufacturer reach compliant europe",
+      "leather wallets manufacturer in India",
+      "custom wallet manufacturer",
+      "custom leather wallet maker",
+      "private label leather wallets",
+      "bifold leather wallets",
+      "trifold leather wallets",
+      "leather card holder wallets",
+      "leather zipper wallets",
+      "leather trucker wallets",
+      "leather coat wallets",
+      "leather passport wallets",
+      "leather checkbook wallets"
     ]
   },
 
@@ -341,7 +365,19 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather belt manufacturer",
       "custom leather belts factory",
       "full grain leather belt supplier",
-      "formal dress belt manufacturer"
+      "formal dress belt manufacturer",
+      "custom belt manufacturers",
+      "custom leather belt maker",
+      "formal leather belts",
+      "ratchet leather belts",
+      "braided leather belts",
+      "embossed leather belts",
+      "polo leather belts",
+      "studded leather belts",
+      "double prong leather belts",
+      "double buckle leather belts",
+      "wide leather belts",
+      "skinny leather belts"
     ]
   },
 
