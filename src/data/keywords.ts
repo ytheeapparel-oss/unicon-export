@@ -115,7 +115,35 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "corporate leather gift manufacturers India",
       "custom leather gift sets bulk",
       "leather laptop bags for corporate gifting",
-      "personalized leather accessories wholesale"
+      "personalized leather accessories wholesale",
+      "luxury product packaging",
+      "leather pouches",
+      "corporate leather gifts",
+      "custom leather gift packaging"
+    ]
+  },
+  {
+    category: "Design, Prototyping & Sampling Services",
+    description: "CAD tech pack translation, digital pattern making, prototype sampling, and OEM/ODM product development.",
+    keywords: [
+      "leather product design",
+      "leather sampling services",
+      "leather product prototyping",
+      "digital pattern making",
+      "custom logo leather products",
+      "leather logo embossing",
+      "custom hardware",
+      "branded leather packaging"
+    ]
+  },
+  {
+    category: "Specialty Leather Products & Bespoke Covers",
+    description: "Precision-cut protective tech covers, drone sleeves, motorcycle seats, and luxury interior leather cushions.",
+    keywords: [
+      "protective leather covers",
+      "drone covers",
+      "leather bike seats",
+      "leather cushion covers"
     ]
   },
   {

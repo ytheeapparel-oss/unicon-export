@@ -248,6 +248,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "minimalist leather wallet supplier",
       "custom leather card holder manufacturer",
       "leather bifold wallet wholesale manufacturer",
+      "bifold wallet manufacturer",
+      "trifold wallet manufacturer",
+      "RFID leather wallets",
       "leather passport holder manufacturer",
       "leather wallet manufacturer low moq",
       "small batch leather wallet manufacturer",
@@ -376,6 +379,10 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "corporate leather gifts",
+      "custom leather gift packaging",
+      "luxury product packaging",
+      "leather pouches",
       "custom leather watch strap manufacturer UK",
       "leather watch straps Switzerland",
       "leather accessories manufacturers India",
@@ -446,6 +453,11 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     targetKeywords: [
       "small leather goods manufacturer",
       "small leather goods manufacturer India",
+      "leather card holder manufacturer",
+      "leather passport holder manufacturer",
+      "leather coin pouches",
+      "leather organisers",
+      "protective leather covers",
       "SLG manufacturer India",
       "custom small leather goods",
       "leather goods factory India"
@@ -569,6 +581,10 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "OEM leather manufacturing",
+      "ODM leather manufacturing",
+      "bulk leather production",
+      "small batch leather manufacturing",
       "oem leather goods manufacturer",
       "oem leather goods manufacturer India",
       "contract leather goods manufacturer",
@@ -633,6 +649,16 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "custom leather products manufacturer",
       "custom leather manufacturing",
       "OEM custom leather manufacturing",
+      "leather product design",
+      "leather sampling services",
+      "leather product prototyping",
+      "digital pattern making",
+      "custom logo leather products",
+      "leather logo embossing",
+      "custom hardware",
+      "drone covers",
+      "leather bike seats",
+      "leather cushion covers",
       "Italian leather goods manufacturer partnership in USA",
       "custom leather goods manufacturer India",
       "custom leather goods manufacturer",
@@ -1371,6 +1397,8 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "lambskin leather jacket manufacturer",
       "leather biker jacket manufacturer",
       "leather bomber jacket factory",
+      "tailored leather jackets",
+      "custom leather apparel",
       "leather clothing manufacturers in india",
       "leather apparel exporter india"
     ]
