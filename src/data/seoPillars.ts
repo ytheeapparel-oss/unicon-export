@@ -449,7 +449,38 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "personalized leather accessories wholesale",
       "leather passport holder manufacturers",
       "leather journal manufacturers India",
-      "custom leather accessories supplier"
+      "custom leather accessories supplier",
+      "leather trays",
+      "leather pillow covers",
+      "leather poufs",
+      "leather coasters",
+      "leather napkin rings",
+      "leather blanket carriers",
+      "leather luggage tags",
+      "leather travel organisers",
+      "leather passport covers",
+      "leather wine bags",
+      "leather portfolios",
+      "leather desk pads",
+      "leather mouse pads",
+      "leather journal covers",
+      "leather notebook covers",
+      "leather pen cases",
+      "leather key cases",
+      "leather ID holders",
+      "leather camera straps",
+      "leather watch straps",
+      "leather sunglasses cases",
+      "leather phone cases",
+      "leather tool belts",
+      "leather tool rolls",
+      "leather bracelets",
+      "leather necklaces",
+      "leather earrings",
+      "leather dog collars",
+      "leather dog leashes",
+      "leather dog harnesses",
+      "leather dog muzzles"
     ]
   },
 
@@ -1477,7 +1508,18 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "tailored leather jackets",
       "custom leather apparel",
       "leather clothing manufacturers in india",
-      "leather apparel exporter india"
+      "leather apparel exporter india",
+      "leather jacket manufacturers",
+      "leather jacket exporter",
+      "men’s leather jackets",
+      "women’s leather jackets",
+      "leather shirts manufacturers",
+      "leather pants manufacturers",
+      "leather skirts manufacturers",
+      "leather shorts manufacturers",
+      "leather dresses manufacturers",
+      "custom leather garments manufacturing",
+      "private label leather garments manufacturing"
     ]
   },
 
@@ -1568,7 +1610,16 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "best leather bag manufacturers in india",
       "luxury leather bag manufacturers in india",
       "top leather bag manufacturers in india",
-      "wholesale leather bag manufacturers in india"
+      "wholesale leather bag manufacturers in india",
+      "full grain leather",
+      "top grain leather",
+      "vegetable tanned leather",
+      "suede leather",
+      "genuine leather",
+      "cow leather",
+      "buffalo leather",
+      "sheep leather",
+      "goat leather"
     ]
   }
 };
