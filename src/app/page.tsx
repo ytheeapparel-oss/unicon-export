@@ -40,6 +40,7 @@ import { Hero } from "@/components/home/Hero";
 import { Accordion } from "@/components/ui/Accordion";
 import { TechPackWorkflow } from "@/components/ui/TechPackWorkflow";
 import { JsonLdScript, generateFaqSchema } from "@/components/seo/JsonLdScript";
+import { PRIORITY_B2B_KEYWORD_TIERS } from "@/data/keywords";
 
 export default function HomePage() {
   const featuredProducts = PRODUCTS.slice(0, 4);
@@ -142,7 +143,7 @@ export default function HomePage() {
               Core Manufacturing Categories
             </h2>
             <p className="text-xs sm:text-sm text-charcoal-600 max-w-2xl font-light leading-relaxed">
-              As a dedicated leather wallet manufacturer India, leather belt manufacturer India, and leather accessories manufacturer India, we engineer custom collections to international luxury brand standards with flexible MOQs.
+              As trusted leather bag manufacturers in India, custom leather bag manufacturers India, and private label leather goods exporters, we engineer bespoke collections—including luxury handbags, laptop bags, travel duffels, wallets, and corporate gifting sets—to international luxury brand standards with low 100-piece MOQs.
             </p>
           </div>
           <Button href="/products" variant="outline" size="md" className="self-start md:self-auto border-charcoal/25 text-charcoal hover:bg-charcoal hover:text-white">
@@ -539,6 +540,72 @@ export default function HomePage() {
                 </li>
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 6.5 B2B SOURCING & PRODUCTION CAPABILITIES DIRECTORY */}
+      <section className="w-full bg-[#FAF8F5] py-16 sm:py-24 border-y border-charcoal/10">
+        <div className="w-full px-6 sm:px-10 lg:px-14 xl:px-16">
+          <div className="max-w-3xl space-y-3 mb-12 text-left">
+            <span className="text-cognac uppercase tracking-[0.2em] text-xs font-mono font-medium block">
+              International B2B Procurement Index
+            </span>
+            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-charcoal tracking-tight">
+              Leather Bag Manufacturing &amp; Bulk Purchasing Directory
+            </h2>
+            <p className="text-xs sm:text-sm text-charcoal-600 font-light leading-relaxed">
+              Explore UNICON LEATHER&apos;s verified production capabilities across OEM/ODM manufacturing, wholesale volume supply, specialized bag silhouettes, travel goods, small leather accessories, and bespoke corporate gifting.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {PRIORITY_B2B_KEYWORD_TIERS.map((tier) => (
+              <div
+                key={tier.categoryName}
+                className="bg-white p-6 sm:p-7 border border-charcoal/10 shadow-2xs hover:shadow-xs hover:border-cognac/60 transition-all flex flex-col justify-between"
+              >
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="text-[10px] font-mono uppercase tracking-wider text-cognac font-bold bg-cognac/10 px-2 py-0.5">
+                      {tier.priority.split(":")[0]}
+                    </span>
+                    <span className="text-[10.5px] font-mono text-charcoal-400 capitalize">
+                      {tier.priority.split(":")[1]?.trim() || "Capability"}
+                    </span>
+                  </div>
+                  <h3 className="font-serif text-lg font-medium text-charcoal">
+                    {tier.categoryName}
+                  </h3>
+                  <p className="text-xs text-charcoal-600 leading-relaxed font-light">
+                    {tier.description}
+                  </p>
+                  <div className="pt-2 border-t border-charcoal/8 space-y-1.5">
+                    <span className="text-[10px] uppercase tracking-wider text-charcoal-500 font-mono block">
+                      Target Search Capabilities:
+                    </span>
+                    <ul className="space-y-1">
+                      {tier.keywords.map((kw) => (
+                        <li key={kw} className="text-[11px] text-charcoal-700 flex items-start gap-1.5">
+                          <Check className="w-3 h-3 text-cognac mt-0.5 shrink-0" />
+                          <span className="capitalize">{kw}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="pt-5 mt-4 border-t border-charcoal/8">
+                  <Link
+                    href={tier.targetPages[0] || "/products"}
+                    className="text-xs font-mono font-medium text-cognac hover:text-charcoal flex items-center justify-between transition-colors group"
+                  >
+                    <span>Explore Production Portal</span>
+                    <ArrowRight className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

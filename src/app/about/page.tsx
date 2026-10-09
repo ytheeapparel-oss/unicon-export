@@ -20,16 +20,16 @@ import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdS
 import { COMPANY_INFO } from "@/data/company";
 
 export const metadata: Metadata = {
-  title: "About Us | Luxury Leather Goods Manufacturer & Exporter",
+  title: "About Us | Leather Bag Manufacturers in India | UNICON LEATHER",
   description:
-    "Learn about UNICON LEATHER: our heritage, factory infrastructure, artisan master craftsmen, ethical working conditions, and B2B export capabilities serving international luxury brands.",
+    "Learn about UNICON LEATHER: premier leather bag manufacturers in India, our heritage, factory infrastructure, artisan master craftsmen, and B2B export capabilities for international luxury brands.",
   alternates: {
     canonical: "https://www.uniconleather.com/about",
   },
   openGraph: {
-    title: "About UNICON LEATHER | Master Leather Goods Manufacturer & Global Exporter",
+    title: "About UNICON LEATHER | Leather Bag Manufacturers in India & Exporter",
     description:
-      "Learn about UNICON LEATHER: our heritage, factory infrastructure, artisan master craftsmen, and B2B export capabilities for USA, UK, and European brands.",
+      "Premier leather bag manufacturers in India and luxury leather goods exporter. Verified OEM/ODM bag factory, low MOQs, and global export infrastructure.",
     url: "https://www.uniconleather.com/about",
     type: "website",
     images: [
@@ -84,7 +84,7 @@ export default function AboutPage() {
               </h1>
 
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light max-w-xl">
-                UNICON LEATHER is an export-dedicated manufacturing facility bridging generational Indian leathercraft with contemporary European finishing tolerances, audited ethical workplaces, and international trade compliance.
+                UNICON LEATHER is an export-dedicated manufacturing atelier and leading leather bag manufacturer in India, bridging generational Indian leathercraft with contemporary European finishing tolerances, audited ethical workplaces, and international trade compliance for global fashion labels.
               </p>
 
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">

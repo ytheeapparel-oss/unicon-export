@@ -22,16 +22,16 @@ import { FAQS } from "@/data/faqs";
 import { JsonLdScript, generateFaqSchema, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
-  title: "Contact Export Desk & Bulk Wholesale RFQ | UNICON LEATHER",
+  title: "Contact Export Desk | Wholesale Leather Bags & OEM Bag Factory India",
   description:
-    "Direct contact details, WhatsApp export line, factory address, and comprehensive B2B bulk inquiry form for UNICON LEATHER. 12–24 business hours response guarantee.",
+    "Direct contact details, WhatsApp export desk, and B2B quotation form for UNICON LEATHER. Inquire for wholesale leather bags India, custom OEM/ODM manufacturing, and export shipping. 12–24h response guarantee.",
   alternates: {
     canonical: "https://www.uniconleather.com/contact",
   },
   openGraph: {
-    title: "Contact Export Desk & Bulk Wholesale RFQ | UNICON LEATHER",
+    title: "Contact UNICON LEATHER | Wholesale Leather Bags India & OEM Factory",
     description:
-      "Direct contact details, WhatsApp export line, factory address, and B2B bulk inquiry form. Quick response within 12–24 business hours.",
+      "Direct B2B quotation desk for wholesale leather bags, custom OEM/ODM bag manufacturing, and international export orders.",
     url: "https://www.uniconleather.com/contact",
     type: "website",
     images: [
@@ -89,7 +89,7 @@ export default function ContactPage() {
               </h1>
 
               <p className="text-sm sm:text-base text-charcoal/70 leading-relaxed font-light max-w-2xl">
-                Connect directly with our export management and engineering team. We assist international fashion brands, wholesalers, and retail buying houses with commercial quotes, tech pack reviews, and sample development.
+                Connect directly with our export management and engineering team. As trusted leather bag manufacturers in India and wholesale leather goods exporters, we assist international fashion brands, wholesalers, and retail buying houses with bulk quotation requests, tech pack feasibility, and rapid sample prototyping.
               </p>
 
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">

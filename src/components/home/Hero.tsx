@@ -30,22 +30,22 @@ export function Hero() {
           {/* Editorial Kicker */}
           <div className="inline-flex items-center gap-2.5 flex-wrap">
             <span className="bg-cognac text-white text-[10px] sm:text-xs font-mono font-medium tracking-widest uppercase px-3 py-1 shadow-xs">
-              Leather Goods Exporter India · Est. {COMPANY_INFO.establishedYear}
+              Leather Bags Manufacturer India · Est. {COMPANY_INFO.establishedYear}
             </span>
             <span className="text-charcoal/30">·</span>
             <span className="text-[10px] sm:text-xs text-cognac font-mono tracking-widest uppercase font-semibold">
-              Direct Exporting to USA, UK &amp; Europe
+              OEM &amp; Private Label Bag Atelier
             </span>
           </div>
 
           {/* Main Luxury Heading */}
           <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl xl:text-7xl font-normal text-charcoal leading-[1.08] tracking-tight">
-            Leather Goods Manufacturer India &amp; <span className="italic text-cognac font-light">Private Label Atelier</span>
+            Leather Bags Manufacturer India &amp; <span className="italic text-cognac font-light">OEM Private Label Atelier</span>
           </h1>
 
           {/* Authoritative B2B Subtitle */}
           <p className="text-sm sm:text-base lg:text-lg text-charcoal-700 leading-relaxed font-light max-w-2xl bg-white/60 sm:bg-transparent backdrop-blur-xs sm:backdrop-blur-none p-2 sm:p-0 rounded-xs">
-            Dedicated Indian contract manufacturer and registered exporter of handcrafted genuine leather bags, wallets, belts, and luxury accessories. Low 100-piece MOQs, LWG audited partner tanneries, rapid 7-day counter-sampling, and direct DDP export to USA, UK, and European brands.
+            Dedicated custom and private label leather bag manufacturers in India and certified leather bag exporters India. We specialize in wholesale leather bags, OEM handbags, laptop totes, duffels, backpacks, and accessories with flexible 100-piece MOQs, LWG partner tanneries, rapid 7-day sampling, and turnkey export to USA, UK, and Europe.
           </p>
 
           {/* Action CTAs */}
