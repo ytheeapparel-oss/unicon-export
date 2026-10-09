@@ -88,6 +88,8 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
     keywords: [
       "leather bag manufacturer in india for usa",
       "leather goods supplier in usa",
+      "high end leather handbags Italy USA",
+      "Italian leather goods manufacturer partnership in USA",
       "custom leather bags manufacturer india",
       "oem leather bag factory in asia",
       "private label leather handbag manufacturer india",
@@ -164,6 +166,11 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       },
     ],
     keywords: [
+      "leather bag supplier UK",
+      "leather bag manufacturer UK",
+      "genuine leather bags manufacturer India for UK",
+      "export leather jackets from India to UK",
+      "custom leather watch strap manufacturer UK",
       "leather goods manufacturer in india exporting to europe",
       "leather bag manufacturer india reach compliant",
       "leather handbag manufacturers in india for uk brands",

@@ -37,6 +37,24 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     ]
   },
   {
+    category: "International Export Markets: UK, Europe, USA, Japan & Switzerland",
+    description: "B2B export corridor search queries for leather bags, jackets, watch straps, and wholesale supplier contracts from India to the UK, Europe, USA, Japan, and Switzerland.",
+    keywords: [
+      "leather bag supplier UK",
+      "leather bag manufacturer UK",
+      "genuine leather bags manufacturer India for UK",
+      "export leather jackets from India to UK",
+      "custom leather watch strap manufacturer UK",
+      "leather bags wholesale Europe",
+      "sustainable leather OEM manufacturer Europe",
+      "high end leather handbags Italy USA",
+      "Italian leather goods manufacturer partnership in USA",
+      "designer leather bags exporter Japan",
+      "export leather jackets from India to Japan",
+      "leather watch straps Switzerland"
+    ]
+  },
+  {
     category: "Highest Priority: Bulk Purchasing & Export",
     description: "Wholesale purchasing, bulk bag supply, customs export documentation, and custom logo bulk manufacturing.",
     keywords: [

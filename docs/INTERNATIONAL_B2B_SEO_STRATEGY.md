@@ -169,6 +169,27 @@ We evaluated 14 prospective export destinations against buyer demand, tariff str
 
 ---
 
+### 1.2 Competitor Target Keyword Linking & Mapping Matrix (Avish Global Benchmark)
+
+| Target Market | Observed Competitor Keyword Target | Competitor URL | Verified UNICON LEATHER Target Destination URL | Sourcing Strategy & Content Alignment |
+|---|---|---|---|---|
+| **UK** | `leather bag supplier UK` | `avishglobal.com/leather-bag-supplier-uk` | [`/en-gb`](/en-gb) & [`/leather-goods-supplier-europe`](/leather-goods-supplier-europe) | Dedicated British buyer sourcing portal with CIF London/Southampton logistics and UK REACH compliance. |
+| **UK** | `leather bag manufacturer UK` | `avishglobal.com/leather-bag-manufacturer-uk` | [`/en-gb`](/en-gb) & [`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india) | Direct OEM factory partnership from Kolkata atelier directly to London fashion labels. |
+| **UK** | `genuine leather bags manufacturer India for UK` | `avishglobal.com/genuine-leather-bags-manufacturer-india-for-uk` | [`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india) & [`/en-gb`](/en-gb) | Core country-to-corridor manufacturing page with low 100-pc MOQs and British leather finishing standards. |
+| **UK** | `export leather jackets from India to UK` | `avishglobal.com/export-leather-jackets-india-to-uk` | [`/leather-jacket-manufacturer-india`](/leather-jacket-manufacturer-india) & [`/en-gb`](/en-gb) | Custom lambskin and bovine leather outerwear manufacturing with European size grading. |
+| **UK** | `custom leather watch strap manufacturer UK` | `avishglobal.com/custom-leather-watch-strap-manufacturer-uk` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india) & [`/small-leather-goods-manufacturer`](/small-leather-goods-manufacturer) | Precision micro-skiving (0.4mm), edge creasing, and luxury small leather goods atelier production. |
+| **Europe** | `leather bags wholesale Europe` | `avishglobal.com/leather-bags-wholesale-europe` | [`/wholesale-leather-goods`](/wholesale-leather-goods) & [`/leather-goods-supplier-europe`](/leather-goods-supplier-europe) | Tiered bulk wholesale orders, DDP container shipping to Rotterdam/Hamburg, and EUR currency invoicing. |
+| **Europe** | `sustainable leather OEM manufacturer Europe` | `avishglobal.com/sustainable-leather-oem-manufacturer-europe` | [`/sustainability`](/sustainability) & [`/oem-leather-goods-manufacturer`](/oem-leather-goods-manufacturer) | 100% LWG Gold/Silver audited partner tanneries, vegetable-tanned bovine leathers, and REACH Annex XVII certification. |
+| **Europe / Portugal** | `leather shoes Portugal supplier Europe` | `avishglobal.com/leather-shoes-portugal-supplier-europe` | [`/craftsmanship`](/craftsmanship) *(Scope clarification)* | *[Business Scope Note]* UNICON specializes in leather bags, wallets, belts, accessories, and jackets. Shoes are excluded to maintain factual integrity; buyers seeking travel bags with footwear chambers map to `/products?category=Travel+%26+Duffel+Bags`. |
+| **USA** | `high end leather handbags Italy USA` | `avishglobal.com/high-end-leather-handbags-italy-usa` | [`/luxury-leather-goods-manufacturer`](/luxury-leather-goods-manufacturer) & [`/en-us`](/en-us) | Luxury handbag atelier combining Italian vegetable tannages with fine French/German edge-finishing machinery. |
+| **USA** | `Italian leather goods manufacturer partnership in USA` | `avishglobal.com/italian-leather-goods-manufacturer-partnershipin-usa` | [`/custom-leather-goods-manufacturer`](/custom-leather-goods-manufacturer) & [`/en-us`](/en-us) | Contract manufacturing partnership for US brands requiring Tuscan veg-tan standards at accessible Indian production economics. |
+| **Japan** | `designer leather bags exporter Japan` | `avishglobal.com/designer-leather-bags-exporter-japan` | [`/leather-goods-supplier-asia`](/leather-goods-supplier-asia) & [`/leather-bags-manufacturer-india`](/leather-bags-manufacturer-india) | Zero-defect edge tolerances, Japanese JIS testing compatibility, and export lookbooks for Tokyo buying houses. |
+| **Japan** | `export leather jackets from India to Japan` | `avishglobal.com/export-leather-jackets-india-to-japan` | [`/leather-jacket-manufacturer-india`](/leather-jacket-manufacturer-india) & [`/leather-goods-supplier-asia`](/leather-goods-supplier-asia) | Tailored garment cuts, customized zipper tapes, and express air freight to Narita/Haneda hubs. |
+| **Italy** | `handmade leather shoes exporter Italy` | `avishglobal.com/handmade-leather-shoes-exporter-italy` | [`/craftsmanship`](/craftsmanship) *(Scope clarification)* | *[Business Scope Note]* UNICON manufactures bags, wallets, and accessories; footwear is excluded. Handcrafted leather bench standards are highlighted under craftsmanship. |
+| **Switzerland** | `leather watch straps Switzerland` | `avishglobal.com/leather-watch-straps-switzerland` | [`/leather-accessories-manufacturer-india`](/leather-accessories-manufacturer-india) & [`/small-leather-goods-manufacturer`](/small-leather-goods-manufacturer) | Luxury small leather goods, turned-edge horology watch bands, and precision die-cut strap assemblies. |
+
+---
+
 ### 2. Comprehensive International Keyword Mapping Matrix
 
 | Keyword Group | Country & Lang | Buyer Intent | Destination URL | Primary Topic & Supporting Phrases | Data Source & Confidence | Business Relevance |

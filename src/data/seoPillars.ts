@@ -158,6 +158,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "high end leather handbags Italy USA",
       "leather handbag manufacturers India",
       "leather handbags manufacturer India",
       "leather tote bag manufacturers India",
@@ -365,6 +366,8 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "custom leather watch strap manufacturer UK",
+      "leather watch straps Switzerland",
       "leather accessories manufacturers India",
       "leather accessories manufacturer India",
       "small leather goods manufacturers India",
@@ -614,6 +617,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "Italian leather goods manufacturer partnership in USA",
       "custom leather goods manufacturer India",
       "custom leather goods manufacturer",
       "bespoke leather manufacturer",
@@ -925,6 +929,8 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "LWG certified leather manufacturer in asia",
       "sustainable leather goods supplier in asia",
       "leather goods contract manufacturing in asia",
+      "designer leather bags exporter Japan",
+      "export leather jackets from India to Japan",
       "leather goods supplier south asia",
       "leather goods manufacturer for australian brands",
       "leather goods suppliers australia b2b",
@@ -999,6 +1005,11 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "leather bag supplier UK",
+      "leather bag manufacturer UK",
+      "genuine leather bags manufacturer India for UK",
+      "leather bags wholesale Europe",
+      "sustainable leather OEM manufacturer Europe",
       "leather goods manufacturers in india",
       "leather goods manufacturer in india",
       "leather bag manufacturer in india",
@@ -1323,6 +1334,8 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "export leather jackets from India to UK",
+      "export leather jackets from India to Japan",
       "leather jacket manufacturer",
       "leather jacket manufacturers in india",
       "custom leather jacket manufacturer",
