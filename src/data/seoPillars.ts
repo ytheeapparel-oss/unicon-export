@@ -1150,6 +1150,14 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather goods supplier DDP shipping to USA",
       "leather goods manufacturer DDP shipping New York Los Angeles",
       "California Prop 65 compliant leather goods supplier",
+      "california prop 65 leather goods",
+      "do leather bags need to comply with california prop 65",
+      "how to ensure leather goods pass prop 65 testing for us market",
+      "leather goods chemical compliance usa",
+      "prop 65 leather bags",
+      "leather goods manufacturer quality control",
+      "what quality checks should a leather goods manufacturer provide",
+      "aql inspection leather bags",
       "corporate leather gifts supplier USA bulk logo debossed",
       "reliable leather goods manufacturer in india",
       "reliable leather goods supplier in india export to usa",
@@ -1159,7 +1167,6 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "trusted leather bag manufacturer in india",
       "audited leather goods manufacturer india",
       "worldwide leather goods supplier"
-    
     ]
   },
   "leather-goods-supplier-asia": {
@@ -1255,8 +1262,19 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather goods wholesale suppliers melbourne",
       "leather goods manufacturers sydney b2b",
       "leather bags supplier new zealand b2b",
-      "custom leather goods manufacturer nz"
-    
+      "custom leather goods manufacturer nz",
+      "leather bag factory india china comparison",
+      "best country to manufacture leather bags",
+      "best leather for luxury handbags",
+      "what does lwg certified mean for leather goods",
+      "why does lwg certification matter when sourcing leather from india",
+      "is india or china better for manufacturing leather handbags",
+      "what is the best type of leather for designer handbags",
+      "leather factory audit checklist",
+      "india vs china leather manufacturing",
+      "how do i audit a leather bag factory before placing an order",
+      "leather working group audit",
+      "india vs china leather quality and cost comparison"
     ]
   },
   "leather-goods-supplier-europe": {
@@ -1613,6 +1631,27 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "premium leather goods manufacturing",
       "handmade leather bags wholesale",
       "low MOQ leather goods manufacturer",
+      "low moq leather manufacturer",
+      "private label leather bag brand",
+      "private label vs oem leather goods",
+      "how do i find a reliable leather bag manufacturer in india",
+      "oem leather bag factory",
+      "should i use oem or odm for my leather goods brand",
+      "custom leather bag manufacturing options",
+      "custom leather bags for brand",
+      "how do i manufacture leather bags with low moq",
+      "handcrafted leather goods production",
+      "what do i need to launch a leather accessories brand with a manufacturer in india",
+      "what should i look for in an oem leather goods factory",
+      "how do i start my own private label leather bag brand",
+      "oem vs odm leather bags",
+      "small batch leather production",
+      "launch leather goods brand",
+      "minimum order quantity leather bags",
+      "what is the difference between oem and odm for leather bags",
+      "how are genuine leather bags made step by step",
+      "what is the production process for custom leather handbags",
+      "what is the minimum order quantity for custom leather bags",
       "small batch leather goods manufacturer",
       "small batch leather manufacturing",
       "leather goods manufacturer for startups",
@@ -1627,7 +1666,6 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "on demand leather manufacturing",
       "flexible moq leather goods supplier",
       "how to manufacture leather goods for small business"
-    
     ]
   },
   "leather-jacket-manufacturer-india": {

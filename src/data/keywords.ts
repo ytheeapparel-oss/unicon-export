@@ -1569,6 +1569,65 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "REACH compliant leather manufacturers india",
       "full grain leather goods suppliers india"
     ]
+  },
+  {
+    category: "B2B Buyer Sourcing: OEM vs ODM, Low MOQ & Brand Launch",
+    description: "Search queries from fashion founders, product managers, and buying houses exploring OEM vs ODM production, startup launch requirements, low MOQ manufacturing, and reliable factory selection.",
+    keywords: [
+      "low moq leather manufacturer",
+      "private label leather bag brand",
+      "private label vs oem leather goods",
+      "how do i find a reliable leather bag manufacturer in india",
+      "oem leather bag factory",
+      "should i use oem or odm for my leather goods brand",
+      "custom leather bag manufacturing options",
+      "custom leather bags for brand",
+      "how do i manufacture leather bags with low moq",
+      "handcrafted leather goods production",
+      "what do i need to launch a leather accessories brand with a manufacturer in india",
+      "what should i look for in an oem leather goods factory",
+      "how do i start my own private label leather bag brand",
+      "oem vs odm leather bags",
+      "small batch leather production",
+      "launch leather goods brand",
+      "minimum order quantity leather bags",
+      "what is the difference between oem and odm for leather bags",
+      "how are genuine leather bags made step by step",
+      "what is the production process for custom leather handbags",
+      "what is the minimum order quantity for custom leather bags"
+    ]
+  },
+  {
+    category: "Regulatory Compliance: California Prop 65, LWG Audits & Quality Control",
+    description: "Technical compliance, US consumer safety chemical testing, LWG environmental tannery verification, and factory quality audit standards.",
+    keywords: [
+      "california prop 65 leather goods",
+      "do leather bags need to comply with california prop 65",
+      "how to ensure leather goods pass prop 65 testing for us market",
+      "leather goods chemical compliance usa",
+      "prop 65 leather bags",
+      "leather goods manufacturer quality control",
+      "what does lwg certified mean for leather goods",
+      "why does lwg certification matter when sourcing leather from india",
+      "what quality checks should a leather goods manufacturer provide",
+      "aql inspection leather bags",
+      "leather factory audit checklist",
+      "how do i audit a leather bag factory before placing an order",
+      "leather working group audit"
+    ]
+  },
+  {
+    category: "Strategic Global Sourcing: India vs China & Luxury Materials",
+    description: "Comparative procurement analysis evaluating India vs China for tariffs, quality, costs, and selection of full-grain luxury handbag leathers.",
+    keywords: [
+      "leather bag factory india china comparison",
+      "best country to manufacture leather bags",
+      "best leather for luxury handbags",
+      "is india or china better for manufacturing leather handbags",
+      "what is the best type of leather for designer handbags",
+      "india vs china leather manufacturing",
+      "india vs china leather quality and cost comparison"
+    ]
   }
 ];
 

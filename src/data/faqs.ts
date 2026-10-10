@@ -54,5 +54,35 @@ export const FAQS: FAQItem[] = [
     category: "export",
     question: "What is the typical production lead time for bulk wholesale orders?",
     answer: "Standard production lead time is 30 to 45 business days following final sample sign-off, material dyeing approval, and deposit receipt. Re-orders with pre-existing tooling and leather stock can typically be expedited within 25 to 30 days."
+  },
+  {
+    id: "faq-10",
+    category: "compliance",
+    question: "Do leather bags need to comply with California Prop 65 and how do you ensure compliance for the US market?",
+    answer: "Yes, leather bags and accessories sold in California and the United States must comply with California Proposition 65 regulations. We ensure complete compliance by submitting hides, linings, edge inks, and metallic hardware to accredited testing laboratories (SGS / Intertek) to verify zero detectable levels of restricted lead, cadmium, and regulated ortho-phthalates."
+  },
+  {
+    id: "faq-11",
+    category: "manufacturing",
+    question: "What is the difference between OEM and ODM for leather goods, and which should I use for my brand?",
+    answer: "In OEM (Original Equipment Manufacturing), you provide proprietary tech packs, CAD sketches, and exact Bill of Materials (BOM), and our atelier manufactures strictly to your design. In ODM (Original Design Manufacturing), we provide white-label catalog silhouettes that you can customize with your brand's leather selections, colorways, logo debossing, and custom hardware. If launching a new brand quickly, ODM reduces lead times; for unique designer collections, OEM is ideal."
+  },
+  {
+    id: "faq-12",
+    category: "manufacturing",
+    question: "How does India compare to China for manufacturing leather handbags and goods?",
+    answer: "India offers key strategic advantages over China for luxury leather manufacturing: access to indigenous bovine, buffalo, and goat hides; zero Section 301 punitive US tariffs (unlike Chinese leather goods facing 25%+ tariff penalties); generational bench-hand craftsmanship; and competitive labor costs for low-to-medium volume luxury production (100–500 pcs) where Chinese factories often demand 1,000+ unit minimums."
+  },
+  {
+    id: "faq-13",
+    category: "compliance",
+    question: "What does LWG certification mean and why does it matter when sourcing leather from India?",
+    answer: "The Leather Working Group (LWG) is the global benchmark for environmental stewardship in the leather industry. LWG certification validates that tanneries manage wastewater effluent properly, minimize energy and water consumption, operate traceably, and maintain strict chemical safety protocols (such as Chromium VI control and zero banned AZO colorants). Sourcing from LWG Gold/Silver tanneries protects your brand's ESG credibility."
+  },
+  {
+    id: "faq-14",
+    category: "manufacturing",
+    question: "What quality checks and factory audit standards do you provide during production?",
+    answer: "We implement an end-to-end quality assurance program: incoming raw hide grading, 0.4mm micro-skiving precision checks, in-line tension and stitch density verification, and final AQL 2.5 Major / 4.0 Minor pre-shipment inspections. We support international buyer factory audits and provide pre-shipment inspection reports before container sealing."
   }
 ];
