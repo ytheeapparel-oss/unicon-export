@@ -39,6 +39,28 @@ export const metadata: Metadata = {
     },
   },
   keywords: [
+    // Indian manufacturing
+    "leather goods manufacturer Kolkata",
+    "leather accessories factory Kolkata",
+    "leather exporters Kolkata",
+    "leather bag manufacturer Kolkata",
+    // Overseas buyers
+    "Indian leather goods supplier for US brands",
+    "private label leather supplier for UK brands",
+    "leather goods exporter to Europe",
+    // Sustainability
+    "sustainable leather accessories manufacturer",
+    "ethical leather goods manufacturing",
+    "responsibly sourced leather products",
+    // Materials
+    "vegetable tanned leather accessories",
+    "traceable leather sourcing",
+    "leather from LWG-certified tanneries",
+    // Compliance
+    "WRAP compliant leather manufacturer India",
+    "ISO certified leather supplier India",
+    "SMETA audited leather manufacturer",
+    // Core manufacturing & silhouettes
     "leather bag manufacturers in India",
     "leather bags manufacturer India",
     "custom leather bag manufacturers India",
@@ -64,7 +86,6 @@ export const metadata: Metadata = {
     "low MOQ leather bag manufacturers India",
     "small batch leather bag manufacturing",
     "corporate leather gift manufacturers India",
-    "leather bag manufacturer Kolkata",
   ],
   authors: [{ name: "UNICON LEATHER Export Desk" }],
   creator: "UNICON LEATHER",

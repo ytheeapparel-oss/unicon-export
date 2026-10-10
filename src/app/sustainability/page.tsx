@@ -41,6 +41,15 @@ export const metadata: Metadata = {
     ],
   },
   keywords: [
+    "sustainable leather accessories manufacturer",
+    "ethical leather goods manufacturing",
+    "responsibly sourced leather products",
+    "vegetable tanned leather accessories",
+    "traceable leather sourcing",
+    "leather from LWG-certified tanneries",
+    "WRAP compliant leather manufacturer India",
+    "ISO certified leather supplier India",
+    "SMETA audited leather manufacturer",
     "certified leather manufacturer audit pass",
     "LWG certified leather factory",
     "Sedex audited leather manufacturer",
@@ -131,9 +140,9 @@ export default function SustainabilityPage() {
               <div className="bg-[#faf8f5] p-6 rounded-none border border-charcoal/10 flex items-start gap-4 shadow-xs">
                 <ShieldCheck className="w-6 h-6 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <h3 className="font-serif font-medium text-charcoal text-base">LWG Partner Tanneries</h3>
+                  <h3 className="font-serif font-medium text-charcoal text-base">Traceable Sourcing &amp; LWG Certified Tanneries</h3>
                   <p className="text-xs sm:text-sm text-charcoal-600 mt-1 leading-relaxed font-light">
-                    Hides are sourced from partner tanneries evaluated by the Leather Working Group (LWG) for closed-loop wastewater treatment, reduced water consumption, and responsible chemical management.
+                    We maintain rigorous <strong>traceable leather sourcing</strong> across all production runs, working exclusively with <strong>leather from LWG-certified tanneries</strong> (Gold and Silver rated) to guarantee verified closed-loop effluent treatment and reduced water footprint.
                   </p>
                 </div>
               </div>
@@ -141,9 +150,19 @@ export default function SustainabilityPage() {
               <div className="bg-[#faf8f5] p-6 rounded-none border border-charcoal/10 flex items-start gap-4 shadow-xs">
                 <FileCheck className="w-6 h-6 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <h3 className="font-serif font-medium text-charcoal text-base">EU REACH Annex XVII Compliance</h3>
+                  <h3 className="font-serif font-medium text-charcoal text-base">Ethical Audits: WRAP &amp; SMETA Audited Manufacturer</h3>
                   <p className="text-xs sm:text-sm text-charcoal-600 mt-1 leading-relaxed font-light">
-                    Every batch of dyed leather and metal hardware is tested through independent laboratories (SGS / Intertek) for Azo-dye freedom, zero nickel release, and Chromium VI below 3ppm.
+                    As a <strong>WRAP compliant leather manufacturer India</strong> and a <strong>SMETA audited leather manufacturer</strong>, our atelier is committed to <strong>ethical leather goods manufacturing</strong> with fair living wages, comprehensive health coverage, and zero child labor.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-[#faf8f5] p-6 rounded-none border border-charcoal/10 flex items-start gap-4 shadow-xs">
+                <CheckCircle2 className="w-6 h-6 text-cognac shrink-0 mt-0.5" />
+                <div>
+                  <h3 className="font-serif font-medium text-charcoal text-base">ISO Certified Leather Supplier India &amp; REACH Compliance</h3>
+                  <p className="text-xs sm:text-sm text-charcoal-600 mt-1 leading-relaxed font-light">
+                    Operating as an <strong>ISO certified leather supplier India</strong> (ISO 9001:2015 &amp; ISO 14001), all batches are verified under EU REACH Annex XVII: Azo-dye free, hypoallergenic nickel-free hardware, and Chromium VI &lt;3ppm.
                   </p>
                 </div>
               </div>
@@ -154,7 +173,7 @@ export default function SustainabilityPage() {
             <div className="relative aspect-[4/3] rounded-none overflow-hidden shadow-lg border border-charcoal/10 bg-white">
               <img
                 src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=80"
-                alt="Vegetable Tanned Natural Leather Sourcing"
+                alt="Vegetable Tanned Leather Accessories and Traceable Leather Sourcing"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
@@ -178,9 +197,9 @@ export default function SustainabilityPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-[#faf8f5] p-7 sm:p-8 rounded-none border border-charcoal/10 space-y-4 shadow-xs hover:border-cognac transition-colors">
               <TreeDeciduous className="w-7 h-7 text-cognac" />
-              <h3 className="font-serif text-lg font-medium text-charcoal">Vegetable Tanning Options</h3>
+              <h3 className="font-serif text-lg font-medium text-charcoal">Vegetable Tanned Leather Accessories</h3>
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
-                We offer pure vegetable-tanned bovine leathers processed using natural tree barks (mimosa, chestnut, quebracho) that develop a rich organic patina over years of use.
+                As a premier <strong>sustainable leather accessories manufacturer</strong>, we craft <strong>vegetable tanned leather accessories</strong> and <strong>responsibly sourced leather products</strong> using natural tree barks (mimosa, chestnut) that develop a rich organic patina.
               </p>
             </div>
 

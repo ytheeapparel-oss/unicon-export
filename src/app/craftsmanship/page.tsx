@@ -43,6 +43,18 @@ export const metadata: Metadata = {
       "Explore how UNICON LEATHER crafts premium leather goods in 2026: from Grade-A hide grading and 0.4mm micro-skiving to Italian edge-lacquering and AQL 2.5 inspection.",
     images: ["https://www.uniconleather.com/images/craftsmanship-hero.jpg"],
   },
+  keywords: [
+    "traceable leather sourcing",
+    "leather from LWG-certified tanneries",
+    "vegetable tanned leather accessories",
+    "ethical leather goods manufacturing",
+    "responsibly sourced leather products",
+    "craftsmanship",
+    "leather manufacturing process",
+    "leather skiving",
+    "italian edge paint",
+    "AQL 2.5 inspection"
+  ],
 };
 
 export default function CraftsmanshipPage() {
@@ -54,9 +66,9 @@ export default function CraftsmanshipPage() {
   const manufacturingStages = [
     {
       num: "01",
-      title: "Raw Hide Grading & Selection",
-      description: "Every bovine, calfskin, or lambskin hide is inspected under specialized 5000K daylight lamps to identify natural grain characteristics, surface grain consistency, and tensile elasticity.",
-      details: "Grade A selection only. Rejection rate of substandard hides exceeds 18% to ensure zero surface flaws.",
+      title: "Raw Hide Grading & Traceable Selection",
+      description: "Every bovine, calfskin, or lambskin hide is sourced through traceable leather sourcing exclusively from leather from LWG-certified tanneries, inspected under 5000K daylight lamps for grain density.",
+      details: "Grade A selection only. Dedicated lots allocated for vegetable tanned leather accessories and structured luxury bags.",
     },
     {
       num: "02",

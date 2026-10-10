@@ -441,6 +441,12 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "leather accessories factory Kolkata",
+      "sustainable leather accessories manufacturer",
+      "vegetable tanned leather accessories",
+      "responsibly sourced leather products",
+      "traceable leather sourcing",
+      "leather from LWG-certified tanneries",
       "corporate leather gifts",
       "custom leather gift packaging",
       "luxury product packaging",
@@ -727,6 +733,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "Indian leather goods supplier for US brands",
+      "private label leather supplier for UK brands",
+      "leather goods exporter to Europe",
       "private label leather products",
       "luxury leather products",
       "private label leather manufacturing",
@@ -799,6 +808,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "WRAP compliant leather manufacturer India",
+      "ISO certified leather supplier India",
+      "SMETA audited leather manufacturer",
       "OEM leather manufacturing",
       "ODM leather manufacturing",
       "bulk leather production",
@@ -1013,6 +1025,11 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "leather exporters Kolkata",
+      "leather goods exporter to Europe",
+      "Indian leather goods supplier for US brands",
+      "private label leather supplier for UK brands",
+      "ISO certified leather supplier India",
       "leather goods exporter India",
       "leather goods exporter",
       "leather product exporter India",
@@ -1083,6 +1100,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "Indian leather goods supplier for US brands",
       "leather goods supplier in usa",
       "leather goods suppliers in usa",
       "wholesale leather goods suppliers in usa",
@@ -1276,6 +1294,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "leather goods exporter to Europe",
+      "private label leather supplier for UK brands",
+      "SMETA audited leather manufacturer",
       "leather bag supplier UK",
       "leather bag manufacturer UK",
       "genuine leather bags manufacturer India for UK",
@@ -1380,6 +1401,15 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "leather goods manufacturer Kolkata",
+      "leather accessories factory Kolkata",
+      "leather exporters Kolkata",
+      "Indian leather goods supplier for US brands",
+      "private label leather supplier for UK brands",
+      "leather goods exporter to Europe",
+      "WRAP compliant leather manufacturer India",
+      "ISO certified leather supplier India",
+      "SMETA audited leather manufacturer",
       "leather goods manufacturer",
       "leather goods manufacturers",
       "custom leather goods manufacturer",
@@ -1720,6 +1750,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "vegetable tanned leather accessories",
+      "traceable leather sourcing",
+      "leather from LWG-certified tanneries",
       "full grain vs top grain leather",
       "full grain leather goods manufacturer",
       "top grain leather bag manufacturers",

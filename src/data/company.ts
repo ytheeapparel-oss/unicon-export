@@ -53,12 +53,36 @@ export const COMPANY_INFO = {
       name: "Leather Working Group (LWG) Audited Tanneries",
       issuedBy: "LWG Approved Supply Chain",
       status: "Partner Tannery" as const,
-      description: "100% of our cowhide, sheepskin, and buff calf leathers are sourced strictly from Gold and Silver-rated LWG certified partner tanneries prioritizing closed-loop water treatment and chrome-free options.",
+      description: "100% of our cowhide, sheepskin, and buff calf hides originate from leather from LWG-certified tanneries with traceable leather sourcing, ensuring closed-loop wastewater management and sustainable vegetable tanning.",
       certificateNumberPlaceholder: "[Partner Tannery LWG Reg ID: Available Upon Buyer Request]"
     },
     {
+      id: "wrap",
+      name: "WRAP Compliant Manufacturing",
+      issuedBy: "Worldwide Responsible Accredited Production",
+      status: "Verified" as const,
+      description: "Operating as a WRAP compliant leather manufacturer India, our production facilities enforce 12 foundational principles of lawful, humane, and ethical workplace conditions.",
+      certificateNumberPlaceholder: "[WRAP Facility Audit Reference: On File]"
+    },
+    {
+      id: "iso",
+      name: "ISO Certified Quality & Environmental Systems",
+      issuedBy: "International Organization for Standardization",
+      status: "Verified" as const,
+      description: "Recognized as an ISO certified leather supplier India (ISO 9001:2015 Quality Management & ISO 14001 Environmental Management) for zero-defect contract manufacturing.",
+      certificateNumberPlaceholder: "[ISO 9001:2015 & ISO 14001 Cert No: Available Upon Request]"
+    },
+    {
+      id: "smeta",
+      name: "SMETA Audited Ethical Manufacturing",
+      issuedBy: "Sedex Members Ethical Trade Audit",
+      status: "Verified" as const,
+      description: "As a SMETA audited leather manufacturer, we undergo rigorous 2-pillar and 4-pillar audits covering labor standards, health and safety, environmental stewardship, and business ethics.",
+      certificateNumberPlaceholder: "[Sedex SMETA Audit Report Reference: Inquire with Export Desk]"
+    },
+    {
       id: "reach",
-      name: "EU REACH Compliance",
+      name: "EU REACH Annex XVII Compliance",
       issuedBy: "European Chemical Agency Standards",
       status: "Verified" as const,
       description: "Materials rigorously tested to adhere to Annex XVII REACH regulations: Azo-dye free, Nickel-free hardware, Lead-free, and strict Chromium VI (<3ppm) compliance for European export.",
@@ -71,14 +95,6 @@ export const COMPANY_INFO = {
       status: "Verified" as const,
       description: "Heavy metals, phthalates, and formaldehyde testing performed through accredited third-party laboratories (SGS / Bureau Veritas) for US brand shipments.",
       certificateNumberPlaceholder: "[Batch Test Certificate on File]"
-    },
-    {
-      id: "bsci",
-      name: "Ethical Factory Audit Placeholder",
-      issuedBy: "BSCI / SEDEX / SMETA [Verification Ready]",
-      status: "Placeholder" as const,
-      description: "Zero child labor, fair living wages, medical insurance, clean ventilation ateliers, and equal-opportunity employment protocols.",
-      certificateNumberPlaceholder: "[Company SEDEX/SMETA Audit Ref: Inquire with Export Desk]"
     }
   ],
 

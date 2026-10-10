@@ -86,6 +86,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       },
     ],
     keywords: [
+      "Indian leather goods supplier for US brands",
       "leather bag manufacturer in india for usa",
       "leather goods supplier in usa",
       "high end leather handbags Italy USA",
@@ -166,6 +167,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       },
     ],
     keywords: [
+      "private label leather supplier for UK brands",
       "leather bag supplier UK",
       "leather bag manufacturer UK",
       "genuine leather bags manufacturer India for UK",
@@ -326,6 +328,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       },
     ],
     keywords: [
+      "leather goods exporter to Europe",
       "lederwaren hersteller indien b2b",
       "ledertaschen hersteller indien",
       "custom leather bags supplier europe b2b",
@@ -402,6 +405,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       },
     ],
     keywords: [
+      "leather goods exporter to Europe",
       "fabricant sacs en cuir inde",
       "fabricant maroquinerie de luxe inde",
       "atelier confection cuir inde",
