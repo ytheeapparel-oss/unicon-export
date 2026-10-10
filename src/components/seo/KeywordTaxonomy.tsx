@@ -89,38 +89,48 @@ export function KeywordTaxonomy() {
         </div>
       </div>
 
-      {/* 3. Deep Taxonomy Search Directory */}
-      <div className="space-y-6 pt-4 border-t border-charcoal/8">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-          <span className="text-[11px] uppercase tracking-[0.2em] font-bold text-charcoal font-mono">
-            B2B Sourcing Taxonomy &amp; Keyword Index
-          </span>
-          <span className="text-[10px] text-charcoal-500 font-mono tracking-wider">
-            Indexed Global Leather Goods Export Catalog
-          </span>
-        </div>
+      {/* 3. Deep Taxonomy Search Directory (Clean Collapsible Accordion to Eliminate Clutter) */}
+      <div className="pt-2 border-t border-charcoal/8">
+        <details className="group bg-white border border-charcoal/10 transition-colors">
+          <summary className="cursor-pointer px-4 py-3 flex items-center justify-between text-[11px] font-mono uppercase tracking-widest text-charcoal font-semibold select-none hover:text-cognac hover:bg-[#FAF8F5] transition-colors">
+            <span className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-cognac"></span>
+              <span>B2B Sourcing Taxonomy &amp; Master Capability Index</span>
+            </span>
+            <span className="text-[10px] text-charcoal-400 group-open:text-cognac font-mono flex items-center gap-1.5">
+              <span className="hidden sm:inline">Click to View Indexed Capabilities</span>
+              <span className="inline-block transform group-open:rotate-180 transition-transform text-xs">▾</span>
+            </span>
+          </summary>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6">
-          {SEO_KEYWORD_CLUSTERS.map((cluster) => (
-            <div key={cluster.category} className="space-y-2.5">
-              <h4 className="text-[11px] font-serif font-medium text-cognac tracking-wide">
-                {cluster.category}
-              </h4>
-              <ul className="space-y-1.5 text-[10.5px] text-charcoal-600 font-light">
-                {cluster.keywords.map((kw) => (
-                  <li key={kw}>
-                    <Link
-                      href={`/products?search=${encodeURIComponent(kw)}`}
-                      className="hover:text-cognac transition-colors block py-0.5 capitalize leading-relaxed"
-                    >
-                      {kw}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+          <div className="p-6 border-t border-charcoal/10 bg-[#FAF8F5] space-y-4">
+            <p className="text-[11px] text-charcoal-500 font-light">
+              UNICON LEATHER verified manufacturing capabilities index across OEM/ODM collections, regional export hubs, and sustainable material certifications:
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6 pt-2">
+              {SEO_KEYWORD_CLUSTERS.slice(0, 12).map((cluster) => (
+                <div key={cluster.category} className="space-y-2">
+                  <h4 className="text-[11px] font-serif font-medium text-cognac tracking-wide">
+                    {cluster.category}
+                  </h4>
+                  <ul className="space-y-1 text-[10.5px] text-charcoal-600 font-light">
+                    {cluster.keywords.slice(0, 5).map((kw) => (
+                      <li key={kw}>
+                        <Link
+                          href={`/products?search=${encodeURIComponent(kw)}`}
+                          className="hover:text-cognac transition-colors block py-0.5 capitalize leading-relaxed"
+                        >
+                          {kw}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        </details>
       </div>
     </div>
   );

@@ -24,7 +24,18 @@ export function middleware(request: NextRequest) {
     request.headers.get("cf-ipcountry") ||
     "US";
 
-  // 1. Bypass all static assets, sitemaps, API, and Next.js internals
+  // 1. Canonical Host Enforcement: 301 Permanent Redirect for vercel.app and non-canonical domains
+  const host = (request.headers.get("host") || "").toLowerCase();
+  const search = request.nextUrl.search || "";
+
+  if (host.includes("vercel.app") || host === "uniconleather.com") {
+    const canonicalDestination = new URL(
+      `https://www.uniconleather.com${pathname}${search}`
+    );
+    return NextResponse.redirect(canonicalDestination, 301);
+  }
+
+  // 2. Bypass all static assets, sitemaps, API, and Next.js internals
   if (
     pathname.startsWith("/_next") ||
     pathname.startsWith("/api") ||

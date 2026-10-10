@@ -24,6 +24,17 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'myuniconcom.vercel.app',
+          },
+        ],
+        destination: 'https://www.uniconleather.com/:path*',
+        permanent: true,
+      },
+      {
         source: '/how-we-craft-premium-leather-goods-in-2026',
         destination: '/craftsmanship',
         permanent: true,

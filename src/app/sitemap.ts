@@ -8,6 +8,16 @@ import { EXPORT_HUBS } from "@/data/exportHubs";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.uniconleather.com";
 
+  const internationalHreflang = {
+    "en-US": `${baseUrl}/en-us`,
+    "en-CA": `${baseUrl}/en-ca`,
+    "en-GB": `${baseUrl}/en-gb`,
+    "en-AU": `${baseUrl}/en-au`,
+    "de-DE": `${baseUrl}/de`,
+    "fr-FR": `${baseUrl}/fr`,
+    "x-default": `${baseUrl}`,
+  };
+
   // Core static routes
   const staticRoutes: MetadataRoute.Sitemap = [
     {
@@ -15,6 +25,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1.0,
+      alternates: {
+        languages: internationalHreflang,
+      },
     },
     {
       url: `${baseUrl}/about`,
@@ -114,12 +127,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.95,
   }));
 
-  // Dedicated International Market Gateways
+  // Dedicated International Market Gateways with reciprocal hreflang annotations
   const internationalRoutes: MetadataRoute.Sitemap = Object.values(INTERNATIONAL_MARKETS).map((m) => ({
     url: `${baseUrl}${m.path}`,
     lastModified: new Date(),
     changeFrequency: "weekly",
     priority: 0.95,
+    alternates: {
+      languages: internationalHreflang,
+    },
   }));
 
   // Programmatic International Export Hubs
