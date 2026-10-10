@@ -8,6 +8,24 @@ export const metadata: Metadata = {
   title: "Cookie Policy | UNICON LEATHER",
   description:
     "Information on cookies, technical tracking, and performance analytics for UNICON LEATHER website visitors.",
+  alternates: {
+    canonical: "https://www.uniconleather.com/cookie-policy",
+  },
+  openGraph: {
+    title: "Cookie Policy | UNICON LEATHER",
+    description:
+      "Information on cookies, technical tracking, and performance analytics for UNICON LEATHER website visitors.",
+    url: "https://www.uniconleather.com/cookie-policy",
+    type: "website",
+    images: [
+      {
+        url: "https://www.uniconleather.com/images/home-hero-leather.jpg",
+        width: 1200,
+        height: 630,
+        alt: "UNICON LEATHER Cookie Policy",
+      },
+    ],
+  },
 };
 
 export default function CookiePolicyPage() {

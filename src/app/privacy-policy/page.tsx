@@ -8,6 +8,24 @@ export const metadata: Metadata = {
   title: "Privacy Policy | UNICON LEATHER",
   description:
     "B2B privacy policy, data protection, and confidentiality terms for UNICON LEATHER international clients.",
+  alternates: {
+    canonical: "https://www.uniconleather.com/privacy-policy",
+  },
+  openGraph: {
+    title: "Privacy Policy | UNICON LEATHER",
+    description:
+      "B2B privacy policy, data protection, and confidentiality terms for UNICON LEATHER international clients.",
+    url: "https://www.uniconleather.com/privacy-policy",
+    type: "website",
+    images: [
+      {
+        url: "https://www.uniconleather.com/images/home-hero-leather.jpg",
+        width: 1200,
+        height: 630,
+        alt: "UNICON LEATHER Privacy Policy",
+      },
+    ],
+  },
 };
 
 export default function PrivacyPolicyPage() {

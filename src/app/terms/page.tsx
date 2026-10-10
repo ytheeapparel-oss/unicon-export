@@ -8,6 +8,24 @@ export const metadata: Metadata = {
   title: "Terms & Conditions | UNICON LEATHER",
   description:
     "Commercial manufacturing terms, sampling policies, quality acceptance criteria, and international export payment guidelines.",
+  alternates: {
+    canonical: "https://www.uniconleather.com/terms",
+  },
+  openGraph: {
+    title: "Terms & Conditions | UNICON LEATHER",
+    description:
+      "Commercial manufacturing terms, sampling policies, quality acceptance criteria, and international export payment guidelines.",
+    url: "https://www.uniconleather.com/terms",
+    type: "website",
+    images: [
+      {
+        url: "https://www.uniconleather.com/images/home-hero-leather.jpg",
+        width: 1200,
+        height: 630,
+        alt: "UNICON LEATHER Terms & Conditions",
+      },
+    ],
+  },
 };
 
 export default function TermsPage() {
