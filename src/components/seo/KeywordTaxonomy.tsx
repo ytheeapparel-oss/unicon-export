@@ -86,6 +86,27 @@ export function KeywordTaxonomy() {
             <span>🇫🇷</span>
             <span>France &amp; Europe Maroquinerie de Luxe</span>
           </Link>
+          <Link
+            href="/it"
+            className="text-[11px] font-mono bg-white hover:bg-cognac hover:text-white border border-charcoal/15 px-3 py-1.5 transition-all text-charcoal-700 shadow-2xs inline-flex items-center gap-1.5"
+          >
+            <span>🇮🇹</span>
+            <span>Italia B2B Pelletteria &amp; Borse in Pelle</span>
+          </Link>
+          <Link
+            href="/es"
+            className="text-[11px] font-mono bg-white hover:bg-cognac hover:text-white border border-charcoal/15 px-3 py-1.5 transition-all text-charcoal-700 shadow-2xs inline-flex items-center gap-1.5"
+          >
+            <span>🇪🇸</span>
+            <span>España B2B Marroquinería &amp; Marca Blanca</span>
+          </Link>
+          <Link
+            href="/leather-goods-supplier-europe"
+            className="text-[11px] font-mono bg-white hover:bg-cognac hover:text-white border border-charcoal/15 px-3 py-1.5 transition-all text-charcoal-700 shadow-2xs inline-flex items-center gap-1.5"
+          >
+            <span>🇪🇺</span>
+            <span>Pan-European OEM Supplier Portal (REACH / DDP)</span>
+          </Link>
         </div>
       </div>
 

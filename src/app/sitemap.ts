@@ -15,6 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "en-AU": `${baseUrl}/en-au`,
     "de-DE": `${baseUrl}/de`,
     "fr-FR": `${baseUrl}/fr`,
+    "it-IT": `${baseUrl}/it`,
+    "es-ES": `${baseUrl}/es`,
     "x-default": `${baseUrl}`,
   };
 

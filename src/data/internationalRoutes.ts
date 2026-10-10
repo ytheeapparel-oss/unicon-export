@@ -497,4 +497,162 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       "genuine leather goods supplier canada wholesale",
     ],
   },
+  "it": {
+    code: "it",
+    locale: "it-IT",
+    countryName: "Italia & Europa Meridionale",
+    flag: "🇮🇹",
+    currency: "EUR",
+    currencySymbol: "€",
+    path: "/it",
+    metaTitle: "Produttore Pelletteria e Borse in Pelle in India B2B | OEM & Private Label",
+    metaDescription:
+      "Produttore e fornitore di pelletteria artigianale in India per brand italiani. Borse in pelle, portafogli, cinture e accessori conto terzi. Conforme EU REACH, concerie LWG Gold, MOQ 100 pezzi, spedizione DDP Italia.",
+    heroKicker: "Atelier di Pelletteria B2B per Marchi Italiani ed Europei · Certificato REACH & LWG",
+    heroH1: "Produttore di Pelletteria Conto Terzi & Borse in Pelle in India",
+    heroSubtitle:
+      "Atelier di produzione artigianale e private label per case di moda, designer indipendenti e boutique italiane. Lavorazioni di alta precisione: spaccatura micro a 0.4mm, tintura manuale dei bordi, pellami pieno fiore certificati LWG Gold, piena conformità chimica EU REACH e consegna DDP sdoganata verso Milano, Firenze, Roma e tutta Europa.",
+    complianceBadges: [
+      { title: "Conforme Norme REACH", subtitle: "Senza coloranti AZO, Nickel Safe, Cromo VI < 3ppm" },
+      { title: "Concerie LWG Gold", subtitle: "Pellame Bovino Tracciabile e Concia al Vegetale" },
+      { title: "Finiture Artigianali", subtitle: "Coste Pettinate & Tinte a Mano con Vernici Italiane" },
+      { title: "MOQ Flessibile", subtitle: "A partire da soli 100 pezzi per modello" },
+    ],
+    tradeHighlights: [
+      {
+        label: "Spedizioni DDP Italia",
+        value: "Porto di Genova & Malpensa",
+        desc: "Sdoganamento completo, gestione IVA/dazi e consegna camionistica direttamente al vostro magazzino in Italia.",
+      },
+      {
+        label: "Qualità Manifatturiera",
+        value: "Standard AQL 2.5",
+        desc: "Precisione di cucitura, rinforzi strutturali termoadesivi, fodere in cotone biologico e controllo qualità al 100%.",
+      },
+      {
+        label: "Sviluppo Prototipi",
+        value: "7-10 Giorni Lavorativi",
+        desc: "Campionatura rapida da tech pack o cartamodelli inviata tramite corriere espresso DHL direttamente al vostro studio.",
+      },
+      {
+        label: "Trasparenza Etica",
+        value: "Audit SEDEX / SMETA",
+        desc: "Produzione etica certificata nel Calcutta Leather Complex con impianti moderni e salari equi garantiti.",
+      },
+    ],
+    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags"],
+    faqs: [
+      {
+        question: "Come garantite la conformità alle normative europee REACH per i marchi italiani?",
+        answer:
+          "Tutti i pellami, le fodere tessili, i collanti e la minuteria metallica sono testati e certificati da laboratori internazionali accreditati (SGS, TÜV, Intertek) secondo il Regolamento UE REACH Allegato XVII. Garantiamo l'assenza di coloranti azoici vietati, rilascio di nichel a norma EN 1811 e cromo esavalente al di sotto della soglia di rilevabilità (Cr VI < 3 ppm).",
+      },
+      {
+        question: "Qual è il quantitativo minimo d'ordine (MOQ) per collezioni private label?",
+        answer:
+          "Il nostro MOQ parte da soli 100 pezzi per modello, con la flessibilità di suddividere l'ordine su 2 o 3 varianti colore (ad es. 50 nero, 50 cuoio naturale) per agevolare il lancio di nuove collezioni con investimenti ottimizzati.",
+      },
+      {
+        question: "Gestite direttamente la spedizione DDP con sdoganamento verso l'Italia?",
+        answer:
+          "Sì. Gestiamo spedizioni DDP (Delivered Duty Paid) via mare (Porto di Genova o La Spezia) e via aerea (Milano Malpensa o Roma Fiumicino). Tutte le pratiche doganali, dazi UE e documenti di trasporto vengono liquidati in anticipo, consegnando la merce pronta a scaffale.",
+      },
+      {
+        question: "Possiamo inviare tech pack o campioni fisici per la campionatura?",
+        answer:
+          "Certamente. I nostri modellisti CAD traducono disegni tecnici, file Illustrator o capi campione fisici in cartamodelli operativi. Inviamo il campione master per approvazione entro 7-10 giorni lavorativi con spedizione aerea prioritaria.",
+      },
+    ],
+    keywords: [
+      "produttore pelletteria india",
+      "fabbrica borse in pelle india",
+      "produttore borse pelle conto terzi b2b",
+      "private label pelletteria india",
+      "fornitore borse in pelle per marchi italiani",
+      "artigianato pelle india export italia",
+      "leather goods manufacturer in india for italian brands",
+      "reach compliant leather factory india",
+      "produttore portafogli in pelle india",
+      "concerie lwg borse pelle conto terzi",
+    ],
+  },
+  "es": {
+    code: "es",
+    locale: "es-ES",
+    countryName: "España & Unión Europea",
+    flag: "🇪🇸",
+    currency: "EUR",
+    currencySymbol: "€",
+    path: "/es",
+    metaTitle: "Fabricante de Marroquinería y Bolsos de Piel en la India B2B | OEM",
+    metaDescription:
+      "Fabricante directo de marroquinería y bolsos de piel en la India para marcas de moda españolas y europeas. Marca blanca, conformidad REACH, curtidurías LWG Gold, MOQ 100 uds, envíos DDP a España.",
+    heroKicker: "Fábrica de Marroquinería B2B para Marcas Españolas · Cumplimiento EU REACH & LWG",
+    heroH1: "Fabricante de Marroquinería y Bolsos de Cuero en la India",
+    heroSubtitle:
+      "Taller de confección artesanal y producción de marca blanca (OEM/ODM) de artículos de piel para firmas de moda y diseñadores de España. Bolsos de mano, carteras, mochilas y cinturones con acabados de lujo: lujado de cantos a mano, pieles flor certificadas LWG Gold, estricta conformidad con la normativa europea REACH y entregas DDP puerta a puerta en Madrid, Barcelona, Valencia y toda la UE.",
+    complianceBadges: [
+      { title: "Normativa EU REACH", subtitle: "Sin Colorantes AZO, Libre de Níquel y Cromo VI < 3ppm" },
+      { title: "Curtidurías LWG Gold", subtitle: "Piel Vacuna Plena Flor y Curtición Vegetal Sostenible" },
+      { title: "Acabado de Precisión", subtitle: "Cantos Pintados a Mano con Laca Italiana & Remallado Fino" },
+      { title: "MOQ Reducido", subtitle: "Desde solo 100 unidades por diseño con división de color" },
+    ],
+    tradeHighlights: [
+      {
+        label: "Envíos DDP España",
+        value: "Valencia & Barcelona",
+        desc: "Despacho de aduanas completo, aranceles e IVA gestionados hasta su almacén en España.",
+      },
+      {
+        label: "Control de Calidad",
+        value: "Inspección AQL 2.5",
+        desc: "Verificación milimétrica de costuras, herrajes reforzados, pruebas de tracción y empaquetado hermético para exportación.",
+      },
+      {
+        label: "Prototipado Rápido",
+        value: "7 a 10 Días Laborables",
+        desc: "Elaboración ágil de contramuestras físicas a partir de sus fichas técnicas, enviadas vía DHL Express.",
+      },
+      {
+        label: "Compromiso Ético",
+        value: "Auditoría SEDEX / BSCI",
+        desc: "Instalaciones modernas en el Calcutta Leather Complex con salarios dignos y gestión ecológica de efluentes.",
+      },
+    ],
+    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags"],
+    faqs: [
+      {
+        question: "¿Cómo garantizan el cumplimiento de la normativa europea REACH para España?",
+        answer:
+          "Todos nuestros cueros, forros textiles, tintes de cantos y fornituras metálicas son verificados por laboratorios acreditados (SGS/TÜV) conforme al Reglamento CE 1907/2006 Anexo XVII. Certificamos la ausencia de aminas aromáticas cancerígenas (AZO-free), liberación de níquel reglamentaria y niveles de Cromo VI por debajo del límite de detección legal (< 3 mg/kg).",
+      },
+      {
+        question: "¿Cuál es la cantidad mínima de pedido (MOQ) para marcas españolas?",
+        answer:
+          "Ofrecemos un MOQ accesible de 100 unidades por diseño, permitiendo dividir la tirada en 2 o 3 colores de piel (por ejemplo, 50 cuero natural y 50 negro) para que las marcas de autor puedan lanzar colecciones sin sobrecargar su inventario.",
+      },
+      {
+        question: "¿Realizan envíos DDP directamente a nuestro almacén en España?",
+        answer:
+          "Sí, ofrecemos servicio DDP (Delivered Duty Paid) integral por vía marítima (puertos de Valencia o Barcelona) o aérea (aeropuertos de Madrid Barajas o Barcelona-El Prat). Nosotros gestionamos el despacho aduanero, aranceles comunitarios y entrega directa en sus instalaciones.",
+      },
+      {
+        question: "¿Pueden fabricar a partir de nuestros propios Tech Packs y diseños?",
+        answer:
+          "Totalmente. Nuestro equipo de patronaje industrial digitaliza sus fichas técnicas y produce un prototipo físico de aprobación en un plazo de 7 a 10 días laborables para su validación previa a la producción a granel.",
+      },
+    ],
+    keywords: [
+      "fabricante marroquineria india",
+      "fabricante bolsos piel india",
+      "marroquineria marca blanca b2b",
+      "fabricante bolsos de cuero al por mayor",
+      "proveedor marroquineria marcas espanolas",
+      "leather goods manufacturer in india for spanish brands",
+      "taller confeccion cuero india",
+      "bolsos piel reach lwg fabricacion",
+      "fabricante carteras piel india",
+      "exportador articulos de piel india espana",
+    ],
+  },
 };

@@ -1332,7 +1332,17 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "private label leather bags Paris France",
       "sustainable leather goods supplier Scandinavia Denmark",
       "Lederwaren Hersteller Deutschland",
-      "leather goods supplier DDP shipping to European Union Rotterdam Hamburg"
+      "leather goods supplier DDP shipping to European Union Rotterdam Hamburg",
+      "leather goods supplier Netherlands Amsterdam",
+      "leather bag manufacturer Sweden Stockholm",
+      "leather goods supplier Belgium Antwerp",
+      "leather bags manufacturer Switzerland Zurich",
+      "leather accessories exporter Poland Warsaw",
+      "sustainable leather goods supplier Copenhagen Denmark",
+      "leather goods manufacturer CIF Genoa",
+      "leather goods manufacturer CIF Antwerp",
+      "EUDR compliant leather manufacturer India",
+      "European fashion private label leather factory"
     ]
   },
 

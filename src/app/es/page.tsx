@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { INTERNATIONAL_MARKETS } from "@/data/internationalRoutes";
 import { InternationalHubPage } from "@/components/seo/InternationalHubPage";
 
-const market = INTERNATIONAL_MARKETS["de"];
+const market = INTERNATIONAL_MARKETS["es"];
 
 export const metadata: Metadata = {
   title: market.metaTitle,
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description: market.metaDescription,
     url: `https://www.uniconleather.com${market.path}`,
     type: "website",
-    locale: "de_DE",
+    locale: "es_ES",
     images: [
       {
         url: "https://www.uniconleather.com/images/home-hero-leather.jpg",
@@ -45,6 +45,6 @@ export const metadata: Metadata = {
   keywords: market.keywords,
 };
 
-export default function DePage() {
+export default function EsPage() {
   return <InternationalHubPage market={market} />;
 }
