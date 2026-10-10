@@ -83,6 +83,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "leather bag manufacturers in India",
       "leather bags manufacturer India",
       "custom leather bag manufacturers",
@@ -122,6 +123,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "logo embossed leather bags",
       "custom branded leather gifts",
       "promotional leather bags"
+    
     ]
   },
 
@@ -178,6 +180,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "leather handbags manufacturers",
       "leather purses manufacturers",
       "leather handbags manufacturer India",
@@ -212,6 +215,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather turn lock clutch",
       "leather envelope clutch",
       "leather fold over clutch"
+    
     ]
   },
 
@@ -268,6 +272,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "leather wallet manufacturers India",
       "leather wallet manufacturer India",
       "leather passport holder manufacturers",
@@ -309,6 +314,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather coat wallets",
       "leather passport wallets",
       "leather checkbook wallets"
+    
     ]
   },
 
@@ -365,6 +371,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "leather belt manufacturers",
       "leather belt manufacturers in India",
       "private label leather belts",
@@ -385,6 +392,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "double buckle leather belts",
       "wide leather belts",
       "skinny leather belts"
+    
     ]
   },
 
@@ -441,6 +449,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "leather accessories factory Kolkata",
       "sustainable leather accessories manufacturer",
       "vegetable tanned leather accessories",
@@ -611,6 +620,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "wall clocks",
       "aroma diffusers",
       "car accessories"
+    
     ]
   },
 
@@ -667,6 +677,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "small leather goods manufacturer",
       "small leather goods manufacturer India",
       "leather card holder manufacturer",
@@ -677,6 +688,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "SLG manufacturer India",
       "custom small leather goods",
       "leather goods factory India"
+    
     ]
   },
 
@@ -733,6 +745,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "Indian leather goods supplier for US brands",
       "private label leather supplier for UK brands",
       "leather goods exporter to Europe",
@@ -752,6 +765,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "private label leather bags",
       "private label leather handbags",
       "private label bag manufacturer"
+    
     ]
   },
 
@@ -808,6 +822,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "WRAP compliant leather manufacturer India",
       "ISO certified leather supplier India",
       "SMETA audited leather manufacturer",
@@ -820,6 +835,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "contract leather goods manufacturer",
       "odm leather products factory",
       "oem leather bag factory"
+    
     ]
   },
 
@@ -876,6 +892,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "custom leather products manufacturer",
       "custom leather manufacturing",
       "OEM custom leather manufacturing",
@@ -901,6 +918,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "custom leather handbags manufacturer",
       "custom made leather bags",
       "leather bag makers"
+    
     ]
   },
 
@@ -957,6 +975,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "wholesale leather handbags",
       "wholesale leather handbags suppliers",
       "bulk leather handbag supply",
@@ -969,6 +988,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "wholesale leather goods manufacturer",
       "handmade leather bags wholesale",
       "personalized leather accessories wholesale"
+    
     ]
   },
 
@@ -1025,6 +1045,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "leather exporters Kolkata",
       "leather goods exporter to Europe",
       "Indian leather goods supplier for US brands",
@@ -1037,6 +1058,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "Indian leather goods exporter",
       "leather products export house India",
       "leather bags exporter India"
+    
     ]
   },
   "leather-goods-supplier-usa": {
@@ -1100,6 +1122,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "Indian leather goods supplier for US brands",
       "leather goods supplier in usa",
       "leather goods suppliers in usa",
@@ -1136,6 +1159,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "trusted leather bag manufacturer in india",
       "audited leather goods manufacturer india",
       "worldwide leather goods supplier"
+    
     ]
   },
   "leather-goods-supplier-asia": {
@@ -1199,6 +1223,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "leather goods supplier in asia",
       "leather goods suppliers in asia",
       "leather goods manufacturer in asia",
@@ -1231,6 +1256,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather goods manufacturers sydney b2b",
       "leather bags supplier new zealand b2b",
       "custom leather goods manufacturer nz"
+    
     ]
   },
   "leather-goods-supplier-europe": {
@@ -1294,6 +1320,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "leather goods exporter to Europe",
       "private label leather supplier for UK brands",
       "SMETA audited leather manufacturer",
@@ -1343,6 +1370,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather goods manufacturer CIF Antwerp",
       "EUDR compliant leather manufacturer India",
       "European fashion private label leather factory"
+    
     ]
   },
 
@@ -1411,6 +1439,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "leather goods manufacturer Kolkata",
       "leather accessories factory Kolkata",
       "leather exporters Kolkata",
@@ -1446,6 +1475,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather workshop",
       "leather manufacturing services",
       "leather maker in India"
+    
     ]
   },
 
@@ -1502,6 +1532,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "luxury leather goods manufacturer",
       "high end leather goods manufacturer",
       "premium leather goods manufacturer",
@@ -1518,6 +1549,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "luxury small leather goods manufacturer",
       "manufacturer of leather goods",
       "luxury designer leather products"
+    
     ]
   },
 
@@ -1574,6 +1606,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "low MOQ leather bag manufacturers India",
       "small batch leather bag manufacturing",
       "leather bag manufacturers for startups",
@@ -1594,6 +1627,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "on demand leather manufacturing",
       "flexible moq leather goods supplier",
       "how to manufacture leather goods for small business"
+    
     ]
   },
   "leather-jacket-manufacturer-india": {
@@ -1653,6 +1687,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "export leather jackets from India to UK",
       "export leather jackets from India to Japan",
       "leather jacket manufacturer",
@@ -1684,6 +1719,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather dresses manufacturers",
       "custom leather garments manufacturing",
       "private label leather garments manufacturing"
+    
     ]
   },
 
@@ -1760,6 +1796,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+
       "vegetable tanned leather accessories",
       "traceable leather sourcing",
       "leather from LWG-certified tanneries",
@@ -1787,6 +1824,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "buffalo leather",
       "sheep leather",
       "goat leather"
+    
     ]
   }
 };

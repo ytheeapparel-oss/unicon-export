@@ -358,9 +358,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "corporate laptop bags",
       "executive briefcases",
       "leather laptop bags wholesale",
-      "leather backpacks",
-      "leather duffle bags",
-      "leather messenger bags",
       "leather sling bags",
       "ladies leather handbags",
       "leather corporate gifts",
@@ -439,7 +436,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     category: "Highest Priority: Bulk Purchasing & Export",
     description: "Wholesale purchasing, bulk bag supply, customs export documentation, and custom logo bulk manufacturing.",
     keywords: [
-      "wholesale leather bags India",
       "bulk leather bag suppliers India",
       "leather bag exporters India",
       "leather bag manufacturers for brands",
@@ -532,7 +528,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     description: "Highest-priority search queries for genuine leather goods manufacturers, OEM factories, and exporters in India, Noida, and Delhi NCR.",
     keywords: [
       "leather goods manufacturer India",
-      "leather bags manufacturer India",
       "leather handbags manufacturer India",
       "private label leather goods manufacturer",
       "custom leather goods manufacturer India",
@@ -540,7 +535,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "leather wallet manufacturer India",
       "leather belt manufacturer India",
       "leather accessories manufacturer India",
-      "wholesale leather bags India",
       "OEM leather goods manufacturer",
       "leather bag supplier India",
       "leather goods manufacturer Noida",
@@ -552,28 +546,22 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     description: "Custom contract manufacturing, private-label production, and export atelier services.",
     keywords: [
       "custom leather goods manufacturer",
-      "private label leather goods manufacturer",
-      "oem leather goods manufacturer",
       "contract leather goods manufacturing",
       "contract leather manufacturing",
       "custom leather products supplier",
       "bespoke leather accessories supplier",
-      "leather goods exporter India",
       "wholesale leather products supplier",
       "certified leather manufacturer audit pass",
-      "LWG certified leather factory",
       "Sedex audited leather manufacturer",
       "ISO certified leather goods factory",
       "low MOQ leather goods manufacturer",
-      "small batch leather manufacturing",
-      "leather goods factory Kolkata"
+      "small batch leather manufacturing"
     ]
   },
   {
     category: "Bags, Totes, Duffels & Backpacks",
     description: "Wholesale bags, private-label tote collections, backpacks, and messenger satchels.",
     keywords: [
-      "custom leather bags manufacturer",
       "private label leather bags manufacturer",
       "leather bags wholesale supplier",
       "bulk leather bags for retail",
@@ -664,10 +652,8 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "nappa leather goods factory",
       "bridle leather goods supplier",
       "suede and nubuck accessories",
-      "vegetable tanned leather bag",
       "veg tan leather goods",
       "chrome-free tanned leather goods",
-      "sustainable leather manufacturer",
       "REACH Annex XVII compliant leather goods",
       "California Proposition 65 compliant leather",
       "recycled leather goods manufacturer",
@@ -785,18 +771,15 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     description: "Highest-volume search queries from UK, European fashion brands, luxury labels, and procurement houses sourcing custom genuine leather goods from India.",
     keywords: [
       "leather goods manufacturers in india",
-      "leather goods manufacturer in india",
       "leather bag manufacturer in india",
       "leather bags manufacturers in india",
       "leather handbags manufacturer in india",
       "leather goods manufacturer India for European brands",
-      "leather goods manufacturer India for UK brands",
       "leather bags manufacturer India for German brands",
       "leather bags manufacturer India for French brands",
       "leather bags manufacturer India for Italian brands",
       "leather bags manufacturer India for Spanish brands",
       "leather bags manufacturer India for Dutch brands",
-      "leather goods exporter in india to europe",
       "leather goods supplier in india for european brands",
       "custom leather goods manufacturer in india",
       "private label leather goods manufacturer in india",
@@ -827,15 +810,12 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "sustainable leather bags manufacturer India LWG certified",
       "leather bags OEM factory India SEDEX SMETA BSCI certified",
       "sedex audited leather goods manufacturer india",
-      "bsci certified leather goods factory india",
       "vegetable tanned leather goods manufacturer in india",
       "italian vegetable tanned leather goods manufacturer india export",
       "chrome free leather goods manufacturer india",
       "azo dye free nickel free leather goods supplier india",
       "sustainable leather manufacturer india for eu brands",
-      "ethical leather goods factory in india",
-      "recycled leather goods manufacturer in india",
-      "traceable leather goods manufacturer india"
+      "recycled leather goods manufacturer in india"
     ]
   },
   {
@@ -847,9 +827,7 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "leather goods supplier CIF Hamburg",
       "leather goods manufacturer DDP European Union",
       "Council for Leather Exports CLE registered manufacturer",
-      "ISO 9001 certified leather goods exporter India",
       "SA8000 certified ethical leather supplier India",
-      "Sedex SMETA 4 pillar audited leather factory",
       "zero child labor ethical leather factory India",
       "chromium VI free leather goods manufacturer India",
       "AQL 2.5 quality inspection leather exporter India",
@@ -936,7 +914,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     category: "Delhi NCR & India Sourcing Hub",
     description: "Targeted B2B queries from fashion brands, buying houses, corporate clients, and wholesalers across Delhi, Noida, Gurugram, and India.",
     keywords: [
-      "leather bags manufacturers in india",
       "leather bags manufacturers in delhi",
       "leather bags manufacturers in noida",
       "leather bags manufacturers in gurugram",
@@ -1002,9 +979,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "leather goods manufacturing companies",
       "leather goods production factory",
       "genuine leather goods manufacturer",
-      "custom leather goods manufacturer",
-      "private label leather goods manufacturer",
-      "oem leather goods manufacturer",
       "odm leather goods manufacturer",
       "contract leather goods manufacturer",
       "bespoke leather goods manufacturer",
@@ -1023,7 +997,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     category: "Luxury & High-End Leather Goods Manufacturing",
     description: "Trending search queries from luxury brands, high-end boutiques, and designer ateliers seeking master craftsmen and heritage finishing.",
     keywords: [
-      "luxury leather goods manufacturer",
       "high end leather goods manufacturer",
       "premium leather goods manufacturer",
       "artisan leather goods manufacturer",
@@ -1045,9 +1018,7 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     category: "Startup, Low MOQ & Small Batch Leather Manufacturing",
     description: "High-intent queries from D2C startups, emerging designers, boutique brands, and Kickstarter projects seeking low minimum order quantities and flexible prototyping.",
     keywords: [
-      "low MOQ leather goods manufacturer",
       "small batch leather goods manufacturer",
-      "small batch leather manufacturing",
       "leather goods manufacturer for startups",
       "low minimum order quantity leather manufacturer",
       "custom leather goods low moq",
@@ -1090,10 +1061,8 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     category: "Core B2B & Wholesale Leather Goods",
     description: "High-volume wholesale search queries for international leather goods manufacturing and bulk supply.",
     keywords: [
-      "leather goods manufacturer",
       "leather goods suppliers",
       "leather bag manufacturers",
-      "custom leather goods manufacturer",
       "wholesale leather bags supplier",
       "leather products exporter",
       "leather accessories manufacturer",
@@ -1109,15 +1078,12 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     category: "OEM, ODM & Private Label Leather Production",
     description: "Search queries for custom contract manufacturing, white label production, and brand private labeling.",
     keywords: [
-      "private label leather bags manufacturer",
-      "oem leather goods manufacturer",
       "odm leather products supplier",
       "white label leather goods factory",
       "bespoke leather goods manufacturing",
       "custom leather goods for brands",
       "cut and sew leather factory",
       "leather contract manufacturer",
-      "contract leather goods manufacturer",
       "custom private label leather products",
       "custom leather handbag factory",
       "oem leather wallet manufacturer"
@@ -1128,14 +1094,12 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     description: "Keywords from emerging fashion founders, small designers, and boutique brands seeking low MOQ production and rapid sampling.",
     keywords: [
       "leather goods manufacturer low moq",
-      "small batch leather goods manufacturer",
       "leather bag manufacturer for startups",
       "low minimum order quantity leather supplier",
       "custom leather wallet manufacturer low moq",
       "sampling and prototyping leather goods factory",
       "small scale leather goods production",
-      "low volume leather goods manufacturing",
-      "leather goods prototype manufacturer"
+      "low volume leather goods manufacturing"
     ]
   },
   {
@@ -1146,7 +1110,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "wholesale leather tote bags supplier",
       "leather duffle bag manufacturer",
       "custom leather backpack manufacturer",
-      "leather messenger bag factory",
       "leather laptop bag manufacturer",
       "leather wallet manufacturer supplier",
       "leather card holder manufacturer",
@@ -1160,7 +1123,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     category: "Regional Sourcing & Export Hubs (India, US, UK, Germany)",
     description: "Geographic search queries connecting international brands with India's premier export manufacturing clusters.",
     keywords: [
-      "leather goods manufacturer in india",
       "leather bag exporters in kolkata",
       "leather goods manufacturers in kanpur",
       "leather goods suppliers for us brands",
@@ -1180,7 +1142,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "full grain leather bag manufacturer",
       "sustainable leather goods manufacturer",
       "bsci audited leather factory",
-      "vegetable tanned leather goods manufacturer",
       "top grain leather products supplier",
       "eco friendly leather goods manufacturer",
       "sedex audited leather goods factory",
@@ -1192,7 +1153,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     description: "High-intent queries from American and Canadian fashion procurement teams searching for direct Indian/Asian bag factories.",
     keywords: [
       "leather bag manufacturer in india for usa",
-      "leather bag manufacturers in india",
       "custom leather bags manufacturer india",
       "oem leather bag factory in asia",
       "leather goods supplier in india export to usa",
@@ -1222,9 +1182,7 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "custom leather bags supplier europe b2b",
       "lederwaren hersteller indien b2b",
       "fabricant sacs en cuir inde",
-      "leather craft exporters kolkata europe",
       "small batch leather bag manufacturer india",
-      "fair trade leather goods manufacturer asia",
       "full grain leather bag manufacturer india"
     ]
   },
@@ -1233,7 +1191,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     description: "Region and cluster-specific search queries connecting global buyers with India's historic leather centers.",
     keywords: [
       "source leather bags from india",
-      "leather bag exporters in kolkata",
       "leather goods manufacturers in calcutta leather complex",
       "leather manufacturers in kanpur india",
       "asia leather bag manufacturing company",
@@ -1259,7 +1216,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     description: "High-volume B2B search terms for wholesale leather wallets and direct factory supplier partnerships.",
     keywords: [
       "leather wallet supplier",
-      "leather wallet manufacturer",
       "wholesale leather wallets supplier",
       "custom leather wallet manufacturer",
       "leather wallet factory",
@@ -1275,7 +1231,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     description: "Queries from fashion brands seeking white label, OEM/ODM contract production and custom wallet development.",
     keywords: [
       "private label leather wallet manufacturer",
-      "oem leather wallet manufacturer",
       "odm custom leather wallets supplier",
       "bespoke leather wallet manufacturing",
       "white label leather wallet factory",
@@ -1495,45 +1450,9 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "leather clothing manufacturers in india",
       "leather jacket sample maker for brands",
       "shearling jacket manufacturer india",
-      "distressed leather jacket manufacturer",
       "sustainable leather jacket factory",
       "leather garments exporter india",
       "leather coats wholesale manufacturer"
-    ]
-  },
-  {
-    category: "Worldwide Leather Wallet & Slim Cardholder Manufacturing Keywords",
-    description: "High-volume search phrases used by luxury brands, EDC startups, and retailers to source RFID wallets, minimal card cases, and leather billfolds.",
-    keywords: [
-      "leather wallet manufacturer",
-      "leather wallet supplier",
-      "wholesale leather wallets supplier",
-      "custom leather wallet manufacturer",
-      "leather wallet factory",
-      "leather wallets bulk supplier",
-      "leather wallet exporter",
-      "b2b leather wallet manufacturers",
-      "private label leather wallet manufacturer",
-      "oem leather wallet manufacturer",
-      "odm custom leather wallets supplier",
-      "white label leather wallet factory",
-      "rfid blocking leather wallet manufacturer",
-      "minimalist leather wallet supplier",
-      "custom leather card holder manufacturer",
-      "leather bifold wallet wholesale manufacturer",
-      "leather trifold wallet supplier",
-      "leather passport holder manufacturer",
-      "leather money clip wallet supplier",
-      "custom slim wallet manufacturer",
-      "leather coin pouch and wallet manufacturer",
-      "zipper leather wallet factory",
-      "leather wallet manufacturer low moq",
-      "small batch leather wallet manufacturer",
-      "full grain leather wallet manufacturer",
-      "vegetable tanned leather wallet supplier",
-      "crazy horse leather wallet supplier",
-      "custom embossed leather wallet supplier",
-      "leather wallet prototype and sampling factory"
     ]
   },
   {
@@ -1545,10 +1464,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "custom small leather goods manufacturer",
       "luxury small leather goods factory",
       "private label small leather goods supplier",
-      "bespoke leather goods manufacturing",
-      "leather accessories manufacturer",
-      "custom leather belt manufacturer",
-      "corporate leather gifts manufacturer",
       "leather keychain manufacturer bulk",
       "leather sunglass case manufacturer",
       "custom leather valet tray manufacturer",
@@ -1567,7 +1482,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     description: "Universal international queries across North America, Europe, UK, Australia, GCC/UAE, and Asia seeking premier leather factories with global DDP delivery.",
     keywords: [
       "global leather goods manufacturer",
-      "worldwide leather goods supplier",
       "international leather goods exporter",
       "luxury leather goods manufacturer worldwide",
       "leather goods factory worldwide shipping",
@@ -1582,7 +1496,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
       "sustainable leather bag manufacturer worldwide",
       "lwg certified leather manufacturer worldwide",
       "reach compliant leather factory worldwide",
-      "california prop 65 compliant leather manufacturer",
       "low moq custom leather manufacturer worldwide"
     ]
   },
@@ -1590,10 +1503,8 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     category: "Indian Regional Leather Manufacturing Hubs & Exporters",
     description: "Search queries targeting key production clusters across India including Kolkata, Kanpur, Chennai, Ranipet, Ambur, Dharavi Mumbai, Noida, and Agra.",
     keywords: [
-      "leather goods manufacturer in india",
       "leather goods export company india",
       "certified leather exporters india",
-      "leather manufacturers in kolkata",
       "leather goods exporters in kanpur",
       "leather shoe manufacturers chennai",
       "leather goods manufacturers ranipet ambur",
@@ -1605,7 +1516,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     category: "OEM, ODM & Custom Contract Leather Manufacturers India",
     description: "High-intent B2B search terms for private-label production, custom development, small batch prototyping, and low MOQ brand launching in India.",
     keywords: [
-      "custom leather goods manufacturer india",
       "private label leather manufacturer india",
       "OEM leather manufacturers india",
       "ODM leather goods supplier india",
@@ -1623,7 +1533,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     category: "Product-Specific Leather Goods Sourcing India",
     description: "Targeted queries for bags, wallets, belts, jackets, footwear, corporate gifts, equestrian tack, and protective gloves from Indian factories.",
     keywords: [
-      "leather bag manufacturers in india",
       "custom leather wallet manufacturer india",
       "leather belt manufacturer supplier india",
       "leather footwear manufacturers india",
@@ -1640,7 +1549,6 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     category: "Asian Leather Sourcing & Global Factory Comparisons",
     description: "Strategic queries comparing manufacturing hubs across Asia including India, China, Vietnam, Bangladesh, and Southeast Asia.",
     keywords: [
-      "leather goods manufacturers in asia",
       "leather goods sourcing agents asia",
       "best leather manufacturers in asia",
       "leather factories in vietnam vs india",
