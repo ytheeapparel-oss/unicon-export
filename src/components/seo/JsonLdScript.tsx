@@ -34,7 +34,7 @@ export function generateWebSiteSchema() {
       },
       "query-input": "required name=search_term_string",
     },
-    inLanguage: ["en-US", "en-GB", "en"],
+    inLanguage: ["en-US", "en-GB", "en", "de-DE", "fr-FR", "it-IT", "es-ES"],
   };
 }
 
@@ -215,7 +215,7 @@ export function generateOrganizationSchema() {
         contactType: "export and domestic B2B sales",
         email: "uniconexport@gmail.com",
         areaServed: ["IN", "US", "GB", "EU", "DE", "FR", "IT", "ES", "NL", "AU", "CA", "AE", "JP"],
-        availableLanguage: ["English", "German", "French", "Hindi"],
+        availableLanguage: ["English", "German", "French", "Italian", "Spanish", "Hindi"],
       },
     ],
     hasOfferCatalog: {
@@ -233,6 +233,8 @@ export function generateOrganizationSchema() {
         { "@type": "OfferCatalog", name: "Australia & New Zealand ECTA 0% Duty Preferential Import" },
         { "@type": "OfferCatalog", name: "Deutschland B2B Lederwaren Manufaktur" },
         { "@type": "OfferCatalog", name: "France Maroquinerie de Luxe sur Mesure" },
+        { "@type": "OfferCatalog", name: "Italia B2B Pelletteria Artigianale e Borse Conto Terzi" },
+        { "@type": "OfferCatalog", name: "España B2B Marroquinería y Bolsos de Piel Marca Blanca" },
       ],
     },
     sameAs: [
