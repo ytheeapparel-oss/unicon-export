@@ -655,4 +655,381 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       "exportador articulos de piel india espana",
     ],
   },
+  "ar": {
+    code: "ar",
+    locale: "ar-AE",
+    countryName: "دولة الإمارات ودول الخليج العربي",
+    flag: "🇦🇪",
+    currency: "AED",
+    currencySymbol: "د.إ",
+    path: "/ar",
+    metaTitle: "مصنع حقائب ومنتجات جلدية فاخرة في الهند | تصنيع بعلامة تجارية خاصة B2B",
+    metaDescription:
+      "مصنع ومصدر معتمد للمنتجات الجلدية الفاخرة والحقائب الأصلية في الهند لعلامات الأزياء في دبي وأبوظبي والخليج. تصنيع مخصص OEM/ODM، جلود مدبوغة عضوياً LWG، حد أدنى 100 قطعة، وشحن DDP مباشر للخليج.",
+    heroKicker: "بوابة التصدير لدولة الإمارات والشرق الأوسط · شحن جوي وبحري مباشر DDP",
+    heroH1: "مصنع المنتجات الجلدية والحقائب الفاخرة في الهند لعلامات الخليج",
+    heroSubtitle:
+      "ورشة متخصصة في تصنيع الجلود الفاخرة وتطوير العلامات التجارية الخاصة (OEM / ODM) لدور الأزياء والمصممين في دبي والرياض والدوحة. حقائب نسائية راقية، حقائب أعمال، محافظ وإكسسوارات من جلود الأبقار الطبيعية الحبيبية الكاملة المعتمدة من LWG، بحرفية يدوية رفيعة وحد أدنى مرن يبدأ من 100 قطعة فقط.",
+    complianceBadges: [
+      { title: "جلود LWG معتمدة", subtitle: "مدابغ صديقة للبيئة وجلود طبيعية 100%" },
+      { title: "شحن DDP للخليج", subtitle: "تخليص جمركي شامل وتوصيل حتى مستودعاتكم" },
+      { title: "حد أدنى 100 قطعة", subtitle: "مرونة للعلامات التجارية الصاعدة والفاخرة" },
+      { title: "عينات خلال 7-10 أيام", subtitle: "تطوير سريع للنماذج الأولية بدقة متناهية" },
+    ],
+    tradeHighlights: [
+      {
+        label: "الشحن إلى الإمارات والخليج",
+        value: "ميناء جبل علي ومطار دبي",
+        desc: "شحن جوي سريع خلال 3-5 أيام عبر DHL/FedEx أو شحن بحري مباشر إلى ميناء جبل علي مع إنهاء كافة الإجراءات.",
+      },
+      {
+        label: "اتفاقية التجارة الحرة CEPA",
+        value: "رسوم جمركية تفضيلية 0%",
+        desc: "استفد من المزايا الجمركية التفضيلية بموجب اتفاقية الشراكة الاقتصادية الشاملة بين الهند والإمارات.",
+      },
+      {
+        label: "معايير الجودة الفاخرة",
+        value: "فحص AQL 2.5 دقيق",
+        desc: "صبغ الحواف الإيطالي يدوياً، حياكة معززة، وسحابات وإكسسوارات ذهبية مقاومة للتآكل.",
+      },
+      {
+        label: "السرية وحماية التصاميم",
+        value: "اتفاقية عدم إفصاح (NDA)",
+        desc: "حماية قانونية كاملة لرسوماتكم التقنية وتصاميمكم الحصرية للعلامة التجارية.",
+      },
+    ],
+    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags"],
+    faqs: [
+      {
+        question: "كيف تتم إدارة الشحن والتخليص الجمركي في دبي والإمارات؟",
+        answer:
+          "نوفر شحن DDP (التسليم شاملاً الرسوم الجمركية) براً وبحراً وجواً إلى دبي وأبوظبي وجميع مدن الخليج العربي. نقوم بإعداد شهادات المنشأ الرسمية والفواتير الموثقة لضمان دخول البضائع دون أي تعقيدات.",
+      },
+      {
+        question: "ما هو الحد الأدنى للطلب (MOQ) لتصنيع تشكيلة حقائب خاصة؟",
+        answer:
+          "الحد الأدنى لدينا يبدأ من 100 قطعة فقط لكل تصميم، مع إمكانية تقسيم الكمية على لونين أو ثلاثة، مما يتيح للعلامات التجارية في دبي إطلاق مجموعات متنوعة بأقل مخاطرة.",
+      },
+      {
+        question: "هل جلودكم طبيعية ومطابقة للمواصفات العالمية؟",
+        answer:
+          "نعم، 100% من الجلود المستخدمة هي جلود طبيعية حبيبية كاملة (Full Grain) أو جلود مدبوغة نباتياً، مشتقة من مدابغ معتمدة دولياً من قبل Leather Working Group، وخالية من أي معادن أو كيماويات ضارة.",
+      },
+      {
+        question: "كم يستغرق تجهيز العينة الأولية وشحنها؟",
+        answer:
+          "يستغرق تطوير النموذج الأولي من 7 إلى 10 أيام عمل بعد اعتماد ملف التصميم (Tech Pack)، ويتم شحن العينة عبر البريد السريع لتصل إلى مكتبكم خلال 3 أيام للمعاينة والاعتماد.",
+      },
+    ],
+    keywords: [
+      "مصنع حقائب جلد طبيعي في الهند",
+      "تصنيع منتجات جلدية دبي",
+      "مصنع شنط جلدية ماركة خاصة",
+      "مورد جلود بالجملة للعلامات التجارية الإمارات",
+      "leather goods manufacturer for dubai brands",
+      "custom leather bag manufacturer india uae",
+      "مصنع محافظ جلدية الهند",
+    ],
+  },
+  "ja": {
+    code: "ja",
+    locale: "ja-JP",
+    countryName: "日本 (Japan)",
+    flag: "🇯🇵",
+    currency: "JPY",
+    currencySymbol: "¥",
+    path: "/ja",
+    metaTitle: "インド本革バッグ・革製品OEM製造工場 | 日本のブランド向けB2B",
+    metaDescription:
+      "日本のアパレル・デザイナーズブランド向け本革製品OEM/ODM受託製造工場。LWG認証フルグレインレザー、ベジタブルタンニン革、日本の高い品質基準（検品体制・0.4mm漉き技術）、最小ロット100点から、DDP成田・羽田・横浜納品。",
+    heroKicker: "日本市場向けB2B本革製品OEM・プライベートレーベル生産拠点",
+    heroH1: "日本のブランドのための本革バッグ・革製品OEM製造工場",
+    heroSubtitle:
+      "東京・大阪・京都のアパレルブランドやセレクトショップ向けの本革バッグ、トート、財布、革小物のアトリエ生産。日本の厳しい品質検査基準に応える高精度なコバ塗り、0.4mmの漉き加工、LWG認証パートナータンナーの良質なフルグレインレザーを採用。小ロット100点から試作・量産対応。",
+    complianceBadges: [
+      { title: "日本の品質基準対応", subtitle: "ミリ単位の縫製精度 & コバ仕上げ" },
+      { title: "LWG認証レザー", subtitle: "環境負荷の少ない上質な本革・植物タンニン鞣し" },
+      { title: "最小ロット100点", subtitle: "初期リスクを抑えたカラー展開が可能" },
+      { title: "7〜10日サンプル製作", subtitle: "仕様書（仕様パターン）からの迅速な試作" },
+    ],
+    tradeHighlights: [
+      {
+        label: "日本向け直送物流",
+        value: "成田・羽田・横浜港",
+        desc: "FedEx/DHLによる航空便（3〜5日）またはコンテナ海上便。通関・輸入関税対応のDDP納品もご相談可能。",
+      },
+      {
+        label: "徹底した検品管理",
+        value: "AQL 2.5 基準",
+        desc: "針混入防止の検針検査、引張強度試験、ファスナー開閉耐久試験、出荷前全数チェック体制。",
+      },
+      {
+        label: "金具・部材の特注",
+        value: "YKKジッパー & 真鍮金具",
+        desc: "YKKエクセラファスナーや日本ブランド指定金具の組み込み、オリジナルロゴ刻印・素押し対応。",
+      },
+      {
+        label: "日印経済連携協定 (CEPA)",
+        value: "関税優遇スキーム",
+        desc: "原産地証明書の発行により、日本輸入時の関税メリットを最大限に活かしたコスト設計。",
+      },
+    ],
+    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags"],
+    faqs: [
+      {
+        question: "日本の品質基準に適合する検品・検針体制は整っていますか？",
+        answer:
+          "はい。日本向け出荷製品には専任の検品ラインを設け、縫製ピッチ、コバの塗布ムラ、0.4mm厚の漉き精度を厳格に管理しています。また、すべての製品に対して検針器による金属混入検査を実施した上で梱包いたします。",
+      },
+      {
+        question: "オリジナルの仕様書（仕様パターン）からサンプル作成は可能ですか？",
+        answer:
+          "はい、Illustratorの図面や写真、寸法指示書（仕様書）をお送りいただければ、弊社のCADパタンナーが型紙を起こし、7〜10営業日以内にファーストサンプルを仕上げて日本へ発送いたします。",
+      },
+      {
+        question: "最小発注数量（MOQ）とカラー展開について教えてください。",
+        answer:
+          "基本MOQは1型あたり100点です。同一革種であれば、キャメル50点・ブラック50点などのカラーバリエーション分割も承っておりますので、過剰在庫のリスクを抑えてコレクションを立ち上げられます。",
+      },
+      {
+        question: "YKKファスナーや指定の芯材を使用できますか？",
+        answer:
+          "はい。YKK正規ファスナー（メタル・エクセラ）の手配や、日本から支給いただくオリジナル裏地・芯材・金具を使用した委託加工（OEM）にも柔軟に対応しております。",
+      },
+    ],
+    keywords: [
+      "革製品 OEM インド",
+      "本革バッグ 製造工場 インド",
+      "レザーバッグ OEM 小ロット",
+      "財布 OEM インド 工場",
+      "プライベートレーベル 革製品",
+      "leather goods manufacturer in india for japanese brands",
+      "oem leather bag factory japan",
+    ],
+  },
+  "nl": {
+    code: "nl",
+    locale: "nl-NL",
+    countryName: "Nederland & Vlaanderen",
+    flag: "🇳🇱",
+    currency: "EUR",
+    currencySymbol: "€",
+    path: "/nl",
+    metaTitle: "Lederwaren Fabrikant India voor Nederlandse Merken | OEM & Private Label",
+    metaDescription:
+      "Toonaangevende B2B fabrikant van lederen tassen, portemonnees en accessoires in India voor Nederlandse en Belgische modemerken. LWG-gecertificeerd leer, EU REACH-conform, lage MOQ van 100 stuks, DDP levering naar Rotterdam en Amsterdam.",
+    heroKicker: "Nederlandse & Benelux Sourcing Hub · Directe DDP Zee- & Luchtvracht",
+    heroH1: "Lederwaren Fabrikant in India voor Nederlandse Merken",
+    heroSubtitle:
+      "Vervaardiging van hoogwaardige lederen tassen, shoppers, laptoptassen en lederwaren voor Nederlandse modemerken, ontwerpers en warenhuizen. LWG-gecertificeerde partnerlooierijen, volledige EU REACH-conformiteit, flexibele minimale afname van slechts 100 stuks en complete DDP-douaneafhandeling direct naar uw distributiecentrum in Nederland.",
+    complianceBadges: [
+      { title: "EU REACH Conform", subtitle: "AZO-vrij, Nikkelveilig & Chroom-VI < 3ppm" },
+      { title: "LWG Goud Geloooid", subtitle: "Traceerbaar volnerfleer & plantaardig looien" },
+      { title: "Lage MOQ van 100", subtitle: "Minimaal risico voor opstartende collecties" },
+      { title: "DDP Nederland", subtitle: "Douane-inklaring direct naar uw magazijn" },
+    ],
+    tradeHighlights: [
+      {
+        label: "Logistiek naar Nederland",
+        value: "Haven van Rotterdam & Schiphol",
+        desc: "Snelle luchtvracht (3-5 dagen) via Schiphol of voordelige zeevracht rechtstreeks naar de Haven van Rotterdam.",
+      },
+      {
+        label: "Duurzaamheid & Ethiek",
+        value: "SEDEX / SMETA Audits",
+        desc: "Ethische arbeidsomstandigheden en moderne waterzuivering in het Calcutta Leather Complex.",
+      },
+      {
+        label: "Snelle Monsterservice",
+        value: "7 tot 10 Werkdagen",
+        desc: "Snel fysiek prototype op basis van uw tech-pack, geleverd via express koerier voor definitieve goedkeuring.",
+      },
+      {
+        label: "Kwaliteitsnormen",
+        value: "AQL 2.5 Inspectie",
+        desc: "Zorgvuldig geteste ritsen, versterkte handvatten en waterafstotende afwerkingen.",
+      },
+    ],
+    popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags"],
+    faqs: [
+      {
+        question: "Hoe garandeert u de Europese REACH-naleving voor Nederland?",
+        answer:
+          "Al onze leersoorten, voeringen en metalen onderdelen worden onafhankelijk getest door TÜV en SGS conform EU REACH Bijlage XVII. Wij garanderen dat alle zendingen vrij zijn van AZO-kleurstoffen, nikkelafgifte voldoet aan de norm en Chroom-VI onder de 3 ppm blijft.",
+      },
+      {
+        question: "Wat is de minimale bestelhoeveelheid (MOQ)?",
+        answer:
+          "Onze minimale bestelhoeveelheid is slechts 100 stuks per model. U kunt deze 100 stuks verdelen over 2 verschillende leerkleuren (bijvoorbeeld 50 cognac en 50 zwart).",
+      },
+      {
+        question: "Verzorgt u DDP-levering inclusief invoerrechten naar Nederland?",
+        answer:
+          "Ja, wij verzorgen volledige DDP (Delivered Duty Paid) levering. Wij regelen alle transportdocumenten, EU-invoerrechten en douane-inklaring, zodat de goederen kant-en-klaar bij uw magazijn worden afgeleverd.",
+      },
+      {
+        question: "Kunnen we onze eigen merkdetails toevoegen (branding)?",
+        answer:
+          "Absoluut. Wij bieden blinde blinddruk, goud-/zilverfoliedruk, op maat gemaakte metalen logo-plaatjes, geweven binnenlabels en gepersonaliseerde stofzakken.",
+      },
+    ],
+    keywords: [
+      "lederen tassen fabrikant india",
+      "leerlooierij fabrikant b2b nederland",
+      "private label lederwaren india",
+      "leren tassen laten maken lage moq",
+      "leather goods supplier netherlands",
+      "custom leather bag manufacturer india",
+    ],
+  },
+  "sv": {
+    code: "sv",
+    locale: "sv-SE",
+    countryName: "Sverige & Norden (Sweden)",
+    flag: "🇸🇪",
+    currency: "SEK",
+    currencySymbol: "kr",
+    path: "/sv",
+    metaTitle: "Lädervaror & Väskor Tillverkare i Indien | OEM & Private Label för Svenska Varumärken",
+    metaDescription:
+      "B2B-kontraktstillverkare av högkvalitativa läderväskor, plånböcker och accessoarer för skandinaviska och svenska modemärken. LWG-certifierat vegetabiliskt garvat läder, EU REACH-efterlevnad, låg MOQ från 100 st, DDP-leverans till Göteborg och Stockholm.",
+    heroKicker: "Svensk & Nordisk Sourcing-Hub · DDP Leverans till Stockholm & Göteborg",
+    heroH1: "Lädervaror och Väsktillverkare i Indien för Svenska Varumärken",
+    heroSubtitle:
+      "Skräddarsydd tillverkning och private label-ateljé för svenska designmärken, accessoarvarumärken och livsstilsföretag. Skandinavisk minimalism möter indiskt hantverk: vegetabiliskt garvat narvläder från LWG-certifierade partnergarverier, strikt EU REACH-efterlevnad och låga minimiordrar från 100 stycken.",
+    complianceBadges: [
+      { title: "EU REACH & Kemikaliefritt", subtitle: "Inga AZO-färgämnen & Krom-VI < 3ppm" },
+      { title: "LWG-Certifierat Läder", subtitle: "Vegetabiliskt garvat & spårbart narvläder" },
+      { title: "Låg MOQ från 100 st", subtitle: "Flexibel färgfördelning för nya kollektioner" },
+      { title: "DDP-Leverans till Sverige", subtitle: "Tullklarerat direkt till ert lager" },
+    ],
+    tradeHighlights: [
+      {
+        label: "Frakt till Sverige",
+        value: "Göteborg & Stockholm Arlanda",
+        desc: "Smidig flygfrakt via Arlanda (3-5 dagar) eller kostnadseffektiv sjöfrakt via Göteborgs hamn med full DDP-service.",
+      },
+      {
+        label: "Klimat & Hållbarhet",
+        value: "LWG & SEDEX Granskade",
+        desc: "Miljömedvetna produktionsprocesser och slutna reningssystem vid Calcutta Leather Complex.",
+      },
+      {
+        label: "Prototyptillverkning",
+        value: "7 till 10 Arbetsdagar",
+        desc: "Snabba fysiska prototyper baserade på era ritningar eller Tech Packs, skickade med DHL Express.",
+      },
+      {
+        label: "Kvalitetskontroll",
+        value: "AQL 2.5 Standard",
+        desc: "Hållfasthetstestade handtag, exakta sömmar och YKK-dragkedjor anpassade för nordiskt klimat.",
+      },
+    ],
+    popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags"],
+    faqs: [
+      {
+        question: "Uppfyller era läderprodukter svenska och europeiska kemikaliekrav (REACH)?",
+        answer:
+          "Ja, fullständigt. Allt läder, foder och metallbeslag testas enligt EU REACH Annex XVII av ackrediterade laboratorier (SGS/Intertek). Vi garanterar att produkterna är nickelfria, AZO-fria och har ett Krom-VI-innehåll under 3 mg/kg.",
+      },
+      {
+        question: "Vad är minsta orderkvantitet (MOQ) för svenska varumärken?",
+        answer:
+          "Vår standard-MOQ är endast 100 enheter per modell. Ni kan dela upp denna volym på två färger (t.ex. 50 naturläder och 50 svart) för att minimera lagerbindning.",
+      },
+      {
+        question: "Hur fungerar DDP-frakten till vårt lager i Sverige?",
+        answer:
+          "Vi erbjuder komplett DDP (Delivered Duty Paid)-frakt. Vi hanterar exportdeklarationer, svensk tullklarering och moms så att varorna levereras direkt till er dörr utan administrativa hinder.",
+      },
+      {
+        question: "Arbetar ni med vegetabiliskt garvat läder för en vacker patina?",
+        answer:
+          "Ja, vi är specialiserade på vegetabiliskt garvat läder (Veg-Tan) som åldras med en djup, naturlig patina, perfekt anpassat för tidlös skandinavisk estetik.",
+      },
+    ],
+    keywords: [
+      "tillverkare läderväskor indien",
+      "skinnväskor tillverkning b2b sverige",
+      "private label lädervaror indien",
+      "sy upp läderväskor eget märke",
+      "lädertillverkare låg moq",
+      "leather goods manufacturer for swedish brands",
+    ],
+  },
+  "ko": {
+    code: "ko",
+    locale: "ko-KR",
+    countryName: "대한민국 (South Korea)",
+    flag: "🇰🇷",
+    currency: "KRW",
+    currencySymbol: "₩",
+    path: "/ko",
+    metaTitle: "인도 프리미엄 가죽 가방 및 가죽제품 OEM/ODM 제조 공장 | 한국 브랜드 B2B",
+    metaDescription:
+      "한국 디자이너 브랜드 및 패션 기업을 위한 인도 최고급 천연가죽 가방·지갑 OEM/ODM 제조 공장. LWG 인증 친환경 베지터블/풀그레인 가죽, 엄격한 품질 검품, 최소 주문 수량 100개, 인천공항 및 부산항 DDP 직배송 지원.",
+    heroKicker: "한국 및 아시아 럭셔리 패션 브랜드 B2B 가죽제품 생산 파트너",
+    heroH1: "한국 브랜드를 위한 인도 천연가죽 가방 및 잡화 OEM/ODM 제조공장",
+    heroSubtitle:
+      "서울, 동대문, 판교의 K-패션 디자이너 브랜드와 라이프스타일 셀렉트샵을 위한 맞춤형 가죽 가방, 토트백, 서류가방, 지갑 주문 제작. LWG 인증 친환경 가죽 가공, 정밀한 0.4mm 피혁 피할(스카이빙), 고급 엣지코트 마감, 최소 100개 소량 생산(MOQ) 지원.",
+    complianceBadges: [
+      { title: "LWG 인증 프리미엄 가죽", subtitle: "친환경 공정의 풀그레인 및 베지터블 소가죽" },
+      { title: "소량 100개 주문 제작", subtitle: "초기 브랜드 런칭을 위한 유연한 MOQ 지원" },
+      { title: "한국 직배송 (DDP)", subtitle: "인천공항 및 부산항 완벽한 통관 및 배송" },
+      { title: "7~10일 고속 샘플링", subtitle: "테크팩(작업지시서) 기반 빠른 실물 샘플 제작" },
+    ],
+    tradeHighlights: [
+      {
+        label: "한국 직배송 물류",
+        value: "인천공항 및 부산항",
+        desc: "DHL/FedEx 항공 특송(3~5일) 또는 부산항 정기 해상 운송. 수입 통관 및 관세 일괄 처리(DDP).",
+      },
+      {
+        label: "한-인도 CEPA 관세 혜택",
+        value: "원산지증명서 발급",
+        desc: "포괄적 경제동반자협정(CEPA) 원산지증명서를 발급하여 한국 통관 시 관세 절감 혜택 제공.",
+      },
+      {
+        label: "명품급 퀄리티 관리",
+        value: "AQL 2.5 엄격 검품",
+        desc: "정밀한 바느질 땀수, 금속 부자재 염수 분무 테스트, 철저한 검침(바늘 검출) 공정 완료 후 출고.",
+      },
+      {
+        label: "자체 로고 각인 및 부자재",
+        value: "불박 / 은박 / 금형 제작",
+        desc: "브랜드 심볼 금형 불박(Blind Deboss), YKK 정품 지퍼 채택, 전용 더스트백 맞춤 제작.",
+      },
+    ],
+    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags"],
+    faqs: [
+      {
+        question: "작업지시서(Tech Pack)로 샘플 제작이 가능한가요?",
+        answer:
+          "네, 가능합니다. 제품 치수, 디테일 스케치, 부자재 사양이 담긴 일러스트레이터 파일이나 PDF 작업지시서를 공유해주시면 당사 패턴사가 정밀 패턴을 제도하여 7~10영업일 내에 실물 샘플을 제작해 한국으로 발송합니다.",
+      },
+      {
+        question: "최소 주문 수량(MOQ)과 컬러 배분은 어떻게 되나요?",
+        answer:
+          "기본 MOQ는 스타일당 100개입니다. 동일한 가죽 원단을 사용할 경우 50개(블랙) / 50개(브라운) 등 2가지 색상으로 분할 생산이 가능하여 초기 재고 부담을 크게 덜어드립니다.",
+      },
+      {
+        question: "한-인도 CEPA 원산지증명서 발급이 지원되나요?",
+        answer:
+          "네, 모든 수출 선적에 대해 정식 한-인도 CEPA 원산지증명서(Certificate of Origin)를 발급해 드립니다. 이를 통해 한국 수입 시 관세 감면 혜택을 받으실 수 있습니다.",
+      },
+      {
+        question: "한국 명품 브랜드 수준의 엣지코트(기리매) 마감이 가능한가요?",
+        answer:
+          "네. 유럽산 고급 엣지코트 염료를 사용하여 3회 이상 덧바르고 샌딩(연마)하는 숙련공 핸드메이드 마감을 적용하므로 갈라짐 없는 매끄러운 엣지 라인을 완성합니다.",
+      },
+    ],
+    keywords: [
+      "가죽가방 oem 공장 인도",
+      "가죽제품 주문제작 소량생산",
+      "가죽 가방 자체제작 moq 100",
+      "디자이너 브랜드 가죽가방 공장",
+      "leather goods manufacturer for korean brands",
+      "oem leather bag factory korea",
+    ],
+  },
 };

@@ -46,17 +46,17 @@ export function InternationalRegionSelector() {
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 mt-1.5 w-72 bg-white border border-charcoal/20 shadow-2xl z-50 divide-y divide-charcoal/10 animate-in fade-in-50 duration-150">
-          <div className="p-2.5 bg-[#FAF8F5]">
+        <div className="absolute right-0 mt-1.5 w-80 bg-white border border-charcoal/20 shadow-2xl z-50 divide-y divide-charcoal/10 animate-in fade-in-50 duration-150 max-h-[78vh] flex flex-col">
+          <div className="p-2.5 bg-[#FAF8F5] shrink-0">
             <span className="text-[9.5px] font-mono tracking-widest uppercase text-charcoal-500 block">
-              International Trade Gateways
+              International Trade &amp; Language Gateways
             </span>
             <p className="text-[11px] text-charcoal-600 mt-0.5 font-light">
-              Select your sourcing region for localized duty & compliance terms:
+              Select your sourcing region or native language for localized terms:
             </p>
           </div>
 
-          <div className="py-1">
+          <div className="py-1 overflow-y-auto">
             {/* 1. Global Master */}
             <Link
               href="/"
