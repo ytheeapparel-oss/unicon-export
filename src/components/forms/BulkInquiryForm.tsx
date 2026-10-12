@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { Send, UploadCloud, CheckCircle2, AlertCircle, Loader2, MessageCircle, Mail } from "lucide-react";
 import { InquiryFormData } from "@/types";
@@ -18,14 +18,35 @@ interface BulkInquiryFormProps {
   onSuccess?: () => void;
 }
 
-export function BulkInquiryForm({
+export function BulkInquiryForm(props: BulkInquiryFormProps) {
+  return (
+    <React.Suspense fallback={<BulkInquiryFormFields {...props} />}>
+      <BulkInquiryFormWithParams {...props} />
+    </React.Suspense>
+  );
+}
+
+function BulkInquiryFormWithParams(props: BulkInquiryFormProps) {
+  const searchParams = useSearchParams();
+  const urlProduct = searchParams?.get("product") || "";
+  return <BulkInquiryFormFields {...props} urlProduct={urlProduct} />;
+}
+
+interface InnerProps extends BulkInquiryFormProps {
+  urlProduct?: string;
+}
+
+function BulkInquiryFormFields({
   initialProduct,
   initialCategory,
   inquiryType = "bulk",
   isModal = false,
   onSuccess,
-}: BulkInquiryFormProps) {
+  urlProduct = "",
+}: InnerProps) {
   const router = useRouter();
+  const effectiveProduct = initialProduct || urlProduct || "";
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
@@ -39,10 +60,10 @@ export function BulkInquiryForm({
     reset,
   } = useForm<InquiryFormData>({
     defaultValues: {
-      productCategory: initialCategory || (initialProduct ? "Specified Product" : "Leather Handbags"),
+      productCategory: initialCategory || (effectiveProduct ? "Specified Product" : "Leather Handbags"),
       requiredQuantity: "100–300 units (Standard Boutique Batch)",
       inquiryType: inquiryType,
-      customizationRequirements: initialProduct ? `Inquiry regarding: ${initialProduct}` : "",
+      customizationRequirements: effectiveProduct ? `Inquiry regarding: ${effectiveProduct}` : "",
       consent: true,
     },
   });
@@ -230,10 +251,10 @@ export function BulkInquiryForm({
       className="space-y-7 bg-white p-8 sm:p-12 rounded-none border border-charcoal/10 shadow-lg"
       id="inquiry-form"
     >
-      {initialProduct && (
+      {effectiveProduct && (
         <div className="bg-charcoal-50 p-4 border border-charcoal/10 text-sm flex items-center justify-between">
           <span className="text-charcoal-500 font-medium">Selected Product:</span>
-          <span className="font-serif font-bold text-cognac text-base">{initialProduct}</span>
+          <span className="font-serif font-bold text-cognac text-base">{effectiveProduct}</span>
         </div>
       )}
 

@@ -43,6 +43,14 @@ export function CatalogueRequestForm() {
           estimated_annual_volume: data.estimatedAnnualVolume || "100–500 units",
         });
       }
+
+      if (typeof window !== "undefined" && (window as any).gtag) {
+        (window as any).gtag("event", "catalogue_download_request", {
+          event_category: "B2B Sourcing",
+          event_label: data.estimatedAnnualVolume || "Standard",
+          country_scope: data.country,
+        });
+      }
     } catch (error) {
       console.warn("Failed to persist catalogue request to Supabase:", error);
     }

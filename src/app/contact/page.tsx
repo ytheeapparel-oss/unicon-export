@@ -272,7 +272,9 @@ export default function ContactPage() {
                 Please complete all required fields for accurate FOB/CIF quotation.
               </p>
             </div>
-            <BulkInquiryForm inquiryType="general" />
+            <React.Suspense fallback={<div className="p-12 text-center text-xs text-charcoal-400">Loading Inquiry Desk...</div>}>
+              <BulkInquiryForm inquiryType="general" />
+            </React.Suspense>
           </div>
         </div>
       </section>
