@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/Badge";
 import { COMPANY_INFO } from "@/data/company";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy | UNICON LEATHER",
+  title: "Cookie Policy",
   description:
     "Information on cookies, technical tracking, and performance analytics for UNICON LEATHER website visitors.",
   alternates: {

@@ -302,9 +302,11 @@ function CatalogueContent() {
   );
 }
 
+import { CatalogueFallback } from "@/components/products/CatalogueFallback";
+
 export function CatalogueClient() {
   return (
-    <Suspense fallback={<div className="p-16 text-center text-xs text-charcoal-500">Loading B2B Catalogue...</div>}>
+    <Suspense fallback={<CatalogueFallback />}>
       <CatalogueContent />
     </Suspense>
   );

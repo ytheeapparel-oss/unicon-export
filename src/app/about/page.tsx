@@ -20,7 +20,7 @@ import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdS
 import { COMPANY_INFO } from "@/data/company";
 
 export const metadata: Metadata = {
-  title: "About Us | Leather Bag Manufacturers in India | UNICON LEATHER",
+  title: "About Us | Leather Bag Manufacturers in India & Exporter",
   description:
     "Learn about UNICON LEATHER: premier leather bag manufacturers in India, our heritage, factory infrastructure, artisan master craftsmen, and B2B export capabilities for international luxury brands.",
   alternates: {

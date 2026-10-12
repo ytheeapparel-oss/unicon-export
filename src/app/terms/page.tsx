@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/Badge";
 import { COMPANY_INFO } from "@/data/company";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | UNICON LEATHER",
+  title: "Terms & Conditions of Manufacturing",
   description:
     "Commercial manufacturing terms, sampling policies, quality acceptance criteria, and international export payment guidelines.",
   alternates: {

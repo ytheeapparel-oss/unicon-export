@@ -96,7 +96,6 @@ export function SeoPillarPage({ pillar }: SeoPillarPageProps) {
             <div className="mb-4">
               <Breadcrumbs
                 items={[
-                  { label: "Home", href: "/" },
                   { label: pillar.keywordTheme, href: `/${pillar.slug}` },
                 ]}
               />

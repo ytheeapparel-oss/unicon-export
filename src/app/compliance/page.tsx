@@ -15,7 +15,7 @@ import { COMPANY_INFO } from "@/data/company";
 import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
-  title: "Leather Quality Control & Standards | Quality Control in Leather Industry | UNICON LEATHER",
+  title: "Leather Quality Control & International Standards",
   description:
     "Rigorous leather quality control protocols, AQL 2.5 defect standards, quality control in leather industry exports, EU REACH Annex XVII, and California Prop 65 compliance at UNICON LEATHER.",
   alternates: {

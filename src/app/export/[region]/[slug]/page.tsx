@@ -195,7 +195,6 @@ export default function ExportHubPage({ params }: PageProps) {
             <div className="mb-6">
               <Breadcrumbs
                 items={[
-                  { label: "Home", href: "/" },
                   { label: "Export", href: "/export" },
                   { label: hub.region.toUpperCase(), href: `/export/${hub.region}/${hub.slug}` },
                   { label: hub.targetMarket, href: `/export/${hub.region}/${hub.slug}` },

@@ -91,7 +91,6 @@ export function InternationalHubPage({ market }: InternationalHubPageProps) {
             <div className="mb-4">
               <Breadcrumbs
                 items={[
-                  { label: "Home", href: "/" },
                   { label: "Global Export", href: "/export" },
                   { label: market.countryName, href: market.path },
                 ]}

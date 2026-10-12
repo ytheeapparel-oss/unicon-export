@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { COMPANY_INFO } from "@/data/company";
 
 export const metadata: Metadata = {
-  title: "Inquiry Received | UNICON LEATHER",
+  title: "Inquiry Received & Specification Confirmed",
   description:
     "Thank you for contacting UNICON LEATHER. Our overseas export desk has received your manufacturing specifications.",
 };
