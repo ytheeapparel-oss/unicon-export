@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useMemo, Suspense } from "react";
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { Search, RefreshCw, Layers, FileText, Sliders } from "lucide-react";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
@@ -145,9 +146,13 @@ function CatalogueContent() {
           {PRODUCT_CATEGORIES.map((cat) => {
             const isSelected = selectedCategory === cat.name;
             return (
-              <button
+              <Link
                 key={cat.id}
-                onClick={() => setSelectedCategory(isSelected ? "All" : cat.name)}
+                href={`/products/${cat.slug}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setSelectedCategory(isSelected ? "All" : cat.name);
+                }}
                 className={`p-3 text-left border rounded-none transition-all flex flex-col justify-between ${
                   isSelected
                     ? "border-cognac bg-[#faf8f5] shadow-xs"
@@ -160,7 +165,7 @@ function CatalogueContent() {
                 <span className="text-[10px] text-charcoal-400 font-mono mt-2 block">
                   {cat.featuredProductCount} Silhouettes
                 </span>
-              </button>
+              </Link>
             );
           })}
         </div>
