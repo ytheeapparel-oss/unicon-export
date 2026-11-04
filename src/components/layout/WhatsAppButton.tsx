@@ -16,13 +16,13 @@ export function WhatsAppButton() {
   };
 
   return (
-    <aside aria-label="Direct Export WhatsApp Chat" className="fixed bottom-6 right-6 z-40">
+    <aside aria-label="Direct Export WhatsApp Chat" className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40">
       <a
         href={COMPANY_INFO.whatsappDirectUrl}
         target="_blank"
         rel="noopener noreferrer"
         onClick={handleWhatsAppClick}
-        className="group flex items-center gap-2.5 bg-[#25D366] text-white px-4 py-2.5 rounded-full shadow-lg hover:shadow-xl hover:bg-[#20ba59] transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2 hover:scale-105"
+        className="group flex items-center gap-2 bg-[#25D366] text-white p-3 sm:px-4 sm:py-2.5 rounded-full shadow-lg hover:shadow-xl hover:bg-[#20ba59] transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2 hover:scale-105"
         aria-label="Chat directly with our B2B Export Team on WhatsApp"
       >
         <MessageCircle className="w-5 h-5 fill-current" />

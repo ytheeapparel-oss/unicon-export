@@ -67,7 +67,7 @@ export default function CraftsmanshipPage() {
     {
       num: "01",
       title: "Raw Hide Grading & Traceable Selection",
-      description: "Every bovine, calfskin, or lambskin hide is sourced through traceable leather sourcing exclusively from leather from LWG-certified tanneries, inspected under 5000K daylight lamps for grain density.",
+      description: "Every bovine, calfskin, or lambskin hide is procured through traceable leather sourcing from LWG-audited partner tanneries, inspected under 5000K daylight lamps for grain density.",
       details: "Grade A selection only. Dedicated lots allocated for vegetable tanned leather accessories and structured luxury bags.",
     },
     {
@@ -135,6 +135,23 @@ export default function CraftsmanshipPage() {
   return (
     <>
       <JsonLdScript schema={breadcrumbsSchema} />
+      <JsonLdScript
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          name: "How UNICON LEATHER Crafts Commercial & Luxury Leather Goods (11-Stage Atelier Process)",
+          description:
+            "Step-by-step industrial and artisanal workflow for manufacturing custom leather handbags, totes, briefcases, wallets, and belts in India.",
+          totalTime: "P30D",
+          step: manufacturingStages.map((stage, idx) => ({
+            "@type": "HowToStep",
+            position: idx + 1,
+            name: `${stage.num}. ${stage.title}`,
+            text: `${stage.description} ${stage.details}`,
+            url: "https://www.uniconleather.com/craftsmanship#stages",
+          })),
+        }}
+      />
       <div className="w-full bg-white pb-24">
         {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
         <section className="relative w-full !mt-0 min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
@@ -276,7 +293,7 @@ export default function CraftsmanshipPage() {
       </section>
 
       {/* 4. Modern Machinery vs Artisan Touch Comparison (Pure White) */}
-      <section className="w-full bg-[#faf8f5] py-16 border-y border-charcoal/10">
+      <section className="w-full bg-[#faf8f5] py-16 border-y border-charcoal/10" id="materials">
         <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
             <div className="lg:col-span-6 space-y-6">
@@ -304,6 +321,12 @@ export default function CraftsmanshipPage() {
               <div className="pt-2">
                 <Button href="/contact" variant="primary" size="md">
                   Discuss Manufacturing Capabilities <ArrowRight className="w-3.5 h-3.5 ml-1.5" />
+                </Button>
+                <Button href="/cost-calculator" variant="outline" size="md" className="ml-0 sm:ml-3 mt-2 sm:mt-0 border-charcoal/25 text-charcoal hover:bg-charcoal hover:text-white">
+                  Calculate FOB &amp; Hide Yield
+                </Button>
+                <Button href="/leather-quality-sourcing-guide" variant="outline" size="md" className="ml-0 sm:ml-3 mt-2 sm:mt-0 border-cognac/30 text-cognac hover:bg-cognac hover:text-white">
+                  Leather Quality Guide
                 </Button>
               </div>
             </div>

@@ -1,1637 +1,158 @@
 export interface KeywordCluster {
   category: string;
   description: string;
+  targetUrl: string;
   keywords: string[];
 }
 
 export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
   {
-    category: "Indian Manufacturing & Kolkata Production Hub",
-    description: "Direct manufacturing, accessories production, and export logistics from Kolkata and Calcutta Leather Complex (Bantala) in West Bengal, India.",
+    category: "OEM & Private Label Leather Manufacturing",
+    description: "Custom cut-and-sew contract manufacturing, CAD pattern grading, and private-label brand development from India.",
+    targetUrl: "/private-label",
     keywords: [
-      "leather goods manufacturer Kolkata",
-      "leather accessories factory Kolkata",
-      "leather exporters Kolkata",
-      "leather bag manufacturer Kolkata",
-      "leather goods factory Kolkata",
-      "leather craft exporters kolkata europe",
-      "leather manufacturers in kolkata"
+      "private label leather bag manufacturer India",
+      "OEM leather goods factory India",
+      "custom leather bag manufacturer low MOQ",
+      "contract leather manufacturing India",
+      "white label leather handbags supplier"
     ]
   },
   {
-    category: "Overseas Buyers & Export Corridors (US, UK & Europe)",
-    description: "Dedicated B2B contract manufacturing, private label supply, and export trade corridors for American, British, and European fashion houses.",
+    category: "Leather Handbags & Structured Totes",
+    description: "Full-grain, pebbled calfskin, and vegetable-tanned women's handbags, shoppers, and architectural day totes.",
+    targetUrl: "/products/leather-handbags",
+    keywords: [
+      "leather handbag manufacturer India",
+      "OEM leather tote bag factory",
+      "wholesale full grain leather totes",
+      "private label women's leather handbags",
+      "custom structured leather satchel supplier"
+    ]
+  },
+  {
+    category: "Executive Laptop Bags & Briefcases",
+    description: "Padded 15-inch and 16-inch executive leather briefcases, commuter backpacks, and messenger bags.",
+    targetUrl: "/products/laptop-and-business-bags",
+    keywords: [
+      "leather laptop bag manufacturer India",
+      "OEM leather briefcase supplier",
+      "custom leather backpack factory wholesale",
+      "executive leather messenger bag manufacturer",
+      "B2B leather business bags exporter"
+    ]
+  },
+  {
+    category: "Travel Duffels & Weekender Holdalls",
+    description: "Cabin-compliant full-grain pull-up leather weekender duffels, overnight bags, and travel accessories.",
+    targetUrl: "/products/travel-bags",
+    keywords: [
+      "leather duffel bag manufacturer India",
+      "private label leather weekender bag supplier",
+      "wholesale leather travel bags India",
+      "custom leather holdall factory",
+      "heritage pull-up leather duffel exporter"
+    ]
+  },
+  {
+    category: "RFID Wallets & Small Leather Goods (SLG)",
+    description: "Precision-skived 0.4mm turned-edge bifold wallets, cardholders, and passport folios with 13.56 MHz RFID shielding.",
+    targetUrl: "/products/wallets-and-cardholders",
+    keywords: [
+      "leather wallet manufacturer India",
+      "RFID leather wallet factory wholesale",
+      "private label cardholder manufacturer",
+      "small leather goods OEM supplier India",
+      "custom leather passport holder manufacturer"
+    ]
+  },
+  {
+    category: "Full-Grain Bridle & Dress Leather Belts",
+    description: "3.2–4.0mm full-grain vegetable-tanned bridle and feather-edge dress belts with solid brass hardware.",
+    targetUrl: "/products/leather-belts",
+    keywords: [
+      "leather belt manufacturer India",
+      "private label full grain leather belts",
+      "OEM dress leather belt factory",
+      "custom brass buckle leather belt supplier",
+      "wholesale bridle leather belts India"
+    ]
+  },
+  {
+    category: "Custom Leather Jackets & Outerwear",
+    description: "Drum-dyed lambskin nappa, goat suede, and cowhide outerwear with bespoke XS–4XL size grading.",
+    targetUrl: "/products/leather-jackets",
+    keywords: [
+      "custom leather jacket manufacturer India",
+      "private label lambskin jacket factory",
+      "OEM leather outerwear exporter",
+      "bespoke suede jacket manufacturer",
+      "low MOQ leather jacket production"
+    ]
+  },
+  {
+    category: "Corporate & Hospitality Leather Gifting",
+    description: "Custom debossed genuine leather executive gift sets, tech folios, desk valets, and luxury hospitality accessories.",
+    targetUrl: "/leather-accessories-manufacturer-india",
+    keywords: [
+      "corporate leather gifts manufacturer India",
+      "custom debossed leather laptop sleeves bulk",
+      "executive leather wallet gift sets wholesale",
+      "luxury hospitality leather desk accessories",
+      "bespoke corporate leather travel folios"
+    ]
+  },
+  {
+    category: "USA & Canada B2B Export Corridor",
+    description: "California Prop 65 compliant leather goods manufacturing with direct DHL/FedEx air and DDP sea freight to North America.",
+    targetUrl: "/en-us",
     keywords: [
       "Indian leather goods supplier for US brands",
+      "private label leather bags for US retailers",
+      "Prop 65 compliant leather bag manufacturer",
+      "import leather bags from India to USA",
+      "leather goods manufacturer for Canadian brands"
+    ]
+  },
+  {
+    category: "UK & European Union REACH Export Corridor",
+    description: "EU/UK REACH Annex XVII verified leather manufacturing (Azo-free, Cr VI < 3ppm, Nickel-free) for British and European brands.",
+    targetUrl: "/en-gb",
+    keywords: [
       "private label leather supplier for UK brands",
+      "REACH compliant leather manufacturer India",
       "leather goods exporter to Europe",
-      "leather goods manufacturer India for US brands",
-      "leather goods manufacturer India for UK brands",
-      "leather goods exporter in india to europe"
+      "vegetable tanned leather bag factory for EU",
+      "LWG sourced leather manufacturer for UK"
     ]
   },
   {
-    category: "Sustainability & Ethical Leather Manufacturing",
-    description: "Sustainable accessories production, fair living wage artisan ateliers, and ethically sourced bovine leathers.",
+    category: "Australia ECTA (0% Duty) & UAE CEPA Export",
+    description: "Zero-duty preferential leather exports under the India-Australia ECTA and India-UAE CEPA trade agreements.",
+    targetUrl: "/en-au",
     keywords: [
-      "sustainable leather accessories manufacturer",
-      "ethical leather goods manufacturing",
-      "responsibly sourced leather products",
-      "sustainable leather manufacturer",
-      "ethical leather goods factory in india",
-      "fair trade leather goods manufacturer asia"
+      "leather goods manufacturer for Australian brands",
+      "duty free leather bags India to Australia ECTA",
+      "private label leather supplier UAE Dubai",
+      "luxury leather goods exporter to Middle East",
+      "low MOQ leather bag manufacturer for Australia"
     ]
   },
   {
-    category: "Materials & Traceable Sourcing (Vegetable Tanned & LWG)",
-    description: "Pure vegetable-tanned leather accessories, full hide traceability, and sustainable sourcing from LWG-certified partner tanneries.",
+    category: "Traceable LWG Leathers & Quality Compliance",
+    description: "Hides sourced from LWG-audited partner tanneries, paired with 4-stage AQL 2.5 pre-shipment inspections and SGS/Intertek testing.",
+    targetUrl: "/compliance",
     keywords: [
-      "vegetable tanned leather accessories",
-      "traceable leather sourcing",
-      "leather from LWG-certified tanneries",
-      "vegetable tanned leather bag",
-      "LWG certified leather factory",
-      "traceable leather goods manufacturer india"
-    ]
-  },
-  {
-    category: "Compliance & Enterprise Factory Audits (WRAP, ISO & SMETA)",
-    description: "Verified factory compliance accreditations: WRAP certification, ISO quality management, and Sedex SMETA 4-pillar audits in India.",
-    keywords: [
-      "WRAP compliant leather manufacturer India",
-      "ISO certified leather supplier India",
-      "SMETA audited leather manufacturer",
-      "Sedex SMETA 4 pillar audited leather factory",
-      "ISO 9001 certified leather goods exporter India",
-      "BSCI certified leather goods factory india"
-    ]
-  },
-  {
-    category: "Highest Priority: Manufacturing Enquiries",
-    description: "Core high-intent B2B search queries for leather bag manufacturing partners, OEM factories, and private label ateliers in India.",
-    keywords: [
-      "leather bag manufacturers in India",
-      "leather bags manufacturer India",
-      "best leather bag manufacturers in india",
-      "luxury leather bag manufacturers in india",
-      "top leather bag manufacturers in india",
-      "top 10 leather bag manufacturers in india",
-      "wholesale leather bag manufacturers in india",
-      "custom leather bag manufacturers India",
-      "private label leather bag manufacturers India",
-      "OEM leather bag manufacturers India"
-    ]
-  },
-  {
-    category: "Full Grain vs Top Grain Leather (AI & Commercial Sourcing)",
-    description: "Key material comparisons, durability inquiries, and AI conversational search queries across full grain, top grain, and genuine bovine leathers.",
-    keywords: [
-      "full grain vs top grain leather",
-      "best full grain leather goods manufacturers",
-      "which leather type is best for durable wallets",
-      "full grain vs top grain leather price comparison",
-      "is top grain leather suitable for high-end handbags",
-      "how to distinguish full grain from top grain leather visually",
-      "longevity comparison full grain vs top grain leather for bags",
-      "what leather grade is best for heavy-use items",
-      "genuine leather vs pu leather bags"
-    ]
-  },
-  {
-    category: "International Export Markets: UK, Europe, USA, Japan & Switzerland",
-    description: "B2B export corridor search queries for leather bags, jackets, watch straps, and wholesale supplier contracts from India to the UK, Europe, USA, Japan, and Switzerland.",
-    keywords: [
-      "leather bag supplier UK",
-      "leather bag manufacturer UK",
-      "genuine leather bags manufacturer India for UK",
-      "export leather jackets from India to UK",
-      "custom leather watch strap manufacturer UK",
-      "leather bags wholesale Europe",
-      "sustainable leather OEM manufacturer Europe",
-      "high end leather handbags Italy USA",
-      "Italian leather goods manufacturer partnership in USA",
-      "designer leather bags exporter Japan",
-      "export leather jackets from India to Japan",
-      "leather watch straps Switzerland"
-    ]
-  },
-  {
-    category: "Factory Services, Private Label & Quality Control (Benchmark)",
-    description: "Enterprise factory services, custom leather craftsmanship, private label manufacturing, precision branding, and international leather quality control standards.",
-    keywords: [
-      "leather goods manufacturer in India",
-      "leather company in India",
-      "leather exporter",
-      "leather manufacturing company",
-      "manufacturer of leather goods",
-      "luxury leather goods manufacturer",
-      "luxury designer leather products",
-      "custom leather products manufacturer",
-      "custom leather work",
-      "custom leather maker",
-      "private label leather goods",
-      "private label leather manufacturer",
-      "private label leather products manufacturer",
-      "custom embossed leather",
-      "leather laser engraving",
-      "brand logo embossing",
-      "leather factory",
-      "leather workshop",
-      "leather manufacturing services",
-      "leather maker in India",
-      "leather quality control",
-      "leather quality standards",
-      "quality control in leather industry"
-    ]
-  },
-  {
-    category: "Main Bag Silhouettes, Work Bags & Custom Manufacturing (Benchmark)",
-    description: "Sourcing queries across main leather bag manufacturing, custom production, private label collections, executive work bags, fashion silhouettes, backpacks, and travel luggage.",
-    keywords: [
-      "leather bags manufacturer",
-      "leather bags manufacturer in India",
-      "leather handbags manufacturer",
-      "women’s leather handbags manufacturer in India",
-      "custom leather bags manufacturer",
-      "custom leather handbags manufacturer",
-      "custom made leather bags",
-      "leather bag makers",
-      "private label leather bags",
-      "private label leather handbags",
-      "private label bag manufacturer",
-      "leather laptop bags",
-      "leather messenger bags",
-      "leather satchel bags",
-      "leather briefcases",
-      "leather shoulder bags",
-      "leather tote bags",
-      "leather hobo bags",
-      "leather saddle bags",
-      "leather bucket bags",
-      "leather fringe bags",
-      "leather backpacks",
-      "leather rucksacks",
-      "leather sling backpacks",
-      "leather drawstring backpacks",
-      "leather duffle bags",
-      "leather trolley bags",
-      "leather doctor bags",
-      "leather fanny packs"
-    ]
-  },
-  {
-    category: "Wallets, Purses, Clutches & Belts Manufacturing (Benchmark)",
-    description: "Sourcing queries across custom leather wallet crafting, turned-edge bifold/trifold/RFID wallets, luxury purses, evening clutches, bespoke belt manufacturing, and custom strap silhouettes.",
-    keywords: [
-      "leather wallets manufacturer in India",
-      "custom wallet manufacturer",
-      "custom leather wallet maker",
-      "private label leather wallets",
-      "bifold leather wallets",
-      "trifold leather wallets",
-      "leather card holder wallets",
-      "leather zipper wallets",
-      "leather trucker wallets",
-      "leather coat wallets",
-      "leather passport wallets",
-      "leather checkbook wallets",
-      "leather purse manufacturer",
-      "custom purse manufacturer",
-      "private label leather purses",
-      "leather clutch manufacturer",
-      "leather wristlet purse",
-      "leather zipper pouch",
-      "leather long purse",
-      "leather bracelet purse",
-      "leather kiss lock clutch",
-      "leather turn lock clutch",
-      "leather envelope clutch",
-      "leather fold over clutch",
-      "leather belt manufacturers in India",
-      "custom belt manufacturers",
-      "custom leather belt maker",
-      "private label leather belts",
-      "formal leather belts",
-      "ratchet leather belts",
-      "braided leather belts",
-      "embossed leather belts",
-      "polo leather belts",
-      "studded leather belts",
-      "double prong leather belts",
-      "double buckle leather belts",
-      "wide leather belts",
-      "skinny leather belts"
-    ]
-  },
-  {
-    category: "Garments, Leather Tannages, Home, Office & Lifestyle Accessories (Benchmark)",
-    description: "Sourcing queries across custom leather jackets, garments, apparel cut-and-sew, leather hide types, pet accessories, jewelry, home decor, travel organizers, executive office goods, and small everyday leather tools.",
-    keywords: [
-      "leather jacket manufacturers",
-      "leather jacket exporter",
-      "men’s leather jackets",
-      "women’s leather jackets",
-      "leather shirts manufacturers",
-      "leather pants manufacturers",
-      "leather skirts manufacturers",
-      "leather shorts manufacturers",
-      "leather dresses manufacturers",
-      "custom leather garments manufacturing",
-      "private label leather garments manufacturing",
-      "full grain leather",
-      "top grain leather",
-      "vegetable tanned leather",
-      "suede leather",
-      "genuine leather",
-      "cow leather",
-      "buffalo leather",
-      "sheep leather",
-      "goat leather",
-      "leather dog collars",
-      "leather dog leashes",
-      "leather dog harnesses",
-      "leather dog muzzles",
-      "leather bracelets",
-      "leather necklaces",
-      "leather earrings",
-      "leather trays",
-      "leather pillow covers",
-      "leather poufs",
-      "leather coasters",
-      "leather napkin rings",
-      "leather blanket carriers",
-      "leather luggage tags",
-      "leather travel organisers",
-      "leather passport covers",
-      "leather wine bags",
-      "leather portfolios",
-      "leather desk pads",
-      "leather mouse pads",
-      "leather journal covers",
-      "leather notebook covers",
-      "leather pen cases",
-      "leather key cases",
-      "leather ID holders",
-      "leather camera straps",
-      "leather watch straps",
-      "leather sunglasses cases",
-      "leather phone cases",
-      "leather tool belts",
-      "leather tool rolls"
-    ]
-  },
-  {
-    category: "Corporate Gifting, Employee Welcome Kits & Promotional Merchandise (Benchmark)",
-    description: "B2B commercial inquiries for bulk corporate gifting suppliers, branded employee onboarding kits, executive luxury gifts, promotional merchandise, logo printing, and sustainable gifting solutions.",
-    keywords: [
-      "corporate gifts",
-      "corporate gifting company",
-      "corporate gift manufacturers",
-      "corporate gift suppliers",
-      "corporate gift vendors",
-      "corporate gifts wholesale",
-      "customized corporate gifts",
-      "corporate gifts with logo",
-      "branded corporate gifts",
-      "personalized corporate gifts",
-      "logo printing on gifts",
-      "bulk corporate gifts",
-      "wholesale corporate gifts India",
-      "bulk promotional gifts",
-      "corporate gifting solutions",
-      "employee welcome kits",
-      "employee onboarding kits",
-      "employee engagement gifts",
-      "employee appreciation gifts",
-      "premium corporate gifts",
-      "luxury executive gifts",
-      "executive gift sets",
-      "premium business gifts",
-      "promotional gifts",
-      "promotional giveaways",
-      "branded merchandise",
-      "customized promotional products",
-      "eco-friendly corporate gifts",
-      "sustainable corporate gifts",
-      "jute gifts",
-      "cork gift items"
-    ]
-  },
-  {
-    category: "Location-Specific Corporate Gifting: Delhi NCR, Bangalore, Pune, Hyderabad, Chennai & India",
-    description: "Regional B2B corporate gifting, manufacturer, supplier, and wholesaler search queries across major Indian commercial hubs including Noida, Delhi, Gurgaon/Gurugram, Bengaluru, Pune, Hyderabad, Chennai, and Pan-India.",
-    keywords: [
-      "corporate gifts Delhi",
-      "corporate gift manufacturers Delhi",
-      "corporate gift suppliers Delhi",
-      "corporate gifts Noida",
-      "corporate gifting companies Noida",
-      "corporate gift wholesalers Noida",
-      "corporate gifts Gurgaon",
-      "corporate gifting companies Gurugram",
-      "corporate gift suppliers Gurgaon",
-      "corporate gifting company Delhi NCR",
-      "corporate gift vendors NCR",
-      "corporate gifts Bangalore",
-      "corporate gift manufacturers Bengaluru",
-      "corporate gifts Pune",
-      "corporate gift suppliers Pune",
-      "corporate gifts Hyderabad",
-      "corporate gift manufacturers Hyderabad",
-      "corporate gifts Chennai",
-      "corporate gift suppliers Chennai",
-      "corporate gifts India",
-      "corporate gift manufacturers India",
-      "corporate gifts suppliers India"
-    ]
-  },
-  {
-    category: "Corporate Leather Bags, Executive Accessories & Logo Branding (Benchmark)",
-    description: "Sourcing queries across custom leather bags in Delhi, corporate laptop bags, executive briefcases, customized leather gifts, corporate folders, passport travel gifts, and logo embossed promotional bags.",
-    keywords: [
-      "leather bags manufacturer in Delhi",
-      "wholesale leather bags India",
-      "corporate leather bags supplier",
-      "bulk leather bags",
-      "customized leather bags",
-      "leather office bags",
-      "corporate laptop bags",
-      "executive briefcases",
-      "leather laptop bags wholesale",
-      "leather sling bags",
-      "ladies leather handbags",
-      "leather corporate gifts",
-      "leather gift sets",
-      "executive leather gifts",
-      "customized leather gifts",
-      "leather folders",
-      "corporate leather folders",
-      "leather organisers",
-      "leather passport holders",
-      "customized passport holders",
-      "corporate travel gifts",
-      "logo embossed leather bags",
-      "custom branded leather gifts",
-      "promotional leather bags"
-    ]
-  },
-  {
-    category: "Corporate Merchandise, Tech, Stationery, Awards & Festive Hampers (Benchmark)",
-    description: "Enterprise inquiries for corporate bags, custom stationery, promotional pens, branded power banks, drinkware flasks, desk organizers, corporate awards/trophies, Diwali hampers, and lifestyle gifts.",
-    keywords: [
-      "corporate backpacks",
-      "executive bags",
-      "branded duffle bags",
-      "trolley bags",
-      "crossbody bags",
-      "promotional paper bags",
-      "corporate diaries",
-      "customized notebooks",
-      "branded diaries",
-      "diary gift sets",
-      "promotional pens",
-      "customized metal pens",
-      "pen gift sets",
-      "wooden pen sets",
-      "corporate tech gifts",
-      "branded power banks",
-      "customized pen drives",
-      "Bluetooth speaker gifts",
-      "mobile accessories",
-      "branded water bottles",
-      "corporate flasks",
-      "customized sippers",
-      "flask gift sets",
-      "branded mouse pads",
-      "corporate calendars",
-      "pen holders",
-      "paperweights",
-      "visiting card holders",
-      "desk clocks",
-      "corporate T-shirts",
-      "promotional caps",
-      "branded jackets",
-      "customized polo shirts",
-      "trophy manufacturers",
-      "corporate awards",
-      "acrylic trophies",
-      "crystal trophies",
-      "metal trophies",
-      "wooden trophies",
-      "medals",
-      "Diwali gift hampers",
-      "corporate Diwali gifts",
-      "New Year gift sets",
-      "pooja gift sets",
-      "diya gift sets",
-      "lunch box gifts",
-      "household gifts",
-      "photo frames",
-      "wall clocks",
-      "aroma diffusers",
-      "car accessories"
-    ]
-  },
-  {
-    category: "Highest Priority: Bulk Purchasing & Export",
-    description: "Wholesale purchasing, bulk bag supply, customs export documentation, and custom logo bulk manufacturing.",
-    keywords: [
-      "bulk leather bag suppliers India",
-      "leather bag exporters India",
-      "leather bag manufacturers for brands",
-      "custom logo leather bags bulk"
-    ]
-  },
-  {
-    category: "High Priority: Product-Specific Bag Manufacturing",
-    description: "Specialized silhouette contract manufacturing for handbags, totes, laptop briefcases, backpacks, and sling bags.",
-    keywords: [
-      "leather handbag manufacturers India",
-      "leather tote bag manufacturers India",
-      "leather laptop bag manufacturers India",
-      "leather backpack manufacturers India",
-      "leather sling bag manufacturers India"
-    ]
-  },
-  {
-    category: "High Priority: Travel & Commuter Products",
-    description: "Luggage, weekenders, duffels, executive messenger bags, and overnight travel holdalls.",
-    keywords: [
-      "leather duffle bag manufacturers India",
-      "leather travel bag manufacturers India",
-      "leather messenger bag manufacturers India",
-      "leather overnight bag manufacturers"
-    ]
-  },
-  {
-    category: "High Priority: Accessories & Small Leather Goods",
-    description: "Turned-edge wallets, passport cases, journals, and handcrafted small leather goods.",
-    keywords: [
-      "leather wallet manufacturers India",
-      "leather passport holder manufacturers",
-      "leather accessories manufacturers India",
-      "small leather goods manufacturers India",
-      "leather journal manufacturers India"
-    ]
-  },
-  {
-    category: "Conditional Priority: Production Requirements & Low MOQ",
-    description: "Flexible production volumes, accessible 100-pc MOQs, startup brand development, and premium handmade wholesale.",
-    keywords: [
-      "low MOQ leather bag manufacturers India",
-      "small batch leather bag manufacturing",
-      "leather bag manufacturers for startups",
-      "handmade leather bags wholesale",
-      "premium leather goods manufacturing"
-    ]
-  },
-  {
-    category: "Conditional Priority: Corporate Gifting & Custom Merchandise",
-    description: "Bespoke corporate gifting sets, debossed executive accessories, and personalized leather laptop bags in bulk.",
-    keywords: [
-      "corporate leather gift manufacturers India",
-      "custom leather gift sets bulk",
-      "leather laptop bags for corporate gifting",
-      "personalized leather accessories wholesale",
-      "luxury product packaging",
-      "leather pouches",
-      "corporate leather gifts",
-      "custom leather gift packaging"
-    ]
-  },
-  {
-    category: "Design, Prototyping & Sampling Services",
-    description: "CAD tech pack translation, digital pattern making, prototype sampling, and OEM/ODM product development.",
-    keywords: [
-      "leather product design",
-      "leather sampling services",
-      "leather product prototyping",
-      "digital pattern making",
-      "custom logo leather products",
-      "leather logo embossing",
-      "custom hardware",
-      "branded leather packaging"
-    ]
-  },
-  {
-    category: "Specialty Leather Products & Bespoke Covers",
-    description: "Precision-cut protective tech covers, drone sleeves, motorcycle seats, and luxury interior leather cushions.",
-    keywords: [
-      "protective leather covers",
-      "drone covers",
-      "leather bike seats",
-      "leather cushion covers"
-    ]
-  },
-  {
-    category: "Primary B2B Manufacturing & Export Hub",
-    description: "Highest-priority search queries for genuine leather goods manufacturers, OEM factories, and exporters in India, Noida, and Delhi NCR.",
-    keywords: [
-      "leather goods manufacturer India",
-      "leather handbags manufacturer India",
-      "private label leather goods manufacturer",
-      "custom leather goods manufacturer India",
-      "leather goods exporter India",
-      "leather wallet manufacturer India",
-      "leather belt manufacturer India",
-      "leather accessories manufacturer India",
-      "OEM leather goods manufacturer",
-      "leather bag supplier India",
-      "leather goods manufacturer Noida",
-      "leather goods manufacturer Delhi NCR"
-    ]
-  },
-  {
-    category: "Contract & OEM/ODM Manufacturing",
-    description: "Custom contract manufacturing, private-label production, and export atelier services.",
-    keywords: [
-      "custom leather goods manufacturer",
-      "contract leather goods manufacturing",
-      "contract leather manufacturing",
-      "custom leather products supplier",
-      "bespoke leather accessories supplier",
-      "wholesale leather products supplier",
-      "certified leather manufacturer audit pass",
-      "Sedex audited leather manufacturer",
-      "ISO certified leather goods factory",
-      "low MOQ leather goods manufacturer",
-      "small batch leather manufacturing"
-    ]
-  },
-  {
-    category: "Bags, Totes, Duffels & Backpacks",
-    description: "Wholesale bags, private-label tote collections, backpacks, and messenger satchels.",
-    keywords: [
-      "private label leather bags manufacturer",
-      "leather bags wholesale supplier",
-      "bulk leather bags for retail",
-      "private label leather tote bags",
-      "leather tote bags bulk supplier",
-      "minimalist leather tote bag",
-      "full grain leather messenger bag",
-      "bulk leather messenger bags exporter",
-      "leather messenger bag factory",
-      "leather duffle bag weekender",
-      "leather duffle bags wholesale supplier",
-      "custom leather duffle bag manufacturer",
-      "vintage leather briefcase wholesale",
-      "leather sling bag crossbody",
-      "leather laptop backpack 15 inch"
-    ]
-  },
-  {
-    category: "Wallets, Cardholders & SLGs",
-    description: "RFID-shielded wallets, luxury cardholders, and turned-edge small leather accessories.",
-    keywords: [
-      "leather wallet manufacturer",
-      "leather wallets manufacturer supplier",
-      "oem leather wallet factory",
-      "oem leather wallet supplier",
-      "rfid leather wallet supplier",
-      "rfid blocking leather wallet",
-      "leather wallets wholesale low moq",
-      "slim leather bifold wallet",
-      "minimalist leather cardholder",
-      "oem leather cardholder factory",
-      "custom leather card holder wholesale",
-      "custom leather small goods manufacturer",
-      "leather passport cover holder",
-      "leather passport holders wholesale supplier",
-      "leather key organizer pouch",
-      "luxury leather travel wallet factory"
-    ]
-  },
-  {
-    category: "Belts, Apparel & Fashion Accessories",
-    description: "Handcrafted bridle leather belts, artisan aprons, jackets, and corporate lifestyle gifts.",
-    keywords: [
-      "leather belt wholesale supplier",
-      "full grain leather dress belt",
-      "heavy duty bridle leather belt",
-      "vegetable tanned leather belt factory",
-      "custom brass buckle leather belts",
-      "distressed leather jacket manufacturer",
-      "classic sheepskin biker jacket",
-      "leather apron for barbecue / woodworking",
-      "custom leather keychains bulk",
-      "artisan leather watch straps wholesale",
-      "leather coaster sets corporate bulk",
-      "leather luggage tags wholesale",
-      "leather glasses case supplier",
-      "leather tech organizer roll"
-    ]
-  },
-  {
-    category: "Corporate Gifting & Desk Accessories",
-    description: "Custom debossed corporate merchandise, executive desk pads, tech sleeves, and bespoke gifting sets.",
-    keywords: [
-      "leather corporate gifts manufacturer",
-      "genuine leather corporate gifts bulk",
-      "corporate leather gifts supplier",
-      "custom leather corporate gift sets",
-      "bulk personalized leather products manufacturer",
-      "leather desk mat large",
-      "personalized leather valet tray",
-      "leather journal notebook cover refillable",
-      "leather mouse pad bulk",
-      "leather tech sleeve manufacturer",
-      "custom logo embossed leather gifts",
-      "executive leather desk accessories supplier",
-      "luxury leather conference folders",
-      "leather certificate holders bulk",
-      "custom leather promotional products",
-      "premium executive leather gifting India"
-    ]
-  },
-  {
-    category: "Sustainable Leather & Global Compliance",
-    description: "Traceable raw materials, eco-conscious tanning protocols, LWG certified supply, and alternative materials.",
-    keywords: [
-      "full grain leather goods",
-      "top grain cowhide leather",
-      "nappa leather goods factory",
-      "bridle leather goods supplier",
-      "suede and nubuck accessories",
-      "veg tan leather goods",
-      "chrome-free tanned leather goods",
-      "REACH Annex XVII compliant leather goods",
-      "California Proposition 65 compliant leather",
-      "recycled leather goods manufacturer",
-      "upcycled leather accessories",
-      "plant-based leather alternatives apple cactus leather"
-    ]
-  },
-  {
-    category: "USA Trending Leather Goods Supplier & Sourcing",
-    description: "Highest-volume search queries from US fashion brands, boutique retailers, D2C startups, and corporate clients seeking verified leather goods suppliers.",
-    keywords: [
-      "leather goods supplier in usa",
-      "leather goods suppliers in usa",
-      "wholesale leather goods suppliers in usa",
-      "custom leather goods suppliers usa",
-      "private label leather goods suppliers usa",
-      "leather bag supplier in usa",
-      "leather handbag suppliers in usa",
-      "leather wallet suppliers in usa",
-      "leather belt supplier in usa",
-      "bulk leather goods supplier usa",
-      "low MOQ leather goods supplier for startups usa",
-      "small batch leather goods supplier usa",
-      "genuine leather products supplier in usa",
-      "luxury leather goods supplier usa",
-      "leather goods contract manufacturing usa",
-      "oem odm leather goods supplier usa",
-      "leather goods distributor in usa",
-      "leather goods supplier new york nyc",
-      "leather goods suppliers los angeles california",
-      "leather goods supplier miami florida",
-      "leather goods supplier texas dallas houston",
-      "leather goods supplier chicago illinois",
-      "leather goods supplier DDP shipping to USA",
-      "full grain leather goods wholesale supplier usa",
-      "vegetable tanned leather goods supplier usa",
-      "California Prop 65 compliant leather goods supplier",
-      "american leather goods brands manufacturer supplier",
-      "custom debossed leather merchandise supplier usa"
-    ]
-  },
-  {
-    category: "USA Private Label & Commercial Procurement Queries (American Fashion & Retail Buyers)",
-    description: "High-intent sourcing queries from American fashion designers, boutique retailers, D2C startups, and corporate gifting departments sourcing from offshore factories.",
-    keywords: [
-      "private label leather goods manufacturer USA",
-      "custom leather bags manufacturer USA",
-      "cut and stitch leather manufacturer USA alternative",
-      "bulk leather tote bags for US boutiques",
-      "small run leather goods manufacturer USA low MOQ",
-      "leather goods manufacturer for US startups",
-      "turnkey leather product development USA tech pack",
-      "leather wallet manufacturer for American brands",
-      "custom leather duffle bags wholesale USA",
-      "corporate leather gifts supplier USA bulk logo debossed",
-      "sustainable leather supplier USA LWG certified",
-      "custom brass hardware leather bags manufacturer USA",
-      "leather goods manufacturer DDP shipping New York Los Angeles",
-      "offshore leather goods manufacturing partner for US brands",
-      "custom leather cardholder manufacturer USA low MOQ",
-      "men leather accessories manufacturer wholesale USA",
-      "women luxury leather handbags factory for US designers",
-      "full grain cowhide leather bags supplier USA",
-      "top grain leather briefcase manufacturer USA wholesale",
-      "leather goods sample maker fast 7 day prototyping USA",
-      "FOB India to US West Coast East Coast leather shipping",
-      "apparel and leather goods contract cut and sew India to USA",
-      "custom branded dust bags and gift box packaging USA export",
-      "leather goods sourcing agent India for American retailers",
-      "American fashion brand leather factory partner India"
-    ]
-  },
-  {
-    category: "Worldwide & Global Leather Goods Supply Network",
-    description: "Trending global B2B queries from fashion houses, importers, and international retail chains sourcing genuine leather products worldwide.",
-    keywords: [
-      "worldwide leather goods supplier",
-      "global leather goods manufacturer and supplier",
-      "international leather goods supplier",
-      "best leather goods suppliers in the world",
-      "luxury leather goods supplier worldwide export",
-      "sustainable leather goods supplier global export",
-      "custom leather goods exporter to usa europe uk australia",
-      "LWG certified leather goods supplier global",
-      "OEM leather goods supplier worldwide shipping",
-      "turnkey private label leather goods supplier worldwide",
-      "b2b leather goods export factory worldwide",
-      "contract leather goods supplier for global fashion houses",
-      "small batch leather goods supplier worldwide",
-      "high quality leather bags supplier worldwide",
-      "wholesale luxury leather accessories supplier worldwide"
-    ]
-  },
-  {
-    category: "Canada Fashion Brand Sourcing & Import Hub",
-    description: "Search queries from Canadian fashion labels, boutique designers, department stores, and corporate clients sourcing leather goods from India.",
-    keywords: [
-      "leather bags manufacturer India for Canadian brands",
-      "leather bag supplier India to Canada",
-      "custom leather goods manufacturer Canada supplier India",
-      "private label leather bags Toronto Vancouver Montreal Canada",
-      "leather handbag manufacturer India Canada low MOQ",
-      "leather goods exporter India to Canada DDP shipping",
-      "Canadian fashion brand leather manufacturer supplier India",
-      "leather wallet and bag manufacturer India export Canada",
-      "CBSA customs compliant leather exporter India to Canada",
-      "wholesale leather goods supplier Toronto Calgary Canada",
-      "leather goods contract manufacturing Toronto Ontario",
-      "leather tote bag manufacturer supplier Vancouver BC Canada",
-      "high quality leather bags supplier India for Canadian fashion labels"
-    ]
-  },
-  {
-    category: "European & UK Leather Sourcing Hub (India to Europe)",
-    description: "Highest-volume search queries from UK, European fashion brands, luxury labels, and procurement houses sourcing custom genuine leather goods from India.",
-    keywords: [
-      "leather goods manufacturers in india",
-      "leather bag manufacturer in india",
-      "leather bags manufacturers in india",
-      "leather handbags manufacturer in india",
-      "leather goods manufacturer India for European brands",
-      "leather bags manufacturer India for German brands",
-      "leather bags manufacturer India for French brands",
-      "leather bags manufacturer India for Italian brands",
-      "leather bags manufacturer India for Spanish brands",
-      "leather bags manufacturer India for Dutch brands",
-      "leather goods supplier in india for european brands",
-      "custom leather goods manufacturer in india",
-      "private label leather goods manufacturer in india",
-      "oem leather goods manufacturer in india",
-      "low MOQ leather goods manufacturer in india",
-      "small batch leather manufacturing in india for europe",
-      "luxury leather goods manufacturer in india",
-      "handcrafted leather goods manufacturer india",
-      "leather wallet manufacturer in india for european brands",
-      "leather belt manufacturer in india export europe",
-      "leather accessories manufacturer in india for uk brands",
-      "leather goods contract manufacturing London Paris Milan Berlin",
-      "leather goods supplier DDP shipping to European Union Rotterdam Hamburg",
-      "leather bag exporter India to Germany UK Europe CIF FOB DDP",
-      "duty free leather export india to uk eu"
-    ]
-  },
-  {
-    category: "EU REACH Compliance & LWG Certified Sourcing",
-    description: "Regulatory and sustainability-driven search queries from European buyers requiring REACH Annex XVII, LWG gold/silver audited tanneries, and ethical audits.",
-    keywords: [
-      "leather goods manufacturer India EU REACH compliant",
-      "reach compliant leather manufacturer in india",
-      "eu reach annex xvii certified leather goods india",
-      "lwg certified leather factory india",
-      "lwg certified leather goods manufacturer in india",
-      "lwg gold rated tannery leather goods factory india",
-      "sustainable leather bags manufacturer India LWG certified",
-      "leather bags OEM factory India SEDEX SMETA BSCI certified",
-      "sedex audited leather goods manufacturer india",
-      "vegetable tanned leather goods manufacturer in india",
-      "italian vegetable tanned leather goods manufacturer india export",
-      "chrome free leather goods manufacturer india",
-      "azo dye free nickel free leather goods supplier india",
-      "sustainable leather manufacturer india for eu brands",
-      "recycled leather goods manufacturer in india"
-    ]
-  },
-  {
-    category: "European Importer & B2B Procurement Queries (Germany, UK, France & EU)",
-    description: "Specific commercial procurement keywords searched by European import managers, fashion buying offices, wholesale distributors, and retail procurement departments.",
-    keywords: [
-      "leather goods manufacturer India European buyers",
-      "leather goods supplier CIF Rotterdam",
-      "leather goods supplier CIF Hamburg",
-      "leather goods manufacturer DDP European Union",
-      "Council for Leather Exports CLE registered manufacturer",
-      "SA8000 certified ethical leather supplier India",
-      "zero child labor ethical leather factory India",
-      "chromium VI free leather goods manufacturer India",
-      "AQL 2.5 quality inspection leather exporter India",
-      "leather bags factory Germany importer",
-      "custom leather sample development 7 days European designers",
-      "European fashion label leather contractor India",
-      "sustainable traceable bovine leather bags India",
-      "Italian vegetable tanned leather goods made in India",
-      "eco friendly vegetable tanned leather manufacturer Europe",
-      "handcrafted leather accessories supplier UK department stores",
-      "private label leather bags manufacturer Europe low MOQ",
-      "custom leather wallet manufacturer Europe",
-      "OEM leather goods supplier Germany",
-      "B2B leather goods export partner Kolkata Noida Delhi NCR",
-      "India EU Free Trade Agreement leather export duty rates",
-      "bespoke leather corporate gifts Europe wholesale",
-      "custom hardware zinc alloy anti tarnish plating Europe"
-    ]
-  },
-  {
-    category: "European Multi-Language Sourcing (Germany, France, Italy, Spain & Scandinavia)",
-    description: "Native-language B2B queries from buyers across DACH (Germany/Austria), France, Italy, Spain, Netherlands, and Scandinavia seeking Indian manufacturing partners.",
-    keywords: [
-      "Lederwaren Hersteller Indien",
-      "Lederwaren Hersteller in Indien",
-      "Ledertaschen Hersteller Indien",
-      "Lederwaren Manufaktur Indien",
-      "Lederwaren Hersteller Indien für deutsche Marken",
-      "Private Label Lederwaren Indien B2B",
-      "Lederwaren Lieferant Grosshandel Indien",
-      "LWG zertifizierter Lederhersteller Indien",
-      "REACH konforme Lederwaren Hersteller Indien",
-      "Ledertaschen Hersteller Indien Export Deutschland",
-      "Lederwaren Lohnfertigung Indien",
-      "fabricant maroquinerie inde",
-      "fabricant de maroquinerie en inde",
-      "fabricant maroquinerie inde pour marques francaises",
-      "maroquinerie marque blanche inde",
-      "fabricant de sacs en cuir inde",
-      "grossiste maroquinerie cuir inde",
-      "fournisseur maroquinerie inde b2b paris",
-      "fabricant cuir conforme reach inde",
-      "atelier maroquinerie sur mesure inde",
-      "produttore pelletteria india",
-      "produttore di pelletteria in india",
-      "produttore borse in pelle india",
-      "fabbrica pelletteria india per marchi italiani",
-      "pelletteria conto terzi india milano firenze",
-      "produzione borse in pelle private label india",
-      "fornitore pelletteria artigianale india",
-      "fabricante de marroquineria en la india",
-      "fabricante marroquineria india",
-      "fabricante bolsos de piel india para marcas espanolas",
-      "proveedor articulos de piel india b2b",
-      "marroquineria al por mayor india espana",
-      "marroquineria marca blanca india",
-      "lederen tassen fabrikant india voor nederlandse merken",
-      "laedervarer producent Indien for danske maerker",
-      "laedervarer producent Indien engros Kobenhavn",
-      "lädervaror tillverkare Indien Sverige",
-      "sustainable minimalist leather goods manufacturer Scandinavia"
-    ]
-  },
-  {
-    category: "Australia & Oceania Fashion Brand Sourcing",
-    description: "Search queries from Australian and New Zealand fashion labels, boutique designers, and retail chains sourcing genuine leather products from India.",
-    keywords: [
-      "leather bags manufacturer India for Australian brands",
-      "leather bag supplier India to Australia",
-      "custom leather goods manufacturer Australia supplier India",
-      "private label leather bags Sydney Melbourne Australia India factory",
-      "leather handbag manufacturer India Australia low MOQ",
-      "leather goods exporter India to Australia DDP sea freight air cargo",
-      "Australian fashion label leather manufacturer supplier India",
-      "leather wallet and bag manufacturer India export Australia",
-      "leather tote and backpack manufacturer India for Australia",
-      "OEM leather products manufacturer India to Australia",
-      "DAFF biosecurity compliant leather exporter India to Australia",
-      "wholesale leather goods supplier Brisbane Perth Adelaide Australia",
-      "high quality leather bags supplier India for Australian fashion labels"
-    ]
-  },
-  {
-    category: "Delhi NCR & India Sourcing Hub",
-    description: "Targeted B2B queries from fashion brands, buying houses, corporate clients, and wholesalers across Delhi, Noida, Gurugram, and India.",
-    keywords: [
-      "leather bags manufacturers in delhi",
-      "leather bags manufacturers in noida",
-      "leather bags manufacturers in gurugram",
-      "leather bags manufacturer delhi ncr",
-      "custom leather bags manufacturer in delhi",
-      "genuine leather bag manufacturer noida",
-      "leather goods manufacturer gurugram",
-      "leather laptop bag manufacturer in delhi",
-      "private label leather bags manufacturer india",
-      "wholesale leather bags supplier delhi",
-      "leather tote bags manufacturer in noida",
-      "oem leather goods manufacturer gurugram udyog vihar",
-      "leather corporate gifts manufacturer delhi ncr",
-      "best leather bags manufacturer in india",
-      "leather accessories manufacturer noida sector 63"
-    ]
-  },
-  {
-    category: "Asia & Pan-Asian Leather Sourcing Hub",
-    description: "High-intent queries from international fashion brands, retail chains, and procurement directors seeking verified leather goods suppliers and manufacturers across Asia.",
-    keywords: [
-      "leather goods supplier in asia",
-      "leather goods suppliers in asia",
-      "leather goods manufacturer in asia",
-      "leather goods manufacturers in asia",
-      "leather manufacturer asia",
-      "leather manufacturers in asia",
-      "leather bag manufacturer in asia",
-      "leather bags manufacturer asia",
-      "wholesale leather goods suppliers asia",
-      "private label leather goods manufacturer asia",
-      "custom leather goods manufacturer asia",
-      "best leather goods manufacturer in asia",
-      "top leather goods suppliers in asia",
-      "leather goods exporter in asia",
-      "low MOQ leather manufacturer in asia",
-      "small batch leather goods supplier asia",
-      "leather handbag manufacturer asia",
-      "leather wallet manufacturer in asia",
-      "leather belt manufacturer asia",
-      "leather accessories supplier asia",
-      "luxury leather goods manufacturer in asia",
-      "LWG certified leather manufacturer in asia",
-      "sustainable leather goods supplier in asia",
-      "leather goods contract manufacturing in asia",
-      "oem odm leather goods factory in asia",
-      "leather goods supplier south asia",
-      "ethical leather goods manufacturer asia",
-      "asia leather goods factory direct"
-    ]
-  },
-  {
-    category: "Master Global Leather Goods Manufacturer Hub",
-    description: "The #1 highest-volume global search queries from procurement managers, fashion houses, luxury labels, and wholesalers searching for verified leather goods manufacturers worldwide.",
-    keywords: [
-      "leather goods manufacturer",
-      "leather goods manufacturers",
-      "leather goods manufacturer near me",
-      "leather goods manufacturer overseas",
-      "leather goods manufacturer international",
-      "best leather goods manufacturer",
-      "top leather goods manufacturers",
-      "leather goods manufacturing companies",
-      "leather goods production factory",
-      "genuine leather goods manufacturer",
-      "odm leather goods manufacturer",
-      "contract leather goods manufacturer",
-      "bespoke leather goods manufacturer",
-      "white label leather goods manufacturer",
-      "leather products manufacturer",
-      "full grain leather goods manufacturer",
-      "vegetable tanned leather goods manufacturer",
-      "how to find a leather goods manufacturer",
-      "leather goods manufacturer directory",
-      "leather goods manufacturer list",
-      "find leather goods manufacturer overseas",
-      "leather goods factory direct"
-    ]
-  },
-  {
-    category: "Luxury & High-End Leather Goods Manufacturing",
-    description: "Trending search queries from luxury brands, high-end boutiques, and designer ateliers seeking master craftsmen and heritage finishing.",
-    keywords: [
-      "high end leather goods manufacturer",
-      "premium leather goods manufacturer",
-      "artisan leather goods manufacturer",
-      "handcrafted leather goods manufacturer",
-      "luxury leather bags manufacturer",
-      "luxury leather handbag factory",
-      "designer leather goods manufacturer",
-      "turned edge leather goods manufacturer",
-      "italian leather goods manufacturer alternative",
-      "french edge painted leather goods factory",
-      "saddle stitched leather goods manufacturer",
-      "fine leather goods manufacturer",
-      "luxury small leather goods manufacturer",
-      "bespoke leather atelier manufacturer",
-      "LWG gold audited luxury leather manufacturer"
-    ]
-  },
-  {
-    category: "Startup, Low MOQ & Small Batch Leather Manufacturing",
-    description: "High-intent queries from D2C startups, emerging designers, boutique brands, and Kickstarter projects seeking low minimum order quantities and flexible prototyping.",
-    keywords: [
-      "small batch leather goods manufacturer",
-      "leather goods manufacturer for startups",
-      "low minimum order quantity leather manufacturer",
-      "custom leather goods low moq",
-      "private label leather goods low moq",
-      "small run leather goods manufacturer",
-      "leather goods prototype manufacturer",
-      "leather sample maker manufacturer",
-      "leather goods tech pack maker",
-      "leather prototyping and sample development",
-      "on demand leather manufacturing",
-      "flexible moq leather goods supplier",
-      "how to manufacture leather goods for small business"
-    ]
-  },
-  {
-    category: "International & Regional Leather Goods Manufacturers",
-    description: "Targeted queries from brands in the UK, Europe, UAE, Australia, Canada, and Asia seeking reliable offshore manufacturing partners.",
-    keywords: [
-      "leather goods manufacturer UK",
-      "leather goods manufacturer London",
-      "leather goods manufacturer Europe",
-      "leather goods manufacturer Italy alternative",
-      "leather goods manufacturer Spain alternative",
-      "leather goods manufacturer Portugal alternative",
-      "leather goods manufacturer Dubai UAE",
-      "leather goods manufacturer Middle East",
-      "leather goods manufacturer Australia",
-      "leather goods manufacturer Sydney Melbourne",
-      "leather goods manufacturer Canada",
-      "leather goods manufacturer Toronto Vancouver",
-      "leather goods manufacturer Japan",
-      "leather goods manufacturer Singapore",
-      "leather goods manufacturer South Africa",
-      "leather goods manufacturer New Zealand",
-      "offshore leather goods manufacturing partner",
-      "overseas leather goods factory export DDP"
-    ]
-  },
-  {
-    category: "Core B2B & Wholesale Leather Goods",
-    description: "High-volume wholesale search queries for international leather goods manufacturing and bulk supply.",
-    keywords: [
-      "leather goods suppliers",
-      "leather bag manufacturers",
-      "wholesale leather bags supplier",
-      "leather products exporter",
-      "leather accessories manufacturer",
-      "bulk leather bags supplier",
-      "leather goods factory",
-      "leather products manufacturing company",
-      "genuine leather goods supplier",
-      "leather craft manufacturers",
-      "wholesale leather goods distributors"
-    ]
-  },
-  {
-    category: "OEM, ODM & Private Label Leather Production",
-    description: "Search queries for custom contract manufacturing, white label production, and brand private labeling.",
-    keywords: [
-      "odm leather products supplier",
-      "white label leather goods factory",
-      "bespoke leather goods manufacturing",
-      "custom leather goods for brands",
-      "cut and sew leather factory",
-      "leather contract manufacturer",
-      "custom private label leather products",
-      "custom leather handbag factory",
-      "oem leather wallet manufacturer"
-    ]
-  },
-  {
-    category: "Low MOQ & Startup Sourcing Partners",
-    description: "Keywords from emerging fashion founders, small designers, and boutique brands seeking low MOQ production and rapid sampling.",
-    keywords: [
-      "leather goods manufacturer low moq",
-      "leather bag manufacturer for startups",
-      "low minimum order quantity leather supplier",
-      "custom leather wallet manufacturer low moq",
-      "sampling and prototyping leather goods factory",
-      "small scale leather goods production",
-      "low volume leather goods manufacturing"
-    ]
-  },
-  {
-    category: "Product-Specific B2B Sourcing",
-    description: "Product-focused wholesale inquiries for luxury handbags, totes, duffels, backpacks, wallets, belts, and corporate gifts.",
-    keywords: [
-      "custom leather handbag manufacturer",
-      "wholesale leather tote bags supplier",
-      "leather duffle bag manufacturer",
-      "custom leather backpack manufacturer",
-      "leather laptop bag manufacturer",
-      "leather wallet manufacturer supplier",
-      "leather card holder manufacturer",
-      "small leather goods manufacturer (SLG)",
-      "custom leather belt manufacturer",
-      "leather travel bags wholesale manufacturer",
-      "corporate leather gifts manufacturer"
-    ]
-  },
-  {
-    category: "Regional Sourcing & Export Hubs (India, US, UK, Germany)",
-    description: "Geographic search queries connecting international brands with India's premier export manufacturing clusters.",
-    keywords: [
-      "leather bag exporters in kolkata",
-      "leather goods manufacturers in kanpur",
-      "leather goods suppliers for us brands",
-      "leather bag manufacturer uk private label",
-      "leather goods suppliers in germany b2b",
-      "leather products exporter india",
-      "indian leather goods manufacturing company",
-      "b2b leather goods exporters"
-    ]
-  },
-  {
-    category: "Quality, Sustainability & Compliance Benchmarks",
-    description: "Technical, environmental, and ethical audit terms required by Western buyers (LWG, REACH, BSCI, Sedex, Prop 65).",
-    keywords: [
-      "lwg certified leather manufacturer",
-      "reach compliant leather goods supplier",
-      "full grain leather bag manufacturer",
-      "sustainable leather goods manufacturer",
-      "bsci audited leather factory",
-      "top grain leather products supplier",
-      "eco friendly leather goods manufacturer",
-      "sedex audited leather goods factory",
-      "california prop 65 compliant leather manufacturer"
-    ]
-  },
-  {
-    category: "USA & North America Buyer Searches (Targeting India/Asia)",
-    description: "High-intent queries from American and Canadian fashion procurement teams searching for direct Indian/Asian bag factories.",
-    keywords: [
-      "leather bag manufacturer in india for usa",
-      "custom leather bags manufacturer india",
-      "oem leather bag factory in asia",
-      "leather goods supplier in india export to usa",
-      "private label leather handbag manufacturer india",
-      "leather tote bag manufacturer india low moq",
-      "cut and sew leather bag factory india",
-      "leather duffle bag manufacturer india",
-      "genuine leather bags manufacturer india for usa",
-      "bespoke leather goods manufacturers in asia",
-      "contract leather handbag manufacturer india",
-      "california prop 65 compliant leather bag manufacturer india",
-      "leather laptop bag manufacturer india export",
-      "sustainable leather bag manufacturer india"
-    ]
-  },
-  {
-    category: "Europe & UK Buyer Searches (Targeting India/Asia)",
-    description: "Search queries from European and British fashion houses sourcing REACH and LWG compliant leather bags from India.",
-    keywords: [
-      "leather goods manufacturer in india exporting to europe",
-      "leather bag manufacturer india reach compliant",
-      "lwg certified leather bag manufacturer in india",
-      "leather handbag manufacturers in india for uk brands",
-      "sedex smeta audited leather factory in india",
-      "bsci audited leather bag manufacturer asia",
-      "vegetable tanned leather bag manufacturer india",
-      "custom leather bags supplier europe b2b",
-      "lederwaren hersteller indien b2b",
-      "fabricant sacs en cuir inde",
-      "small batch leather bag manufacturer india",
-      "full grain leather bag manufacturer india"
-    ]
-  },
-  {
-    category: "Sourcing & Regional Hub Searches (Calcutta, Kanpur, South Asia)",
-    description: "Region and cluster-specific search queries connecting global buyers with India's historic leather centers.",
-    keywords: [
-      "source leather bags from india",
-      "leather goods manufacturers in calcutta leather complex",
-      "leather manufacturers in kanpur india",
-      "asia leather bag manufacturing company",
-      "leather bag supplier in south asia",
-      "leather export house in india for bags",
-      "leather sourcing agent india leather bags"
-    ]
-  },
-  {
-    category: "Startup, E-Commerce & DTC Brand Searches (Low MOQ & Sampling)",
-    description: "Queries from emerging direct-to-consumer labels seeking prototype sampling, white-label bags, and low minimums.",
-    keywords: [
-      "leather bag manufacturer india low moq",
-      "leather goods manufacturer low minimum order quantity asia",
-      "sample maker leather bags india",
-      "leather bag factory for startup brands india",
-      "white label leather handbag supplier india",
-      "custom hardware leather bag manufacturer india"
-    ]
-  },
-  {
-    category: "Core B2B & Wholesale Leather Wallets",
-    description: "High-volume B2B search terms for wholesale leather wallets and direct factory supplier partnerships.",
-    keywords: [
-      "leather wallet supplier",
-      "wholesale leather wallets supplier",
-      "custom leather wallet manufacturer",
-      "leather wallet factory",
-      "leather wallets bulk supplier",
-      "leather wallet exporter",
-      "genuine leather wallet supplier",
-      "b2b leather wallet manufacturers",
-      "custom leather wallets for brands"
-    ]
-  },
-  {
-    category: "Private Label, OEM & Custom Wallet Manufacturing",
-    description: "Queries from fashion brands seeking white label, OEM/ODM contract production and custom wallet development.",
-    keywords: [
-      "private label leather wallet manufacturer",
-      "odm custom leather wallets supplier",
-      "bespoke leather wallet manufacturing",
-      "white label leather wallet factory",
-      "leather wallet contract manufacturing",
-      "custom embossed leather wallet supplier",
-      "cut and sew leather wallet factory",
-      "leather wallet prototype and sampling factory"
-    ]
-  },
-  {
-    category: "Style & Feature-Specific Wallets (RFID, Bifold, Cardholders)",
-    description: "Product-specific queries for RFID shielded wallets, card cases, bifolds, passport cases, and women's long wallets.",
-    keywords: [
-      "rfid blocking leather wallet manufacturer",
-      "minimalist leather wallet supplier",
-      "custom leather card holder manufacturer",
-      "leather bifold wallet wholesale manufacturer",
-      "leather trifold wallet supplier",
-      "leather passport holder manufacturer",
-      "leather money clip wallet supplier",
-      "custom slim wallet manufacturer",
-      "leather coin pouch and wallet manufacturer",
-      "zipper leather wallet factory",
-      "long leather wallet manufacturer for women"
-    ]
-  },
-  {
-    category: "Low MOQ & Startup Wallet Sourcing",
-    description: "High-intent queries from boutique labels and startups seeking low minimum order quantities and sampling.",
-    keywords: [
-      "leather wallet manufacturer low moq",
-      "small batch leather wallet manufacturer",
-      "leather wallet factory for startups",
-      "custom leather wallet low minimum order quantity",
-      "sample maker leather wallets",
-      "small scale leather wallet production"
-    ]
-  },
-  {
-    category: "Wallet Materials & Craftsmanship (Full Grain, Veg-Tan, LWG)",
-    description: "Material-driven inquiries for vegetable tanned, full grain, top grain, and sustainable LWG audited leather wallets.",
-    keywords: [
-      "full grain leather wallet manufacturer",
-      "vegetable tanned leather wallet supplier",
-      "top grain leather wallet manufacturer",
-      "crazy horse leather wallet supplier",
-      "sustainable leather wallet manufacturer",
-      "italian leather wallet manufacturer in asia",
-      "lwg certified leather wallet supplier"
-    ]
-  },
-  {
-    category: "Regional & Export Wallet Hubs (India to USA, Europe & Worldwide)",
-    description: "Geographic search queries from American, European, and British buyers sourcing compliant leather wallets from India.",
-    keywords: [
-      "leather wallet manufacturer in india",
-      "leather wallet exporters in kolkata",
-      "leather wallet supplier in india for usa brands",
-      "leather wallet manufacturer reach compliant europe",
-      "leather wallet factory india export to uk",
-      "indian leather wallet manufacturing company",
-      "leather goods and wallet suppliers in asia"
-    ]
-  },
-  {
-    category: "Australia & New Zealand Core B2B Supplier Keywords",
-    description: "Sourcing queries from Australian and New Zealand fashion labels, boutique retailers, and corporate buyers seeking certified Indian leather goods suppliers.",
-    keywords: [
-      "leather goods manufacturer for australian brands",
-      "leather goods suppliers australia b2b",
-      "leather products wholesale supplier australia",
-      "leather bag manufacturer india to australia",
-      "custom leather goods manufacturer nz",
-      "leather products manufacturer auckland",
-      "leather goods wholesale suppliers melbourne",
-      "leather goods manufacturers sydney b2b",
-      "leather bags supplier new zealand b2b",
-      "leather accessories manufacturer for nz brands"
-    ]
-  },
-  {
-    category: "India-Australia ECTA Trade Agreement & Zero-Duty Export Keywords",
-    description: "Search queries targeting preferential trade tariff advantages, zero-duty entry under ECTA, and direct shipping to Sydney and Melbourne.",
-    keywords: [
-      "india australia ecta leather goods manufacturer",
-      "0 percent duty leather goods import from india australia",
-      "leather goods exporter to australia from india",
-      "duty free leather goods supplier india to australia",
-      "import leather bags from india to australia",
-      "leather products exporter kolkata to australia",
-      "india leather export house to sydney melbourne"
-    ]
-  },
-  {
-    category: "Private Label, OEM & Custom Manufacturing (ANZ Fashion Brands)",
-    description: "Contract production, white-label bags, and prototype sample development for emerging Australian and Kiwi designers.",
-    keywords: [
-      "private label leather bags manufacturer australia",
-      "oem leather goods manufacturer for australian labels",
-      "custom leather bags manufacturer low moq australia",
-      "bespoke leather goods manufacturers for nz brands",
-      "white label leather goods factory asia for australia",
-      "leather handbag sample maker for australian designers",
-      "cut and sew leather factory for australian brands",
-      "contract leather goods manufacturer asia pacific"
-    ]
-  },
-  {
-    category: "ANZ Material, Sustainability & Biosecurity Sourcing",
-    description: "Environmental compliance, vegetable tanning, LWG certified hides, and Australian biosecurity-compliant leather production.",
-    keywords: [
-      "vegetable tanned leather bag manufacturer india for australia",
-      "lwg certified leather manufacturer for australian brands",
-      "eco friendly leather goods manufacturer asia",
-      "sustainable leather bag supplier for nz brands",
-      "full grain leather wallet manufacturer australia",
-      "biosecurity compliant leather goods supplier australia",
-      "chrome free leather goods factory asia"
-    ]
-  },
-  {
-    category: "Australia & NZ Product-Specific Keywords (Wallets, Bags, Travel)",
-    description: "Product-focused inquiries from ANZ buyers for custom leather tote bags, duffels, minimal wallets, and bulk corporate gifts.",
-    keywords: [
-      "custom leather tote bag manufacturer australia",
-      "wholesale leather duffle bags australia supplier",
-      "leather wallet manufacturer low moq australia",
-      "leather passport holder supplier australia wholesale",
-      "custom leather backpack manufacturer new zealand",
-      "minimalist leather wallet manufacturer for australian brands",
-      "corporate leather gifts supplier australia bulk"
-    ]
-  },
-  {
-    category: "Reliable & Verified Leather Goods Manufacturers in India/Asia (USA & Canada)",
-    description: "High-trust search queries used by North American procurement directors, boutique owners, and luxury labels to find vetted, audited, and reliable Indian/Asian factories.",
-    keywords: [
-      "reliable leather goods manufacturer in india",
-      "reliable leather goods manufacturer in asia",
-      "best leather goods manufacturer in india for us brands",
-      "trusted leather bag manufacturer in india",
-      "verified leather goods factory in india",
-      "audited leather goods manufacturer india",
-      "ethical leather goods manufacturer in india",
-      "sedex certified leather goods manufacturer india",
-      "lwg audited leather manufacturer in asia",
-      "reliable custom leather bags factory in india",
-      "good leather goods manufacturers in india reviews",
-      "top rated leather goods exporter india",
-      "cle registered leather goods manufacturer in india",
-      "reputable leather factory in asia for canadian brands",
-      "reliable oem leather handbag factory in asia",
-      "vetted leather goods factories in kolkata noida"
-    ]
-  },
-  {
-    category: "Canada Fashion Brand Sourcing & Leather Goods Import Queries",
-    description: "Search terms from Canadian fashion labels in Toronto, Montreal, and Vancouver seeking reliable offshore manufacturing partners in India.",
-    keywords: [
-      "leather goods manufacturer in india for canadian brands",
-      "leather bag manufacturer for brands in canada",
-      "custom leather bags supplier canada b2b",
-      "private label leather goods manufacturer canada low moq",
-      "wholesale leather goods suppliers canada from india",
-      "import leather bags from india to canada",
-      "leather goods manufacturer toronto montreal vancouver",
-      "canadian fashion brand leather manufacturer partner india",
-      "sustainable leather goods exporter india to canada",
-      "duty free leather goods import india to canada",
-      "reliable leather wallet manufacturer canada import",
-      "custom leather merchandise supplier canada b2b"
-    ]
-  },
-  {
-    category: "USA Brand Sourcing & Verification Queries (Vetted Factories in India)",
-    description: "Search queries used by American sourcing managers to vet factory reliability, defect rates, NDA protection, and turnaround times.",
-    keywords: [
-      "reliable leather goods supplier in india export to usa",
-      "best private label leather bag factory for american brands",
-      "us fashion brand leather manufacturing partner india",
-      "california prop 65 compliant leather goods manufacturer india",
-      "turnkey leather goods manufacturing partner usa brands",
-      "small batch reliable leather manufacturer india",
-      "top quality custom leather goods supplier india to usa",
-      "american boutique leather manufacturer partner in india",
-      "how to find reliable leather goods manufacturer in india",
-      "how to vet leather manufacturer in india",
-      "leather factory in india with low defect rate aql 2.5",
-      "english speaking leather goods manufacturer in india",
-      "reliable leather sample maker fast turnaround usa canada",
-      "nda protected leather goods manufacturer india",
-      "leather goods contract manufacturer with transparent supply chain",
-      "in house leather goods manufacturing unit kolkata noida"
-    ]
-  },
-  {
-    category: "Worldwide Leather Jacket & Outerwear Manufacturing Keywords (B2B & Custom OEM)",
-    description: "Global search queries from fashion labels, motorcycle brands, and apparel buyers seeking custom leather jackets, outerwear ateliers, and contract cut & sew apparel factories.",
-    keywords: [
-      "leather jacket manufacturer",
-      "custom leather jacket manufacturer",
-      "leather jacket manufacturers in india",
-      "private label leather jacket manufacturer",
-      "oem leather jacket manufacturer",
-      "wholesale leather jackets supplier",
-      "leather jacket factory",
-      "leather jacket contract manufacturer",
-      "cut and sew leather jacket factory",
-      "bespoke leather jacket manufacturing",
-      "leather outerwear manufacturer low moq",
-      "leather biker jacket manufacturer",
-      "leather bomber jacket factory",
-      "lambskin leather jacket manufacturer",
-      "custom leather motorcycle jacket supplier",
-      "men leather jacket manufacturer wholesale",
-      "women leather jacket factory supplier",
-      "leather clothing manufacturers in india",
-      "leather jacket sample maker for brands",
-      "shearling jacket manufacturer india",
-      "sustainable leather jacket factory",
-      "leather garments exporter india",
-      "leather coats wholesale manufacturer"
-    ]
-  },
-  {
-    category: "Worldwide Small Leather Goods (SLG) & Luxury Accessories Keywords",
-    description: "Search queries for custom small leather goods, lifestyle tech covers, valet trays, key cases, and corporate gifting merchandise.",
-    keywords: [
-      "small leather goods manufacturer",
-      "small leather goods manufacturer slg",
-      "custom small leather goods manufacturer",
-      "luxury small leather goods factory",
-      "private label small leather goods supplier",
-      "leather keychain manufacturer bulk",
-      "leather sunglass case manufacturer",
-      "custom leather valet tray manufacturer",
-      "leather watch roll manufacturer",
-      "leather tech accessories manufacturer wholesale",
-      "leather cosmetic pouch manufacturer",
-      "leather luggage tag manufacturer",
-      "leather coaster wholesale manufacturer",
-      "leather mouse pad manufacturer supplier",
-      "airtag leather case manufacturer",
-      "custom embossed leather merchandise supplier"
-    ]
-  },
-  {
-    category: "Global & Worldwide B2B Leather Sourcing Keywords (Worldwide Search Queries)",
-    description: "Universal international queries across North America, Europe, UK, Australia, GCC/UAE, and Asia seeking premier leather factories with global DDP delivery.",
-    keywords: [
-      "global leather goods manufacturer",
-      "international leather goods exporter",
-      "luxury leather goods manufacturer worldwide",
-      "leather goods factory worldwide shipping",
-      "leather goods manufacturer in india for worldwide export",
-      "leather goods supplier in usa wholesale",
-      "leather goods manufacturer in uk europe",
-      "leather goods manufacturer in australia b2b",
-      "leather goods supplier in dubai uae",
-      "leather goods manufacturer in germany dach",
-      "leather products manufacturing company worldwide",
-      "genuine leather goods supplier worldwide",
-      "sustainable leather bag manufacturer worldwide",
-      "lwg certified leather manufacturer worldwide",
-      "reach compliant leather factory worldwide",
-      "low moq custom leather manufacturer worldwide"
-    ]
-  },
-  {
-    category: "Indian Regional Leather Manufacturing Hubs & Exporters",
-    description: "Search queries targeting key production clusters across India including Kolkata, Kanpur, Chennai, Ranipet, Ambur, Dharavi Mumbai, Noida, and Agra.",
-    keywords: [
-      "leather goods export company india",
-      "certified leather exporters india",
-      "leather goods exporters in kanpur",
-      "leather shoe manufacturers chennai",
-      "leather goods manufacturers ranipet ambur",
-      "leather goods supplier dharavi mumbai",
-      "leather product manufacturers noida / agra"
-    ]
-  },
-  {
-    category: "OEM, ODM & Custom Contract Leather Manufacturers India",
-    description: "High-intent B2B search terms for private-label production, custom development, small batch prototyping, and low MOQ brand launching in India.",
-    keywords: [
-      "private label leather manufacturer india",
-      "OEM leather manufacturers india",
-      "ODM leather goods supplier india",
-      "genuine leather manufacturers in india",
-      "bulk leather goods supplier india",
-      "wholesale leather products manufacturer india",
-      "small leather goods manufacturers in india",
-      "luxury leather goods manufacturer india",
-      "low MOQ leather goods manufacturer india",
-      "small batch custom leather production india",
-      "start a leather brand manufacturer india"
-    ]
-  },
-  {
-    category: "Product-Specific Leather Goods Sourcing India",
-    description: "Targeted queries for bags, wallets, belts, jackets, footwear, corporate gifts, equestrian tack, and protective gloves from Indian factories.",
-    keywords: [
-      "custom leather wallet manufacturer india",
-      "leather belt manufacturer supplier india",
-      "leather footwear manufacturers india",
-      "leather jacket manufacturer and exporter india",
-      "leather handbag supplier wholesale india",
-      "leather travel bags manufacturer india",
-      "leather laptop bag manufacturer india",
-      "leather corporate gifts manufacturer india",
-      "equestrian leather goods manufacturer india",
-      "industrial leather gloves manufacturer india"
-    ]
-  },
-  {
-    category: "Asian Leather Sourcing & Global Factory Comparisons",
-    description: "Strategic queries comparing manufacturing hubs across Asia including India, China, Vietnam, Bangladesh, and Southeast Asia.",
-    keywords: [
-      "leather goods sourcing agents asia",
-      "best leather manufacturers in asia",
-      "leather factories in vietnam vs india",
-      "leather goods manufacturer bangladesh",
-      "OEM leather factory china vs india",
-      "southeast asia leather goods suppliers",
-      "low cost leather goods manufacturing asia"
-    ]
-  },
-  {
-    category: "Certified Sustainable & Compliance-Grade Leather Manufacturing India",
-    description: "Audited production queries for LWG Gold/Silver, SEDEX ethical, EU REACH compliant, vegetable-tanned, and full-grain leather goods.",
-    keywords: [
-      "sustainable leather goods manufacturer india",
-      "vegetable tanned leather goods manufacturer india",
-      "LWG certified leather goods manufacturer india (Leather Working Group)",
-      "SEDEX audited leather factory india",
-      "REACH compliant leather manufacturers india",
-      "full grain leather goods suppliers india"
-    ]
-  },
-  {
-    category: "B2B Buyer Sourcing: OEM vs ODM, Low MOQ & Brand Launch",
-    description: "Search queries from fashion founders, product managers, and buying houses exploring OEM vs ODM production, startup launch requirements, low MOQ manufacturing, and reliable factory selection.",
-    keywords: [
-      "low moq leather manufacturer",
-      "private label leather bag brand",
-      "private label vs oem leather goods",
-      "how do i find a reliable leather bag manufacturer in india",
-      "oem leather bag factory",
-      "should i use oem or odm for my leather goods brand",
-      "custom leather bag manufacturing options",
-      "custom leather bags for brand",
-      "how do i manufacture leather bags with low moq",
-      "handcrafted leather goods production",
-      "what do i need to launch a leather accessories brand with a manufacturer in india",
-      "what should i look for in an oem leather goods factory",
-      "how do i start my own private label leather bag brand",
-      "oem vs odm leather bags",
-      "small batch leather production",
-      "launch leather goods brand",
-      "minimum order quantity leather bags",
-      "what is the difference between oem and odm for leather bags",
-      "how are genuine leather bags made step by step",
-      "what is the production process for custom leather handbags",
-      "what is the minimum order quantity for custom leather bags"
-    ]
-  },
-  {
-    category: "Regulatory Compliance: California Prop 65, LWG Audits & Quality Control",
-    description: "Technical compliance, US consumer safety chemical testing, LWG environmental tannery verification, and factory quality audit standards.",
-    keywords: [
-      "california prop 65 leather goods",
-      "do leather bags need to comply with california prop 65",
-      "how to ensure leather goods pass prop 65 testing for us market",
-      "leather goods chemical compliance usa",
-      "prop 65 leather bags",
-      "leather goods manufacturer quality control",
-      "what does lwg certified mean for leather goods",
-      "why does lwg certification matter when sourcing leather from india",
-      "what quality checks should a leather goods manufacturer provide",
-      "aql inspection leather bags",
-      "leather factory audit checklist",
-      "how do i audit a leather bag factory before placing an order",
-      "leather working group audit"
-    ]
-  },
-  {
-    category: "Strategic Global Sourcing: India vs China & Luxury Materials",
-    description: "Comparative procurement analysis evaluating India vs China for tariffs, quality, costs, and selection of full-grain luxury handbag leathers.",
-    keywords: [
-      "leather bag factory india china comparison",
-      "best country to manufacture leather bags",
-      "best leather for luxury handbags",
-      "is india or china better for manufacturing leather handbags",
-      "what is the best type of leather for designer handbags",
-      "india vs china leather manufacturing",
-      "india vs china leather quality and cost comparison"
+      "leather from LWG partner tanneries India",
+      "EU REACH Annex XVII tested leather goods",
+      "AQL 2.5 inspected leather bag factory",
+      "traceable vegetable tanned leather sourcing",
+      "ethical leather goods manufacturer India"
     ]
   }
 ];
 
-// Flat array of all distinct keywords for metadata, schemas, and sitemaps (120+ high-volume terms)
+// Flat array of distinct, verified B2B leather manufacturing keywords
 export const ALL_SEO_KEYWORDS: string[] = Array.from(
   new Set(SEO_KEYWORD_CLUSTERS.flatMap((cluster) => cluster.keywords))
 );
@@ -1644,25 +165,25 @@ export interface B2BKeywordCandidate {
 
 export const TOP_20_B2B_KEYWORDS: B2BKeywordCandidate[] = [
   { keyword: "leather goods manufacturer Kolkata", intent: "Direct Factory Sourcing", rationale: "Validates direct factory and atelier operations at Calcutta Leather Complex, Bantala, Kolkata." },
-  { keyword: "leather accessories factory Kolkata", intent: "Commercial / Accessory Atelier", rationale: "Targets luxury brands sourcing small leather goods and lifestyle accessories in West Bengal." },
-  { keyword: "leather exporters Kolkata", intent: "Trade / Export Flow", rationale: "Primary query used by international trading houses sourcing from eastern India's leather corridor." },
-  { keyword: "Indian leather goods supplier for US brands", intent: "International Trade Flow", rationale: "Largest export corridor; matches brands seeking DDP delivery, Prop 65 compliance & 100 MOQs." },
-  { keyword: "private label leather supplier for UK brands", intent: "Commercial / White-Label", rationale: "Connects British fashion houses with REACH-tested, nickel-free private label craftsmanship." },
-  { keyword: "leather goods exporter to Europe", intent: "Commercial / European Union", rationale: "Captures German, French, Dutch & Italian buyers requiring REACH Annex XVII and DDP port logistics." },
-  { keyword: "sustainable leather accessories manufacturer", intent: "Sustainability / Eco-Manufacturing", rationale: "Matches eco-conscious brands demanding low-waste, non-toxic accessory contract manufacturing." },
-  { keyword: "ethical leather goods manufacturing", intent: "Social Compliance / Governance", rationale: "Directly qualifies brands requiring living wage ateliers, safe working conditions, and zero child labor." },
-  { keyword: "responsibly sourced leather products", intent: "Material Ethics / Sustainable B2B", rationale: "Connects buyers with meat byproduct bovine hides and audited environmental supply chains." },
-  { keyword: "vegetable tanned leather accessories", intent: "Material / Luxury Heritage", rationale: "Qualifies buyers seeking Tuscan mimosa/chestnut tanned artisanal belts, wallets, and folios." },
-  { keyword: "traceable leather sourcing", intent: "Supply Chain Traceability", rationale: "Validates farm-to-atelier batch traceability required by modern global fashion transparency laws." },
-  { keyword: "leather from LWG-certified tanneries", intent: "Environmental Auditing", rationale: "Crucial buyer filter requiring Gold/Silver rated wastewater-treated partner tanneries." },
-  { keyword: "WRAP compliant leather manufacturer India", intent: "Enterprise Social Compliance", rationale: "Worldwide Responsible Accredited Production certification benchmark for North American retail." },
-  { keyword: "ISO certified leather supplier India", intent: "Quality Management System", rationale: "ISO 9001:2015 quality control & ISO 14001 environmental management validation in India." },
-  { keyword: "SMETA audited leather manufacturer", intent: "Sedex Ethical Audit", rationale: "Sedex Members Ethical Trade Audit (2-pillar / 4-pillar) compliance verification for global retailers." },
-  { keyword: "leather bags manufacturer India", intent: "Commercial / Discovery", rationale: "Core national export anchor for international brands seeking India supply chain diversification." },
-  { keyword: "custom leather bag manufacturing", intent: "Transactional / Specification", rationale: "Targets fashion founders with tech packs/CAD specifications requiring bespoke tooling." },
-  { keyword: "private label leather bags manufacturer", intent: "Commercial / White-Label", rationale: "Attracts boutiques and retailers seeking branded collections with custom debossing & hardware." },
-  { keyword: "OEM leather bag manufacturer", intent: "Transactional / Contract", rationale: "Captures established brands with completed Bills of Materials (BOM) seeking contract execution." },
-  { keyword: "low MOQ leather bag manufacturer", intent: "Commercial / Trial Order", rationale: "Directly matches UNICON's accessible 100-piece bag MOQ for independent and growing labels." }
+  { keyword: "leather bag manufacturer Noida", intent: "Corporate & Export Desk", rationale: "Connects international buyers and Delhi NCR sourcing agencies with our Noida export office." },
+  { keyword: "private label leather bag manufacturer India", intent: "Commercial / White-Label", rationale: "Primary commercial query for fashion brands seeking custom hardware, debossing, and low MOQs." },
+  { keyword: "Indian leather goods supplier for US brands", intent: "International Trade Flow", rationale: "Matches US brands seeking Prop 65 compliance, 50–100 pc MOQs, and FOB/DDP delivery." },
+  { keyword: "private label leather supplier for UK brands", intent: "Commercial / UK Export", rationale: "Connects British fashion labels with UK REACH-tested, nickel-free private label production." },
+  { keyword: "leather goods exporter to Europe", intent: "Commercial / European Union", rationale: "Captures German, French, Dutch & Nordic buyers requiring EU REACH Annex XVII compliance." },
+  { keyword: "leather goods manufacturer for Australian brands", intent: "Preferential Trade / ECTA", rationale: "Leverages 0% customs duty on Indian leather goods under the India-Australia ECTA." },
+  { keyword: "OEM leather bag manufacturer India", intent: "Transactional / Tech Pack", rationale: "Captures established brands with completed Tech Packs and Bills of Materials (BOM)." },
+  { keyword: "leather handbag manufacturer India", intent: "Category / Women's Bags", rationale: "Targets womenswear and accessory labels sourcing full-grain and calf nappa handbags." },
+  { keyword: "leather laptop bag manufacturer India", intent: "Category / Executive Bags", rationale: "Targets menswear, commuter, and corporate brands sourcing padded 15-inch and 16-inch briefcases." },
+  { keyword: "leather wallet manufacturer India", intent: "Category / Small Leather Goods", rationale: "High-volume B2B search for 0.4mm skived, RFID-shielded bifold wallets and cardholders." },
+  { keyword: "leather duffel bag manufacturer India", intent: "Category / Travel Goods", rationale: "Captures luggage and lifestyle brands sourcing pull-up and vegetable-tanned weekender bags." },
+  { keyword: "leather belt manufacturer India", intent: "Category / Bridle & Dress Belts", rationale: "Matches apparel brands sourcing 3.5mm full-grain vegetable-tanned and dress leather belts." },
+  { keyword: "custom leather jacket manufacturer India", intent: "Category / Leather Outerwear", rationale: "Targets fashion labels seeking lambskin nappa and goat suede outerwear at 50–100 pc MOQs." },
+  { keyword: "corporate leather gifts manufacturer India", intent: "B2B Corporate Procurement", rationale: "Qualifies institutional buyers ordering custom debossed leather sleeves, folios, and wallet sets." },
+  { keyword: "low MOQ leather bag manufacturer India", intent: "Commercial / Trial Order", rationale: "Matches our 50-piece stock-leather trial run and 100-piece custom drum-dyed MOQ tiers." },
+  { keyword: "vegetable tanned leather bag manufacturer", intent: "Material / Heritage Craft", rationale: "Qualifies buyers seeking chrome-free mimosa and chestnut bark vegetable-tanned leather goods." },
+  { keyword: "leather from LWG partner tanneries", intent: "Supply Chain Traceability", rationale: "Clarifies raw material traceability from Leather Working Group audited Indian tanneries." },
+  { keyword: "REACH compliant leather manufacturer India", intent: "Chemical Safety Compliance", rationale: "Addresses European and UK buyer due diligence for Azo-free dyes and Chromium VI < 3 mg/kg." },
+  { keyword: "full grain vs top grain leather for bag manufacturing", intent: "Technical Sourcing / GEO", rationale: "Captures early-stage B2B research and AI search citations for leather grade selection." }
 ];
 
 export interface PriorityB2BKeywordTier {
@@ -1676,159 +197,105 @@ export interface PriorityB2BKeywordTier {
 export const PRIORITY_B2B_KEYWORD_TIERS: PriorityB2BKeywordTier[] = [
   {
     priority: "Core: Indian manufacturing",
-    categoryName: "Indian Manufacturing (Kolkata Hub)",
-    description: "Direct manufacturing, accessories production, and export operations from Kolkata and the Calcutta Leather Complex.",
-    targetPages: ["/leather-goods-manufacturer", "/leather-accessories-manufacturer-india", "/leather-goods-exporter-india"],
+    categoryName: "Direct India Manufacturing (Kolkata & Noida)",
+    description: "Cut-and-sew production at Calcutta Leather Complex (Kolkata) paired with international export merchandising in Noida (Delhi NCR).",
+    targetPages: ["/about", "/craftsmanship", "/export"],
     keywords: [
       "leather goods manufacturer Kolkata",
-      "leather accessories factory Kolkata",
-      "leather exporters Kolkata",
-      "leather goods manufacturer in India",
-      "leather factory in India"
+      "leather bag manufacturer Noida",
+      "leather exporters Kolkata India",
+      "OEM leather goods factory India",
+      "custom leather manufacturer India"
     ]
   },
   {
     priority: "Global: overseas buyers",
-    categoryName: "Overseas Buyers & Private Label",
-    description: "Verified contract supplier partnerships for American department stores, UK private label brands, and European fashion houses.",
-    targetPages: ["/leather-goods-supplier-usa", "/leather-goods-supplier-europe", "/private-label-leather-goods", "/export"],
+    categoryName: "International Brand & Export Corridors",
+    description: "Dedicated export programs for USA (Prop 65), UK/EU (REACH Annex XVII), Australia (ECTA 0% Duty), Canada, and UAE (CEPA).",
+    targetPages: ["/en-us", "/en-gb", "/en-au", "/export"],
     keywords: [
       "Indian leather goods supplier for US brands",
       "private label leather supplier for UK brands",
       "leather goods exporter to Europe",
-      "private label leather bag manufacturers India",
-      "OEM leather bag manufacturers India"
+      "duty free leather manufacturer for Australia ECTA",
+      "leather goods exporter to UAE Dubai"
     ]
   },
   {
-    priority: "Ethical: sustainability",
-    categoryName: "Sustainability & Ethical Production",
-    description: "Certified eco-friendly accessories manufacturing, living-wage artisan workshops, and circular zero-waste yield optimization.",
-    targetPages: ["/sustainability", "/leather-accessories-manufacturer-india", "/craftsmanship"],
+    priority: "Highest: OEM & private label",
+    categoryName: "Private-Label & Tech-Pack OEM",
+    description: "End-to-end prototype sampling (5–14 business days), custom hardware mold tooling, and private-label packaging.",
+    targetPages: ["/private-label", "/custom-leather-goods-manufacturer", "/contact"],
     keywords: [
-      "sustainable leather accessories manufacturer",
-      "ethical leather goods manufacturing",
-      "responsibly sourced leather products",
-      "sustainable leather manufacturer",
-      "ethical leather goods factory in india"
+      "private label leather bag manufacturer India",
+      "custom leather bag manufacturing from tech pack",
+      "OEM leather handbag factory",
+      "low MOQ leather bag manufacturer (50–100 pcs)",
+      "white label leather accessories supplier"
     ]
   },
   {
-    priority: "Benchmark: materials & traceability",
-    categoryName: "Materials & LWG Traceability",
-    description: "Tuscan-style vegetable-tanned accessories, farm-to-atelier hide traceability, and Gold-rated LWG partner tanneries.",
-    targetPages: ["/full-grain-vs-top-grain-leather", "/craftsmanship", "/sustainability"],
-    keywords: [
-      "vegetable tanned leather accessories",
-      "traceable leather sourcing",
-      "leather from LWG-certified tanneries",
-      "full grain vs top grain leather",
-      "vegetable tanned leather"
-    ]
-  },
-  {
-    priority: "Verified: enterprise compliance",
-    categoryName: "Global Compliance & Factory Audits",
-    description: "Verified WRAP social compliance, ISO certified quality management, and Sedex SMETA 4-pillar audited facilities in India.",
-    targetPages: ["/sustainability", "/export", "/oem-leather-goods-manufacturer"],
-    keywords: [
-      "WRAP compliant leather manufacturer India",
-      "ISO certified leather supplier India",
-      "SMETA audited leather manufacturer",
-      "Sedex SMETA 4 pillar audited leather factory",
-      "ISO 9001 certified leather goods exporter India"
-    ]
-  },
-  {
-    priority: "Highest: manufacturing enquiries",
-    categoryName: "Manufacturing Enquiries India",
-    description: "Core high-intent B2B search queries for custom, private label, and OEM leather bag manufacturing partners in India.",
-    targetPages: ["/", "/leather-bags-manufacturer-india", "/private-label", "/oem-leather-goods-manufacturer"],
-    keywords: [
-      "leather goods manufacturer in India",
-      "leather product manufacturing",
-      "leather bag manufacturers in India",
-      "wholesale leather bag manufacturers in india",
-      "custom leather bag manufacturers India"
-    ]
-  },
-  {
-    priority: "Highest: bulk purchasing",
-    categoryName: "Bulk Purchasing & Export",
-    description: "High-volume wholesale purchasing, bulk supply, export contracts, and custom logo bulk manufacturing.",
-    targetPages: ["/wholesale-leather-goods", "/products", "/leather-goods-exporter-india", "/export"],
-    keywords: [
-      "wholesale leather handbags",
-      "wholesale leather bags India",
-      "bulk leather bag suppliers India",
-      "leather bag exporters India",
-      "custom logo leather bags bulk"
-    ]
-  },
-  {
-    priority: "High: product-specific manufacturing",
-    categoryName: "Product-Specific Bag Manufacturing",
-    description: "Category-focused manufacturing queries for luxury handbags, totes, laptop cases, backpacks, and sling bags.",
-    targetPages: ["/leather-handbags-manufacturer-india", "/products/leather-handbags", "/products/tote-bags", "/products/laptop-and-business-bags"],
+    priority: "High: bags & briefcases",
+    categoryName: "Handbags, Totes & Executive Briefcases",
+    description: "Structured women's handbags, pull-up shopper totes, padded 16-inch laptop briefcases, and heritage backpacks.",
+    targetPages: ["/products/leather-handbags", "/products/tote-bags", "/products/laptop-and-business-bags", "/products/backpacks"],
     keywords: [
       "leather handbag manufacturers India",
       "leather tote bag manufacturers India",
       "leather laptop bag manufacturers India",
       "leather backpack manufacturers India",
-      "leather sling bag manufacturers India"
+      "executive leather briefcase supplier"
     ]
   },
   {
-    priority: "High: travel products",
-    categoryName: "Travel & Commuter Bags",
-    description: "Heavy-duty luggage, weekender duffles, travel holdalls, and executive messenger satchels.",
-    targetPages: ["/products/travel-bags", "/products/laptop-and-business-bags"],
+    priority: "High: travel & weekender",
+    categoryName: "Travel Duffels & Weekender Bags",
+    description: "Heavy-duty 2.0mm pull-up and vegetable-tanned weekender duffels, cabin holdalls, and travel organizers.",
+    targetPages: ["/products/travel-bags", "/products/artisan-travel-duffels"],
     keywords: [
       "leather duffle bag manufacturers India",
       "leather travel bag manufacturers India",
-      "leather trolley bag manufacturers in india",
-      "leather messenger bag manufacturers India",
-      "leather overnight bag manufacturers"
+      "private label leather weekender bag",
+      "custom leather overnight bag factory",
+      "vegetable tanned travel duffel exporter"
     ]
   },
   {
-    priority: "High: accessories & SLGs",
-    categoryName: "Small Leather Goods & Accessories",
-    description: "Turned-edge wallets, passport covers, journals, and handcrafted small leather goods.",
-    targetPages: ["/leather-wallet-manufacturer-india", "/small-leather-goods-manufacturer", "/leather-accessories-manufacturer-india"],
+    priority: "High: wallets, belts & SLGs",
+    categoryName: "RFID Wallets, Cardholders & Bridle Belts",
+    description: "Precision 0.4mm skived wallets with 13.56 MHz RFID shielding and 3.5mm full-grain bridle/dress leather belts.",
+    targetPages: ["/products/wallets-and-cardholders", "/products/leather-belts", "/leather-wallet-manufacturer-india"],
     keywords: [
       "leather wallet manufacturers India",
-      "leather passport holder manufacturers",
-      "leather accessories manufacturers India",
+      "RFID leather wallet factory wholesale",
       "small leather goods manufacturers India",
-      "leather journal manufacturers India"
+      "full grain leather belt manufacturer India",
+      "leather passport holder manufacturer"
     ]
   },
   {
-    priority: "Conditional: production requirements",
-    categoryName: "Production Requirements & Low MOQ",
-    description: "Flexible production thresholds, low MOQ runs (100 pcs), startup brand development, and premium handmade wholesale.",
-    targetPages: ["/low-moq-leather-goods-manufacturer", "/craftsmanship", "/luxury-leather-goods-manufacturer"],
+    priority: "Benchmark: materials & compliance",
+    categoryName: "LWG Partner Tanneries & Chemical Compliance",
+    description: "Traceable hides from LWG-audited partner tanneries, third-party SGS/Intertek REACH & Prop 65 testing, and AQL 2.5 QC.",
+    targetPages: ["/compliance", "/sustainability", "/leather-quality-sourcing-guide"],
     keywords: [
-      "low MOQ leather bag manufacturers India",
-      "small batch leather bag manufacturing",
-      "leather bag manufacturers for startups",
-      "handmade leather bags wholesale",
-      "premium leather goods manufacturing"
+      "leather from LWG-certified partner tanneries",
+      "EU REACH Annex XVII compliant leather goods",
+      "California Prop 65 tested leather bags",
+      "vegetable tanned leather accessories India",
+      "AQL 2.5 pre-shipment leather inspection"
     ]
   },
   {
     priority: "Conditional: corporate gifting",
-    categoryName: "Corporate Gifting & Custom Merchandise",
-    description: "Executive desk merchandise, custom corporate gift sets, branded laptop sleeves, and personalized accessories.",
-    targetPages: ["/leather-accessories-manufacturer-india", "/products/laptop-and-business-bags", "/contact"],
+    categoryName: "Executive & Hospitality Leather Gifting",
+    description: "Custom debossed genuine leather laptop sleeves, wooden-boxed wallet trios, desk valets, and hotel leather accessories.",
+    targetPages: ["/leather-accessories-manufacturer-india", "/products", "/contact"],
     keywords: [
       "corporate leather gift manufacturers India",
       "custom leather gift sets bulk",
-      "leather laptop bags for corporate gifting",
-      "personalized leather accessories wholesale"
+      "debossed leather laptop sleeves wholesale",
+      "luxury executive leather desk accessories"
     ]
   }
 ];
-
-

@@ -32,7 +32,7 @@ export function Footer() {
                   <ShieldCheck className="w-3.5 h-3.5 text-cognac" /> International Compliance
                 </span>
                 <p className="text-[11px] sm:text-xs text-charcoal-600 leading-relaxed font-light">
-                  LWG Gold/Silver audited partner tanneries, EU REACH Annex XVII & California Prop 65 tested.
+                  LWG-audited partner tanneries, EU REACH Annex XVII &amp; California Prop 65 batch-testable.
                 </p>
               </div>
               <div className="flex flex-col items-start gap-1.5 sm:px-6 pt-5 sm:pt-0">
@@ -40,7 +40,7 @@ export function Footer() {
                   <Clock className="w-3.5 h-3.5 text-cognac" /> Rapid Sample Atelier
                 </span>
                 <p className="text-[11px] sm:text-xs text-charcoal-600 leading-relaxed font-light">
-                  Physical counter-samples dispatched in 7–14 days via DHL Express / FedEx Priority.
+                  5–7d (SLGs) &amp; 7–14d (bags/jackets) in stock leather; +7–10d for custom dye/tooling.
                 </p>
               </div>
               <div className="flex flex-col items-start gap-1.5 sm:pl-6 pt-5 sm:pt-0">
@@ -59,7 +59,11 @@ export function Footer() {
         <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 py-12 sm:py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-10">
             {/* Column 1: Brand & Atelier Contact (4 cols) */}
-            <div className="lg:col-span-4 space-y-4">
+            <div className="lg:col-span-4 space-y-4" itemScope itemType="https://schema.org/LocalBusiness">
+              <meta itemProp="name" content="UNICON LEATHER" />
+              <meta itemProp="alternateName" content="unicon leather" />
+              <meta itemProp="url" content="https://www.uniconleather.com" />
+              <meta itemProp="priceRange" content="$$" />
               <div>
                 <Link href="/" className="inline-block group focus:outline-none">
                   <span className="font-serif text-lg sm:text-xl font-bold tracking-[0.14em] text-charcoal uppercase group-hover:text-cognac transition-colors">
@@ -71,7 +75,7 @@ export function Footer() {
                 </p>
               </div>
 
-              <p className="text-xs text-charcoal-600 leading-relaxed font-light pr-4">
+              <p className="text-xs text-charcoal-600 leading-relaxed font-light pr-4" itemProp="description">
                 Specialized in contract manufacturing, private-label development, and worldwide wholesale export of handcrafted genuine leather bags, wallets, belts, and luxury lifestyle accessories.
               </p>
 
@@ -80,21 +84,39 @@ export function Footer() {
                 <div className="flex items-start gap-2.5">
                   <MapPin className="w-3.5 h-3.5 text-cognac shrink-0 mt-0.5" />
                   <div className="space-y-1">
-                    <p>
+                    <address
+                      className="not-italic"
+                      itemProp="address"
+                      itemScope
+                      itemType="https://schema.org/PostalAddress"
+                    >
                       <strong className="text-charcoal font-medium">Noida Office:</strong>{" "}
-                      {COMPANY_INFO.noidaOfficeAddress}{" "}
+                      <span itemProp="streetAddress">Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106</span>,{" "}
+                      <span itemProp="addressLocality">Noida</span>,{" "}
+                      <span itemProp="addressRegion">Uttar Pradesh</span>{" "}
+                      <span itemProp="postalCode">201304</span>,{" "}
+                      <span itemProp="addressCountry">India</span>{" "}
                       <a
                         href={COMPANY_INFO.maps.noida.mapUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        itemProp="hasMap"
                         className="text-cognac hover:underline font-mono text-[11px] whitespace-nowrap"
                       >
                         [Google Maps ↗]
                       </a>
-                    </p>
-                    <p>
+                    </address>
+                    <address
+                      className="not-italic"
+                      itemScope
+                      itemType="https://schema.org/PostalAddress"
+                    >
                       <strong className="text-charcoal font-medium">Factory:</strong>{" "}
-                      {COMPANY_INFO.factoryAddress}{" "}
+                      <span itemProp="streetAddress">Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex</span>,{" "}
+                      <span itemProp="addressLocality">Kolkata</span>,{" "}
+                      <span itemProp="addressRegion">West Bengal</span>{" "}
+                      <span itemProp="postalCode">743502</span>,{" "}
+                      <span itemProp="addressCountry">India</span>{" "}
                       <a
                         href={COMPANY_INFO.maps.kolkata.mapUrl}
                         target="_blank"
@@ -103,22 +125,18 @@ export function Footer() {
                       >
                         [Google Maps ↗]
                       </a>
-                    </p>
+                    </address>
                   </div>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <Mail className="w-3.5 h-3.5 text-cognac shrink-0" />
-                  <a href={`mailto:${COMPANY_INFO.primaryEmail}`} className="hover:text-cognac transition-colors font-medium">
-                    {COMPANY_INFO.primaryEmail}
-                  </a>
-                  <span className="text-charcoal-300">•</span>
-                  <a href={`mailto:${COMPANY_INFO.secondaryEmail}`} className="hover:text-cognac transition-colors font-medium">
-                    {COMPANY_INFO.secondaryEmail}
+                  <a href="mailto:uniconexport@gmail.com" itemProp="email" className="hover:text-cognac transition-colors font-medium">
+                    uniconexport@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <Phone className="w-3.5 h-3.5 text-cognac shrink-0" />
-                  <a href={`tel:${COMPANY_INFO.phone}`} className="hover:text-cognac transition-colors font-mono font-medium">
+                  <a href={`tel:${COMPANY_INFO.phone}`} itemProp="telephone" className="hover:text-cognac transition-colors font-mono font-medium">
                     {COMPANY_INFO.phone}
                   </a>
                 </div>
@@ -254,7 +272,7 @@ export function Footer() {
                   href="/catalogue-request"
                   className="w-full inline-flex items-center justify-center gap-1.5 bg-cognac hover:bg-cognac-light text-white px-2.5 py-2 text-[10.5px] font-semibold uppercase tracking-wider transition-colors shadow-xs"
                 >
-                  <Download className="w-3 h-3" /> Request Lookbook
+                  <Download className="w-3 h-3" /> Download Catalogue
                 </Link>
               </div>
             </div>

@@ -29,16 +29,16 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
     path: "/en-us",
     metaTitle: "Leather Goods Manufacturer in India for USA Brands | OEM & Private Label",
     metaDescription:
-      "Premier OEM leather goods manufacturer in India exporting to USA brands. Custom handbags, totes, duffels & wallets. Full California Prop 65 compliance, DDP delivery to US ports, low 100 MOQ.",
+      "Premier OEM leather goods manufacturer in India exporting to USA brands. Custom handbags, totes, duffels, wallets & jackets. Full California Prop 65 compliance, DDP delivery to US ports, low 50–100 MOQ.",
     heroKicker: "USA & North America Sourcing Gateway · FOB & DDP Delivery",
     heroH1: "OEM Leather Goods Manufacturer in India for USA Brands",
     heroSubtitle:
-      "Direct contract manufacturing and private label atelier for American fashion labels, boutique designers, and luxury department stores. LWG-certified hides, California Prop 65 compliance, low 100-piece MOQs, and end-to-end DDP shipping to New York, Los Angeles, Miami, and Chicago.",
+      "Direct contract manufacturing and private label atelier for American fashion labels, boutique designers, and luxury department stores. LWG-audited partner tannery hides, California Prop 65 compliance, low 50–100 piece MOQs, and end-to-end DDP shipping to New York, Los Angeles, Miami, and Chicago.",
     complianceBadges: [
       { title: "California Prop 65", subtitle: "SGS Lab Certified Lead & Phthalate Safe" },
-      { title: "LWG Gold Audited", subtitle: "Full-Grain Traceable Leather Supply" },
+      { title: "LWG Partner Tanneries", subtitle: "Full-Grain Traceable Leather Supply" },
       { title: "DDP USA Shipping", subtitle: "Customs Cleared to Your Warehouse" },
-      { title: "Low 100 MOQ", subtitle: "Flexible Scaling for Emerging Brands" },
+      { title: "Low 50–100 MOQ", subtitle: "50 Pcs Stock Trial · 100 Pcs Custom" },
     ],
     tradeHighlights: [
       {
@@ -53,8 +53,8 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       },
       {
         label: "Prototyping Lead Time",
-        value: "7 to 10 Days",
-        desc: "Rapid CAD pattern digitizing and physical counter-samples shipped via FedEx Priority.",
+        value: "5–7d SLG / 7–14d Bags",
+        desc: "Stock leather counter-samples via FedEx Priority (+7–10 business days for custom dye or 3D brass tooling).",
       },
       {
         label: "Regulatory Testing",
@@ -62,7 +62,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "Hardware salt-spray testing, nickel-free plating, and heavy metal testing per US consumer safety acts.",
       },
     ],
-    popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags"],
+    popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
         question: "How do you manage DDP shipping and customs clearance for US brands?",
@@ -77,22 +77,33 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       {
         question: "What is the minimum order quantity (MOQ) for US startup brands?",
         answer:
-          "Our standard production MOQ is only 100 pieces per style. We allow colorway batching (e.g., 50 units in Cognac, 50 units in Black) to help US brands launch diverse collections without inventory risk.",
+          "Our standard production MOQ starts at 50 pieces per style using in-stock atelier leathers (or 100 pieces for custom Pantone drum-dyed hides). We allow colorway batching to help US brands launch diverse collections without inventory risk.",
       },
       {
         question: "What are your payment terms for North American wholesale accounts?",
         answer:
-          "We operate with standard international terms: 30% advance deposit upon tech-pack and golden sample sign-off, and 70% balance prior to final dispatch against verified bill of lading and AQL 2.5 inspection reports. Net terms available for qualified volume retailers.",
+          "We operate with standard B2B international terms: 50% advance deposit upon Proforma Invoice sign-off, and 50% balance after your team approves the final AQL 2.5 pre-shipment inspection report prior to dispatch (or Irrevocable L/C at sight for established volume buyers).",
       },
     ],
     keywords: [
+      "wholesale leather handbags USA",
+      "wholesale leather wallets USA",
+      "private label leather bags for US brands",
+      "private label leather wallets USA",
+      "leather bag supplier for US retailers",
+      "leather wallet supplier for US retailers",
+      "custom logo leather wallets USA",
+      "wholesale leather tote bags USA",
+      "wholesale leather laptop bags USA",
+      "wholesale leather duffel bags USA",
+      "wholesale leather card holders USA",
+      "corporate gift leather wallets USA",
+      "import leather bags from India to USA",
+      "import leather wallets from India to USA",
       "Indian leather goods supplier for US brands",
       "leather bag manufacturer in india for usa",
       "leather goods supplier in usa",
-      "high end leather handbags Italy USA",
-      "Italian leather goods manufacturer partnership in USA",
       "custom leather bags manufacturer india",
-      "oem leather bag factory in asia",
       "private label leather handbag manufacturer india",
       "leather tote bag manufacturer india low moq",
       "california prop 65 compliant leather bag manufacturer india",
@@ -108,17 +119,17 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
     currency: "GBP",
     currencySymbol: "£",
     path: "/en-gb",
-    metaTitle: "Leather Goods Manufacturer in India for UK Brands | REACH & SEDEX Audited",
+    metaTitle: "Leather Goods Manufacturer in India for UK Brands | REACH & SEDEX Audit-Ready",
     metaDescription:
-      "Bespoke leather goods manufacturer and private label atelier for UK brands. Custom leather handbags, holdalls, wallets & SLGs. EU/UK REACH compliant, SEDEX SMETA audited, CIF London & Southampton.",
-    heroKicker: "United Kingdom & British Designer Sourcing Hub · REACH & SEDEX Certified",
+      "Bespoke leather goods manufacturer and private label atelier for UK brands. Custom leather handbags, holdalls, wallets & SLGs. EU/UK REACH compliant, SEDEX SMETA audit-ready, CIF London & Southampton.",
+    heroKicker: "United Kingdom & British Designer Sourcing Hub · REACH & Audit-Ready Atelier",
     heroH1: "Bespoke Leather Goods Manufacturer for British Brands",
     heroSubtitle:
-      "Dedicated OEM & private label manufacturing for UK fashion houses, heritage labels, and independent London boutiques. Combining time-honored artisanal leathercraft with strict UK/EU REACH chemical compliance, SEDEX SMETA ethical auditing, and seamless CIF/DDP logistics to the United Kingdom.",
+      "Dedicated OEM & private label manufacturing for UK fashion houses, heritage labels, and independent London boutiques. Combining time-honored artisanal leathercraft with strict UK/EU REACH chemical compliance, SEDEX SMETA open-factory audit readiness, and seamless CIF/DDP logistics to the United Kingdom.",
     complianceBadges: [
       { title: "UK REACH Compliant", subtitle: "Annex XVII Non-Toxic & Nickel Free" },
-      { title: "SEDEX SMETA Audited", subtitle: "4-Pillar Ethical & Social Compliance" },
-      { title: "LWG Gold Tanneries", subtitle: "Sustainable Vegetable & Nappa Hides" },
+      { title: "SEDEX Audit-Ready", subtitle: "Open-Factory 4-Pillar Social Compliance" },
+      { title: "LWG Partner Tanneries", subtitle: "Sustainable Vegetable & Nappa Hides" },
       { title: "Fast UK Delivery", subtitle: "CIF London Gateway & Southampton" },
     ],
     tradeHighlights: [
@@ -143,7 +154,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "Fair living wages, modern Calcutta Leather Complex eco-facilities, and zero modern slavery commitment.",
       },
     ],
-    popularCategories: ["handbags", "travel-bags", "wallets", "totes", "business-bags"],
+    popularCategories: ["handbags", "travel-bags", "wallets", "totes", "business-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
         question: "How do you comply with UK REACH and European chemical safety rules?",
@@ -163,7 +174,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       {
         question: "Do you supply smaller British luxury boutiques and emerging designers?",
         answer:
-          "Yes. Our 100-piece minimum order quantity per style is specifically designed to support British independent labels and boutique collections without excessive capital tie-up.",
+          "Yes. Our 50-piece stock-leather trial MOQ (and 100-piece custom drum-dyed MOQ) per style is specifically designed to support British independent labels and boutique collections without excessive capital tie-up.",
       },
     ],
     keywords: [
@@ -197,12 +208,12 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
     heroKicker: "Australia-India ECTA Free Trade Hub · 0% Import Tariff Duty",
     heroH1: "Leather Goods Manufacturer for Australian Brands",
     heroSubtitle:
-      "Capitalize on the India-Australia Economic Cooperation and Trade Agreement (ECTA) with 0% import duty on leather goods. Custom OEM/ODM manufacturing of luxury leather bags, wallets, and accessories for Australian fashion labels with full biosecurity compliance and low 100-piece minimums.",
+      "Capitalize on the India-Australia Economic Cooperation and Trade Agreement (ECTA) with 0% import duty on leather goods. Custom OEM/ODM manufacturing of luxury leather bags, wallets, jackets, and accessories for Australian fashion labels with full biosecurity compliance and low 50–100 piece minimums.",
     complianceBadges: [
       { title: "ECTA 0% Duty", subtitle: "Preferential Tariff Certificate of Origin" },
       { title: "Biosecurity Compliant", subtitle: "Treated & Inspected for DAFF Import" },
-      { title: "LWG Gold Audited", subtitle: "Eco-Friendly Vegetable & Chrome-Free" },
-      { title: "Direct Shipping", subtitle: "Ports of Sydney, Melbourne & Fremantle" },
+      { title: "LWG Partner Tanneries", subtitle: "Eco-Friendly Vegetable & Chrome-Free" },
+      { title: "Low 50–100 MOQ", subtitle: "Ports of Sydney, Melbourne & Brisbane" },
     ],
     tradeHighlights: [
       {
@@ -226,7 +237,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "High demand among Australian eco-fashion labels for our mimosa and chestnut vegetable-tanned bovine leathers.",
       },
     ],
-    popularCategories: ["totes", "handbags", "wallets", "leather-belts", "backpacks"],
+    popularCategories: ["totes", "handbags", "wallets", "leather-belts", "backpacks", "leather-jackets"],
     faqs: [
       {
         question: "How does the India-Australia ECTA provide 0% duty on leather goods?",
@@ -304,7 +315,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "Faire Arbeitsbedingungen, moderne Produktionsanlagen im Calcutta Leather Complex und strikte Umweltauflagen.",
       },
     ],
-    popularCategories: ["business-bags", "wallets", "handbags", "travel-bags", "totes"],
+    popularCategories: ["business-bags", "wallets", "handbags", "travel-bags", "totes", "leather-jackets", "leather-belts"],
     faqs: [
       {
         question: "Wie garantieren Sie die Einhaltung der europäischen REACH-Verordnung?",
@@ -381,7 +392,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "Atelier moderne au Calcutta Leather Complex, respect strict des normes de travail et d'environnement.",
       },
     ],
-    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags"],
+    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
         question: "Comment garantissez-vous la conformité avec la réglementation européenne REACH ?",
@@ -429,12 +440,12 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
     heroKicker: "Canada & North American Sourcing Hub · FOB & DDP Delivery",
     heroH1: "Custom Leather Goods Manufacturer & Exporter for Canadian Brands",
     heroSubtitle:
-      "Direct contract manufacturing and private label atelier for Canadian fashion houses, retailers, and boutique designers. LWG-certified partner tanneries, cold-resistant finishing, low 100-piece MOQs, and end-to-end DDP delivery across Toronto, Vancouver, Montreal, and Calgary.",
+      "Direct contract manufacturing and private label atelier for Canadian fashion houses, retailers, and boutique designers. LWG-audited partner tanneries, cold-resistant finishing, low 50–100 piece MOQs, and end-to-end DDP delivery across Toronto, Vancouver, Montreal, and Calgary.",
     complianceBadges: [
-      { title: "LWG Gold Audited", subtitle: "Full-Grain Traceable Leather Supply" },
+      { title: "LWG Partner Tanneries", subtitle: "Full-Grain Traceable Leather Supply" },
       { title: "CBSA Customs Cleared", subtitle: "Seamless DDP Shipping Across Canada" },
-      { title: "Prop 65 & REACH", subtitle: "Certified Non-Toxic Chemical Testing" },
-      { title: "Low 100 MOQ", subtitle: "Flexible Scaling for Emerging Labels" },
+      { title: "CCPSA & Prop 65", subtitle: "Certified Non-Toxic Chemical Testing" },
+      { title: "Low 50–100 MOQ", subtitle: "Flexible Scaling for Emerging Labels" },
     ],
     tradeHighlights: [
       {
@@ -449,8 +460,8 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       },
       {
         label: "Prototype Turnaround",
-        value: "7 to 10 Days",
-        desc: "Rapid CAD pattern drafting and physical counter-samples shipped directly via DHL/FedEx Express.",
+        value: "5–7d SLG / 7–14d Bags",
+        desc: "Stock leather counter-samples shipped via DHL/FedEx Express (+7–10 business days for custom dye or tooling).",
       },
       {
         label: "Weather-Resistant Finish",
@@ -458,12 +469,12 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "Supple, drum-dyed full-grain leathers and edge lacquers formulated to resist extreme winter climate variations.",
       },
     ],
-    popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags"],
+    popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
         question: "What is your Minimum Order Quantity (MOQ) for Canadian brands and retailers?",
         answer:
-          "Our standard production MOQ is 100 units per style for large leather goods (totes, backpacks, and messenger bags) and 200 to 250 units for small leather goods (wallets, cardholders, and passport sleeves). Multi-colorway batching is supported to minimize inventory risk for Canadian boutique launches.",
+          "Our standard production MOQ starts at 50 units per style (stock leather trial) or 100 units (custom drum-dyed hides) for large leather goods (totes, backpacks, messenger bags, and jackets), and 100 to 200 units for small leather goods (wallets, cardholders, and belts). Multi-colorway batching is supported to minimize inventory risk for Canadian boutique launches.",
       },
       {
         question: "How do you manage DDP shipping and CBSA customs clearance into Canada?",
@@ -483,15 +494,28 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       {
         question: "What payment terms and currencies do you support for Canadian procurement teams?",
         answer:
-          "We accommodate payments in both CAD ($) and USD ($). Standard OEM export terms are 30% advance deposit upon sample sign-off and 70% balance prior to final dispatch against verified bill of lading and AQL 2.5 inspection reports. Irrevocable Letters of Credit (L/C at sight) are supported for container-load volumes.",
+          "We accommodate payments in both CAD ($) and USD ($). Standard OEM export terms are 50% advance deposit upon Proforma Invoice sign-off and 50% balance after your team approves the final AQL 2.5 pre-shipment inspection report prior to dispatch. Irrevocable Letters of Credit (L/C at sight) are supported for container-load volumes.",
       },
     ],
     keywords: [
+      "wholesale leather handbags Canada",
+      "wholesale leather wallets Canada",
+      "private label leather bags for Canadian brands",
+      "private label leather wallets Canada",
+      "leather bag supplier for Canadian retailers",
+      "leather wallet supplier for Canadian retailers",
+      "custom logo leather wallets Canada",
+      "wholesale leather tote bags Canada",
+      "wholesale leather laptop bags Canada",
+      "wholesale leather duffel bags Canada",
+      "wholesale leather card holders Canada",
+      "corporate gift leather wallets Canada",
+      "import leather bags from India to Canada",
+      "import leather wallets from India to Canada",
       "leather goods manufacturer for canadian brands",
       "custom leather goods manufacturer canada",
       "private label leather bags manufacturer low moq canada",
       "leather goods exporter to toronto vancouver",
-      "oem leather bag factory in asia for canada",
       "leather wallet manufacturer canada low moq",
       "ddp shipping to canada leather manufacturer",
       "genuine leather goods supplier canada wholesale",
@@ -540,7 +564,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "Produzione etica certificata nel Calcutta Leather Complex con impianti moderni e salari equi garantiti.",
       },
     ],
-    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags"],
+    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
         question: "Come garantite la conformità alle normative europee REACH per i marchi italiani?",
@@ -619,7 +643,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "Instalaciones modernas en el Calcutta Leather Complex con salarios dignos y gestión ecológica de efluentes.",
       },
     ],
-    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags"],
+    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
         question: "¿Cómo garantizan el cumplimiento de la normativa europea REACH para España?",
@@ -698,7 +722,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "حماية قانونية كاملة لرسوماتكم التقنية وتصاميمكم الحصرية للعلامة التجارية.",
       },
     ],
-    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags"],
+    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
         question: "كيف تتم إدارة الشحن والتخليص الجمركي في دبي والإمارات؟",
@@ -774,7 +798,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "原産地証明書の発行により、日本輸入時の関税メリットを最大限に活かしたコスト設計。",
       },
     ],
-    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags"],
+    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
         question: "日本の品質基準に適合する検品・検針体制は整っていますか？",
@@ -850,7 +874,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "Zorgvuldig geteste ritsen, versterkte handvatten en waterafstotende afwerkingen.",
       },
     ],
-    popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags"],
+    popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
         question: "Hoe garandeert u de Europese REACH-naleving voor Nederland?",
@@ -925,7 +949,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "Hållfasthetstestade handtag, exakta sömmar och YKK-dragkedjor anpassade för nordiskt klimat.",
       },
     ],
-    popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags"],
+    popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
         question: "Uppfyller era läderprodukter svenska och europeiska kemikaliekrav (REACH)?",
@@ -1000,7 +1024,7 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
         desc: "브랜드 심볼 금형 불박(Blind Deboss), YKK 정품 지퍼 채택, 전용 더스트백 맞춤 제작.",
       },
     ],
-    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags"],
+    popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
         question: "작업지시서(Tech Pack)로 샘플 제작이 가능한가요?",

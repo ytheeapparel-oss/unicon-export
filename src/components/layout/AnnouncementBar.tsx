@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Globe, ArrowRight, ShieldCheck, PhoneCall, Linkedin, Facebook, Instagram } from "lucide-react";
+import { Globe, ArrowRight, ShieldCheck, PhoneCall, Mail, Linkedin, Facebook, Instagram } from "lucide-react";
 import { COMPANY_INFO } from "@/data/company";
 import { InternationalRegionSelector } from "@/components/layout/InternationalRegionSelector";
 
@@ -58,12 +58,16 @@ export function AnnouncementBar() {
           </span>
         </div>
 
-        {/* Right: Compliance, International Gateway Selector & Direct Line */}
+        {/* Right: Direct Email, WhatsApp, Compliance & Catalogue */}
         <div className="flex items-center gap-3 sm:gap-4 text-[11px] font-medium">
-          <InternationalRegionSelector />
-          <span className="text-[#6A665E] hidden xl:inline-flex items-center gap-1.5 font-light">
-            <ShieldCheck className="w-3.5 h-3.5 text-cognac" /> LWG & REACH
-          </span>
+          <a
+            href="mailto:uniconexport@gmail.com"
+            className="text-[#4A4742] hover:text-cognac transition-colors inline-flex items-center gap-1.5 font-sans"
+            title="Email Export Desk"
+          >
+            <Mail className="w-3 h-3 text-cognac" />
+            <span className="hidden sm:inline">Email:</span> uniconexport@gmail.com
+          </a>
           <a
             href={COMPANY_INFO.whatsappDirectUrl}
             target="_blank"
@@ -73,11 +77,12 @@ export function AnnouncementBar() {
             <PhoneCall className="w-3 h-3 text-cognac" />
             <span className="hidden sm:inline">WhatsApp Desk:</span> {COMPANY_INFO.whatsapp}
           </a>
+          <InternationalRegionSelector />
           <Link
             href="/catalogue-request"
             className="text-charcoal hover:text-cognac transition-colors inline-flex items-center gap-1 font-bold underline underline-offset-4 decoration-cognac/60 hover:decoration-cognac"
           >
-            2025 Lookbook <ArrowRight className="w-3 h-3" />
+            Download Catalogue <ArrowRight className="w-3 h-3" />
           </Link>
         </div>
       </div>

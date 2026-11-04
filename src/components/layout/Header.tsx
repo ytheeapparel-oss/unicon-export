@@ -3,10 +3,11 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, ChevronDown, FileText, Send, PhoneCall, ArrowRight, ShieldCheck } from "lucide-react";
+import { Menu, X, ChevronDown, FileText, Send, PhoneCall, Mail, ArrowRight, ShieldCheck } from "lucide-react";
 import { MAIN_NAV } from "@/data/navigation";
 import { COMPANY_INFO } from "@/data/company";
 import { Button } from "@/components/ui/Button";
+import { InternationalRegionSelector } from "@/components/layout/InternationalRegionSelector";
 import { cn } from "@/lib/utils";
 
 export function Header() {
@@ -51,6 +52,8 @@ export function Header() {
             <a href={COMPANY_INFO.whatsappDirectUrl} target="_blank" rel="noopener noreferrer" className="text-cognac hover:underline font-sans font-medium">
               WhatsApp Export Desk
             </a>
+            <span className="text-[#D5CFC5]">·</span>
+            <InternationalRegionSelector />
           </div>
         </div>
       </div>
@@ -85,6 +88,7 @@ export function Header() {
               const isActive = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
 
               if (item.children) {
+                const isCatalogueMegaMenu = item.children.length > 6;
                 const coreCategories = item.children.slice(1, 7);
                 const specialtyCategories = item.children.slice(7);
 
@@ -95,7 +99,8 @@ export function Header() {
                     onMouseEnter={() => setActiveDropdown(item.label)}
                     onMouseLeave={() => setActiveDropdown(null)}
                   >
-                    <button
+                    <Link
+                      href={item.href}
                       className={cn(
                         "px-2 2xl:px-2.5 py-1.5 text-[10.5px] 2xl:text-[11.5px] uppercase tracking-[0.14em] 2xl:tracking-[0.16em] font-medium transition-colors inline-flex items-center gap-1 rounded-none",
                         isActive || activeDropdown === item.label
@@ -111,10 +116,10 @@ export function Header() {
                           activeDropdown === item.label ? "rotate-180 text-cognac" : "text-charcoal-400"
                         )}
                       />
-                    </button>
+                    </Link>
 
-                    {/* Luxury Mega Menu Dropdown */}
-                    {activeDropdown === item.label && (
+                    {/* Luxury Mega Menu Dropdown (for Catalogue) vs Focused Dropdown (for OEM / Craftsmanship) */}
+                    {activeDropdown === item.label && isCatalogueMegaMenu && (
                       <div className="absolute top-full left-1/2 -translate-x-1/2 w-[820px] max-w-[90vw] bg-white border border-charcoal/15 shadow-2xl rounded-none p-5 animate-in fade-in-50 slide-in-from-top-2 duration-150 z-50">
                         <div className="grid grid-cols-12 gap-5">
                           {/* Column 1: Core Categories */}
@@ -204,10 +209,39 @@ export function Header() {
                                 href="/catalogue-request"
                                 className="block text-[10px] text-charcoal-500 hover:text-cognac underline underline-offset-2 transition-colors"
                               >
-                                Download Digital Lookbook (PDF)
+                                Download B2B Catalogue (PDF)
                               </Link>
                             </div>
                           </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {activeDropdown === item.label && !isCatalogueMegaMenu && (
+                      <div className="absolute top-full left-0 w-[340px] bg-white border border-charcoal/15 shadow-2xl rounded-none p-3.5 animate-in fade-in-50 slide-in-from-top-2 duration-150 z-50">
+                        <div className="pb-1.5 mb-1.5 border-b border-charcoal/10 flex items-center justify-between">
+                          <span className="text-[9px] tracking-[0.2em] uppercase font-bold text-cognac">
+                            {item.label}
+                          </span>
+                          <span className="text-[9px] text-charcoal-400 font-mono">B2B Resources</span>
+                        </div>
+                        <div className="space-y-1">
+                          {item.children.map((child) => (
+                            <Link
+                              key={child.label}
+                              href={child.href}
+                              className="block px-2.5 py-2 rounded-none hover:bg-cognac-50/60 transition-colors group/link"
+                            >
+                              <span className="block text-xs font-medium text-charcoal group-hover/link:text-cognac">
+                                {child.label}
+                              </span>
+                              {child.description && (
+                                <span className="block text-[10.5px] text-charcoal-500 font-light mt-0.5 leading-snug">
+                                  {child.description}
+                                </span>
+                              )}
+                            </Link>
+                          ))}
                         </div>
                       </div>
                     )}
@@ -244,7 +278,7 @@ export function Header() {
               className="hidden lg:inline-flex text-[10.5px] uppercase tracking-wider font-semibold py-2 px-3.5 border-charcoal/20 text-charcoal hover:border-charcoal hover:bg-charcoal hover:text-white"
             >
               <FileText className="w-3 h-3" />
-              Catalogue
+              Download Catalogue
             </Button>
             <Button
               href="/contact"
@@ -259,6 +293,9 @@ export function Header() {
 
           {/* 4. Mobile Menu Trigger */}
           <div className="flex xl:hidden items-center gap-2">
+            <div className="lg:hidden">
+              <InternationalRegionSelector />
+            </div>
             <Button
               href="/contact"
               variant="primary"
@@ -297,6 +334,12 @@ export function Header() {
                 >
                   <PhoneCall className="w-3.5 h-3.5" /> WhatsApp: {COMPANY_INFO.whatsapp}
                 </a>
+                <a
+                  href="mailto:uniconexport@gmail.com"
+                  className="text-xs text-charcoal-700 hover:text-cognac font-medium flex items-center gap-1.5 mt-1"
+                >
+                  <Mail className="w-3.5 h-3.5 text-cognac" /> uniconexport@gmail.com
+                </a>
               </div>
               <span className="text-[10px] font-mono text-emerald-700 bg-emerald-50 px-2 py-0.5 border border-emerald-200">
                 ● Live RFQ
@@ -314,7 +357,10 @@ export function Header() {
                       }
                       className="w-full flex items-center justify-between py-2 text-base font-serif font-bold text-charcoal"
                     >
-                      <span>{item.label} (12 Collections)</span>
+                      <span>
+                        {item.label}
+                        {item.href === "/products" ? " (12 Collections)" : ""}
+                      </span>
                       <ChevronDown
                         className={cn(
                           "w-4 h-4 transition-transform duration-200",

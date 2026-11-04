@@ -9,6 +9,13 @@ export const metadata: Metadata = {
   title: "Inquiry Received & Specification Confirmed",
   description:
     "Thank you for contacting UNICON LEATHER. Our overseas export desk has received your manufacturing specifications.",
+  alternates: {
+    canonical: "https://www.uniconleather.com/thank-you",
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 export default function ThankYouPage() {

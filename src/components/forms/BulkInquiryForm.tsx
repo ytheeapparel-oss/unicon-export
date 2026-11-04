@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { Send, UploadCloud, CheckCircle2, AlertCircle, Loader2, MessageCircle, Mail } from "lucide-react";
@@ -28,8 +28,34 @@ export function BulkInquiryForm(props: BulkInquiryFormProps) {
 
 function BulkInquiryFormWithParams(props: BulkInquiryFormProps) {
   const searchParams = useSearchParams();
-  const urlProduct = searchParams?.get("product") || "";
-  return <BulkInquiryFormFields {...props} urlProduct={urlProduct} />;
+  const [sessionProduct, setSessionProduct] = useState("");
+  const rawProduct = searchParams?.get("product") || "";
+  const rawCode = searchParams?.get("code") || "";
+  const urlProduct =
+    rawProduct && rawCode && !rawProduct.includes(rawCode)
+      ? `${rawProduct} (${rawCode})`
+      : rawProduct;
+
+  useEffect(() => {
+    try {
+      const stored = window.sessionStorage.getItem("unicon_prefill_product");
+      if (stored) {
+        setSessionProduct(stored);
+        window.sessionStorage.removeItem("unicon_prefill_product");
+      }
+    } catch {
+      // Ignore storage access errors in private browsing
+    }
+  }, []);
+
+  const resolvedProduct = urlProduct || sessionProduct;
+  return (
+    <BulkInquiryFormFields
+      key={resolvedProduct || props.initialProduct || "default"}
+      {...props}
+      urlProduct={resolvedProduct}
+    />
+  );
 }
 
 interface InnerProps extends BulkInquiryFormProps {
@@ -52,21 +78,33 @@ function BulkInquiryFormFields({
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [savedDataForFallback, setSavedDataForFallback] = useState<InquiryFormData | null>(null);
   const [attachedFileName, setAttachedFileName] = useState<string | null>(null);
+  const [attachedFileBase64, setAttachedFileBase64] = useState<string | null>(null);
+  const [fileSizeWarning, setFileSizeWarning] = useState<string | null>(null);
 
   const {
     register,
     handleSubmit,
+    setValue,
+    getValues,
     formState: { errors },
     reset,
   } = useForm<InquiryFormData>({
     defaultValues: {
       productCategory: initialCategory || (effectiveProduct ? "Specified Product" : "Leather Handbags"),
-      requiredQuantity: "100–300 units (Standard Boutique Batch)",
+      requiredQuantity: "50–100 units (Stock-Leather Trial Batch)",
       inquiryType: inquiryType,
+      targetPriceRange: "Open / Request Factory Quote (EUR € / GBP £ / USD $)",
+      expectedDeliveryDate: "Immediate Sampling (5–14 Days) · DDP Door-to-Door",
       customizationRequirements: effectiveProduct ? `Inquiry regarding: ${effectiveProduct}` : "",
       consent: true,
     },
   });
+
+  const appendQuickPrompt = (tagText: string) => {
+    const current = getValues("message") || "";
+    const nextVal = current ? `${current.trim()}\n• ${tagText}` : `• ${tagText}`;
+    setValue("message", nextVal, { shouldValidate: true, shouldDirty: true });
+  };
 
   const onSubmit = async (data: InquiryFormData) => {
     setIsSubmitting(true);
@@ -74,7 +112,7 @@ function BulkInquiryFormFields({
     let success = false;
 
     const finalCustomization = attachedFileName
-      ? `${data.customizationRequirements ? `${data.customizationRequirements}\n` : ""}[Tech Pack / Reference File: ${attachedFileName}]`
+      ? `${data.customizationRequirements ? `${data.customizationRequirements}\n` : ""}[Attached Tech Pack / Reference File: ${attachedFileName}]`
       : data.customizationRequirements || "";
 
     try {
@@ -86,6 +124,8 @@ function BulkInquiryFormFields({
           customizationRequirements: finalCustomization,
           inquiryType: data.inquiryType || inquiryType || "bulk",
           productSlug: data.productSlug || initialProduct || null,
+          attachmentName: attachedFileName,
+          attachmentBase64: attachedFileBase64,
         }),
       });
 
@@ -158,8 +198,25 @@ function BulkInquiryFormFields({
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFileSizeWarning(null);
     if (e.target.files && e.target.files[0]) {
-      setAttachedFileName(e.target.files[0].name);
+      const file = e.target.files[0];
+      setAttachedFileName(file.name);
+      // Convert files <= 4.5MB to base64 for direct email attachment via Resend
+      if (file.size <= 4.5 * 1024 * 1024) {
+        const reader = new FileReader();
+        reader.onload = () => {
+          const result = typeof reader.result === "string" ? reader.result : "";
+          const base64Content = result.includes(",") ? result.split(",")[1] : result;
+          setAttachedFileBase64(base64Content || null);
+        };
+        reader.readAsDataURL(file);
+      } else {
+        setAttachedFileBase64(null);
+        setFileSizeWarning(
+          "File exceeds 4.5 MB direct email attachment limit. Its filename is logged—please also paste a Google Drive / WeTransfer link above or email it when our export desk replies."
+        );
+      }
     }
   };
 
@@ -248,7 +305,9 @@ function BulkInquiryFormFields({
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="space-y-7 bg-white p-8 sm:p-12 rounded-none border border-charcoal/10 shadow-lg"
+      className={`space-y-5 sm:space-y-7 bg-white ${
+        isModal ? "p-4 sm:p-6" : "p-5 sm:p-10 lg:p-12"
+      } rounded-none border border-charcoal/10 shadow-lg`}
       id="inquiry-form"
     >
       {effectiveProduct && (
@@ -370,8 +429,8 @@ function BulkInquiryFormFields({
         </div>
       </div>
 
-      {/* Row 4: Product Category & Quantity */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      {/* Row 4: Product Category, Quantity & Desired Timeline */}
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         <div>
           <label className="block text-xs uppercase tracking-widest font-bold text-charcoal mb-2">
             Target Product Category <span className="text-cognac">*</span>
@@ -380,6 +439,11 @@ function BulkInquiryFormFields({
             {...register("productCategory", { required: "Please select category" })}
             className="w-full text-base px-4 py-3.5 bg-charcoal-50 border border-charcoal/20 rounded-none text-charcoal focus:bg-white focus:border-cognac"
           >
+            {effectiveProduct && !initialCategory && (
+              <option value="Specified Product">
+                Specified Product ({effectiveProduct.slice(0, 48)})
+              </option>
+            )}
             {PRODUCT_CATEGORIES.map((cat) => (
               <option key={cat.id} value={cat.name}>
                 {cat.name}
@@ -402,11 +466,11 @@ function BulkInquiryFormFields({
             {...register("requiredQuantity")}
             className="w-full text-base px-4 py-3.5 bg-charcoal-50 border border-charcoal/20 rounded-none text-charcoal focus:bg-white focus:border-cognac"
           >
-            <option value="50–100 units (Sample / Pilot Launch)">
-              50–100 units (Sample / Pilot Launch)
+            <option value="50–100 units (Stock-Leather Trial Batch)">
+              50–100 units (Stock-Leather Trial Batch)
             </option>
-            <option value="100–300 units (Standard Boutique Batch)">
-              100–300 units (Standard Boutique Batch)
+            <option value="100–300 units (Custom Drum-Dyed Colorway)">
+              100–300 units (Custom Drum-Dyed Colorway)
             </option>
             <option value="300–1,000 units (Commercial Wholesale)">
               300–1,000 units (Commercial Wholesale)
@@ -414,8 +478,78 @@ function BulkInquiryFormFields({
             <option value="1,000–5,000+ units (Department Store / Multi-Store)">
               1,000–5,000+ units (Department Store / Multi-Store)
             </option>
-            <option value="Prototyping & Sampling Only">
-              Prototyping & Sampling Only (1–5 units)
+            <option value="Prototyping & Sampling Only (1–5 units)">
+              Prototyping &amp; Sampling Only (1–5 units)
+            </option>
+          </select>
+        </div>
+
+        <div>
+          <label className="block text-xs uppercase tracking-widest font-bold text-charcoal mb-2">
+            Target Delivery Date &amp; Incoterms
+          </label>
+          <select
+            {...register("expectedDeliveryDate")}
+            className="w-full text-base px-4 py-3.5 bg-charcoal-50 border border-charcoal/20 rounded-none text-charcoal focus:bg-white focus:border-cognac"
+          >
+            <option value="Immediate Sampling (5–14 Days) · DDP Door-to-Door">
+              Immediate Sampling (5–14 Days) · DDP Door-to-Door
+            </option>
+            <option value="Within 30–40 Days (Upcoming Drop) · DDP / Air">
+              Within 30–40 Days (Upcoming Drop) · DDP / Air
+            </option>
+            <option value="Within 60–90 Days (AW26 / SS27 Collection) · FOB / CIF / DDP">
+              Within 60–90 Days (AW26 / SS27 Collection) · FOB / CIF / DDP
+            </option>
+            <option value="Q3 / Q4 Retail Delivery · Ocean FCL/LCL or Air">
+              Q3 / Q4 Retail Delivery · Ocean FCL/LCL or Air
+            </option>
+            <option value="Exploratory / Vendor Vetting & Swatch Review">
+              Exploratory / Vendor Vetting &amp; Swatch Review
+            </option>
+          </select>
+        </div>
+      </div>
+
+      {/* Row 4.5: Program Type & Optional Target Budget / Currency */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div>
+          <label className="block text-xs uppercase tracking-widest font-bold text-charcoal mb-2">
+            Manufacturing Program Type
+          </label>
+          <select
+            {...register("inquiryType")}
+            className="w-full text-base px-4 py-3.5 bg-charcoal-50 border border-charcoal/20 rounded-none text-charcoal focus:bg-white focus:border-cognac"
+          >
+            <option value="bulk">Bulk / Wholesale Production</option>
+            <option value="private-label">Private Label (Custom Logo &amp; Hardware on Catalog SKU)</option>
+            <option value="sample">Prototype Sample Development (From Tech Pack / Sketch)</option>
+            <option value="general">Corporate Gifting / Hospitality Leather Program</option>
+          </select>
+        </div>
+
+        <div>
+          <label className="block text-xs uppercase tracking-widest font-bold text-charcoal mb-2">
+            Target Unit Budget &amp; Quote Currency (Optional)
+          </label>
+          <select
+            {...register("targetPriceRange")}
+            className="w-full text-base px-4 py-3.5 bg-charcoal-50 border border-charcoal/20 rounded-none text-charcoal focus:bg-white focus:border-cognac"
+          >
+            <option value="Open / Request Factory Quote (EUR € / GBP £ / USD $)">
+              Open / Request Tiered Quote (EUR € / GBP £ / USD $)
+            </option>
+            <option value="€6–€15 / £5–£13 / $7–$16 per unit (Wallets, SLGs & Belts)">
+              €6–€15 / £5–£13 / $7–$16 per unit (Wallets, SLGs &amp; Belts)
+            </option>
+            <option value="€22–€42 / £19–£36 / $24–$46 per unit (Totes & Shoulder Bags)">
+              €22–€42 / £19–£36 / $24–$46 per unit (Totes &amp; Shoulder Bags)
+            </option>
+            <option value="€45–€85 / £38–£72 / $48–$92 per unit (Briefcases, Backpacks & Duffels)">
+              €45–€85 / £38–£72 / $48–$92 per unit (Briefcases, Backpacks &amp; Duffels)
+            </option>
+            <option value="€68–€130 / £58–£110 / $72–$140 per unit (Leather Jackets & Outerwear)">
+              €68–€130 / £58–£110 / $72–$140 per unit (Leather Jackets &amp; Outerwear)
             </option>
           </select>
         </div>
@@ -423,15 +557,41 @@ function BulkInquiryFormFields({
 
       {/* Technical Requirements & Detailed Message */}
       <div>
-        <label className="block text-xs uppercase tracking-widest font-bold text-charcoal mb-2">
-          Customization, Leather Grain & Hardware Specifications <span className="text-cognac">*</span>
-        </label>
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+          <label className="block text-xs uppercase tracking-widest font-bold text-charcoal">
+            Customization, Leather Grain &amp; Project Notes <span className="text-cognac">*</span>
+          </label>
+          <span className="text-[11px] text-charcoal-500 font-mono">
+            Tap quick-tags below or type specifications
+          </span>
+        </div>
+
+        {/* One-Tap Mobile Quick-Select Chips */}
+        <div className="flex flex-wrap gap-1.5 mb-2.5">
+          {[
+            "Request Physical Counter-Sample (5–14 Days)",
+            "Private Label (Custom Logo Deboss / Hardware)",
+            "Custom Tech Pack / OEM Pattern Quote",
+            "Request Leather Swatch Kit & FOB Price Tier",
+            "Require Mutual NDA Before Sending CAD Files",
+          ].map((chip) => (
+            <button
+              key={chip}
+              type="button"
+              onClick={() => appendQuickPrompt(chip)}
+              className="text-[11px] font-mono bg-[#FAF8F5] hover:bg-cognac hover:text-white text-charcoal-700 border border-charcoal/15 px-2.5 py-1 transition-colors cursor-pointer"
+            >
+              + {chip}
+            </button>
+          ))}
+        </div>
+
         <textarea
-          rows={5}
+          rows={isModal ? 3 : 4}
           {...register("message", {
-            required: "Please describe your project or manufacturing requirements",
+            required: "Please describe your project or tap a quick-tag above",
           })}
-          placeholder="Please describe leather preferences (e.g. full-grain, veg-tan, calf nappa), dimensions, hardware finish, custom branding (emboss/foil/mould), and packaging needs..."
+          placeholder="Describe leather preferences (e.g. full-grain pull-up, veg-tan, calf nappa), dimensions, hardware finish, logo branding, or paste a Google Drive / WeTransfer link to your Tech Pack..."
           className="w-full text-base p-4 bg-charcoal-50 border border-charcoal/20 rounded-none text-charcoal focus:bg-white focus:border-cognac"
         />
         {errors.message && (
@@ -448,15 +608,15 @@ function BulkInquiryFormFields({
             <UploadCloud className="w-8 h-8 text-cognac shrink-0" />
             <div>
               <span className="text-sm font-bold text-charcoal block">
-                Attach Tech Pack, Sketches or CAD Drawings (Optional)
+                Attach Tech Pack, Sketches or CAD Reference File (Optional · Max 4.5 MB)
               </span>
               <span className="text-xs text-charcoal-500">
-                PDF, PNG, JPG, AI, or ZIP up to 25MB (Non-Disclosure Protection Guaranteed)
+                Files up to 4.5 MB (.PDF, .PNG, .JPG, .ZIP, .AI) are attached directly to your RFQ dispatch under mutual NDA protection. For larger files, paste a Drive/WeTransfer link above.
               </span>
             </div>
           </div>
           <label className="shrink-0 cursor-pointer bg-white border border-charcoal/30 text-charcoal hover:bg-charcoal hover:text-white px-5 py-2.5 rounded-none text-xs font-medium uppercase tracking-[0.14em] transition-colors">
-            <span>{attachedFileName ? "Change File" : "Browse File"}</span>
+            <span>{attachedFileName ? "Change File" : "Attach File"}</span>
             <input
               type="file"
               onChange={handleFileChange}
@@ -466,8 +626,16 @@ function BulkInquiryFormFields({
           </label>
         </div>
         {attachedFileName && (
-          <div className="mt-3 text-sm text-cognac font-bold flex items-center gap-2">
-            <CheckCircle2 className="w-4 h-4" /> Attached: {attachedFileName}
+          <div className="mt-3 text-xs sm:text-sm text-cognac font-bold flex items-center gap-2">
+            <CheckCircle2 className="w-4 h-4 shrink-0" />{" "}
+            {attachedFileBase64
+              ? `Attached for Direct Export Desk Transmission: ${attachedFileName}`
+              : `Logged Reference File: ${attachedFileName}`}
+          </div>
+        )}
+        {fileSizeWarning && (
+          <div className="mt-2 text-xs text-amber-700 font-medium">
+            {fileSizeWarning}
           </div>
         )}
       </div>

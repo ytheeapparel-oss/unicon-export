@@ -76,14 +76,12 @@ export function CatalogueRequestForm() {
 
         <div className="pt-3 flex flex-col sm:flex-row items-center justify-center gap-3">
           <a
-            href="#download-simulation"
-            onClick={(e) => {
-              e.preventDefault();
-              alert("Downloading UNICON LEATHER Master B2B Lookbook (PDF - High Resolution)...");
-            }}
+            href="/api/catalogue/download"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center font-sans font-medium text-xs sm:text-sm px-6 py-3 rounded-sm gap-2 bg-cognac text-white hover:bg-cognac-600 transition-colors uppercase tracking-wider shadow-sm"
           >
-            <Download className="w-4 h-4" /> Download PDF Lookbook (42MB)
+            <Download className="w-4 h-4" /> Open &amp; Save 2026 B2B Master Spec Book (PDF/Print)
           </a>
           <Button
             variant="outline"
@@ -199,7 +197,7 @@ export function CatalogueRequestForm() {
           Categories of Interest
         </label>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs text-charcoal-700">
-          {PRODUCT_CATEGORIES.slice(0, 6).map((cat) => (
+          {PRODUCT_CATEGORIES.slice(0, 9).map((cat) => (
             <label key={cat.id} className="flex items-center gap-2 cursor-pointer bg-ivory/60 p-2 rounded border border-sand/40 hover:bg-sand/20">
               <input
                 type="checkbox"
@@ -241,7 +239,7 @@ export function CatalogueRequestForm() {
         ) : (
           <>
             <Download className="w-4 h-4 mr-2" />
-            Download Complete 2025 B2B Catalogue
+            Download Complete 2026 B2B Catalogue
           </>
         )}
       </Button>

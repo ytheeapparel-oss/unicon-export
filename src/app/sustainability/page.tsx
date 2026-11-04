@@ -16,19 +16,19 @@ import {
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
-import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
+import { JsonLdScript, generateBreadcrumbSchema, generateFaqSchema } from "@/components/seo/JsonLdScript";
 
 export const metadata: Metadata = {
   title: "Sustainability & Responsible Sourcing | Ethical Leather Goods Manufacturing",
   description:
-    "Verifiable sustainability practices at UNICON LEATHER: LWG-audited partner tanneries, Chrome-Free Vegetable Tannages, zero-waste cutting yield optimization, and REACH chemical safety.",
+    "Verifiable sustainability practices at UNICON LEATHER: hides procured from LWG-audited partner tanneries, chrome-free vegetable tannages, zero-waste cutting yield optimization, and batch-level EU/UK REACH & Prop 65 chemical testing.",
   alternates: {
     canonical: "https://www.uniconleather.com/sustainability",
   },
   openGraph: {
     title: "Sustainability & Responsible Sourcing | UNICON LEATHER",
     description:
-      "LWG-audited partner tanneries, chrome-free vegetable tanning, zero-waste cutting yield optimization, and EU REACH chemical safety.",
+      "Hides procured from LWG-audited partner tanneries, chrome-free vegetable tanning, zero-waste cutting yield optimization, and batch-verified EU REACH chemical safety.",
     url: "https://www.uniconleather.com/sustainability",
     type: "website",
     images: [
@@ -40,42 +40,66 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sustainability & Responsible Sourcing | UNICON LEATHER",
+    description:
+      "Hides procured from LWG-audited partner tanneries, chrome-free vegetable tanning, zero-waste cutting yield optimization, and batch-verified EU REACH chemical safety.",
+    images: ["https://www.uniconleather.com/images/sustainability-hero.png"],
+  },
   keywords: [
     "sustainable leather accessories manufacturer",
     "ethical leather goods manufacturing",
     "responsibly sourced leather products",
     "vegetable tanned leather accessories",
     "traceable leather sourcing",
-    "leather from LWG-certified tanneries",
-    "WRAP compliant leather manufacturer India",
-    "ISO certified leather supplier India",
-    "SMETA audited leather manufacturer",
-    "certified leather manufacturer audit pass",
-    "LWG certified leather factory",
-    "Sedex audited leather manufacturer",
-    "sustainable leather manufacturer",
-    "vegetable tanned leather bag",
-    "veg tan leather goods",
+    "leather from LWG-audited partner tanneries",
+    "sustainable leather manufacturer India",
+    "vegetable tanned leather bag manufacturer",
     "chrome-free tanned leather goods",
-    "recycled leather goods",
-    "upcycled leather accessories",
-    "bio-based vegan leather",
-    "plant-based leather alternatives apple cactus leather"
+    "REACH compliant leather goods India",
+    "zero waste leather cutting optimization",
+    "eco friendly leather packaging"
   ],
 };
+
+const SUSTAINABILITY_FAQS = [
+  {
+    question: "Is Unicon Leather a tannery or a cut-and-sew leather goods manufacturer?",
+    answer:
+      "Unicon Leather is a specialized cut-and-sew leather goods manufacturer and Government-registered Indian exporter (operating under DGFT Importer-Exporter Code and Council for Leather Exports frameworks), not a wet-processing tannery. We procure finished full-grain, top-grain, and vegetable-tanned hides from partner tanneries in India (Kolkata, Kanpur, Chennai) and Italy that hold active Leather Working Group (LWG) environmental audit ratings.",
+  },
+  {
+    question: "Can buyers request LWG tannery certificates and REACH lab test reports?",
+    answer:
+      "Yes. For buyers requiring documented traceability, we allocate hides from LWG-audited partner tanneries and provide lot-linked tannery reference documentation. Chemical safety compliance (EU/UK REACH Annex XVII for Chromium VI < 3 mg/kg, Azo-free dyes, Nickel release, and US California Prop 65) is verified on a per-batch basis through accredited third-party laboratories (SGS or Intertek) prior to shipment.",
+  },
+  {
+    question: "How does Unicon Leather minimize leather cutting waste during production?",
+    answer:
+      "Our pattern engineering team uses directional CAD nesting to maximize hide utilization across large bag panels and smaller component dies. Clean off-cuts from large tote and duffel runs are repurposed into small leather goods (cardholders, key fobs, luggage tags, and strap keepers), while remaining trimmings are collected for bonded leather (salpa) reinforcement board recycling.",
+  },
+  {
+    question: "Can international brands commission third-party workplace audits of your factory?",
+    answer:
+      "Yes. We maintain strict internal workplace safety standards—including ventilated water-based adhesive stations, PPE, fair living wages, and zero child or forced labor—and welcome physical or third-party social compliance audits (such as SMETA / Sedex or buyer-nominated inspection agencies) arranged by international brand partners.",
+  },
+];
 
 export default function SustainabilityPage() {
   const breadcrumbsSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://www.uniconleather.com" },
     { name: "Sustainability", url: "https://www.uniconleather.com/sustainability" },
   ]);
+  const faqSchema = generateFaqSchema(SUSTAINABILITY_FAQS);
 
   return (
     <>
       <JsonLdScript schema={breadcrumbsSchema} />
+      <JsonLdScript schema={faqSchema} />
       <div className="w-full bg-white pb-24">
         {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
-        <section className="relative w-full !mt-0 min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
+        <section className="relative w-full !mt-0 min-h-[65vh] sm:min-h-[75vh] lg:min-h-[85vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
         {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}
         <div className="absolute inset-0 w-full h-full">
           <img
@@ -140,9 +164,9 @@ export default function SustainabilityPage() {
               <div className="bg-[#faf8f5] p-6 rounded-none border border-charcoal/10 flex items-start gap-4 shadow-xs">
                 <ShieldCheck className="w-6 h-6 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <h3 className="font-serif font-medium text-charcoal text-base">Traceable Sourcing &amp; LWG Certified Tanneries</h3>
+                  <h3 className="font-serif font-medium text-charcoal text-base">Traceable Sourcing from LWG-Audited Partner Tanneries</h3>
                   <p className="text-xs sm:text-sm text-charcoal-600 mt-1 leading-relaxed font-light">
-                    We maintain rigorous <strong>traceable leather sourcing</strong> across all production runs, working exclusively with <strong>leather from LWG-certified tanneries</strong> (Gold and Silver rated) to guarantee verified closed-loop effluent treatment and reduced water footprint.
+                    Unicon Leather is a cut-and-sew manufacturer that procures finished full-grain, top-grain, and vegetable-tanned hides from <strong>LWG-audited partner tanneries</strong> (Gold and Silver rated) in India and Italy—ensuring verified effluent treatment and reduced water footprint at the tanning stage.
                   </p>
                 </div>
               </div>
@@ -150,9 +174,9 @@ export default function SustainabilityPage() {
               <div className="bg-[#faf8f5] p-6 rounded-none border border-charcoal/10 flex items-start gap-4 shadow-xs">
                 <FileCheck className="w-6 h-6 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <h3 className="font-serif font-medium text-charcoal text-base">Ethical Audits: WRAP &amp; SMETA Audited Manufacturer</h3>
+                  <h3 className="font-serif font-medium text-charcoal text-base">Open-Factory Policy &amp; Buyer-Nominated Social Audits</h3>
                   <p className="text-xs sm:text-sm text-charcoal-600 mt-1 leading-relaxed font-light">
-                    As a <strong>WRAP compliant leather manufacturer India</strong> and a <strong>SMETA audited leather manufacturer</strong>, our atelier is committed to <strong>ethical leather goods manufacturing</strong> with fair living wages, comprehensive health coverage, and zero child labor.
+                    Our Noida and Kolkata production ateliers enforce fair living wages, ventilated water-based adhesive stations, PPE, and zero child or forced labor. We welcome physical buyer inspections and third-party social compliance audits (including SMETA / Sedex or buyer-appointed inspection agencies).
                   </p>
                 </div>
               </div>
@@ -160,9 +184,9 @@ export default function SustainabilityPage() {
               <div className="bg-[#faf8f5] p-6 rounded-none border border-charcoal/10 flex items-start gap-4 shadow-xs">
                 <CheckCircle2 className="w-6 h-6 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <h3 className="font-serif font-medium text-charcoal text-base">ISO Certified Leather Supplier India &amp; REACH Compliance</h3>
+                  <h3 className="font-serif font-medium text-charcoal text-base">Batch-Verified EU/UK REACH &amp; Prop 65 Chemical Safety</h3>
                   <p className="text-xs sm:text-sm text-charcoal-600 mt-1 leading-relaxed font-light">
-                    Operating as an <strong>ISO certified leather supplier India</strong> (ISO 9001:2015 &amp; ISO 14001), all batches are verified under EU REACH Annex XVII: Azo-dye free, hypoallergenic nickel-free hardware, and Chromium VI &lt;3ppm.
+                    Every export production lot can be verified through accredited third-party laboratories (SGS or Intertek) against EU/UK REACH Annex XVII (Chromium VI &lt; 3 mg/kg, Azo-free dyes, Nickel release compliance) and US California Proposition 65 prior to dispatch.
                   </p>
                 </div>
               </div>
@@ -172,8 +196,8 @@ export default function SustainabilityPage() {
           <div className="lg:col-span-6">
             <div className="relative aspect-[4/3] rounded-none overflow-hidden shadow-lg border border-charcoal/10 bg-white">
               <img
-                src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=80"
-                alt="Vegetable Tanned Leather Accessories and Traceable Leather Sourcing"
+                src="/images/craftsmanship-cognac-tote.png"
+                alt="Vegetable Tanned Leather Accessories and Traceable Leather Sourcing at Unicon Leather"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
@@ -197,9 +221,9 @@ export default function SustainabilityPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-[#faf8f5] p-7 sm:p-8 rounded-none border border-charcoal/10 space-y-4 shadow-xs hover:border-cognac transition-colors">
               <TreeDeciduous className="w-7 h-7 text-cognac" />
-              <h3 className="font-serif text-lg font-medium text-charcoal">Vegetable Tanned Leather Accessories</h3>
+              <h3 className="font-serif text-lg font-medium text-charcoal">Chrome-Free &amp; Vegetable-Tanned Leathers</h3>
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
-                As a premier <strong>sustainable leather accessories manufacturer</strong>, we craft <strong>vegetable tanned leather accessories</strong> and <strong>responsibly sourced leather products</strong> using natural tree barks (mimosa, chestnut) that develop a rich organic patina.
+                We craft vegetable-tanned leather bags, belts, and small accessories using natural tree barks (mimosa, chestnut, and quebracho) from LWG-audited partner tanneries—producing biodegradable hides that develop a rich organic patina over decades.
               </p>
             </div>
 
@@ -264,12 +288,43 @@ export default function SustainabilityPage() {
               The most ecologically sound product is one that doesn’t require replacement for decades. By selecting high-density full-grain hides, reinforced saddle stitching, and solid forged brass hardware, we engineer products that age beautifully and resist mechanical fatigue.
             </p>
 
-            <div className="pt-2">
+            <div className="pt-2 flex flex-wrap gap-3">
               <Button href="/contact" variant="primary" size="md">
                 Inquire About Eco-Friendly Production Options <ArrowRight className="w-3.5 h-3.5 ml-1.5" />
               </Button>
+              <Button href="/compliance" variant="outline" size="md" className="border-charcoal/30 text-charcoal hover:bg-charcoal hover:text-white">
+                View Export &amp; Chemical Compliance
+              </Button>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* 5. Frequently Asked Sustainability & Traceability Questions */}
+      <section className="w-full max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12">
+        <div className="text-center max-w-2xl mx-auto mb-12 space-y-3">
+          <Badge variant="cognac" size="sm">
+            Buyer Due Diligence
+          </Badge>
+          <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-charcoal tracking-tight">
+            Sustainability &amp; Tannery Traceability FAQs
+          </h2>
+          <p className="text-xs sm:text-sm text-charcoal-600 font-light">
+            Clear distinctions between partner tannery environmental audits, batch chemical testing, and our internal cut-and-sew atelier standards.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {SUSTAINABILITY_FAQS.map((faq, idx) => (
+            <div key={idx} className="bg-[#faf8f5] p-6 sm:p-7 border border-charcoal/10 space-y-2.5">
+              <h3 className="font-serif text-base sm:text-lg font-medium text-charcoal">
+                {faq.question}
+              </h3>
+              <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
+                {faq.answer}
+              </p>
+            </div>
+          ))}
         </div>
       </section>
         </div>

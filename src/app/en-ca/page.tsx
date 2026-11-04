@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `https://www.uniconleather.com${market.path}`,
     languages: {
+      "en": "https://www.uniconleather.com",
       "en-US": "https://www.uniconleather.com/en-us",
       "en-CA": "https://www.uniconleather.com/en-ca",
       "en-GB": "https://www.uniconleather.com/en-gb",
@@ -18,6 +19,11 @@ export const metadata: Metadata = {
       "fr-FR": "https://www.uniconleather.com/fr",
       "it-IT": "https://www.uniconleather.com/it",
       "es-ES": "https://www.uniconleather.com/es",
+      "ar-AE": "https://www.uniconleather.com/ar",
+      "ja-JP": "https://www.uniconleather.com/ja",
+      "nl-NL": "https://www.uniconleather.com/nl",
+      "sv-SE": "https://www.uniconleather.com/sv",
+      "ko-KR": "https://www.uniconleather.com/ko",
       "x-default": "https://www.uniconleather.com",
     },
   },

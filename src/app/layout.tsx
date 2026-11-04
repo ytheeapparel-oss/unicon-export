@@ -10,7 +10,6 @@ import {
   generateWebSiteSchema,
   generateB2BServiceSchema,
 } from "@/components/seo/JsonLdScript";
-import { ALL_SEO_KEYWORDS } from "@/data/keywords";
 
 export const viewport: Viewport = {
   themeColor: "#FFFFFF",
@@ -21,78 +20,20 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.uniconleather.com"),
   title: {
-    default: "UNICON LEATHER | Leather Bags Manufacturer India & OEM Private Label Factory",
+    default: "UNICON LEATHER | Private Label Leather Bags, Jackets & SLGs for Global Brands",
     template: "%s | UNICON LEATHER",
   },
   description:
-    "Leading leather goods and bag manufacturer in India, exporter to USA, UK, and European brands. Custom OEM/ODM factory for luxury handbags, totes, duffels, wallets & belts with low 100-pc MOQs, rapid prototyping, and direct DDP delivery.",
-  alternates: {
-    canonical: "https://www.uniconleather.com",
-    languages: {
-      "en-US": "https://www.uniconleather.com/en-us",
-      "en-CA": "https://www.uniconleather.com/en-ca",
-      "en-GB": "https://www.uniconleather.com/en-gb",
-      "en-AU": "https://www.uniconleather.com/en-au",
-      "de-DE": "https://www.uniconleather.com/de",
-      "fr-FR": "https://www.uniconleather.com/fr",
-      "it-IT": "https://www.uniconleather.com/it",
-      "es-ES": "https://www.uniconleather.com/es",
-      "ar-AE": "https://www.uniconleather.com/ar",
-      "ja-JP": "https://www.uniconleather.com/ja",
-      "nl-NL": "https://www.uniconleather.com/nl",
-      "sv-SE": "https://www.uniconleather.com/sv",
-      "ko-KR": "https://www.uniconleather.com/ko",
-      "x-default": "https://www.uniconleather.com",
-    },
-  },
+    "Contract manufacturing and private-label leather atelier in Kolkata & Noida for European, UK, US, and global brands. Handbags, totes, briefcases, jackets, RFID wallets & belts with 50–100 pc stock trial MOQs, 5–14 day sampling, LWG partner hides, and batch EU REACH testing.",
   keywords: [
-    // Indian manufacturing
-    "leather goods manufacturer Kolkata",
-    "leather accessories factory Kolkata",
-    "leather exporters Kolkata",
-    "leather bag manufacturer Kolkata",
-    // Overseas buyers
-    "Indian leather goods supplier for US brands",
-    "private label leather supplier for UK brands",
-    "leather goods exporter to Europe",
-    // Sustainability
-    "sustainable leather accessories manufacturer",
-    "ethical leather goods manufacturing",
-    "responsibly sourced leather products",
-    // Materials
-    "vegetable tanned leather accessories",
-    "traceable leather sourcing",
-    "leather from LWG-certified tanneries",
-    // Compliance
-    "WRAP compliant leather manufacturer India",
-    "ISO certified leather supplier India",
-    "SMETA audited leather manufacturer",
-    // Core manufacturing & silhouettes
-    "leather bag manufacturers in India",
-    "leather bags manufacturer India",
-    "custom leather bag manufacturers India",
-    "private label leather bag manufacturers India",
-    "OEM leather bag manufacturers India",
-    "wholesale leather bags India",
-    "bulk leather bag suppliers India",
-    "leather bag exporters India",
-    "leather bag manufacturers for brands",
-    "custom logo leather bags bulk",
-    "leather handbag manufacturers India",
-    "leather tote bag manufacturers India",
-    "leather laptop bag manufacturers India",
-    "leather backpack manufacturers India",
-    "leather sling bag manufacturers India",
-    "leather duffle bag manufacturers India",
-    "leather travel bag manufacturers India",
-    "leather messenger bag manufacturers India",
-    "leather overnight bag manufacturers",
-    "leather wallet manufacturers India",
-    "leather passport holder manufacturers",
-    "small leather goods manufacturers India",
-    "low MOQ leather bag manufacturers India",
-    "small batch leather bag manufacturing",
-    "corporate leather gift manufacturers India",
+    "private label leather bags",
+    "custom leather goods OEM",
+    "leather handbag contract manufacturing",
+    "vegetable tanned leather goods",
+    "LWG partner tannery leather bags",
+    "RFID leather wallet OEM",
+    "custom leather jackets private label",
+    "bridle leather belt manufacturer",
   ],
   authors: [{ name: "UNICON LEATHER Export Desk" }],
   creator: "UNICON LEATHER",
@@ -105,15 +46,28 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    alternateLocale: ["en_GB", "en_CA", "de_DE", "fr_FR", "it_IT", "es_ES"],
+    alternateLocale: [
+      "en_GB",
+      "en_CA",
+      "en_AU",
+      "de_DE",
+      "fr_FR",
+      "it_IT",
+      "es_ES",
+      "ar_AE",
+      "ja_JP",
+      "nl_NL",
+      "sv_SE",
+      "ko_KR",
+    ],
     url: "https://www.uniconleather.com",
     siteName: "UNICON LEATHER",
-    title: "UNICON LEATHER | Leather Goods Manufacturer & Global OEM Bags Exporter",
+    title: "UNICON LEATHER | Indian Leather Goods Manufacturer & OEM Bags Exporter",
     description:
-      "Premier global leather goods manufacturer and custom leather bags factory. Private label leather goods, luxury OEM wallets, belts & accessories for international fashion houses.",
+      "Direct Indian cut-and-sew leather goods manufacturer and OEM/ODM exporter. Private-label leather bags, RFID wallets, belts & outerwear crafted with LWG-audited partner tannery hides.",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=80",
+        url: "https://www.uniconleather.com/images/home-hero-leather.jpg",
         width: 1200,
         height: 630,
         alt: "UNICON LEATHER Master Atelier & Export Manufacturing",
@@ -125,7 +79,7 @@ export const metadata: Metadata = {
     title: "UNICON LEATHER | Global Leather Goods Manufacturer & Exporter",
     description:
       "B2B custom manufacturing, OEM/ODM private label, and wholesale export of handcrafted genuine leather goods for global fashion brands.",
-    images: ["https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=80"],
+    images: ["https://www.uniconleather.com/images/home-hero-leather.jpg"],
   },
   icons: {
     icon: "/favicon.svg",
@@ -134,10 +88,8 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "cf857e5ed6f9e189",
-    yandex: "yandex-verification-token",
     other: {
       "msvalidate.01": "D6E5A8B99C1284E208428DE3F0E3DF88",
-      "p:domain_verify": "pinterest-verification-token",
     },
   },
   robots: {
@@ -152,10 +104,20 @@ export const metadata: Metadata = {
     },
   },
   other: {
-    "geo.region": "IN-WB",
-    "geo.placename": "Kolkata, West Bengal, India",
-    "geo.position": "22.5085;88.4687",
-    "ICBM": "22.5085, 88.4687",
+    "geo.region": "IN-UP",
+    "geo.placename": "Noida, Uttar Pradesh, India",
+    "geo.position": "28.5355161;77.3910265",
+    "ICBM": "28.5355161, 77.3910265",
+    "place:location:latitude": "28.5355161",
+    "place:location:longitude": "77.3910265",
+    "business:contact_data:street_address": "Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106",
+    "business:contact_data:locality": "Noida",
+    "business:contact_data:region": "Uttar Pradesh",
+    "business:contact_data:postal_code": "201304",
+    "business:contact_data:country_name": "India",
+    "business:contact_data:email": "uniconexport@gmail.com",
+    "business:contact_data:phone_number": "+91 9873102341",
+    "business:contact_data:website": "https://www.uniconleather.com",
     "DC.title": "UNICON LEATHER - Global Leather Goods Manufacturer & Registered Exporter",
     "DC.creator": "UNICON LEATHER Atelier",
     "DC.description": "Direct B2B custom leather goods manufacturer and private-label exporter based in India, serving international fashion brands and wholesalers.",
@@ -173,8 +135,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var p=window.location.pathname.split('/')[1]||'';var m={'en-us':'en-US','en-ca':'en-CA','en-gb':'en-GB','en-au':'en-AU','de':'de-DE','fr':'fr-FR','it':'it-IT','es':'es-ES','ar':'ar-AE','ja':'ja-JP','nl':'nl-NL','sv':'sv-SE','ko':'ko-KR'};if(m[p]){document.documentElement.lang=m[p];if(p==='ar'){document.documentElement.dir='rtl';}}}catch(e){}})();`,
+          }}
+        />
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RDCG81M0M5" />
         <script
@@ -190,6 +157,8 @@ export default function RootLayout({
         />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt - AI & LLM Context" />
+        <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLMs-Full.txt - Complete B2B Manufacturing Specification" />
         <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
         <JsonLdScript schema={generateOrganizationSchema()} />

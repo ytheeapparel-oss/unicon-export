@@ -36,7 +36,26 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Global Export Capabilities & B2B Logistics | UNICON LEATHER",
+    description:
+      "Direct international export of handcrafted leather goods to USA, UK, Europe, UAE, and Australia with EXW, FOB, CIF, and DDP freight handling.",
+    images: ["https://www.uniconleather.com/images/export-hero.png"],
+  },
   keywords: [
+    "import leather bags from India to USA",
+    "import leather wallets from India to USA",
+    "import leather bags from India to Canada",
+    "import leather wallets from India to Canada",
+    "wholesale leather handbags USA",
+    "wholesale leather handbags Canada",
+    "wholesale leather wallets USA",
+    "wholesale leather wallets Canada",
+    "private label leather bags for US brands",
+    "private label leather bags for Canadian brands",
+    "leather bag supplier for US retailers",
+    "leather bag supplier for Canadian retailers",
     "leather goods exporter",
     "leather bags manufacturer India for Canadian brands",
     "leather bag supplier India to Canada",
@@ -89,17 +108,62 @@ export default function ExportPage() {
     },
     {
       region: "Middle East & Gulf",
-      countries: "United Arab Emirates (Dubai), Saudi Arabia, Qatar",
-      transitAir: "2–4 business days",
-      transitSea: "7–10 days (Jebel Ali Port)",
-      incoterms: "FOB, CIF, DDP",
+      countries: "United Arab Emirates (Dubai, Abu Dhabi), Saudi Arabia (Riyadh, Jeddah), Qatar",
+      transitAir: "2–4 business days (DXB, AUH, RUH, DOH)",
+      transitSea: "7–14 days (Jebel Ali Port, Khalifa Port, Dammam)",
+      incoterms: "FOB, CIF, DDP (0% UAE Customs Duty under India-UAE CEPA)",
       topProducts: "Corporate Gift Sets, Luxury Travel Duffels, Exotic Embossed Goods",
     },
+    {
+      region: "Japan, South Korea & East Asia",
+      countries: "Japan (Tokyo, Osaka, Kyoto), South Korea (Seoul, Busan)",
+      transitAir: "3–5 business days (Narita NRT, Haneda HND, Incheon ICN)",
+      transitSea: "14–20 days (Port of Yokohama, Tokyo, Kobe, Port of Busan)",
+      incoterms: "FOB, CIF, DDP (India-Japan CEPA & Korea-India CEPA Preferential CoO)",
+      topProducts: "0.4mm Skived Bridle Wallets, YKK Excella Briefcases, Structured Totes",
+    },
   ];
+
+  const exportFaqs = [
+    {
+      question: "Which HS / HTS tariff codes apply to UNICON LEATHER export shipments?",
+      answer:
+        "We pre-classify all commercial invoices under standard WCO Harmonized System codes: HS 4202.21 (handbags, totes, and shoulder bags with outer surface of leather), HS 4202.11 (executive briefcases and laptop folios), HS 4202.31 (wallets, cardholders, and pocket goods), HS 4202.91 (travel duffels, holdalls, and backpacks), and HS 4203.10 / 4203.30 (genuine leather jackets and belts).",
+    },
+    {
+      question: "Which countries qualify for 0% or reduced import duty when sourcing leather goods from India?",
+      answer:
+        "Australian brands enjoy 0% customs duty under the India-Australia ECTA treaty; UAE importers receive 0% customs duty under the India-UAE CEPA treaty; Japanese and South Korean brands benefit from preferential tariff reductions under the India-Japan CEPA and Korea-India CEPA agreements. We issue official Chamber of Commerce / DGFT Certificates of Origin with every shipment.",
+    },
+    {
+      question: "How does Delivered Duty Paid (DDP) shipping work for overseas fashion brands?",
+      answer:
+        "Under DDP Incoterms, UNICON LEATHER and our licensed freight forwarders manage export clearance in India, international air or ocean transit, destination customs brokerage, import duty/tariff payment, and final-mile delivery directly to your warehouse or 3PL in the USA, Canada, UK, EU, Australia, UAE, Japan, or South Korea.",
+    },
+    {
+      question: "What chemical and biosecurity compliance certificates accompany international shipments?",
+      answer:
+        "Every export consignment includes a Commercial Invoice, Detailed Packing List, Certificate of Origin, and Manufacturer Tanning Declaration (for Australian DAFF biosecurity). Upon buyer request, we coordinate batch-specific SGS, Intertek, or TÜV laboratory test reports verifying EU/UK REACH Annex XVII (Cr VI < 3 ppm, AZO-free, EN 1811 nickel release) and US California Proposition 65 compliance.",
+    },
+  ];
+
+  const exportFaqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: exportFaqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
 
   return (
     <>
       <JsonLdScript schema={breadcrumbsSchema} />
+      <JsonLdScript schema={exportFaqSchema} />
       <div className="w-full bg-white pb-24">
         {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
         <section className="relative w-full !mt-0 min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
@@ -323,6 +387,115 @@ export default function ExportPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 5. Export Logistics & Trade Compliance FAQ (AEO / GEO) */}
+      <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
+        <div className="border border-charcoal/12 bg-white p-8 sm:p-12 space-y-8">
+          <div className="space-y-2 max-w-3xl">
+            <span className="text-cognac uppercase tracking-[0.2em] text-xs font-mono font-medium block">
+              International Trade &amp; Customs FAQ
+            </span>
+            <h2 className="font-serif text-2xl sm:text-3xl font-normal text-charcoal tracking-tight">
+              Frequently Asked Questions on Global Leather Export &amp; DDP Logistics
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {exportFaqs.map((faq, idx) => (
+              <div key={idx} className="p-6 bg-[#FAF8F5] border border-charcoal/10 space-y-2">
+                <h3 className="font-serif text-base sm:text-lg font-medium text-charcoal">
+                  {faq.question}
+                </h3>
+                <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
+                  {faq.answer}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 6. Dedicated Country & Regional Sourcing Gateways */}
+      <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16" id="markets">
+        <div className="bg-[#FAF8F5] border border-charcoal/10 p-8 sm:p-12 space-y-6">
+          <div className="space-y-2 max-w-3xl">
+            <span className="text-cognac uppercase tracking-[0.2em] text-xs font-mono font-medium block">
+              Localized Country &amp; City Export Desks
+            </span>
+            <h2 className="font-serif text-2xl sm:text-3xl font-normal text-charcoal tracking-tight">
+              Explore Country-Specific Trade Terms, Tariffs &amp; Compliance Portals
+            </h2>
+            <p className="text-xs sm:text-sm text-charcoal-600 font-light">
+              Select your destination market to review localized customs clearance protocols, preferential trade agreements (ECTA / CEPA / REX), and regional B2B sourcing programs:
+            </p>
+          </div>
+
+          <div className="flex flex-wrap gap-2.5 pt-2">
+            <Link href="/en-us" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇺🇸 United States (DDP / Prop 65)
+            </Link>
+            <Link href="/export/usa/private-label-leather-bags-new-york" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🗽 New York Fashion Sourcing Hub
+            </Link>
+            <Link href="/export/usa/oem-leather-goods-los-angeles" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🌴 Los Angeles &amp; California OEM Hub
+            </Link>
+            <Link href="/en-ca" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇨🇦 Canada (CBSA / DDP)
+            </Link>
+            <Link href="/export/canada/private-label-leather-bags-toronto-vancouver" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🍁 Toronto, Vancouver &amp; Montreal Hub
+            </Link>
+            <Link href="/en-gb" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇬🇧 United Kingdom (UK REACH)
+            </Link>
+            <Link href="/en-au" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇦🇺 Australia (0% Duty ECTA)
+            </Link>
+            <Link href="/export/australia/custom-leather-bags-sydney-melbourne" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🦘 Sydney, Melbourne &amp; Brisbane Hub
+            </Link>
+            <Link href="/de" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇩🇪 Germany &amp; DACH (Lederwaren)
+            </Link>
+            <Link href="/fr" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇫🇷 France (Maroquinerie)
+            </Link>
+            <Link href="/it" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇮🇹 Italy (Pelletteria)
+            </Link>
+            <Link href="/export/europe/artisan-leather-bag-manufacturer-milan-italy" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🏛️ Milan &amp; Florence Pelletteria Hub
+            </Link>
+            <Link href="/es" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇪🇸 Spain (Marroquinería)
+            </Link>
+            <Link href="/nl" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇳🇱 Netherlands &amp; Benelux
+            </Link>
+            <Link href="/sv" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇸🇪 Sweden &amp; Nordics
+            </Link>
+            <Link href="/ar" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇦🇪 UAE &amp; GCC (CEPA)
+            </Link>
+            <Link href="/export/middle-east/luxury-leather-goods-manufacturer-dubai-uae" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🏙️ Dubai, Abu Dhabi &amp; Riyadh Luxury Hub
+            </Link>
+            <Link href="/ja" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇯🇵 Japan OEM Gateway
+            </Link>
+            <Link href="/ko" className="px-3.5 py-2 bg-white border border-charcoal/15 text-xs font-mono text-charcoal hover:border-cognac hover:text-cognac transition-colors">
+              🇰🇷 South Korea OEM Gateway
+            </Link>
+            <Link href="/leather-sourcing-india-vs-china-vietnam-italy" className="px-3.5 py-2 bg-charcoal text-white border border-charcoal text-xs font-mono hover:bg-cognac hover:border-cognac transition-colors">
+              ⚖️ Compare India vs. China, Vietnam &amp; Italy
+            </Link>
+            <Link href="/cost-calculator" className="px-3.5 py-2 bg-cognac text-white border border-cognac text-xs font-mono hover:bg-charcoal hover:border-charcoal transition-colors">
+              🧮 B2B FOB &amp; DDP Cost Calculator
+            </Link>
           </div>
         </div>
       </section>

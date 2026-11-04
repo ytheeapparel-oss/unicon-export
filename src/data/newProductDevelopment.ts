@@ -96,7 +96,7 @@ export const NPD_PANELS: NpdPanel[] = [
     stage: "Sample Approved",
     image: "/images/npd/npd-08.jpg",
     href: "/contact#rfp-form",
-    badge: "Low MOQ 100",
+    badge: "Low MOQ 50",
   },
   {
     id: 9,

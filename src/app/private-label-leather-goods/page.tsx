@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
-import { SEO_PILLARS } from "@/data/seoPillars";
-import { SeoPillarPage } from "@/components/seo/SeoPillarPage";
-import { generatePillarMetadata } from "@/lib/seoPillarMetadata";
+import { permanentRedirect } from "next/navigation";
 
-const pillar = SEO_PILLARS["private-label-leather-goods"];
-
-export const metadata: Metadata = generatePillarMetadata(pillar);
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.uniconleather.com/private-label",
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
 
 export default function PrivateLabelLeatherGoodsPage() {
-  return <SeoPillarPage pillar={pillar} />;
+  permanentRedirect("/private-label");
 }

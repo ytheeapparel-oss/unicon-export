@@ -27,8 +27,14 @@ function CatalogueContent() {
 
   const filteredProducts = useMemo(() => {
     return PRODUCTS.filter((product) => {
+      const selectedCatObj = PRODUCT_CATEGORIES.find((c) => c.name === selectedCategory);
       const matchesCategory =
-        selectedCategory === "All" || product.category === selectedCategory;
+        selectedCategory === "All" ||
+        product.category === selectedCategory ||
+        (selectedCatObj &&
+          (product.categorySlug === selectedCatObj.slug ||
+            (product.secondaryCategorySlugs &&
+              product.secondaryCategorySlugs.includes(selectedCatObj.slug))));
 
       let matchesSearch = true;
       if (searchQuery.trim()) {
@@ -97,7 +103,7 @@ function CatalogueContent() {
 
             <div className="inline-flex items-center gap-3 mt-2">
               <span className="bg-cognac text-white text-[11px] sm:text-xs font-medium tracking-[0.14em] uppercase px-3.5 py-1 rounded-none shadow-xs">
-                Export Collection 2025/2026
+                Export Collection 2026/2027
               </span>
               <span className="text-[11px] sm:text-xs text-charcoal/60 font-mono tracking-widest uppercase">
                 Direct Atelier Manufacturing
@@ -145,27 +151,42 @@ function CatalogueContent() {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
           {PRODUCT_CATEGORIES.map((cat) => {
             const isSelected = selectedCategory === cat.name;
+            const onlineSampleCount = PRODUCTS.filter(
+              (p) =>
+                p.category === cat.name ||
+                p.categorySlug === cat.slug ||
+                (p.secondaryCategorySlugs && p.secondaryCategorySlugs.includes(cat.slug))
+            ).length;
             return (
-              <Link
+              <div
                 key={cat.id}
-                href={`/products/${cat.slug}`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  setSelectedCategory(isSelected ? "All" : cat.name);
-                }}
                 className={`p-3 text-left border rounded-none transition-all flex flex-col justify-between ${
                   isSelected
                     ? "border-cognac bg-[#faf8f5] shadow-xs"
                     : "border-charcoal/10 bg-white hover:border-charcoal/30"
                 }`}
               >
-                <span className="font-serif text-xs sm:text-sm font-medium text-charcoal block line-clamp-1">
-                  {cat.name}
-                </span>
-                <span className="text-[10px] text-charcoal-400 font-mono mt-2 block">
-                  {cat.featuredProductCount} Silhouettes
-                </span>
-              </Link>
+                <button
+                  type="button"
+                  onClick={() => setSelectedCategory(isSelected ? "All" : cat.name)}
+                  className="text-left w-full"
+                >
+                  <span className="font-serif text-xs sm:text-sm font-medium text-charcoal block line-clamp-1">
+                    {cat.name}
+                  </span>
+                  <span className="text-[10px] text-charcoal-400 font-mono mt-1.5 block">
+                    {onlineSampleCount > 0
+                      ? `${onlineSampleCount} Online Sample${onlineSampleCount > 1 ? "s" : ""} · OEM`
+                      : "Custom OEM Line"}
+                  </span>
+                </button>
+                <Link
+                  href={`/products/${cat.slug}`}
+                  className="text-[10px] font-mono text-cognac hover:underline mt-2 inline-block"
+                >
+                  Category Hub &rarr;
+                </Link>
+              </div>
             );
           })}
         </div>

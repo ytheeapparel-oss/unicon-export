@@ -35,10 +35,10 @@ export function TechPackWorkflow({ className = "", theme = "card" }: TechPackWor
     {
       step: "04",
       title: "Physical Sample Dispatch",
-      time: "7–10 Days",
-      description: "Physical counter-sample crafted in atelier and dispatched worldwide via DHL / FedEx Priority Express.",
+      time: "5–7d SLG / 7–14d Bags",
+      description: "5–7 business days (wallets/belts) or 7–14 business days (bags/jackets) in stock leather; +7–10 days for custom dye or 3D brass molds.",
       icon: Send,
-      badge: "Express Dispatch",
+      badge: "DHL / FedEx Express",
     },
   ];
 
@@ -110,7 +110,9 @@ export function TechPackWorkflow({ className = "", theme = "card" }: TechPackWor
       <div className="mt-6 pt-4 border-t border-charcoal/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-[11px] text-charcoal-600 font-mono">
         <span className="flex items-center gap-2">
           <span className="w-1.5 h-1.5 rounded-full bg-cognac animate-pulse" />
-          <span>Average Feasibility Review Window: <strong>24–48 Hours</strong></span>
+          <span>
+            Stock Leather Sampling: <strong>5–7 Days (SLGs) · 7–14 Days (Bags/Jackets)</strong> · Custom Dye/Tooling: <strong>+7–10 Days</strong>
+          </span>
         </span>
         <span className="text-charcoal-500">
           Sample fee 100% credited against final bulk production invoice

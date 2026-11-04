@@ -5,10 +5,27 @@ import { SEO_PILLARS } from "@/data/seoPillars";
 import { INTERNATIONAL_MARKETS } from "@/data/internationalRoutes";
 import { EXPORT_HUBS } from "@/data/exportHubs";
 
+// Consolidated duplicate slugs that 301-redirect to primary canonical hubs
+const CONSOLIDATED_PILLAR_SLUGS = new Set([
+  "private-label-leather-goods",
+  "leather-goods-supplier-usa",
+  "full-grain-vs-top-grain-leather",
+]);
+
+const CONSOLIDATED_EXPORT_HUB_KEYS = new Set([
+  "usa/leather-goods-manufacturer-usa",
+  "europe/private-label-leather-bags-uk-london",
+  "europe/leather-goods-manufacturer-germany",
+  "europe/luxury-leather-atelier-france-paris",
+  "australia/leather-goods-manufacturer-australia",
+]);
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.uniconleather.com";
+  const lastModifiedDate = new Date("2026-11-01T00:00:00.000Z");
 
   const internationalHreflang = {
+    "en": `${baseUrl}`,
     "en-US": `${baseUrl}/en-us`,
     "en-CA": `${baseUrl}/en-ca`,
     "en-GB": `${baseUrl}/en-gb`,
@@ -29,7 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}`,
-      lastModified: new Date(),
+      lastModified: lastModifiedDate,
       changeFrequency: "weekly",
       priority: 1.0,
       alternates: {
@@ -38,73 +55,91 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/about`,
-      lastModified: new Date(),
+      lastModified: lastModifiedDate,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${baseUrl}/products`,
-      lastModified: new Date(),
-      changeFrequency: "daily",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/private-label`,
-      lastModified: new Date(),
+      lastModified: lastModifiedDate,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/private-label`,
+      lastModified: lastModifiedDate,
+      changeFrequency: "weekly",
+      priority: 0.95,
+    },
+    {
       url: `${baseUrl}/craftsmanship`,
-      lastModified: new Date(),
+      lastModified: lastModifiedDate,
       changeFrequency: "monthly",
       priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/leather-quality-sourcing-guide`,
+      lastModified: lastModifiedDate,
+      changeFrequency: "weekly",
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/cost-calculator`,
+      lastModified: lastModifiedDate,
+      changeFrequency: "weekly",
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/leather-sourcing-india-vs-china-vietnam-italy`,
+      lastModified: lastModifiedDate,
+      changeFrequency: "weekly",
+      priority: 0.95,
     },
     {
       url: `${baseUrl}/sustainability`,
-      lastModified: new Date(),
+      lastModified: lastModifiedDate,
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/export`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
+      lastModified: lastModifiedDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/compliance`,
-      lastModified: new Date(),
+      lastModified: lastModifiedDate,
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/contact`,
-      lastModified: new Date(),
+      lastModified: lastModifiedDate,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: `${baseUrl}/catalogue-request`,
-      lastModified: new Date(),
+      lastModified: lastModifiedDate,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${baseUrl}/privacy-policy`,
-      lastModified: new Date(),
+      lastModified: lastModifiedDate,
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: `${baseUrl}/terms`,
-      lastModified: new Date(),
+      lastModified: lastModifiedDate,
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: `${baseUrl}/cookie-policy`,
-      lastModified: new Date(),
+      lastModified: lastModifiedDate,
       changeFrequency: "yearly",
       priority: 0.3,
     },
@@ -113,7 +148,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Dynamic Category Hub Routes (High-intent B2B SEO Landing Pages)
   const categoryRoutes: MetadataRoute.Sitemap = PRODUCT_CATEGORIES.map((cat) => ({
     url: `${baseUrl}/products/${cat.slug}`,
-    lastModified: new Date(),
+    lastModified: lastModifiedDate,
     changeFrequency: "weekly",
     priority: 0.9,
   }));
@@ -121,44 +156,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Dynamic Product routes
   const productRoutes: MetadataRoute.Sitemap = PRODUCTS.map((product) => ({
     url: `${baseUrl}/products/${product.slug}`,
-    lastModified: new Date(),
+    lastModified: lastModifiedDate,
     changeFrequency: "weekly",
     priority: 0.85,
   }));
 
-  // Dedicated Keyword Pillar Routes
-  const seoPillarRoutes: MetadataRoute.Sitemap = Object.values(SEO_PILLARS).map((pillar) => ({
-    url: pillar.canonicalUrl,
-    lastModified: new Date(),
-    changeFrequency: "weekly",
-    priority: 0.95,
-  }));
+  // Dedicated Keyword Pillar Routes (excluding consolidated 301-redirected pillars)
+  const seoPillarRoutes: MetadataRoute.Sitemap = Object.values(SEO_PILLARS)
+    .filter((pillar) => !CONSOLIDATED_PILLAR_SLUGS.has(pillar.slug))
+    .map((pillar) => ({
+      url: pillar.canonicalUrl,
+      lastModified: lastModifiedDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    }));
 
   // Dedicated International Market Gateways with reciprocal hreflang annotations
   const internationalRoutes: MetadataRoute.Sitemap = Object.values(INTERNATIONAL_MARKETS).map((m) => ({
     url: `${baseUrl}${m.path}`,
-    lastModified: new Date(),
+    lastModified: lastModifiedDate,
     changeFrequency: "weekly",
-    priority: 0.95,
+    priority: 0.9,
     alternates: {
       languages: internationalHreflang,
     },
   }));
 
-  // Programmatic International Export Hubs
-  const exportHubRoutes: MetadataRoute.Sitemap = Object.values(EXPORT_HUBS).map((hub) => ({
-    url: `${baseUrl}/export/${hub.region}/${hub.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly",
-    priority: 0.95,
-  }));
+  // Programmatic International Export Hubs (excluding consolidated 301-redirected routes)
+  const exportHubRoutes: MetadataRoute.Sitemap = Object.values(EXPORT_HUBS)
+    .filter((hub) => !CONSOLIDATED_EXPORT_HUB_KEYS.has(`${hub.region}/${hub.slug}`))
+    .map((hub) => ({
+      url: `${baseUrl}/export/${hub.region}/${hub.slug}`,
+      lastModified: lastModifiedDate,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    }));
 
   return [
     ...staticRoutes,
-    ...exportHubRoutes,
     ...internationalRoutes,
-    ...seoPillarRoutes,
     ...categoryRoutes,
     ...productRoutes,
+    ...seoPillarRoutes,
+    ...exportHubRoutes,
   ];
 }

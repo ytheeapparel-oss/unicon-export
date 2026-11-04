@@ -39,20 +39,46 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const combinedClasses = cn(baseStyles, variantStyles[variant], sizeStyles[size], className);
 
     if (href) {
-      if (isExternal) {
+      const isExternalUrl =
+        isExternal ||
+        href.startsWith("http://") ||
+        href.startsWith("https://") ||
+        href.startsWith("mailto:") ||
+        href.startsWith("tel:");
+
+      if (isExternalUrl) {
+        const isHttp = href.startsWith("http://") || href.startsWith("https://");
         return (
           <a
             href={href}
-            target="_blank"
-            rel="noopener noreferrer"
+            target={isHttp ? "_blank" : undefined}
+            rel={isHttp ? "noopener noreferrer" : undefined}
             className={combinedClasses}
+            onClick={props.onClick as any}
           >
             {children}
           </a>
         );
       }
+
+      if (href.startsWith("#")) {
+        return (
+          <a
+            href={href}
+            className={combinedClasses}
+            onClick={props.onClick as any}
+          >
+            {children}
+          </a>
+        );
+      }
+
       return (
-        <Link href={href} className={combinedClasses}>
+        <Link
+          href={href}
+          className={combinedClasses}
+          onClick={props.onClick as any}
+        >
           {children}
         </Link>
       );

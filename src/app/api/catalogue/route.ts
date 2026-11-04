@@ -23,32 +23,53 @@ export async function POST(req: NextRequest) {
       status: "pending",
     };
 
-    const { data: inserted, error } = await supabaseAdmin
-      .from("catalogue_requests")
-      .insert(payload)
-      .select("id");
-
-    if (error) {
-      console.error("[API Catalogue] Supabase insert error:", error);
-      return NextResponse.json({ error: error.message }, { status: 500 });
-    }
-
-    // Dispatch email notification to uniconexport@gmail.com
+    // 1. Dispatch email notification to uniconexport@gmail.com FIRST
+    let emailSent = false;
+    let emailError: string | undefined;
     try {
-      await sendCatalogueRequestNotificationToAdmin({
+      const emailRes = await sendCatalogueRequestNotificationToAdmin({
         full_name: data.fullName,
         company_name: data.companyName,
         business_email: data.businessEmail,
         country: data.country || "",
         interests: data.interests || [],
         estimated_annual_volume: data.estimatedAnnualVolume,
-        id: inserted?.[0]?.id,
       });
-    } catch (emailErr) {
-      console.error("[API Catalogue] Non-fatal email notification error:", emailErr);
+      emailSent = !!emailRes?.success;
+      if (!emailRes?.success) {
+        emailError = emailRes?.error;
+      }
+    } catch (emailErr: any) {
+      console.error("[API Catalogue] Email notification error:", emailErr);
+      emailError = emailErr?.message;
     }
 
-    return NextResponse.json({ success: true, message: "Catalogue request saved" }, { status: 201 });
+    // 2. Non-blocking attempt to record in database
+    let insertedId: string | undefined;
+    let dbSaved = false;
+    try {
+      const dbPromise = supabaseAdmin.from("catalogue_requests").insert(payload).select("id");
+      const timeoutPromise = new Promise<{ data: null; error: { message: string } }>((resolve) =>
+        setTimeout(() => resolve({ data: null, error: { message: "Supabase timeout (1s)" } }), 1000)
+      );
+      const dbResult = await Promise.race([dbPromise, timeoutPromise]);
+      if (!dbResult.error && dbResult.data) {
+        insertedId = dbResult.data?.[0]?.id;
+        dbSaved = true;
+      }
+    } catch (dbErr: any) {
+      console.warn("[API Catalogue] Supabase skipped (free-tier/offline):", dbErr?.message);
+    }
+
+    return NextResponse.json(
+      {
+        success: true,
+        dbSaved,
+        emailSent,
+        message: "Catalogue request processed",
+      },
+      { status: 201 }
+    );
   } catch (err: any) {
     console.error("[API Catalogue] Server error:", err);
     return NextResponse.json({ error: err?.message || "Internal server error" }, { status: 500 });

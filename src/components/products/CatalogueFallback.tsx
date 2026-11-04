@@ -26,7 +26,7 @@ export function CatalogueFallback() {
 
             <div className="inline-flex items-center gap-3 mt-2">
               <span className="bg-cognac text-white text-[11px] sm:text-xs font-medium tracking-[0.14em] uppercase px-3.5 py-1 rounded-none shadow-xs">
-                Export Collection 2025/2026
+                Export Collection 2026/2027
               </span>
               <span className="text-[11px] sm:text-xs text-charcoal/60 font-mono tracking-widest uppercase">
                 Direct Atelier Manufacturing
@@ -138,7 +138,7 @@ export function CatalogueFallback() {
                       </div>
                       <div>
                         <span className="block text-charcoal-400 text-[10px] uppercase tracking-wider">MOQ</span>
-                        <span className="font-medium text-charcoal-900 block truncate">{product.moq.split("(")[0]}</span>
+                        <span className="font-medium text-charcoal-900 block leading-snug">{product.moq}</span>
                       </div>
                     </div>
                   </div>
@@ -151,7 +151,7 @@ export function CatalogueFallback() {
                       View Specs
                     </Link>
                     <Link
-                      href={`/contact?product=${encodeURIComponent(product.name)}&code=${product.id}#inquiry-form`}
+                      href="/contact#inquiry-form"
                       className="flex-1 text-center text-xs py-2.5 bg-cognac hover:bg-cognac-600 text-white transition-colors"
                     >
                       Bulk Inquiry

@@ -7,11 +7,7 @@ export async function GET() {
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.uniconleather.com/sitemap.xml</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://www.uniconleather.com/pages-sitemap.xml</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
+    <lastmod>2026-11-01T00:00:00.000Z</lastmod>
   </sitemap>
 </sitemapindex>`;
 

@@ -4,17 +4,17 @@ export const PRODUCTS: Product[] = [
   {
     id: "UL-HB-101",
     slug: "amber-pull-up-leather-tote",
-    name: "The Amber Pull-Up Handcrafted Leather Tote",
+    name: "The Amber Pull-Up Full-Grain Leather Shopper Tote",
     category: "Tote Bags",
     categorySlug: "tote-bags",
-    shortDescription: "Full-grain vegetable-tanned pull-up bovine leather tote featuring natural pull-up marbling, exterior slip pocket, and reinforced rolled shoulder handles.",
-    fullDescription: "Engineered specifically for international high-end retail brands requiring structural permanence and natural aging characteristics. Handcrafted from 1.8–2.0mm oil pull-up cowhide with hand-painted raw edge finishes, front quick-access slip pocket, and reinforced rolled leather shoulder straps. Fully customizable in leather grain, hardware finish, and dimensions.",
+    shortDescription: "Full-grain oil pull-up bovine leather shopper tote (SKU: UL-HB-101) featuring natural two-tone pull-up patina, 15-inch laptop capacity, YKK solid brass hardware, and reinforced twin shoulder handles.",
+    fullDescription: "Engineered for contemporary fashion labels, boutique lifestyle retailers, and executive accessory collections requiring structural permanence and authentic patina aging. Handcrafted from 1.8–2.0mm drum-dyed full-grain oil pull-up cowhide sourced from LWG-audited partner tanneries. Infused with natural waxes and oils during tanning, the hide develops a warm two-tone amber patina along stress points. Every seam is lock-stitched at 6–7 SPI using high-tenacity bonded nylon thread (Tex 70 / Metric 40), with double-reinforced handle anchors rated for daily laptop carry up to 10 kg. Fully customizable per client tech pack in leather grain, dimensions, lining, and hardware finish.",
     images: [
       "/images/flagship-tote-bag.jpg",
-      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=80"
+      "/images/panel-7-tote.jpg"
     ],
-    leatherType: "Full-Grain Waxed Pull-Up Cowhide (1.8mm – 2.0mm)",
-    tannage: "Eco-Conscious LWG Tannery Certified Veg-Tan / Chrome-Free",
+    leatherType: "Full-Grain Oil Pull-Up Cowhide (1.8mm – 2.0mm)",
+    tannage: "LWG Partner Tannery Audited Vegetable / Chrome-Free Retanned",
     colors: ["Amber Honey", "Rich Cognac", "Espresso Black", "Tuscan Tan"],
     dimensions: {
       length: "38",
@@ -22,42 +22,42 @@ export const PRODUCTS: Product[] = [
       height: "34",
       unit: "cm"
     },
-    lining: "Unlined Raw-Edge Interior / Optional 10oz Organic Cotton Twill",
-    hardware: "Solid Brass with Anti-Tarnish Coating (Light Gold / Antique Brass)",
-    brandingOptions: ["Blind Heat Debossing", "Metallic Gold / Silver Foil Stamp", "Custom Metal Logo Plate"],
-    packagingOptions: ["Organic Cotton Drawstring Dustbag", "Custom Branded Rigid Gift Box", "Export Master Carton"],
-    moq: "50 units per colorway (Flexible trial batch for new brand launches)",
-    sampleLeadTime: "7 to 10 working days",
-    productionLeadTime: "30 to 40 days upon pre-production sample sign-off",
+    lining: "Unlined Raw-Edge Suede Interior / Optional 280 GSM Organic Cotton Twill",
+    hardware: "YKK #5 Brass Zippers & Solid Cast Brass Fittings (Nickel-Free Anti-Tarnish Finish)",
+    brandingOptions: ["Blind Heat Debossing", "Metallic Gold / Silver Foil Stamp", "Interior Leather Creed Patch", "Custom Engraved Metal Logo Plate"],
+    packagingOptions: ["100% Cotton Drawstring Dustbag", "Silica Gel Moisture Protection", "Custom Barcode Hangtags & 5-Ply Export Master Carton"],
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "28 to 35 business days upon Pre-Production Sample (PPS) approval",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
-      "Natural amber pull-up leather that lightens beautifully when stretched and folded",
-      "Reinforced base with double-stitched corner stress points",
-      "Seamless continuous leather shoulder straps with comfortable 26cm drop clearance",
-      "Spacious exterior front slip pocket for phone, notebook, or passport",
-      "Stress points reinforced with bar-tack stitching and bonded nylon thread"
+      "1.8–2.0mm full-grain oil pull-up cowhide that develops a warm two-tone patina when flexed",
+      "Accommodates up to 15-inch MacBook / laptops with reinforced 2.0mm Texon/Salpa base board",
+      "Continuous dual-layer full-grain shoulder straps (26cm / 10.2\" drop) with non-stretch nylon core",
+      "Spacious exterior front quick-access slip pocket for smartphone, notebook, or travel folio",
+      "6–7 SPI lock-stitched seams with bar-tack stress reinforcement and 3-coat hand-sanded edge paint"
     ],
     specs: [
-      { label: "Product Code", value: "UL-HB-101" },
-      { label: "Primary Material", value: "Full-Grain Pull-Up Cowhide (Grade A)" },
-      { label: "Weight", value: "820 grams" },
-      { label: "Closure", value: "Open-Top Shopper with Magnetic Bridge" },
-      { label: "Stitching", value: "Bonded Nylon Thread (Tex 70 / Metric 40)" },
-      { label: "Compliance", value: "EU REACH & CA Prop 65 Verified" }
+      { label: "Factory SKU / Base Block", value: "UL-HB-101 (Modifiable per Tech Pack)" },
+      { label: "Primary Material", value: "Full-Grain Oil Pull-Up Cowhide (1.8–2.0mm, Grade A)" },
+      { label: "Estimated Hide Yield", value: "~13.5 – 15.5 sq. ft. per unit (incl. cutting allowance)" },
+      { label: "Dimensions (Metric / US)", value: "38 × 34 × 14 cm (15.0\" × 13.4\" × 5.5\")" },
+      { label: "Stitching & Edge Finish", value: "6–7 SPI Bonded Nylon (Tex 70) · 3-Coat Heat-Sealed Edge Paint" },
+      { label: "Chemical Compliance", value: "LWG Partner Tannery · EU/UK REACH Annex XVII & US Prop 65 Compliant" }
     ]
   },
   {
     id: "UL-SG-204",
     slug: "republic-compass-leather-passport-case",
     name: "Luxury Full-Grain Leather Passport Case & Travel Wallet",
-    category: "Small Leather Goods",
-    categorySlug: "small-leather-goods",
+    category: "Wallets & Cardholders",
+    categorySlug: "wallets-and-cardholders",
     shortDescription: "Artisan distressed leather travel set featuring custom heat-debossed leather passport cover and nautical compass leather journal with elastic keeper.",
     fullDescription: "A sophisticated showcase of precision leather moulding and deep heat debossing. Handcrafted from distressed vintage vegetable-tanned cowhide that develops a rich, personalized patina with world travel. Featuring a certified passport compartment and companion nautical compass notebook with elastic binding.",
     images: [
       "/images/flagship-passport-case.jpg",
-      "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1200&q=80"
+      "/images/panel-6.jpg"
     ],
     leatherType: "Full-Grain Distressed Vegetable-Tanned Bovine Leather",
     tannage: "Pure Vegetable Tannage with Pull-Up Wax Finish",
@@ -72,9 +72,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Woven Elastic Retention Band / Solid Brass Corner Rivets",
     brandingOptions: ["Custom Country Crest Deboss", "Brand Monogram", "Gold Foil Stamping"],
     packagingOptions: ["Craft Paper Presentation Sleeve", "Branded Two-Piece Gift Box"],
-    moq: "100 units (Custom deboss stamp tooling included)",
-    sampleLeadTime: "5 to 7 working days",
-    productionLeadTime: "25 to 35 days",
+    moq: "100 pcs (Stock Leather) / 200 pcs (Custom Dye)",
+    sampleLeadTime: "5–7 business days (Stock Leather) · 12–15 business days (Custom Dye/Hardware)",
+    productionLeadTime: "25 to 35 business days",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
@@ -101,7 +101,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: "A vibrant private-label collection of minimalist pocket wallets crafted from semi-vegetable tanned cowhide. Features precision hand-creased card slots, contrast white perimeter saddle-stitching, and deep heat-embossed nautical compass artwork across four signature export colorways.",
     images: [
       "/images/flagship-compass-wallets.jpg",
-      "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=1200&q=80"
+      "/images/panel-6.jpg"
     ],
     leatherType: "Semi-Vegetable Tanned Artisan Cowhide (1.4mm – 1.6mm)",
     tannage: "Drum-Dyed Aniline Leather with Smooth Luster",
@@ -116,9 +116,9 @@ export const PRODUCTS: Product[] = [
     hardware: "None (Minimalist pure leather construction)",
     brandingOptions: ["Custom Central Motif Deboss", "Interior Logo Stamp", "Custom Foil Gift Box"],
     packagingOptions: ["4-in-1 Collector Box Set", "Individual Velvet Dust Pouches"],
-    moq: "100 units across 4 colorways",
-    sampleLeadTime: "5 to 7 working days",
-    productionLeadTime: "25 to 30 days",
+    moq: "100 pcs (Stock Leather) / 200 pcs (Custom Dye)",
+    sampleLeadTime: "5–7 business days (Stock Leather) · 12–15 business days (Custom Dye/Hardware)",
+    productionLeadTime: "25 to 30 business days",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
@@ -140,11 +140,12 @@ export const PRODUCTS: Product[] = [
     name: "The Vintage Heritage Leather Weekender Duffel",
     category: "Travel & Duffel Bags",
     categorySlug: "travel-bags",
+    secondaryCategorySlugs: ["artisan-travel-duffels"],
     shortDescription: "Heavy-duty full-grain distressed cowhide travel duffel featuring front buckle organizer pocket, dual side shoe chambers, and solid brass fittings.",
     fullDescription: "A flagship silhouette engineered for world travel, luxury weekend escapes, and airline carry-on standards. Constructed from 2.0mm distressed pull-up cowhide with reinforced rolled leather handles, heavy-gauge antique brass zippers, twin buckled front pocket, and ventilated side zippered compartments.",
     images: [
       "/images/flagship-travel-duffel.jpg",
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1200&q=80"
+      "/images/panel-5.jpg"
     ],
     leatherType: "Heavy Full-Grain Waxed Pull-Up Cowhide (2.0mm – 2.2mm)",
     tannage: "Distressed Aniline Veg-Tan with Oil Wax Infusion",
@@ -159,9 +160,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Solid Antique Brass Buckles, Studs, and Heavy-Gauge Zippers",
     brandingOptions: ["Front Pocket Flap Leather Deboss", "Metal Zipper Pull Engraving", "Luggage Tag Monogram"],
     packagingOptions: ["Heavy Non-Woven Dustbag", "Reinforced Export 5-Ply Shipping Carton"],
-    moq: "40 units per batch",
-    sampleLeadTime: "10 to 14 working days",
-    productionLeadTime: "35 to 45 days",
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "30 to 40 business days",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
@@ -190,7 +191,7 @@ export const PRODUCTS: Product[] = [
       "/images/panel-4-business.jpg"
     ],
     leatherType: "Full-Grain Waxed Pull-Up Cowhide (2.0mm)",
-    tannage: "Eco-Conscious LWG Tannery Certified Veg-Tan / Chrome-Free",
+    tannage: "LWG Partner Tannery Audited Veg-Tan / Chrome-Free",
     colors: ["Cognac Amber", "Tobacco Brown", "Espresso Black", "Tuscan Tan"],
     dimensions: {
       length: "40",
@@ -202,9 +203,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Solid Cast Brass Roller Buckles, D-Rings & Swivel Clips (Antique Finish)",
     brandingOptions: ["Blind Heat Debossing", "Metallic Gold / Silver Foil Stamp", "Custom Metal Logo Plate"],
     packagingOptions: ["Organic Cotton Drawstring Dustbag", "Custom Branded Rigid Gift Box", "Export Master Carton"],
-    moq: "50 units per colorway (Flexible trial batch for new brand launches)",
-    sampleLeadTime: "7 to 10 working days",
-    productionLeadTime: "30 to 40 days upon pre-production sample sign-off",
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "30 to 40 business days upon pre-production sample sign-off",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
@@ -224,8 +225,8 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    id: "UL-TR-601",
-    slug: "grand-tour-leather-duffel-weekender",
+    id: "UL-BB-601",
+    slug: "manhattan-executive-zippered-leather-briefcase",
     name: "The Manhattan Executive Zippered Leather Briefcase",
     category: "Laptop & Business Bags",
     categorySlug: "laptop-and-business-bags",
@@ -236,7 +237,7 @@ export const PRODUCTS: Product[] = [
       "/images/panel-4-business.jpg"
     ],
     leatherType: "Semi-Aniline Glazed Full-Grain Calfskin (1.8mm – 2.0mm)",
-    tannage: "Italian Semi-Aniline Chromium-Free Drum-Dyed Tanning",
+    tannage: "LWG Partner Tannery Chromium-Free Drum-Dyed Tanning",
     colors: ["Dark Espresso", "Deep Mahogany", "Midnight Black"],
     dimensions: {
       length: "42",
@@ -248,9 +249,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Solid Brass Heavy-Gauge Zippers & Custom Swivel Snap Hardware",
     brandingOptions: ["Micro-Inlay Metal Lettering", "Blind Heat Deboss", "Foil Hot Stamp"],
     packagingOptions: ["Organic Cotton Breathable Dustbag", "Rigid Presentation Packaging", "Export Master Box"],
-    moq: "50 units per colorway",
-    sampleLeadTime: "7 to 10 working days",
-    productionLeadTime: "30 to 35 days post sign-off",
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "30 to 35 business days post sign-off",
     customizationAvailable: true,
     featured: false,
     keyFeatures: [
@@ -261,7 +262,7 @@ export const PRODUCTS: Product[] = [
       "Padded central compartment dedicated for 15-inch and 16-inch laptops"
     ],
     specs: [
-      { label: "Product Code", value: "UL-TR-601" },
+      { label: "Product Code", value: "UL-BB-601" },
       { label: "Panel", value: "Panel 18" },
       { label: "Laptop Compatibility", value: "Fits up to 16\" MacBook Pro" },
       { label: "Leather Origin", value: "Full-Grain Calfskin (Grade A)" },
@@ -271,7 +272,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "UL-BL-701",
-    slug: "artisan-feather-edge-dress-belt",
+    slug: "artisan-distressed-leather-utility-belt-pouch",
     name: "The Artisan Distressed Leather Utility Belt Pouch",
     category: "Leather Belts",
     categorySlug: "leather-belts",
@@ -294,9 +295,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Solid Forged Antiqued Silver Roller Buckle & Industrial Bar-Tack Seams",
     brandingOptions: ["Back Belt Loop Heat Deboss", "Front Flap Monogram", "Custom Metal Rivets"],
     packagingOptions: ["Artisan Craft Paper Box", "Drawstring Cotton Pouch"],
-    moq: "80 units per batch",
-    sampleLeadTime: "5 to 7 working days",
-    productionLeadTime: "25 to 35 days",
+    moq: "100 pcs (Stock Leather) / 200 pcs (Custom Dye)",
+    sampleLeadTime: "5–7 business days (Stock Leather) · 12–15 business days (Custom Dye/Hardware)",
+    productionLeadTime: "25 to 35 business days",
     customizationAvailable: true,
     featured: false,
     keyFeatures: [
@@ -316,8 +317,8 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    id: "UL-JK-801",
-    slug: "savile-lambskin-racer-leather-jacket",
+    id: "UL-WL-801",
+    slug: "heritage-bifold-leather-wallet-trio-gift-box",
     name: "The Heritage Bifold Wallet Trio in Wooden Gift Box",
     category: "Wallets & Cardholders",
     categorySlug: "wallets-and-cardholders",
@@ -328,7 +329,7 @@ export const PRODUCTS: Product[] = [
       "/images/panel-6.jpg"
     ],
     leatherType: "Full-Grain Vegetable-Tanned Bovine Leather & Box Calf (1.2mm)",
-    tannage: "Certified LWG Pure Vegetable Tannage with Aniline Wax Finish",
+    tannage: "LWG Partner Tannery Pure Vegetable Tannage with Aniline Wax Finish",
     colors: ["Saddle Tan / Espresso / Onyx Black (3-Piece Collection)"],
     dimensions: {
       length: "11.5",
@@ -340,9 +341,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Integrated Military-Grade RFID Shielding & Solid Brass Dovetail Box Plate",
     brandingOptions: ["Internal Gold Foil Monogram", "Blind Heat Deboss on Wallet Exterior", "Laser Engraved Wooden Box Lid"],
     packagingOptions: ["Artisan Dovetail Solid Wood Gift Box Included", "Satin Dustwraps & Master Carton"],
-    moq: "50 gift sets (Custom laser engraved wooden lids included)",
-    sampleLeadTime: "7 to 10 working days",
-    productionLeadTime: "30 to 35 days",
+    moq: "50 Gift Sets (150 Wallets Total) / 100 Sets Custom",
+    sampleLeadTime: "5–7 business days (Stock Leather) · 12–15 business days (Custom Dye/Hardware)",
+    productionLeadTime: "28 to 35 business days",
     customizationAvailable: true,
     featured: false,
     keyFeatures: [
@@ -353,7 +354,7 @@ export const PRODUCTS: Product[] = [
       "Certified RFID protection shielding credit cards from unauthorized contactless scans"
     ],
     specs: [
-      { label: "Product Code", value: "UL-JK-801" },
+      { label: "Product Code", value: "UL-WL-801" },
       { label: "Panel", value: "Panel 20" },
       { label: "Set Contents", value: "3 Bifold Wallets + 1 Dovetail Solid Wooden Box" },
       { label: "Card Capacity", value: "8 Dedicated Card Slots + 2 Receipt Pockets per wallet" },
@@ -362,8 +363,8 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    id: "UL-SG-901",
-    slug: "bespoke-travel-passport-folio",
+    id: "UL-HB-901",
+    slug: "cerulean-knotted-sculptural-leather-tote",
     name: "The Cerulean Knotted Sculptural Leather Tote",
     category: "Tote Bags",
     categorySlug: "tote-bags",
@@ -374,7 +375,7 @@ export const PRODUCTS: Product[] = [
       "/images/panel-7-tote.jpg"
     ],
     leatherType: "Supple Full-Grain Nappa Calfskin (1.8mm)",
-    tannage: "Eco-Conscious LWG Tannery Certified Chrome-Free Soft Tanning",
+    tannage: "LWG Partner Tannery Chrome-Free Soft Tanning",
     colors: ["Powder Cerulean Blue", "Blush Rose", "Sage Green", "Tuscan Ivory"],
     dimensions: {
       length: "36",
@@ -386,9 +387,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Minimalist Concealed Magnetic Closure / Anti-Tarnish Brass Base Studs",
     brandingOptions: ["Subtle Blind Heat Deboss", "Foil Hot Stamp", "Custom Metal Charm Tag"],
     packagingOptions: ["Organic Cotton Breathable Dustbag", "Rigid Presentation Packaging"],
-    moq: "50 units per colorway",
-    sampleLeadTime: "7 to 10 working days",
-    productionLeadTime: "30 to 35 days post sign-off",
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "30 to 35 business days post sign-off",
     customizationAvailable: true,
     featured: false,
     keyFeatures: [
@@ -399,7 +400,7 @@ export const PRODUCTS: Product[] = [
       "Hand-burnished and beeswax-treated raw edge perimeter finishing"
     ],
     specs: [
-      { label: "Product Code", value: "UL-SG-901" },
+      { label: "Product Code", value: "UL-HB-901" },
       { label: "Panel", value: "Panel 21" },
       { label: "Primary Material", value: "Full-Grain Nappa Calfskin (Grade A)" },
       { label: "Handle Drop", value: "28 cm shoulder clearance" },
@@ -408,8 +409,8 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    id: "UL-CG-1001",
-    slug: "executive-leather-desk-mat-valet-set",
+    id: "UL-HB-1001",
+    slug: "sovereign-structured-pebbled-leather-satchel",
     name: "The Sovereign Structured Pebbled Leather Satchel",
     category: "Leather Handbags",
     categorySlug: "leather-handbags",
@@ -420,7 +421,7 @@ export const PRODUCTS: Product[] = [
       "/images/craftsmanship-black-handbag.png"
     ],
     leatherType: "Heavy Pebbled Full-Grain Cowhide (2.0mm)",
-    tannage: "LWG Gold-Rated Vegetable-Tanned Bovine",
+    tannage: "LWG Partner Tannery Vegetable-Retanned Bovine",
     colors: ["Obsidian Black with Crimson Interior", "Navy with Gold Interior", "Espresso with Tan Interior"],
     dimensions: {
       length: "38",
@@ -432,9 +433,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Solid Cast Brass Hardware with Mirror Pale Gold Plating",
     brandingOptions: ["Internal Laser-Numbered Leather Crest", "Blind Heat Deboss", "Custom Metal Logo Tag"],
     packagingOptions: ["Organic Cotton Breathable Dustbag", "Rigid Presentation Packaging", "Export Master Box"],
-    moq: "50 units per colorway",
-    sampleLeadTime: "7 to 10 working days",
-    productionLeadTime: "30 to 40 days post sign-off",
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "30 to 40 business days post sign-off",
     customizationAvailable: true,
     featured: false,
     keyFeatures: [
@@ -445,7 +446,7 @@ export const PRODUCTS: Product[] = [
       "Spacious triple-compartment interior with zippered central divider"
     ],
     specs: [
-      { label: "Product Code", value: "UL-CG-1001" },
+      { label: "Product Code", value: "UL-HB-1001" },
       { label: "Panel", value: "Panel 22" },
       { label: "Leather Type", value: "Heavy Pebbled Full-Grain Cowhide (2.0mm)" },
       { label: "Interior Lining", value: "Contrast Crimson Nappa Leather" },
@@ -454,8 +455,8 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    id: "UL-OEM-1101",
-    slug: "custom-developed-oem-brand-service",
+    id: "UL-CG-1101",
+    slug: "artisan-triangular-leather-desk-valet-case",
     name: "The Artisan Triangular Leather Desk Valet Case",
     category: "Corporate Gifts & Deskware",
     categorySlug: "corporate-gifts",
@@ -478,9 +479,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Solid Antique Cast Brass Stud Button & Heavy Waxed Thread",
     brandingOptions: ["Front Flap Blind Heat Deboss", "Laser Engraved Brass Button", "Custom Gift Box Monogram"],
     packagingOptions: ["Artisan Craft Gift Box with Custom Foam Insert", "Export Master Carton"],
-    moq: "80 units per batch",
-    sampleLeadTime: "7 to 10 working days",
-    productionLeadTime: "25 to 35 days",
+    moq: "100 pcs (Stock Leather) / 200 pcs (Custom Dye)",
+    sampleLeadTime: "5–7 business days (Stock Leather) · 12–15 business days (Custom Dye/Hardware)",
+    productionLeadTime: "25 to 35 business days",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
@@ -491,7 +492,7 @@ export const PRODUCTS: Product[] = [
       "Hand-beveled and beeswax-burnished edges with 0.4mm micro-creasing"
     ],
     specs: [
-      { label: "Product Code", value: "UL-OEM-1101" },
+      { label: "Product Code", value: "UL-CG-1101" },
       { label: "Panel", value: "Panel 23" },
       { label: "Structure", value: "Self-Standing Triangular Prism" },
       { label: "Leather Grade", value: "2.2mm Firm Waxed Pull-Up Cowhide" },
@@ -505,6 +506,7 @@ export const PRODUCTS: Product[] = [
     name: "The Heritage Two-Tone Saddle Leather Backpack",
     category: "Heritage Leather Backpacks",
     categorySlug: "heritage-backpacks",
+    secondaryCategorySlugs: ["backpacks"],
     shortDescription: "Rugged two-tone saddle leather rucksack featuring dual front buckle closures, gusseted side utility pockets, and reinforced bridle leather trim.",
     fullDescription: "Handcrafted from heavy-duty vegetable-tanned full-grain cowhide paired with contrasting black bridle-leather straps and antique brass buckle hardware. Features a spacious drawstring-cinched main compartment with padded laptop sleeve, dual exterior quick-access buckle pockets, and side flask pouches. Double-stitched bar tacks provide lifetime durability for global travel and heritage retail collections.",
     images: [
@@ -523,9 +525,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Solid Forged Brass Roller Buckles with Antique Finish",
     brandingOptions: ["Blind Heat Debossing", "Laser Engraved Hardware", "Woven Brand Label"],
     packagingOptions: ["Organic Cotton Dustbag", "Recycled Craft Box", "Export Master Carton"],
-    moq: "50 units per colorway",
-    sampleLeadTime: "7 to 10 working days",
-    productionLeadTime: "30 to 35 days post sign-off",
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "30 to 35 business days post sign-off",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
@@ -548,6 +550,7 @@ export const PRODUCTS: Product[] = [
     name: "The Houndstooth Jacquard & Nappa Leather Shopper",
     category: "Designer Jacquard Totes",
     categorySlug: "designer-jacquard-totes",
+    secondaryCategorySlugs: ["tote-bags"],
     shortDescription: "Signature houndstooth woven jacquard carryall trimmed in smooth black full-grain calfskin with matching leather accessory pouch.",
     fullDescription: "An exquisite blend of heritage houndstooth textile and premium Italian-grade full-grain nappa cowhide. Structured rectangular silhouette featuring double rolled leather shoulder handles, leather-reinforced base corners, and a detachable zippered nappa leather accessory pouch. Ideal for luxury boutique collections.",
     images: [
@@ -566,9 +569,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Solid Brass with Electroplated Matte Black & Pale Gold Finish",
     brandingOptions: ["Blind Heat Debossing", "Metallic Gold Foil Stamp", "Custom Metal Logo Tag"],
     packagingOptions: ["Organic Cotton Drawstring Dustbag", "Rigid Presentation Box", "Export Master Carton"],
-    moq: "50 units per colorway",
-    sampleLeadTime: "7 to 10 working days",
-    productionLeadTime: "30 to 35 days post sign-off",
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "30 to 35 business days post sign-off",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
@@ -591,6 +594,7 @@ export const PRODUCTS: Product[] = [
     name: "The Olive Artisan Vegetable-Tanned Travel Duffel",
     category: "Artisan Travel Duffels",
     categorySlug: "artisan-travel-duffels",
+    secondaryCategorySlugs: ["travel-bags"],
     shortDescription: "Handcrafted olive green pull-up leather weekender duffel featuring reinforced wrap-around handles and antique brass hardware.",
     fullDescription: "Engineered for discerning travelers and luxury resort luggage brands. Hand-built from 2.0mm full-grain pull-up cowhide in an earthy olive patina. Features continuous structural leather harness handles, heavy-gauge two-way brass zipper, detachable padded shoulder strap, and protective brass base feet.",
     images: [
@@ -609,9 +613,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Heavy-Gauge Antique Brass Zippers & Solid Cast Buckles",
     brandingOptions: ["Blind Heat Debossing", "Luggage Tag Laser Engraving", "Custom Metal Plaque"],
     packagingOptions: ["Organic Cotton Breathable Dustbag", "Export Shipping Master Carton"],
-    moq: "50 units per colorway",
-    sampleLeadTime: "7 to 10 working days",
-    productionLeadTime: "30 to 40 days post sign-off",
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "30 to 40 business days post sign-off",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
@@ -634,6 +638,7 @@ export const PRODUCTS: Product[] = [
     name: "The Emerald Crocodile-Embossed Executive Briefcase",
     category: "Croc-Embossed Briefcases",
     categorySlug: "croc-embossed-briefcases",
+    secondaryCategorySlugs: ["laptop-and-business-bags"],
     shortDescription: "Ultra-luxurious dark emerald crocodile-embossed calfskin laptop briefcase with dual perimeter gold zippers.",
     fullDescription: "A statement of timeless boardroom authority and bespoke leather luxury. Handcrafted from premium calfskin embossed with a high-relief crocodile scale pattern and high-gloss glaze finish. Equipped with dual golden perimeter zippers, front quick-access document zip pocket, structured rolled handles, and padded 16-inch laptop compartment.",
     images: [
@@ -652,9 +657,9 @@ export const PRODUCTS: Product[] = [
     hardware: "Mirror-Polished 24K Gold Electroplated Brass",
     brandingOptions: ["Micro-Inlay Metal Lettering", "Blind Heat Deboss", "Foil Hot Stamp"],
     packagingOptions: ["Velvet-Touch Gift Box", "Satin Dustbag", "Export Master Carton"],
-    moq: "50 units per colorway",
-    sampleLeadTime: "7 to 10 working days",
-    productionLeadTime: "30 to 35 days post sign-off",
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "30 to 35 business days post sign-off",
     customizationAvailable: true,
     featured: true,
     keyFeatures: [
@@ -669,6 +674,189 @@ export const PRODUCTS: Product[] = [
       { label: "Laptop Compatibility", value: "Up to 16\" MacBook Pro / ThinkPad" },
       { label: "Hardware Plating", value: "Electroplated 24K Pale Gold" },
       { label: "Closure", value: "Dual Perimeter Metal Teeth Zippers" }
+    ]
+  },
+  {
+    id: "UL-JK-1201",
+    slug: "savile-drum-dyed-lambskin-cafe-racer-jacket",
+    name: "The Savile Drum-Dyed Lambskin Cafe Racer Jacket",
+    category: "Leather Jackets & Apparel",
+    categorySlug: "leather-jackets",
+    shortDescription: "Supple 0.8mm–0.9mm full-grain drum-dyed Nappa lambskin Cafe Racer jacket with YKK Excella dual-way front zip, articulated gusseted shoulders, and Bemberg Cupro lining.",
+    fullDescription: "Engineered for international menswear and womenswear outerwear labels requiring butter-soft drape and multi-size grading precision (XS to 3XL). Cut from hand-matched 0.8mm–0.9mm full-grain drum-dyed Indian Nappa lambskin hides sourced from LWG-audited partner tanneries. Features bi-swing action back gussets, zippered sleeve cuffs, two vertical chest pockets, and a breathable 100% Bemberg Cupro satin interior lining with internal passport welt pockets.",
+    images: [
+      "/images/panel-8.jpg"
+    ],
+    leatherType: "Full-Grain Drum-Dyed Nappa Lambskin (0.8mm - 0.9mm gauge)",
+    tannage: "Chrome-VI Free Drum-Dyed Aniline & Semi-Aniline Finish",
+    colors: ["Jet Black", "Espresso Brown", "Cognac Tan", "Oxblood Burgundy"],
+    dimensions: {
+      length: "66",
+      width: "54",
+      height: "4",
+      unit: "cm"
+    },
+    lining: "100% Breathable Bemberg Cupro Satin Twill (Quilted Option Available)",
+    hardware: "YKK Excella #8 Antique Silver or Gunmetal 2-Way Zippers & Snap Collar",
+    brandingOptions: ["Woven Damask Neck Label", "Debossed Leather Hang Loop", "Custom Engraved Zipper Pullers", "Branded Garment Cover"],
+    packagingOptions: ["Contoured Coat Hanger", "Breathable Non-Woven Garment Bag", "Export Hang-On-Rod or Flat Carton"],
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "30 to 40 business days",
+    customizationAvailable: true,
+    featured: true,
+    keyFeatures: [
+      "Color-matched and thickness-calibrated Nappa lambskin panels across chest, yoke, and sleeves",
+      "Full CAD digital pattern grading across US, UK, EU, and Asian size charts (XS to 3XL)",
+      "Bi-swing rear shoulder gussets for unrestricted arm movement and tailored silhouette",
+      "YKK Excella #8 two-way main zipper with zippered gauntlet cuffs and snap throat tab",
+      "Dual interior leather-trimmed welt pockets for smartphone and travel documents"
+    ],
+    specs: [
+      { label: "Product Code", value: "UL-JK-1201" },
+      { label: "Leather Hide", value: "0.8mm–0.9mm Nappa Lambskin (Cowhide & Suede Options)" },
+      { label: "Size Grading", value: "Full CAD Grading (XS, S, M, L, XL, XXL, 3XL)" },
+      { label: "Main Zipper", value: "YKK Excella #8 Solid Metal Two-Way Zipper" },
+      { label: "Lining", value: "Breathable Bemberg Cupro or 3M Thinsulate Quilting" },
+      { label: "Compliance", value: "LWG Partner Tannery Hides · Batch REACH Testable" }
+    ]
+  },
+  {
+    id: "UL-HB-1002",
+    slug: "mayfair-east-west-smooth-box-calf-shoulder-bag",
+    name: "The Mayfair East–West Smooth Box-Calf Shoulder Bag",
+    category: "Leather Handbags",
+    categorySlug: "leather-handbags",
+    shortDescription: "Elongated horizontal East–West baguette shoulder bag crafted in 1.4mm glazed box calfskin with extended tubular twin straps, 0.4mm Fortuna turned edges, and YKK Excella #5 top zip.",
+    fullDescription: "Developed in our Kolkata pattern room for European and global Autumn/Winter 2026–2027 accessories collections. Handcrafted from 1.4mm semi-aniline glazed box calfskin reinforced with 1.0mm Italian Salpa leatherboard so the elongated horizontal silhouette holds its crisp architectural profile. Features extended 28cm-drop tubular rope-core twin shoulder straps, 0.4mm German Fortuna turned seams, 3-coat heat-sealed Italian Fenice edge paint, and a polished YKK Excella #5 top zipper.",
+    images: [
+      "/images/npd/npd-14.jpg",
+      "/images/craftsmanship-black-handbag.png"
+    ],
+    leatherType: "Semi-Aniline Glazed Box Calfskin (1.4mm – 1.5mm)",
+    tannage: "LWG Partner Tannery Chrome-Free Retanned Calfskin",
+    colors: ["Cognac Tan", "Espresso Chocolate", "Obsidian Black", "Oxblood Burgundy"],
+    dimensions: {
+      length: "31",
+      width: "9.5",
+      height: "14.5",
+      unit: "cm"
+    },
+    lining: "1.0mm Split Calf-Suede Interior with Leather-Welted Zip & Card Pocket",
+    hardware: "YKK Excella #5 Polished Brass Top Zipper & Solid Cast Brass Strap Rings (EN 1811 Nickel Tested)",
+    brandingOptions: ["24K Gold / Silver Foil Stamp", "Subtle Blind Heat Deboss", "Custom Engraved Zipper Puller", "Interior Leather Creed Patch"],
+    packagingOptions: ["100% Organic Cotton Drawstring Dustbag", "Rigid Presentation Box", "Moisture-Controlled Export Carton"],
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "28 to 35 business days post PPS sign-off",
+    customizationAvailable: true,
+    featured: false,
+    keyFeatures: [
+      "Elongated East–West horizontal baguette proportion (31 × 14.5 × 9.5 cm) for AW26/27 collections",
+      "1.4mm glazed box calfskin interlined with 1.0mm Italian Salpa board for crisp structure",
+      "Extended 28cm-drop tubular rope-core twin shoulder straps rated to 30 kg pull tension",
+      "0.4mm Fortuna bell-knife turned edges with 3 coats of hand-sanded Italian edge lacquer",
+      "YKK Excella #5 polished metal top zip with suede-lined interior and tethered card slot"
+    ],
+    specs: [
+      { label: "Factory SKU / Block", value: "UL-HB-1002 (AW26 East–West Block 01)" },
+      { label: "HS Code", value: "4202.21.10 (Leather Handbags)" },
+      { label: "Leather Gauge & Yield", value: "1.4mm Box Calfskin · ~8.5 sq. ft. per unit" },
+      { label: "Stitching & Edge Spec", value: "7 SPI Tex-70 Bonded Nylon · 0.4mm Turned Edge + 3-Coat Paint" },
+      { label: "Reinforcement", value: "1.0mm Italian Salpa Body + 1.8mm Texon Base Plate" },
+      { label: "Chemical Compliance", value: "LWG Partner Tannery · EU REACH (Cr VI < 3ppm, EN 1811) & Prop 65" }
+    ]
+  },
+  {
+    id: "UL-HB-1003",
+    slug: "milan-soft-crescent-pebbled-nappa-hobo-bag",
+    name: "The Milan Soft Crescent Pebbled Nappa Hobo Bag",
+    category: "Leather Handbags",
+    categorySlug: "leather-handbags",
+    shortDescription: "Slouchy crescent-silhouette shoulder hobo crafted from 1.3mm drum-milled pebble Nappa calfskin with ergonomic curved darts, concealed magnetic bridge, and solid brass strap buckle.",
+    fullDescription: "Engineered for effortless drape and supple tactile hand-feel, The Milan Soft Crescent Hobo is cut from 1.2–1.4mm drum-milled full-grain Nappa cowhide with natural micro-pebble grain. Constructed with precision-skived bottom gusset darts that create a sculpted crescent curve under the arm, an adjustable 32mm shoulder strap with a solid cast brass pin buckle, a concealed neodymium magnetic bridge closure, and a tethered interior leather zippered pouch.",
+    images: [
+      "/images/panel-11-bucket-bag.png",
+      "/images/npd/npd-12.jpg"
+    ],
+    leatherType: "Drum-Milled Full-Grain Pebbled Nappa Cowhide (1.2mm – 1.4mm)",
+    tannage: "LWG Partner Tannery Soft Drum-Milled Chrome-Free Tanning",
+    colors: ["Warm Cognac", "Onyx Black", "Dark Olive", "Taupe Sand"],
+    dimensions: {
+      length: "34",
+      width: "11",
+      height: "23",
+      unit: "cm"
+    },
+    lining: "280 GSM Organic Cotton Herringbone Twill with Tethered Leather Zip Pouch",
+    hardware: "Solid Cast Brass Pin Buckle, D-Rings & Concealed Neodymium Magnetic Bridge",
+    brandingOptions: ["Blind Heat Debossing", "Metallic Foil Stamp", "Custom 3D Molded Brass Buckle"],
+    packagingOptions: ["Organic Cotton Dustbag", "Acid-Free Tissue Stuffing", "5-Ply Export Master Carton"],
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "28 to 35 business days post PPS sign-off",
+    customizationAvailable: true,
+    featured: false,
+    keyFeatures: [
+      "Unstructured slouchy crescent silhouette cut from butter-soft 1.3mm drum-milled Nappa",
+      "Ergonomic curved base darts with 0.4mm skived internal French seams",
+      "Adjustable 5-hole shoulder strap converting from underarm hobo to short crossbody carry",
+      "Concealed high-strength magnetic topline bridge plus internal YKK zippered pocket",
+      "Includes detachable leather wristlet pouch on a solid brass dog-hook tether"
+    ],
+    specs: [
+      { label: "Factory SKU / Block", value: "UL-HB-1003 (AW26 Crescent Block 02)" },
+      { label: "HS Code", value: "4202.21.10 (Leather Handbags)" },
+      { label: "Leather Gauge & Yield", value: "1.2–1.4mm Drum-Milled Nappa · ~10.2 sq. ft. per unit" },
+      { label: "Stitching & Seam Spec", value: "6–7 SPI Tex-70 Nylon · Turned & Piped Base Dart Construction" },
+      { label: "Hardware", value: "72h Salt-Spray Tested Solid Brass (ASTM B117 / EN 1811)" },
+      { label: "Weight", value: "640 grams" }
+    ]
+  },
+  {
+    id: "UL-HB-902",
+    slug: "kensington-velvet-calf-suede-structured-work-tote",
+    name: "The Kensington Velvet Calf-Suede Structured Work Tote",
+    category: "Tote Bags",
+    categorySlug: "tote-bags",
+    shortDescription: "Reverse-buffed 1.4mm velvet calf-suede & bridle-trimmed executive shopper tote treated for Grade 4 ISO 11640 rub fastness, featuring a padded 15-inch laptop divider and brass base studs.",
+    fullDescription: "Designed for European and global autumn/winter collections requiring rich suede texture without color-transfer risk. Cut from 1.4mm reverse-buffed velvet calf suede (batch-treated and tested to ISO 11640 Grade 4 dry / Grade 3–4 wet crocking resistance) and framed with 1.8mm smooth full-grain bridle leather handles and base trim. Features a recessed YKK #5 brass top zipper, central padded 15-inch laptop compartment, and 2.0mm Texon base board with four solid brass feet.",
+    images: [
+      "/images/npd/npd-04.jpg",
+      "/images/flagship-tote-bag.jpg"
+    ],
+    leatherType: "1.4mm Reverse-Buffed Velvet Calf Suede + 1.8mm Full-Grain Bridle Trim",
+    tannage: "LWG Partner Tannery Suede with Hydrophobic & Crock-Resistant Fixative",
+    colors: ["Espresso Suede / Black Trim", "Snuff Tan Suede / Cognac Trim", "Loden Olive Suede / Dark Brown Trim"],
+    dimensions: {
+      length: "39",
+      width: "14.5",
+      height: "31",
+      unit: "cm"
+    },
+    lining: "280 GSM Yarn-Dyed Cotton Twill with Padded 15-Inch Laptop Partition",
+    hardware: "YKK #5 Recessed Brass Top Zipper, Solid Brass Strap Buckles & 4 Base Protector Studs",
+    brandingOptions: ["Smooth Leather Crest Deboss", "Gold Foil Stamp on Interior Patch", "Custom Engraved Brass Studs"],
+    packagingOptions: ["Breathable Cotton Dustbag", "Protective Suede Poly-Sleeve & Silica Gel", "Export Master Carton"],
+    moq: "50 pcs (Stock Leather) / 100 pcs (Custom Dye)",
+    sampleLeadTime: "7–14 business days (Stock Leather) · 14–21 business days (Custom Dye/Hardware)",
+    productionLeadTime: "30 to 38 business days post PPS sign-off",
+    customizationAvailable: true,
+    featured: false,
+    keyFeatures: [
+      "1.4mm velvet calf suede fixed to achieve Grade 4 ISO 11640 dry rub-fastness (anti-crocking)",
+      "Contrasting 1.8mm smooth full-grain bridle leather shoulder straps with 26cm drop",
+      "Recessed full-width YKK #5 solid brass top zipper for commuter security",
+      "Internal 5mm EVA-padded central partition accommodating 15-inch laptops",
+      "Structured 2.0mm Texon base board elevated on 4 solid cast brass floor studs"
+    ],
+    specs: [
+      { label: "Factory SKU / Block", value: "UL-HB-902 (AW26 Suede Tote Block 03)" },
+      { label: "HS Code", value: "4202.21.90 (Leather Tote & Shopper Bags)" },
+      { label: "Material & Yield", value: "1.4mm Calf Suede + 1.8mm Bridle Trim · ~14.5 sq. ft. per unit" },
+      { label: "Rub Fastness Standard", value: "ISO 11640 Grade 4 Dry / Grade 3.5 Wet · EU REACH Compliant" },
+      { label: "Stitching & Load", value: "6 SPI Bonded Nylon (Tex 70) · 15 kg Handle Pull-Tested" },
+      { label: "Laptop Capacity", value: "Fits up to 15\" / 16\" MacBook Pro" }
     ]
   }
 ];

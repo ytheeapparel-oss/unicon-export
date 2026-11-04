@@ -4,6 +4,7 @@ export interface Product {
   name: string;
   category: ProductCategory;
   categorySlug: string;
+  secondaryCategorySlugs?: string[];
   shortDescription: string;
   fullDescription: string;
   images: string[];
@@ -49,6 +50,12 @@ export type ProductCategory =
   | "Croc-Embossed Briefcases"
   | "Heritage Leather Backpacks";
 
+export interface CategoryManufacturingPillar {
+  title: string;
+  specBadge: string;
+  description: string;
+}
+
 export interface CategoryInfo {
   id: string;
   name: ProductCategory;
@@ -57,6 +64,17 @@ export interface CategoryInfo {
   description: string;
   image: string;
   featuredProductCount: number;
+  metaTitle: string;
+  metaDescription: string;
+  distinctH1: string;
+  hsCode: string;
+  moqSummary: string;
+  samplingTimeline: string;
+  hideSpecs: string;
+  sqftYield: string;
+  constructionAndStitching: string;
+  hardwareAndLining: string;
+  manufacturingPillars: CategoryManufacturingPillar[];
 }
 
 export interface InquiryFormData {

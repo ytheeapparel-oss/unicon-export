@@ -25,6 +25,7 @@ import {
   JsonLdScript,
   generateProductSchema,
   generateBreadcrumbSchema,
+  generateFaqSchema,
 } from "@/components/seo/JsonLdScript";
 
 interface ProductDetailClientProps {
@@ -39,12 +40,36 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
     (p) => p.id !== product.id && (p.category === product.category || p.featured)
   ).slice(0, 4);
 
+  const productFaqs = [
+    {
+      question: `What is the minimum order quantity (MOQ) and sampling lead time for the ${product.name} (${product.id})?`,
+      answer: `The wholesale MOQ for the ${product.name} (SKU: ${product.id}) is ${product.moq}. Physical pre-production counter-samples are crafted in ${product.sampleLeadTime}, and bulk production takes ${product.productionLeadTime} after golden sample sign-off.`,
+    },
+    {
+      question: `Can we customize the leather, dimensions, and private-label branding on ${product.name}?`,
+      answer: `Yes. While the standard specification uses ${product.leatherType} (${product.tannage}) at ${product.dimensions.length} × ${product.dimensions.width} × ${product.dimensions.height} ${product.dimensions.unit}, we offer full OEM/ODM customization including ${product.brandingOptions.join(", ")}, custom Pantone hide dyeing, and ${product.packagingOptions.join(", ")}.`,
+    },
+    {
+      question: `How is quality control and chemical compliance verified for ${product.name} shipments?`,
+      answer: `Every production run undergoes in-line and final pre-shipment AQL 2.5 physical inspection against your signed golden sample. Hides are procured from LWG-audited partner tanneries, and batches can be lab-tested via SGS or Intertek for EU/UK REACH Annex XVII and US Proposition 65 compliance.`,
+    },
+  ];
+
+  const categoryHref =
+    product.categorySlug === "corporate-gifts"
+      ? "/leather-accessories-manufacturer-india"
+      : product.categorySlug === "small-leather-goods"
+      ? "/small-leather-goods-manufacturer"
+      : `/products/${product.categorySlug}`;
+
   const breadcrumbsSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://www.uniconleather.com" },
     { name: "Catalogue", url: "https://www.uniconleather.com/products" },
-    { name: product.category, url: `https://www.uniconleather.com/products/${product.categorySlug}` },
+    { name: product.category, url: `https://www.uniconleather.com${categoryHref}` },
     { name: product.name, url: `https://www.uniconleather.com/products/${product.slug}` },
   ]);
+
+  const faqSchema = generateFaqSchema(productFaqs);
 
   const handleDownloadSpec = () => {
     setDownloadingSpec(true);
@@ -87,6 +112,7 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
     <>
       <JsonLdScript schema={generateProductSchema(product)} />
       <JsonLdScript schema={breadcrumbsSchema} />
+      <JsonLdScript schema={faqSchema} />
 
       <div className="w-full bg-white pb-24">
         {/* Top Breadcrumbs */}
@@ -95,7 +121,7 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
             <Breadcrumbs
               items={[
                 { label: "Catalogue", href: "/products" },
-                { label: product.category, href: `/products/${product.categorySlug}` },
+                { label: product.category, href: categoryHref },
                 { label: product.name },
               ]}
             />
@@ -160,7 +186,7 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
               </div>
               <div className="flex items-center gap-2.5">
                 <FileCheck className="w-4 h-4 text-cognac" />
-                <span>REACH & Prop 65 Lab Pass</span>
+                <span>LWG Partner Hides · REACH Testable</span>
               </div>
             </div>
           </div>
@@ -233,24 +259,40 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
             </div>
 
             {/* Action CTAs */}
-            <div className="flex flex-col sm:flex-row items-center gap-4">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 flex-wrap">
               <Button
                 variant="primary"
                 size="lg"
                 href="#inquire-now"
-                className="w-full sm:flex-1 py-4 text-sm"
+                className="w-full sm:flex-1 py-4 text-xs uppercase tracking-wider font-semibold"
               >
-                Inquire for Bulk Production
+                Request a Quote
               </Button>
               <Button
                 variant="outline"
                 size="lg"
+                href="/private-label"
+                className="w-full sm:w-auto py-4 text-xs uppercase tracking-wider font-semibold border-charcoal/30 text-charcoal hover:bg-charcoal hover:text-white"
+              >
+                Discuss Private Label Manufacturing
+              </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                href="#inquire-now"
+                className="w-full sm:w-auto py-4 text-xs uppercase tracking-wider font-semibold border-cognac/40 text-cognac hover:bg-cognac hover:text-white"
+              >
+                Request a Sample
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
                 onClick={handleDownloadSpec}
                 disabled={downloadingSpec}
-                className="w-full sm:w-auto py-4 text-sm border-charcoal/30 text-charcoal hover:border-charcoal"
+                className="w-full sm:w-auto py-2.5 text-xs border-charcoal/20 text-charcoal-600 hover:border-charcoal"
               >
-                <Download className="w-4 h-4 mr-2" />
-                {downloadingSpec ? "Generating..." : "Download Spec Sheet"}
+                <Download className="w-3.5 h-3.5 mr-1.5" />
+                {downloadingSpec ? "Generating..." : "Download Spec Sheet (.TXT)"}
               </Button>
             </div>
           </div>
@@ -333,7 +375,15 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
               <span className="font-bold text-charcoal block">Export Lead Times Summary:</span>
               <p className="text-charcoal-600">• Prototype Sample: {product.sampleLeadTime}</p>
               <p className="text-charcoal-600">• Batch Production: {product.productionLeadTime}</p>
-              <p className="text-charcoal-600">• Shipping Incoterms: FOB, CIF, DDP Available</p>
+              <p className="text-charcoal-600">• Shipping Incoterms: EXW, FOB, CIF, DDP Available</p>
+              <div className="pt-2 border-t border-charcoal/10 flex flex-wrap gap-3">
+                <Link href="/cost-calculator" className="text-cognac font-mono text-xs hover:underline">
+                  Estimate FOB Cost &amp; Hide Yield →
+                </Link>
+                <Link href="/leather-quality-sourcing-guide" className="text-charcoal font-mono text-xs hover:text-cognac hover:underline">
+                  Leather Grades Guide →
+                </Link>
+              </div>
             </div>
           </div>
 
@@ -344,6 +394,30 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
               inquiryType="bulk"
             />
           </div>
+        </div>
+      </section>
+
+      {/* Product-Specific B2B Ordering FAQs */}
+      <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 pt-4">
+        <div className="mb-6">
+          <span className="text-cognac text-[10px] font-mono font-semibold uppercase tracking-widest block">
+            SKU Procurement FAQ · {product.id}
+          </span>
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-charcoal mt-1">
+            Ordering &amp; Customization Questions for {product.name}
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {productFaqs.map((faq, idx) => (
+            <div key={idx} className="bg-charcoal-50 p-6 border border-charcoal/10 space-y-2">
+              <h3 className="font-serif text-base font-bold text-charcoal">
+                {faq.question}
+              </h3>
+              <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
+                {faq.answer}
+              </p>
+            </div>
+          ))}
         </div>
       </section>
 

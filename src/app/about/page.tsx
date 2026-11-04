@@ -20,16 +20,16 @@ import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdS
 import { COMPANY_INFO } from "@/data/company";
 
 export const metadata: Metadata = {
-  title: "About Us | Leather Bag Manufacturers in India & Exporter",
+  title: "About Us | Indian Leather Goods Manufacturer & OEM Exporter",
   description:
-    "Learn about UNICON LEATHER: premier leather bag manufacturers in India, our heritage, factory infrastructure, artisan master craftsmen, and B2B export capabilities for international luxury brands.",
+    "Learn about UNICON LEATHER: our Kolkata Leather Complex factory infrastructure, artisan pattern-makers, LWG partner tannery sourcing, and B2B OEM export capabilities.",
   alternates: {
     canonical: "https://www.uniconleather.com/about",
   },
   openGraph: {
     title: "About UNICON LEATHER | Leather Bag Manufacturers in India & Exporter",
     description:
-      "Premier leather bag manufacturers in India and luxury leather goods exporter. Verified OEM/ODM bag factory, low MOQs, and global export infrastructure.",
+      "Kolkata Leather Complex OEM/ODM bag and SLG factory with 50–100 pc trial MOQs, LWG partner tannery hides, and global B2B export logistics.",
     url: "https://www.uniconleather.com/about",
     type: "website",
     images: [
@@ -40,6 +40,13 @@ export const metadata: Metadata = {
         alt: "UNICON LEATHER Atelier & Heritage",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About UNICON LEATHER | Leather Bag Manufacturers in India & Exporter",
+    description:
+      "Kolkata Leather Complex OEM/ODM bag and SLG factory with 50–100 pc trial MOQs, LWG partner tannery hides, and global B2B export logistics.",
+    images: ["https://www.uniconleather.com/images/about-hero.jpg"],
   },
 };
 
@@ -54,7 +61,7 @@ export default function AboutPage() {
       <JsonLdScript schema={breadcrumbsSchema} />
       <div className="w-full bg-white pb-24">
         {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
-        <section className="relative w-full !mt-0 min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
+        <section className="relative w-full !mt-0 min-h-[65vh] sm:min-h-[75vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
           {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}
           <div className="absolute inset-0 w-full h-full">
             <img
@@ -84,7 +91,7 @@ export default function AboutPage() {
               </h1>
 
               <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light max-w-xl">
-                UNICON LEATHER is an export-dedicated manufacturing atelier and leading leather bag manufacturer in India, bridging generational Indian leathercraft with contemporary European finishing tolerances, audited ethical workplaces, and international trade compliance for global fashion labels.
+                UNICON LEATHER is an export-dedicated leather goods manufacturing atelier in Kolkata, India, bridging generational Indian leathercraft with contemporary European finishing tolerances, LWG-audited partner tannery hides, and international trade compliance for global fashion labels.
               </p>
 
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
@@ -157,7 +164,7 @@ export default function AboutPage() {
               OEM/ODM Leather Goods Manufacturing & Export Atelier
             </h2>
             <p className="text-base sm:text-lg text-charcoal-700 leading-relaxed font-light">
-              <strong className="text-charcoal font-semibold">UNICON LEATHER</strong> (Unicon Leather Goods Export Private Limited) is a premier OEM/ODM leather goods manufacturer and export atelier located in Kolkata, India. We partner with fashion labels, boutique brands, department store buying houses, and corporate gifting distributors across Europe, the UK, and North America.
+              <strong className="text-charcoal font-semibold">UNICON LEATHER</strong> (Unicon Leather Goods Export Private Limited) is an OEM/ODM leather goods manufacturer and export atelier located in the Kolkata Leather Complex (Bantala), India. We partner with fashion labels, boutique brands, department store buying houses, and corporate gifting distributors across Europe, the UK, North America, the GCC, and Asia-Pacific.
             </p>
           </div>
 
@@ -205,7 +212,7 @@ export default function AboutPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-cognac font-bold">•</span>
-                  <span>100% compliant with EU REACH Annex XVII regulations (Chromium VI &lt;3ppm, Azo-dye free, nickel-free hardware) and California Proposition 65.</span>
+                  <span>Batch-tested via SGS or Intertek upon request for EU REACH Annex XVII regulations (Chromium VI &lt;3ppm, Azo-dye free, nickel-free hardware) and California Proposition 65.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-cognac font-bold">•</span>
@@ -223,7 +230,7 @@ export default function AboutPage() {
               <ul className="space-y-2.5 text-xs sm:text-sm text-charcoal-600">
                 <li className="flex items-start gap-2">
                   <span className="text-cognac font-bold">•</span>
-                  <span><strong>Low MOQs:</strong> 100–300 pcs per handbag style; 200–500 pcs for wallets and SLGs.</span>
+                  <span><strong>Flexible Tiered MOQs:</strong> 50 pcs per style (stock-leather trial) or 100 pcs (custom drum-dyed) for handbags &amp; jackets; 100–200 pcs for wallets &amp; belts.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-cognac font-bold">•</span>

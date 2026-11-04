@@ -59,7 +59,7 @@ export const EXPORT_HUBS: Record<string, ExportHubConfig> = {
       },
       {
         title: "Low Production Minimums",
-        text: "100–300 pcs per style (vs. traditional Asian factory minimums of 500–1,000 pcs), allowing multi-colorway batching.",
+        text: "50 pcs (stock leather trial) or 100 pcs (custom dye) per style for bags (vs. traditional factory minimums of 500–1,000 pcs), allowing multi-colorway batching.",
       },
       {
         title: "Rapid Prototyping Turnaround",
@@ -122,15 +122,15 @@ export const EXPORT_HUBS: Record<string, ExportHubConfig> = {
     faqs: [
       {
         question: "What are Unicon Leather's MOQs for US brands?",
-        answer: "Our minimum order quantity starts at 100 units per style for leather handbags and travel bags, and 200 units for small leather goods (wallets, cardholders). Multi-color batching is supported.",
+        answer: "Our minimum order quantity starts at 50 units per style (stock leather trial) or 100 units (custom dye) for leather handbags, travel bags, and jackets, and 100–200 units for small leather goods (wallets, cardholders, belts). Multi-color batching is supported.",
       },
       {
         question: "Do you provide DDP (Delivered Duty Paid) shipping to the United States?",
         answer: "Yes. We manage full export documentation, air or ocean freight, US customs clearance, and domestic delivery directly to your US warehouse or 3PL facility.",
       },
       {
-        question: "Are your leather goods certified compliant with California Proposition 65?",
-        answer: "Yes. All hides, hardware, adhesives, and edge paints are certified by SGS or Intertek to meet strict California Prop 65 limits for lead, cadmium, and phthalates.",
+        question: "Are your leather goods compliant with California Proposition 65?",
+        answer: "Yes. We source hides from LWG-audited partner tanneries and use finishes engineered to meet California Prop 65 limits for lead, cadmium, and phthalates, with batch SGS or Intertek lab testing available prior to shipment.",
       },
       {
         question: "How long does physical sampling take to arrive in the US?",
@@ -225,7 +225,7 @@ export const EXPORT_HUBS: Record<string, ExportHubConfig> = {
       },
       {
         question: "What is your MOQ for emerging New York labels?",
-        answer: "Our minimum is 100 units per style. You can split this across 2 colorways (e.g. 50 Black, 50 Cognac) to test market demand with minimal inventory exposure.",
+        answer: "Our minimum starts at 50 units per style (using in-stock atelier leathers) or 100 units per style (custom drum-dyed hides). You can split across 2 colorways to test market demand with minimal inventory exposure.",
       },
     ],
     categoryFilter: ["handbags", "totes", "business-bags", "wallets"],
@@ -402,12 +402,12 @@ export const EXPORT_HUBS: Record<string, ExportHubConfig> = {
     ],
     faqs: [
       {
-        question: "How do you guarantee EU REACH chemical safety for German buyers?",
-        answer: "Every batch is lab-tested by SGS or TÜV. We certify Chromium VI below 3 ppm (DIN EN ISO 17075), zero banned AZO dyes, and nickel release compliant with EN 1811.",
+        question: "How do you verify EU REACH chemical safety for German buyers?",
+        answer: "We source hides from LWG-audited partner tanneries and support per-batch lab testing via SGS, Intertek, or TÜV to verify Chromium VI below 3 ppm (DIN EN ISO 17075), zero banned AZO dyes, and nickel release compliant with EN 1811.",
       },
       {
         question: "What is your production lead time for European orders?",
-        answer: "Prototyping takes 7 to 14 days from CAD tech pack review. Commercial bulk production runs take 30 to 40 days following pre-production sample sign-off.",
+        answer: "Prototyping takes 7 to 14 business days from CAD tech pack review. Commercial bulk production runs take 25 to 40 business days following pre-production sample sign-off.",
       },
     ],
     categoryFilter: ["handbags", "totes", "business-bags", "wallets"],
@@ -420,8 +420,8 @@ export const EXPORT_HUBS: Record<string, ExportHubConfig> = {
     hreflang: "en-gb",
     metaTitle: "Private Label Leather Bags Manufacturer for UK & London Brands",
     metaDescription:
-      "Bespoke private label leather bags manufacturer for British fashion houses and London boutiques. SEDEX audited, UK REACH compliant, low 100 MOQ, DDP London.",
-    kicker: "UK & British Designer Sourcing Hub · SEDEX Audited · DDP London Gateway",
+      "Bespoke private label leather bags manufacturer for British fashion houses and London boutiques. Open-factory SMETA audit ready, UK REACH testable, 50–100 MOQ, DDP London.",
+    kicker: "UK & British Designer Sourcing Hub · Open-Factory Audit Ready · DDP London Gateway",
     h1: "Private Label Leather Bags Manufacturer for UK & London Brands",
     subtitle:
       "Dedicated OEM & private label manufacturing for British fashion houses, heritage labels, and independent London boutiques. Combining time-honored artisanal leathercraft with strict UK/EU REACH compliance, SEDEX ethical auditing, and seamless CIF/DDP logistics to the United Kingdom.",
@@ -430,8 +430,8 @@ export const EXPORT_HUBS: Record<string, ExportHubConfig> = {
       "British brands demand heritage styling, durable bridle hardware, and uncompromised ethical pedigree. Unicon Leather partners with UK fashion labels to deliver bespoke private-label collections tailored to British consumer aesthetics.",
     strategicBridgeBullets: [
       {
-        title: "SEDEX SMETA 4-Pillar Audited",
-        text: "Ethical labor standards, fair wages, zero child labor, and verified health and safety environments.",
+        title: "SEDEX SMETA Audit-Ready (Open-Factory Policy)",
+        text: "Ethical labor standards, fair wages, zero child labor, and open-door readiness for buyer-appointed social compliance audits.",
       },
       {
         title: "Direct DDP UK Door Delivery",
@@ -684,5 +684,385 @@ export const EXPORT_HUBS: Record<string, ExportHubConfig> = {
       },
     ],
     categoryFilter: ["totes", "travel-bags", "wallets", "belts"],
+  },
+
+  "canada/private-label-leather-bags-toronto-vancouver": {
+    region: "canada",
+    slug: "private-label-leather-bags-toronto-vancouver",
+    targetMarket: "Canada (Toronto, Vancouver & Montreal)",
+    hreflang: "en-ca",
+    metaTitle: "Private Label Leather Bags Manufacturer Toronto & Vancouver | DDP Canada",
+    metaDescription:
+      "Private label & OEM leather goods manufacturer for Canadian fashion brands in Toronto, Vancouver, and Montreal. CBSA CARM ready, CCPSA compliant, low 50-100 MOQ.",
+    kicker: "Canadian Fashion Corridor · CBSA CARM & CCPSA Compliant · DDP Toronto / Vancouver",
+    h1: "Private Label Leather Bags & OEM Manufacturer for Toronto, Vancouver & Montreal Brands",
+    subtitle:
+      "Turnkey contract manufacturing for Canadian contemporary fashion labels, heritage outdoor brands, and corporate retail groups. Cold-weather conditioned full-grain hides, LWG Gold traceability, low 50–100 piece MOQs, and all-inclusive DDP shipping to Ontario, British Columbia, and Quebec.",
+    strategicBridgeTitle: "Engineered for Canadian Retail Standards & Four-Season Durability",
+    strategicBridgeText:
+      "From King West design studios in Toronto to Gastown lifestyle labels in Vancouver and Mile End ateliers in Montreal, Canadian brands require leather goods that withstand sub-zero winters without edge-paint cracking while maintaining luxury retail margins. Unicon Leather formulates cold-flex Fenice edge coatings and fat-liquored drum-dyed hides tailored for North American climates.",
+    strategicBridgeBullets: [
+      {
+        title: "Cold-Crack Resistant Edge Finishing",
+        text: "4-coat Italian Fenice edge lacquers flex-tested to -20°C and natural oil-infused pull-up leathers engineered for Canadian winter wear.",
+      },
+      {
+        title: "Turnkey CBSA CARM & DDP Clearance",
+        text: "Door-to-door Delivered Duty Paid (DDP) shipping to Toronto (GTA), Vancouver, and Montreal 3PLs with CBSA customs duties and GST/HST pre-cleared.",
+      },
+      {
+        title: "Accessible 50–100 Piece Boutique MOQs",
+        text: "Launch seasonal capsule collections at 50 units (stock leather trial) or 100 units (custom drum-dyed hides) with multi-colorway flexibility.",
+      },
+    ],
+    complianceTitle: "Canadian Regulatory, Chemical & Ethical Compliance",
+    complianceBullets: [
+      {
+        title: "Canada Consumer Product Safety Act (CCPSA)",
+        text: "Third-party SGS/Intertek verification for lead (<90 mg/kg), cadmium, phthalates, andazo-free dyes compliant with Health Canada regulations.",
+      },
+      {
+        title: "Bilingual Packaging & Labeling Support",
+        text: "Support for English/French bilingual care labels, FSC-certified hangtags, and Quebec Bill 96 compliant retail packaging upon request.",
+      },
+      {
+        title: "LWG Gold/Silver & SEDEX Audited",
+        text: "100% traceable Leather Working Group hides and ethical factory operations meeting Hudson's Bay, Holt Renfrew, and Simons vendor standards.",
+      },
+    ],
+    logisticsTableTitle: "Logistics & Customs: India to Toronto, Vancouver & Montreal",
+    logisticsRows: [
+      {
+        attribute: "Canadian Ports & Air Hubs",
+        specification: "Port of Vancouver & Port of Montreal (Ocean FCL/LCL) · Toronto Pearson (YYZ) & Vancouver (YVR) Air Cargo.",
+      },
+      {
+        attribute: "Transit Schedules",
+        specification: "Air Express (DHL/FedEx): 3 to 5 business days · Ocean Freight: 24 to 30 days to Vancouver / Montreal.",
+      },
+      {
+        attribute: "Customs & HS Classification",
+        specification: "HS 4202.21 / 4202.31 / 4203.10 pre-classified for CBSA CARM portal with certified Certificate of Origin.",
+      },
+      {
+        attribute: "Currency & Invoicing",
+        specification: "Commercial quotes and DDP landed invoicing supported in USD ($) and Canadian Dollars (CAD $).",
+      },
+    ],
+    capabilitiesTitle: "High-Demand Leather Silhouettes for Canadian Brands",
+    capabilities: [
+      {
+        title: "Structured Work Totes & Commuter Bags",
+        description: "Padded 16-inch laptop totes and weather-resistant pebbled calfskin carryalls for urban professionals.",
+      },
+      {
+        title: "Heritage Pull-Up Backpacks & Duffels",
+        description: "Rugged crazy horse and waxed full-grain weekender bags with solid antique brass hardware.",
+      },
+      {
+        title: "Tailored Shearling & Lambskin Jackets",
+        description: "Insulated leather bombers, moto jackets, and trench coats graded to North American sizing.",
+      },
+      {
+        title: "RFID Wallets & Feather-Edge Belts",
+        description: "Turned-edge calf nappa cardholders and 3.8mm vegetable-tanned bridle leather belts.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do you handle CBSA customs clearance and CARM requirements for Canadian deliveries?",
+        answer: "Yes. Under our DDP (Delivered Duty Paid) shipping option, our licensed Canadian customs brokerage partners manage all CBSA declarations, CARM filings, and tariff payments directly to your warehouse door.",
+      },
+      {
+        question: "What is the minimum order quantity for emerging Toronto or Vancouver fashion labels?",
+        answer: "We offer a 50-piece per style trial MOQ using stocked LWG-certified leathers (split across 2 colors) and 100 pieces per style for custom Pantone drum-dyed hides.",
+      },
+    ],
+    categoryFilter: ["totes", "backpacks", "travel-bags", "leather-jackets"],
+  },
+
+  "middle-east/luxury-leather-goods-manufacturer-dubai-uae": {
+    region: "middle-east",
+    slug: "luxury-leather-goods-manufacturer-dubai-uae",
+    targetMarket: "UAE, Dubai, Riyadh & GCC",
+    hreflang: "en-ae",
+    metaTitle: "Luxury Leather Goods Manufacturer for Dubai, UAE & Saudi Brands | 0% CEPA Duty",
+    metaDescription:
+      "Bespoke luxury leather goods and corporate gifting manufacturer for Dubai, Abu Dhabi, Riyadh & GCC brands. 0% duty under India-UAE CEPA, 24K gold hardware, DDP Dubai.",
+    kicker: "GCC Luxury & Corporate Hub · 0% Duty India-UAE CEPA · DDP Dubai & Riyadh",
+    h1: "Luxury Leather Goods & Bespoke OEM Manufacturer for Dubai, UAE & GCC Brands",
+    subtitle:
+      "Haute maroquinerie contract manufacturing and VIP corporate gifting for Dubai luxury houses, Riyadh fashion retail groups, and 5-star hospitality brands. Leverage 0% preferential import duty under the India-UAE CEPA treaty, 3-day air cargo to DXB, and 24K PVD gold hardware customization.",
+    strategicBridgeTitle: "Capitalizing on the India-UAE CEPA 0% Tariff Corridor & Gulf Luxury Standards",
+    strategicBridgeText:
+      "Under the Comprehensive Economic Partnership Agreement (CEPA) between India and the United Arab Emirates, qualified Indian leather handbags, wallets, executive gifts, and garments enter the UAE duty-free. Combined with 3-hour flight connectivity to Dubai International Airport (DXB) and fast sea transit to Jebel Ali, Unicon Leather serves as a high-speed production atelier for Gulf luxury labels.",
+    strategicBridgeBullets: [
+      {
+        title: "0% Customs Duty via India-UAE CEPA",
+        text: "Eliminate the standard 5% GCC customs tariff on UAE imports with our government-issued CEPA Certificate of Origin.",
+      },
+      {
+        title: "24K Gold PVD Hardware & Exotic Embossing",
+        text: "Custom CNC-machined solid brass locks plated in 24K gold or palladium, paired with deep hydraulic crocodile, ostrich, and Saffiano embossing.",
+      },
+      {
+        title: "VIP Corporate, Royal & Hospitality Gifting",
+        text: "Bespoke rigid magnetic presentation boxes, Arabic/English dual-script hot-foil calligraphy stamping, and passport/oud travel cases.",
+      },
+    ],
+    complianceTitle: "GCC Regulatory, Halal-Compliant Bovine & Quality Assurance",
+    complianceBullets: [
+      {
+        title: "100% Traceable Bovine & Ovine Hides",
+        text: "Strictly genuine cow, buffalo, calf, and lambskin leathers with veterinary health certificates—100% free of porcine materials.",
+      },
+      {
+        title: "UAE & SASO SABER Import Readiness",
+        text: "Complete conformity documentation, HS code itemization, and lab reports supporting UAE Dubai Customs and Saudi SASO SABER clearance.",
+      },
+      {
+        title: "Heat & Humidity Resistant Finishes",
+        text: "High-temp tested edge lacquers (up to 55°C) and colorfast drum-dyed hides that resist rub-off on light linen and traditional Gulf attire.",
+      },
+    ],
+    logisticsTableTitle: "Logistics & Trade Terms: India to Dubai, Abu Dhabi, Riyadh & Doha",
+    logisticsRows: [
+      {
+        attribute: "GCC Air & Sea Gateways",
+        specification: "Jebel Ali Port, Khalifa Port & Dammam (Ocean) · Dubai (DXB), Riyadh (RUH) & Doha (DOH) Air Cargo.",
+      },
+      {
+        attribute: "Express Transit Times",
+        specification: "Air Freight: 2 to 4 business days to Dubai/Riyadh · Ocean Container: 10 to 14 days to Jebel Ali Port.",
+      },
+      {
+        attribute: "Preferential Trade Treaty",
+        specification: "India-UAE CEPA Certificate of Origin (0% UAE Duty) · GCC Certificate of Origin for Saudi Arabia, Qatar & Kuwait.",
+      },
+      {
+        attribute: "Delivery Incoterms",
+        specification: "DDP Dubai / Abu Dhabi / Riyadh warehouse door-to-door, CIF Jebel Ali, or FOB Indian Ports.",
+      },
+    ],
+    capabilitiesTitle: "Signature Collections Manufactured for GCC Luxury & Corporate Buyers",
+    capabilities: [
+      {
+        title: "Croc-Embossed & Saffiano Handbags",
+        description: "Architectural top-handle bags, evening clutches, and abaya-complementing structured totes with 24K gold hardware.",
+      },
+      {
+        title: "VIP Executive & Ramadan Gifting Suites",
+        description: "Custom-boxed leather desk sets, passport folios, fragrance travel cases, and cardholders with gold foil branding.",
+      },
+      {
+        title: "Bespoke Men's Sandals, Belts & Wallets",
+        description: "Full-grain calfskin bifold wallets, minimal card sleeves, and hand-burnished formal belts.",
+      },
+      {
+        title: "Luxury Weekender & Cabin Holdalls",
+        description: "Supple Nappa and Tuscan vegetable-tanned travel duffels and garment bags for private aviation and boutique retail.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How do UAE brands claim 0% import duty under the India-UAE CEPA agreement?",
+        answer: "We register every UAE export consignment with Indian trade authorities and issue an official preferential CEPA Certificate of Origin. When cleared through Dubai Customs (or handled automatically under our DDP service), the 5% import tariff is waived to 0%.",
+      },
+      {
+        question: "Can you emboss Arabic calligraphy logos and supply luxury presentation boxes?",
+        answer: "Yes. We precision-engrave brass dies from your vector artwork for both Arabic calligraphy and Latin logos, and manufacture custom velvet-lined rigid magnetic gift boxes in-house.",
+      },
+    ],
+    categoryFilter: ["handbags", "business-bags", "wallets", "travel-bags"],
+  },
+
+  "europe/artisan-leather-bag-manufacturer-milan-italy": {
+    region: "europe",
+    slug: "artisan-leather-bag-manufacturer-milan-italy",
+    targetMarket: "Italy, Milan & Southern Europe",
+    hreflang: "en-it",
+    metaTitle: "Artisan Leather Bag Manufacturer for Italian & Milan Brands | Pelletteria OEM",
+    metaDescription:
+      "High-precision pelletteria contract manufacturer for Milanese and Italian fashion labels. 0.4mm Fortuna skiving, Fenice edge ink, EU REACH, LWG Gold hides, DDP Milan.",
+    kicker: "Pelletteria Artigianale · 0.4mm Fortuna Skiving · DDP Milan / Genoa",
+    h1: "Artisan Leather Bag & Pelletteria Contract Manufacturer for Italian & European Labels",
+    subtitle:
+      "Supporting Milanese fashion houses, Florentine leather designers, and European contemporary brands with scalable, high-precision OEM manufacturing. Combining Italian chemical finishing (Fenice edge lacquers, Stahl finishes) and German Fortuna skiving with competitive Indian atelier economics.",
+    strategicBridgeTitle: "Bridging Italian Pelletteria Craftsmanship with Scalable Atelier Capacity",
+    strategicBridgeText:
+      "As domestic production costs and capacity bottlenecks challenge independent Italian and European labels, Unicon Leather provides a transparent, ethically audited manufacturing bridge. Our master artisans work with imported Italian edge paints, LWG Gold-certified vegetable-tanned and Nappa hides, and 0.4mm micro-skiving tolerances to uphold European luxury standards.",
+    strategicBridgeBullets: [
+      {
+        title: "Italian Finishing Chemistry & Edge Paint",
+        text: "Genuine multi-coat Fenice edge inking, heated crease lines (filettatura), and hand-burnished vegetable-tanned borders.",
+      },
+      {
+        title: "German Fortuna 0.4mm Micro-Skiving",
+        text: "Precision feather-edge and turned-edge folding (rimbocco) with computer-calibrated stitch density (SPI) using Serafil threads.",
+      },
+      {
+        title: "Direct DDP Milan, Florence & Rome Logistics",
+        text: "3–5 day DHL/FedEx air cargo to Malpensa (MXP) and 18–22 day Mediterranean sea freight via Port of Genoa and La Spezia.",
+      },
+    ],
+    complianceTitle: "Strict EU REACH, EUDR & Italian Chemical Compliance",
+    complianceBullets: [
+      {
+        title: "EU REACH Annex XVII Certified",
+        text: "SGS/TÜV laboratory certified Chromium VI < 3 ppm (ISO 17075), zero banned AZO colorants, and EN 1811 nickel-free hardware.",
+      },
+      {
+        title: "LWG Gold Traceability & EUDR Readiness",
+        text: "Full tannery-to-atelier hide traceability documentation supporting European deforestation-free and ESG reporting mandates.",
+      },
+      {
+        title: "SEDEX SMETA Audit Readiness",
+        text: "Open-factory policy welcoming buyer-appointed third-party social, labor, and environmental compliance audits accepted by European department stores.",
+      },
+    ],
+    logisticsTableTitle: "Logistics & Customs: India to Milan, Florence & Italy",
+    logisticsRows: [
+      {
+        attribute: "Italian Entry Gateways",
+        specification: "Port of Genoa, La Spezia & Trieste (Ocean FCL/LCL) · Milan Malpensa (MXP) & Rome Fiumicino (FCO) Air Cargo.",
+      },
+      {
+        attribute: "Transit Timelines",
+        specification: "Air Express: 3 to 5 business days to Milan · Mediterranean Sea Route: 18 to 24 days via Suez corridor.",
+      },
+      {
+        attribute: "Customs & TARIC Codes",
+        specification: "TARIC 4202 21 00 / 4202 31 00 with REX Registered Exporter documentation and full EUR (€) commercial invoicing.",
+      },
+      {
+        attribute: "Quality Assurance",
+        specification: "100% piece-by-piece light-table inspection and final ISO 2859-1 (AQL 2.5) pre-shipment report.",
+      },
+    ],
+    capabilitiesTitle: "Pelletteria Categories Produced for Italian & European Designers",
+    capabilities: [
+      {
+        title: "Structured Calfskin Shoulder Bags & Satchels",
+        description: "Architectural silhouettes with reinforcement salpa/microfiber interlinings and custom PVD brass closures.",
+      },
+      {
+        title: "Vegetable-Tanned Totes & Crossbodies",
+        description: "Natural drum-dyed vacchetta and pull-up leather bags that develop rich Mediterranean patina.",
+      },
+      {
+        title: "Piccola Pelletteria (SLGs & Wallets)",
+        description: "Ultra-slim turned-edge cardholders, coin purses, and zip-around continental wallets.",
+      },
+      {
+        title: "Tailored Nappa & Suede Outerwear",
+        description: "0.7mm drum-dyed lambskin and goat suede jackets crafted with Italian Riri/YKK Excella zippers.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can we ship our own Italian hardware or leather hides to your atelier for assembly?",
+        answer: "Yes. We support both full-package OEM sourcing (using our LWG Gold partner tanneries) and cut-make-trim (CMT/semi-OEM) programs where you consign specialty Italian hardware or hides under bonded export import protocols.",
+      },
+      {
+        question: "Do you quote in Euros (EUR) with door-to-door delivery to Milan or Florence?",
+        answer: "Yes. All commercial quotations and DDP invoices can be issued directly in Euros (€), covering freight and customs clearance straight to your Italian studio or 3PL.",
+      },
+    ],
+    categoryFilter: ["handbags", "totes", "wallets", "leather-jackets"],
+  },
+
+  "australia/custom-leather-bags-sydney-melbourne": {
+    region: "australia",
+    slug: "custom-leather-bags-sydney-melbourne",
+    targetMarket: "Sydney, Melbourne & Brisbane (Australia)",
+    hreflang: "en-au",
+    metaTitle: "Custom Leather Bags Manufacturer Sydney & Melbourne | 0% Duty ECTA",
+    metaDescription:
+      "Custom private label leather bags & wallet manufacturer for Sydney, Melbourne & Brisbane fashion labels. 0% import duty under Australia-India ECTA, low 50-100 MOQ.",
+    kicker: "Sydney & Melbourne Designer Hub · 0% ECTA Tariff · DDP East Coast Australia",
+    h1: "Custom Leather Bags & Private Label Manufacturer for Sydney, Melbourne & Brisbane Labels",
+    subtitle:
+      "Direct factory OEM/ODM manufacturing for Australian fashion boutiques, Bondi & Fitzroy lifestyle labels, and national retail groups. Combine 0% duty-free imports under the Australia-India ECTA treaty with accessible 50–100 unit MOQs and DAFF-compliant DDP delivery.",
+    strategicBridgeTitle: "Why Sydney & Melbourne Fashion Labels Are Shifting Production to India",
+    strategicBridgeText:
+      "Australian designers face high minimum order quantities in China and rising freight costs. Unicon Leather empowers Sydney, Melbourne, Brisbane, and Perth brands to launch luxury full-grain leather collections at 50 to 100 pieces per style while saving 5% on landed customs tariffs via the India-Australia ECTA free trade agreement.",
+    strategicBridgeBullets: [
+      {
+        title: "0% Duty-Free Landed Cost Advantage",
+        text: "Every shipment includes an official ECTA Certificate of Origin, eliminating Australian customs duty on leather bags, belts, wallets, and jackets.",
+      },
+      {
+        title: "100% DAFF Biosecurity Pre-Cleared",
+        text: "Fully tanned, kiln-dried, and ISPM-15 packed shipments engineered to clear Australian Department of Agriculture (DAFF) inspections with zero quarantine delays.",
+      },
+      {
+        title: "Boutique-Friendly 50–100 Unit MOQs",
+        text: "Test new silhouettes in Sydney and Melbourne boutiques with 50-piece stock-leather trial runs before scaling to 500+ unit seasonal drops.",
+      },
+    ],
+    complianceTitle: "Australian Biosecurity, Ethical & Chemical Standards",
+    complianceBullets: [
+      {
+        title: "DAFF & BICON Import Compliance",
+        text: "Manufacturer declarations and tanning certificates confirming complete commercial tanning compliance under Australian BICON biosecurity rules.",
+      },
+      {
+        title: "Modern Slavery Act & Open-Factory Transparency",
+        text: "Transparent, open-factory supply chain welcoming buyer-appointed social compliance audits to support Australian Modern Slavery Act reporting.",
+      },
+      {
+        title: "LWG Certified Chrome-Free & Veg-Tan Hides",
+        text: "Eco-conscious vegetable-tanned and LWG Gold-rated bovine leathers preferred by sustainability-focused Australian consumers.",
+      },
+    ],
+    logisticsTableTitle: "Shipping & Customs: India to Sydney, Melbourne, Brisbane & Perth",
+    logisticsRows: [
+      {
+        attribute: "Australian Ports of Entry",
+        specification: "Port Botany (Sydney), Port of Melbourne, Port of Brisbane & Fremantle · SYD, MEL & BNE Air Cargo.",
+      },
+      {
+        attribute: "Ocean & Air Transit Times",
+        specification: "Air Priority (DHL/FedEx): 3 to 5 business days · Direct Ocean Freight: 16 to 22 days.",
+      },
+      {
+        attribute: "Duty & GST Handling",
+        specification: "0% Customs Duty via ECTA COO · Complete DDP delivery available with Australian GST & customs brokerage managed.",
+      },
+      {
+        attribute: "Sample Turnaround",
+        specification: "7 to 10 business days for custom prototype counter-samples delivered to your Sydney or Melbourne studio.",
+      },
+    ],
+    capabilitiesTitle: "Bestselling Leather Categories for Sydney & Melbourne Brands",
+    capabilities: [
+      {
+        title: "Slouchy Hobos, Crossbodies & Resort Totes",
+        description: "Buttery-soft milled pebble leather and woven leather everyday bags tailored for coastal Australian fashion.",
+      },
+      {
+        title: "Executive Laptop Bags & Work Satchels",
+        description: "Structured full-grain briefcases and tech folios designed for Sydney CBD and Melbourne corporate retail.",
+      },
+      {
+        title: "Outback-Grade Travel Duffels & Belts",
+        description: "Heavy 3.8mm bridle leather belts and waxed crazy horse weekender bags built for rugged longevity.",
+      },
+      {
+        title: "Minimalist Wallets & Status Cardholders",
+        description: "Custom debossed calfskin bifolds, zip coin pouches, and MagSafe/RFID card sleeves.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Will our leather bags get held up by Australian DAFF biosecurity customs?",
+        answer: "No. All our leathers are 100% commercially finished bovine/ovine hides accompanied by formal Manufacturer Tanning Declarations and moisture-sealed packaging that fully satisfy Australian DAFF BICON import conditions.",
+      },
+      {
+        question: "How quickly can we get physical samples in Sydney or Melbourne?",
+        answer: "Once we review your tech pack or reference photos, physical prototypes are crafted in 7–10 business days and delivered via DHL Express to Sydney or Melbourne in 3–4 days.",
+      },
+    ],
+    categoryFilter: ["totes", "handbags", "travel-bags", "wallets"],
   },
 };

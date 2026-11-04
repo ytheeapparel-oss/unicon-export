@@ -7,11 +7,11 @@ export const COMPANY_INFO = {
   locationCity: "Noida / Kolkata",
   locationState: "Uttar Pradesh / West Bengal",
   country: "India",
-  factoryAddress: "Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala, Kolkata, West Bengal 700135, India",
+  factoryAddress: "Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex, Kolkata, West Bengal 743502, India",
   noidaOfficeAddress: "Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106, Noida, Uttar Pradesh 201304, India",
-  fullAddress: "Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106, Noida, UP 201304 (Factory: Zone 3, Calcutta Leather Complex, Bantala, Kolkata 700135), India",
+  fullAddress: "Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106, Noida, UP 201304 (Factory: Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex, Kolkata 743502), India",
   primaryEmail: "uniconexport@gmail.com",
-  secondaryEmail: "work@uniconleather.net",
+  secondaryEmail: "uniconexport@gmail.com",
   phone: "+91 9873102341",
   whatsapp: "+91 9873102341",
   whatsappDirectUrl: "https://wa.me/919873102341?text=Hello%20Unicon%20Leather%20Team%2C%20I%20am%20interested%20in%20discussing%20a%20B2B%20manufacturing%20inquiry.",
@@ -21,80 +21,81 @@ export const COMPANY_INFO = {
   businessModel: "B2B Manufacturing, Wholesale Export, OEM, ODM, Private-Label Manufacturing, and Bespoke Product Development",
   targetMarkets: ["United States", "United Kingdom", "Germany", "France", "Italy", "Australia", "Canada", "United Arab Emirates", "Japan", "Nordic Countries"],
   
-  // MOQ Guidelines (B2B transparent guidance)
+  // MOQ Guidelines (B2B transparent tiered guidance: Stock Trial vs. Custom Tannery Dye)
   moq: {
-    general: "100–300 pcs per style (varies by product category & leather type)",
-    walletsSmallGoods: "200–500 pcs per style",
-    handbagsTotes: "100–200 pcs per style",
-    jacketsApparel: "50–100 pcs per style",
-    customHardware: "500 pcs minimum for custom mould development (stock luxury hardware available at lower MOQs)",
-    sampling: "Available for qualified buyers (1–3 prototype units per tech pack)",
+    general: "50 pcs per style (In-Stock Core Leathers) | 100–200 pcs (Custom Drum-Dyed Leathers)",
+    walletsSmallGoods: "100 pcs (Stock Leather Trial) | 200 pcs per style (Custom Drum-Dyed)",
+    handbagsTotes: "50 pcs (Stock Leather Trial) | 100 pcs per style (Custom Drum-Dyed)",
+    jacketsApparel: "50–100 pcs per style across size run (XS–4XL)",
+    customHardware: "300–500 pcs minimum for custom 3D mould development (stock solid brass & YKK hardware available at 50-pc MOQs)",
+    sampling: "Available for qualified B2B buyers (1–3 prototype units per tech pack; sample fee credited toward bulk PO)",
   },
 
   // Turnaround Times
   leadTimes: {
-    sampling: "7 to 14 business days upon tech pack & leather approval",
-    production: "30 to 45 days post-sample sign-off & deposit confirmation",
-    repeatOrders: "25 to 35 days for re-orders with existing moulds",
+    sampling: "5–7 business days (Wallets/Belts) | 7–14 business days (Structured Bags, Briefcases & Jackets)",
+    production: "25 to 40 business days post-Pre-Production Sample (PPS) sign-off & deposit confirmation",
+    repeatOrders: "20 to 30 business days for re-orders with existing patterns & moulds",
   },
 
   // Logistics & Trade Terms
   tradeTerms: {
-    incoterms: ["FOB (Free On Board)", "CIF (Cost, Insurance & Freight)", "DDP (Delivered Duty Paid)", "EXW (Ex Works)"],
-    nearestAirports: ["Netaji Subhash Chandra Bose International (CCU)", "Chennai International (MAA)"],
-    nearestSeaports: ["Kolkata Port (SMP)", "Chennai Port", "JNPT Mumbai"],
-    courierPartners: ["DHL Express", "FedEx International Priority", "UPS Worldwide Saver", "Air Freight Forwarders"],
+    incoterms: ["FOB (Free On Board)", "CIF (Cost, Insurance & Freight)", "DDP (Delivered Duty Paid — Air & Sea)", "EXW (Ex Works)"],
+    nearestAirports: ["Netaji Subhash Chandra Bose International (CCU)", "Indira Gandhi International (DEL)"],
+    nearestSeaports: ["Kolkata Port (SMP)", "Mundra Port", "JNPT Nhava Sheva (Mumbai)"],
+    courierPartners: ["DHL Express", "FedEx International Priority", "UPS Worldwide Saver", "Air & Sea Freight Forwarders"],
   },
 
-  // Verifiable Certifications & Audit Readiness
+  // Verifiable Supply-Chain Credentials, Lab Testing & Audit Readiness
+  // Explicitly distinguishes: (1) Raw Material Partner Tanneries, (2) Third-Party Accredited Lab Testing, and (3) Factory QMS & Social Audit Readiness
   certifications: [
     {
       id: "lwg",
-      name: "Leather Working Group (LWG) Audited Tanneries",
-      issuedBy: "LWG Approved Supply Chain",
+      name: "Leather Working Group (LWG) Audited Partner Tanneries",
+      issuedBy: "Tier 02 · Partner-Tannery Raw Hide Credential (Kolkata & Chennai Clusters)",
       status: "Partner Tannery" as const,
-      description: "100% of our cowhide, sheepskin, and buff calf hides originate from leather from LWG-certified tanneries with traceable leather sourcing, ensuring closed-loop wastewater management and sustainable vegetable tanning.",
-      certificateNumberPlaceholder: "[Partner Tannery LWG Reg ID: Available Upon Buyer Request]"
-    },
-    {
-      id: "wrap",
-      name: "WRAP Compliant Manufacturing",
-      issuedBy: "Worldwide Responsible Accredited Production",
-      status: "Verified" as const,
-      description: "Operating as a WRAP compliant leather manufacturer India, our production facilities enforce 12 foundational principles of lawful, humane, and ethical workplace conditions.",
-      certificateNumberPlaceholder: "[WRAP Facility Audit Reference: On File]"
-    },
-    {
-      id: "iso",
-      name: "ISO Certified Quality & Environmental Systems",
-      issuedBy: "International Organization for Standardization",
-      status: "Verified" as const,
-      description: "Recognized as an ISO certified leather supplier India (ISO 9001:2015 Quality Management & ISO 14001 Environmental Management) for zero-defect contract manufacturing.",
-      certificateNumberPlaceholder: "[ISO 9001:2015 & ISO 14001 Cert No: Available Upon Request]"
-    },
-    {
-      id: "smeta",
-      name: "SMETA Audited Ethical Manufacturing",
-      issuedBy: "Sedex Members Ethical Trade Audit",
-      status: "Verified" as const,
-      description: "As a SMETA audited leather manufacturer, we undergo rigorous 2-pillar and 4-pillar audits covering labor standards, health and safety, environmental stewardship, and business ethics.",
-      certificateNumberPlaceholder: "[Sedex SMETA Audit Report Reference: Inquire with Export Desk]"
+      description: "Unicon Leather is a cut-and-sew manufacturer, not a raw-hide wet-blue tannery. We procure full-grain cowhide, calfskin, buffalo, and vegetable-tanned hides exclusively from LWG Gold/Silver audited partner tanneries operating with CETP/ZLD effluent treatment and EUDR deforestation-free geolocation traceability.",
+      certificateNumberPlaceholder: "Scope: Crust & Finished Bovine/Ovine Hides · Validity: 24-Month LWG Audit Cycle · Partner Tannery URN & Chain-of-Custody Disclosed on Proforma Invoice"
     },
     {
       id: "reach",
-      name: "EU REACH Annex XVII Compliance",
-      issuedBy: "European Chemical Agency Standards",
+      name: "EU & UK REACH Annex XVII Chemical Testing (DIN EN ISO 17075-1 / EN 1811)",
+      issuedBy: "Tier 03 · Batch-Specific Accredited Lab Testing (SGS / Intertek / TÜV SÜD)",
       status: "Verified" as const,
-      description: "Materials rigorously tested to adhere to Annex XVII REACH regulations: Azo-dye free, Nickel-free hardware, Lead-free, and strict Chromium VI (<3ppm) compliance for European export.",
-      certificateNumberPlaceholder: "[Intertek / SGS Test Reports Available Per Batch]"
+      description: "Production lots of leather, linings, Fenice edge lacquers, and metal hardware are tested against EU Regulation (EC) No 1907/2006 (REACH Annex XVII): Chromium VI < 3.0 mg/kg (DIN EN ISO 17075-1:2017), banned Azo colorants < 30 mg/kg (EN ISO 17234-1:2020), and Nickel release < 0.50 µg/cm²/week (EN 1811:2023).",
+      certificateNumberPlaceholder: "Scope: Per Production Dye Lot / Hardware Batch · Validity: 12 Months per Tested Material Lot · Redacted SGS/TÜV Sample Reports Available Below"
     },
     {
       id: "prop65",
-      name: "California Proposition 65 Compliance",
-      issuedBy: "US Consumer Safety Benchmarks",
+      name: "US California Proposition 65 & CPSIA Safety Screening",
+      issuedBy: "Tier 03 · Batch-Specific Accredited Lab Testing (SGS / Bureau Veritas)",
       status: "Verified" as const,
-      description: "Heavy metals, phthalates, and formaldehyde testing performed through accredited third-party laboratories (SGS / Bureau Veritas) for US brand shipments.",
-      certificateNumberPlaceholder: "[Batch Test Certificate on File]"
+      description: "Total lead (< 90 ppm in surface coatings per 16 CFR 1303 / < 100 ppm in leather substrates per CPSC-CH-E1002-08.3), cadmium (< 75 ppm), and regulated ortho-phthalates (< 1,000 ppm per CPSC-CH-C1001-09.4) verified for North American shipments.",
+      certificateNumberPlaceholder: "Scope: Finished Goods & Hardware Coating Lots · Validity: Per Production Batch / 12-Month Material Lot · MSDS & Lab Reports Supplied Prior to Dispatch"
+    },
+    {
+      id: "iso",
+      name: "ISO 2859-1 (AQL 2.5 Major / 4.0 Minor) Factory Quality Protocol",
+      issuedBy: "Tier 01 · Unicon Leather Factory Quality Management System (Kolkata & Noida)",
+      status: "Verified" as const,
+      description: "In-house 4-stage Quality Control executed directly by Unicon Leather: (1) incoming digital hide gauge & rub check, (2) in-line 0.4mm Fortuna skiving & SPI verification, (3) 100% light-table finishing & needle-detection scan, and (4) final ISO 2859-1 (AQL 2.5 Major / 4.0 Minor) pre-shipment inspection.",
+      certificateNumberPlaceholder: "Scope: 100% of Outbound Export Shipments · Validity: Continuous Factory Standard (2026–2027) · Signed AQL 2.5 Report & Moisture Log (< 14% RH) Issued Per PO"
+    },
+    {
+      id: "smeta",
+      name: "Open-Factory Social Compliance & Audit Policy (SEDEX SMETA / BSCI Aligned)",
+      issuedBy: "Tier 01 · Unicon Leather Factory Governance (Plot 676, 687, 944, 1084, CLC Zone 09)",
+      status: "Verified" as const,
+      description: "Our Kolkata manufacturing units enforce zero child or forced labor, statutory living wages, ventilated water-based adhesive stations, PPE compliance, and fire-safety protocols aligned with SEDEX SMETA 4-Pillar and amfori BSCI workplace standards.",
+      certificateNumberPlaceholder: "Scope: Cut-and-Sew & Finishing Ateliers · Audit Policy: Open-Door Access for Buyer-Appointed Inspectors (QIMA, SGS, Intertek, Bureau Veritas) with 48h Notice"
+    },
+    {
+      id: "trade",
+      name: "Government-Registered Indian Export House (DGFT IEC, CLE & Preferential Origin)",
+      issuedBy: "Tier 01 · Unicon Leather Goods Export Pvt. Ltd. Corporate & Customs Credentials",
+      status: "Verified" as const,
+      description: "Incorporated Indian export entity (Unicon Leather Goods Export Private Limited) holding active DGFT Importer-Exporter Code (IEC), GST registration, and Council for Leather Exports (CLE) membership—authorized to issue EU REX statements, India–Australia ECTA (0% Duty), and India–UAE/Japan/Korea CEPA Certificates of Origin.",
+      certificateNumberPlaceholder: "Scope: Direct Commercial Export (HS 4202 & 4203) · Status: Active Standing Registration (2012–2026+) · Full Customs Dossier Issued with Every Shipment"
     }
   ],
 
@@ -135,11 +136,11 @@ export const COMPANY_INFO = {
       shortTitle: "Kolkata Manufacturing Factory",
       city: "Kolkata, West Bengal",
       badge: "Manufacturing Hub",
-      address: "Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala, Kolkata, West Bengal 700135, India",
-      mapUrl: "https://maps.google.com/?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata+West+Bengal+700135",
-      searchUrl: "https://www.google.com/search?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata",
-      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata+West+Bengal+700135",
-      embedUrl: "https://maps.google.com/maps?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata+West+Bengal+700135&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      address: "Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex, Kolkata, West Bengal 743502, India",
+      mapUrl: "https://maps.google.com/?q=Kolkata+Leather+Complex+Zone+09+Bantala+Kolkata+West+Bengal+743502",
+      searchUrl: "https://www.google.com/search?q=Kolkata+Leather+Complex+Zone+09+Bantala+Kolkata",
+      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Kolkata+Leather+Complex+Zone+09+Bantala+Kolkata+West+Bengal+743502",
+      embedUrl: "https://maps.google.com/maps?q=Kolkata+Leather+Complex+Zone+09+Bantala+Kolkata+West+Bengal+743502&t=&z=14&ie=UTF8&iwloc=&output=embed",
       latitude: 22.5085,
       longitude: 88.4687,
       visitingNotice: "Full-scale OEM/ODM cutting, skiving, stitching, hardware assembly & international container dispatch.",

@@ -24,7 +24,7 @@ export function CategoryCard({ category, panelNumber, onClick }: CategoryCardPro
 
   return (
     <Link
-      href={`/products?category=${encodeURIComponent(category.name)}`}
+      href={`/products/${category.slug}`}
       onClick={handleClick}
       className="group block bg-white border border-charcoal/12 hover:border-cognac shadow-xs hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col justify-between text-left hover:-translate-y-1 rounded-none"
     >
@@ -51,7 +51,9 @@ export function CategoryCard({ category, panelNumber, onClick }: CategoryCardPro
             {panelNumber ? `LINE ${String(panelNumber).padStart(2, '0')}` : "LINE"}
           </span>
           <span className="text-[9.5px] font-mono font-medium text-charcoal-700 bg-white/95 backdrop-blur-xs px-2 py-0.5 border border-charcoal/10 shadow-xs">
-            {category.featuredProductCount}+ Styles
+            {category.id === "wallets" || category.id === "belts"
+              ? "OEM · 100–200 MOQ"
+              : "OEM · 50–100 MOQ"}
           </span>
         </div>
       </div>

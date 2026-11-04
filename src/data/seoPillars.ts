@@ -37,16 +37,16 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     kicker: "Direct Factory B2B Production · Noida & Kolkata",
     metaTitle: "Leather Bags Manufacturer India | OEM & Custom Bag Factory",
     metaDescription:
-      "Premier leather bags manufacturer in India. Custom OEM/ODM production for luxury handbags, totes, duffels, briefcases & backpacks. Low MOQs, LWG certified tanneries, global export.",
+      "Leather bags manufacturer in India. Custom OEM/ODM production for luxury handbags, totes, duffels, briefcases & backpacks. 50–100 pc trial MOQs, LWG partner tanneries, global export.",
     canonicalUrl: "https://www.uniconleather.com/leather-bags-manufacturer-india",
     heroSubtitle:
-      "Partner with India's leading leather bags manufacturer. From CAD technical packs and Pantone leather strike-offs to precision saddle-stitching and worldwide DDP/FOB export shipping.",
+      "Partner with UNICON LEATHER's Kolkata manufacturing atelier. From CAD technical packs and Pantone leather strike-offs to precision saddle-stitching and worldwide DDP/FOB export shipping.",
     categoryFilter: ["handbags", "totes", "backpacks", "business-bags", "travel-bags"],
     specs: [
-      { label: "Minimum Order Quantity (MOQ)", value: "100 pcs per style (multi-colorway batching available)" },
-      { label: "Sample Prototyping Lead Time", value: "7 to 10 business days via DHL / FedEx Express" },
-      { label: "Bulk Production Timeline", value: "30 to 45 business days upon sample approval" },
-      { label: "Leather Tannages Sourced", value: "Full-Grain Bovine, Veg-Tan Tuscan Style, Nappa Calfskin, Waxed Pull-Up" },
+      { label: "Minimum Order Quantity (MOQ)", value: "50 pcs (stock leather trial) / 100 pcs per style (custom drum-dyed)" },
+      { label: "Sample Prototyping Lead Time", value: "7 to 14 business days via DHL / FedEx Express" },
+      { label: "Bulk Production Timeline", value: "25 to 40 business days upon sample approval" },
+      { label: "Leather Tannages Sourced", value: "Full-Grain Bovine, Veg-Tan Tuscan Style, Nappa Calfskin, Waxed Pull-Up (LWG partner tanneries)" },
       { label: "Hardware Standards", value: "Forged solid brass, zinc alloy, PVD vacuum plating (72h salt-spray tested)" },
       { label: "Quality Inspection Protocol", value: "100% in-line QC + AQL 2.5 final pre-shipment audit reports" }
     ],
@@ -70,16 +70,16 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     ],
     faqs: [
       {
-        question: "What makes UNICON LEATHER a leading leather bags manufacturer in India?",
-        answer: "We combine multi-generational master leather artisans with modern precision cutting and Italian edge-finishing machinery. Our partner tanneries are LWG certified, ensuring REACH compliance, and our low MOQs make custom production accessible to both emerging designer brands and established global retail chains."
+        question: "Why partner with UNICON LEATHER for custom leather bag manufacturing in India?",
+        answer: "We combine multi-generational master leather artisans in the Kolkata Leather Complex with precision hydraulic cutting and Italian edge-finishing machinery. Our partner tanneries are LWG-audited, supporting batch EU REACH testing via SGS/Intertek, and our 50–100 piece trial MOQs make custom production accessible to both emerging designer brands and established retail buyers."
       },
       {
         question: "What is your MOQ for manufacturing custom leather bags?",
-        answer: "Our standard minimum order quantity for leather bags is 100 units per style. For new brand launches, we offer flexible leather batching across multiple colorways using shared hide lots."
+        answer: "Our standard minimum order quantity for leather bags is 50 units per style using in-stock atelier leathers (split across 2 colorways), or 100 units per style for custom Pantone drum-dyed hides."
       },
       {
         question: "Can you manufacture from our proprietary CAD drawings or sketches?",
-        answer: "Yes. Simply share your CAD files, sketches, or physical counter-sample. Our master patternmakers generate 2D/3D cut patterns, bill of materials (BOM), and deliver pre-production prototypes within 7–10 days under NDA."
+        answer: "Yes. Simply share your CAD files, sketches, or physical counter-sample. Our master patternmakers generate 2D/3D cut patterns, bill of materials (BOM), and deliver pre-production prototypes within 7–14 business days under NDA."
       }
     ],
     targetKeywords: [
@@ -497,69 +497,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather tool belts",
       "leather tool rolls",
       "leather bracelets",
-      "leather necklaces",
-      "leather earrings",
       "leather dog collars",
       "leather dog leashes",
       "leather dog harnesses",
-      "leather dog muzzles",
-      "corporate gifts",
-      "corporate gifting company",
-      "corporate gift manufacturers",
-      "corporate gift suppliers",
-      "corporate gift vendors",
-      "corporate gifts wholesale",
-      "customized corporate gifts",
-      "corporate gifts with logo",
-      "branded corporate gifts",
-      "personalized corporate gifts",
-      "logo printing on gifts",
-      "bulk corporate gifts",
-      "wholesale corporate gifts India",
-      "bulk promotional gifts",
-      "corporate gifting solutions",
-      "employee welcome kits",
-      "employee onboarding kits",
-      "employee engagement gifts",
-      "employee appreciation gifts",
-      "premium corporate gifts",
-      "luxury executive gifts",
-      "executive gift sets",
-      "premium business gifts",
-      "promotional gifts",
-      "promotional giveaways",
-      "branded merchandise",
-      "customized promotional products",
-      "eco-friendly corporate gifts",
-      "sustainable corporate gifts",
-      "jute gifts",
-      "cork gift items",
-      "corporate gifts Delhi",
-      "corporate gift manufacturers Delhi",
-      "corporate gift suppliers Delhi",
-      "corporate gifts Noida",
-      "corporate gifting companies Noida",
-      "corporate gift wholesalers Noida",
-      "corporate gifts Gurgaon",
-      "corporate gifting companies Gurugram",
-      "corporate gift suppliers Gurgaon",
-      "corporate gifting company Delhi NCR",
-      "corporate gift vendors NCR",
-      "corporate gifts Bangalore",
-      "corporate gift manufacturers Bengaluru",
-      "corporate gifts Pune",
-      "corporate gift suppliers Pune",
-      "corporate gifts Hyderabad",
-      "corporate gift manufacturers Hyderabad",
-      "corporate gifts Chennai",
-      "corporate gift suppliers Chennai",
-      "corporate gifts India",
-      "corporate gift manufacturers India",
-      "corporate gifts suppliers India",
-      "leather office bags",
-      "corporate laptop bags",
-      "executive briefcases",
-      "leather laptop bags wholesale",
       "leather corporate gifts",
       "leather gift sets",
       "executive leather gifts",
@@ -568,59 +508,10 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "corporate leather folders",
       "leather passport holders",
       "customized passport holders",
-      "corporate travel gifts",
-      "corporate backpacks",
-      "executive bags",
-      "branded duffle bags",
-      "trolley bags",
-      "crossbody bags",
-      "promotional paper bags",
-      "corporate diaries",
-      "customized notebooks",
-      "branded diaries",
-      "diary gift sets",
-      "promotional pens",
-      "customized metal pens",
-      "pen gift sets",
-      "wooden pen sets",
-      "corporate tech gifts",
-      "branded power banks",
-      "customized pen drives",
-      "Bluetooth speaker gifts",
-      "mobile accessories",
-      "branded water bottles",
-      "corporate flasks",
-      "customized sippers",
-      "flask gift sets",
-      "branded mouse pads",
-      "corporate calendars",
-      "pen holders",
-      "paperweights",
-      "visiting card holders",
-      "desk clocks",
-      "corporate T-shirts",
-      "promotional caps",
-      "branded jackets",
-      "customized polo shirts",
-      "trophy manufacturers",
-      "corporate awards",
-      "acrylic trophies",
-      "crystal trophies",
-      "metal trophies",
-      "wooden trophies",
-      "medals",
-      "Diwali gift hampers",
-      "corporate Diwali gifts",
-      "New Year gift sets",
-      "pooja gift sets",
-      "diya gift sets",
-      "lunch box gifts",
-      "household gifts",
-      "photo frames",
-      "wall clocks",
-      "aroma diffusers",
-      "car accessories"
-    
+      "leather desk accessories",
+      "leather cable organizers",
+      "leather luggage tags",
+      "leather keychains wholesale"
     ]
   },
 
@@ -782,12 +673,12 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "Enterprise OEM/ODM manufacturing engineered for global retail scale. Combining precision hydraulic cutting, ISO-aligned production management, and AQL 2.5 quality control.",
     categoryFilter: ["handbags", "totes", "business-bags", "travel-bags", "wallets"],
     specs: [
-      { label: "Production Capacity", value: "35,000+ leather goods and small accessories per month" },
-      { label: "OEM MOQ", value: "100–200 pcs per style; scalable to 5,000+ unit container shipments" },
-      { label: "Facility Audits", value: "SEDEX SMETA, BSCI, ISO 9001:2015 quality management" },
-      { label: "Material Traceability", value: "100% traceable hides from LWG certified tanneries" },
-      { label: "In-House Prototyping Lab", value: "5 master patternmakers with 20+ years atelier experience" },
-      { label: "Export Logistics Supported", value: "FOB Indian Seaports (Kolkata, Chennai, Mumbai), CIF, and DDP" }
+      { label: "Production Capacity", value: "Multi-line cut-and-sew production across our 4-plot Kolkata atelier (capacity confirmed per style complexity)" },
+      { label: "OEM MOQ", value: "50 pcs (Stock Leather Trial) / 100 pcs (Custom Drum-Dyed) for bags & jackets; 100–200 pcs for SLGs" },
+      { label: "Social & Quality Audits", value: "SEDEX SMETA / BSCI open-factory audit readiness & AQL 2.5 inspection" },
+      { label: "Material Traceability", value: "Full-grain and top-grain hides sourced from LWG-audited partner tanneries" },
+      { label: "In-House Prototyping Lab", value: "Dedicated CAD & physical patternmaking lab (7–14 business days sampling)" },
+      { label: "Export Logistics Supported", value: "EXW, FOB, CIF, and DDP via Air (DHL/FedEx) & Ocean (LCL/FCL)" }
     ],
     features: [
       {
@@ -813,12 +704,12 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
         answer: "OEM (Original Equipment Manufacturing) means we manufacture your custom designs according to your exact tech pack specifications. ODM (Original Design Manufacturing) means you select from our pre-developed factory designs and customize the leather, hardware, and branding."
       },
       {
-        question: "Can your factory scale to container-load orders?",
-        answer: "Yes, our production capacity exceeds 35,000 units monthly, enabling us to fulfill both low-MOQ test capsules and 20ft/40ft ocean container volume contracts."
+        question: "Can your factory scale from low-MOQ trials to container-load orders?",
+        answer: "Yes. Our 4-plot Kolkata Leather Complex atelier supports both 50–100 piece trial capsules and multi-line ocean container contracts, with dedicated production line allocation confirmed per style complexity."
       },
       {
         question: "What quality standards do you follow for OEM contracts?",
-        answer: "We strictly adhere to ISO 9001 and AQL 2.5 standards, providing comprehensive digital inspection reports including photo and video proof before shipment."
+        answer: "We inspect every production run against ISO 2859-1 AQL 2.5 sampling standards (Major 2.5 / Minor 4.0), providing comprehensive digital pre-shipment inspection reports with high-resolution photo and video verification."
       }
     ],
     targetKeywords: [
@@ -971,7 +862,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       },
       {
         question: "What payment terms do you offer for wholesale buyers?",
-        answer: "Standard wholesale terms are 30% advance deposit with the 70% balance payable against final inspection report and shipping Bill of Lading, or via Irrevocable Letter of Credit (L/C) for container orders."
+        answer: "Standard B2B wholesale terms are 50% deposit upon Proforma Invoice sign-off to initiate raw hide procurement and cutting, with the 50% balance payable after your team approves the final AQL 2.5 inspection report prior to dispatch (or Irrevocable L/C at sight for established high-volume buyers)."
       }
     ],
     targetKeywords: [
@@ -1122,7 +1013,34 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
-
+      "wholesale leather handbags USA",
+      "wholesale leather wallets USA",
+      "private label leather bags for US brands",
+      "private label leather wallets USA",
+      "leather bag supplier for US retailers",
+      "leather wallet supplier for US retailers",
+      "custom logo leather wallets USA",
+      "wholesale leather tote bags USA",
+      "wholesale leather laptop bags USA",
+      "wholesale leather duffel bags USA",
+      "wholesale leather card holders USA",
+      "corporate gift leather wallets USA",
+      "import leather bags from India to USA",
+      "import leather wallets from India to USA",
+      "wholesale leather handbags Canada",
+      "wholesale leather wallets Canada",
+      "private label leather bags for Canadian brands",
+      "private label leather wallets Canada",
+      "leather bag supplier for Canadian retailers",
+      "leather wallet supplier for Canadian retailers",
+      "custom logo leather wallets Canada",
+      "wholesale leather tote bags Canada",
+      "wholesale leather laptop bags Canada",
+      "wholesale leather duffel bags Canada",
+      "wholesale leather card holders Canada",
+      "corporate gift leather wallets Canada",
+      "import leather bags from India to Canada",
+      "import leather wallets from India to Canada",
       "Indian leather goods supplier for US brands",
       "leather goods supplier in usa",
       "leather goods suppliers in usa",
@@ -1290,12 +1208,12 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "Partner with UNICON LEATHER — India's verified leather goods manufacturing partner for the European Union and United Kingdom. Supplying luxury fashion brands, boutique labels, and department stores across Germany, France, Italy, Spain, Netherlands, and Scandinavia with certified EU REACH chemical compliance, low 100-pc MOQs, and seamless DDP delivery to Rotterdam, Hamburg, Felixstowe, and Frankfurt.",
     categoryFilter: ["handbags", "totes", "wallets-cardholders", "belts", "travel-bags", "small-leather-goods"],
     specs: [
-      { label: "Minimum Order Quantity (MOQ)", value: "100 units per design (flexible color splits for European boutique labels)" },
-      { label: "Sample Prototyping Lead Time", value: "7 to 10 business days via DHL Express directly to EU addresses" },
+      { label: "Minimum Order Quantity (MOQ)", value: "50 pcs (Stock Leather Trial) / 100 pcs (Custom Dye) per style for bags & jackets; 100–200 pcs for SLGs" },
+      { label: "Sample Prototyping Lead Time", value: "7 to 12 business days via DHL Express directly to EU addresses" },
       { label: "Bulk Manufacturing Timeline", value: "30 to 45 business days upon master golden sample sign-off" },
       { label: "European Trade Terms", value: "DDP (Delivered Duty Paid to your EU warehouse), CIF, FOB (Euro / GBP / USD billing)" },
-      { label: "EU Chemical & Safety Compliance", value: "Strict EU REACH Annex XVII verified (zero AZO dyes, Chromium VI free, low VOC)" },
-      { label: "Environmental Audit Standards", value: "LWG (Leather Working Group) Gold/Silver tanneries, SEDEX SMETA 4-Pillar audited" }
+      { label: "EU Chemical & Safety Compliance", value: "Batch-testable to EU REACH Annex XVII via SGS/Intertek (zero AZO dyes, Chromium VI < 3 ppm)" },
+      { label: "Environmental & Social Standards", value: "Hides sourced from LWG Gold/Silver partner tanneries; SEDEX SMETA / BSCI open-factory audit readiness" }
     ],
     features: [
       {
@@ -1321,12 +1239,12 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
         answer: "We operate as a contract OEM/ODM manufacturer. European designers provide sketches or tech packs, and our atelier produces physical counter-samples within 7–10 days sent via DHL Express. Upon approval, full bulk manufacturing begins and consignments are delivered via DDP (Delivered Duty Paid), with all EU import duties and customs formalities fully settled."
       },
       {
-        question: "Are your leather goods fully compliant with EU REACH regulations?",
-        answer: "Yes, 100%. All leather tannages, hardware coatings, adhesives, and edge paints are certified under EU REACH Regulation (EC) No 1907/2006 Annex XVII, ensuring zero banned azo colorants, nickel release under EN 1811, and no detectable Chromium (VI)."
+        question: "Are your leather goods compliant with EU REACH regulations?",
+        answer: "Yes. We source hides from LWG-audited partner tanneries and use EU REACH Regulation (EC) No 1907/2006 Annex XVII compliant dyes, adhesives, and edge paints (zero banned azo colorants, nickel release under EN 1811, and Chromium VI < 3 ppm), with per-batch SGS or Intertek lab testing available prior to shipment."
       },
       {
         question: "What is your MOQ for European boutique brands and startup designers?",
-        answer: "Our standard minimum order quantity starts at just 100 units per style, with options to batch across 2 to 3 leather colors. This gives European fashion founders the agility to test seasonal drops without excessive capital risk."
+        answer: "Our standard minimum order quantity starts at 50 units per style using in-stock atelier leathers (or 100 units for custom Pantone drum-dyed hides), with options to batch across 2 to 3 colors. This gives European fashion founders the agility to test seasonal drops without excessive capital risk."
       },
       {
         question: "How long does shipping take to European countries?",
@@ -1405,12 +1323,12 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "Partner directly with an internationally audited leather goods manufacturer. We transform tech packs, sketches, and bespoke designer concepts into export-grade leather collections for global fashion labels, luxury retail houses, and emerging boutique brands.",
     categoryFilter: ["handbags", "totes", "wallets-and-cardholders", "leather-belts", "backpacks", "laptop-and-business-bags", "travel-bags"],
     specs: [
-      { label: "Minimum Order Quantity (MOQ)", value: "100 pcs per style (multi-colorway split across shared leather hides)" },
-      { label: "Sample Prototyping Lead Time", value: "7 to 10 business days via DHL / FedEx Express worldwide courier" },
-      { label: "Bulk Production Timeline", value: "30 to 45 business days upon pre-production sample sign-off" },
-      { label: "Tannery Compliance", value: "LWG (Leather Working Group) Gold/Silver, EU REACH Annex XVII, California Prop 65" },
+      { label: "Minimum Order Quantity (MOQ)", value: "50 pcs (Stock Leather Trial) / 100 pcs (Custom Dye) per style for bags; 100–200 pcs for SLGs" },
+      { label: "Sample Prototyping Lead Time", value: "5 to 14 business days via DHL / FedEx Express worldwide courier" },
+      { label: "Bulk Production Timeline", value: "25 to 40 business days upon pre-production sample sign-off" },
+      { label: "Tannery & Lab Compliance", value: "LWG Gold/Silver Partner Tanneries; Batch-Testable for EU REACH Annex XVII & CA Prop 65" },
       { label: "Incoterms Supported", value: "DDP (Delivered Duty Paid), FOB, CIF, CFR, Ex-Factory (Air & Ocean freight)" },
-      { label: "Quality Audit Protocol", value: "100% in-line workstation inspection + MIL-STD-105E / AQL 2.5 final audit" }
+      { label: "Quality Audit Protocol", value: "100% in-line workstation inspection + ISO 2859-1 AQL 2.5 final audit" }
     ],
     features: [
       {
@@ -1575,26 +1493,26 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     slug: "low-moq-leather-goods-manufacturer",
     keywordTheme: "Low MOQ Leather Goods Manufacturer",
     h1: "Low MOQ Leather Goods Manufacturer | Small Batch Private Label Factory",
-    kicker: "Startup-Friendly Production · From 100 Pcs/Style · Rapid Prototyping",
+    kicker: "Startup-Friendly Production · From 50–100 Pcs/Style · Rapid Prototyping",
     metaTitle: "Low MOQ Leather Goods Manufacturer | Small Batch Private Label Factory",
     metaDescription:
-      "Start-up friendly low MOQ leather goods manufacturer. Small batch production from 100 pcs per style with multi-color splits. Fast sample prototyping and worldwide DDP shipping for emerging brands.",
+      "Start-up friendly low MOQ leather goods manufacturer. Small batch production from 50–100 pcs per style with multi-color splits. Fast sample prototyping and worldwide DDP shipping for emerging brands.",
     canonicalUrl: "https://www.uniconleather.com/low-moq-leather-goods-manufacturer",
     heroSubtitle:
-      "Empowering emerging fashion brands, boutique designers, and Kickstarter creators with low minimum order quantities, transparent pricing, and master-atelier quality without demanding massive capital commitments.",
+      "Empowering emerging fashion brands, boutique designers, and independent labels with 50–100 piece trial minimum order quantities, transparent pricing, and master-atelier quality without demanding massive capital commitments.",
     categoryFilter: ["handbags", "totes", "wallets-and-cardholders", "leather-belts", "backpacks"],
     specs: [
-      { label: "Minimum Order Quantity (MOQ)", value: "100 pcs per design (color splits across 2 to 3 shades allowed)" },
-      { label: "Rapid Sampling Lead Time", value: "7 to 10 business days with DHL express tracked delivery" },
+      { label: "Minimum Order Quantity (MOQ)", value: "50 pcs (stock leather trial) / 100 pcs (custom dye) for bags; 100–200 pcs for SLGs" },
+      { label: "Rapid Sampling Lead Time", value: "5 to 14 business days with DHL express tracked delivery" },
       { label: "Tech Pack Support", value: "Full CAD review, pattern drafting, bill of materials assistance" },
-      { label: "Production Turnaround", value: "30 business days upon pre-production sample sign-off" },
+      { label: "Production Turnaround", value: "25 to 40 business days upon pre-production sample sign-off" },
       { label: "Branding Customization", value: "Custom debossed logos, hot foil stamping, custom woven labels" },
-      { label: "Worldwide Shipping", value: "Air cargo express (4–6 days) or sea freight with DDP clearance" }
+      { label: "Worldwide Shipping", value: "Air cargo express (5–7 days) or sea freight with DDP clearance" }
     ],
     features: [
       {
         title: "Agile Low MOQ Batching Strategy",
-        description: "Launch your debut collection without excess deadstock. Our 100-piece MOQ allows you to test market demand, refine silhouettes, and scale reorders quickly."
+        description: "Launch your debut collection without excess deadstock. Our 50–100 piece trial MOQ allows you to test market demand, refine silhouettes, and scale reorders quickly."
       },
       {
         title: "Design & Tech Pack Translation",
@@ -1602,25 +1520,25 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       },
       {
         title: "Shared Leather Colorway Splits",
-        description: "Split your 100-piece order across 2 to 3 leather colors (e.g. 50 Cognac Brown, 25 Black, 25 Olive Green) using our active tannery stock."
+        description: "Split your 50–100 piece order across 2 to 3 leather colors (e.g. 50 Cognac Brown, 25 Black, 25 Olive Green) using our active tannery stock."
       },
       {
         title: "Startup-Friendly Payment & DDP Logistics",
-        description: "Transparent staged payments (sample deposit, 30% production advance, 70% post-inspection) and door-to-door delivery with zero customs headaches."
+        description: "Transparent staged payments (sample deposit, 50% production advance, 50% post-AQL 2.5 inspection) and door-to-door delivery with customs documentation."
       }
     ],
     faqs: [
       {
         question: "Why do most leather manufacturers require high MOQs of 500+ pieces?",
-        answer: "Traditional factories require large MOQs because tanneries produce leather in large batch vats (usually 500–1000 sq ft minimum) and dye lots are expensive to calibrate. UNICON LEATHER maintains an active stock library of premium LWG certified leathers, allowing us to offer flexible 100-piece production runs."
+        answer: "Traditional factories require large MOQs because tanneries produce leather in large batch vats (usually 500–1000 sq ft minimum) and dye lots are expensive to calibrate. UNICON LEATHER maintains an active stock library of LWG partner tannery leathers, allowing us to offer flexible 50–100 piece trial runs."
       },
       {
-        question: "Can I split the 100-piece MOQ across multiple colors or sizes?",
-        answer: "Yes! If you produce a tote bag or wallet style, you can divide the 100 units across 2 to 3 colorways (e.g., 50 units in Tan and 50 units in Black) provided they use the same leather article."
+        question: "Can I split the MOQ across multiple colors or sizes?",
+        answer: "Yes! If you produce a tote bag or wallet style using in-stock hides, you can divide a 50–100 unit order across 2 to 3 colorways (e.g., 25–50 units per shade) provided they share the same hardware finish."
       },
       {
         question: "How much does a custom prototype sample cost?",
-        answer: "Sample development covers master CAD pattern drafting, material cutting, hardware sourcing, and express international air courier. Prototype fees are typically credited back toward your initial bulk production run upon order confirmation."
+        answer: "Sample development covers master CAD pattern drafting, material cutting, hardware sourcing, and express international air courier ($50–$180 USD depending on product type). 100% of the prototype fee is credited toward your initial bulk production order."
       }
     ],
     targetKeywords: [
@@ -1721,7 +1639,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       },
       {
         question: "Are your leather jackets compliant with international chemical safety standards?",
-        answer: "Yes. All hides and garment dyes are 100% compliant with EU REACH Annex XVII (AZO-free, Chromium VI below 3ppm) and California Proposition 65 requirements."
+        answer: "Yes. We source hides from LWG-audited partner tanneries using EU REACH Annex XVII (AZO-free, Chromium VI below 3ppm) and California Proposition 65 compliant finishes, with batch testing via SGS or Intertek available upon request."
       }
     ],
     targetKeywords: [

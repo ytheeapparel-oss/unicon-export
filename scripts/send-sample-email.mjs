@@ -17,8 +17,8 @@ if (!apiKey && fs.existsSync(envPath)) {
 if (!apiKey) {
   console.error("\n❌ Error: No RESEND_API_KEY found!");
   console.error("Please provide your Resend API key either:");
-  console.error("1. By passing it as an argument: node scripts/send-sample-email.mjs re_123456789");
-  console.error("2. Or by pasting it in .env.local: RESEND_API_KEY=re_123456789\n");
+  console.error("1. By passing it as an argument: node scripts/send-sample-email.mjs <your_api_key>");
+  console.error("2. Or by pasting it in .env.local: RESEND_API_KEY=<your_api_key>\n");
   process.exit(1);
 }
 

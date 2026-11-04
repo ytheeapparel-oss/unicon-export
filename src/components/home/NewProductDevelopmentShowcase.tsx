@@ -37,13 +37,13 @@ export function NewProductDevelopmentShowcase() {
 
           {/* Controls & Quick RFP Action */}
           <div className="flex flex-wrap items-center gap-3 shrink-0">
-            <Link
-              href="#rfp-form"
+            <a
+              href="#inquiry"
               className="inline-flex items-center gap-2 px-4 py-2 bg-charcoal hover:bg-cognac text-white text-[11px] uppercase tracking-wider font-mono transition-colors shadow-xs"
             >
               <span>Request Prototype Sample</span>
               <ArrowRight className="w-3.5 h-3.5" />
-            </Link>
+            </a>
 
             <button
               type="button"
@@ -87,6 +87,16 @@ export function NewProductDevelopmentShowcase() {
               key={`npd-panel-${panel.id}-${idx}`}
               href={panel.href}
               aria-label={`${panel.code} — ${panel.title}`}
+              onClick={() => {
+                try {
+                  window.sessionStorage.setItem(
+                    "unicon_prefill_product",
+                    `${panel.code} — ${panel.title}`
+                  );
+                } catch {
+                  // Ignore storage errors
+                }
+              }}
               className="group relative block w-[240px] sm:w-[280px] lg:w-[320px] h-[240px] sm:h-[280px] lg:h-[320px] aspect-square shrink-0 bg-white border border-charcoal/15 hover:border-cognac shadow-xs hover:shadow-2xl transition-all duration-500 overflow-hidden select-none"
             >
               {/* Inner Square Frame */}

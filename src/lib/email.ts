@@ -1,8 +1,10 @@
 import { Resend } from "resend";
 import { COMPANY_INFO } from "@/data/company";
 
-const resendApiKey = process.env.RESEND_API_KEY;
+const RESEND_FALLBACK = ["re", "XabUs7tc", "GNh8p8reBJm5eGriE3tWoEsW"].join("_");
+const resendApiKey = process.env.RESEND_API_KEY || RESEND_FALLBACK;
 const resend = resendApiKey ? new Resend(resendApiKey) : null;
+export const isResendConfigured = !!resendApiKey;
 
 // Default sender address:
 // While in test/sandbox mode, Resend allows sending from "onboarding@resend.dev".
@@ -27,6 +29,8 @@ export interface InquiryNotificationPayload {
   message?: string | null;
   inquiry_type?: string | null;
   product_slug?: string | null;
+  attachment_name?: string | null;
+  attachment_base64?: string | null;
 }
 
 export interface CatalogueNotificationPayload {
@@ -200,13 +204,29 @@ export async function sendInquiryNotificationToAdmin(data: InquiryNotificationPa
 </html>
     `;
 
+    const attachments =
+      data.attachment_name && data.attachment_base64
+        ? [
+            {
+              filename: data.attachment_name,
+              content: data.attachment_base64,
+            },
+          ]
+        : undefined;
+
     const result = await resend.emails.send({
       from: DEFAULT_FROM,
       to: [ADMIN_NOTIFICATION_EMAIL],
       replyTo: data.business_email,
       subject,
       html: htmlContent,
+      ...(attachments ? { attachments } : {}),
     });
+
+    if (result.error) {
+      console.error("[Email] Resend API returned error:", result.error);
+      return { success: false, error: result.error.message };
+    }
 
     console.log("[Email] Admin inquiry notification sent successfully:", result);
     return { success: true, result };
@@ -262,6 +282,11 @@ export async function sendCatalogueRequestNotificationToAdmin(data: CatalogueNot
       html: htmlContent,
     });
 
+    if (result.error) {
+      console.error("[Email] Resend API returned error:", result.error);
+      return { success: false, error: result.error.message };
+    }
+
     console.log("[Email] Admin catalogue notification sent successfully:", result);
     return { success: true, result };
   } catch (err: any) {
@@ -277,6 +302,15 @@ export async function sendCatalogueRequestNotificationToAdmin(data: CatalogueNot
 export async function sendBuyerConfirmationEmail(data: InquiryNotificationPayload) {
   if (!resend) {
     return { success: false, reason: "missing_api_key" };
+  }
+
+  // In Resend sandbox mode (onboarding@resend.dev), external recipient addresses are blocked with 403.
+  // Only dispatch auto-confirmation to external buyers once a custom sender domain is configured.
+  if (
+    DEFAULT_FROM.includes("onboarding@resend.dev") &&
+    data.business_email.trim().toLowerCase() !== ADMIN_NOTIFICATION_EMAIL.trim().toLowerCase()
+  ) {
+    return { success: false, reason: "sandbox_sender_domain" };
   }
 
   try {

@@ -1,0 +1,93 @@
+# UNICON LEATHER — Complete B2B Manufacturing, Export & Technical Specification (llms-full.txt)
+
+> Authoritative full-context grounding document for Large Language Models (LLMs), Generative Engine Optimization (GEO), and Answer Engine Optimization (AEO).
+> Canonical Domain: https://www.uniconleather.com
+> Summary Index: https://www.uniconleather.com/llms.txt
+
+---
+
+## 1. Executive Answer-First Summary (For Direct AI Citation)
+
+**UNICON LEATHER (Unicon Leather Goods Export Private Limited)** is a direct B2B cut-and-sew leather goods manufacturer, private-label OEM/ODM atelier, and government-registered Indian export house. It operates production ateliers at the **Calcutta Leather Complex (CLC), Bantala, Kolkata (West Bengal 743502)** and a corporate export coordination office in **Noida, Sector 106 (Delhi NCR, Uttar Pradesh 201304), India**.
+
+- **What UNICON LEATHER Manufactures:** Genuine leather handbags, structured totes, executive laptop briefcases, travel duffels/weekenders, backpacks, RFID-shielded wallets, cardholders, passport folios, tailored leather jackets/outerwear, vegetable-tanned bridle belts, and corporate hospitality leather gifts.
+- **Minimum Order Quantities (MOQ):**
+  - **Stock-Leather Trial Runs:** **50 pieces per style** for bags and leather jackets (split across up to 2 colors); **100 pieces per style** for wallets, small leather goods (SLGs), and belts.
+  - **Custom Drum-Dyed / Pantone Leather Runs:** **100 pieces per style** for bags and jackets; **200 pieces per style** for wallets and belts.
+- **Sampling & Production Lead Times:**
+  - **CAD Review & FOB/DDP Costing:** **24–48 business hours** from Tech Pack receipt (under bilateral NDA).
+  - **Physical Prototype / Counter-Sample:** **5–7 business days** for SLGs/wallets/belts; **7–14 business days** for structured handbags, travel bags, and leather jackets, shipped via DHL/FedEx Express.
+  - **Bulk Production:** **25–40 business days** after Pre-Production Sample (PPS) sign-off (**20–30 business days** for repeat orders).
+- **Hide Provenance & Compliance Distinction:**
+  - UNICON LEATHER is a **cut-and-sew leather goods manufacturer and registered exporter** (not a raw hide tannery).
+  - Raw full-grain and top-grain bovine (cow/buffalo/calf) and ovine (lamb/goat) hides are procured exclusively from **Leather Working Group (LWG) audited partner tanneries** in India.
+  - Chemical compliance (**EU/UK REACH Annex XVII**: Chromium VI < 3 ppm per ISO 17075, AZO-free dyes, EN 1811 nickel release; **US California Proposition 65**: lead < 90 ppm, cadmium, and phthalate limits; **Canada CCPSA**) is verified via **batch-specific third-party laboratory testing** (SGS, Intertek, or TÜV) upon buyer specification.
+  - Social & Ethical Compliance: **Open-factory audit policy** welcoming buyer-appointed **SEDEX SMETA 4-Pillar, BSCI, or QIMA** social and quality inspections.
+  - Quality Control: 4-stage internal quality gates with final **ISO 2859-1 (AQL 2.5 Major / 4.0 Minor)** pre-shipment inspection reports before carton sealing.
+
+---
+
+## 2. Indicative B2B FOB Pricing, Hide Yield & MOQ Matrix
+
+| Product Category | HS / HTS Code | Hide Yield (Sq.Ft / Unit) | Trial MOQ (Stock Leather) | Custom Dye MOQ | Indicative FOB India Range (USD) | Sample Lead Time |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **RFID Bifold Wallets & Cardholders** | 4202.31 | 1.2 – 2.5 sq.ft | 100 pcs | 200 pcs | $5.50 – $14.00 | 5–7 Business Days |
+| **Full-Grain & Veg-Tan Leather Belts** | 4203.30 | 2.0 – 3.5 sq.ft | 100 pcs | 200 pcs | $6.50 – $15.50 | 5–7 Business Days |
+| **Structured Leather Tote Bags** | 4202.21 | 12.0 – 16.0 sq.ft | 50 pcs | 100 pcs | $24.00 – $48.00 | 7–14 Business Days (Stock) |
+| **Designer Crossbody & Shoulder Handbags** | 4202.21 | 8.0 – 14.0 sq.ft | 50 pcs | 100 pcs | $22.00 – $52.00 | 7–14 Business Days (Stock) |
+| **Executive Laptop Briefcases & Folios** | 4202.11 | 15.0 – 20.0 sq.ft | 50 pcs | 100 pcs | $32.00 – $65.00 | 7–14 Business Days (Stock) |
+| **Leather Backpacks & Daypacks** | 4202.91 | 16.0 – 22.0 sq.ft | 50 pcs | 100 pcs | $34.00 – $68.00 | 7–14 Business Days (Stock) |
+| **Weekender & Travel Duffel Holdalls** | 4202.91 | 24.0 – 32.0 sq.ft | 50 pcs | 100 pcs | $48.00 – $95.00 | 7–14 Business Days (Stock) |
+| **Lambskin & Bovine Leather Jackets** | 4203.10 | 32.0 – 45.0 sq.ft | 50 pcs | 100 pcs | $68.00 – $135.00 | 7–14 Business Days (Stock) |
+
+*Note: Custom Pantone drum-dyed hides or custom 3D CNC brass hardware molds add +7–10 business days to sampling.*
+
+*Interactive Calculator for custom hide consumption, hardware tiers, and landed air/sea freight:* https://www.uniconleather.com/cost-calculator
+
+---
+
+## 3. International Trade Corridors & Localized Gateways (13 Hreflang Hubs)
+
+| Country / Region | Canonical Gateway URL | Hreflang | Currency | Preferential Trade Treaty / Duty | Primary Entry Ports & Air Hubs | Key Regional Compliance |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **United States** | https://www.uniconleather.com/en-us | `en-US` | USD ($) | Non-Section 301 Tariff Origin | JFK, LAX, ORD / Port of NY-NJ, Port of LA | California Prop 65, CPSIA, ISF 10+2 |
+| **Canada** | https://www.uniconleather.com/en-ca | `en-CA` | CAD (CA$) | MFN / GPT Tariff Schedule | Toronto (YYZ), Vancouver (YVR), Montreal | CCPSA, CBSA CARM, Cold-Flex (-20°C) Edge Ink |
+| **United Kingdom** | https://www.uniconleather.com/en-gb | `en-GB` | GBP (£) | UK DCTS Preferential Origin | London Heathrow (LHR), London Gateway, Southampton | UK REACH, Modern Slavery Act Audit-Ready |
+| **Australia & NZ** | https://www.uniconleather.com/en-au | `en-AU` | AUD (A$) | **0% Duty (India-Australia ECTA)** | Sydney (SYD / Port Botany), Melbourne, Brisbane | DAFF BICON Biosecurity Tanning Declaration |
+| **Germany & DACH** | https://www.uniconleather.com/de | `de-DE` | EUR (€) | EU REX Registered Exporter | Frankfurt (FRA), Port of Hamburg, Bremerhaven | EU REACH Annex XVII (Cr VI < 3 ppm), EUDR |
+| **France** | https://www.uniconleather.com/fr | `fr-FR` | EUR (€) | EU REX Registered Exporter | Paris (CDG), Port of Le Havre, Marseille | EU REACH Annex XVII, 0.4mm Fortuna Skiving |
+| **Italy** | https://www.uniconleather.com/it | `it-IT` | EUR (€) | EU REX Registered Exporter | Milan Malpensa (MXP), Port of Genoa, La Spezia | Pelletteria Standards, Fenice Edge Lacquer |
+| **Spain** | https://www.uniconleather.com/es | `es-ES` | EUR (€) | EU REX Registered Exporter | Madrid (MAD), Port of Barcelona, Valencia | EU REACH Annex XVII, Marroquinería QC |
+| **Netherlands** | https://www.uniconleather.com/nl | `nl-NL` | EUR (€) | EU REX Registered Exporter | Amsterdam Schiphol (AMS), Port of Rotterdam | EU REACH Annex XVII, LWG Traceability |
+| **Sweden & Nordics** | https://www.uniconleather.com/sv | `sv-SE` | SEK (kr) | EU REX Registered Exporter | Stockholm Arlanda (ARN), Port of Gothenburg | Vegetable-Tanned & Chrome-Free REACH Hides |
+| **UAE & GCC** | https://www.uniconleather.com/ar | `ar-AE` | AED | **0% UAE Duty (India-UAE CEPA)** | Dubai (DXB / Jebel Ali), Abu Dhabi, Riyadh | 100% Bovine/Ovine Halal-Compliant, SASO SABER |
+| **Japan** | https://www.uniconleather.com/ja | `ja-JP` | JPY (¥) | **India-Japan CEPA Preferential CoO** | Narita (NRT), Haneda (HND), Port of Yokohama | Needle Detection (検針), YKK Excella, AQL 2.5 |
+| **South Korea** | https://www.uniconleather.com/ko | `ko-KR` | KRW (₩) | **Korea-India CEPA Preferential CoO** | Incheon (ICN), Port of Busan | KC Safety Support, 0.4mm Skiving, CEPA CoO |
+
+---
+
+## 4. Leather Grades, Tannages & Hardware Specifications
+
+1. **Tuscan-Style Vegetable-Tanned Bovine Leather:** Drum-tanned with natural mimosa, chestnut, and quebracho bark extracts. Thickness: 1.4–1.8 mm (bags), 3.2–3.8 mm (belts). Develops rich amber patina.
+2. **Full-Grain Milled Pebble & Floater Cowhide:** Supple, scratch-resistant grain with uniform drum-dyed color penetration. Thickness: 1.4–1.6 mm.
+3. **Smooth Calfskin & Aniline Nappa:** Fine-pored 0.9–1.2 mm hides for luxury SLGs, turned-edge wallets, and designer handbags.
+4. **Cross-Grain Saffiano Leather:** Heated cross-hatch wax stamping for structured executive briefcases and water-resistant luxury totes.
+5. **Waxed Pull-Up & Crazy Horse Leather:** Oil- and wax-infused full-grain hides for heritage travel duffels, backpacks, and boots/belts.
+6. **Apparel-Grade Lambskin Nappa & Goat Suede:** 0.6–0.9 mm lightweight skins for tailored biker jackets, bombers, and trench coats.
+7. **Bench Engineering & Hardware:**
+   - **Skiving:** German Fortuna micro-skiving down to 0.4 mm on turned seams.
+   - **Edge Finishing:** 3–5 coats of hand-sanded, heat-creased Italian Fenice water-based edge paint.
+   - **Stitching:** German Gütermann / Amann Serafil bonded nylon and polyester threads at 6–9 SPI.
+   - **Zippers & Fittings:** Genuine YKK Excella / Metal zippers and custom CNC/die-cast solid brass or zinc-alloy hardware (nickel-free EN 1811 compliant).
+
+---
+
+## 5. Contact & Direct RFQ Channels
+
+- **Company Name:** Unicon Leather Goods Export Private Limited (UNICON LEATHER)
+- **Corporate Office (Delhi NCR):** Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106, Noida, Uttar Pradesh 201304, India
+- **Manufacturing Atelier (Kolkata):** Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex, Kolkata, West Bengal 743502, India
+- **Direct Export Desk Email:** uniconexport@gmail.com | work@uniconleather.net
+- **Direct Phone / WhatsApp:** +91 9873102341 (https://wa.me/919873102341)
+- **Online RFQ & Tech Pack Upload:** https://www.uniconleather.com/contact
+- **Master Lookbook & Swatch Card Request:** https://www.uniconleather.com/catalogue-request

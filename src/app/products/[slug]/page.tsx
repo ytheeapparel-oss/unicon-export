@@ -24,9 +24,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // 1. Check if slug matches a Category
   const category = PRODUCT_CATEGORIES.find((c) => c.slug === slug);
   if (category) {
-    const title = `${category.name} Manufacturer & Wholesale Supplier | UNICON LEATHER`;
-    const description = `${category.description} Custom OEM/ODM private-label manufacturing, LWG audited leathers, low MOQs, EU REACH and California Prop 65 certified.`;
+    const title = category.metaTitle || `${category.name} — Custom OEM & Private Label Manufacturing`;
+    const description =
+      category.metaDescription ||
+      `${category.description} HS Code ${category.hsCode}. MOQ: ${category.moqSummary}. Sampling: ${category.samplingTimeline}.`;
     const url = `https://www.uniconleather.com/products/${category.slug}`;
+
+    const imageUrl = category.image.startsWith("http")
+      ? category.image
+      : `https://www.uniconleather.com${category.image}`;
 
     return {
       title,
@@ -35,20 +41,24 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         canonical: url,
       },
       openGraph: {
-        title,
+        title: `${title} | UNICON LEATHER`,
         description,
         url,
         type: "website",
         images: [
           {
-            url: category.image.startsWith("http")
-              ? category.image
-              : `https://www.uniconleather.com${category.image}`,
+            url: imageUrl,
             width: 1200,
             height: 630,
             alt: `${category.name} Manufacturer`,
           },
         ],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: `${title} | UNICON LEATHER`,
+        description,
+        images: [imageUrl],
       },
     };
   }
@@ -56,9 +66,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // 2. Check if slug matches a Product
   const product = PRODUCTS.find((p) => p.slug === slug);
   if (product) {
-    const title = `${product.name} | Custom Manufacturer & Wholesale | UNICON LEATHER`;
-    const description = `${product.shortDescription} Custom OEM/ODM manufacturing, MOQ ${product.moq}, LWG certified leather, EU REACH compliant. Direct export atelier Kolkata, India.`;
+    const title = `${product.name} | Custom Manufacturer & Wholesale`;
+    const description = `${product.shortDescription} Custom OEM/ODM manufacturing, MOQ ${product.moq}, LWG partner tannery leather, batch EU REACH & CA Prop 65 testable. Direct Indian export factory.`;
     const url = `https://www.uniconleather.com/products/${product.slug}`;
+    const imageUrl = product.images[0].startsWith("http")
+      ? product.images[0]
+      : `https://www.uniconleather.com${product.images[0]}`;
 
     return {
       title,
@@ -67,26 +80,30 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         canonical: url,
       },
       openGraph: {
-        title,
+        title: `${title} | UNICON LEATHER`,
         description,
         url,
         type: "website",
         images: [
           {
-            url: product.images[0].startsWith("http")
-              ? product.images[0]
-              : `https://www.uniconleather.com${product.images[0]}`,
+            url: imageUrl,
             width: 1200,
             height: 630,
             alt: product.name,
           },
         ],
       },
+      twitter: {
+        card: "summary_large_image",
+        title: `${title} | UNICON LEATHER`,
+        description,
+        images: [imageUrl],
+      },
     };
   }
 
   return {
-    title: "Product Not Found | UNICON LEATHER",
+    title: "Product Not Found",
   };
 }
 
@@ -99,8 +116,8 @@ export default function ProductOrCategoryPage({ params }: PageProps) {
     const matchingProducts = PRODUCTS.filter(
       (p) =>
         p.categorySlug === category.slug ||
-        p.category.toLowerCase().includes(category.name.toLowerCase()) ||
-        category.name.toLowerCase().includes(p.category.toLowerCase())
+        p.category === category.name ||
+        (p.secondaryCategorySlugs && p.secondaryCategorySlugs.includes(category.slug))
     );
     return <CategoryDetailView category={category} products={matchingProducts} />;
   }

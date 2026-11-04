@@ -9,9 +9,6 @@ export function JsonLdScript({ schema }: JsonLdScriptProps) {
   return (
     <script
       type="application/ld+json"
-      className="hidden"
-      hidden
-      aria-hidden="true"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
     />
   );
@@ -24,19 +21,21 @@ export function generateWebSiteSchema() {
     "@id": "https://www.uniconleather.com/#website",
     url: "https://www.uniconleather.com",
     name: "UNICON LEATHER",
-    alternateName: ["Unicon Leather Manufacturer", "Unicon Leather Goods Export Private Limited", "Unicon Leather Factory"],
-    description: "Leading custom leather goods manufacturer, OEM/ODM private-label factory, and wholesale exporter to USA, UK, and European brands.",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: "https://www.uniconleather.com/products?search={search_term_string}",
-      },
-      "query-input": "required name=search_term_string",
+    alternateName: [
+      "Unicon Leather Manufacturer",
+      "Unicon Leather Goods Export Private Limited",
+      "Unicon Leather Factory",
+    ],
+    description:
+      "Leading custom leather goods manufacturer, OEM/ODM private-label factory, and wholesale exporter to USA, UK, and European brands.",
+    publisher: {
+      "@id": "https://www.uniconleather.com/#organization",
     },
     inLanguage: [
       "en-US",
+      "en-CA",
       "en-GB",
+      "en-AU",
       "en",
       "de-DE",
       "fr-FR",
@@ -54,20 +53,27 @@ export function generateWebSiteSchema() {
 export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": ["Organization", "Manufacturer", "WholesaleStore", "LocalBusiness"],
+    "@type": ["Organization", "Manufacturer"],
     "@id": "https://www.uniconleather.com/#organization",
     name: "UNICON LEATHER",
+    alternateName: [
+      "unicon leather",
+      "Unicon Leather",
+      "Unicon Leather Goods Export Private Limited",
+      "Unicon Leather Manufacturer",
+      "Unicon Leather Factory",
+    ],
     legalName: "Unicon Leather Goods Export Private Limited",
     url: "https://www.uniconleather.com",
-    logo: "https://www.uniconleather.com/images/unicon-leather-logo.png",
+    logo: "https://www.uniconleather.com/favicon.svg",
     image: "https://www.uniconleather.com/images/home-hero-leather.jpg",
     description: "Export-oriented luxury leather goods manufacturer, wholesale exporter, and OEM/ODM private-label factory from India serving top USA, UK, and European fashion brands, retailers, and buying houses.",
     email: "uniconexport@gmail.com",
-    telephone: "+91-9873102341",
+    telephone: "+91 9873102341",
     priceRange: "$$",
     currenciesAccepted: "USD, EUR, GBP, AUD, CAD",
     paymentAccepted: "Wire Transfer (T/T), Irrevocable Letter of Credit (L/C at sight), DDP",
-    hasMap: "https://www.google.com/maps/place/unicon+leather/@28.5355161,77.3910265,17z/data=!4m15!1m8!3m7!1s0x390ce9dae241bcb1:0x9595b0070aeb9e6f!2sunicon+leather!8m2!3d28.5355161!4d77.3910265!10e1!16s%2Fg%2F11s2m08kwt!3m5!1s0x390ce9dae241bcb1:0x9595b0070aeb9e6f!8m2!3d28.5355161!4d77.3910265!16s%2Fg%2F11s2m08kwt",
+    hasMap: "https://www.google.com/maps?cid=10778714827475623535",
     geo: {
       "@type": "GeoCoordinates",
       latitude: 28.5355161,
@@ -89,11 +95,18 @@ export function generateOrganizationSchema() {
       postalCode: "201304",
       addressCountry: "IN",
     },
-    location: [
+    department: [
       {
-        "@type": "Place",
+        "@type": ["LocalBusiness", "Manufacturer"],
+        "@id": "https://www.uniconleather.com/#noida-office",
         name: "UNICON LEATHER — Delhi NCR Corporate & Sourcing Office",
-        hasMap: "https://www.google.com/maps/place/unicon+leather/@28.5355161,77.3910265,17z/data=!4m15!1m8!3m7!1s0x390ce9dae241bcb1:0x9595b0070aeb9e6f!2sunicon+leather!8m2!3d28.5355161!4d77.3910265!10e1!16s%2Fg%2F11s2m08kwt!3m5!1s0x390ce9dae241bcb1:0x9595b0070aeb9e6f!8m2!3d28.5355161!4d77.3910265!16s%2Fg%2F11s2m08kwt",
+        alternateName: "unicon leather",
+        url: "https://www.uniconleather.com/contact",
+        image: "https://www.uniconleather.com/images/home-hero-leather.jpg",
+        priceRange: "$$",
+        email: "uniconexport@gmail.com",
+        telephone: "+91 9873102341",
+        hasMap: "https://www.google.com/maps?cid=10778714827475623535",
         address: {
           "@type": "PostalAddress",
           streetAddress: "Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106",
@@ -102,7 +115,67 @@ export function generateOrganizationSchema() {
           postalCode: "201304",
           addressCountry: "IN",
         },
-        telephone: "+91-9873102341",
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: 28.5355161,
+          longitude: 77.3910265,
+        },
+        openingHoursSpecification: [
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            opens: "09:30",
+            closes: "18:30",
+          },
+        ],
+      },
+      {
+        "@type": ["LocalBusiness", "Manufacturer"],
+        "@id": "https://www.uniconleather.com/#kolkata-factory",
+        name: "UNICON LEATHER — Manufacturing Atelier & Export Facility",
+        url: "https://www.uniconleather.com/contact",
+        image: "https://www.uniconleather.com/images/home-hero-leather.jpg",
+        priceRange: "$$",
+        email: "uniconexport@gmail.com",
+        telephone: "+91 9873102341",
+        hasMap: "https://maps.google.com/?q=Kolkata+Leather+Complex+Zone+09+Bantala+Kolkata+West+Bengal+743502",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex",
+          addressLocality: "Kolkata",
+          addressRegion: "West Bengal",
+          postalCode: "743502",
+          addressCountry: "IN",
+        },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: 22.5085,
+          longitude: 88.4687,
+        },
+        openingHoursSpecification: [
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            opens: "09:30",
+            closes: "18:30",
+          },
+        ],
+      },
+    ],
+    location: [
+      {
+        "@type": "Place",
+        name: "UNICON LEATHER — Delhi NCR Corporate & Sourcing Office",
+        hasMap: "https://www.google.com/maps?cid=10778714827475623535",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106",
+          addressLocality: "Noida",
+          addressRegion: "Uttar Pradesh",
+          postalCode: "201304",
+          addressCountry: "IN",
+        },
+        telephone: "+91 9873102341",
         geo: {
           "@type": "GeoCoordinates",
           latitude: 28.5355161,
@@ -112,16 +185,16 @@ export function generateOrganizationSchema() {
       {
         "@type": "Place",
         name: "UNICON LEATHER — Manufacturing Atelier & Export Facility",
-        hasMap: "https://maps.google.com/?q=Calcutta+Leather+Complex+Zone+3+Bantala+Kolkata+West+Bengal+700135",
+        hasMap: "https://maps.google.com/?q=Kolkata+Leather+Complex+Zone+09+Bantala+Kolkata+West+Bengal+743502",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala",
+          streetAddress: "Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex",
           addressLocality: "Kolkata",
           addressRegion: "West Bengal",
-          postalCode: "700135",
+          postalCode: "743502",
           addressCountry: "IN",
         },
-        telephone: "+91-9873102341",
+        telephone: "+91 9873102341",
         geo: {
           "@type": "GeoCoordinates",
           latitude: 22.5085,
@@ -131,53 +204,19 @@ export function generateOrganizationSchema() {
     ],
     isicV4: "1512",
     naics: "316992",
-    awards: [
-      "LWG (Leather Working Group) Gold/Silver Rated Tannery Supply Chain",
-      "EU REACH Annex XVII Chemical Safety Verified",
-      "California Proposition 65 SGS Lab Compliant",
-      "BSCI / SEDEX Ethical Workplace Protocol",
-    ],
     knowsAbout: [
-      ...ALL_SEO_KEYWORDS,
-      "Harmonized System HS Code 4202 Luggage & Handbags",
-      "Harmonized System HS Code 4203 Leather Garments & Accessories",
-      "Harmonized System HS Code 4205 Articles of Leather",
-      "Bespoke Contract Manufacturing for USA Brands",
-      "European Luxury Leather Goods Sourcing",
-    ],
-    hasCertification: [
-      {
-        "@type": "Certification",
-        name: "Leather Working Group (LWG) Gold/Silver Audited Partner Tanneries",
-        issuedBy: "LWG Approved Supply Chain",
-        description: "100% of bovine, calfskin, and veg-tan hides sourced from LWG Gold/Silver certified partner tanneries."
-      },
-      {
-        "@type": "Certification",
-        name: "EU REACH Annex XVII Chemical Safety Compliance",
-        issuedBy: "European Chemicals Agency (ECHA)",
-        description: "Tested by SGS / Intertek: AZO dye-free, Nickel-free hardware, and Chromium VI < 3ppm."
-      },
-      {
-        "@type": "Certification",
-        name: "California Proposition 65 Compliance",
-        issuedBy: "California OEHHA",
-        description: "Tested and certified lead-free, cadmium-free, and phthalate-safe for US retail distribution."
-      }
-    ],
-    hasCredential: [
-      {
-        "@type": "EducationalOccupationalCredential",
-        name: "LWG (Leather Working Group) Gold/Silver Rated Tannery Partners",
-      },
-      {
-        "@type": "EducationalOccupationalCredential",
-        name: "EU REACH & CPSIA Chemical Safety Compliance",
-      },
-      {
-        "@type": "EducationalOccupationalCredential",
-        name: "BSCI / Sedex Ethical Manufacturing Standards",
-      },
+      "OEM & Private-Label Leather Goods Manufacturing",
+      "Custom Leather Handbags & Structured Totes",
+      "Executive Leather Laptop Briefcases & Backpacks",
+      "Full-Grain Leather Weekender & Travel Duffel Bags",
+      "RFID Blocking Leather Wallets, Cardholders & Small Leather Goods",
+      "Full-Grain Vegetable-Tanned Bridle & Dress Leather Belts",
+      "Custom Lambskin Nappa & Suede Leather Jackets",
+      "Corporate & Hospitality Leather Gifting",
+      "Harmonized System HS Code 4202 Luggage, Handbags & Wallets",
+      "Harmonized System HS Code 4203 Leather Garments & Belts",
+      "EU REACH Annex XVII & California Proposition 65 Compliant Leather Export",
+      "India-Australia ECTA Zero-Duty & India-UAE CEPA Leather Export",
     ],
     areaServed: [
       { "@type": "Country", name: "India" },
@@ -224,23 +263,11 @@ export function generateOrganizationSchema() {
     contactPoint: [
       {
         "@type": "ContactPoint",
-        telephone: "+91-9873102341",
+        telephone: "+91 9873102341",
         contactType: "export and domestic B2B sales",
         email: "uniconexport@gmail.com",
         areaServed: ["IN", "US", "GB", "EU", "DE", "FR", "IT", "ES", "NL", "AU", "CA", "AE", "JP", "KR", "SE"],
-        availableLanguage: [
-          "English",
-          "German",
-          "French",
-          "Italian",
-          "Spanish",
-          "Arabic",
-          "Japanese",
-          "Dutch",
-          "Swedish",
-          "Korean",
-          "Hindi",
-        ],
+        availableLanguage: ["English", "Hindi"],
       },
     ],
     hasOfferCatalog: {
@@ -265,7 +292,6 @@ export function generateOrganizationSchema() {
     sameAs: [
       "https://www.google.com/maps/place/unicon+leather/@28.5355161,77.3910265,17z/data=!4m15!1m8!3m7!1s0x390ce9dae241bcb1:0x9595b0070aeb9e6f!2sunicon+leather!8m2!3d28.5355161!4d77.3910265!10e1!16s%2Fg%2F11s2m08kwt!3m5!1s0x390ce9dae241bcb1:0x9595b0070aeb9e6f!8m2!3d28.5355161!4d77.3910265!16s%2Fg%2F11s2m08kwt",
       "https://www.google.com/maps?cid=10778714827475623535",
-      "https://github.com/ytheeapparel-oss/unicon-export",
       "https://www.linkedin.com/in/satish-kumar-99950359/",
       "https://www.youtube.com/@uniconleather",
       "https://www.facebook.com/uniconexport",
@@ -319,38 +345,113 @@ export function generateProductSchema(product: {
   images: string[];
   id: string;
   category: string;
+  leatherType?: string;
+  moq?: string;
+  sampleLeadTime?: string;
 }) {
+  const catLower = product.category.toLowerCase();
+  let lowPrice = "18.50";
+  let highPrice = "58.00";
+  let minQty = 50;
+
+  if (catLower.includes("wallet") || catLower.includes("cardholder")) {
+    lowPrice = "4.80";
+    highPrice = "13.50";
+    minQty = 100;
+  } else if (catLower.includes("belt")) {
+    lowPrice = "5.50";
+    highPrice = "14.50";
+    minQty = 100;
+  } else if (catLower.includes("jacket")) {
+    lowPrice = "48.00";
+    highPrice = "105.00";
+    minQty = 50;
+  } else if (catLower.includes("travel") || catLower.includes("duffel")) {
+    lowPrice = "38.00";
+    highPrice = "75.00";
+    minQty = 50;
+  } else if (catLower.includes("laptop") || catLower.includes("business") || catLower.includes("briefcase")) {
+    lowPrice = "28.00";
+    highPrice = "58.00";
+    minQty = 50;
+  } else if (catLower.includes("backpack")) {
+    lowPrice = "26.00";
+    highPrice = "54.00";
+    minQty = 50;
+  } else if (catLower.includes("tote")) {
+    lowPrice = "18.50";
+    highPrice = "38.00";
+    minQty = 50;
+  } else if (catLower.includes("handbag")) {
+    lowPrice = "22.00";
+    highPrice = "48.00";
+    minQty = 50;
+  }
+
   return {
     "@context": "https://schema.org/",
     "@type": "Product",
+    "@id": `https://www.uniconleather.com/products/${product.slug}#product`,
     name: product.name,
-    image: product.images,
+    url: `https://www.uniconleather.com/products/${product.slug}`,
+    image: product.images.map((img) =>
+      img.startsWith("http") ? img : `https://www.uniconleather.com${img}`
+    ),
     description: product.shortDescription,
     sku: product.id,
     mpn: product.id,
+    material: product.leatherType || "100% Full-Grain Genuine Leather",
+    countryOfOrigin: {
+      "@type": "Country",
+      name: "India",
+    },
     brand: {
       "@type": "Brand",
       name: "UNICON LEATHER",
     },
     manufacturer: {
       "@type": "Organization",
+      "@id": "https://www.uniconleather.com/#organization",
       name: "UNICON LEATHER",
     },
     category: product.category,
     offers: {
-      "@type": "Offer",
-      priceCurrency: "USD",
-      price: "0.00",
-      description: "Wholesale contract pricing available upon Tech Pack & specification submission (FOB, CIF, DDP)",
-      availability: "https://schema.org/InStock",
-      itemCondition: "https://schema.org/NewCondition",
+      "@type": "AggregateOffer",
       url: `https://www.uniconleather.com/products/${product.slug}`,
+      priceCurrency: "USD",
+      lowPrice,
+      highPrice,
+      offerCount: "3",
+      availability: "https://schema.org/InStock",
+      eligibleQuantity: {
+        "@type": "QuantitativeValue",
+        minValue: minQty,
+        unitCode: "C62",
+        unitText: "pieces",
+      },
       seller: {
         "@type": "Organization",
-        name: "UNICON LEATHER",
-        url: "https://www.uniconleather.com",
+        "@id": "https://www.uniconleather.com/#organization",
+        name: "Unicon Leather Goods Export Private Limited",
       },
     },
+    additionalProperty: [
+      {
+        "@type": "PropertyValue",
+        name: "Minimum Order Quantity (MOQ)",
+        value: product.moq || "50–100 units per style",
+      },
+      {
+        "@type": "PropertyValue",
+        name: "Prototype Sample Lead Time",
+        value: product.sampleLeadTime || "7 to 12 business days",
+      },
+      {
+        "@type": "PropertyValue",
+        name: "Manufacturing Model",
+        value: "B2B OEM / ODM / Private Label Export",
+      },
+    ],
   };
 }
 
@@ -379,25 +480,24 @@ export function generateB2BServiceSchema() {
     provider: {
       "@id": "https://www.uniconleather.com/#organization",
     },
-    description: "Bespoke design engineering, CAD pattern development, rapid sample counter-prototyping within 7-10 days, and bulk batch manufacturing of luxury leather handbags, totes, wallets, and executive accessories.",
+    description: "Bespoke design engineering, CAD pattern development, rapid sample counter-prototyping within 5 to 14 business days, and bulk batch manufacturing of luxury leather handbags, totes, wallets, belts, and executive accessories.",
     termsOfService: "https://www.uniconleather.com/terms",
     offers: {
       "@type": "Offer",
       name: "Contract B2B Manufacturing Minimum Order Quantities",
       priceCurrency: "USD",
-      price: "Custom FOB / CIF / DDP Quote",
       eligibleQuantity: {
         "@type": "QuantitativeValue",
-        minValue: 100,
+        minValue: 50,
         unitCode: "C62",
-        description: "Minimum order quantity of 100 units per style (multi-colorway batching supported)",
+        description: "Trial orders from 50 units (in-stock core leathers); standard custom drum-dyed MOQ 100–200 units per style",
       },
       deliveryLeadTime: {
         "@type": "QuantitativeValue",
-        minValue: 30,
-        maxValue: 45,
+        minValue: 25,
+        maxValue: 40,
         unitCode: "DAY",
-        description: "Bulk production completed within 30 to 45 business days upon sample approval",
+        description: "Bulk production completed within 25 to 40 business days upon Pre-Production Sample (PPS) approval",
       },
       availableDeliveryMethod: [
         { "@type": "DeliveryMethod", name: "FOB Kolkata / Mumbai Port" },
@@ -408,4 +508,20 @@ export function generateB2BServiceSchema() {
     },
   };
 }
+
+export function generateContactPageSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "@id": "https://www.uniconleather.com/contact#contactpage",
+    url: "https://www.uniconleather.com/contact",
+    name: "Contact UNICON LEATHER Export Desk & Offices",
+    description:
+      "Official B2B contact details, Noida Corporate Office, Kolkata Manufacturing Atelier, and Google Business Profile for UNICON LEATHER.",
+    mainEntity: {
+      "@id": "https://www.uniconleather.com/#organization",
+    },
+  };
+}
+
 

@@ -1,57 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
-import { supabase, supabaseAdmin } from "@/lib/supabase";
-import { sendInquiryNotificationToAdmin, sendBuyerConfirmationEmail } from "@/lib/email";
+import { supabaseAdmin } from "@/lib/supabase";
+import {
+  sendInquiryNotificationToAdmin,
+  sendBuyerConfirmationEmail,
+} from "@/lib/email";
 
-export async function GET(req: NextRequest) {
-  try {
-    const url = new URL(req.url);
-    const testMode = url.searchParams.get("test");
-
-    // Check table accessibility
-    const { data, error, status } = await supabase.from("inquiries").select("id, created_at").limit(1);
-
-    const diagnostic = {
-      timestamp: new Date().toISOString(),
-      supabaseConnected: status === 200 || !error,
-      table: "inquiries",
-      selectStatus: status,
-      selectError: error ? { code: error.code, message: error.message } : null,
-      usingServiceRole: !!process.env.SUPABASE_SERVICE_ROLE_KEY,
-      resendEmailConfigured: !!process.env.RESEND_API_KEY,
-      adminNotificationEmail: process.env.ADMIN_NOTIFICATION_EMAIL || "uniconexport@gmail.com",
-    };
-
-    if (testMode === "insert") {
-      // Test insert capability
-      const testRecord = {
-        buyer_name: "[SYSTEM DIAGNOSTIC TEST]",
-        company_name: "Internal Test",
-        business_email: "test@example.com",
-        phone_or_whatsapp: "+1234567890",
-        country: "Diagnostic",
-        message: "Verifying insert permissions",
-        status: "test",
-      };
-
-      const { data: insertData, error: insertError } = await supabaseAdmin
-        .from("inquiries")
-        .insert(testRecord)
-        .select("id");
-
-      return NextResponse.json({
-        ...diagnostic,
-        insertTest: {
-          success: !insertError,
-          error: insertError ? { code: insertError.code, message: insertError.message } : null,
-          insertedId: insertData?.[0]?.id || null,
-        },
-      });
-    }
-
-    return NextResponse.json(diagnostic);
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message }, { status: 500 });
-  }
+export async function GET() {
+  return NextResponse.json(
+    {
+      status: "ok",
+      service: "UNICON LEATHER B2B Inquiry API",
+      methodAllowed: "POST",
+    },
+    { status: 200 }
+  );
 }
 
 export async function POST(req: NextRequest) {
@@ -83,39 +45,65 @@ export async function POST(req: NextRequest) {
       status: "new",
     };
 
-    const { data: inserted, error } = await supabaseAdmin
-      .from("inquiries")
-      .insert(payload)
-      .select("id");
+    // 1. Dispatch Instant Email Notification to uniconexport@gmail.com FIRST (Guaranteed Delivery)
+    let emailSent = false;
+    let emailError: string | undefined;
+    try {
+      const adminEmailRes = await sendInquiryNotificationToAdmin({
+        ...payload,
+        attachment_name: data.attachmentName || null,
+        attachment_base64: data.attachmentBase64 || null,
+      });
+      emailSent = !!adminEmailRes?.success;
+      if (!adminEmailRes?.success) {
+        emailError = adminEmailRes?.error;
+      }
 
-    if (error) {
-      console.error("[API Inquiries] Supabase insert error:", error);
-      return NextResponse.json({ error: error.message }, { status: 500 });
+      // Auto-confirmation to the buyer if custom domain or matching test address
+      if (data.businessEmail) {
+        sendBuyerConfirmationEmail({
+          ...payload,
+        }).catch((err) => console.warn("[API Inquiries] Buyer confirmation skipped:", err?.message));
+      }
+    } catch (emailErr: any) {
+      console.error("[API Inquiries] Email notification error:", emailErr);
+      emailError = emailErr?.message;
     }
 
-    // 2. Dispatch Instant Email Notification to uniconexport@gmail.com
+    // 2. Non-blocking attempt to persist to Supabase if available
+    let insertedId: string | undefined;
+    let dbSaved = false;
     try {
-      await sendInquiryNotificationToAdmin({
-        ...payload,
-        id: inserted?.[0]?.id,
-      });
-
-      // 3. Dispatch Branded Auto-confirmation to the buyer
-      if (data.businessEmail) {
-        await sendBuyerConfirmationEmail({
-          ...payload,
-          id: inserted?.[0]?.id,
-        });
+      const dbPromise = supabaseAdmin.from("inquiries").insert(payload).select("id");
+      const timeoutPromise = new Promise<{ data: null; error: { message: string } }>((resolve) =>
+        setTimeout(() => resolve({ data: null, error: { message: "Supabase timeout (1s)" } }), 1000)
+      );
+      const dbResult = await Promise.race([dbPromise, timeoutPromise]);
+      if (!dbResult.error && dbResult.data) {
+        insertedId = dbResult.data?.[0]?.id;
+        dbSaved = true;
       }
-    } catch (emailErr) {
-      console.error("[API Inquiries] Non-fatal email notification error:", emailErr);
+    } catch (dbErr: any) {
+      console.warn("[API Inquiries] Supabase skipped (free-tier/offline):", dbErr?.message);
+    }
+
+    if (!emailSent && !dbSaved) {
+      return NextResponse.json(
+        {
+          error: "Unable to dispatch inquiry at this moment. Please use direct WhatsApp or Email.",
+          details: emailError,
+        },
+        { status: 500 }
+      );
     }
 
     return NextResponse.json(
       {
         success: true,
-        message: "Inquiry saved and notification dispatched successfully",
-        id: inserted?.[0]?.id,
+        message: "Inquiry received and notification dispatched to uniconexport@gmail.com",
+        id: insertedId || `rfq-${Date.now()}`,
+        emailSent,
+        dbSaved,
       },
       { status: 201 }
     );
@@ -124,4 +112,3 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: err?.message || "Internal server error" }, { status: 500 });
   }
 }
-

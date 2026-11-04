@@ -3,6 +3,7 @@ import { MetadataRoute } from "next";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
+      // 1. Default rule for standard web crawlers
       {
         userAgent: "*",
         allow: "/",
@@ -15,33 +16,52 @@ export default function robots(): MetadataRoute.Robots {
           "/confidential-cad/",
         ],
       },
+      // 2. Search Discovery & AI Search Indexing Crawlers
+      // (OpenAI OAI-SearchBot, Anthropic Claude-SearchBot, PerplexityBot, Googlebot, Bingbot, Applebot)
       {
         userAgent: [
           "Googlebot",
           "Googlebot-Image",
           "Bingbot",
-          "YandexBot",
-          "Baiduspider",
+          "OAI-SearchBot",
+          "Claude-SearchBot",
+          "PerplexityBot",
           "Applebot",
           "DuckDuckBot",
-          "Yeti",
-          "SeznamBot",
-          "Qwantify",
+          "YandexBot",
+          "Baiduspider",
           "Slurp",
+        ],
+        allow: "/",
+        disallow: ["/api/", "/_next/", "/admin/"],
+      },
+      // 3. User-Triggered AI Retrieval Agents (real-time citations when a user prompts an AI assistant)
+      {
+        userAgent: [
+          "ChatGPT-User",
+          "Claude-User",
+          "Perplexity-User",
           "facebookexternalhit",
           "Twitterbot",
           "LinkedInBot",
           "Pinterestbot",
-          "GPTBot",
-          "ClaudeBot",
-          "PerplexityBot",
         ],
         allow: "/",
+        disallow: ["/api/", "/_next/", "/admin/"],
+      },
+      // 4. Foundation Model Training Crawlers (separated from search/retrieval so policy can be managed independently)
+      {
+        userAgent: [
+          "GPTBot",
+          "ClaudeBot",
+          "Google-Extended",
+          "Applebot-Extended",
+          "CCBot",
+        ],
+        allow: "/",
+        disallow: ["/api/", "/_next/", "/admin/"],
       },
     ],
-    sitemap: [
-      "https://www.uniconleather.com/sitemap_index.xml",
-    ],
-    host: "https://www.uniconleather.com",
+    sitemap: "https://www.uniconleather.com/sitemap.xml",
   };
 }

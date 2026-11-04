@@ -18,8 +18,39 @@ import { Accordion } from "@/components/ui/Accordion";
 import { BulkInquiryForm } from "@/components/forms/BulkInquiryForm";
 import { GoogleMapSection } from "@/components/ui/GoogleMapSection";
 import { COMPANY_INFO } from "@/data/company";
-import { FAQS } from "@/data/faqs";
-import { JsonLdScript, generateFaqSchema, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
+import {
+  JsonLdScript,
+  generateFaqSchema,
+  generateBreadcrumbSchema,
+  generateContactPageSchema,
+} from "@/components/seo/JsonLdScript";
+
+const CONTACT_DESK_FAQS = [
+  {
+    id: "contact-faq-1",
+    question: "How quickly does the Unicon Leather export desk respond to RFQs and tech packs?",
+    answer:
+      "Our export merchandising and CAD engineering desk responds to all commercial inquiries within 12–24 business hours (Monday–Saturday). For inquiries that include a dimensioned tech pack, Bill of Materials (BOM), or reference photographs, we provide a preliminary manufacturability review, estimated hide consumption (sq. ft.), and tiered FOB/CIF/DDP unit quotation within 24–48 hours.",
+  },
+  {
+    id: "contact-faq-2",
+    question: "Do you sign a Non-Disclosure Agreement (NDA) before we share proprietary CAD files?",
+    answer:
+      "Yes. Intellectual property protection is standard across our Noida corporate office and Bantala, Kolkata factory. You can either send your company's standard mutual NDA to uniconexport@gmail.com or request our bilateral NDA template prior to uploading CAD patterns, custom hardware 3D files, or seasonal lookbooks.",
+  },
+  {
+    id: "contact-faq-3",
+    question: "Can international buyers or third-party inspection agencies visit your Noida office or Kolkata factory?",
+    answer:
+      "Yes. Brand founders, sourcing directors, and nominated inspection agencies (SGS, Intertek, TÜV Rheinland, QIMA) are welcome to schedule in-person appointments at our Noida Sector-106 corporate showroom (35 minutes from New Delhi IGI Airport) or our 4-plot manufacturing atelier in Bantala, Kolkata Leather Complex (Plots 676, 687, 944, 1084). We also conduct live WhatsApp/Zoom video walk-throughs of the cutting, skiving, and stitching lines.",
+  },
+  {
+    id: "contact-faq-4",
+    question: "How can we request physical leather swatch cards or a prototype counter-sample?",
+    answer:
+      "Select 'Prototyping & Sampling Only (1–5 units)' or tap '+ Request Leather Swatch Kit' in the inquiry form above, or message our export desk on WhatsApp (+91 9873102341). Physical counter-samples are crafted in 5–7 business days for wallets/belts and 7–14 business days for bags/jackets and shipped worldwide via DHL or FedEx Express.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Contact Export Desk | Wholesale Leather Bags & OEM Bag Factory India",
@@ -43,6 +74,13 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact UNICON LEATHER | Wholesale Leather Bags India & OEM Factory",
+    description:
+      "Direct B2B quotation desk for wholesale leather bags, custom OEM/ODM bag manufacturing, and international export orders.",
+    images: ["https://www.uniconleather.com/images/contact-hero.png"],
+  },
 };
 
 export default function ContactPage() {
@@ -53,12 +91,13 @@ export default function ContactPage() {
 
   return (
     <>
-      <JsonLdScript schema={generateFaqSchema(FAQS)} />
+      <JsonLdScript schema={generateContactPageSchema()} />
+      <JsonLdScript schema={generateFaqSchema(CONTACT_DESK_FAQS)} />
       <JsonLdScript schema={breadcrumbsSchema} />
 
       <div className="w-full bg-white pb-24">
         {/* 1. HERO SECTION: 100% Full-Bleed (100vw Full Breadth x Full Length) Editorial Banner */}
-        <section className="relative w-full !mt-0 min-h-[80vh] lg:min-h-[88vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
+        <section className="relative w-full !mt-0 min-h-[65vh] sm:min-h-[75vh] lg:min-h-[85vh] flex items-end justify-start overflow-hidden bg-white border-b-2 border-charcoal/10">
           {/* Full Length & Breadth Background Image (100% Screen Width x 100% Height) */}
           <div className="absolute inset-0 w-full h-full">
             <img
@@ -139,19 +178,38 @@ export default function ContactPage() {
             {/* Contact Cards */}
             <div className="space-y-4 text-xs sm:text-sm text-charcoal-700">
               {/* 1. Noida Corporate Office */}
-              <div className="bg-[#faf8f5] p-5 sm:p-6 rounded-none border border-charcoal/10 shadow-xs flex items-start gap-4">
+              <div
+                className="bg-[#faf8f5] p-5 sm:p-6 rounded-none border border-charcoal/10 shadow-xs flex items-start gap-4"
+                itemScope
+                itemType="https://schema.org/LocalBusiness"
+              >
+                <meta itemProp="name" content="UNICON LEATHER" />
+                <meta itemProp="telephone" content={COMPANY_INFO.phone} />
+                <meta itemProp="email" content={COMPANY_INFO.primaryEmail} />
                 <MapPin className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
                 <div>
                   <div className="flex items-center gap-2 flex-wrap">
                     <strong className="text-charcoal text-base font-serif font-medium">Delhi NCR Corporate &amp; Sourcing Office</strong>
                     <span className="text-[10px] font-mono uppercase bg-cognac/10 text-cognac px-2 py-0.5 font-bold">Noida</span>
                   </div>
-                  <p className="text-charcoal-600 mt-1 leading-relaxed font-light">{COMPANY_INFO.noidaOfficeAddress}</p>
+                  <address
+                    className="not-italic text-charcoal-600 mt-1 leading-relaxed font-light"
+                    itemProp="address"
+                    itemScope
+                    itemType="https://schema.org/PostalAddress"
+                  >
+                    <span itemProp="streetAddress">Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106</span>,{" "}
+                    <span itemProp="addressLocality">Noida</span>,{" "}
+                    <span itemProp="addressRegion">Uttar Pradesh</span>{" "}
+                    <span itemProp="postalCode">201304</span>,{" "}
+                    <span itemProp="addressCountry">India</span>
+                  </address>
                   <div className="flex items-center gap-3 mt-2 flex-wrap">
                     <a
                       href={COMPANY_INFO.maps.noida.mapUrl}
                       target="_blank"
                       rel="noopener noreferrer"
+                      itemProp="hasMap"
                       className="inline-flex items-center gap-1.5 text-xs font-semibold text-cognac hover:underline font-mono"
                     >
                       Open Noida Office on Google Maps →
@@ -171,14 +229,32 @@ export default function ContactPage() {
               </div>
 
               {/* 2. Kolkata Manufacturing Atelier */}
-              <div className="bg-[#faf8f5] p-5 sm:p-6 rounded-none border border-charcoal/10 shadow-xs flex items-start gap-4">
+              <div
+                className="bg-[#faf8f5] p-5 sm:p-6 rounded-none border border-charcoal/10 shadow-xs flex items-start gap-4"
+                itemScope
+                itemType="https://schema.org/LocalBusiness"
+              >
+                <meta itemProp="name" content="UNICON LEATHER — Manufacturing Atelier" />
+                <meta itemProp="telephone" content={COMPANY_INFO.phone} />
+                <meta itemProp="email" content={COMPANY_INFO.primaryEmail} />
                 <MapPin className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
                 <div>
                   <div className="flex items-center gap-2 flex-wrap">
                     <strong className="text-charcoal text-base font-serif font-medium">Manufacturing Factory &amp; Export Atelier</strong>
                     <span className="text-[10px] font-mono uppercase bg-cognac/10 text-cognac px-2 py-0.5 font-bold">Kolkata</span>
                   </div>
-                  <p className="text-charcoal-600 mt-1 leading-relaxed font-light">{COMPANY_INFO.factoryAddress}</p>
+                  <address
+                    className="not-italic text-charcoal-600 mt-1 leading-relaxed font-light"
+                    itemProp="address"
+                    itemScope
+                    itemType="https://schema.org/PostalAddress"
+                  >
+                    <span itemProp="streetAddress">Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex</span>,{" "}
+                    <span itemProp="addressLocality">Kolkata</span>,{" "}
+                    <span itemProp="addressRegion">West Bengal</span>{" "}
+                    <span itemProp="postalCode">743502</span>,{" "}
+                    <span itemProp="addressCountry">India</span>
+                  </address>
                   <div className="flex items-center gap-3 mt-2 flex-wrap">
                     <a
                       href={COMPANY_INFO.maps.kolkata.mapUrl}
@@ -205,15 +281,12 @@ export default function ContactPage() {
               <div className="bg-[#faf8f5] p-5 sm:p-6 rounded-none border border-charcoal/10 shadow-xs flex items-start gap-4">
                 <Mail className="w-5 h-5 text-cognac shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-charcoal block text-base font-serif font-medium">Corporate Email Desks</strong>
+                  <strong className="text-charcoal block text-base font-serif font-medium">Corporate Email Desk</strong>
                   <p className="text-charcoal-600 mt-1">
-                    Primary Export: <a href={`mailto:${COMPANY_INFO.primaryEmail}`} className="text-cognac font-medium hover:underline">{COMPANY_INFO.primaryEmail}</a>
-                  </p>
-                  <p className="text-charcoal-600">
-                    General Inquiries: <a href={`mailto:${COMPANY_INFO.secondaryEmail}`} className="text-cognac font-medium hover:underline">{COMPANY_INFO.secondaryEmail}</a>
+                    Direct Email: <a href="mailto:uniconexport@gmail.com" className="text-cognac font-medium hover:underline">uniconexport@gmail.com</a>
                   </p>
                   <span className="text-xs text-charcoal-400 mt-1 block">
-                    Response SLA: Within 12–24 business hours.
+                    Monitored 24/7 for international time zones · Response SLA: Within 12–24 business hours.
                   </span>
                 </div>
               </div>
@@ -283,17 +356,17 @@ export default function ContactPage() {
       <section className="w-full max-w-5xl mx-auto px-4 sm:px-8 lg:px-12 pt-8" id="faqs">
         <div className="text-center space-y-4 mb-14">
           <Badge variant="cognac" size="sm">
-            Buyer FAQ
+            Export Desk &amp; Visiting FAQ
           </Badge>
-          <h2 className="font-serif text-4xl font-bold text-charcoal tracking-tight">
-            Frequently Asked Questions for Overseas Buyers
+          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-charcoal tracking-tight">
+            Consultation, NDA, Factory Visit &amp; Sampling FAQs
           </h2>
           <p className="text-sm sm:text-base text-charcoal-600 font-light">
-            Clear answers regarding sampling procedures, MOQs, payment terms, Incoterms, and NDA protection.
+            Direct answers regarding RFQ response times, bilateral NDAs, visiting our Noida office or Kolkata atelier, and requesting physical swatches.
           </p>
         </div>
 
-        <Accordion items={FAQS} />
+        <Accordion items={CONTACT_DESK_FAQS} />
       </section>
         </div>
       </div>

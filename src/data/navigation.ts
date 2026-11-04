@@ -35,11 +35,21 @@ export const MAIN_NAV: NavItem[] = [
   },
   {
     label: "Private Label & OEM",
-    href: "/private-label"
+    href: "/private-label",
+    children: [
+      { label: "OEM & Private Label Atelier", href: "/private-label", description: "Turnkey CAD, custom hardware & low 50-100 MOQs" },
+      { label: "B2B FOB Cost & MOQ Calculator", href: "/cost-calculator", description: "Interactive unit price, hide yield & DDP estimator" },
+      { label: "India vs. China, Vietnam & Italy Guide", href: "/leather-sourcing-india-vs-china-vietnam-italy", description: "2026 tariff, MOQ & raw hide sourcing matrix" },
+    ]
   },
   {
     label: "Craftsmanship",
-    href: "/craftsmanship"
+    href: "/craftsmanship",
+    children: [
+      { label: "Atelier Craftsmanship & 11-Stage Process", href: "/craftsmanship", description: "Master handcraft & German skiving tolerances" },
+      { label: "Leather Quality & Sourcing Guide", href: "/leather-quality-sourcing-guide", description: "Full-Grain vs. Top-Grain, LWG & ISO specs" },
+      { label: "Global Sourcing Comparison (India vs. China/Italy)", href: "/leather-sourcing-india-vs-china-vietnam-italy", description: "Compare tariffs, LWG hides & landed costs" },
+    ]
   },
   {
     label: "Sustainability",
@@ -61,6 +71,9 @@ export const MAIN_NAV: NavItem[] = [
 
 export const FOOTER_NAV = {
   manufacturing: [
+    { label: "B2B FOB Cost & MOQ Calculator", href: "/cost-calculator" },
+    { label: "India vs. China, Vietnam & Italy Guide", href: "/leather-sourcing-india-vs-china-vietnam-italy" },
+    { label: "Leather Quality & Sourcing Guide", href: "/leather-quality-sourcing-guide" },
     { label: "Leather Goods Manufacturer (Global)", href: "/leather-goods-manufacturer" },
     { label: "Luxury Leather Goods Atelier", href: "/luxury-leather-goods-manufacturer" },
     { label: "Leather Jacket & Outerwear Factory", href: "/leather-jacket-manufacturer-india" },
@@ -86,16 +99,20 @@ export const FOOTER_NAV = {
   trade: [
     { label: "Global Export Direct (FOB, CIF, DDP)", href: "/export" },
     { label: "🇺🇸 USA Sourcing Portal (DDP / Prop 65)", href: "/en-us" },
+    { label: "🇨🇦 Canada Sourcing Hub (CBSA / CAD)", href: "/en-ca" },
     { label: "🇬🇧 UK & Ireland Hub (REACH / SEDEX)", href: "/en-gb" },
     { label: "🇦🇺 Australia Sourcing (ECTA 0% Duty)", href: "/en-au" },
     { label: "🇩🇪 Deutschland B2B (Lederwaren)", href: "/de" },
     { label: "🇫🇷 France & Europe (Maroquinerie)", href: "/fr" },
     { label: "🇮🇹 Italia B2B (Pelletteria Artigianale)", href: "/it" },
     { label: "🇪🇸 España B2B (Marroquinería & Bolsos)", href: "/es" },
-    { label: "🇪🇺 Pan-European OEM Supplier Hub", href: "/leather-goods-supplier-europe" },
+    { label: "🇳🇱 Nederland & Benelux (Lederwaren)", href: "/nl" },
+    { label: "🇸🇪 Sverige & Nordics (Lädervaror)", href: "/sv" },
+    { label: "🇦🇪 UAE & GCC Luxury Hub (Dubai)", href: "/ar" },
+    { label: "🇯🇵 Japan OEM Gateway (日本市場向け)", href: "/ja" },
+    { label: "🇰🇷 Korea OEM Gateway (한국 B2B)", href: "/ko" },
     { label: "EU REACH & Prop 65 Compliance", href: "/compliance#testing" },
     { label: "Quality Inspection & AQL 2.5", href: "/compliance" },
-    { label: "Buyer FAQ & Ordering Guide", href: "/contact#faqs" },
   ],
   company: [
     { label: "About Unicon Leather", href: "/about" },

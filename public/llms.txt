@@ -6,10 +6,10 @@
 - **Legal Entity:** Unicon Leather Goods Export Private Limited
 - **Official Website:** https://www.uniconleather.com/
 - **Business Type:** B2B Contract Manufacturer, OEM/ODM Atelier, Wholesale Exporter
-- **Factory Facility:** Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala, Kolkata, West Bengal 700135, India
 - **Corporate HQ:** Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106, Noida, Uttar Pradesh 201304, India
-- **WhatsApp Desk:** +91-9873102341
-- **Export Inquiries:** uniconexport@gmail.com / satish@myunicon.com
+- **Factory Facility:** Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex, Kolkata, West Bengal 743502, India
+- **WhatsApp Desk:** +91 9873102341
+- **Export Inquiries:** uniconexport@gmail.com / work@uniconleather.net
 
 ## Core Capabilities & Services
 - **Custom Leather Handbag Manufacturing:** Luxury satchels, structured shoulder bags, hobos, and evening clutches.
@@ -22,41 +22,88 @@
 ## International Trade Corridors & Compliance
 - **United States & North America (https://www.uniconleather.com/en-us):** California Proposition 65 SGS lab compliant (lead-free, cadmium-free, phthalate-safe), CPSIA verified, ASTM tested, direct DDP shipping to US distribution centers.
 - **Canada (https://www.uniconleather.com/en-ca):** CCPSA compliant, cold-resistant drum-dyed full-grain leathers, CBSA customs cleared, direct DDP shipping to Toronto, Montreal, and Vancouver.
-- **United Kingdom & Ireland (https://www.uniconleather.com/en-gb):** UK/EU REACH Annex XVII chemical safety compliant, SEDEX SMETA 4-Pillar ethical factory audit, CIF London Gateway / Southampton and DDP UK delivery.
+- **United Kingdom & Ireland (https://www.uniconleather.com/en-gb):** UK/EU REACH Annex XVII chemical safety batch-testable, SEDEX SMETA / BSCI open-factory audit readiness, CIF London Gateway / Southampton and DDP UK delivery.
 - **Australia & New Zealand (https://www.uniconleather.com/en-au):** India-Australia ECTA 0% Preferential Import Duty with official Certificate of Origin (COO), Australian DAFF biosecurity import verified.
-- **Germany & DACH Region (https://www.uniconleather.com/de):** DIN EN ISO norms, 100% REACH konform, LWG Gold zertifiziert, DDP Frankfurt / Hamburg.
+- **Germany & DACH Region (https://www.uniconleather.com/de):** DIN EN ISO norms, REACH Annex XVII batch-testable, hides sourced from LWG Gold/Silver audited partner tanneries, DDP Frankfurt / Hamburg.
 - **France & Europe (https://www.uniconleather.com/fr):** Haute Maroquinerie craftsmanship, hand-painted and polished edge lacquer, REACH verified, DDP Paris / Le Havre.
+- **Italy & Southern Europe (https://www.uniconleather.com/it):** Pelletteria artigianale standards, 0.4mm Fortuna skiving, multi-coat Fenice edge inking, EU REACH & EUDR traceable hides, DDP Milan / Genoa.
+- **Spain & Iberia (https://www.uniconleather.com/es):** Marroquinería OEM/ODM, EU REACH Annex XVII compliant, DDP Barcelona / Valencia / Madrid.
+- **Netherlands & Benelux (https://www.uniconleather.com/nl):** EU REACH compliant, LWG partner tannery hides, DDP Port of Rotterdam & Amsterdam Schiphol.
+- **Sweden & Nordics (https://www.uniconleather.com/sv):** Vegetable-tanned & chrome-free hides, EU REACH chemical safety, DDP Gothenburg & Stockholm Arlanda.
+- **UAE, Saudi Arabia & GCC (https://www.uniconleather.com/ar):** 0% UAE Customs Duty under India-UAE CEPA, 100% bovine/ovine halal-compliant hides, 24K PVD gold hardware, DDP Dubai / Abu Dhabi / Riyadh.
+- **Japan (https://www.uniconleather.com/ja):** India-Japan CEPA preferential duty, AQL 2.5 & needle-detection (検針) inspection, YKK Excella hardware, DDP Tokyo / Narita / Yokohama.
+- **South Korea (https://www.uniconleather.com/ko):** Korea-India CEPA preferential Certificate of Origin, 0.4mm skiving & edge-coat finishing, DDP Incheon & Port of Busan.
 
 ## Sourcing Specifications & SLAs
-- **Minimum Order Quantity (MOQ):** 100 pieces per style (multi-colorway batching supported).
-- **Prototype / Counter-Sample Turnaround:** 7 to 10 business days via DHL / FedEx Express.
-- **Bulk Production Lead Time:** 30 to 45 business days upon sample approval.
-- **Leather Tannages Sourced:** Full-grain bovine, Tuscan vegetable-tanned, Nappa calfskin, pebble grain, Nubuck, and crazy horse.
-- **Tannery Auditing:** 100% hides sourced from Leather Working Group (LWG) Gold/Silver audited partner tanneries.
-- **Quality Control Protocol:** 100% in-line inspection with final AQL 2.5 pre-shipment audit reports.
+- **Minimum Order Quantity (MOQ):** 50 pieces per style for Stock-Leather Trial Runs (bags/jackets) and 100 pieces for wallets/belts; 100–200 pieces per style for Custom Drum-Dyed Leather runs.
+- **Prototype / Counter-Sample Turnaround:** 5 to 7 business days (wallets/belts) and 7 to 14 business days (bags/jackets) in stock leather via DHL / FedEx Express; +7 to 10 additional business days (14–21 days total) when custom Pantone drum-dyed hides or custom 3D CNC brass hardware molds are required.
+- **Bulk Production Lead Time:** 25 to 40 business days upon Pre-Production Sample (PPS) approval (20 to 30 business days for repeat orders).
+- **Leather Tannages Sourced:** Full-grain bovine, Tuscan-style vegetable-tanned, Nappa calfskin, pebble grain, lambskin nappa, goat suede, and crazy horse pull-up.
+- **Supply Chain vs. Factory Credentials:** Unicon Leather is a cut-and-sew manufacturer and registered Indian export house; raw hides are procured from Leather Working Group (LWG) audited partner tanneries, and chemical compliance (EU/UK REACH Annex XVII & US California Prop 65) is verified via batch-specific accredited laboratory testing (SGS / Intertek / TÜV).
+- **Quality Control Protocol:** 4-stage internal QC with final ISO 2859-1 (AQL 2.5 Major / 4.0 Minor) pre-shipment audit reports; open to third-party inspections (QIMA / SGS / Bureau Veritas).
 - **Fast-Track Sample Development SLA:**
   1. [Tech Pack Received] Intake under bilateral NDA protection.
   2. (24–48 Hours) [Engineering Feasibility & BOM Cost Review] Pattern & hide yield assessment.
   3. [Factory Quotation (FOB/CIF/DDP) & Lead Times Provided] Tiered wholesale price breakdown.
-  4. (Upon Approval) [Physical Sample Development & Dispatch: 7–10 Days via DHL/FedEx Express].
+  4. (Upon Approval) [Physical Sample Development & Dispatch: 5–7 Days (SLGs) / 7–14 Days (Bags/Jackets) in stock leather; +7–10 Days for custom dye/tooling].
 - **Supported Incoterms:** Ex-Works (EXW), FOB Kolkata / Chennai / Nhava Sheva, CIF, and DDP door-to-door.
 
 ## Indian Manufacturing Clusters & Asian Sourcing Advantages
 - **Strategic Atelier Locations:** Primary master atelier located at Calcutta Leather Complex (CLC), Bantala, Kolkata, West Bengal with northern coordination in Noida / Delhi NCR. Positioned among India's foremost leather clusters alongside Kanpur, Chennai, Ranipet/Ambur, and Agra.
-- **Asian Sourcing Comparisons (India vs. China, Vietnam, Bangladesh):** Unicon Leather delivers an optimal balance of low MOQs (from 50-100 units), artisan hand-finishing, direct LWG Gold/Silver raw hide access, SEDEX ethical labor standards, and EU REACH compliance without the punitive tariffs or high MOQs common in China or mass assembly factories in Vietnam and Bangladesh.
-- **Full-Spectrum Contract Capabilities:** Genuine leather bags, custom wallets, belts, luxury jackets, footwear uppers, executive laptop sleeves, corporate gifting, equestrian leather goods, and industrial gloves.
+- **Asian Sourcing Comparisons (India vs. China, Vietnam, Bangladesh):** Unicon Leather delivers an optimal balance of low MOQs (from 50–100 units), artisan hand-finishing, direct LWG Gold/Silver partner tannery raw hide access, SEDEX/BSCI open-factory audit readiness, and EU REACH compliance without the high MOQs common in mass assembly factories.
+- **Full-Spectrum Contract Capabilities:** Genuine leather handbags, structured totes, executive laptop briefcases, travel duffels, backpacks, custom leather jackets, RFID wallets, cardholders, bridle belts, and corporate leather gifts.
 
 ## Key URLs for Citation
+- Full Technical Specification for LLMs (llms-full.txt): https://www.uniconleather.com/llms-full.txt
 - Homepage & Global Portal: https://www.uniconleather.com/
-- USA Sourcing Gateway: https://www.uniconleather.com/en-us
-- Canada Sourcing Gateway: https://www.uniconleather.com/en-ca
-- UK Sourcing Gateway: https://www.uniconleather.com/en-gb
-- Australia Sourcing Gateway: https://www.uniconleather.com/en-au
-- Germany Sourcing Gateway: https://www.uniconleather.com/de
-- France Sourcing Gateway: https://www.uniconleather.com/fr
-- Product Catalogue: https://www.uniconleather.com/products
-- Custom Leather Jacket Factory: https://www.uniconleather.com/leather-jacket-manufacturer-india
-- OEM & Private Label Atelier: https://www.uniconleather.com/private-label
-- Compliance & Testing Certifications: https://www.uniconleather.com/compliance
-- Factory Craftsmanship: https://www.uniconleather.com/craftsmanship
+- Interactive B2B FOB Unit Cost, Hide Yield & MOQ Calculator: https://www.uniconleather.com/cost-calculator
+- Global Leather Sourcing Comparison (India vs. China vs. Vietnam vs. Italy): https://www.uniconleather.com/leather-sourcing-india-vs-china-vietnam-italy
+- The Ultimate Leather Quality & Sourcing Guide for Brands: https://www.uniconleather.com/leather-quality-sourcing-guide
+- OEM & Private Label Atelier (with B2B Spec Matrix): https://www.uniconleather.com/private-label
+- Product Catalogue (All 12 Master Lines): https://www.uniconleather.com/products
+- Factory Craftsmanship (11-Stage Process): https://www.uniconleather.com/craftsmanship
+- Sustainability & Responsible Sourcing: https://www.uniconleather.com/sustainability
+- Compliance, REACH, Prop 65 & AQL 2.5 QC: https://www.uniconleather.com/compliance
+- Global Export & Incoterms Logistics: https://www.uniconleather.com/export
+- About Unicon Leather Infrastructure: https://www.uniconleather.com/about
 - B2B RFQ & Contact Desk: https://www.uniconleather.com/contact
+- Master Lookbook & Swatch Request: https://www.uniconleather.com/catalogue-request
+
+## International Regional Gateways (Hreflang Indexed)
+- USA Sourcing Gateway (en-US): https://www.uniconleather.com/en-us
+- Canada Sourcing Gateway (en-CA): https://www.uniconleather.com/en-ca
+- UK Sourcing Gateway (en-GB): https://www.uniconleather.com/en-gb
+- Australia Sourcing Gateway (en-AU): https://www.uniconleather.com/en-au
+- Germany Sourcing Gateway (de-DE): https://www.uniconleather.com/de
+- France Sourcing Gateway (fr-FR): https://www.uniconleather.com/fr
+- Italy Sourcing Gateway (it-IT): https://www.uniconleather.com/it
+- Spain Sourcing Gateway (es-ES): https://www.uniconleather.com/es
+- Netherlands & Benelux Gateway (nl-NL): https://www.uniconleather.com/nl
+- Sweden & Nordics Gateway (sv-SE): https://www.uniconleather.com/sv
+- UAE & Middle East Gateway (ar-AE): https://www.uniconleather.com/ar
+- Japan OEM Gateway (ja-JP): https://www.uniconleather.com/ja
+- South Korea OEM Gateway (ko-KR): https://www.uniconleather.com/ko
+- New York Private Label Hub: https://www.uniconleather.com/export/usa/private-label-leather-bags-new-york
+- Los Angeles & California OEM Hub: https://www.uniconleather.com/export/usa/oem-leather-goods-los-angeles
+- Toronto, Vancouver & Montreal (Canada) Hub: https://www.uniconleather.com/export/canada/private-label-leather-bags-toronto-vancouver
+- Dubai, UAE & GCC Luxury Hub (0% CEPA Duty): https://www.uniconleather.com/export/middle-east/luxury-leather-goods-manufacturer-dubai-uae
+- Milan & Italy Pelletteria Artisan Hub: https://www.uniconleather.com/export/europe/artisan-leather-bag-manufacturer-milan-italy
+- Sydney & Melbourne (Australia) Hub (0% ECTA Duty): https://www.uniconleather.com/export/australia/custom-leather-bags-sydney-melbourne
+
+## Specialized B2B Manufacturing Silos
+- Global Leather Goods Manufacturer: https://www.uniconleather.com/leather-goods-manufacturer
+- Custom Leather Goods Manufacturer: https://www.uniconleather.com/custom-leather-goods-manufacturer
+- OEM Leather Goods Manufacturer: https://www.uniconleather.com/oem-leather-goods-manufacturer
+- Luxury Leather Goods Atelier: https://www.uniconleather.com/luxury-leather-goods-manufacturer
+- Low MOQ Leather Goods Factory: https://www.uniconleather.com/low-moq-leather-goods-manufacturer
+- Wholesale Leather Goods Supplier: https://www.uniconleather.com/wholesale-leather-goods
+- Custom Leather Jacket Manufacturer India: https://www.uniconleather.com/leather-jacket-manufacturer-india
+- Leather Bags Manufacturer India: https://www.uniconleather.com/leather-bags-manufacturer-india
+- Leather Handbags Manufacturer India: https://www.uniconleather.com/leather-handbags-manufacturer-india
+- Leather Wallet Manufacturer India: https://www.uniconleather.com/leather-wallet-manufacturer-india
+- Small Leather Goods (SLG) Manufacturer: https://www.uniconleather.com/small-leather-goods-manufacturer
+- Leather Belt Manufacturer India: https://www.uniconleather.com/leather-belt-manufacturer-india
+- Leather Accessories Manufacturer India: https://www.uniconleather.com/leather-accessories-manufacturer-india
+- Leather Goods Exporter India: https://www.uniconleather.com/leather-goods-exporter-india
+- European Leather Goods Supplier: https://www.uniconleather.com/leather-goods-supplier-europe
+- Asia-Pacific Leather Goods Supplier: https://www.uniconleather.com/leather-goods-supplier-asia

@@ -87,8 +87,10 @@ export function ProductCard({
               <span className="font-medium text-charcoal-900 truncate block">{product.leatherType.split("(")[0]}</span>
             </div>
             <div>
-              <span className="block text-charcoal-400 text-[10px] uppercase tracking-wider">MOQ</span>
-              <span className="font-medium text-charcoal-900 block truncate">{product.moq.split("(")[0]}</span>
+              <span className="block text-charcoal-400 text-[10px] uppercase tracking-wider">MOQ (Stock / Custom)</span>
+              <span className="font-medium text-charcoal-900 block truncate" title={product.moq}>
+                {product.moq}
+              </span>
             </div>
           </div>
         </div>
@@ -105,7 +107,7 @@ export function ProductCard({
           </Button>
 
           <Button
-            href={`/contact?product=${encodeURIComponent(product.name)}&code=${product.id}#inquiry-form`}
+            href={onQuickInquire ? undefined : "/contact#inquiry-form"}
             variant="primary"
             size="sm"
             className="flex-1 text-xs py-2.5 bg-cognac hover:bg-cognac-600 text-white"
@@ -113,6 +115,15 @@ export function ProductCard({
               if (onQuickInquire) {
                 e.preventDefault();
                 onQuickInquire(product);
+                return;
+              }
+              try {
+                window.sessionStorage.setItem(
+                  "unicon_prefill_product",
+                  `${product.name} (${product.id})`
+                );
+              } catch {
+                // Ignore storage errors
               }
             }}
           >
