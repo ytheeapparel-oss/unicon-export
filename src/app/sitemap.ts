@@ -153,10 +153,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
+  // Product buying information and guides updated on 6 November 2026.
+  const buyerContentUpdated = new Date("2026-11-06T00:00:00.000Z");
+  const guideRoutes: MetadataRoute.Sitemap = [
+    "private-label-leather-bag-costs",
+    "leather-bag-sampling-process",
+    "leather-bag-moq-explained",
+  ].map((slug) => ({
+    url: `${baseUrl}/guides/${slug}`,
+    lastModified: buyerContentUpdated,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
   // Dynamic Product routes
   const productRoutes: MetadataRoute.Sitemap = PRODUCTS.map((product) => ({
     url: `${baseUrl}/products/${product.slug}`,
-    lastModified: lastModifiedDate,
+    lastModified: buyerContentUpdated,
     changeFrequency: "weekly",
     priority: 0.85,
   }));
@@ -197,6 +210,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...internationalRoutes,
     ...categoryRoutes,
     ...productRoutes,
+    ...guideRoutes,
     ...seoPillarRoutes,
     ...exportHubRoutes,
   ];
