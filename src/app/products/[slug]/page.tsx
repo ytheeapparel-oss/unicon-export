@@ -66,8 +66,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // 2. Check if slug matches a Product
   const product = PRODUCTS.find((p) => p.slug === slug);
   if (product) {
-    const title = `${product.name} | Custom Manufacturer & Wholesale`;
-    const description = `${product.shortDescription} Custom OEM/ODM manufacturing, MOQ ${product.moq}, LWG partner tannery leather, batch EU REACH & CA Prop 65 testable. Direct Indian export factory.`;
+    const sourcingTitles: Record<string, string> = {
+      "amber-pull-up-leather-tote": "Leather Shopper Tote Manufacturer | Private Label",
+      "republic-compass-leather-passport-case": "Leather Passport Wallet Manufacturer | Custom Logo",
+      "artisan-compass-leather-wallets": "Leather Pocket Wallet Manufacturer | Private Label",
+      "vintage-heritage-leather-weekender-duffel": "Leather Weekender Bag Manufacturer | OEM",
+      "soho-executive-leather-briefcase": "Leather Briefcase Manufacturer | Private Label"
+};
+    const title = sourcingTitles[product.slug] || `${product.name} | Custom Manufacturer & Wholesale`;
+    const description = sourcingTitles[product.slug]
+      ? `Custom ${product.category.toLowerCase()} made in India. MOQ: ${product.moq}. Choose leather, logo and packaging. Request a sample or export quote.`
+      : `${product.shortDescription} Custom OEM/ODM manufacturing, MOQ ${product.moq}, LWG partner tannery leather, batch EU REACH & CA Prop 65 testable. Direct Indian export factory.`;
     const url = `https://www.uniconleather.com/products/${product.slug}`;
     const imageUrl = product.images[0].startsWith("http")
       ? product.images[0]
