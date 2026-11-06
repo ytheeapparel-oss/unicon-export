@@ -43,7 +43,7 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
   const productFaqs = [
     {
       question: `What is the minimum order quantity (MOQ) and sampling lead time for the ${product.name} (${product.id})?`,
-      answer: `The wholesale MOQ for the ${product.name} (SKU: ${product.id}) is ${product.moq}. Physical pre-production counter-samples are crafted in ${product.sampleLeadTime}, and bulk production takes ${product.productionLeadTime} after golden sample sign-off.`,
+      answer: `The wholesale MOQ for the ${product.name} (SKU: ${product.id}) is ${product.moq}. Physical pre-production counter-samples are crafted in ${product.sampleLeadTime}, and the published bulk production lead time is ${product.productionLeadTime}. Confirm the schedule in your quotation; courier transit is separate.`,
     },
     {
       question: `Can we customize the leather, dimensions, and private-label branding on ${product.name}?`,
@@ -81,7 +81,7 @@ Product Code: ${product.id}
 Category: ${product.category}
 Leather Type: ${product.leatherType}
 Tannage: ${product.tannage}
-Dimensions: ${product.dimensions.length} x ${product.dimensions.width} x ${product.dimensions.height} ${product.dimensions.unit}
+Dimensions (L x W x H): ${product.dimensions.length} x ${product.dimensions.width} x ${product.dimensions.height} ${product.dimensions.unit}
 Lining: ${product.lining}
 Hardware: ${product.hardware}
 MOQ: ${product.moq}
@@ -93,7 +93,7 @@ Packaging: ${product.packagingOptions.join(", ")}
 Key Technical Features:
 ${product.keyFeatures.map((f) => `- ${f}`).join("\n")}
 
-Export Compliance: EU REACH Annex XVII & CA Prop 65 Verified.
+Testing: Confirm the applicable batch-specific testing and reports in your quotation.
 Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/ | WhatsApp / Phone: +91 9873102341`;
 
       const blob = new Blob([specContent], { type: "text/plain;charset=utf-8" });
@@ -226,7 +226,7 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
                   <span className="font-medium text-charcoal-900">{product.tannage}</span>
                 </div>
                 <div>
-                  <span className="text-charcoal-400 block text-[10px] uppercase tracking-wider">Dimensions</span>
+                  <span className="text-charcoal-400 block text-[10px] uppercase tracking-wider">Dimensions (L × W × H)</span>
                   <span className="font-medium text-charcoal-900">
                     {product.dimensions.length} × {product.dimensions.width} × {product.dimensions.height} {product.dimensions.unit}
                   </span>
@@ -257,6 +257,15 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
                 </div>
               </div>
             </div>
+
+            <section aria-label="Sample and production planning" className="border border-charcoal/15 bg-[#FAF8F5] p-6 space-y-4">
+              <h2 className="font-serif text-xl text-charcoal">Sample &amp; production plan</h2>
+              <dl className="space-y-3 text-sm leading-relaxed">
+                <div><dt className="font-semibold">Sample development</dt><dd className="text-charcoal-700">{product.sampleLeadTime}</dd></div>
+                <div><dt className="font-semibold">Bulk production</dt><dd className="text-charcoal-700">{product.productionLeadTime}</dd></div>
+              </dl>
+              <p className="text-xs text-charcoal-600 leading-relaxed">Development and production times exclude transit. Confirm material availability, sample approvals and your delivery schedule in the written quotation.</p>
+            </section>
 
             {/* Action CTAs */}
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 flex-wrap">
@@ -370,6 +379,16 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
             <p className="text-sm text-charcoal-600 leading-relaxed font-light">
               Specify your target order volume, custom leather requests (e.g. Italian calf, veg-tan, custom color matching), or hardware branding. Our export desk will reply with a detailed pricing tier within 12–24 business hours.
             </p>
+
+            <div className="border-l-2 border-cognac pl-4 space-y-3 text-sm leading-relaxed">
+              <h3 className="font-semibold">Include these details for an accurate quote</h3>
+              <p className="text-charcoal-700">Send the SKU, quantity per color, dimensions or requested changes, leather choice, logo artwork, packaging, destination postal code and target delivery date.</p>
+              <nav aria-label="Product sourcing guides" className="flex flex-col gap-2">
+                <Link href="/guides/private-label-leather-bag-costs" className="underline underline-offset-4">What goes into a private-label leather bag quote?</Link>
+                <Link href="/guides/leather-bag-sampling-process" className="underline underline-offset-4">How the sample approval process works</Link>
+                <Link href="/guides/leather-bag-moq-explained" className="underline underline-offset-4">Stock leather, custom colors and minimum orders</Link>
+              </nav>
+            </div>
 
             <div className="bg-charcoal-50 p-6 rounded-none border border-charcoal/10 text-xs sm:text-sm space-y-3">
               <span className="font-bold text-charcoal block">Export Lead Times Summary:</span>
