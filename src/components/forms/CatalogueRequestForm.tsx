@@ -27,11 +27,20 @@ export function CatalogueRequestForm() {
   const onSubmit = async (data: CatalogueRequestFormData) => {
     setIsSubmitting(true);
     try {
-      const res = await fetch("/api/catalogue", {
+      const requestBody = JSON.stringify(data);
+      let res = await fetch("/api/catalogue", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: requestBody,
       });
+
+      if (!res.ok && typeof window !== "undefined" && window.location.hostname !== "www.uniconleather.com") {
+        res = await fetch("https://www.uniconleather.com/api/catalogue", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: requestBody,
+        });
+      }
 
       if (!res.ok) {
         await supabase.from("catalogue_requests").insert({

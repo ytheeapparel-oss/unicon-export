@@ -2,6 +2,11 @@ import React from "react";
 import Link from "next/link";
 
 const MANUFACTURING_CAPABILITY_GUIDES = [
+  { label: "Best Supplier of Leather Goods", href: "/leather-goods-supplier-usa" },
+  { label: "Leather Goods Manufacturer India", href: "/leather-goods-manufacturer" },
+  { label: "Leather Goods Manufacturer Asia", href: "/leather-goods-supplier-asia" },
+  { label: "Leather Goods Supplier Europe", href: "/leather-goods-supplier-europe" },
+  { label: "USA Leather Goods Supplier Desk", href: "/en-us" },
   { label: "Handbags & Shoulder Bags", href: "/leather-handbags-manufacturer-india" },
   { label: "Full-Line Bag Production", href: "/leather-bags-manufacturer-india" },
   { label: "Bespoke Bag & Goods Engineering", href: "/custom-leather-goods-manufacturer" },
@@ -21,6 +26,17 @@ const MANUFACTURING_CAPABILITY_GUIDES = [
 ];
 
 const B2B_RESOURCE_DIRECTORY = [
+  {
+    heading: "Global Sourcing Portals (USA & Europe)",
+    links: [
+      { label: "Best Supplier of Leather Goods (USA & EU)", href: "/leather-goods-supplier-usa" },
+      { label: "Leather Goods Manufacturer in India", href: "/leather-goods-manufacturer" },
+      { label: "Leather Goods Manufacturer in Asia", href: "/leather-goods-supplier-asia" },
+      { label: "Pan-European Leather Goods Supplier", href: "/leather-goods-supplier-europe" },
+      { label: "USA Direct B2B Sourcing Portal (DDP)", href: "/en-us" },
+      { label: "UK & British Designer Atelier (REACH)", href: "/en-gb" },
+    ],
+  },
   {
     heading: "Core Bag & Apparel Categories",
     links: [

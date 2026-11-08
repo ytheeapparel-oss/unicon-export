@@ -5,6 +5,16 @@ import {
   sendBuyerConfirmationEmail,
 } from "@/lib/email";
 
+const CORS_HEADERS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type, Authorization",
+};
+
+export async function OPTIONS() {
+  return new NextResponse(null, { status: 204, headers: CORS_HEADERS });
+}
+
 export async function GET() {
   return NextResponse.json(
     {
@@ -12,7 +22,7 @@ export async function GET() {
       service: "UNICON LEATHER B2B Inquiry API",
       methodAllowed: "POST",
     },
-    { status: 200 }
+    { status: 200, headers: CORS_HEADERS }
   );
 }
 
@@ -23,7 +33,7 @@ export async function POST(req: NextRequest) {
     if (!data.buyerName || !data.businessEmail || !data.companyName) {
       return NextResponse.json(
         { error: "Missing required fields: buyerName, businessEmail, or companyName" },
-        { status: 400 }
+        { status: 400, headers: CORS_HEADERS }
       );
     }
 
@@ -59,7 +69,7 @@ export async function POST(req: NextRequest) {
         emailError = adminEmailRes?.error;
       }
 
-      // Auto-confirmation to the buyer if custom domain or matching test address
+      // Auto-confirmation to the buyer if custom domain is configured
       if (data.businessEmail) {
         sendBuyerConfirmationEmail({
           ...payload,
@@ -70,17 +80,15 @@ export async function POST(req: NextRequest) {
       emailError = emailErr?.message;
     }
 
-    // 2. Non-blocking attempt to persist to Supabase if available
-    let insertedId: string | undefined;
+    // 2. Non-blocking attempt to persist to Supabase (without .select("id") so anon RLS INSERT policy succeeds)
     let dbSaved = false;
     try {
-      const dbPromise = supabaseAdmin.from("inquiries").insert(payload).select("id");
-      const timeoutPromise = new Promise<{ data: null; error: { message: string } }>((resolve) =>
-        setTimeout(() => resolve({ data: null, error: { message: "Supabase timeout (1s)" } }), 1000)
+      const dbPromise = supabaseAdmin.from("inquiries").insert(payload);
+      const timeoutPromise = new Promise<{ error: { message: string } }>((resolve) =>
+        setTimeout(() => resolve({ error: { message: "Supabase timeout (2s)" } }), 2000)
       );
       const dbResult = await Promise.race([dbPromise, timeoutPromise]);
-      if (!dbResult.error && dbResult.data) {
-        insertedId = dbResult.data?.[0]?.id;
+      if (!dbResult.error) {
         dbSaved = true;
       }
     } catch (dbErr: any) {
@@ -93,7 +101,7 @@ export async function POST(req: NextRequest) {
           error: "Unable to dispatch inquiry at this moment. Please use direct WhatsApp or Email.",
           details: emailError,
         },
-        { status: 500 }
+        { status: 500, headers: CORS_HEADERS }
       );
     }
 
@@ -101,14 +109,17 @@ export async function POST(req: NextRequest) {
       {
         success: true,
         message: "Inquiry received and notification dispatched to uniconexport@gmail.com",
-        id: insertedId || `rfq-${Date.now()}`,
+        id: `rfq-${Date.now()}`,
         emailSent,
         dbSaved,
       },
-      { status: 201 }
+      { status: 201, headers: CORS_HEADERS }
     );
   } catch (err: any) {
     console.error("[API Inquiries] Server error:", err);
-    return NextResponse.json({ error: err?.message || "Internal server error" }, { status: 500 });
+    return NextResponse.json(
+      { error: err?.message || "Internal server error" },
+      { status: 500, headers: CORS_HEADERS }
+    );
   }
 }

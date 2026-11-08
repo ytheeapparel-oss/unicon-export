@@ -115,28 +115,40 @@ function BulkInquiryFormFields({
       ? `${data.customizationRequirements ? `${data.customizationRequirements}\n` : ""}[Attached Tech Pack / Reference File: ${attachedFileName}]`
       : data.customizationRequirements || "";
 
+    const requestBody = JSON.stringify({
+      ...data,
+      customizationRequirements: finalCustomization,
+      inquiryType: data.inquiryType || inquiryType || "bulk",
+      productSlug: data.productSlug || initialProduct || null,
+      attachmentName: attachedFileName,
+      attachmentBase64: attachedFileBase64,
+    });
+
     try {
-      const res = await fetch("/api/inquiries", {
+      let res = await fetch("/api/inquiries", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          ...data,
-          customizationRequirements: finalCustomization,
-          inquiryType: data.inquiryType || inquiryType || "bulk",
-          productSlug: data.productSlug || initialProduct || null,
-          attachmentName: attachedFileName,
-          attachmentBase64: attachedFileBase64,
-        }),
+        body: requestBody,
       });
 
-      if (res.ok) {
+      // If accessed via an alias domain before redirect, retry against canonical production endpoint
+      if (!res.ok && typeof window !== "undefined" && window.location.hostname !== "www.uniconleather.com") {
+        res = await fetch("https://www.uniconleather.com/api/inquiries", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: requestBody,
+        });
+      }
+
+      const respData = await res.json().catch(() => null);
+
+      if (res.ok && respData?.emailSent) {
         success = true;
       } else {
-        const errorData = await res.json().catch(() => null);
-        console.warn("[BulkInquiryForm] API error, attempting direct client insert fallback:", errorData);
+        console.warn("[BulkInquiryForm] Email dispatch warning or API error:", respData);
 
-        // Fallback to client-side insert
-        const { error: clientError } = await supabase.from("inquiries").insert({
+        // Save to Supabase so the lead is still recorded in the database
+        await supabase.from("inquiries").insert({
           buyer_name: data.buyerName,
           company_name: data.companyName,
           business_email: data.businessEmail,
@@ -154,12 +166,11 @@ function BulkInquiryFormFields({
           status: "new",
         });
 
-        if (!clientError) {
+        if (res.ok) {
           success = true;
         } else {
-          console.error("[BulkInquiryForm] Client insert error:", clientError);
           setSubmitError(
-            errorData?.error || clientError.message || "Database permission error. Please use direct WhatsApp or Email below."
+            respData?.error || "Unable to reach email server directly. Please click below to send via WhatsApp or Email."
           );
           setSavedDataForFallback(data);
         }
@@ -421,9 +432,9 @@ function BulkInquiryFormFields({
             Company Website / Storefront URL
           </label>
           <input
-            type="url"
+            type="text"
             {...register("companyWebsite")}
-            placeholder="https://yourbrand.com (Optional)"
+            placeholder="yourbrand.com or https://yourbrand.com (Optional)"
             className="w-full text-base px-4 py-3.5 bg-charcoal-50 border border-charcoal/20 rounded-none text-charcoal focus:bg-white focus:border-cognac"
           />
         </div>
@@ -658,6 +669,29 @@ function BulkInquiryFormFields({
           </span>
         )}
       </div>
+
+      {/* Validation Error Summary Banner (Visible right above Submit button on mobile/laptop) */}
+      {Object.keys(errors).length > 0 && (
+        <div className="bg-red-50 border border-red-200 p-4 text-xs sm:text-sm text-red-700 flex items-start gap-2.5">
+          <AlertCircle className="w-4 h-4 shrink-0 mt-0.5 text-red-600" />
+          <div>
+            <strong className="font-semibold block">Please complete all required fields above:</strong>
+            <span>
+              {[
+                errors.buyerName && "Buyer Name",
+                errors.businessEmail && "Business Email",
+                errors.companyName && "Company Name",
+                errors.phoneOrWhatsApp && "Phone/WhatsApp",
+                errors.country && "Destination Country",
+                errors.message && "Project Notes / Message",
+                errors.consent && "Confirmation Checkbox",
+              ]
+                .filter(Boolean)
+                .join(", ")}
+            </span>
+          </div>
+        </div>
+      )}
 
       {/* Submit Button */}
       <div className="pt-2">

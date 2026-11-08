@@ -1353,6 +1353,142 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 7.25 STRATEGIC SOURCING CORRIDOR: BEST SUPPLIER OF LEATHER GOODS & TOP MANUFACTURER IN INDIA / ASIA (USA & EUROPE TARGETING) */}
+      <section
+        id="best-supplier-leather-goods-india-asia"
+        aria-labelledby="supplier-manufacturer-corridor-heading"
+        className="w-full max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14 xl:px-16"
+      >
+        <div className="bg-[#FAF8F5] border border-charcoal/15 p-8 sm:p-12 lg:p-16 space-y-10 shadow-xs">
+          <div className="max-w-4xl space-y-4">
+            <div className="inline-flex items-center gap-2">
+              <span className="text-[10.5px] font-mono uppercase tracking-[0.22em] text-cognac font-bold bg-cognac/10 px-3 py-1">
+                Global B2B Sourcing Authority
+              </span>
+              <span className="text-xs font-mono text-charcoal-500">USA · United Kingdom · European Union</span>
+            </div>
+            <h2
+              id="supplier-manufacturer-corridor-heading"
+              className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-charcoal tracking-tight leading-snug"
+            >
+              Best Supplier of Leather Goods &amp; Premier Leather Goods Manufacturer in India &amp; Asia for USA &amp; Europe
+            </h2>
+            <p className="text-sm sm:text-base text-charcoal-700 leading-relaxed font-normal">
+              When sourcing managers and independent fashion founders search for the <strong>best supplier of leather goods</strong> or evaluate a verified <strong>leather goods manufacturer in India and Asia</strong>, their primary priorities are consistent material traceability, chemical safety compliance, low minimum order quantities, and turnkey DDP freight. <strong>UNICON LEATHER</strong> serves as the direct manufacturing bridge between India&apos;s world-renowned raw hide reserves and high-end retail shelves in the <strong>United States and Europe</strong>.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Box 1: Why India & Asia for US Brands */}
+            <div className="bg-white p-6 sm:p-7 border border-charcoal/10 shadow-2xs space-y-3 flex flex-col justify-between">
+              <div className="space-y-2.5">
+                <span className="text-[10px] font-mono uppercase tracking-wider text-cognac font-bold block">
+                  Targeting USA Brands &amp; Boutiques
+                </span>
+                <h3 className="font-serif text-lg font-medium text-charcoal">
+                  Direct Leather Goods Supplier for USA Retailers
+                </h3>
+                <p className="text-xs text-charcoal-600 font-light leading-relaxed">
+                  Full <strong>California Proposition 65</strong> and CPSIA third-party testing (SGS/Intertek verified lead &lt; 90 ppm, 0% restricted phthalates). DDP air cargo and ocean container shipping directly cleared to New York (JFK), Los Angeles (LAX), Miami, and Chicago. Stable bilateral trade without Section 301 punitive tariffs.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-charcoal/8">
+                <Link
+                  href="/en-us"
+                  className="text-xs font-mono font-semibold text-cognac hover:text-charcoal inline-flex items-center gap-1.5"
+                >
+                  Explore USA Sourcing Portal <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Box 2: Why India & Asia for European Brands */}
+            <div className="bg-white p-6 sm:p-7 border border-charcoal/10 shadow-2xs space-y-3 flex flex-col justify-between">
+              <div className="space-y-2.5">
+                <span className="text-[10px] font-mono uppercase tracking-wider text-cognac font-bold block">
+                  Targeting European &amp; UK Brands
+                </span>
+                <h3 className="font-serif text-lg font-medium text-charcoal">
+                  EU REACH &amp; LWG Tested Leather Exporter to Europe
+                </h3>
+                <p className="text-xs text-charcoal-600 font-light leading-relaxed">
+                  Strict adherence to <strong>EU REACH Annex XVII</strong> (Azo-free, Chromium VI &lt; 3 ppm, nickel-free hardware). Invoicing in <strong>EUR (€) and GBP (£)</strong> with DDP customs-cleared container deliveries into Rotterdam, Hamburg, Antwerp, and London Gateway.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-charcoal/8">
+                <Link
+                  href="/leather-goods-supplier-europe"
+                  className="text-xs font-mono font-semibold text-cognac hover:text-charcoal inline-flex items-center gap-1.5"
+                >
+                  Explore European Hub <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Box 3: Why Unicon as Best Supplier in Asia */}
+            <div className="bg-white p-6 sm:p-7 border border-charcoal/10 shadow-2xs space-y-3 flex flex-col justify-between">
+              <div className="space-y-2.5">
+                <span className="text-[10px] font-mono uppercase tracking-wider text-cognac font-bold block">
+                  Pan-Asian Supply Chain
+                </span>
+                <h3 className="font-serif text-lg font-medium text-charcoal">
+                  Top Leather Goods Manufacturer in Asia
+                </h3>
+                <p className="text-xs text-charcoal-600 font-light leading-relaxed">
+                  India stands out in Asia with native bovine, buffalo, and goat raw hide availability—eliminating raw material import markups. Combined with multi-generational handcraft in the Kolkata Leather Complex and German Dürkopp Adler precision machinery, we offer a proven China+1 manufacturing alternative.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-charcoal/8">
+                <Link
+                  href="/leather-goods-supplier-asia"
+                  className="text-xs font-mono font-semibold text-cognac hover:text-charcoal inline-flex items-center gap-1.5"
+                >
+                  Explore Asia Manufacturing <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Box 4: Accessible MOQs & Prototyping */}
+            <div className="bg-white p-6 sm:p-7 border border-charcoal/10 shadow-2xs space-y-3 flex flex-col justify-between">
+              <div className="space-y-2.5">
+                <span className="text-[10px] font-mono uppercase tracking-wider text-cognac font-bold block">
+                  OEM / ODM Private Label
+                </span>
+                <h3 className="font-serif text-lg font-medium text-charcoal">
+                  Custom OEM Factory with Low MOQs
+                </h3>
+                <p className="text-xs text-charcoal-600 font-light leading-relaxed">
+                  Fast <strong>5–7 day SLG &amp; 7–14 day bag sampling</strong> in stock leather. Trial MOQs starting at <strong>50 pieces</strong> per silhouette for bags and jackets (100–200 pcs for wallets and belts). Full CAD tech pack grading, custom brass mold tooling, and blind debossed logo branding under strict mutual NDA.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-charcoal/8">
+                <Link
+                  href="/leather-goods-manufacturer"
+                  className="text-xs font-mono font-semibold text-cognac hover:text-charcoal inline-flex items-center gap-1.5"
+                >
+                  View Contract Factory Overview <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Quick-Scan Trending Sourcing Queries Bar */}
+          <div className="pt-6 border-t border-charcoal/10 flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-xs">
+            <div className="flex items-center gap-2 text-charcoal-700">
+              <span className="font-mono uppercase font-bold text-cognac text-[11px]">Trending B2B Searches:</span>
+              <span className="text-charcoal-500 font-light hidden md:inline">Frequently verified by overseas sourcing teams:</span>
+            </div>
+            <div className="flex flex-wrap gap-2 text-[11px] font-mono">
+              <span className="bg-white border border-charcoal/15 px-2.5 py-1 text-charcoal-800">best supplier of leather goods</span>
+              <span className="bg-white border border-charcoal/15 px-2.5 py-1 text-charcoal-800">leather goods manufacturer in India</span>
+              <span className="bg-white border border-charcoal/15 px-2.5 py-1 text-charcoal-800">leather goods manufacturer in Asia</span>
+              <span className="bg-white border border-charcoal/15 px-2.5 py-1 text-charcoal-800">leather goods supplier USA</span>
+              <span className="bg-white border border-charcoal/15 px-2.5 py-1 text-charcoal-800">leather goods supplier Europe</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 7.5 INTERNATIONAL B2B SOURCING FAQ (GOOGLE FAQ RICH SNIPPET INDEXED) */}
       <section className="w-full bg-[#FAF8F5] py-16 sm:py-24 border-y border-charcoal/10">
         <div className="w-full max-w-[1280px] mx-auto px-6 sm:px-10 lg:px-14">

@@ -72,5 +72,17 @@ export const FAQS: FAQItem[] = [
     category: "manufacturing",
     question: "How are your Kolkata manufacturing factory and Noida corporate office structured?",
     answer: "Our primary cut-and-sew production atelier is located at Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex, Kolkata 743502 (India's premier leather cluster with direct access to LWG partner tanneries and Kolkata Port), while our corporate sourcing showroom and international export desk is located in Sector 106, Noida (Delhi NCR), 45 minutes from New Delhi International Airport (DEL) for convenient buyer meetings and sample reviews."
+  },
+  {
+    id: "faq-13",
+    category: "manufacturing",
+    question: "Why is UNICON LEATHER recognized as the best supplier of leather goods and premier leather goods manufacturer in India & Asia for USA and European brands?",
+    answer: "UNICON LEATHER is recognized as the best supplier of leather goods in India and Asia because we bridge master Indian artisan leathercraft with strict Western retail standards. Fashion labels and retail buyers in the USA and Europe partner with us for: (1) Low accessible trial MOQs of 50 pieces in stock leather (100 pcs custom dye); (2) 100% full-grain and vegetable-tanned hides traceable to LWG-audited partner tanneries; (3) Third-party laboratory certified chemical safety under California Proposition 65 and EU REACH Annex XVII; (4) Rapid 5–7 day SLG and 7–14 day bag prototype sampling; and (5) ISO 2859-1 AQL 2.5 defect audits backed by turnkey DDP air and sea delivery directly to warehouses in New York, Los Angeles, London, Rotterdam, and Hamburg."
+  },
+  {
+    id: "faq-14",
+    category: "export",
+    question: "How does an international buyer in the USA or Europe import custom leather goods from an Indian or Asian manufacturer with DDP shipping?",
+    answer: "Importing custom leather goods from our Indian atelier to the USA or Europe is seamless via our Delivered Duty Paid (DDP) service. Under DDP terms, UNICON LEATHER manages every step of the export and import process: our export desk prepares HS 4202/4203 commercial invoices, certificates of origin, and packing lists, coordinates air freight (4–6 days via FedEx/DHL/air cargo) or ocean container shipping (22–28 days to US/EU ports), handles customs broker filings (including US ISF 10+2 and EU import customs clearance), and pays all import duties and harbor taxes upfront—delivering palletized or boxed shipments directly to your warehouse or 3PL center with zero unexpected fees."
   }
 ];

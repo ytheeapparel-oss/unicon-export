@@ -27,81 +27,100 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
     currency: "USD",
     currencySymbol: "$",
     path: "/en-us",
-    metaTitle: "Private Label Leather Bags Manufacturer for USA Brands",
-    metaDescription: "Leather bags and wallets made in India for US brands. Custom logos, OEM sampling and stock-leather bag trials from 50 pieces. Request a USD quote.",
+    metaTitle: "Leather Goods Manufacturer in India for USA Brands | OEM & Private Label",
+    metaDescription:
+      "Premier OEM leather goods manufacturer in India exporting to USA brands. Custom handbags, totes, duffels, wallets & jackets. Full California Prop 65 compliance, DDP delivery to US ports, low 50–100 MOQ.",
     heroKicker: "USA & North America Sourcing Gateway · FOB & DDP Delivery",
-    heroH1: "Private Label Leather Bags & Wallets Manufacturer for US Brands",
-    heroSubtitle: "Unicon Leather manufactures finished leather bags, totes, laptop bags, duffels, wallets and cardholders in Kolkata, India for American brands and retailers. Develop your own design through OEM production or adapt a catalogue style with your logo, leather and hardware. Share your tech pack, quantity and US delivery ZIP code for a project-specific USD quotation.",
+    heroH1: "OEM Leather Goods Manufacturer in India for USA Brands",
+    heroSubtitle:
+      "Direct contract manufacturing and private label atelier for American fashion labels, boutique designers, and luxury department stores. LWG-audited partner tannery hides, California Prop 65 compliance, low 50–100 piece MOQs, and end-to-end DDP shipping to New York, Los Angeles, Miami, and Chicago.",
     complianceBadges: [
-      {
-        "title": "Private Label & OEM",
-        "subtitle": "Custom Logo, Leather & Hardware"
-      },
-      {
-        "title": "LWG Partner Tanneries",
-        "subtitle": "Leather Sourcing Options"
-      },
-      {
-        "title": "USA Delivery Planning",
-        "subtitle": "FOB, CIF or DDP by Quotation"
-      },
-      {
-        "title": "Bag Trials from 50",
-        "subtitle": "Stock Leather; SLG MOQs Differ"
-      }
+      { title: "California Prop 65", subtitle: "SGS Lab Certified Lead & Phthalate Safe" },
+      { title: "LWG Partner Tanneries", subtitle: "Full-Grain Traceable Leather Supply" },
+      { title: "DDP USA Shipping", subtitle: "Customs Cleared to Your Warehouse" },
+      { title: "Low 50–100 MOQ", subtitle: "50 Pcs Stock Trial · 100 Pcs Custom" },
     ],
     tradeHighlights: [
       {
-        "label": "Custom Branding",
-        "value": "Bags & Small Goods",
-        "desc": "Specify logo debossing, lining, hardware finish and packaging for your collection."
+        label: "Direct DDP & FOB Shipping",
+        value: "Sea & Air Freight",
+        desc: "Hassle-free customs clearance and door-to-door delivery across US East & West Coast distribution centers.",
       },
       {
-        "label": "US Import Planning",
-        "value": "Itemized Freight Quote",
-        "desc": "Confirm HS classification, destination, importer responsibilities and freight terms before placing an order."
+        label: "Duty & Tariff Optimization",
+        value: "Stable Bilateral Trade",
+        desc: "Benefit from India's stable non-retaliatory tariff position compared to Section 301 China duties.",
       },
       {
-        "label": "Stock-Leather Sampling",
-        "value": "5–7d SLG / 7–14d Bags",
-        "desc": "Business days for stock-leather development; custom dye or tooling adds 7–10 business days. Transit is quoted separately."
+        label: "Prototyping Lead Time",
+        value: "5–7d SLG / 7–14d Bags",
+        desc: "Stock leather counter-samples via FedEx Priority (+7–10 business days for custom dye or 3D brass tooling).",
       },
       {
-        "label": "Buyer Testing Requirements",
-        "value": "Reports on Request",
-        "desc": "Discuss destination-specific chemical testing and batch reports with the export desk before production."
-      }
+        label: "Regulatory Testing",
+        value: "CPSIA & ASTM Verified",
+        desc: "Hardware salt-spray testing, nickel-free plating, and heavy metal testing per US consumer safety acts.",
+      },
     ],
     popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
-        "question": "Can you manufacture private label leather bags from our tech pack?",
-        "answer": "Yes. Share dimensions, reference images or drawings, leather preferences, logo artwork, hardware details and quantities. Our Kolkata team reviews the specification, develops a counter-sample and confirms production after sample approval. Bags, totes, briefcases, duffels, wallets and cardholders can be developed with custom branding."
+        question: "How do you manage DDP shipping and customs clearance for US brands?",
+        answer:
+          "We handle end-to-end DDP (Delivered Duty Paid) logistics. Our freight partners take care of US Customs clearance, ISF 10+2 filings, harbor maintenance fees, and final trucking directly to your warehouse or 3PL facility in the United States.",
       },
       {
-        "question": "What is the minimum order quantity for US private label buyers?",
-        "answer": "Stock-leather trials for bags and jackets start at 50 pieces per style; custom-dyed versions start at 100. Wallets, cardholders and belts generally require 100–200 pieces depending on the specification. Final quantities, colors and material availability are confirmed in your quotation."
+        question: "Are your leather goods certified for California Proposition 65?",
+        answer:
+          "Yes. All leather finishes, lining textiles, edge lacquers, and metallic hardware are lab-tested by SGS or Intertek to ensure zero detectable levels of regulated phthalates, lead, cadmium, and hexavalent chromium.",
       },
       {
-        "question": "How do American brands request a manufacturing quote?",
-        "answer": "Send your tech pack or reference, product dimensions, leather type, branding, quantity per style, target delivery date and US ZIP code. State whether you need an FOB, CIF or DDP quotation. The export desk reviews the project before confirming pricing, sampling and shipping."
+        question: "What is the minimum order quantity (MOQ) for US startup brands?",
+        answer:
+          "Our standard production MOQ starts at 50 pieces per style using in-stock atelier leathers (or 100 pieces for custom Pantone drum-dyed hides). We allow colorway batching to help US brands launch diverse collections without inventory risk.",
       },
       {
-        "question": "Do you manufacture in the USA or India?",
-        "answer": "Manufacturing takes place at our Kolkata Leather Complex facility in India, supported by our Noida export office. This page serves US buyers sourcing finished leather goods from India; it does not represent a US factory or local US stock."
+        question: "What are your payment terms for North American wholesale accounts?",
+        answer:
+          "We operate with standard B2B international terms: 50% advance deposit upon Proforma Invoice sign-off, and 50% balance after your team approves the final AQL 2.5 pre-shipment inspection report prior to dispatch (or Irrevocable L/C at sight for established volume buyers).",
       },
-      {
-        "question": "Can you support US product-testing requirements?",
-        "answer": "Share the destination, intended use and your buyer testing protocol before sampling. Batch-specific third-party testing through SGS or Intertek can be discussed and quoted. Request the applicable reports for your order rather than assuming a general certification covers every material or product."
-      }
     ],
     keywords: [
-      "private label leather bags manufacturer India for USA",
-      "OEM leather bag manufacturer India",
-      "custom leather wallet manufacturer for US brands",
-      "leather tote bag manufacturer India",
-      "leather duffel bag manufacturer India",
-      "finished leather goods manufacturer and exporter"
+      "best supplier of leather goods",
+      "best leather goods supplier in India",
+      "best supplier of leather goods in Asia",
+      "leather goods manufacturer in India",
+      "leather goods manufacturer in Asia",
+      "leather goods supplier USA",
+      "leather goods manufacturer in india for usa",
+      "best leather goods manufacturer in India",
+      "top leather goods suppliers",
+      "reliable leather goods supplier",
+      "wholesale leather goods suppliers USA",
+      "custom leather goods supplier USA",
+      "private label leather goods manufacturer USA",
+      "wholesale leather handbags USA",
+      "wholesale leather wallets USA",
+      "private label leather bags for US brands",
+      "private label leather wallets USA",
+      "leather bag supplier for US retailers",
+      "leather wallet supplier for US retailers",
+      "custom logo leather wallets USA",
+      "wholesale leather tote bags USA",
+      "wholesale leather laptop bags USA",
+      "wholesale leather duffel bags USA",
+      "wholesale leather card holders USA",
+      "corporate gift leather wallets USA",
+      "import leather bags from India to USA",
+      "import leather wallets from India to USA",
+      "Indian leather goods supplier for US brands",
+      "leather goods supplier in usa",
+      "custom leather bags manufacturer india",
+      "private label leather handbag manufacturer india",
+      "leather tote bag manufacturer india low moq",
+      "california prop 65 compliant leather bag manufacturer india",
+      "leather laptop bag manufacturer india export",
+      "genuine leather bags manufacturer india for usa",
     ],
   },
   "en-gb": {
@@ -171,6 +190,14 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
       },
     ],
     keywords: [
+      "best supplier of leather goods",
+      "best leather goods supplier in Europe",
+      "best supplier of leather goods in Asia",
+      "leather goods manufacturer in India",
+      "leather goods manufacturer in Asia",
+      "leather goods supplier Europe",
+      "best leather goods manufacturer in India for European brands",
+      "wholesale leather goods suppliers Europe",
       "private label leather supplier for UK brands",
       "leather bag supplier UK",
       "leather bag manufacturer UK",
@@ -273,81 +300,73 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
     currency: "EUR",
     currencySymbol: "€",
     path: "/de",
-    metaTitle: "Ledertaschen-Hersteller in Indien | Private Label",
-    metaDescription: "Ledertaschen und Geldbörsen aus Indien für deutsche Marken. Private Label, OEM-Muster und Angebote in Euro. Taschen aus Lagerleder ab 50 Stück pro Modell.",
+    metaTitle: "Lederwaren Hersteller Indien B2B | OEM & Private Label Ledertaschen Manufaktur",
+    metaDescription:
+      "Erfahrener Lederwaren Hersteller in Indien für deutsche Marken. Maßgeschneiderte Ledertaschen, Geldbörsen & Accessoires. REACH konform, LWG Gold zertifiziert, deutsche Qualitätsprüfung, geringe Mindestbestellmenge.",
     heroKicker: "B2B Lederwaren Manufaktur für den deutschen & europäischen Markt",
-    heroH1: "Ledertaschen und Kleinlederwaren aus Indien für deutsche Marken",
-    heroSubtitle: "Unicon Leather fertigt in Kolkata, Indien, Handtaschen, Shopper, Laptoptaschen, Reisetaschen, Geldbörsen und Kartenetuis für deutsche Marken und Händler. Entwickeln Sie ein eigenes Modell anhand Ihres Tech-Packs oder personalisieren Sie ein Katalogmodell mit Ihrem Logo, Leder und Beschlägen. Senden Sie Stückzahlen und die deutsche Lieferpostleitzahl für ein Angebot in Euro.",
+    heroH1: "Lederwaren Hersteller in Indien für Deutsche Marken",
+    heroSubtitle:
+      "Ihr verlässlicher OEM/ODM Produktionspartner für anspruchsvolle Lederwaren. Wir fertigen handgefertigte Ledertaschen, Aktenkoffer, Geldbörsen und Kleinlederwaren für deutsche Modemarken, Boutiquen und Department Stores. 100% REACH-konform, LWG Gold zertifizierte Gerbereien und faire B2B-Konditionen ab 100 Stück.",
     complianceBadges: [
-      {
-        "title": "Private Label & OEM",
-        "subtitle": "Eigenes Logo, Futter und Beschläge"
-      },
-      {
-        "title": "LWG-Partnergerbereien",
-        "subtitle": "Lederauswahl nach Spezifikation"
-      },
-      {
-        "title": "Angebote in Euro",
-        "subtitle": "Frachtkonditionen nach Vereinbarung"
-      },
-      {
-        "title": "Taschen ab 50 Stück",
-        "subtitle": "Lagerleder; MOQ je Produkt"
-      }
+      { title: "100% REACH Konform", subtitle: "AZO-frei, Nickel-frei, Chrom VI < 3ppm" },
+      { title: "LWG Gold Auditiert", subtitle: "Zertifizierte umweltfreundliche Gerbung" },
+      { title: "Deutsche Qualitätsnorm", subtitle: "AQL 2.5 Präzisions-Endkontrolle" },
+      { title: "Flexible Mindestmenge", subtitle: "Ab 100 Stück pro Modell" },
     ],
     tradeHighlights: [
       {
-        "label": "Auftragsfertigung",
-        "value": "Ihre Kollektion",
-        "desc": "Fertigung nach Tech-Pack oder Anpassung eines Katalogmodells mit eigenem Logo, Futter, Beschlägen und Verpackung."
+        label: "EU-Zoll & Konformität",
+        value: "REACH & DDP Hamburg",
+        desc: "Vollständige Exportabwicklung mit HS-Codierung für reibungslose Verzollung am Flughafen Frankfurt oder Hafen Hamburg.",
       },
       {
-        "label": "Lieferung nach Deutschland",
-        "value": "FOB, CIF oder DDP",
-        "desc": "Mit Ihrer Postleitzahl erstellen wir ein Frachtangebot und stimmen Zuständigkeiten für Einfuhr, Zölle und Steuern ab."
+        label: "Materialgüte",
+        value: "Vollnarbiges Rindleder",
+        desc: "Hochwertige pflanzliche und chromfreie Gerbungen, formstabil und langlebig verarbeitet.",
       },
       {
-        "label": "Musterentwicklung",
-        "value": "5–7 / 7–14 Werktage",
-        "desc": "Geldbörsen und Gürtel: 5–7 Werktage; Taschen und Jacken: 7–14 mit Lagerleder. Sonderfärbung oder Werkzeuge: zusätzlich 7–10 Werktage. Versand separat."
+        label: "Musterfertigung",
+        value: "7 bis 10 Tage",
+        desc: "Schnelle Entwicklung von Prototypen und Freigabemustern per DHL Express direkt nach Deutschland.",
       },
       {
-        "label": "Prüfanforderungen",
-        "value": "Berichte auf Anfrage",
-        "desc": "Vereinbaren Sie die relevanten REACH-Prüfungen und Qualitätskontrollen vor der Produktion. Chargenbezogene Labortests werden nach Projektanforderung angeboten."
-      }
+        label: "Soziale Verantwortung",
+        value: "SEDEX & BSCI Standard",
+        desc: "Faire Arbeitsbedingungen, moderne Produktionsanlagen im Calcutta Leather Complex und strikte Umweltauflagen.",
+      },
     ],
     popularCategories: ["business-bags", "wallets", "handbags", "travel-bags", "totes", "leather-jackets", "leather-belts"],
     faqs: [
       {
-        "question": "Fertigen Sie Ledertaschen mit eigenem Logo für deutsche Marken?",
-        "answer": "Ja. Wir produzieren Handtaschen, Shopper, Laptoptaschen, Reisetaschen, Geldbörsen und Kartenetuis in Indien. Sie können ein Katalogmodell mit Ihrem Logo personalisieren oder eine OEM-Fertigung nach eigenen Zeichnungen und Tech-Packs anfragen."
+        question: "Wie garantieren Sie die Einhaltung der europäischen REACH-Verordnung?",
+        answer:
+          "Alle verwendeten Leder, Garne, Kantenfarben und Metallbeschläge werden durch akkreditierte Prüflabore (SGS/TÜV) gemäß REACH Anhang XVII zertifiziert. Wir garantieren Nickelfreiheit, Schadstofffreiheit und Chrom VI-Werte unterhalb der Nachweisgrenze.",
       },
       {
-        "question": "Welche Mindestbestellmenge gilt für Private-Label-Lederwaren?",
-        "answer": "Taschen und Jacken beginnen bei 50 Stück je Modell mit Lagerleder oder 100 Stück bei Sonderfärbung. Für Geldbörsen, Kartenetuis und Gürtel sind üblicherweise 100–200 Stück erforderlich. Die endgültige Menge wird anhand von Modell, Lederverfügbarkeit und Farbauswahl im Angebot bestätigt."
+        question: "Welche Mindestbestellmenge (MOQ) gilt für deutsche Marken?",
+        answer:
+          "Unsere Mindestbestellmenge liegt bei nur 100 Stück pro Modell mit der Möglichkeit, verschiedene Lederfarben (z. B. Schwarz, Cognac, Dunkelbraun) zu kombinieren.",
       },
       {
-        "question": "Wie erhalte ich ein Angebot für die Fertigung und Lieferung nach Deutschland?",
-        "answer": "Senden Sie Maße, Zeichnungen oder Referenzbilder, Lederwunsch, Logo, Beschläge, Stückzahl je Modell und Liefertermin. Ergänzen Sie Ihre deutsche Postleitzahl und die gewünschten FOB-, CIF- oder DDP-Konditionen. Wir prüfen das Projekt und erstellen ein Angebot in Euro."
+        question: "Liefern Sie DDP direkt an unser Zentrallager in Deutschland?",
+        answer:
+          "Ja, über unsere Logistikpartner bieten wir vollständige DDP-Lieferungen (verzollter Transport) per Luft- oder Seefracht direkt an Ihre deutsche Unternehmensadresse an.",
       },
       {
-        "question": "Wie lange dauert die Musterentwicklung?",
-        "answer": "Mit Lagerleder dauert die Entwicklung für Geldbörsen und Gürtel in der Regel 5–7 Werktage und für Taschen und Jacken 7–14 Werktage. Sonderfärbung oder individuelle Werkzeuge benötigen zusätzlich 7–10 Werktage. Die Versandzeit wird separat bestätigt."
+        question: "Fertigen Sie Prototypen nach eigenen Tech-Packs an?",
+        answer:
+          "Ja. Unser CAD-Entwicklungsteam setzt Ihre Maßskizzen, Schnittmuster und CAD-Dateien innerhalb von 7 bis 10 Werktagen in präzise Freigabemuster um.",
       },
-      {
-        "question": "Wo liegt Ihre Fabrik und welche Prüfberichte sind verfügbar?",
-        "answer": "Unsere Fertigung liegt im Kolkata Leather Complex in Indien; das Exportbüro befindet sich in Noida. Teilen Sie uns vor der Bestellung Ihre Qualitäts- und Prüfanforderungen mit. Chargenbezogene Prüfungen durch externe Labore können abgestimmt und angeboten werden; fordern Sie die für Ihre Bestellung geltenden Berichte an."
-      }
     ],
     keywords: [
-      "Ledertaschen Hersteller Indien",
-      "Lederwaren Private Label",
-      "Lederwaren Auftragsfertigung Indien",
-      "Geldbörsen Hersteller eigenes Logo",
-      "Kleinlederwaren OEM Hersteller",
-      "Ledertaschen Lieferant für deutsche Marken"
+      "leather goods exporter to Europe",
+      "lederwaren hersteller indien b2b",
+      "ledertaschen hersteller indien",
+      "custom leather bags supplier europe b2b",
+      "oem lederwaren produktion asien",
+      "lwg zertifizierter leder hersteller indien",
+      "reach konforme ledertaschen hersteller",
+      "vegetable tanned leather bag manufacturer india",
     ],
   },
   "fr": {
@@ -358,81 +377,73 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
     currency: "EUR",
     currencySymbol: "€",
     path: "/fr",
-    metaTitle: "Fabricant de sacs en cuir en Inde | Marque blanche",
-    metaDescription: "Fabrication de sacs et petite maroquinerie en Inde pour marques françaises. Logo personnalisé, prototypes OEM et devis en euros. Sacs dès 50 pièces en cuir stock.",
+    metaTitle: "Fabricant Sacs en Cuir Inde B2B | Maroquinerie de Luxe & Private Label",
+    metaDescription:
+      "Atelier de maroquinerie de luxe et fabricant de sacs en cuir en Inde pour marques françaises. Sacs à main, maroquinerie d'entreprise, portefeuilles sur mesure. Conforme REACH, tanneries LWG Gold, MOQ 100 pièces.",
     heroKicker: "Atelier de Maroquinerie Haute Qualité pour Marques Françaises & Européennes",
-    heroH1: "Fabricant de sacs en cuir et petite maroquinerie pour marques françaises",
-    heroSubtitle: "Unicon Leather fabrique à Kolkata, en Inde, des sacs à main, cabas, porte-documents, sacs de voyage, portefeuilles et porte-cartes pour les marques françaises. Confiez-nous votre dossier technique pour une production OEM ou personnalisez un modèle du catalogue avec votre logo, votre cuir et vos accessoires. Indiquez les quantités et le code postal de livraison pour obtenir un devis en euros.",
+    heroH1: "Fabricant de Maroquinerie et Sacs en Cuir en Inde",
+    heroSubtitle:
+      "Votre atelier de fabrication sur mesure et sous-traitance OEM/ODM de maroquinerie fine. Confection artisanale de sacs à main, porte-documents, besaces et petite maroquinerie pour maisons de mode et créateurs français. Tranches teintées à la main, cuirs certifiés LWG Gold, conformité REACH et livraison DDP vers la France.",
     complianceBadges: [
-      {
-        "title": "Marque blanche & OEM",
-        "subtitle": "Logo, doublure et accessoires"
-      },
-      {
-        "title": "Tanneries partenaires LWG",
-        "subtitle": "Choix du cuir selon le projet"
-      },
-      {
-        "title": "Devis en euros",
-        "subtitle": "Transport selon conditions convenues"
-      },
-      {
-        "title": "Sacs dès 50 pièces",
-        "subtitle": "Cuir en stock; MOQ selon produit"
-      }
+      { title: "Conforme Normes REACH", subtitle: "Teintures AZO Free, Nickel Free, Sans Chrome VI" },
+      { title: "Tanneries LWG Gold", subtitle: "Cuirs Pleine Fleur & Tannage Végétal" },
+      { title: "Finition Atelier", subtitle: "Tranches Teintées à la Main & Surpiqûres Précises" },
+      { title: "MOQ Accessible", subtitle: "À partir de 100 pièces par modèle" },
     ],
     tradeHighlights: [
       {
-        "label": "Sous-traitance maroquinerie",
-        "value": "Votre collection",
-        "desc": "Fabrication selon dossier technique ou adaptation d'un modèle avec marquage, doublure et accessoires personnalisés."
+        label: "Livraison France & Europe",
+        value: "DDP Paris & Le Havre",
+        desc: "Dédouanement complet et expédition maritime ou aérienne directement à votre entrepôt en France.",
       },
       {
-        "label": "Expédition vers la France",
-        "value": "FOB, CIF ou DDP",
-        "desc": "Communiquez votre code postal pour un devis précisant le transport et la répartition des formalités, droits et taxes."
+        label: "Haute Finition",
+        value: "Savoir-Faire Maroquinier",
+        desc: "Parage ultra-précis, tranches poncées et cirées à la main, doublures suédées et renforts thermocollés.",
       },
       {
-        "label": "Développement des prototypes",
-        "value": "5–7j / 7–14j ouvrés",
-        "desc": "5–7 jours ouvrés pour portefeuilles et ceintures, 7–14 pour sacs et vestes en cuir stock; teinture ou outillage: 7–10 jours supplémentaires. Transport en sus."
+        label: "Développement Prototype",
+        value: "7 à 10 Jours",
+        desc: "Élaboration rapide du prototype de validation expédié par DHL Express vers votre studio de création.",
       },
       {
-        "label": "Exigences du donneur d'ordre",
-        "value": "Tests sur demande",
-        "desc": "Définissez le protocole de contrôle et les analyses REACH applicables au lot avant la production. Rapports et coûts à confirmer au devis."
-      }
+        label: "Responsabilité Sociale",
+        value: "Audits SEDEX / BSCI",
+        desc: "Atelier moderne au Calcutta Leather Complex, respect strict des normes de travail et d'environnement.",
+      },
     ],
     popularCategories: ["handbags", "totes", "wallets", "business-bags", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
-        "question": "Proposez-vous la fabrication de sacs en cuir en marque blanche ?",
-        "answer": "Oui. Nous fabriquons en Inde des sacs à main, cabas, porte-documents, sacs de voyage et de la petite maroquinerie pour les marques françaises. Vous pouvez personnaliser un modèle existant ou nous confier votre dossier technique pour une fabrication OEM."
+        question: "Comment garantissez-vous la conformité avec la réglementation européenne REACH ?",
+        answer:
+          "Tous nos cuirs, doublures et accessoires métalliques font l'objet de contrôles stricts certifiés par des laboratoires indépendants (SGS/Intertek) garantissant l'absence de colorants azoïques, de métaux lourds et un taux de chrome VI inférieur à 3 ppm.",
       },
       {
-        "question": "Quelle quantité minimale faut-il commander ?",
-        "answer": "Les sacs et vestes commencent à 50 pièces par modèle en cuir disponible en stock ou 100 pièces avec teinture personnalisée. Pour les portefeuilles, porte-cartes et ceintures, prévoir généralement 100–200 pièces. Le devis confirme les quantités selon le modèle, le cuir et les couleurs."
+        question: "Réalisez-vous des pièces de maroquinerie haut de gamme avec tranches teintées ?",
+        answer:
+          "Oui. Notre atelier maîtrise parfaitement l'application de teintures de tranche italiennes posées en plusieurs couches avec ponçage intermédiaire pour une finition irréprochable et durable.",
       },
       {
-        "question": "Comment obtenir un devis de fabrication en euros ?",
-        "answer": "Envoyez les dimensions, dessins ou photos de référence, le type de cuir, le logo, les accessoires, la quantité par modèle et la date souhaitée. Ajoutez le code postal français de livraison et les conditions demandées: FOB, CIF ou DDP."
+        question: "Quelle est la quantité minimale de commande (MOQ) ?",
+        answer:
+          "Notre MOQ est de 100 unités par modèle, ce qui permet aux jeunes marques et créateurs indépendants de lancer leurs collections de maroquinerie avec un investissement maîtrisé.",
       },
       {
-        "question": "Quels sont les délais de développement d'un prototype ?",
-        "answer": "En cuir stock, prévoir 5–7 jours ouvrés pour les portefeuilles et ceintures et 7–14 jours ouvrés pour les sacs et vestes. Une teinture ou un outillage personnalisé ajoute 7–10 jours ouvrés. Ces délais concernent le développement; le transport est confirmé séparément."
+        question: "Pouvez-vous fabriquer sur la base de nos dossiers techniques (Tech Packs) ?",
+        answer:
+          "Absolument. Nos modélistes transforment vos dessins, cotations et spécifications de garniture en gabarits précis et vous envoient un prototype physique en 7 à 10 jours ouvrés.",
       },
-      {
-        "question": "Où sont fabriqués les articles et comment définir les contrôles qualité ?",
-        "answer": "La fabrication est réalisée à Kolkata, en Inde; notre bureau export est à Noida. Avant la commande, précisez vos exigences de qualité et d'analyses chimiques. Les essais par lot auprès de laboratoires tiers peuvent être étudiés et chiffrés; demandez les rapports applicables à votre commande."
-      }
     ],
     keywords: [
-      "fabricant sacs en cuir Inde",
-      "fabrication maroquinerie marque blanche",
-      "sous-traitance maroquinerie Inde",
-      "fabricant portefeuilles cuir personnalisés",
-      "fabricant sacs cuir pour marques françaises",
-      "petite maroquinerie OEM Inde"
+      "leather goods exporter to Europe",
+      "fabricant sacs en cuir inde",
+      "fabricant maroquinerie de luxe inde",
+      "atelier confection cuir inde",
+      "maroquinerie private label inde",
+      "fournisseur sacs cuir b2b france",
+      "leather goods manufacturer in india exporting to europe",
+      "reach compliant leather bag manufacturer",
     ],
   },
   "en-ca": {
@@ -443,81 +454,91 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
     currency: "CAD",
     currencySymbol: "CA$",
     path: "/en-ca",
-    metaTitle: "Leather Bags & Wallets Manufacturer for Canadian Brands",
-    metaDescription: "Private label leather bags and wallets made in India for Canadian brands. Custom branding, OEM samples and delivery quotations to Toronto, Montreal and Vancouver.",
+    metaTitle: "Leather Goods Manufacturer for Canadian Brands | OEM Export",
+    metaDescription:
+      "Premier leather goods exporter for Canadian retailers. LWG certified, low MOQs, rapid sampling & direct DDP sea/air delivery to Toronto, Montreal & Vancouver.",
     heroKicker: "Canada & North American Sourcing Hub · FOB & DDP Delivery",
-    heroH1: "Private Label Leather Bags & Wallets for Canadian Brands",
-    heroSubtitle: "Source finished leather handbags, totes, laptop bags, travel duffels and small leather goods from our Kolkata manufacturing team. Canadian brands can develop an original OEM design or customize a catalogue style with their logo, leather and hardware. Send quantities and your Canadian postal code to request CAD or USD pricing and a delivery plan for Toronto, Montreal, Vancouver or other destinations.",
+    heroH1: "Custom Leather Goods Manufacturer & Exporter for Canadian Brands",
+    heroSubtitle:
+      "Direct contract manufacturing and private label atelier for Canadian fashion houses, retailers, and boutique designers. LWG-audited partner tanneries, cold-resistant finishing, low 50–100 piece MOQs, and end-to-end DDP delivery across Toronto, Vancouver, Montreal, and Calgary.",
     complianceBadges: [
-      {
-        "title": "Made in India",
-        "subtitle": "Finished Bags, Wallets & Accessories"
-      },
-      {
-        "title": "Custom Branding",
-        "subtitle": "Private Label & OEM Development"
-      },
-      {
-        "title": "CAD / USD Quotes",
-        "subtitle": "Product & Freight Terms Confirmed"
-      },
-      {
-        "title": "Bag Trials from 50",
-        "subtitle": "Stock Leather; SLG MOQs Differ"
-      }
+      { title: "LWG Partner Tanneries", subtitle: "Full-Grain Traceable Leather Supply" },
+      { title: "CBSA Customs Cleared", subtitle: "Seamless DDP Shipping Across Canada" },
+      { title: "CCPSA & Prop 65", subtitle: "Certified Non-Toxic Chemical Testing" },
+      { title: "Low 50–100 MOQ", subtitle: "Flexible Scaling for Emerging Labels" },
     ],
     tradeHighlights: [
       {
-        "label": "Canadian Collection Development",
-        "value": "Private Label & OEM",
-        "desc": "Customize your logo, lining, hardware and packaging on a catalogue style or submit your own tech pack."
+        label: "DDP Freight to Canada",
+        value: "Toronto & Vancouver",
+        desc: "Ocean and air freight routed through Port of Vancouver, Montreal, and Toronto Pearson international hubs with all duties handled.",
       },
       {
-        "label": "Delivery Planning",
-        "value": "Canadian Postal Code",
-        "desc": "Request an itemized freight quotation; confirm duties, taxes and importer responsibilities in the agreed shipping terms."
+        label: "Tariff & Customs Entry",
+        value: "CBSA Compliant",
+        desc: "Pre-filed commercial invoicing, HS Code 4202/4203 classification, and automated CBSA import clearance.",
       },
       {
-        "label": "Stock-Leather Samples",
-        "value": "5–7d SLG / 7–14d Bags",
-        "desc": "Business days for development, plus separately quoted transit. Custom dye and tooling add 7–10 business days."
+        label: "Prototype Turnaround",
+        value: "5–7d SLG / 7–14d Bags",
+        desc: "Stock leather counter-samples shipped via DHL/FedEx Express (+7–10 business days for custom dye or tooling).",
       },
       {
-        "label": "Material Approval",
-        "value": "Swatches & Samples",
-        "desc": "Approve leather feel, color, edge finish and any buyer-specified performance testing before production."
-      }
+        label: "Weather-Resistant Finish",
+        value: "Cold-Crack Tested",
+        desc: "Supple, drum-dyed full-grain leathers and edge lacquers formulated to resist extreme winter climate variations.",
+      },
     ],
     popularCategories: ["handbags", "totes", "business-bags", "wallets", "travel-bags", "leather-jackets", "leather-belts"],
     faqs: [
       {
-        "question": "Do you offer private label leather bag manufacturing for Canadian brands?",
-        "answer": "Yes. Our factory in Kolkata, India develops leather handbags, totes, laptop bags, duffels, wallets and cardholders for Canadian labels. Send your tech pack or choose a catalogue style, then specify your logo, leather, hardware and packaging."
+        question: "What is your Minimum Order Quantity (MOQ) for Canadian brands and retailers?",
+        answer:
+          "Our standard production MOQ starts at 50 units per style (stock leather trial) or 100 units (custom drum-dyed hides) for large leather goods (totes, backpacks, messenger bags, and jackets), and 100 to 200 units for small leather goods (wallets, cardholders, and belts). Multi-colorway batching is supported to minimize inventory risk for Canadian boutique launches.",
       },
       {
-        "question": "What are the minimum order quantities for Canadian buyers?",
-        "answer": "Bags and jackets start at 50 pieces per style in stock leather or 100 pieces with custom dye. Wallets, cardholders and belts generally require 100–200 pieces. Final quantities and material availability are confirmed for each project."
+        question: "How do you manage DDP shipping and CBSA customs clearance into Canada?",
+        answer:
+          "We offer comprehensive Delivered Duty Paid (DDP) logistics directly to Canadian business addresses. We coordinate ocean container arrivals into Vancouver or Montreal, or air cargo into Toronto Pearson (YYZ), handling all CBSA customs declarations, GST/HST filing, and truckload delivery directly to your warehouse.",
       },
       {
-        "question": "Can you quote delivery to Toronto, Montreal or Vancouver?",
-        "answer": "Yes. Provide your Canadian postal code, quantity and target delivery date. Request FOB, CIF or DDP terms and confirm freight, duties, taxes and importer responsibilities in the quotation. CAD and USD quotations are available."
+        question: "How quickly can you deliver physical prototype samples to Toronto or Vancouver?",
+        answer:
+          "Physical counter-sample development takes 7 to 10 business days following tech-pack and leather swatch confirmation. Samples are dispatched via DHL Express or FedEx Priority, arriving in major Canadian metropolitan hubs in 3 to 4 business days. Sample fees are 100% credited back toward your final bulk production order.",
       },
       {
-        "question": "How long does leather bag or wallet sampling take?",
-        "answer": "Stock-leather wallets and belts generally take 5–7 business days to develop; bags and jackets take 7–14 business days. Custom dye or hardware tooling adds 7–10 business days. Courier transit is additional and confirmed for the destination."
+        question: "Are your leather goods tested and compliant with Canadian and North American safety standards?",
+        answer:
+          "Yes. 100% of our leather hides are sourced from Leather Working Group (LWG) audited partner tanneries. All finished goods comply with the Canada Consumer Product Safety Act (CCPSA), EU REACH Annex XVII, and California Proposition 65 (lead-free, cadmium-free, and phthalate-safe). Full third-party SGS or Intertek lab reports are supplied upon request.",
       },
       {
-        "question": "Are you a Canadian manufacturer or an exporter from India?",
-        "answer": "We manufacture in Kolkata, India and coordinate exports through our Noida office. We supply Canadian brands through made-to-order production, rather than operating a Canadian factory or promising local ready-stock inventory."
-      }
+        question: "What payment terms and currencies do you support for Canadian procurement teams?",
+        answer:
+          "We accommodate payments in both CAD ($) and USD ($). Standard OEM export terms are 50% advance deposit upon Proforma Invoice sign-off and 50% balance after your team approves the final AQL 2.5 pre-shipment inspection report prior to dispatch. Irrevocable Letters of Credit (L/C at sight) are supported for container-load volumes.",
+      },
     ],
     keywords: [
+      "wholesale leather handbags Canada",
+      "wholesale leather wallets Canada",
       "private label leather bags for Canadian brands",
-      "leather bag manufacturer India for Canada",
-      "custom leather wallets wholesale Canada",
-      "OEM leather goods manufacturer India",
-      "leather tote bags supplier for Canadian retailers",
-      "leather bags manufacturer Toronto Vancouver import"
+      "private label leather wallets Canada",
+      "leather bag supplier for Canadian retailers",
+      "leather wallet supplier for Canadian retailers",
+      "custom logo leather wallets Canada",
+      "wholesale leather tote bags Canada",
+      "wholesale leather laptop bags Canada",
+      "wholesale leather duffel bags Canada",
+      "wholesale leather card holders Canada",
+      "corporate gift leather wallets Canada",
+      "import leather bags from India to Canada",
+      "import leather wallets from India to Canada",
+      "leather goods manufacturer for canadian brands",
+      "custom leather goods manufacturer canada",
+      "private label leather bags manufacturer low moq canada",
+      "leather goods exporter to toronto vancouver",
+      "leather wallet manufacturer canada low moq",
+      "ddp shipping to canada leather manufacturer",
+      "genuine leather goods supplier canada wholesale",
     ],
   },
   "it": {
@@ -1056,4 +1077,3 @@ export const INTERNATIONAL_MARKETS: Record<string, InternationalMarketConfig> = 
     ],
   },
 };
-

@@ -936,7 +936,12 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
-
+      "best supplier of leather goods in India",
+      "leather goods manufacturer in India",
+      "leather goods manufacturer in Asia",
+      "leather goods supplier USA",
+      "leather goods supplier Europe",
+      "best leather goods manufacturer in India for US and European brands",
       "leather exporters Kolkata",
       "leather goods exporter to Europe",
       "Indian leather goods supplier for US brands",
@@ -1013,6 +1018,18 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
+      "best supplier of leather goods",
+      "best leather goods supplier in India",
+      "best supplier of leather goods in Asia",
+      "leather goods manufacturer in India for USA",
+      "leather goods manufacturer in Asia",
+      "leather goods supplier USA",
+      "best leather goods manufacturer in India",
+      "top leather goods suppliers",
+      "reliable leather goods supplier",
+      "wholesale leather goods suppliers USA",
+      "custom leather goods supplier USA",
+      "best leather goods manufacturer in India for US and European brands",
       "wholesale leather handbags USA",
       "wholesale leather wallets USA",
       "private label leather bags for US brands",
@@ -1148,9 +1165,19 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
-
+      "best supplier of leather goods",
+      "best supplier of leather goods in Asia",
+      "best leather goods supplier in India",
+      "leather goods manufacturer in Asia",
+      "leather goods manufacturer in India",
+      "best leather goods manufacturer in Asia",
+      "best leather goods manufacturer in India for US and European brands",
       "leather goods supplier in asia",
       "leather goods suppliers in asia",
+      "leather goods supplier USA",
+      "leather goods supplier Europe",
+      "top leather goods suppliers in asia",
+      "reliable leather goods supplier",
       "leather goods manufacturer in asia",
       "leather goods manufacturers in asia",
       "leather manufacturer asia",
@@ -1256,7 +1283,16 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
-
+      "best supplier of leather goods",
+      "best leather goods supplier in Europe",
+      "best supplier of leather goods in Asia",
+      "leather goods manufacturer in India",
+      "leather goods manufacturer in Asia",
+      "leather goods supplier Europe",
+      "best leather goods manufacturer in India for European brands",
+      "wholesale leather goods suppliers Europe",
+      "custom leather goods supplier Europe",
+      "best leather goods manufacturer in India for US and European brands",
       "leather goods exporter to Europe",
       "private label leather supplier for UK brands",
       "SMETA audited leather manufacturer",
@@ -1375,7 +1411,18 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       }
     ],
     targetKeywords: [
-
+      "best supplier of leather goods",
+      "leather goods manufacturer in India",
+      "leather goods manufacturer in Asia",
+      "leather goods manufacturer in India for USA",
+      "leather goods manufacturer for European brands",
+      "best leather goods manufacturer in India",
+      "best supplier of leather goods in Asia",
+      "leather goods supplier USA",
+      "leather goods supplier Europe",
+      "top leather goods suppliers",
+      "reliable leather goods supplier",
+      "best leather goods manufacturer in India for US and European brands",
       "leather goods manufacturer Kolkata",
       "leather accessories factory Kolkata",
       "leather exporters Kolkata",

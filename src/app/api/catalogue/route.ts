@@ -2,6 +2,16 @@ import { NextRequest, NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase";
 import { sendCatalogueRequestNotificationToAdmin } from "@/lib/email";
 
+const CORS_HEADERS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type, Authorization",
+};
+
+export async function OPTIONS() {
+  return new NextResponse(null, { status: 204, headers: CORS_HEADERS });
+}
+
 export async function POST(req: NextRequest) {
   try {
     const data = await req.json();
@@ -9,7 +19,7 @@ export async function POST(req: NextRequest) {
     if (!data.fullName || !data.businessEmail || !data.companyName) {
       return NextResponse.json(
         { error: "Missing required fields: fullName, businessEmail, or companyName" },
-        { status: 400 }
+        { status: 400, headers: CORS_HEADERS }
       );
     }
 
@@ -44,17 +54,15 @@ export async function POST(req: NextRequest) {
       emailError = emailErr?.message;
     }
 
-    // 2. Non-blocking attempt to record in database
-    let insertedId: string | undefined;
+    // 2. Non-blocking attempt to record in database (without .select("id") so anon RLS INSERT succeeds)
     let dbSaved = false;
     try {
-      const dbPromise = supabaseAdmin.from("catalogue_requests").insert(payload).select("id");
-      const timeoutPromise = new Promise<{ data: null; error: { message: string } }>((resolve) =>
-        setTimeout(() => resolve({ data: null, error: { message: "Supabase timeout (1s)" } }), 1000)
+      const dbPromise = supabaseAdmin.from("catalogue_requests").insert(payload);
+      const timeoutPromise = new Promise<{ error: { message: string } }>((resolve) =>
+        setTimeout(() => resolve({ error: { message: "Supabase timeout (2s)" } }), 2000)
       );
       const dbResult = await Promise.race([dbPromise, timeoutPromise]);
-      if (!dbResult.error && dbResult.data) {
-        insertedId = dbResult.data?.[0]?.id;
+      if (!dbResult.error) {
         dbSaved = true;
       }
     } catch (dbErr: any) {
@@ -68,11 +76,14 @@ export async function POST(req: NextRequest) {
         emailSent,
         message: "Catalogue request processed",
       },
-      { status: 201 }
+      { status: 201, headers: CORS_HEADERS }
     );
   } catch (err: any) {
     console.error("[API Catalogue] Server error:", err);
-    return NextResponse.json({ error: err?.message || "Internal server error" }, { status: 500 });
+    return NextResponse.json(
+      { error: err?.message || "Internal server error" },
+      { status: 500, headers: CORS_HEADERS }
+    );
   }
 }
 

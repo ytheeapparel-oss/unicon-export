@@ -59,7 +59,35 @@ export async function sendInquiryNotificationToAdmin(data: InquiryNotificationPa
       ? `https://wa.me/${cleanPhone.replace("+", "")}`
       : `https://wa.me/91${cleanPhone}`;
 
-    const subject = `🔥 New B2B Wholesale RFQ: ${data.company_name} (${data.buyer_name}) - ${data.country || "International"}`;
+    const refCode = String(Date.now()).slice(-6);
+    const subject = `New B2B Wholesale Inquiry [RFQ-${refCode}]: ${data.company_name} (${data.buyer_name}) - ${data.country || "International"}`;
+
+    const textContent = [
+      `UNICON LEATHER — New B2B Wholesale / Sample Inquiry [RFQ-${refCode}]`,
+      `==================================================================`,
+      `Buyer Name: ${data.buyer_name}`,
+      `Company: ${data.company_name}`,
+      `Business Email: ${data.business_email}`,
+      `Phone / WhatsApp: ${data.phone_or_whatsapp || "Not specified"}`,
+      `Country: ${data.country || "Not specified"}`,
+      data.company_website ? `Website: ${data.company_website}` : null,
+      ``,
+      `COMMERCIAL SPECIFICATIONS:`,
+      `- Product Category: ${data.product_category || "Leather Goods"}`,
+      `- Required Quantity: ${data.required_quantity || "Standard MOQ"}`,
+      `- Inquiry Type: ${(data.inquiry_type || "bulk").toUpperCase()}`,
+      data.target_price_range ? `- Target Price Range: ${data.target_price_range}` : null,
+      data.expected_delivery_date ? `- Expected Delivery: ${data.expected_delivery_date}` : null,
+      data.product_slug ? `- Product Ref: ${data.product_slug}` : null,
+      ``,
+      data.customization_requirements ? `CUSTOMIZATION REQUIREMENTS:\n${data.customization_requirements}\n` : null,
+      data.message ? `BUYER MESSAGE:\n${data.message}\n` : null,
+      `------------------------------------------------------------------`,
+      `Reply directly to buyer: mailto:${data.business_email}`,
+      cleanPhone ? `WhatsApp buyer: ${waUrl}` : null,
+    ]
+      .filter(Boolean)
+      .join("\n");
 
     const htmlContent = `
 <!DOCTYPE html>
@@ -214,12 +242,20 @@ export async function sendInquiryNotificationToAdmin(data: InquiryNotificationPa
           ]
         : undefined;
 
+    const isSelfTest =
+      (data.business_email || "").trim().toLowerCase() ===
+      ADMIN_NOTIFICATION_EMAIL.trim().toLowerCase();
+
     const result = await resend.emails.send({
       from: DEFAULT_FROM,
       to: [ADMIN_NOTIFICATION_EMAIL],
-      replyTo: data.business_email,
+      ...(!isSelfTest && data.business_email ? { replyTo: data.business_email } : {}),
       subject,
       html: htmlContent,
+      text: textContent,
+      headers: {
+        "X-Entity-Ref-ID": `rfq-${Date.now()}`,
+      },
       ...(attachments ? { attachments } : {}),
     });
 
@@ -246,7 +282,19 @@ export async function sendCatalogueRequestNotificationToAdmin(data: CatalogueNot
   }
 
   try {
-    const subject = `📁 Lookbook Request: ${data.company_name} (${data.full_name}) - ${data.country}`;
+    const refCode = String(Date.now()).slice(-6);
+    const subject = `New B2B Catalogue Request [CAT-${refCode}]: ${data.company_name} (${data.full_name}) - ${data.country}`;
+
+    const textContent = [
+      `UNICON LEATHER — New B2B Lookbook & Catalogue Request [CAT-${refCode}]`,
+      `===================================================================`,
+      `Buyer: ${data.full_name}`,
+      `Company: ${data.company_name}`,
+      `Email: ${data.business_email}`,
+      `Country: ${data.country}`,
+      `Annual Volume: ${data.estimated_annual_volume || "Not specified"}`,
+      `Interests: ${(data.interests || []).join(", ") || "Full Collection"}`,
+    ].join("\n");
 
     const htmlContent = `
 <!DOCTYPE html>
@@ -274,12 +322,20 @@ export async function sendCatalogueRequestNotificationToAdmin(data: CatalogueNot
 </html>
     `;
 
+    const isSelfTest =
+      (data.business_email || "").trim().toLowerCase() ===
+      ADMIN_NOTIFICATION_EMAIL.trim().toLowerCase();
+
     const result = await resend.emails.send({
       from: DEFAULT_FROM,
       to: [ADMIN_NOTIFICATION_EMAIL],
-      replyTo: data.business_email,
+      ...(!isSelfTest && data.business_email ? { replyTo: data.business_email } : {}),
       subject,
       html: htmlContent,
+      text: textContent,
+      headers: {
+        "X-Entity-Ref-ID": `cat-${Date.now()}`,
+      },
     });
 
     if (result.error) {
@@ -304,13 +360,14 @@ export async function sendBuyerConfirmationEmail(data: InquiryNotificationPayloa
     return { success: false, reason: "missing_api_key" };
   }
 
-  // In Resend sandbox mode (onboarding@resend.dev), external recipient addresses are blocked with 403.
+  // In Resend sandbox mode (onboarding@resend.dev), external recipient addresses are blocked with 403,
+  // and sending a second email to ADMIN_NOTIFICATION_EMAIL 50ms after the admin alert triggers Gmail spam filters.
   // Only dispatch auto-confirmation to external buyers once a custom sender domain is configured.
   if (
-    DEFAULT_FROM.includes("onboarding@resend.dev") &&
-    data.business_email.trim().toLowerCase() !== ADMIN_NOTIFICATION_EMAIL.trim().toLowerCase()
+    DEFAULT_FROM.includes("onboarding@resend.dev") ||
+    data.business_email.trim().toLowerCase() === ADMIN_NOTIFICATION_EMAIL.trim().toLowerCase()
   ) {
-    return { success: false, reason: "sandbox_sender_domain" };
+    return { success: false, reason: "sandbox_or_admin_self_test" };
   }
 
   try {

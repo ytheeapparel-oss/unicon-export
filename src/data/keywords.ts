@@ -7,6 +7,47 @@ export interface KeywordCluster {
 
 export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
   {
+    category: "Best Supplier of Leather Goods (USA & Europe)",
+    description: "Ranked among the best suppliers of leather goods in India and Asia for fashion brands, wholesalers, and corporate buyers across the United States and Europe.",
+    targetUrl: "/leather-goods-supplier-usa",
+    keywords: [
+      "best supplier of leather goods",
+      "best leather goods supplier in India",
+      "best supplier of leather goods in Asia",
+      "leather goods supplier USA",
+      "leather goods supplier Europe",
+      "best leather goods suppliers for USA brands",
+      "top leather goods suppliers in Asia",
+      "reliable leather goods supplier",
+      "wholesale leather goods suppliers USA",
+      "wholesale leather goods suppliers Europe",
+      "custom leather goods supplier USA",
+      "certified leather goods supplier Asia",
+      "luxury leather goods supplier Europe"
+    ]
+  },
+  {
+    category: "Leather Goods Manufacturer in India & Asia",
+    description: "Primary contract manufacturer and OEM/ODM atelier in India and South Asia engineering bespoke handbags, jackets, wallets, belts, and luggage for North American and European retailers.",
+    targetUrl: "/leather-goods-manufacturer",
+    keywords: [
+      "leather goods manufacturer in India",
+      "leather goods manufacturer in Asia",
+      "leather goods manufacturers in India",
+      "leather goods manufacturers in Asia",
+      "best leather goods manufacturer in India",
+      "top leather goods manufacturer in Asia",
+      "leather goods manufacturer in India for USA",
+      "leather goods manufacturer for European brands",
+      "OEM leather goods manufacturer India",
+      "custom leather goods manufacturer Asia",
+      "private label leather goods manufacturer India",
+      "genuine leather goods manufacturer in India",
+      "contract leather goods manufacturer in Asia",
+      "best leather goods manufacturer in India for US and European brands"
+    ]
+  },
+  {
     category: "OEM & Private Label Leather Manufacturing",
     description: "Custom cut-and-sew contract manufacturing, CAD pattern grading, and private-label brand development from India.",
     targetUrl: "/private-label",
@@ -19,14 +60,17 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     ]
   },
   {
-    category: "Leather Handbags & Structured Totes",
-    description: "Full-grain, pebbled calfskin, and vegetable-tanned women's handbags, shoppers, and architectural day totes.",
+    category: "Leather Handbags, Totes & Micro Bags",
+    description: "Full-grain, pebbled calfskin, and vegetable-tanned women's handbags, shoppers, architectural day totes, and designer micro/mini crossbody bags.",
     targetUrl: "/products/leather-handbags",
     keywords: [
       "leather handbag manufacturer India",
       "OEM leather tote bag factory",
       "wholesale full grain leather totes",
       "private label women's leather handbags",
+      "micro bags manufacturer India",
+      "custom mini leather bag factory",
+      "private label mini bags wholesale",
       "custom structured leather satchel supplier"
     ]
   },
@@ -60,7 +104,10 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     targetUrl: "/products/wallets-and-cardholders",
     keywords: [
       "leather wallet manufacturer India",
+      "leather wallets wholesale",
+      "RFID leather wallets factory",
       "RFID leather wallet factory wholesale",
+      "wholesale RFID blocking wallets",
       "private label cardholder manufacturer",
       "small leather goods OEM supplier India",
       "custom leather passport holder manufacturer"
@@ -164,6 +211,16 @@ export interface B2BKeywordCandidate {
 }
 
 export const TOP_20_B2B_KEYWORDS: B2BKeywordCandidate[] = [
+  { keyword: "best supplier of leather goods", intent: "Global Supplier Discovery", rationale: "Dominant B2B procurement query from retail directors seeking audited, premium leather product suppliers." },
+  { keyword: "leather goods manufacturer in India", intent: "Direct Manufacturing Sourcing", rationale: "Steady high-volume baseline query from overseas buyers seeking verified direct cut-and-sew factories." },
+  { keyword: "private label leather bags", intent: "Commercial Buyer Intent", rationale: "High-intent commercial query from fashion brands and retailers seeking ready-to-brand OEM bag production." },
+  { keyword: "leather goods manufacturer in Asia", intent: "Regional Supply Chain Diversification", rationale: "Core search by US & European sourcing heads seeking reliable alternatives to China across South Asia." },
+  { keyword: "leather goods supplier USA", intent: "US Wholesale & Distribution", rationale: "Connects American department stores, boutiques, and private labels with FOB/DDP delivery to JFK & LAX." },
+  { keyword: "leather goods supplier Europe", intent: "European Union Sourcing", rationale: "Captures European brands requiring EU REACH Annex XVII compliance and DDP shipping to Rotterdam/Hamburg." },
+  { keyword: "leather wallets wholesale", intent: "Bulk Wholesale Procurement", rationale: "High commercial purchase intent from distributors, gift houses, and retail buyers seeking volume SLG production." },
+  { keyword: "RFID leather wallets", intent: "Engineered Product Security", rationale: "Baseline consumer expectation in North America & Europe requiring 13.56 MHz Faraday shielding foil." },
+  { keyword: "micro bags / mini bags", intent: "Fashion Capsule Silhouette", rationale: "High-margin contemporary luxury capsule category requiring precision micro-skiving and fine edge finishing." },
+  { keyword: "best leather goods manufacturer in India", intent: "Top-Tier Quality Evaluation", rationale: "High-intent comparison query evaluating master ateliers, LWG partner tanneries, and AQL 2.5 QC." },
   { keyword: "leather goods manufacturer Kolkata", intent: "Direct Factory Sourcing", rationale: "Validates direct factory and atelier operations at Calcutta Leather Complex, Bantala, Kolkata." },
   { keyword: "leather bag manufacturer Noida", intent: "Corporate & Export Desk", rationale: "Connects international buyers and Delhi NCR sourcing agencies with our Noida export office." },
   { keyword: "private label leather bag manufacturer India", intent: "Commercial / White-Label", rationale: "Primary commercial query for fashion brands seeking custom hardware, debossing, and low MOQs." },
@@ -195,6 +252,24 @@ export interface PriorityB2BKeywordTier {
 }
 
 export const PRIORITY_B2B_KEYWORD_TIERS: PriorityB2BKeywordTier[] = [
+  {
+    priority: "Top Trending: Best Supplier & Manufacturer",
+    categoryName: "Best Leather Goods Supplier & Manufacturer (India & Asia → USA & Europe)",
+    description: "High-volume B2B search trends capturing brand directors and procurement officers searching for the best supplier of leather goods and top manufacturers in India/Asia exporting to the USA and Europe.",
+    targetPages: ["/leather-goods-supplier-usa", "/leather-goods-supplier-europe", "/leather-goods-supplier-asia", "/leather-goods-manufacturer"],
+    keywords: [
+      "best supplier of leather goods",
+      "best leather goods supplier in India",
+      "best supplier of leather goods in Asia",
+      "leather goods manufacturer in India",
+      "leather goods manufacturer in Asia",
+      "leather goods supplier USA",
+      "leather goods supplier Europe",
+      "best leather goods manufacturer in India for US and European brands",
+      "top leather goods suppliers in Asia",
+      "custom leather goods supplier USA"
+    ]
+  },
   {
     priority: "Core: Indian manufacturing",
     categoryName: "Direct India Manufacturing (Kolkata & Noida)",

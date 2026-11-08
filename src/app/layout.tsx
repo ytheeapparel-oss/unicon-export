@@ -20,16 +20,30 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.uniconleather.com"),
   title: {
-    default: "UNICON LEATHER | Private Label Leather Bags, Jackets & SLGs for Global Brands",
+    default: "UNICON LEATHER | Best Supplier of Leather Goods & Manufacturer in India for USA & Europe",
     template: "%s | UNICON LEATHER",
   },
   description:
-    "Contract manufacturing and private-label leather atelier in Kolkata & Noida for European, UK, US, and global brands. Handbags, totes, briefcases, jackets, RFID wallets & belts with 50–100 pc stock trial MOQs, 5–14 day sampling, LWG partner hides, and batch EU REACH testing.",
+    "UNICON LEATHER is the best supplier of leather goods and premier leather goods manufacturer in India & Asia for USA, UK, and European brands. Handbags, totes, briefcases, jackets, RFID wallets & belts with 50–100 pc stock trial MOQs, 5–14 day sampling, LWG partner hides, Prop 65 & EU REACH compliance.",
   keywords: [
+    "best supplier of leather goods",
+    "leather goods manufacturer in India",
+    "leather goods manufacturer in Asia",
+    "leather goods supplier USA",
+    "leather goods supplier Europe",
+    "best leather goods manufacturer in India",
+    "best supplier of leather goods in Asia",
+    "Indian leather goods supplier for US brands",
+    "leather goods exporter to Europe",
+    "wholesale leather goods suppliers USA",
+    "custom leather goods supplier USA",
+    "custom leather goods manufacturer Asia",
     "private label leather bags",
     "custom leather goods OEM",
     "leather handbag contract manufacturing",
     "vegetable tanned leather goods",
+    "California Prop 65 compliant leather goods supplier",
+    "REACH compliant leather manufacturer India",
     "LWG partner tannery leather bags",
     "RFID leather wallet OEM",
     "custom leather jackets private label",
@@ -62,9 +76,9 @@ export const metadata: Metadata = {
     ],
     url: "https://www.uniconleather.com",
     siteName: "UNICON LEATHER",
-    title: "UNICON LEATHER | Indian Leather Goods Manufacturer & OEM Bags Exporter",
+    title: "UNICON LEATHER | Best Supplier of Leather Goods & Manufacturer in India for USA & Europe",
     description:
-      "Direct Indian cut-and-sew leather goods manufacturer and OEM/ODM exporter. Private-label leather bags, RFID wallets, belts & outerwear crafted with LWG-audited partner tannery hides.",
+      "Direct cut-and-sew leather goods manufacturer in India & premier leather goods supplier in Asia for USA and European fashion brands. Private-label bags, RFID wallets, belts & jackets crafted with LWG-audited partner tannery hides.",
     images: [
       {
         url: "https://www.uniconleather.com/images/home-hero-leather.jpg",

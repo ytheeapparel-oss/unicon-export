@@ -182,12 +182,17 @@ const htmlContent = `
 `;
 
 try {
+  const refCode = String(Date.now()).slice(-6);
   const data = await resend.emails.send({
     from: "UNICON LEATHER Export Desk <onboarding@resend.dev>",
     to: [recipient],
     replyTo: samplePayload.business_email,
-    subject: `🔥 [SAMPLE TEST RFQ] New Wholesale Inquiry: ${samplePayload.company_name} (${samplePayload.country})`,
+    subject: `New B2B Wholesale Inquiry [RFQ-${refCode}]: ${samplePayload.company_name} (${samplePayload.country})`,
     html: htmlContent,
+    text: `UNICON LEATHER — New B2B Wholesale Inquiry [RFQ-${refCode}]\nBuyer: ${samplePayload.buyer_name}\nCompany: ${samplePayload.company_name}\nEmail: ${samplePayload.business_email}\nPhone: ${samplePayload.phone_or_whatsapp}\nCountry: ${samplePayload.country}\nCategory: ${samplePayload.product_category}\nQuantity: ${samplePayload.required_quantity}\nMessage: ${samplePayload.message}`,
+    headers: {
+      "X-Entity-Ref-ID": `rfq-${Date.now()}`,
+    },
   });
 
   console.log("\n✅ Sample email sent successfully!");

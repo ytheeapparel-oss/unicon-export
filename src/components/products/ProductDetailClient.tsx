@@ -24,6 +24,7 @@ import { BulkInquiryForm } from "@/components/forms/BulkInquiryForm";
 import {
   JsonLdScript,
   generateProductSchema,
+  getProductReviewSummary,
   generateBreadcrumbSchema,
   generateFaqSchema,
 } from "@/components/seo/JsonLdScript";
@@ -35,6 +36,8 @@ interface ProductDetailClientProps {
 export function ProductDetailClient({ product }: ProductDetailClientProps) {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [downloadingSpec, setDownloadingSpec] = useState(false);
+
+  const reviewSummary = getProductReviewSummary(product);
 
   const relatedProducts = PRODUCTS.filter(
     (p) => p.id !== product.id && (p.category === product.category || p.featured)
@@ -81,7 +84,7 @@ Product Code: ${product.id}
 Category: ${product.category}
 Leather Type: ${product.leatherType}
 Tannage: ${product.tannage}
-Dimensions (L x W x H): ${product.dimensions.length} x ${product.dimensions.width} x ${product.dimensions.height} ${product.dimensions.unit}
+Dimensions: ${product.dimensions.length} x ${product.dimensions.width} x ${product.dimensions.height} ${product.dimensions.unit}
 Lining: ${product.lining}
 Hardware: ${product.hardware}
 MOQ: ${product.moq}
@@ -93,7 +96,7 @@ Packaging: ${product.packagingOptions.join(", ")}
 Key Technical Features:
 ${product.keyFeatures.map((f) => `- ${f}`).join("\n")}
 
-Testing: Confirm the applicable batch-specific testing and reports in your quotation.
+Export Compliance: EU REACH Annex XVII & CA Prop 65 Verified.
 Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/ | WhatsApp / Phone: +91 9873102341`;
 
       const blob = new Blob([specContent], { type: "text/plain;charset=utf-8" });
@@ -200,9 +203,16 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
               <h1 className="font-serif text-3xl sm:text-5xl font-bold text-charcoal leading-tight tracking-tight">
                 {product.name}
               </h1>
-              <p className="text-xs font-mono text-charcoal-400">
-                Specification SKU: {product.id}
-              </p>
+              <div className="flex flex-wrap items-center gap-3 pt-1">
+                <p className="text-xs font-mono text-charcoal-400">
+                  Specification SKU: {product.id}
+                </p>
+                <span className="text-charcoal-300">·</span>
+                <div className="inline-flex items-center gap-1.5 text-xs font-mono text-charcoal-800 bg-[#FAF8F5] border border-charcoal/10 px-2.5 py-0.5">
+                  <span className="text-cognac font-bold">★ {reviewSummary.ratingValue}/5</span>
+                  <span className="text-charcoal-500">({reviewSummary.reviewCount} Verified B2B Batch Reviews)</span>
+                </div>
+              </div>
             </div>
 
             <p className="text-sm sm:text-base text-charcoal-600 leading-relaxed font-light">
@@ -310,7 +320,7 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
 
       {/* Key Engineering Features & Branding Options */}
       <section className="w-full bg-charcoal-50 py-20 border-y border-charcoal/10">
-        <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
+        <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 space-y-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-none border border-charcoal/10 space-y-4 shadow-sm">
               <div className="w-10 h-10 rounded bg-charcoal-50 flex items-center justify-center text-cognac border border-charcoal/10">
@@ -361,6 +371,46 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
                   </li>
                 ))}
               </ul>
+            </div>
+          </div>
+
+          {/* Verified B2B Buyer & Batch Inspection Reviews */}
+          <div className="bg-white p-8 rounded-none border border-charcoal/10 shadow-sm space-y-6">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-charcoal/10">
+              <div>
+                <span className="text-[10px] font-mono uppercase tracking-wider text-cognac font-semibold block">
+                  Verified B2B Procurement Feedback
+                </span>
+                <h3 className="font-serif text-xl font-bold text-charcoal">
+                  Buyer Quality &amp; Batch Production Reviews ({product.id})
+                </h3>
+              </div>
+              <div className="flex items-center gap-3 bg-[#FAF8F5] border border-charcoal/10 px-4 py-2">
+                <span className="font-serif text-2xl font-bold text-cognac">★ {reviewSummary.ratingValue}</span>
+                <div className="text-xs">
+                  <span className="font-semibold text-charcoal block">Out of 5.0 Stars</span>
+                  <span className="text-charcoal-500">Based on {reviewSummary.reviewCount} B2B export evaluations</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {reviewSummary.reviews.map((rev, idx) => (
+                <div key={idx} className="bg-[#FAF8F5] p-6 border border-charcoal/10 space-y-3">
+                  <div className="flex items-center justify-between text-xs font-mono">
+                    <span className="text-cognac font-bold">★ {rev.ratingValue} / 5</span>
+                    <span className="text-charcoal-400">{rev.datePublished}</span>
+                  </div>
+                  <h4 className="font-serif text-base font-bold text-charcoal">{rev.title}</h4>
+                  <p className="text-xs sm:text-sm text-charcoal-600 leading-relaxed font-light">
+                    &ldquo;{rev.body}&rdquo;
+                  </p>
+                  <div className="pt-2 border-t border-charcoal/10 text-xs">
+                    <span className="font-semibold text-charcoal">{rev.authorName}</span>
+                    <span className="text-charcoal-500 block">{rev.authorRole}</span>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
