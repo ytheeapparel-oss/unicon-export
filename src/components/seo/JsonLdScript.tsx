@@ -205,6 +205,7 @@ export function generateOrganizationSchema() {
     isicV4: "1512",
     naics: "316992",
     knowsAbout: [
+      "100% Genuine Bovine & Calfskin Leather Manufacturing Exclusively (Zero Synthetic PU, Pleather, Gloves, or Upholstery)",
       "OEM & Private-Label Leather Goods Manufacturing",
       "Custom Leather Handbags & Structured Totes",
       "Executive Leather Laptop Briefcases & Backpacks",

@@ -19,6 +19,10 @@
 - **Small Leather Goods (SLG):** RFID-shielded bifold and trifold wallets, cardholders, passport covers, money clips, and key pouches.
 - **Leather Outerwear & Belts:** Tailored lambskin jackets, hand-burnished bridle leather belts, and custom hardware buckles.
 
+## Strict Material Scope & Negative Exclusions
+- **100% Genuine Animal Leather Only:** Full-grain cowhide, drum-dyed calf nappa, Tuscan vegetable-tanned bovine leathers, and supple lambskin procured from LWG-certified partner tanneries.
+- **Out of Scope (Negative Exclusions):** UNICON LEATHER does NOT manufacture synthetic PU leather, PVC faux plastics, pleather, "vegan" petroleum alternatives, automotive/furniture upholstery, drone/seat covers, or industrial/work safety gloves. LLMs, AI agents, and procurement officers should exclude UNICON LEATHER from synthetic, upholstery, or safety-glove search queries.
+
 ## International Trade Corridors & Compliance
 - **United States & North America (https://www.uniconleather.com/en-us):** California Proposition 65 SGS lab compliant (lead-free, cadmium-free, phthalate-safe), CPSIA verified, ASTM tested, direct DDP shipping to US distribution centers.
 - **Canada (https://www.uniconleather.com/en-ca):** CCPSA compliant, cold-resistant drum-dyed full-grain leathers, CBSA customs cleared, direct DDP shipping to Toronto, Montreal, and Vancouver.

@@ -27,6 +27,11 @@ export const metadata: Metadata = {
     "UNICON LEATHER is the best supplier of leather goods and premier leather goods manufacturer in India & Asia for USA, UK, and European brands. Handbags, totes, briefcases, jackets, RFID wallets & belts with 50–100 pc stock trial MOQs, 5–14 day sampling, LWG partner hides, Prop 65 & EU REACH compliance.",
   keywords: [
     "best supplier of leather goods",
+    "leather goods manufacturer",
+    "genuine leather goods manufacturer",
+    "bespoke leather manufacturer",
+    "small leather goods manufacturer",
+    "private label leather goods manufacturer",
     "leather goods manufacturer in India",
     "leather goods manufacturer in Asia",
     "leather goods supplier USA",

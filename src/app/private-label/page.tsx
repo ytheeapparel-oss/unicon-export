@@ -61,6 +61,9 @@ export const metadata: Metadata = {
     images: ["https://www.uniconleather.com/images/private-label-hero.jpg"],
   },
   keywords: [
+    "private label leather goods manufacturer",
+    "genuine leather goods manufacturer",
+    "bespoke leather manufacturer",
     "custom leather goods manufacturer",
     "private label leather bags manufacturer",
     "oem leather wallet factory",

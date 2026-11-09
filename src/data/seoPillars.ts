@@ -529,6 +529,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     categoryFilter: ["wallets", "belts"],
     specs: [
       { label: "Minimum Order Quantity (MOQ)", value: "150 pcs per style (multi-color splits allowed)" },
+      { label: "Material Standard", value: "100% Genuine Bovine & Calfskin Leather (Zero Synthetic PU or Plastics)" },
       { label: "Prototyping Lead Time", value: "5 to 7 business days" },
       { label: "Bulk SLG Manufacturing", value: "25 to 35 business days" },
       { label: "Tannery Source", value: "100% LWG Gold/Silver certified environmental tanneries" },
@@ -565,6 +566,10 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       {
         question: "Can we develop custom colors for small leather goods?",
         answer: "Yes, we offer custom Pantone leather dyeing for orders meeting tannery hide batch minimums, or select from over 40+ in-stock atelier leather colors."
+      },
+      {
+        question: "Does your SLG factory manufacture synthetic PU or faux leather cardholders?",
+        answer: "No. UNICON LEATHER manufactures small leather goods strictly with 100% genuine full-grain and calf nappa hides from LWG-certified partner tanneries. We do not manufacture synthetic PU, pleather, or faux plastic wallets."
       }
     ],
     targetKeywords: [
@@ -575,7 +580,10 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "leather passport holder manufacturer",
       "leather coin pouches",
       "leather organisers",
-      "protective leather covers",
+      "genuine leather small goods",
+      "precision SLG manufacturer",
+      "luxury small leather goods manufacturer",
+      "genuine leather wallet manufacturer",
       "SLG manufacturer India",
       "custom small leather goods",
       "leather goods factory India"
@@ -597,6 +605,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     categoryFilter: ["handbags", "wallets", "totes", "business-bags", "belts"],
     specs: [
       { label: "Private Label MOQ", value: "100 units for bags; 150 units for small leather goods" },
+      { label: "Material Standard", value: "100% Genuine Full-Grain & Top-Grain Leather (Zero Synthetic PU or Plastics)" },
       { label: "Sampling Timeline", value: "7 to 10 days for rapid counter-samples" },
       { label: "Custom Tooling Lead Time", value: "10–14 days for custom metal hardware & logo dies" },
       { label: "Bilateral NDA", value: "Signed immediately prior to reviewing client tech packs" },
@@ -633,6 +642,10 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       {
         question: "Can you ship directly to international warehouses or Amazon FBA?",
         answer: "Yes, we provide DDP (Delivered Duty Paid) shipping to Amazon FBA fulfillment centers, 3PL warehouses, and brand headquarters across the USA, UK, and Europe."
+      },
+      {
+        question: "Can private label collections be manufactured with synthetic PU or vegan leather?",
+        answer: "No. UNICON LEATHER engineers private label collections exclusively with genuine bovine hides and calf nappa. We do not manufacture using synthetic PU, PVC, pleather, or faux plastic materials."
       }
     ],
     targetKeywords: [
@@ -644,6 +657,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "luxury leather products",
       "private label leather manufacturing",
       "private label leather goods manufacturer",
+      "genuine private label leather goods",
+      "private label leather goods manufacturer USA",
+      "private label leather goods manufacturer Canada",
       "private label leather goods",
       "private label leather bags India",
       "custom branded leather manufacturer",
@@ -674,6 +690,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     categoryFilter: ["handbags", "totes", "business-bags", "travel-bags", "wallets"],
     specs: [
       { label: "Production Capacity", value: "Multi-line cut-and-sew production across our 4-plot Kolkata atelier (capacity confirmed per style complexity)" },
+      { label: "Material Scope", value: "100% Genuine Full-Grain & Top-Grain Bovine/Calfskin (Zero PU or Plastics)" },
       { label: "OEM MOQ", value: "50 pcs (Stock Leather Trial) / 100 pcs (Custom Drum-Dyed) for bags & jackets; 100–200 pcs for SLGs" },
       { label: "Social & Quality Audits", value: "SEDEX SMETA / BSCI open-factory audit readiness & AQL 2.5 inspection" },
       { label: "Material Traceability", value: "Full-grain and top-grain hides sourced from LWG-audited partner tanneries" },
@@ -710,6 +727,10 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       {
         question: "What quality standards do you follow for OEM contracts?",
         answer: "We inspect every production run against ISO 2859-1 AQL 2.5 sampling standards (Major 2.5 / Minor 4.0), providing comprehensive digital pre-shipment inspection reports with high-resolution photo and video verification."
+      },
+      {
+        question: "Do you offer OEM cut-and-sew services for synthetic PU or upholstery items?",
+        answer: "No. Our OEM contract manufacturing lines are calibrated exclusively for authentic bovine hides, calf nappa, and vegetable-tanned leathers. We do not manufacture synthetic PU products, furniture upholstery, vehicle seat covers, or industrial work gloves."
       }
     ],
     targetKeywords: [
@@ -723,6 +744,8 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "small batch leather manufacturing",
       "oem leather goods manufacturer",
       "oem leather goods manufacturer India",
+      "genuine leather OEM factory",
+      "genuine leather goods manufacturer",
       "contract leather goods manufacturer",
       "odm leather products factory",
       "oem leather bag factory"
@@ -744,6 +767,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     categoryFilter: ["handbags", "totes", "business-bags", "wallets", "belts"],
     specs: [
       { label: "Bespoke Prototyping", value: "7 to 10 days for physical counter-samples" },
+      { label: "Material Focus", value: "100% Genuine Full-Grain & Top-Grain Bovine/Calfskin Leather (Zero Synthetic PU or Upholstery)" },
       { label: "Custom Leather Dyeing", value: "Exact Pantone matching with lab dip swatches in 5–7 days" },
       { label: "Custom Hardware Tooling", value: "3D CAD mould creation for buckles, locks, and pullers" },
       { label: "Low Production MOQ", value: "Flexible 100-piece production runs for indie designers" },
@@ -780,6 +804,10 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       {
         question: "What is the typical cost for creating a custom prototype?",
         answer: "Prototype development fees depend on the silhouette complexity and custom mould requirements. Prototype sampling costs are credited back toward your bulk order upon confirmation."
+      },
+      {
+        question: "Does UNICON LEATHER manufacture synthetic PU leather items, upholstery, or gloves?",
+        answer: "No. Our atelier specializes strictly in high-end, contemporary genuine leather goods (handbags, totes, wallets, small leather goods, belts, briefcases, and outerwear). We do not work with synthetic PU, faux/vegan plastics, furniture or automotive upholstery, or industrial work gloves. 100% of our leather is authentic bovine and calf hide sourced from LWG-audited tanneries."
       }
     ],
     targetKeywords: [
@@ -794,9 +822,9 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       "custom logo leather products",
       "leather logo embossing",
       "custom hardware",
-      "drone covers",
-      "leather bike seats",
-      "leather cushion covers",
+      "genuine leather goods manufacturer",
+      "bespoke leather goods manufacturer",
+      "custom full grain leather goods",
       "Italian leather goods manufacturer partnership in USA",
       "custom leather goods manufacturer India",
       "custom leather goods manufacturer",
@@ -1360,6 +1388,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
     categoryFilter: ["handbags", "totes", "wallets-and-cardholders", "leather-belts", "backpacks", "laptop-and-business-bags", "travel-bags"],
     specs: [
       { label: "Minimum Order Quantity (MOQ)", value: "50 pcs (Stock Leather Trial) / 100 pcs (Custom Dye) per style for bags; 100–200 pcs for SLGs" },
+      { label: "Material Scope", value: "100% Genuine Bovine & Calfskin Leather exclusively (Zero synthetic PU, pleather, gloves, or upholstery)" },
       { label: "Sample Prototyping Lead Time", value: "5 to 14 business days via DHL / FedEx Express worldwide courier" },
       { label: "Bulk Production Timeline", value: "25 to 40 business days upon pre-production sample sign-off" },
       { label: "Tannery & Lab Compliance", value: "LWG Gold/Silver Partner Tanneries; Batch-Testable for EU REACH Annex XVII & CA Prop 65" },
@@ -1408,6 +1437,10 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       {
         question: "What quality control standards are followed during production?",
         answer: "We enforce rigorous 4-stage quality control: raw hide incoming inspection, cutting and skiving verification, in-line stitching and edge dye audits, and final AQL 2.5 pre-packaging inspection with full defect logs."
+      },
+      {
+        question: "Do you manufacture synthetic PU leather, furniture upholstery, or work gloves?",
+        answer: "No. UNICON LEATHER is exclusively a luxury and contemporary genuine leather goods manufacturer. We craft high-end handbags, totes, wallets, belts, briefcases, and apparel from 100% genuine bovine hides and calf nappa sourced from LWG-certified partner tanneries. We do not manufacture synthetic PU, PVC, vegan pleathers, automotive or furniture upholstery, or industrial work gloves."
       }
     ],
     targetKeywords: [
@@ -1660,7 +1693,7 @@ export const SEO_PILLARS: Record<string, SeoPillar> = {
       },
       {
         title: "Supple Lambskin & Rugged Cowhide",
-        description: "Specialized in lightweight glove-soft lambskin for high-fashion runway lines and heavy 1.2mm grain cowhide for rugged motorcycle gear."
+        description: "Specialized in buttery-soft drum-dyed lambskin nappa for high-fashion runway lines and heavy 1.2mm grain cowhide for rugged motorcycle gear."
       },
       {
         title: "Custom Hardware, Snaps & Embellishment",

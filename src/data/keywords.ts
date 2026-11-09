@@ -31,6 +31,12 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     description: "Primary contract manufacturer and OEM/ODM atelier in India and South Asia engineering bespoke handbags, jackets, wallets, belts, and luggage for North American and European retailers.",
     targetUrl: "/leather-goods-manufacturer",
     keywords: [
+      "leather goods manufacturer",
+      "genuine leather goods manufacturer",
+      "bespoke leather manufacturer",
+      "bespoke leather goods manufacturer",
+      "small leather goods manufacturer",
+      "private label leather goods manufacturer",
       "leather goods manufacturer in India",
       "leather goods manufacturer in Asia",
       "leather goods manufacturers in India",
@@ -52,6 +58,9 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     description: "Custom cut-and-sew contract manufacturing, CAD pattern grading, and private-label brand development from India.",
     targetUrl: "/private-label",
     keywords: [
+      "private label leather goods manufacturer",
+      "private label leather goods manufacturer USA",
+      "private label leather goods manufacturer Canada",
       "private label leather bag manufacturer India",
       "OEM leather goods factory India",
       "custom leather bag manufacturer low MOQ",
@@ -103,6 +112,9 @@ export const SEO_KEYWORD_CLUSTERS: KeywordCluster[] = [
     description: "Precision-skived 0.4mm turned-edge bifold wallets, cardholders, and passport folios with 13.56 MHz RFID shielding.",
     targetUrl: "/products/wallets-and-cardholders",
     keywords: [
+      "small leather goods manufacturer",
+      "small leather goods manufacturer India",
+      "genuine leather wallet manufacturer",
       "leather wallet manufacturer India",
       "leather wallets wholesale",
       "RFID leather wallets factory",

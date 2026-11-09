@@ -84,5 +84,11 @@ export const FAQS: FAQItem[] = [
     category: "export",
     question: "How does an international buyer in the USA or Europe import custom leather goods from an Indian or Asian manufacturer with DDP shipping?",
     answer: "Importing custom leather goods from our Indian atelier to the USA or Europe is seamless via our Delivered Duty Paid (DDP) service. Under DDP terms, UNICON LEATHER manages every step of the export and import process: our export desk prepares HS 4202/4203 commercial invoices, certificates of origin, and packing lists, coordinates air freight (4–6 days via FedEx/DHL/air cargo) or ocean container shipping (22–28 days to US/EU ports), handles customs broker filings (including US ISF 10+2 and EU import customs clearance), and pays all import duties and harbor taxes upfront—delivering palletized or boxed shipments directly to your warehouse or 3PL center with zero unexpected fees."
+  },
+  {
+    id: "faq-15",
+    category: "compliance",
+    question: "Does UNICON LEATHER manufacture synthetic PU leather goods, furniture upholstery, or industrial work gloves?",
+    answer: "No. UNICON LEATHER works exclusively with 100% genuine bovine (cowhide/buffalo) and calfskin leathers procured from Leather Working Group (LWG) audited partner tanneries. We do not manufacture petroleum-derived synthetic PU (polyurethane), PVC faux pleather, vehicle seat covers, furniture upholstery, or industrial PPE work gloves. Our entire cut-and-sew atelier is dedicated strictly to high-grade finished leather goods, handbags, briefcases, wallets, belts, and outerwear under HS Codes 4202 and 4203."
   }
 ];
