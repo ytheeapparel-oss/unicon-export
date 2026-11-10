@@ -2,7 +2,7 @@
 
 **Brand & Organization:** UNICON LEATHER (`https://www.uniconleather.com/`)  
 **Legal Entity:** Unicon Leather Goods Export Private Limited  
-**Manufacturing Atelier:** Plot No. 42-45, Zone 3, Calcutta Leather Complex (CLC), Bantala, Kolkata, West Bengal 700135, India  
+**Manufacturing Atelier:** Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex (CLC), Kolkata, West Bengal 743502, India  
 **Corporate Liaison & Sourcing Office:** Office No. 11, 4th Floor, Indian Green Centre, Sector 106, Noida, Uttar Pradesh 201304, India  
 **Target Audience:** Sourcing Directors, Fashion Brand Founders, Wholesalers, Department Store Importers, and Boutique Buying Houses across the USA, UK, Europe, Australia, and selected global markets.
 
@@ -26,7 +26,7 @@ This assessment is based on an exhaustive technical and editorial inspection of 
 ```
 
 ### 1. Verified Commercial Strengths
-* **Authentic Manufacturing Footprint:** The production floor operates in the **Calcutta Leather Complex (CLC), Bantala, Kolkata, West Bengal 700135**—India’s premier leather goods export zone—supported by a corporate liaison, sourcing, and client communication office in **Sector 106, Noida (Delhi NCR)**. Direct proximity to Kolkata Port (SMP Seaport) and Netaji Subhash Chandra Bose International Airport (CCU) enables maritime FCL/LCL container dispatch and air cargo routing.
+* **Authentic Manufacturing Footprint:** The production floor operates in the **Calcutta Leather Complex (CLC), Zone 09, Bantala, Kolkata, West Bengal 743502**—India’s premier leather goods export zone—supported by a corporate liaison, sourcing, and client communication office in **Sector 106, Noida (Delhi NCR)**. Direct proximity to Kolkata Port (SMP Seaport) and Netaji Subhash Chandra Bose International Airport (CCU) enables maritime FCL/LCL container dispatch and air cargo routing.
 * **Accessible Order Economics (Low MOQ):** A minimum order quantity of **100–200 pieces per style for bags and totes** (with multi-colorway batching across shared hide lots) provides a competitive advantage against traditional Asian contract manufacturers mandating 500–1,000 units.
 * **Prototyping Turnaround:** Structured counter-sample development of **7 to 14 business days** via DHL/FedEx Express before committing bulk cutting capital.
 * **Traceable Chemical Compliance:** Raw hides sourced from **Leather Working Group (LWG) audited partner tanneries** (Gold/Silver rated), ensuring compliance with **EU REACH Annex XVII** (Chromium VI < 3 ppm, azo-free dyes, nickel-free hardware) and **California Proposition 65**.
@@ -480,7 +480,7 @@ rigorous European finishing tolerances, audited ethical standards, and direct gl
 
 #### Section 2: Trust & Manufacturing Benchmark Bar
 ```markdown
-• Direct Factory Hub: Zone 3, Calcutta Leather Complex, Bantala, Kolkata, India
+• Direct Factory Hub: Zone 09, Calcutta Leather Complex, Bantala, Kolkata, India
 • Tannage Sourcing: 100% Leathers from Gold & Silver LWG-Audited Partner Tanneries
 • Minimum Order Quantity: 100 Pieces per Style (Colorway Batching Across Shared Hides)
 • Sampling Turnaround: Physical Counter-Samples in 7–14 Business Days via DHL/FedEx

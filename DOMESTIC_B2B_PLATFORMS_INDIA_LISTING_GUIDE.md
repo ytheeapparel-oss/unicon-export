@@ -31,7 +31,8 @@ When registering on any domestic platform, copy and paste these exact standardiz
 * **Legal Entity Name:** Unicon Leather Goods Export Private Limited
 * **Nature of Business:** Manufacturer, OEM/ODM Supplier, Wholesale Exporter
 * **Year of Establishment:** 2012
-* **Factory / Registered Address:** Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala, Kolkata, West Bengal 700135, India
+* **Factory / Registered Address:** Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex, Kolkata, West Bengal 743502, India
+* **Corporate / Sourcing Office:** Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106, Noida, Uttar Pradesh 201304, India
 * **Primary Phone / WhatsApp:** +91 9873102341
 * **Primary Email:** uniconexport@gmail.com
 * **Official Website:** https://www.uniconleather.com/

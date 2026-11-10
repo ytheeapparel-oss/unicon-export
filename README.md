@@ -74,7 +74,7 @@ export const COMPANY_INFO = {
   establishedYear: "[YEAR - e.g., 2012]",
   locationCity: "[CITY, e.g., Kolkata / Chennai / Kanpur]",
   locationState: "[STATE, e.g., West Bengal / Tamil Nadu]",
-  fullAddress: "Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala, Kolkata, West Bengal 700135, India",
+  fullAddress: "Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex, Kolkata, West Bengal 743502 (Corporate Office: Office No. 11, 4th Floor, Indian Green Centre, Sector 106, Noida, UP 201304), India",
   primaryEmail: "work@uniconleather.net",
   secondaryEmail: "ytheeapparel@gmail.com",
   phone: "+91 9873102341",

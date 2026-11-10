@@ -8,7 +8,8 @@
 > - **Primary Export Email:** `uniconexport@gmail.com`
 > - **Secondary Email:** `work@uniconleather.net`
 > - **Phone / WhatsApp:** `+91 9873102341`
-> - **Factory Plot:** Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala, Kolkata, West Bengal 700135, India
+> - **Factory Plot:** Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex, Kolkata, West Bengal 743502, India
+> - **Noida Office:** Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106, Noida, Uttar Pradesh 201304, India
 > - **Sitemap:** https://www.uniconleather.com/sitemap.xml
 > - **Robots.txt:** https://www.uniconleather.com/robots.txt
 
@@ -38,7 +39,7 @@ Use this checklist to claim and activate the existing profiles found during our 
 * **Direct Claim URL:** https://business.google.com/create
 * **Action:**
   1. Search for `UNICON LEATHER` or add a new business.
-  2. Address: `Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala, Kolkata 700135`.
+  2. Address: `Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex, Kolkata 743502`.
   3. Category: `Leather Goods Manufacturer` / `Exporter`.
   4. Phone: `+91 9873102341` | Website: `https://www.uniconleather.com/`.
   5. Verify via SMS/Phone call. This turns your business green and active on Google Maps worldwide.

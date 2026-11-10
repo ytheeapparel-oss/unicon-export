@@ -34,13 +34,13 @@ Copy and paste these exact fields during the Google Business setup wizard:
 ## 3. Location, Address & Map Pin Placement
 
 * **Country / Region:** India
-* **Street Address:** `Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala`
+* **Street Address:** `Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex`
 * **City:** `Kolkata`
 * **State:** `West Bengal`
-* **PIN Code:** `700135`
+* **PIN Code:** `743502`
 * **Map Pin Coordinates:**  
   Latitude: `22.5085° N`, Longitude: `88.4687° E`  
-  *(Ensure the pin on Google Maps is placed directly inside Zone 3 of Calcutta Leather Complex, Bantala).*
+  *(Ensure the pin on Google Maps is placed directly inside Zone 09 of Calcutta Leather Complex, Bantala).*
 
 ---
 
@@ -139,7 +139,7 @@ Under the **Products** tab, upload products from your website catalog:
 ## 10. Photo Upload Checklist (To Maximize Ranking)
 
 Upload at least 10–15 high-resolution photos directly from your website repository:
-1. **Exterior & Signage:** Calcutta Leather Complex Zone 3 gate, building entrance with "UNICON LEATHER" nameplate.
+1. **Exterior & Signage:** Calcutta Leather Complex Zone 09 gate, building entrance with "UNICON LEATHER" nameplate.
 2. **Interior Atelier:** Cutting tables, skiving machines, heavy-duty sewing stations, edge-painting racks.
 3. **Raw Materials:** LWG certified leather hide rolls (cowhide, buffalo, veg-tan, nappa).
 4. **Finished Products:** Clean product cutout photos from `public/images/` (e.g. `panel-11-bucket-bag.png`, `panel-13-tote-bag.png`, `flagship-travel-duffel.jpg`).
@@ -152,7 +152,7 @@ Upload at least 10–15 high-resolution photos directly from your website reposi
 Google now commonly requires a **1–2 minute continuous video recording** on your mobile phone to verify real manufacturing businesses in India.
 
 **How to record the video:**
-1. **Start Outside (Street & Signage):** Stand outside on the street in Bantala Zone 3. Point the camera at the street name, zone marker, and your factory/office board showing `UNICON LEATHER` or `Unicon Leather Goods Export Private Limited`.
+1. **Start Outside (Street & Signage):** Stand outside on the street in Bantala Zone 09. Point the camera at the street name, zone marker, and your factory/office board showing `UNICON LEATHER` or `Unicon Leather Goods Export Private Limited`.
 2. **Continuous Walk-in (Do NOT stop or edit):** Walk through the main entrance into your facility.
 3. **Show Operational Atelier:** Point the camera at working equipment (leather sewing machines, cutting dies, embossing presses, leather storage racks).
 4. **Show Proof of Management:** Hold up your GST registration certificate, MSME/Udyam certificate, electricity bill, or business cards with `+91 9873102341` and Bantala address.

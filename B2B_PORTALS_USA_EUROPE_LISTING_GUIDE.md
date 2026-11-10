@@ -63,7 +63,8 @@ Commercial & Trade Terms:
 ### 5. Official Contact Details
 - **Email:** `uniconexport@gmail.com` / `work@uniconleather.net`
 - **Phone / WhatsApp:** `+91 9873102341`
-- **Factory Address:** Plot No. 42-45, Zone 3, Calcutta Leather Complex, Bantala, Kolkata, West Bengal 700135, India
+- **Factory Address:** Plot 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex, Kolkata, West Bengal 743502, India
+- **Corporate Office:** Office No. 11, 4th Floor, Indian Green Centre, 58, Bhangel, Sector - 106, Noida, Uttar Pradesh 201304, India
 - **Website:** https://www.uniconleather.com/
 
 ---

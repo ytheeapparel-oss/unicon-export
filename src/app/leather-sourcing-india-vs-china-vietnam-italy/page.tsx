@@ -436,7 +436,7 @@ export default function LeatherSourcingComparisonPage() {
                   1. Kolkata (CLC Bantala Cluster)
                 </h3>
                 <p className="text-xs text-charcoal-600 leading-relaxed font-light">
-                  <strong>Global Capital for Handbags &amp; SLGs:</strong> Home to our 4-plot factory (Plots 42–45, Zone 3, Calcutta Leather Complex). Renowned for European-trained turned-edge maroquinerie, vegetable-tanned totes, laptop briefcases, and ultra-slim RFID wallets.
+                  <strong>Global Capital for Handbags &amp; SLGs:</strong> Home to our 4-plot factory (Plots 676, 687, 944, 1084, Zone 09, Bantala, Kolkata Leather Complex). Renowned for European-trained turned-edge maroquinerie, vegetable-tanned totes, laptop briefcases, and ultra-slim RFID wallets.
                 </p>
               </div>
 
