@@ -7,7 +7,6 @@ import { Layers } from "lucide-react";
 import { Product } from "@/types";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
-import { getProductReviewSummary } from "@/components/seo/JsonLdScript";
 
 interface ProductCardProps {
   product: Product;
@@ -26,7 +25,6 @@ export function ProductCard({
 }: ProductCardProps) {
   const [imgSrc] = useState(product.images[0]);
   const [hasError, setHasError] = useState(false);
-  const reviewSummary = getProductReviewSummary(product);
 
   return (
     <article className="group flex flex-col bg-white border border-charcoal/10 rounded-none overflow-hidden luxury-card-shadow transition-all duration-300">
@@ -77,11 +75,6 @@ export function ProductCard({
               {product.name}
             </h3>
           </Link>
-
-          <div className="flex items-center gap-1.5 text-[11px] font-mono text-charcoal-600">
-            <span className="text-cognac font-bold">★ {reviewSummary.ratingValue}</span>
-            <span className="text-charcoal-400">({reviewSummary.reviewCount} B2B reviews)</span>
-          </div>
 
           <p className="text-xs text-charcoal-600 line-clamp-2 leading-relaxed">
             {product.shortDescription}

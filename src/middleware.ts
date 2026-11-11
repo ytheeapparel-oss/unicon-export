@@ -129,44 +129,9 @@ export function middleware(request: NextRequest) {
       );
     }
 
-    if (request.nextUrl.searchParams.has("search") || request.nextUrl.searchParams.has("category")) {
+    if (request.nextUrl.searchParams.has("category")) {
       return NextResponse.redirect(new URL("https://www.uniconleather.com/products", request.url), 301);
     }
-  }
-
-  // 4. Canonicalize parameterized /contact?product=... & /contact?code=... URLs via 301 Redirect
-  if (
-    pathname === "/contact" &&
-    (request.nextUrl.searchParams.has("product") ||
-      request.nextUrl.searchParams.has("code") ||
-      request.nextUrl.searchParams.has("category"))
-  ) {
-    return NextResponse.redirect(new URL("https://www.uniconleather.com/contact", request.url), 301);
-  }
-
-  // 5. Strip tracking & referral query parameters (utm_*, gclid, fbclid, msclkid, ref) so crawlers index only clean canonical URLs
-  const TRACKING_PARAMS = [
-    "utm_source",
-    "utm_medium",
-    "utm_campaign",
-    "utm_term",
-    "utm_content",
-    "gclid",
-    "fbclid",
-    "msclkid",
-    "ref",
-  ];
-  const hasTrackingParam = TRACKING_PARAMS.some((param) =>
-    request.nextUrl.searchParams.has(param)
-  );
-  if (hasTrackingParam && !pathname.startsWith("/api")) {
-    const cleanUrl = new URL(`https://www.uniconleather.com${pathname}`);
-    request.nextUrl.searchParams.forEach((val, key) => {
-      if (!TRACKING_PARAMS.includes(key)) {
-        cleanUrl.searchParams.set(key, val);
-      }
-    });
-    return NextResponse.redirect(cleanUrl, 301);
   }
 
   // 3. Bypass all static assets, sitemaps, API, and Next.js internals

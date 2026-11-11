@@ -1,15 +1,20 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { Sparkles, Pause, Play, ArrowRight, Layers } from "lucide-react";
 import { NPD_PANELS, type NpdPanel } from "@/data/newProductDevelopment";
 
 export function NewProductDevelopmentShowcase() {
   const [isPaused, setIsPaused] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
-  // Duplicate the 15 square panels for seamless infinite marquee loop
-  const loopPanels = [...NPD_PANELS, ...NPD_PANELS];
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  // Duplicate panels only after client mount so SSR/crawlers receive 15 unique cards & links
+  const loopPanels = isMounted ? [...NPD_PANELS, ...NPD_PANELS] : NPD_PANELS;
 
   return (
     <section
@@ -75,11 +80,11 @@ export function NewProductDevelopmentShowcase() {
       <div className="w-full overflow-hidden relative py-3">
         <div
           className={`flex gap-5 sm:gap-6 px-4 ${
-            isPaused ? "" : "animate-marquee-reverse"
+            isPaused || !isMounted ? "" : "animate-marquee-reverse"
           } transition-all duration-300`}
           style={{
             animationDuration: "62s",
-            animationPlayState: isPaused ? "paused" : "running",
+            animationPlayState: isPaused || !isMounted ? "paused" : "running",
           }}
         >
           {loopPanels.map((panel: NpdPanel, idx: number) => (

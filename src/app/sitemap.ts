@@ -22,7 +22,7 @@ const CONSOLIDATED_EXPORT_HUB_KEYS = new Set([
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.uniconleather.com";
-  const lastModifiedDate = new Date("2026-11-10T00:00:00.000Z");
+  const lastModifiedDate = new Date("2026-11-11T00:00:00.000Z");
 
   const internationalHreflang = {
     "en": `${baseUrl}`,
@@ -153,18 +153,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  // Product buying information and guides updated on 10 November 2026.
-  const buyerContentUpdated = new Date("2026-11-10T00:00:00.000Z");
+  // Product buying information and guides updated on 11 November 2026.
+  const buyerContentUpdated = new Date("2026-11-11T00:00:00.000Z");
   const guideRoutes: MetadataRoute.Sitemap = [
-    "private-label-leather-bag-costs",
-    "leather-bag-sampling-process",
-    "leather-bag-moq-explained",
-  ].map((slug) => ({
-    url: `${baseUrl}/guides/${slug}`,
-    lastModified: buyerContentUpdated,
-    changeFrequency: "monthly",
-    priority: 0.7,
-  }));
+    {
+      url: `${baseUrl}/guides`,
+      lastModified: buyerContentUpdated,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    ...[
+      "private-label-leather-bag-costs",
+      "leather-bag-sampling-process",
+      "leather-bag-moq-explained",
+    ].map((slug) => ({
+      url: `${baseUrl}/guides/${slug}`,
+      lastModified: buyerContentUpdated,
+      changeFrequency: "monthly" as const,
+      priority: 0.75,
+    })),
+  ];
 
   // Dynamic Product routes
   const productRoutes: MetadataRoute.Sitemap = PRODUCTS.map((product) => ({

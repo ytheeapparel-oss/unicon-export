@@ -1353,9 +1353,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 7.25 STRATEGIC SOURCING CORRIDOR: BEST SUPPLIER OF LEATHER GOODS & TOP MANUFACTURER IN INDIA / ASIA (USA & EUROPE TARGETING) */}
+      {/* 7.25 STRATEGIC SOURCING CORRIDOR: OEM/ODM EXPORT MANUFACTURING (USA & EUROPE TARGETING) */}
       <section
-        id="best-supplier-leather-goods-india-asia"
+        id="global-leather-goods-manufacturer"
         aria-labelledby="supplier-manufacturer-corridor-heading"
         className="w-full max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14 xl:px-16"
       >
@@ -1371,10 +1371,10 @@ export default function HomePage() {
               id="supplier-manufacturer-corridor-heading"
               className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-charcoal tracking-tight leading-snug"
             >
-              Best Supplier of Leather Goods &amp; Premier Leather Goods Manufacturer in India &amp; Asia for USA &amp; Europe
+              Private Label &amp; Contract Leather Goods Manufacturer in India for US &amp; European Brands
             </h2>
             <p className="text-sm sm:text-base text-charcoal-700 leading-relaxed font-normal">
-              When sourcing managers and independent fashion founders search for the <strong>best supplier of leather goods</strong> or evaluate a verified <strong>leather goods manufacturer in India and Asia</strong>, their primary priorities are consistent material traceability, chemical safety compliance, low minimum order quantities, and turnkey DDP freight. <strong>UNICON LEATHER</strong> serves as the direct manufacturing bridge between India&apos;s world-renowned raw hide reserves and high-end retail shelves in the <strong>United States and Europe</strong>.
+              When sourcing directors and independent fashion founders evaluate a <strong>leather goods manufacturer in India</strong>, their primary priorities are material traceability, chemical safety compliance, accessible minimum order quantities, and reliable DDP freight. <strong>UNICON LEATHER</strong> provides direct cut-and-sew production from our Bantala, Kolkata atelier to retail and D2C brands across the <strong>United States, United Kingdom, and Europe</strong>.
             </p>
           </div>
 
@@ -1469,21 +1469,6 @@ export default function HomePage() {
                   View Contract Factory Overview <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               </div>
-            </div>
-          </div>
-
-          {/* Quick-Scan Trending Sourcing Queries Bar */}
-          <div className="pt-6 border-t border-charcoal/10 flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-xs">
-            <div className="flex items-center gap-2 text-charcoal-700">
-              <span className="font-mono uppercase font-bold text-cognac text-[11px]">Trending B2B Searches:</span>
-              <span className="text-charcoal-500 font-light hidden md:inline">Frequently verified by overseas sourcing teams:</span>
-            </div>
-            <div className="flex flex-wrap gap-2 text-[11px] font-mono">
-              <span className="bg-white border border-charcoal/15 px-2.5 py-1 text-charcoal-800">best supplier of leather goods</span>
-              <span className="bg-white border border-charcoal/15 px-2.5 py-1 text-charcoal-800">leather goods manufacturer in India</span>
-              <span className="bg-white border border-charcoal/15 px-2.5 py-1 text-charcoal-800">leather goods manufacturer in Asia</span>
-              <span className="bg-white border border-charcoal/15 px-2.5 py-1 text-charcoal-800">leather goods supplier USA</span>
-              <span className="bg-white border border-charcoal/15 px-2.5 py-1 text-charcoal-800">leather goods supplier Europe</span>
             </div>
           </div>
         </div>

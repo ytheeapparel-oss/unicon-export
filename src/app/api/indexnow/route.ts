@@ -37,6 +37,7 @@ const STATIC_PATHS = [
   "/compliance",
   "/contact",
   "/catalogue-request",
+  "/guides",
   "/guides/private-label-leather-bag-costs",
   "/guides/leather-bag-sampling-process",
   "/guides/leather-bag-moq-explained",

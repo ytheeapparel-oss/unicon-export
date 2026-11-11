@@ -2,14 +2,10 @@ import React from "react";
 import Link from "next/link";
 
 const MANUFACTURING_CAPABILITY_GUIDES = [
-  { label: "Best Supplier of Leather Goods", href: "/leather-goods-supplier-usa" },
-  { label: "Leather Goods Manufacturer India", href: "/leather-goods-manufacturer" },
-  { label: "Leather Goods Manufacturer Asia", href: "/leather-goods-supplier-asia" },
-  { label: "Leather Goods Supplier Europe", href: "/leather-goods-supplier-europe" },
-  { label: "USA Leather Goods Supplier Desk", href: "/en-us" },
+  { label: "Contract Leather Goods Factory", href: "/leather-goods-manufacturer" },
   { label: "Handbags & Shoulder Bags", href: "/leather-handbags-manufacturer-india" },
   { label: "Full-Line Bag Production", href: "/leather-bags-manufacturer-india" },
-  { label: "Bespoke Bag & Goods Engineering", href: "/custom-leather-goods-manufacturer" },
+  { label: "Bespoke Bag Engineering", href: "/custom-leather-goods-manufacturer" },
   { label: "Turnkey OEM/ODM Programs", href: "/oem-leather-goods-manufacturer" },
   { label: "Small Leather Goods (SLGs)", href: "/small-leather-goods-manufacturer" },
   { label: "RFID Wallets & Cardholders", href: "/leather-wallet-manufacturer-india" },
@@ -18,23 +14,19 @@ const MANUFACTURING_CAPABILITY_GUIDES = [
   { label: "50–100 Pc Trial MOQ Program", href: "/low-moq-leather-goods-manufacturer" },
   { label: "Luxury Atelier Finishing", href: "/luxury-leather-goods-manufacturer" },
   { label: "Travel & Corporate Accessories", href: "/leather-accessories-manufacturer-india" },
-  { label: "Wholesale & Volume Production", href: "/wholesale-leather-goods" },
+  { label: "Wholesale Production", href: "/wholesale-leather-goods" },
   { label: "Registered Export House Desk", href: "/leather-goods-exporter-india" },
-  { label: "European Brand Sourcing Hub", href: "/leather-goods-supplier-europe" },
-  { label: "Asia-Pacific & GCC Supply Desk", href: "/leather-goods-supplier-asia" },
-  { label: "Contract Factory Overview", href: "/leather-goods-manufacturer" },
 ];
 
 const B2B_RESOURCE_DIRECTORY = [
   {
     heading: "Global Sourcing Portals (USA & Europe)",
     links: [
-      { label: "Best Supplier of Leather Goods (USA & EU)", href: "/leather-goods-supplier-usa" },
-      { label: "Leather Goods Manufacturer in India", href: "/leather-goods-manufacturer" },
-      { label: "Leather Goods Manufacturer in Asia", href: "/leather-goods-supplier-asia" },
-      { label: "Pan-European Leather Goods Supplier", href: "/leather-goods-supplier-europe" },
       { label: "USA Direct B2B Sourcing Portal (DDP)", href: "/en-us" },
       { label: "UK & British Designer Atelier (REACH)", href: "/en-gb" },
+      { label: "Leather Goods Manufacturer in India", href: "/leather-goods-manufacturer" },
+      { label: "Asia-Pacific & GCC Supply Desk", href: "/leather-goods-supplier-asia" },
+      { label: "Pan-European Leather Goods Supplier", href: "/leather-goods-supplier-europe" },
     ],
   },
   {
@@ -60,16 +52,16 @@ const B2B_RESOURCE_DIRECTORY = [
     ],
   },
   {
-    heading: "Technical Sourcing, QC & Compliance",
+    heading: "Technical Sourcing, QC & Guides",
     links: [
-      { label: "Interactive B2B FOB Cost & MOQ Calculator", href: "/cost-calculator" },
-      { label: "Private Label & OEM Specification Matrix", href: "/private-label" },
+      { label: "B2B Leather Sourcing & Cost Guides", href: "/guides" },
+      { label: "Private Label Bag Cost Breakdown", href: "/guides/private-label-leather-bag-costs" },
+      { label: "Sampling Process & MOQ Guides", href: "/guides/leather-bag-sampling-process" },
+      { label: "Interactive B2B FOB Cost Calculator", href: "/cost-calculator" },
       { label: "Leather Quality, Grades & Gauge Guide", href: "/leather-quality-sourcing-guide" },
       { label: "India vs. China, Vietnam & Italy Matrix", href: "/leather-sourcing-india-vs-china-vietnam-italy" },
-      { label: "11-Stage Cut, Skive & Edge-Paint Process", href: "/craftsmanship" },
       { label: "Batch EU/UK REACH, Prop 65 & AQL 2.5 QC", href: "/compliance" },
       { label: "LWG Partner Tannery Traceability", href: "/sustainability" },
-      { label: "Download Catalogue & Request Swatch Kit", href: "/catalogue-request" },
     ],
   },
   {
@@ -229,7 +221,7 @@ export function KeywordTaxonomy() {
 
       {/* 3. Clean Buyer Resource & Specification Directory */}
       <div className="pt-2 border-t border-charcoal/8">
-        <details open className="group bg-white border border-charcoal/10 transition-colors">
+        <details className="group bg-white border border-charcoal/10 transition-colors">
           <summary className="cursor-pointer px-4 py-3 flex items-center justify-between text-[11px] font-mono uppercase tracking-widest text-charcoal font-semibold select-none hover:text-cognac hover:bg-[#FAF8F5] transition-colors">
             <span className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-cognac"></span>

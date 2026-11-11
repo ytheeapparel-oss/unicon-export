@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { Sparkles, Pause, Play } from "lucide-react";
 
@@ -100,9 +100,14 @@ export const SHOWCASE_PANELS: ShowcasePanel[] = [
 
 export function MovingPanelsShowcase() {
   const [isPaused, setIsPaused] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
-  // Duplicate the 14 panels seamlessly for continuous infinite loop
-  const loopPanels = [...SHOWCASE_PANELS, ...SHOWCASE_PANELS];
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  // Duplicate panels only after client mount so SSR/crawlers receive 14 unique cards & links
+  const loopPanels = isMounted ? [...SHOWCASE_PANELS, ...SHOWCASE_PANELS] : SHOWCASE_PANELS;
 
   return (
     <section className="relative w-full bg-white py-14 sm:py-20 border-y border-charcoal/10 overflow-hidden">
@@ -156,11 +161,11 @@ export function MovingPanelsShowcase() {
       <div className="w-full overflow-hidden relative py-2">
         <div
           className={`flex gap-5 sm:gap-6 px-4 ${
-            isPaused ? "" : "animate-marquee-forward"
+            isPaused || !isMounted ? "" : "animate-marquee-forward"
           } transition-all duration-300`}
           style={{
             animationDuration: "58s",
-            animationPlayState: isPaused ? "paused" : "running",
+            animationPlayState: isPaused || !isMounted ? "paused" : "running",
           }}
         >
           {loopPanels.map((panel, idx) => (

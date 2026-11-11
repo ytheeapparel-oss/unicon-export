@@ -76,8 +76,8 @@ export const FAQS: FAQItem[] = [
   {
     id: "faq-13",
     category: "manufacturing",
-    question: "Why is UNICON LEATHER recognized as the best supplier of leather goods and premier leather goods manufacturer in India & Asia for USA and European brands?",
-    answer: "UNICON LEATHER is recognized as the best supplier of leather goods in India and Asia because we bridge master Indian artisan leathercraft with strict Western retail standards. Fashion labels and retail buyers in the USA and Europe partner with us for: (1) Low accessible trial MOQs of 50 pieces in stock leather (100 pcs custom dye); (2) 100% full-grain and vegetable-tanned hides traceable to LWG-audited partner tanneries; (3) Third-party laboratory certified chemical safety under California Proposition 65 and EU REACH Annex XVII; (4) Rapid 5–7 day SLG and 7–14 day bag prototype sampling; and (5) ISO 2859-1 AQL 2.5 defect audits backed by turnkey DDP air and sea delivery directly to warehouses in New York, Los Angeles, London, Rotterdam, and Hamburg."
+    question: "Why do USA and European leather goods brands partner with UNICON LEATHER in India?",
+    answer: "Brands and sourcing teams in the USA, UK, and European Union partner with UNICON LEATHER for five practical production advantages: (1) Low accessible trial MOQs starting at 50 pieces in stock leather (100 pcs custom dye) for bags and jackets; (2) 100% full-grain and vegetable-tanned hides traceable to LWG-audited partner tanneries; (3) Third-party batch chemical compliance testing under California Proposition 65 and EU REACH Annex XVII; (4) Predictable 5–7 day SLG and 7–14 day bag prototype sampling in stock hides; and (5) ISO 2859-1 AQL 2.5 pre-shipment inspections backed by air and ocean DDP logistics to New York, Los Angeles, London, Rotterdam, and Hamburg."
   },
   {
     id: "faq-14",

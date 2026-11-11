@@ -3,8 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JsonLdScript, generateBreadcrumbSchema } from "@/components/seo/JsonLdScript";
 
-type Guide = { slug: string; title: string; metaTitle: string; description: string; intro: string; sections: { heading: string; paragraphs: string[]; items?: string[] }[] };
-const GUIDES: Guide[] = [
+export type Guide = { slug: string; title: string; metaTitle: string; description: string; intro: string; sections: { heading: string; paragraphs: string[]; items?: string[] }[] };
+export const GUIDES: Guide[] = [
   {
     "slug": "private-label-leather-bag-costs",
     "title": "Private Label Leather Bag Costs: What Goes Into Your Quote",
@@ -222,7 +222,7 @@ export default function SourcingGuidePage({ params }: { params: { slug: string }
   const url = `${BASE}/guides/${guide.slug}`;
   const breadcrumb = generateBreadcrumbSchema([
     { name: "Home", url: BASE },
-    { name: "Private Label & OEM", url: `${BASE}/private-label` },
+    { name: "Sourcing Guides", url: `${BASE}/guides` },
     { name: guide.title, url },
   ]);
   const article = {
@@ -239,7 +239,7 @@ export default function SourcingGuidePage({ params }: { params: { slug: string }
       <header className="bg-[#FAF8F5] border-b border-charcoal/10">
         <div className="max-w-5xl mx-auto px-6 sm:px-10 py-12 sm:py-16 space-y-5">
           <nav aria-label="Breadcrumbs" className="text-sm text-charcoal-600">
-            <Link href="/" className="underline">Home</Link> / <Link href="/private-label" className="underline">Private Label &amp; OEM</Link> / Sourcing Guide
+            <Link href="/" className="underline">Home</Link> / <Link href="/guides" className="underline">Sourcing Guides</Link> / {guide.title}
           </nav>
           <p className="font-mono text-xs uppercase tracking-widest text-cognac">Unicon Leather · Buyer Sourcing Guide</p>
           <h1 className="font-serif text-3xl sm:text-5xl leading-tight">{guide.title}</h1>
