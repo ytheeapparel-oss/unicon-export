@@ -31,13 +31,14 @@ export const metadata: Metadata = {
   description:
     "Comprehensive B2B comparison of leather bag, jacket & wallet manufacturing across India, China, Vietnam, and Italy/Turkey. Compare US/EU/AU tariffs, LWG raw hide access, MOQs (50 vs 500 pcs), FOB costs, and REACH compliance.",
   keywords: [
+    "China plus one leather goods manufacturing",
     "leather goods manufacturer India vs China",
-    "best country to manufacture leather bags",
     "leather bag manufacturing India vs Vietnam",
-    "Italian vs Indian leather bag manufacturer",
-    "China plus one leather goods sourcing",
-    "low MOQ leather manufacturer comparison",
-    "tariff free leather bag manufacturing ECTA CEPA",
+    "Italian vs Indian leather handbag factory",
+    "India Australia ECTA 0 duty leather sourcing",
+    "India UAE CEPA duty free leather manufacturing",
+    "low MOQ 50 pcs leather factory comparison",
+    "FOB cost India vs China leather handbags",
   ],
   alternates: {
     canonical: CANONICAL_URL,

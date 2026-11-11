@@ -1,5 +1,4 @@
 import React from "react";
-import { ALL_SEO_KEYWORDS, SEO_KEYWORD_CLUSTERS } from "@/data/keywords";
 
 interface JsonLdScriptProps {
   schema: Record<string, any>;

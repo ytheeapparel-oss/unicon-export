@@ -48,18 +48,17 @@ export const metadata: Metadata = {
     images: ["https://www.uniconleather.com/images/sustainability-hero.png"],
   },
   keywords: [
-    "sustainable leather accessories manufacturer",
-    "ethical leather goods manufacturing",
-    "responsibly sourced leather products",
-    "vegetable tanned leather accessories",
-    "traceable leather sourcing",
-    "leather from LWG-audited partner tanneries",
-    "sustainable leather manufacturer India",
+    "EUDR compliant leather goods manufacturer",
+    "LWG audited partner tannery leather bags",
+    "EU REACH Annex XVII leather compliance",
+    "California Prop 65 tested leather goods",
     "vegetable tanned leather bag manufacturer",
-    "chrome-free tanned leather goods",
-    "REACH compliant leather goods India",
-    "zero waste leather cutting optimization",
-    "eco friendly leather packaging"
+    "chrome free tanned leather goods India",
+    "traceable leather hide sourcing B2B",
+    "SEDEX SMETA open audit policy factory",
+    "CAD nesting zero waste leather cutting",
+    "plastic free compostable leather packaging",
+    "sustainable genuine leather manufacturer India"
   ],
 };
 

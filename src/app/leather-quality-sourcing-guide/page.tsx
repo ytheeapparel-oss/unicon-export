@@ -50,14 +50,15 @@ export const metadata: Metadata = {
     ],
   },
   keywords: [
-    "leather quality and sourcing guide for brands",
-    "how to distinguish full-grain from top-grain leather",
-    "sustainable leather tanning standards LWG",
+    "leather quality and sourcing guide B2B",
+    "full grain vs top grain leather guide",
+    "LWG Gold Silver partner tannery standards",
     "vegetable tanned vs chrome tanned leather B2B",
-    "leather thickness chart handbags jackets wallets",
-    "EU REACH Annex XVII leather compliance",
-    "AQL 2.5 leather inspection standard",
-    "custom leather goods manufacturer India",
+    "leather thickness oz mm chart handbags wallets",
+    "EUDR traceable hide compliance guide",
+    "EU REACH Annex XVII California Prop 65 leather",
+    "ISO 2859-1 AQL 2.5 leather inspection standard",
+    "0.4mm skiving and edge paint QC standards",
   ],
 };
 

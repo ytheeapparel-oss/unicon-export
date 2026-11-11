@@ -44,16 +44,16 @@ export const metadata: Metadata = {
     images: ["https://www.uniconleather.com/images/craftsmanship-hero.jpg"],
   },
   keywords: [
-    "traceable leather sourcing",
-    "leather from LWG-certified tanneries",
-    "vegetable tanned leather accessories",
-    "ethical leather goods manufacturing",
-    "responsibly sourced leather products",
-    "craftsmanship",
-    "leather manufacturing process",
-    "leather skiving",
-    "italian edge paint",
-    "AQL 2.5 inspection"
+    "leather bag craftsmanship India",
+    "0.4mm Fortuna leather skiving",
+    "Italian edge painting leather goods",
+    "turned edge luxury wallet construction",
+    "LWG partner tannery leather sourcing",
+    "traceable full grain hide grading",
+    "vegetable tanned leather craftsmanship",
+    "ISO 2859-1 AQL 2.5 leather inspection",
+    "solid brass hardware leather bags",
+    "CAD pattern making leather prototyping"
   ],
 };
 

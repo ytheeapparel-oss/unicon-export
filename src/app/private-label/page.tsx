@@ -62,20 +62,16 @@ export const metadata: Metadata = {
   },
   keywords: [
     "private label leather goods manufacturer",
-    "genuine leather goods manufacturer",
-    "bespoke leather manufacturer",
-    "custom leather goods manufacturer",
-    "private label leather bags manufacturer",
-    "oem leather wallet factory",
-    "bespoke leather accessories supplier",
-    "contract leather goods manufacturing",
-    "custom leather bags manufacturer",
-    "private label leather tote bags",
-    "oem leather backpacks factory",
-    "custom leather small goods manufacturer",
-    "contract leather manufacturing",
-    "leather goods manufacturer USA",
-    "leather goods manufacturer Europe"
+    "private label leather handbags OEM India",
+    "low MOQ private label leather bags 50 pcs",
+    "custom branded RFID leather wallets OEM",
+    "7 day custom leather sample prototyping",
+    "white label full grain leather tote bags",
+    "custom logo blind debossing leather goods",
+    "private label calf suede hobo bag factory",
+    "OEM leather backpacks and duffels India",
+    "SEDEX SMETA audit ready private label factory",
+    "private label leather bags USA UK Europe"
   ],
 };
 
