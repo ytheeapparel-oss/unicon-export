@@ -9,7 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
         disallow: [
           "/api/",
-          "/_next/",
           "/admin/",
           "/client-techpacks/",
           "/internal-specs/",
@@ -33,7 +32,7 @@ export default function robots(): MetadataRoute.Robots {
           "Slurp",
         ],
         allow: "/",
-        disallow: ["/api/", "/_next/", "/admin/"],
+        disallow: ["/api/", "/admin/"],
       },
       // 3. User-Triggered AI Retrieval Agents (real-time citations when a user prompts an AI assistant)
       {
@@ -47,7 +46,7 @@ export default function robots(): MetadataRoute.Robots {
           "Pinterestbot",
         ],
         allow: "/",
-        disallow: ["/api/", "/_next/", "/admin/"],
+        disallow: ["/api/", "/admin/"],
       },
       // 4. Foundation Model Training Crawlers (separated from search/retrieval so policy can be managed independently)
       {
@@ -59,7 +58,7 @@ export default function robots(): MetadataRoute.Robots {
           "CCBot",
         ],
         allow: "/",
-        disallow: ["/api/", "/_next/", "/admin/"],
+        disallow: ["/api/", "/admin/"],
       },
     ],
     sitemap: "https://www.uniconleather.com/sitemap.xml",

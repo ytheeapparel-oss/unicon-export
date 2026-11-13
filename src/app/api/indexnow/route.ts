@@ -41,6 +41,9 @@ const STATIC_PATHS = [
   "/guides/private-label-leather-bag-costs",
   "/guides/leather-bag-sampling-process",
   "/guides/leather-bag-moq-explained",
+  "/privacy-policy",
+  "/terms",
+  "/cookie-policy",
 ];
 
 export async function GET() {
