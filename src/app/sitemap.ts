@@ -22,7 +22,7 @@ const CONSOLIDATED_EXPORT_HUB_KEYS = new Set([
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.uniconleather.com";
-  const lastModifiedDate = new Date("2026-11-11T00:00:00.000Z");
+  const lastModifiedDate = new Date("2026-11-23T00:00:00.000Z");
 
   const internationalHreflang = {
     "en": `${baseUrl}`,
@@ -153,8 +153,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  // Product buying information and guides updated on 11 November 2026.
-  const buyerContentUpdated = new Date("2026-11-11T00:00:00.000Z");
+  // Product buying information and guides updated on 23 November 2026.
+  const buyerContentUpdated = new Date("2026-11-23T00:00:00.000Z");
   const guideRoutes: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/guides`,

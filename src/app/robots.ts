@@ -61,6 +61,9 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/admin/"],
       },
     ],
-    sitemap: "https://www.uniconleather.com/sitemap.xml",
+    sitemap: [
+      "https://www.uniconleather.com/sitemap.xml",
+      "https://www.uniconleather.com/sitemap_index.xml",
+    ],
   };
 }

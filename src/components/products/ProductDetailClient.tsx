@@ -367,7 +367,7 @@ Direct Inquiry: uniconexport@gmail.com | Website: https://www.uniconleather.com/
       </section>
 
       {/* Pre-filled Product RFQ Form */}
-      <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16" id="inquire-now">
+      <section className="w-full max-w-[1680px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 scroll-mt-24 sm:scroll-mt-28" id="inquire-now">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           <div className="lg:col-span-5 space-y-6">
             <Badge variant="cognac" size="sm">

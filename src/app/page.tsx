@@ -49,6 +49,9 @@ import {
 import { generateB2BProductSpecsSchema } from "@/components/seo/B2BManufacturingSpecs";
 
 export const metadata: Metadata = {
+  title: "UNICON LEATHER | Custom Leather Goods & Bags Manufacturer India",
+  description:
+    "OEM & private-label leather goods manufacturer in India for US, UK & EU brands. Handbags, wallets, belts & jackets, 50-pc trial MOQ, LWG hides, REACH & Prop 65.",
   alternates: {
     canonical: "https://www.uniconleather.com",
     languages: {
@@ -68,6 +71,30 @@ export const metadata: Metadata = {
       "ko-KR": "https://www.uniconleather.com/ko",
       "x-default": "https://www.uniconleather.com",
     },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://www.uniconleather.com",
+    siteName: "UNICON LEATHER",
+    title: "UNICON LEATHER | Custom Leather Goods & Bags Manufacturer India",
+    description:
+      "Direct cut-and-sew OEM/ODM leather goods manufacturer in India for US, UK & European brands. Handbags, RFID wallets, belts & jackets crafted from LWG-audited partner hides.",
+    images: [
+      {
+        url: "https://www.uniconleather.com/images/home-hero-leather.jpg",
+        width: 1200,
+        height: 630,
+        alt: "UNICON LEATHER Master Atelier & Export Manufacturing",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UNICON LEATHER | Global Leather Goods Manufacturer & Exporter",
+    description:
+      "B2B custom manufacturing, OEM/ODM private label, and wholesale export of handcrafted genuine leather goods for global fashion brands.",
+    images: ["https://www.uniconleather.com/images/home-hero-leather.jpg"],
   },
 };
 
@@ -1510,7 +1537,7 @@ export default function HomePage() {
       </section>
 
       {/* 8. PRIMARY CONVERSION INQUIRY SECTION */}
-      <section className="w-full bg-white px-6 sm:px-10 lg:px-14 xl:px-16" id="inquiry">
+      <section className="w-full bg-white px-6 sm:px-10 lg:px-14 xl:px-16 scroll-mt-24 sm:scroll-mt-28" id="inquiry">
         {/* Fast-Track Tech Pack SLA Workflow */}
         <TechPackWorkflow className="mb-14" />
 

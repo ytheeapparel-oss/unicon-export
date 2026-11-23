@@ -30,8 +30,8 @@ export function Hero() {
           loading="eager"
         />
         {/* Soft, Clean Luxury Ivory Scrim for High-Contrast Accessible Readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#FAF8F5]/98 via-[#FAF8F5]/94 to-[#FAF8F5]/45 sm:from-[#FAF8F5]/98 sm:via-[#FAF8F5]/88 sm:to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#FAF8F5] via-transparent to-transparent opacity-90 h-32 bottom-0 top-auto" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#FAF8F5]/98 via-[#FAF8F5]/95 to-[#FAF8F5]/60 sm:from-[#FAF8F5]/98 sm:via-[#FAF8F5]/92 sm:to-[#FAF8F5]/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#FAF8F5] via-[#FAF8F5]/60 to-transparent opacity-90 h-36 bottom-0 top-auto" />
       </div>
 
       {/* 2. Full Width Content Overlay */}
@@ -55,7 +55,7 @@ export function Hero() {
           </h1>
 
           {/* Buyer-Focused Editorial Lead + Answer-First B2B Summary */}
-          <div className="space-y-3 max-w-2xl bg-white/80 sm:bg-transparent backdrop-blur-xs sm:backdrop-blur-none p-3 sm:p-0 rounded-xs">
+          <div className="space-y-3 max-w-2xl bg-[#FAF8F5]/90 sm:bg-[#FAF8F5]/80 backdrop-blur-xs p-4 sm:p-5 border border-charcoal/10 shadow-xs rounded-none">
             <p className="text-sm sm:text-base lg:text-[17px] text-charcoal-900 leading-relaxed font-normal">
               Discuss your collection with <strong>Unicon Leather</strong>—from material selection and sampling to custom branding and export planning. Share your design, quantity, and destination to request a project-specific quotation.
             </p>

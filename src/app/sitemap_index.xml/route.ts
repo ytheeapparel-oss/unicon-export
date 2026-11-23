@@ -7,7 +7,11 @@ export async function GET() {
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.uniconleather.com/sitemap.xml</loc>
-    <lastmod>2026-11-11T00:00:00.000Z</lastmod>
+    <lastmod>2026-11-23T00:00:00.000Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.uniconleather.com/pages-sitemap.xml</loc>
+    <lastmod>2026-11-23T00:00:00.000Z</lastmod>
   </sitemap>
 </sitemapindex>`;
 

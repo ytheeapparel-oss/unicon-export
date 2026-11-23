@@ -593,7 +593,8 @@ export function InternationalHubPage({ market }: InternationalHubPageProps) {
   // 3. Localized Manufacturer Schema
   const manufacturerSchema = {
     "@context": "https://schema.org",
-    "@type": ["Organization", "Manufacturer"],
+    "@type": ["Organization", "LocalBusiness"],
+    additionalType: "https://en.wikipedia.org/wiki/Original_equipment_manufacturer",
     name: `UNICON LEATHER — ${market.countryName} Export Desk`,
     legalName: COMPANY_INFO.legalName,
     url: canonicalUrl,

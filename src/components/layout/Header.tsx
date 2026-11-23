@@ -275,7 +275,7 @@ export function Header() {
               href="/catalogue-request"
               variant="outline"
               size="sm"
-              className="hidden lg:inline-flex text-[10.5px] uppercase tracking-wider font-semibold py-2 px-3.5 border-charcoal/20 text-charcoal hover:border-charcoal hover:bg-charcoal hover:text-white"
+              className="hidden lg:inline-flex text-[10.5px] uppercase tracking-wider font-semibold py-2 px-3.5 border-charcoal/20 text-charcoal hover:border-charcoal hover:bg-charcoal hover:text-white whitespace-nowrap shrink-0"
             >
               <FileText className="w-3 h-3" />
               Download Catalogue
@@ -284,7 +284,7 @@ export function Header() {
               href="/contact"
               variant="primary"
               size="sm"
-              className="text-[10.5px] uppercase tracking-wider font-semibold py-2 px-4 shadow-xs hover:shadow-md"
+              className="text-[10.5px] uppercase tracking-wider font-semibold py-2 px-4 shadow-xs hover:shadow-md whitespace-nowrap shrink-0"
             >
               <Send className="w-3 h-3" />
               Bulk Inquiry

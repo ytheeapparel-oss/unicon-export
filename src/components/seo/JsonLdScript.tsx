@@ -52,7 +52,8 @@ export function generateWebSiteSchema() {
 export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": ["Organization", "Manufacturer"],
+    "@type": ["Organization", "LocalBusiness"],
+    "additionalType": "https://en.wikipedia.org/wiki/Original_equipment_manufacturer",
     "@id": "https://www.uniconleather.com/#organization",
     name: "UNICON LEATHER",
     alternateName: [
@@ -96,7 +97,8 @@ export function generateOrganizationSchema() {
     },
     department: [
       {
-        "@type": ["LocalBusiness", "Manufacturer"],
+        "@type": "LocalBusiness",
+        "additionalType": "https://en.wikipedia.org/wiki/Original_equipment_manufacturer",
         "@id": "https://www.uniconleather.com/#noida-office",
         name: "UNICON LEATHER — Delhi NCR Corporate & Sourcing Office",
         alternateName: "unicon leather",
@@ -129,7 +131,8 @@ export function generateOrganizationSchema() {
         ],
       },
       {
-        "@type": ["LocalBusiness", "Manufacturer"],
+        "@type": "LocalBusiness",
+        "additionalType": "https://en.wikipedia.org/wiki/Manufacturing",
         "@id": "https://www.uniconleather.com/#kolkata-factory",
         name: "UNICON LEATHER — Manufacturing Atelier & Export Facility",
         url: "https://www.uniconleather.com/contact",

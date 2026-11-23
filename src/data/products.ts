@@ -11,7 +11,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: "Engineered for contemporary fashion labels, boutique lifestyle retailers, and executive accessory collections requiring structural permanence and authentic patina aging. Handcrafted from 1.8–2.0mm drum-dyed full-grain oil pull-up cowhide sourced from LWG-audited partner tanneries. Infused with natural waxes and oils during tanning, the hide develops a warm two-tone amber patina along stress points. Every seam is lock-stitched at 6–7 SPI using high-tenacity bonded nylon thread (Tex 70 / Metric 40), with double-reinforced handle anchors rated for daily laptop carry up to 10 kg. Fully customizable per client tech pack in leather grain, dimensions, lining, and hardware finish.",
     images: [
       "/images/flagship-tote-bag.jpg",
-      "/images/panel-7-tote.jpg"
+      "/images/craftsmanship-cognac-tote.png"
     ],
     leatherType: "Full-Grain Oil Pull-Up Cowhide (1.8mm – 2.0mm)",
     tannage: "LWG Partner Tannery Audited Vegetable / Chrome-Free Retanned",
