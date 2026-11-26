@@ -86,6 +86,16 @@ const nextConfig = {
         destination: '/export',
         permanent: true,
       },
+      {
+        source: '/sitemap',
+        destination: '/sitemap.xml',
+        permanent: true,
+      },
+      {
+        source: '/sitemaps.xml',
+        destination: '/sitemap.xml',
+        permanent: true,
+      },
       // 301 Redirects for Corrected Product Slugs (Fixing Legacy Slug / Product Name Mismatches)
       {
         source: '/products/grand-tour-leather-duffel-weekender',
